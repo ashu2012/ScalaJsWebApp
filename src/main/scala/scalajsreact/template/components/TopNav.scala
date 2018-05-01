@@ -48,7 +48,7 @@ object TopNav {
   implicit val currentPageReuse = Reusability.by_==[AppPage]
   implicit val propsReuse = Reusability.by((_: Props).selectedPage)
 
-  /*
+  
   val component = ScalaComponent
     .builder[Props]("TopNav")
     .render_P { P =>
@@ -71,8 +71,11 @@ object TopNav {
     .configure(Reusability.shouldComponentUpdate)
     .build
 
-  */
+  
 
+  //TODO to add Material Ui component
+  //below for frontEnd Layout
+/*
   val component = ScalaComponent
     .builder[Props]("TopNav")
     .render { _ =>
@@ -85,7 +88,7 @@ object TopNav {
             onTitleClick = CallbackDebug.f1("onTitleClick"),
             showMenuIconButton = true
           )()
-/*
+
           MuiTabs()(
             MuiTab(key = "tab1", label = js.defined("Flat Buttons"))(
               <.div(
@@ -134,12 +137,12 @@ object TopNav {
               )
             )
           )
-          */
+          
         )
       
     }
     .build
-
+*/
 
 
 

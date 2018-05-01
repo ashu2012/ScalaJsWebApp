@@ -10,6 +10,7 @@ object Footer {
       <.footer(
         ^.textAlign.center,
         <.div(^.borderBottom := "1px solid grey", ^.padding := "0px"),
+        <.p("copyright message and privacy policy"),
         <.p(^.paddingTop := "5px", "Footer")
       )
     )

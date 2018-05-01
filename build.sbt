@@ -14,10 +14,15 @@ val scalaJSReactVersion = "1.0.1"
 val scalaCssVersion = "0.5.3-RC1"
 val reactJSVersion = "15.5.4"
 
+resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
+
+
 libraryDependencies ++= Seq(
 	 "org.scala-js" %%% "scalajs-dom" % "0.9.2",
 	"com.olvind" %%% "scalajs-react-components" % "1.0.+",
-  "com.github.japgolly.scalajs-react" %%% "core" % scalaJSReactVersion,
+  "com.lihaoyi" %%% "scalatags" % "0.6.7",
+  "io.surfkit" %%% "scalajs-google-maps" % "0.0.3-SNAPSHOT",
+"com.github.japgolly.scalajs-react" %%% "core" % scalaJSReactVersion,
   "com.github.japgolly.scalajs-react" %%% "extra" % scalaJSReactVersion,
   "com.github.japgolly.scalacss" %%% "core" % scalaCssVersion,
   "com.github.japgolly.scalacss" %%% "ext-react" % scalaCssVersion
