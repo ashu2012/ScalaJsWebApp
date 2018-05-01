@@ -1,0 +1,1 @@
+require("/home/ashutosh/Development/AndroidApp/js/scalajs-react-template-opt.js")["scalajsreact"]["template"]["ReactApp"]().main()
