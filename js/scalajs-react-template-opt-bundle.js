@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 184);
+/******/ 	return __webpack_require__(__webpack_require__.s = 185);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -9636,7 +9636,7 @@ var $linkingInfo = {
 
   "assumingES6": false,
 
-  "linkerVersion": "0.6.17",
+  "linkerVersion": "0.6.22",
   "globalThis": this
 };
 $g["Object"]["freeze"]($linkingInfo);
@@ -22302,8 +22302,8 @@ $c_Lscalajsreact_template_components_items_Item1Data$.prototype.init___ = (funct
   $n_Lscalajsreact_template_components_items_Item1Data$ = this;
   var jsx$1 = $m_Ljapgolly_scalajs_react_package$().ScalaComponent$1.builder$1;
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var a = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("This is Item1 Page "))]));
-  this.component$1 = jsx$1.$static__T__Ljapgolly_scalajs_react_vdom_VdomElement__Ljapgolly_scalajs_react_component_builder_Builder$Step4("Item1", a.render__Ljapgolly_scalajs_react_vdom_VdomElement()).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
+  var a = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("TODO add paytm add credits "))]));
+  this.component$1 = jsx$1.$static__T__Ljapgolly_scalajs_react_vdom_VdomElement__Ljapgolly_scalajs_react_component_builder_Builder$Step4("User credits/wallet", a.render__Ljapgolly_scalajs_react_vdom_VdomElement()).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
   return this
 });
 $c_Lscalajsreact_template_components_items_Item1Data$.prototype.apply__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
@@ -22340,8 +22340,8 @@ $c_Lscalajsreact_template_components_items_Item2Data$.prototype.init___ = (funct
   $n_Lscalajsreact_template_components_items_Item2Data$ = this;
   var jsx$1 = $m_Ljapgolly_scalajs_react_package$().ScalaComponent$1.builder$1;
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var a = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("This is Item2 Page "))]));
-  this.component$1 = jsx$1.$static__T__Ljapgolly_scalajs_react_vdom_VdomElement__Ljapgolly_scalajs_react_component_builder_Builder$Step4("Item2", a.render__Ljapgolly_scalajs_react_vdom_VdomElement()).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
+  var a = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Loading Past orders "))]));
+  this.component$1 = jsx$1.$static__T__Ljapgolly_scalajs_react_vdom_VdomElement__Ljapgolly_scalajs_react_component_builder_Builder$Step4("Past Orders", a.render__Ljapgolly_scalajs_react_vdom_VdomElement()).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
   return this
 });
 $c_Lscalajsreact_template_components_items_Item2Data$.prototype.apply__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
@@ -22378,8 +22378,8 @@ $c_Lscalajsreact_template_components_items_ItemsInfo$.prototype.init___ = (funct
   $n_Lscalajsreact_template_components_items_ItemsInfo$ = this;
   var jsx$1 = $m_Ljapgolly_scalajs_react_package$().ScalaComponent$1.builder$1;
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var a = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(" Items Root Page  "))]));
-  this.component$1 = jsx$1.$static__T__Ljapgolly_scalajs_react_vdom_VdomElement__Ljapgolly_scalajs_react_component_builder_Builder$Step4("ItemsInfo", a.render__Ljapgolly_scalajs_react_vdom_VdomElement()).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
+  var a = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$().apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), "div"), new $c_sjs_js_WrappedArray().init___sjs_js_Array([($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(" See your profile , TODO show default profile pic and user accounts details  "))]));
+  this.component$1 = jsx$1.$static__T__Ljapgolly_scalajs_react_vdom_VdomElement__Ljapgolly_scalajs_react_component_builder_Builder$Step4("Profile", a.render__Ljapgolly_scalajs_react_vdom_VdomElement()).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
   return this
 });
 $c_Lscalajsreact_template_components_items_ItemsInfo$.prototype.apply__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
@@ -58802,7 +58802,7 @@ $e.scalajsreact.template.ReactApp = $m_Lscalajsreact_template_ReactApp$;
 $m_Lscalajsreact_template_ReactApp$().main__V();
 //# sourceMappingURL=scalajs-react-template-opt.js.map
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(185)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(184)))
 
 /***/ }),
 /* 82 */
@@ -71299,12 +71299,6 @@ module.exports = __webpack_require__(17);
 
 /***/ }),
 /* 184 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(81)["scalajsreact"]["template"]["ReactApp"]().main()
-
-/***/ }),
-/* 185 */
 /***/ (function(module, exports) {
 
 var g;
@@ -71328,6 +71322,13 @@ try {
 // easier to handle this case. if(!global) { ...}
 
 module.exports = g;
+
+
+/***/ }),
+/* 185 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(81);
 
 
 /***/ })

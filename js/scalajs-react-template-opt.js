@@ -82,7 +82,7 @@ var $linkingInfo = {
 
   "assumingES6": false,
 
-  "linkerVersion": "0.6.17",
+  "linkerVersion": "0.6.22",
   "globalThis": this
 };
 $g["Object"]["freeze"]($linkingInfo);
