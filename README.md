@@ -28,6 +28,36 @@ b. Note http://127.0.0.1:12345/ will not work only above one will work
 4.Below are for material UI and google components
 scalajs project we can add nodejs dependencies and build them
 
+
+
+ashutosh@atp:~/Development/AndroidApp$ sbt webpack::version
+[info] Loading global plugins from /home/ashutosh/.sbt/0.13/plugins
+[info] Loading project definition from /home/ashutosh/Development/AndroidApp/project
+[info] Set current project to scalajs-react-template (in build file:/home/ashutosh/Development/AndroidApp/)
+[info] 2.6.1
+ashutosh@atp:~/Development/AndroidApp$ npm version
+{ npm: '6.0.0',
+  ares: '1.10.1-DEV',
+  http_parser: '2.8.0',
+  icu: '58.2',
+  modules: '48',
+  node: '6.14.1',
+  openssl: '1.0.2o',
+  uv: '1.16.1',
+  v8: '5.1.281.111',
+  zlib: '1.2.11' }
+
+┌────────────────────────────────────────────────────────────┐
+│                  npm update check failed                   │
+│            Try running with sudo or get access             │
+│            to the local update config store via            │
+│ sudo chown -R $USER:$(id -gn $USER) /home/ashutosh/.config │
+└────────────────────────────────────────────────────────────┘
+
+
+
+
+
 nodejs minimum =6
 Realted package installation
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
