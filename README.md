@@ -6,23 +6,23 @@ Basic skeleton app for scalajs-react and scalacss
 ### Launch this project:
 
 1. clone the project
-run below command from root of project folder
-1.b sbt clean fastOptJS::webpack
-1.c above command creats a target /AndroidApp/target/scala-2.12/scalajs-bundler/main
+a run below command from root of project folder
+b sbt clean fastOptJS::webpack
+c above command creats a target /AndroidApp/target/scala-2.12/scalajs-bundler/main
  copy above buindel and launcher.js files in to root project folder under js folder
-
+d sudo npm install -g webpack@
 
 
 
 2. In the project directory run:
-2.a  in root project loaction edit index.html file with notepad and edit js script tags to
-2.b`sbt ~fastOptJS`
+a  in root project loaction edit index.html file with notepad and edit js script tags to
+b`sbt ~fastOptJS`
 
 
 
 3. On your browser go to:
-http://localhost:12345/index.html
-Note http://127.0.0.1:12345/ will not work only above one will work
+a. http://localhost:12345/index.html
+b. Note http://127.0.0.1:12345/ will not work only above one will work
 
 
 4.Below are for material UI and google components
