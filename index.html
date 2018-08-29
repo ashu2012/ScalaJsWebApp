@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Scalajs-react-template</title>
     <!-- Include JavaScript dependencies -->
-    <script type="text/javascript" src="js/scalajs-react-template-jsdeps.js"></script>
+   
      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEe_FE9lwyio6IB7bUXoR8kpjsPJM7g-k"></script>
 
 </head>
@@ -14,13 +14,14 @@
 
 <!-- Include Scala.js compiled code -->
 
-<!--
+
 <script type="text/javascript" src="js/scalajs-react-template-opt.js"></script>
 
--->
-<script type="text/javascript" src="js/scalajs-react-template-opt-bundle.js"></script>
-<script type="text/javascript" src="js/fastopt-launcher.js"></script>
 
+
+<script type="text/javascript">
+require("/home/ashutosh/Development/AndroidApp/js/scalajs-react-template-opt.js")["scalajsreact"]["template"]["ReactApp"]().main()
+</script>
 <!-- Run JSApp -->
 
 </body>

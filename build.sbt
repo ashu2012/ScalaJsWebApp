@@ -25,7 +25,9 @@ libraryDependencies ++= Seq(
 "com.github.japgolly.scalajs-react" %%% "core" % scalaJSReactVersion,
   "com.github.japgolly.scalajs-react" %%% "extra" % scalaJSReactVersion,
   "com.github.japgolly.scalacss" %%% "core" % scalaCssVersion,
-  "com.github.japgolly.scalacss" %%% "ext-react" % scalaCssVersion
+  "com.github.japgolly.scalacss" %%% "ext-react" % scalaCssVersion,
+ "org.webjars.npm" % "loose-envify" % "1.1.0",
+  "org.webjars.npm" % "js-tokens" % "4.0.0"
 )
 
 // React itself
