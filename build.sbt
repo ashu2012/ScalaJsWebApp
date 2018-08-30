@@ -105,7 +105,9 @@ lazy val bundlerSettings =
 
 // creates single js resource file for easy integration in html page
 skip in packageJSDependencies := false
+persistLauncher in Test := false
 
+requiresDOM in Test := true
 // copy  javascript files to js folder,that are generated using fastOptJS/fullOptJS
 
 crossTarget in (Compile, fullOptJS) := file("js")
