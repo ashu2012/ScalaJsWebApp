@@ -30,6 +30,12 @@ scalajs project we can add nodejs dependencies and build them
 
 
 ```
+
+if facing issue with npm 6.0.0, update it using below:-
+sudo npm i npm@next -g
+
+
+
 ashutosh@atp:~/Development/AndroidApp$ sbt webpack::version
 [info] Loading global plugins from /home/ashutosh/.sbt/0.13/plugins
 [info] Loading project definition from /home/ashutosh/Development/AndroidApp/project
@@ -120,4 +126,50 @@ cd AwesomeProject
 npm start
 
 This will start a development server for you.
+```
+
+
+```
+Running your app on a simulator or virtual device
+
+Create React Native App makes it really easy to run your React Native app on a physical device without setting up a development environment. If you want to run your app on the iOS Simulator or an Android Virtual Device, please refer to the instructions for building projects with native code to learn how to install Xcode and set up your Android development environment.
+
+Once you've set these up, you can launch your app on an Android Virtual Device by running npm run android, or on the iOS Simulator by running npm run ios (macOS only).
+```
+
+
+```
+Success! Created AwesomeProject at /home/ashutosh/Development/AwesomeProject
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server so you can open your app in the Expo
+    app on your phone.
+
+  npm run ios
+    (Mac only, requires Xcode)
+    Starts the development server and loads your app in an iOS simulator.
+
+  npm run android
+    (Requires Android build tools)
+    Starts the development server and loads your app on a connected Android
+    device or emulator.
+
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+
+We suggest that you begin by typing:
+
+  cd AwesomeProject
+  npm start
+
+Happy hacking!
+
+
 ```
