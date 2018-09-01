@@ -29,7 +29,7 @@ b. Note http://127.0.0.1:12345/ will not work only above one will work
 scalajs project we can add nodejs dependencies and build them
 
 
-
+```
 ashutosh@atp:~/Development/AndroidApp$ sbt webpack::version
 [info] Loading global plugins from /home/ashutosh/.sbt/0.13/plugins
 [info] Loading project definition from /home/ashutosh/Development/AndroidApp/project
@@ -86,3 +86,38 @@ echo "Installing driver"
 #sudo selenium-standalone install --drivers.chrome.version=2.29 --drivers.chrome.baseURL=https://chromedriver.storage.googleapis.com
 
 #selenium-standalone start install -y nodejs
+```
+
+How to setup for react android app after generating bundle js
+
+```
+To get set up with the basic project structure for a native module we will use a third party tool react-native-create-library. You can go ahead further and dive deep into how that library works, for our needs we will just need:
+
+$ npm install -g react-native-create-library
+$ react-native-create-library MyLibrary
+
+Where MyLibrary is the name you would like for the new module. After doing this you will navigate into MyLibrary folder and install the npm package to be locally available for your computer by doing:
+
+$ npm install
+
+After this is done you can go to your main react app folder (which you created by doing react-native init MyApp)
+
+    add your newly created module as a dependency in your package.json
+    run npm install to bring it along from your local npm repository.
+
+```
+
+```
+Assuming that you have Node installed, you can use npm to install the create-react-native-app command line utility:
+
+npm install -g create-react-native-app
+
+Then run the following commands to create a new React Native project called "AwesomeProject":
+
+create-react-native-app AwesomeProject
+
+cd AwesomeProject
+npm start
+
+This will start a development server for you.
+```
