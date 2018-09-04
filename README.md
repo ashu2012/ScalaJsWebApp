@@ -173,3 +173,18 @@ Happy hacking!
 
 
 ```
+
+
+FirebAse Setup
+```
+login google:-
+Web client ID
+1021787054473-el1f4e09s9eas3u3s9geap4no1oojdru.apps.googleusercontent.com
+Web client secret
+CfaosKOl08GhQJWq3m51Z3Jb
+
+
+firebase authentication UI
+https://github.com/firebase/firebaseui-web
+
+```
