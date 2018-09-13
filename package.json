@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "license": "UNLICENSED",
+  "dependencies": {
+    "elemental": "0.6.1",
+    "file-loader": "^2.0.0",
+    "firebase": "5.4.2",
+    "firebase-admin": "6.0.0",
+    "font-awesome": "4.7.0",
+    "highlight.js": "9.9.0",
+    "jquery": "^3.3.1",
+    "material-ui": "0.18.1",
+    "react": "15.5.4",
+    "react-addons-create-fragment": "15.5.4",
+    "react-addons-css-transition-group": "15.0.2",
+    "react-addons-pure-render-mixin": "15.5.2",
+    "react-addons-transition-group": "15.0.0",
+    "react-addons-update": "15.5.2",
+    "react-dom": "15.5.4",
+    "react-geomicons": "2.1.0",
+    "react-infinite": "0.11.0",
+    "react-select": "1.0.0-rc.5",
+    "react-slick": "0.14.11",
+    "react-spinner": "0.2.7",
+    "react-tagsinput": "3.16.1",
+    "react-tap-event-plugin": "2.0.1",
+    "semantic-ui-react": "0.68.5",
+    "snabbdom": "0.5.3",
+    "svg-loader": "0.0.2",
+    "url-loader": "^1.1.1"
+  },
+  "devDependencies": {
+    "concat-with-sourcemaps": "1.0.7",
+    "source-map-loader": "0.1.5",
+    "webpack": "^4.18.1",
+    "webpack-cli": "0.0.8-development",
+    "webpack-dev-server": "2.11.1"
+  }
+}

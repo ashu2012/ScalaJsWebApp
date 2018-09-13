@@ -28,6 +28,7 @@ libraryDependencies ++= Seq(
   "com.github.japgolly.scalacss" %%% "ext-react" % scalaCssVersion,
  "org.webjars.npm" % "loose-envify" % "1.1.0",
   "org.webjars.npm" % "js-tokens" % "4.0.0"
+
 )
 
 // React itself
@@ -45,6 +46,7 @@ lazy val example =
     .settings(settings)
     .settings(
       libraryDependencies ++= Seq(
+        "com.github.benhutchison" %%% "prickle" % "1.1.13",
         "com.github.japgolly.scalajs-react" %%% "core"                     % "1.0.1",
         "com.github.japgolly.scalajs-react" %%% "extra"                    % "1.0.1",
         "com.olvind"                        %%% "scalajs-react-components" % "1.0.+"
@@ -55,7 +57,7 @@ lazy val example =
 // Settings
 // *****************************************************************************
 
-lazy val settings =  bundlerSettings
+
 
 
 lazy val SuiVersion   = "0.68.5"
@@ -99,21 +101,31 @@ lazy val bundlerSettings =
       "react-tagsinput"                   -> "3.16.1",
       "react-tap-event-plugin"            -> "2.0.1",
       "semantic-ui-react"                 -> SuiVersion,
-      "svg-loader"                        -> "0.0.2"
+      "svg-loader"                        -> "0.0.2",
+      "snabbdom"                          -> "0.5.3",
+      "font-awesome"                      -> "4.7.0",
+      "url-loader"                        -> "0.5.9",
+      "firebase"                          ->  "5.4.2",
+      "firebase-admin"                    -> "6.0.0",
+      "webpack"                            -> "4.18.1",
+      "file-loader"                       -> "2.0.0",
+      "jquery"                             ->"3.3.1"
+
     )
   )
-
+scalaJSUseMainModuleInitializer := true
+lazy val settings =  bundlerSettings
 // creates single js resource file for easy integration in html page
-skip in packageJSDependencies := false
-persistLauncher in Test := false
-
-requiresDOM in Test := true
+skip in packageJSDependencies := true
+//persistLauncher in Test := false
+//scalaJSUseMainModuleInitializer in Compile := true
+//requiresDOM in Test := true
 // copy  javascript files to js folder,that are generated using fastOptJS/fullOptJS
 
 crossTarget in (Compile, fullOptJS) := file("js")
 crossTarget in (Compile, fastOptJS) := file("js")
 crossTarget in (Compile, packageJSDependencies) := file("js")
-crossTarget in (Compile, packageScalaJSLauncher) := file("js")
+crossTarget in (Compile, scalaJSUseMainModuleInitializer) := file("js")
 crossTarget in (Compile, packageMinifiedJSDependencies) := file("js")
 artifactPath in (Compile, fastOptJS) := ((crossTarget in (Compile, fastOptJS)).value /
   ((moduleName in fastOptJS).value + "-opt.js"))

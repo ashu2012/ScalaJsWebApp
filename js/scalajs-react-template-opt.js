@@ -12898,134 +12898,134 @@ function $m_Lscalajsreact_template_components_TopNav$() {
   return $n_Lscalajsreact_template_components_TopNav$
 }
 /** @constructor */
-function $c_Lscalajsreact_template_components_items_CameraTest$() {
+function $c_Lscalajsreact_template_components_items_CallbackTest$() {
   $c_O.call(this);
-  this.TodoList$1 = null;
-  this.TodoApp$1 = null
+  this.component$1 = null;
+  this.TodoList$1 = null
 }
-$c_Lscalajsreact_template_components_items_CameraTest$.prototype = new $h_O();
-$c_Lscalajsreact_template_components_items_CameraTest$.prototype.constructor = $c_Lscalajsreact_template_components_items_CameraTest$;
+$c_Lscalajsreact_template_components_items_CallbackTest$.prototype = new $h_O();
+$c_Lscalajsreact_template_components_items_CallbackTest$.prototype.constructor = $c_Lscalajsreact_template_components_items_CallbackTest$;
 /** @constructor */
-function $h_Lscalajsreact_template_components_items_CameraTest$() {
+function $h_Lscalajsreact_template_components_items_CallbackTest$() {
   /*<skip>*/
 }
-$h_Lscalajsreact_template_components_items_CameraTest$.prototype = $c_Lscalajsreact_template_components_items_CameraTest$.prototype;
-$c_Lscalajsreact_template_components_items_CameraTest$.prototype.init___ = (function() {
-  $n_Lscalajsreact_template_components_items_CameraTest$ = this;
-  this.TodoList$1 = $m_Ljapgolly_scalajs_react_package$().ScalaFnComponent$1.apply__F1__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+$h_Lscalajsreact_template_components_items_CallbackTest$.prototype = $c_Lscalajsreact_template_components_items_CallbackTest$.prototype;
+$c_Lscalajsreact_template_components_items_CallbackTest$.prototype.init___ = (function() {
+  $n_Lscalajsreact_template_components_items_CallbackTest$ = this;
+  this.component$1 = ($m_Ljapgolly_scalajs_react_package$(), new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T("TodoApp")).initialState__F0__Ljapgolly_scalajs_react_component_builder_Builder$Step2(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
+    return (function() {
+      return new $c_Lscalajsreact_template_components_items_CallbackTest$State().init___sci_List__T($m_sci_Nil$(), "")
+    })
+  })(this))).backend__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step3(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2) {
+    return (function(x$2) {
+      var x = $as_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(x$2);
+      return new $c_Lscalajsreact_template_components_items_CallbackTest$Backend().init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(x)
+    })
+  })(this))).renderWith__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$3) {
+    return (function(x$3$2) {
+      var x$3 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(x$3$2).raw$1;
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var this$4 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_package$ReactComponent(x$3);
+      var jsx$1 = $as_Lscalajsreact_template_components_items_CallbackTest$Backend($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__backend__O(this$4));
+      var this$5 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_package$ReactComponent(x$3);
+      var a = jsx$1.render__Lscalajsreact_template_components_items_CallbackTest$State__Ljapgolly_scalajs_react_vdom_TagOf($as_Lscalajsreact_template_components_items_CallbackTest$State($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$5).state__O()));
+      return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+    })
+  })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
+  this.TodoList$1 = $m_Ljapgolly_scalajs_react_package$().ScalaFnComponent$1.apply__F1__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$4$1) {
     return (function(props$2) {
       var props = $as_sci_List(props$2);
       $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      var jsx$3 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
       $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var f = (function($this$1) {
+      var f$1 = (function($this$1) {
         return (function(itemText$2) {
           var itemText = $as_T(itemText$2);
           return $this$1.createItem$1__p1__T__Ljapgolly_scalajs_react_vdom_TagOf(itemText)
         })
-      })($this);
-      var this$2 = $m_sci_List$();
-      var bf = this$2.ReusableCBFInstance$2;
+      })(this$4$1);
+      var this$8 = $m_sci_List$();
+      var bf = this$8.ReusableCBFInstance$2;
       if ((bf === $m_sci_List$().ReusableCBFInstance$2)) {
         if ((props === $m_sci_Nil$())) {
-          var jsx$1 = $m_sci_Nil$()
+          var jsx$2 = $m_sci_Nil$()
         } else {
           var arg1 = props.head__O();
-          var h = new $c_sci_$colon$colon().init___O__sci_List(f(arg1), $m_sci_Nil$());
+          var h = new $c_sci_$colon$colon().init___O__sci_List(f$1(arg1), $m_sci_Nil$());
           var t = h;
           var rest = $as_sci_List(props.tail__O());
           while ((rest !== $m_sci_Nil$())) {
             var arg1$1 = rest.head__O();
-            var nx = new $c_sci_$colon$colon().init___O__sci_List(f(arg1$1), $m_sci_Nil$());
+            var nx = new $c_sci_$colon$colon().init___O__sci_List(f$1(arg1$1), $m_sci_Nil$());
             t.tl$5 = nx;
             t = nx;
             rest = $as_sci_List(rest.tail__O())
           };
-          var jsx$1 = h
+          var jsx$2 = h
         }
       } else {
         var b = $f_sc_TraversableLike__builder$1__psc_TraversableLike__scg_CanBuildFrom__scm_Builder(props, bf);
         var these = props;
         while ((!these.isEmpty__Z())) {
           var arg1$2 = these.head__O();
-          b.$$plus$eq__O__scm_Builder(f(arg1$2));
+          b.$$plus$eq__O__scm_Builder(f$1(arg1$2));
           these = $as_sci_List(these.tail__O())
         };
-        var jsx$1 = b.result__O()
+        var jsx$2 = b.result__O()
       };
-      var a = jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("ul", $as_sc_Seq(jsx$1));
-      return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
-    })
-  })(this)));
-  this.TodoApp$1 = ($m_Ljapgolly_scalajs_react_package$(), new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T("TodoApp")).initialState__F0__Ljapgolly_scalajs_react_component_builder_Builder$Step2(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$2$1) {
-    return (function() {
-      return new $c_Lscalajsreact_template_components_items_CameraTest$State().init___sci_List__T($m_sci_Nil$(), "")
-    })
-  })(this))).backend__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step3(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$3$1) {
-    return (function(x$2) {
-      var x = $as_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(x$2);
-      return new $c_Lscalajsreact_template_components_items_CameraTest$Backend().init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(x)
-    })
-  })(this))).renderWith__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$4$1) {
-    return (function(x$3$2) {
-      var x$3 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(x$3$2).raw$1;
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var this$5 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_package$ReactComponent(x$3);
-      var jsx$3 = $as_Lscalajsreact_template_components_items_CameraTest$Backend($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__backend__O(this$5));
-      var this$6 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_package$ReactComponent(x$3);
-      var a$1 = jsx$3.render__Lscalajsreact_template_components_items_CameraTest$State__Ljapgolly_scalajs_react_vdom_TagOf($as_Lscalajsreact_template_components_items_CameraTest$State($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$6).state__O()));
+      var a$1 = jsx$3.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("ul", $as_sc_Seq(jsx$2));
       return a$1.render__Ljapgolly_scalajs_react_vdom_VdomElement()
     })
-  })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
+  })(this)));
   return this
 });
-$c_Lscalajsreact_template_components_items_CameraTest$.prototype.createItem$1__p1__T__Ljapgolly_scalajs_react_vdom_TagOf = (function(itemText) {
+$c_Lscalajsreact_template_components_items_CallbackTest$.prototype.createItem$1__p1__T__Ljapgolly_scalajs_react_vdom_TagOf = (function(itemText) {
   var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(itemText))];
   return jsx$1.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("li", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array))
 });
-$c_Lscalajsreact_template_components_items_CameraTest$.prototype.apply__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
-  var c = this.TodoApp$1;
+$c_Lscalajsreact_template_components_items_CallbackTest$.prototype.apply__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
+  var c = this.component$1;
   return $as_Ljapgolly_scalajs_react_component_Generic$UnmountedSimple($as_Ljapgolly_scalajs_react_CtorType$Nullary(c.ctor__Ljapgolly_scalajs_react_CtorType()).apply__O()).vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
 });
-var $d_Lscalajsreact_template_components_items_CameraTest$ = new $TypeData().initClass({
-  Lscalajsreact_template_components_items_CameraTest$: 0
-}, false, "scalajsreact.template.components.items.CameraTest$", {
-  Lscalajsreact_template_components_items_CameraTest$: 1,
+var $d_Lscalajsreact_template_components_items_CallbackTest$ = new $TypeData().initClass({
+  Lscalajsreact_template_components_items_CallbackTest$: 0
+}, false, "scalajsreact.template.components.items.CallbackTest$", {
+  Lscalajsreact_template_components_items_CallbackTest$: 1,
   O: 1
 });
-$c_Lscalajsreact_template_components_items_CameraTest$.prototype.$classData = $d_Lscalajsreact_template_components_items_CameraTest$;
-var $n_Lscalajsreact_template_components_items_CameraTest$ = (void 0);
-function $m_Lscalajsreact_template_components_items_CameraTest$() {
-  if ((!$n_Lscalajsreact_template_components_items_CameraTest$)) {
-    $n_Lscalajsreact_template_components_items_CameraTest$ = new $c_Lscalajsreact_template_components_items_CameraTest$().init___()
+$c_Lscalajsreact_template_components_items_CallbackTest$.prototype.$classData = $d_Lscalajsreact_template_components_items_CallbackTest$;
+var $n_Lscalajsreact_template_components_items_CallbackTest$ = (void 0);
+function $m_Lscalajsreact_template_components_items_CallbackTest$() {
+  if ((!$n_Lscalajsreact_template_components_items_CallbackTest$)) {
+    $n_Lscalajsreact_template_components_items_CallbackTest$ = new $c_Lscalajsreact_template_components_items_CallbackTest$().init___()
   };
-  return $n_Lscalajsreact_template_components_items_CameraTest$
+  return $n_Lscalajsreact_template_components_items_CallbackTest$
 }
 /** @constructor */
-function $c_Lscalajsreact_template_components_items_CameraTest$Backend() {
+function $c_Lscalajsreact_template_components_items_CallbackTest$Backend() {
   $c_O.call(this);
   this.$$$1 = null
 }
-$c_Lscalajsreact_template_components_items_CameraTest$Backend.prototype = new $h_O();
-$c_Lscalajsreact_template_components_items_CameraTest$Backend.prototype.constructor = $c_Lscalajsreact_template_components_items_CameraTest$Backend;
+$c_Lscalajsreact_template_components_items_CallbackTest$Backend.prototype = new $h_O();
+$c_Lscalajsreact_template_components_items_CallbackTest$Backend.prototype.constructor = $c_Lscalajsreact_template_components_items_CallbackTest$Backend;
 /** @constructor */
-function $h_Lscalajsreact_template_components_items_CameraTest$Backend() {
+function $h_Lscalajsreact_template_components_items_CallbackTest$Backend() {
   /*<skip>*/
 }
-$h_Lscalajsreact_template_components_items_CameraTest$Backend.prototype = $c_Lscalajsreact_template_components_items_CameraTest$Backend.prototype;
-$c_Lscalajsreact_template_components_items_CameraTest$Backend.prototype.onChange__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0 = (function(e) {
+$h_Lscalajsreact_template_components_items_CallbackTest$Backend.prototype = $c_Lscalajsreact_template_components_items_CallbackTest$Backend.prototype;
+$c_Lscalajsreact_template_components_items_CallbackTest$Backend.prototype.onChange__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0 = (function(e) {
   var newValue = $as_T(e.target.value);
   return $as_Ljapgolly_scalajs_react_CallbackTo(this.$$$1.modState__F1__F0__O(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, newValue$1) {
     return (function(x$1$2) {
-      var x$1 = $as_Lscalajsreact_template_components_items_CameraTest$State(x$1$2);
-      var x$3 = x$1.items$1;
-      return new $c_Lscalajsreact_template_components_items_CameraTest$State().init___sci_List__T(x$3, newValue$1)
+      var x$1 = $as_Lscalajsreact_template_components_items_CallbackTest$State(x$1$2);
+      var x$4 = x$1.items$1;
+      return new $c_Lscalajsreact_template_components_items_CallbackTest$State().init___sci_List__T(x$4, newValue$1)
     })
   })(this, newValue)), this.$$$1.modState$default$2__F0())).japgolly$scalajs$react$CallbackTo$$f$1
 });
-$c_Lscalajsreact_template_components_items_CameraTest$Backend.prototype.render__Lscalajsreact_template_components_items_CameraTest$State__Ljapgolly_scalajs_react_vdom_TagOf = (function(state) {
+$c_Lscalajsreact_template_components_items_CallbackTest$Backend.prototype.render__Lscalajsreact_template_components_items_CallbackTest$State__Ljapgolly_scalajs_react_vdom_TagOf = (function(state) {
   var jsx$10 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   var jsx$9 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
@@ -13033,7 +13033,7 @@ $c_Lscalajsreact_template_components_items_CameraTest$Backend.prototype.render__
   var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("TODO"))];
   var jsx$8 = jsx$9.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("h3", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var c = $m_Lscalajsreact_template_components_items_CameraTest$().TodoList$1;
+  var c = $m_Lscalajsreact_template_components_items_CallbackTest$().TodoList$1;
   var this$8 = $as_Ljapgolly_scalajs_react_CtorType$Props(c.ctor__Ljapgolly_scalajs_react_CtorType());
   var props = state.items$1;
   var u = $as_Ljapgolly_scalajs_react_component_Generic$UnmountedWithRoot(this$8.construct$2.apply__O__O__O(props, this$8.mods$2));
@@ -13064,41 +13064,82 @@ $c_Lscalajsreact_template_components_items_CameraTest$Backend.prototype.render__
   var array$4 = [jsx$8, jsx$7, jsx$6.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("form", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3))];
   return jsx$10.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$4))
 });
-$c_Lscalajsreact_template_components_items_CameraTest$Backend.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function($$) {
+$c_Lscalajsreact_template_components_items_CallbackTest$Backend.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function($$) {
   this.$$$1 = $$;
   return this
 });
-$c_Lscalajsreact_template_components_items_CameraTest$Backend.prototype.handleSubmit__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0 = (function(e) {
+$c_Lscalajsreact_template_components_items_CallbackTest$Backend.prototype.handleSubmit__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0 = (function(e) {
   return $m_Ljapgolly_scalajs_react_CallbackTo$().$$greater$greater$extension__F0__F0__F0($m_Ljapgolly_scalajs_react_ReactExt$undReactEvent$().preventDefaultCB$extension__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(($m_Ljapgolly_scalajs_react_package$(), e)), $as_Ljapgolly_scalajs_react_CallbackTo(this.$$$1.modState__F1__F0__O(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
     return (function(s$2) {
-      var s = $as_Lscalajsreact_template_components_items_CameraTest$State(s$2);
+      var s = $as_Lscalajsreact_template_components_items_CallbackTest$State(s$2);
       var this$3 = s.items$1;
       var elem = s.text$1;
       var this$2 = $m_sci_List$();
       var bf = this$2.ReusableCBFInstance$2;
-      return new $c_Lscalajsreact_template_components_items_CameraTest$State().init___sci_List__T($as_sci_List($f_sc_SeqLike__$$colon$plus__O__scg_CanBuildFrom__O(this$3, elem, bf)), "")
+      return new $c_Lscalajsreact_template_components_items_CallbackTest$State().init___sci_List__T($as_sci_List($f_sc_SeqLike__$$colon$plus__O__scg_CanBuildFrom__O(this$3, elem, bf)), "")
     })
   })(this)), this.$$$1.modState$default$2__F0())).japgolly$scalajs$react$CallbackTo$$f$1)
 });
-function $is_Lscalajsreact_template_components_items_CameraTest$Backend(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalajsreact_template_components_items_CameraTest$Backend)))
+function $is_Lscalajsreact_template_components_items_CallbackTest$Backend(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalajsreact_template_components_items_CallbackTest$Backend)))
 }
-function $as_Lscalajsreact_template_components_items_CameraTest$Backend(obj) {
-  return (($is_Lscalajsreact_template_components_items_CameraTest$Backend(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scalajsreact.template.components.items.CameraTest$Backend"))
+function $as_Lscalajsreact_template_components_items_CallbackTest$Backend(obj) {
+  return (($is_Lscalajsreact_template_components_items_CallbackTest$Backend(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scalajsreact.template.components.items.CallbackTest$Backend"))
 }
-function $isArrayOf_Lscalajsreact_template_components_items_CameraTest$Backend(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lscalajsreact_template_components_items_CameraTest$Backend)))
+function $isArrayOf_Lscalajsreact_template_components_items_CallbackTest$Backend(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lscalajsreact_template_components_items_CallbackTest$Backend)))
 }
-function $asArrayOf_Lscalajsreact_template_components_items_CameraTest$Backend(obj, depth) {
-  return (($isArrayOf_Lscalajsreact_template_components_items_CameraTest$Backend(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalajsreact.template.components.items.CameraTest$Backend;", depth))
+function $asArrayOf_Lscalajsreact_template_components_items_CallbackTest$Backend(obj, depth) {
+  return (($isArrayOf_Lscalajsreact_template_components_items_CallbackTest$Backend(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalajsreact.template.components.items.CallbackTest$Backend;", depth))
 }
-var $d_Lscalajsreact_template_components_items_CameraTest$Backend = new $TypeData().initClass({
-  Lscalajsreact_template_components_items_CameraTest$Backend: 0
-}, false, "scalajsreact.template.components.items.CameraTest$Backend", {
-  Lscalajsreact_template_components_items_CameraTest$Backend: 1,
+var $d_Lscalajsreact_template_components_items_CallbackTest$Backend = new $TypeData().initClass({
+  Lscalajsreact_template_components_items_CallbackTest$Backend: 0
+}, false, "scalajsreact.template.components.items.CallbackTest$Backend", {
+  Lscalajsreact_template_components_items_CallbackTest$Backend: 1,
   O: 1
 });
-$c_Lscalajsreact_template_components_items_CameraTest$Backend.prototype.$classData = $d_Lscalajsreact_template_components_items_CameraTest$Backend;
+$c_Lscalajsreact_template_components_items_CallbackTest$Backend.prototype.$classData = $d_Lscalajsreact_template_components_items_CallbackTest$Backend;
+/** @constructor */
+function $c_Lscalajsreact_template_components_items_CameraTest$() {
+  $c_O.call(this);
+  this.component$1 = null
+}
+$c_Lscalajsreact_template_components_items_CameraTest$.prototype = new $h_O();
+$c_Lscalajsreact_template_components_items_CameraTest$.prototype.constructor = $c_Lscalajsreact_template_components_items_CameraTest$;
+/** @constructor */
+function $h_Lscalajsreact_template_components_items_CameraTest$() {
+  /*<skip>*/
+}
+$h_Lscalajsreact_template_components_items_CameraTest$.prototype = $c_Lscalajsreact_template_components_items_CameraTest$.prototype;
+$c_Lscalajsreact_template_components_items_CameraTest$.prototype.init___ = (function() {
+  $n_Lscalajsreact_template_components_items_CameraTest$ = this;
+  var jsx$2 = $m_Ljapgolly_scalajs_react_package$().ScalaComponent$1.builder$1;
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("TODO add camera selfi part "))];
+  var a = jsx$1.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+  this.component$1 = jsx$2.$static__T__Ljapgolly_scalajs_react_vdom_VdomElement__Ljapgolly_scalajs_react_component_builder_Builder$Step4("User Camera", a.render__Ljapgolly_scalajs_react_vdom_VdomElement()).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
+  return this
+});
+$c_Lscalajsreact_template_components_items_CameraTest$.prototype.apply__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
+  var c = this.component$1;
+  return $as_Ljapgolly_scalajs_react_component_Generic$UnmountedSimple($as_Ljapgolly_scalajs_react_CtorType$Nullary(c.ctor__Ljapgolly_scalajs_react_CtorType()).apply__O()).vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
+});
+var $d_Lscalajsreact_template_components_items_CameraTest$ = new $TypeData().initClass({
+  Lscalajsreact_template_components_items_CameraTest$: 0
+}, false, "scalajsreact.template.components.items.CameraTest$", {
+  Lscalajsreact_template_components_items_CameraTest$: 1,
+  O: 1
+});
+$c_Lscalajsreact_template_components_items_CameraTest$.prototype.$classData = $d_Lscalajsreact_template_components_items_CameraTest$;
+var $n_Lscalajsreact_template_components_items_CameraTest$ = (void 0);
+function $m_Lscalajsreact_template_components_items_CameraTest$() {
+  if ((!$n_Lscalajsreact_template_components_items_CameraTest$)) {
+    $n_Lscalajsreact_template_components_items_CameraTest$ = new $c_Lscalajsreact_template_components_items_CameraTest$().init___()
+  };
+  return $n_Lscalajsreact_template_components_items_CameraTest$
+}
 /** @constructor */
 function $c_Lscalajsreact_template_components_items_Item1Data$() {
   $c_O.call(this);
@@ -13222,6 +13263,146 @@ function $m_Lscalajsreact_template_components_items_ItemsInfo$() {
   };
   return $n_Lscalajsreact_template_components_items_ItemsInfo$
 }
+/** @constructor */
+function $c_Lscalajsreact_template_components_items_Login$() {
+  $c_O.call(this);
+  this.component$1 = null
+}
+$c_Lscalajsreact_template_components_items_Login$.prototype = new $h_O();
+$c_Lscalajsreact_template_components_items_Login$.prototype.constructor = $c_Lscalajsreact_template_components_items_Login$;
+/** @constructor */
+function $h_Lscalajsreact_template_components_items_Login$() {
+  /*<skip>*/
+}
+$h_Lscalajsreact_template_components_items_Login$.prototype = $c_Lscalajsreact_template_components_items_Login$.prototype;
+$c_Lscalajsreact_template_components_items_Login$.prototype.init___ = (function() {
+  $n_Lscalajsreact_template_components_items_Login$ = this;
+  this.component$1 = ($m_Ljapgolly_scalajs_react_package$(), new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T("Login/SignUp")).initialState__F0__Ljapgolly_scalajs_react_component_builder_Builder$Step2(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
+    return (function() {
+      return new $c_Lscalajsreact_template_components_items_State().init___Z__T__T(false, "not logged in", "firebase not initialized")
+    })
+  })(this))).backend__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step3(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2) {
+    return (function(x$2) {
+      var x = $as_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(x$2);
+      return new $c_Lscalajsreact_template_components_items_Login$Backend().init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(x)
+    })
+  })(this))).renderWith__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$3) {
+    return (function(x$3$2) {
+      var x$3 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(x$3$2).raw$1;
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var this$4 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_package$ReactComponent(x$3);
+      var jsx$1 = $as_Lscalajsreact_template_components_items_Login$Backend($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__backend__O(this$4));
+      var this$5 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_package$ReactComponent(x$3);
+      var a = jsx$1.render__Lscalajsreact_template_components_items_State__Ljapgolly_scalajs_react_vdom_TagOf($as_Lscalajsreact_template_components_items_State($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$5).state__O()));
+      return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+    })
+  })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
+  return this
+});
+$c_Lscalajsreact_template_components_items_Login$.prototype.initializeApp__V = (function() {
+  var config = new $g.firebaseAppConfig("AIzaSyCT7g1W-EmqDTv2N-s-em1QTWvpfZH0seI", "api-project-1021787054473.firebaseapp.com", "https://api-project-1021787054473.firebaseio.com");
+  $g.firebase.initializeApp(config);
+  var x = $g.firebase;
+  var this$2 = $m_s_Console$();
+  var this$3 = $as_Ljava_io_PrintStream(this$2.outVar$2.v$1);
+  this$3.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"));
+  var x$1 = $g.firebase.database();
+  var this$5 = $m_s_Console$();
+  var this$6 = $as_Ljava_io_PrintStream(this$5.outVar$2.v$1);
+  this$6.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x$1 + "\n"))
+});
+$c_Lscalajsreact_template_components_items_Login$.prototype.apply__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
+  var c = this.component$1;
+  return $as_Ljapgolly_scalajs_react_component_Generic$UnmountedSimple($as_Ljapgolly_scalajs_react_CtorType$Nullary(c.ctor__Ljapgolly_scalajs_react_CtorType()).apply__O()).vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
+});
+var $d_Lscalajsreact_template_components_items_Login$ = new $TypeData().initClass({
+  Lscalajsreact_template_components_items_Login$: 0
+}, false, "scalajsreact.template.components.items.Login$", {
+  Lscalajsreact_template_components_items_Login$: 1,
+  O: 1
+});
+$c_Lscalajsreact_template_components_items_Login$.prototype.$classData = $d_Lscalajsreact_template_components_items_Login$;
+var $n_Lscalajsreact_template_components_items_Login$ = (void 0);
+function $m_Lscalajsreact_template_components_items_Login$() {
+  if ((!$n_Lscalajsreact_template_components_items_Login$)) {
+    $n_Lscalajsreact_template_components_items_Login$ = new $c_Lscalajsreact_template_components_items_Login$().init___()
+  };
+  return $n_Lscalajsreact_template_components_items_Login$
+}
+/** @constructor */
+function $c_Lscalajsreact_template_components_items_Login$Backend() {
+  $c_O.call(this);
+  this.$$$1 = null;
+  this.logWindowClick$1 = null;
+  this.logLocalClick$1 = null
+}
+$c_Lscalajsreact_template_components_items_Login$Backend.prototype = new $h_O();
+$c_Lscalajsreact_template_components_items_Login$Backend.prototype.constructor = $c_Lscalajsreact_template_components_items_Login$Backend;
+/** @constructor */
+function $h_Lscalajsreact_template_components_items_Login$Backend() {
+  /*<skip>*/
+}
+$h_Lscalajsreact_template_components_items_Login$Backend.prototype = $c_Lscalajsreact_template_components_items_Login$Backend.prototype;
+$c_Lscalajsreact_template_components_items_Login$Backend.prototype.render__Lscalajsreact_template_components_items_State__Ljapgolly_scalajs_react_vdom_TagOf = (function(state) {
+  var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$5 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("border")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("solid 1px black", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  var jsx$4 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle().init___T("width")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("90ex", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  var jsx$3 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle().init___T("height")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("20em", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  var jsx$2 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("padding")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("2px 6px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var array = [$m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.onClick$1.$$eq$eq$greater__F1__Ljapgolly_scalajs_react_vdom_DomCallbackResult__Ljapgolly_scalajs_react_vdom_TagMod(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(e$2) {
+      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($this.logMouseEnter__Ljapgolly_scalajs_react_raw_SyntheticMouseEvent__F0(e$2))
+    })
+  })(this)), null)];
+  var array$1 = [jsx$5, jsx$4, jsx$3, jsx$2, jsx$1.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("textarea", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array))];
+  return jsx$6.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1))
+});
+$c_Lscalajsreact_template_components_items_Login$Backend.prototype.logEvent__T__F0 = (function(desc) {
+  var this$2 = $m_s_Console$();
+  var this$3 = $as_Ljava_io_PrintStream(this$2.outVar$2.v$1);
+  this$3.java$lang$JSConsoleBasedPrintStream$$printString__T__V((desc + "\n"));
+  return $as_Ljapgolly_scalajs_react_CallbackTo(this.$$$1.modState__F1__F0__O(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(state$2) {
+      $as_Lscalajsreact_template_components_items_State(state$2);
+      return new $c_Lscalajsreact_template_components_items_State().init___Z__T__T(false, "not logged in", "firebase intializing trying")
+    })
+  })(this)), this.$$$1.modState$default$2__F0())).japgolly$scalajs$react$CallbackTo$$f$1
+});
+$c_Lscalajsreact_template_components_items_Login$Backend.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function($$) {
+  this.$$$1 = $$;
+  this.logWindowClick$1 = this.logEvent__T__F0("Window clicked.");
+  this.logLocalClick$1 = this.logEvent__T__F0("Component clicked.");
+  return this
+});
+$c_Lscalajsreact_template_components_items_Login$Backend.prototype.logMouseEnter__Ljapgolly_scalajs_react_raw_SyntheticMouseEvent__F0 = (function(e) {
+  $m_Lscalajsreact_template_components_items_Login$().initializeApp__V();
+  var array = ["Mouse enter @ ", ",", ""];
+  var jsx$1 = new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+  var array$1 = [$uD(e.pageX), $uD(e.pageY)];
+  return this.logEvent__T__F0(jsx$1.s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1)))
+});
+function $is_Lscalajsreact_template_components_items_Login$Backend(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalajsreact_template_components_items_Login$Backend)))
+}
+function $as_Lscalajsreact_template_components_items_Login$Backend(obj) {
+  return (($is_Lscalajsreact_template_components_items_Login$Backend(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scalajsreact.template.components.items.Login$Backend"))
+}
+function $isArrayOf_Lscalajsreact_template_components_items_Login$Backend(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lscalajsreact_template_components_items_Login$Backend)))
+}
+function $asArrayOf_Lscalajsreact_template_components_items_Login$Backend(obj, depth) {
+  return (($isArrayOf_Lscalajsreact_template_components_items_Login$Backend(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalajsreact.template.components.items.Login$Backend;", depth))
+}
+var $d_Lscalajsreact_template_components_items_Login$Backend = new $TypeData().initClass({
+  Lscalajsreact_template_components_items_Login$Backend: 0
+}, false, "scalajsreact.template.components.items.Login$Backend", {
+  Lscalajsreact_template_components_items_Login$Backend: 1,
+  O: 1
+});
+$c_Lscalajsreact_template_components_items_Login$Backend.prototype.$classData = $d_Lscalajsreact_template_components_items_Login$Backend;
 /** @constructor */
 function $c_Lscalajsreact_template_css_AppCSS$() {
   $c_O.call(this)
@@ -13541,7 +13722,7 @@ $h_Lscalajsreact_template_routes_Item$.prototype = $c_Lscalajsreact_template_rou
 $c_Lscalajsreact_template_routes_Item$.prototype.init___ = (function() {
   $n_Lscalajsreact_template_routes_Item$ = this;
   var this$3 = $m_s_package$().Vector$1;
-  var array = [$m_Lscalajsreact_template_routes_Item$Info$(), $m_Lscalajsreact_template_routes_Item$Item1$(), $m_Lscalajsreact_template_routes_Item$Item2$(), $m_Lscalajsreact_template_routes_Item$callbacktest$()];
+  var array = [$m_Lscalajsreact_template_routes_Item$Info$(), $m_Lscalajsreact_template_routes_Item$Item1$(), $m_Lscalajsreact_template_routes_Item$Item2$(), $m_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$(), $m_Lscalajsreact_template_routes_Item$LoginMenuItem$(), $m_Lscalajsreact_template_routes_Item$CameraTestMenuItem$()];
   if (($uI(array.length) === 0)) {
     var jsx$1 = this$3.NIL$6
   } else {
@@ -16460,6 +16641,14 @@ $h_sr_Statics$.prototype = $c_sr_Statics$.prototype;
 $c_sr_Statics$.prototype.init___ = (function() {
   return this
 });
+$c_sr_Statics$.prototype.mixLast__I__I__I = (function(hash, data) {
+  var k = data;
+  k = $imul((-862048943), k);
+  var i = k;
+  k = ((i << 15) | ((i >>> 17) | 0));
+  k = $imul(461845907, k);
+  return (hash ^ k)
+});
 $c_sr_Statics$.prototype.doubleHash__D__I = (function(dv) {
   var iv = $doubleToInt(dv);
   if ((iv === dv)) {
@@ -16486,10 +16675,28 @@ $c_sr_Statics$.prototype.anyHash__O__I = (function(x) {
     return $objectHashCode(x)
   }
 });
+$c_sr_Statics$.prototype.avalanche__I__I = (function(h0) {
+  var h = h0;
+  h = (h ^ ((h >>> 16) | 0));
+  h = $imul((-2048144789), h);
+  h = (h ^ ((h >>> 13) | 0));
+  h = $imul((-1028477387), h);
+  h = (h ^ ((h >>> 16) | 0));
+  return h
+});
+$c_sr_Statics$.prototype.mix__I__I__I = (function(hash, data) {
+  var h = this.mixLast__I__I__I(hash, data);
+  var i = h;
+  h = ((i << 13) | ((i >>> 19) | 0));
+  return (((-430675100) + $imul(5, h)) | 0)
+});
 $c_sr_Statics$.prototype.longHash__J__I = (function(lv) {
   var lo = lv.lo$2;
   var lo$1 = lv.hi$2;
   return ((lo$1 === (lo >> 31)) ? lo : (lo ^ lo$1))
+});
+$c_sr_Statics$.prototype.finalizeHash__I__I__I = (function(hash, length) {
+  return this.avalanche__I__I((hash ^ length))
 });
 var $d_sr_Statics$ = new $TypeData().initClass({
   sr_Statics$: 0
@@ -20613,6 +20820,30 @@ var $d_Ljapgolly_scalajs_react_vdom_Builder$ToVdomElement = new $TypeData().init
   Ljapgolly_scalajs_react_vdom_Builder: 1
 });
 $c_Ljapgolly_scalajs_react_vdom_Builder$ToVdomElement.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_Builder$ToVdomElement;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle() {
+  $c_Ljapgolly_scalajs_react_vdom_Style.call(this)
+}
+$c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle.prototype = new $h_Ljapgolly_scalajs_react_vdom_Style();
+$c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle.prototype;
+$c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle.prototype.init___T = (function(name) {
+  $c_Ljapgolly_scalajs_react_vdom_Style.prototype.init___T.call(this, name);
+  return this
+});
+var $d_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle: 0
+}, false, "japgolly.scalajs.react.vdom.HtmlStylesStatic$AutoStyle", {
+  Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle: 1,
+  Ljapgolly_scalajs_react_vdom_Style: 1,
+  Ljapgolly_scalajs_react_vdom_Attr: 1,
+  O: 1
+});
+$c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle;
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$TextAlign() {
   $c_Ljapgolly_scalajs_react_vdom_Style.call(this)
@@ -31900,29 +32131,29 @@ var $d_Lscalajsreact_template_components_TopNav$Props = new $TypeData().initClas
 });
 $c_Lscalajsreact_template_components_TopNav$Props.prototype.$classData = $d_Lscalajsreact_template_components_TopNav$Props;
 /** @constructor */
-function $c_Lscalajsreact_template_components_items_CameraTest$State() {
+function $c_Lscalajsreact_template_components_items_CallbackTest$State() {
   $c_O.call(this);
   this.items$1 = null;
   this.text$1 = null
 }
-$c_Lscalajsreact_template_components_items_CameraTest$State.prototype = new $h_O();
-$c_Lscalajsreact_template_components_items_CameraTest$State.prototype.constructor = $c_Lscalajsreact_template_components_items_CameraTest$State;
+$c_Lscalajsreact_template_components_items_CallbackTest$State.prototype = new $h_O();
+$c_Lscalajsreact_template_components_items_CallbackTest$State.prototype.constructor = $c_Lscalajsreact_template_components_items_CallbackTest$State;
 /** @constructor */
-function $h_Lscalajsreact_template_components_items_CameraTest$State() {
+function $h_Lscalajsreact_template_components_items_CallbackTest$State() {
   /*<skip>*/
 }
-$h_Lscalajsreact_template_components_items_CameraTest$State.prototype = $c_Lscalajsreact_template_components_items_CameraTest$State.prototype;
-$c_Lscalajsreact_template_components_items_CameraTest$State.prototype.productPrefix__T = (function() {
+$h_Lscalajsreact_template_components_items_CallbackTest$State.prototype = $c_Lscalajsreact_template_components_items_CallbackTest$State.prototype;
+$c_Lscalajsreact_template_components_items_CallbackTest$State.prototype.productPrefix__T = (function() {
   return "State"
 });
-$c_Lscalajsreact_template_components_items_CameraTest$State.prototype.productArity__I = (function() {
+$c_Lscalajsreact_template_components_items_CallbackTest$State.prototype.productArity__I = (function() {
   return 2
 });
-$c_Lscalajsreact_template_components_items_CameraTest$State.prototype.equals__O__Z = (function(x$1) {
+$c_Lscalajsreact_template_components_items_CallbackTest$State.prototype.equals__O__Z = (function(x$1) {
   if ((this === x$1)) {
     return true
-  } else if ($is_Lscalajsreact_template_components_items_CameraTest$State(x$1)) {
-    var State$1 = $as_Lscalajsreact_template_components_items_CameraTest$State(x$1);
+  } else if ($is_Lscalajsreact_template_components_items_CallbackTest$State(x$1)) {
+    var State$1 = $as_Lscalajsreact_template_components_items_CallbackTest$State(x$1);
     var x = this.items$1;
     var x$2 = State$1.items$1;
     if (((x === null) ? (x$2 === null) : x.equals__O__Z(x$2))) {
@@ -31934,12 +32165,12 @@ $c_Lscalajsreact_template_components_items_CameraTest$State.prototype.equals__O_
     return false
   }
 });
-$c_Lscalajsreact_template_components_items_CameraTest$State.prototype.init___sci_List__T = (function(items, text) {
+$c_Lscalajsreact_template_components_items_CallbackTest$State.prototype.init___sci_List__T = (function(items, text) {
   this.items$1 = items;
   this.text$1 = text;
   return this
 });
-$c_Lscalajsreact_template_components_items_CameraTest$State.prototype.productElement__I__O = (function(x$1) {
+$c_Lscalajsreact_template_components_items_CallbackTest$State.prototype.productElement__I__O = (function(x$1) {
   switch (x$1) {
     case 0: {
       return this.items$1;
@@ -31954,39 +32185,130 @@ $c_Lscalajsreact_template_components_items_CameraTest$State.prototype.productEle
     }
   }
 });
-$c_Lscalajsreact_template_components_items_CameraTest$State.prototype.toString__T = (function() {
+$c_Lscalajsreact_template_components_items_CallbackTest$State.prototype.toString__T = (function() {
   return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
 });
-$c_Lscalajsreact_template_components_items_CameraTest$State.prototype.hashCode__I = (function() {
+$c_Lscalajsreact_template_components_items_CallbackTest$State.prototype.hashCode__I = (function() {
   var this$2 = $m_s_util_hashing_MurmurHash3$();
   return this$2.productHash__s_Product__I__I(this, (-889275714))
 });
-$c_Lscalajsreact_template_components_items_CameraTest$State.prototype.productIterator__sc_Iterator = (function() {
+$c_Lscalajsreact_template_components_items_CallbackTest$State.prototype.productIterator__sc_Iterator = (function() {
   return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
 });
-function $is_Lscalajsreact_template_components_items_CameraTest$State(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalajsreact_template_components_items_CameraTest$State)))
+function $is_Lscalajsreact_template_components_items_CallbackTest$State(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalajsreact_template_components_items_CallbackTest$State)))
 }
-function $as_Lscalajsreact_template_components_items_CameraTest$State(obj) {
-  return (($is_Lscalajsreact_template_components_items_CameraTest$State(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scalajsreact.template.components.items.CameraTest$State"))
+function $as_Lscalajsreact_template_components_items_CallbackTest$State(obj) {
+  return (($is_Lscalajsreact_template_components_items_CallbackTest$State(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scalajsreact.template.components.items.CallbackTest$State"))
 }
-function $isArrayOf_Lscalajsreact_template_components_items_CameraTest$State(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lscalajsreact_template_components_items_CameraTest$State)))
+function $isArrayOf_Lscalajsreact_template_components_items_CallbackTest$State(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lscalajsreact_template_components_items_CallbackTest$State)))
 }
-function $asArrayOf_Lscalajsreact_template_components_items_CameraTest$State(obj, depth) {
-  return (($isArrayOf_Lscalajsreact_template_components_items_CameraTest$State(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalajsreact.template.components.items.CameraTest$State;", depth))
+function $asArrayOf_Lscalajsreact_template_components_items_CallbackTest$State(obj, depth) {
+  return (($isArrayOf_Lscalajsreact_template_components_items_CallbackTest$State(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalajsreact.template.components.items.CallbackTest$State;", depth))
 }
-var $d_Lscalajsreact_template_components_items_CameraTest$State = new $TypeData().initClass({
-  Lscalajsreact_template_components_items_CameraTest$State: 0
-}, false, "scalajsreact.template.components.items.CameraTest$State", {
-  Lscalajsreact_template_components_items_CameraTest$State: 1,
+var $d_Lscalajsreact_template_components_items_CallbackTest$State = new $TypeData().initClass({
+  Lscalajsreact_template_components_items_CallbackTest$State: 0
+}, false, "scalajsreact.template.components.items.CallbackTest$State", {
+  Lscalajsreact_template_components_items_CallbackTest$State: 1,
   O: 1,
   s_Product: 1,
   s_Equals: 1,
   s_Serializable: 1,
   Ljava_io_Serializable: 1
 });
-$c_Lscalajsreact_template_components_items_CameraTest$State.prototype.$classData = $d_Lscalajsreact_template_components_items_CameraTest$State;
+$c_Lscalajsreact_template_components_items_CallbackTest$State.prototype.$classData = $d_Lscalajsreact_template_components_items_CallbackTest$State;
+/** @constructor */
+function $c_Lscalajsreact_template_components_items_State() {
+  $c_O.call(this);
+  this.loggedIn$1 = false;
+  this.currentState$1 = null;
+  this.someInitialValue$1 = null
+}
+$c_Lscalajsreact_template_components_items_State.prototype = new $h_O();
+$c_Lscalajsreact_template_components_items_State.prototype.constructor = $c_Lscalajsreact_template_components_items_State;
+/** @constructor */
+function $h_Lscalajsreact_template_components_items_State() {
+  /*<skip>*/
+}
+$h_Lscalajsreact_template_components_items_State.prototype = $c_Lscalajsreact_template_components_items_State.prototype;
+$c_Lscalajsreact_template_components_items_State.prototype.productPrefix__T = (function() {
+  return "State"
+});
+$c_Lscalajsreact_template_components_items_State.prototype.productArity__I = (function() {
+  return 3
+});
+$c_Lscalajsreact_template_components_items_State.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lscalajsreact_template_components_items_State(x$1)) {
+    var State$1 = $as_Lscalajsreact_template_components_items_State(x$1);
+    return (((this.loggedIn$1 === State$1.loggedIn$1) && (this.currentState$1 === State$1.currentState$1)) && (this.someInitialValue$1 === State$1.someInitialValue$1))
+  } else {
+    return false
+  }
+});
+$c_Lscalajsreact_template_components_items_State.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.loggedIn$1;
+      break
+    }
+    case 1: {
+      return this.currentState$1;
+      break
+    }
+    case 2: {
+      return this.someInitialValue$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lscalajsreact_template_components_items_State.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lscalajsreact_template_components_items_State.prototype.hashCode__I = (function() {
+  var acc = (-889275714);
+  acc = $m_sr_Statics$().mix__I__I__I(acc, (this.loggedIn$1 ? 1231 : 1237));
+  acc = $m_sr_Statics$().mix__I__I__I(acc, $m_sr_Statics$().anyHash__O__I(this.currentState$1));
+  acc = $m_sr_Statics$().mix__I__I__I(acc, $m_sr_Statics$().anyHash__O__I(this.someInitialValue$1));
+  return $m_sr_Statics$().finalizeHash__I__I__I(acc, 3)
+});
+$c_Lscalajsreact_template_components_items_State.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+$c_Lscalajsreact_template_components_items_State.prototype.init___Z__T__T = (function(loggedIn, currentState, someInitialValue) {
+  this.loggedIn$1 = loggedIn;
+  this.currentState$1 = currentState;
+  this.someInitialValue$1 = someInitialValue;
+  return this
+});
+function $is_Lscalajsreact_template_components_items_State(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalajsreact_template_components_items_State)))
+}
+function $as_Lscalajsreact_template_components_items_State(obj) {
+  return (($is_Lscalajsreact_template_components_items_State(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scalajsreact.template.components.items.State"))
+}
+function $isArrayOf_Lscalajsreact_template_components_items_State(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lscalajsreact_template_components_items_State)))
+}
+function $asArrayOf_Lscalajsreact_template_components_items_State(obj, depth) {
+  return (($isArrayOf_Lscalajsreact_template_components_items_State(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalajsreact.template.components.items.State;", depth))
+}
+var $d_Lscalajsreact_template_components_items_State = new $TypeData().initClass({
+  Lscalajsreact_template_components_items_State: 0
+}, false, "scalajsreact.template.components.items.State", {
+  Lscalajsreact_template_components_items_State: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lscalajsreact_template_components_items_State.prototype.$classData = $d_Lscalajsreact_template_components_items_State;
 /** @constructor */
 function $c_Lscalajsreact_template_models_Menu() {
   $c_O.call(this);
@@ -37850,6 +38172,114 @@ var $d_Lscalajsreact_template_routes_AppRouter$Items = new $TypeData().initClass
 });
 $c_Lscalajsreact_template_routes_AppRouter$Items.prototype.$classData = $d_Lscalajsreact_template_routes_AppRouter$Items;
 /** @constructor */
+function $c_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$() {
+  $c_Lscalajsreact_template_routes_Item.call(this)
+}
+$c_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$.prototype = new $h_Lscalajsreact_template_routes_Item();
+$c_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$.prototype.constructor = $c_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$;
+/** @constructor */
+function $h_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$() {
+  /*<skip>*/
+}
+$h_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$.prototype = $c_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$.prototype;
+$c_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$.prototype.init___ = (function() {
+  $c_Lscalajsreact_template_routes_Item.prototype.init___T__T__F0.call(this, "CallbackTest", "CallbackTest", new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function() {
+    return $m_Lscalajsreact_template_components_items_CallbackTest$().apply__Ljapgolly_scalajs_react_vdom_VdomElement()
+  })));
+  return this
+});
+$c_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$.prototype.productPrefix__T = (function() {
+  return "CallbackTestMenuItem"
+});
+$c_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$.prototype.productArity__I = (function() {
+  return 0
+});
+$c_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$.prototype.productElement__I__O = (function(x$1) {
+  throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+});
+$c_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$.prototype.toString__T = (function() {
+  return "CallbackTestMenuItem"
+});
+$c_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$.prototype.hashCode__I = (function() {
+  return 33529033
+});
+$c_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+var $d_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$ = new $TypeData().initClass({
+  Lscalajsreact_template_routes_Item$CallbackTestMenuItem$: 0
+}, false, "scalajsreact.template.routes.Item$CallbackTestMenuItem$", {
+  Lscalajsreact_template_routes_Item$CallbackTestMenuItem$: 1,
+  Lscalajsreact_template_routes_Item: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$.prototype.$classData = $d_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$;
+var $n_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$ = (void 0);
+function $m_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$() {
+  if ((!$n_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$)) {
+    $n_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$ = new $c_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$().init___()
+  };
+  return $n_Lscalajsreact_template_routes_Item$CallbackTestMenuItem$
+}
+/** @constructor */
+function $c_Lscalajsreact_template_routes_Item$CameraTestMenuItem$() {
+  $c_Lscalajsreact_template_routes_Item.call(this)
+}
+$c_Lscalajsreact_template_routes_Item$CameraTestMenuItem$.prototype = new $h_Lscalajsreact_template_routes_Item();
+$c_Lscalajsreact_template_routes_Item$CameraTestMenuItem$.prototype.constructor = $c_Lscalajsreact_template_routes_Item$CameraTestMenuItem$;
+/** @constructor */
+function $h_Lscalajsreact_template_routes_Item$CameraTestMenuItem$() {
+  /*<skip>*/
+}
+$h_Lscalajsreact_template_routes_Item$CameraTestMenuItem$.prototype = $c_Lscalajsreact_template_routes_Item$CameraTestMenuItem$.prototype;
+$c_Lscalajsreact_template_routes_Item$CameraTestMenuItem$.prototype.init___ = (function() {
+  $c_Lscalajsreact_template_routes_Item.prototype.init___T__T__F0.call(this, "Camera", "CameraTest", new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function() {
+    return $m_Lscalajsreact_template_components_items_CameraTest$().apply__Ljapgolly_scalajs_react_vdom_VdomElement()
+  })));
+  return this
+});
+$c_Lscalajsreact_template_routes_Item$CameraTestMenuItem$.prototype.productPrefix__T = (function() {
+  return "CameraTestMenuItem"
+});
+$c_Lscalajsreact_template_routes_Item$CameraTestMenuItem$.prototype.productArity__I = (function() {
+  return 0
+});
+$c_Lscalajsreact_template_routes_Item$CameraTestMenuItem$.prototype.productElement__I__O = (function(x$1) {
+  throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+});
+$c_Lscalajsreact_template_routes_Item$CameraTestMenuItem$.prototype.toString__T = (function() {
+  return "CameraTestMenuItem"
+});
+$c_Lscalajsreact_template_routes_Item$CameraTestMenuItem$.prototype.hashCode__I = (function() {
+  return (-2046920791)
+});
+$c_Lscalajsreact_template_routes_Item$CameraTestMenuItem$.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+var $d_Lscalajsreact_template_routes_Item$CameraTestMenuItem$ = new $TypeData().initClass({
+  Lscalajsreact_template_routes_Item$CameraTestMenuItem$: 0
+}, false, "scalajsreact.template.routes.Item$CameraTestMenuItem$", {
+  Lscalajsreact_template_routes_Item$CameraTestMenuItem$: 1,
+  Lscalajsreact_template_routes_Item: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lscalajsreact_template_routes_Item$CameraTestMenuItem$.prototype.$classData = $d_Lscalajsreact_template_routes_Item$CameraTestMenuItem$;
+var $n_Lscalajsreact_template_routes_Item$CameraTestMenuItem$ = (void 0);
+function $m_Lscalajsreact_template_routes_Item$CameraTestMenuItem$() {
+  if ((!$n_Lscalajsreact_template_routes_Item$CameraTestMenuItem$)) {
+    $n_Lscalajsreact_template_routes_Item$CameraTestMenuItem$ = new $c_Lscalajsreact_template_routes_Item$CameraTestMenuItem$().init___()
+  };
+  return $n_Lscalajsreact_template_routes_Item$CameraTestMenuItem$
+}
+/** @constructor */
 function $c_Lscalajsreact_template_routes_Item$Info$() {
   $c_Lscalajsreact_template_routes_Item.call(this)
 }
@@ -38012,44 +38442,44 @@ function $m_Lscalajsreact_template_routes_Item$Item2$() {
   return $n_Lscalajsreact_template_routes_Item$Item2$
 }
 /** @constructor */
-function $c_Lscalajsreact_template_routes_Item$callbacktest$() {
+function $c_Lscalajsreact_template_routes_Item$LoginMenuItem$() {
   $c_Lscalajsreact_template_routes_Item.call(this)
 }
-$c_Lscalajsreact_template_routes_Item$callbacktest$.prototype = new $h_Lscalajsreact_template_routes_Item();
-$c_Lscalajsreact_template_routes_Item$callbacktest$.prototype.constructor = $c_Lscalajsreact_template_routes_Item$callbacktest$;
+$c_Lscalajsreact_template_routes_Item$LoginMenuItem$.prototype = new $h_Lscalajsreact_template_routes_Item();
+$c_Lscalajsreact_template_routes_Item$LoginMenuItem$.prototype.constructor = $c_Lscalajsreact_template_routes_Item$LoginMenuItem$;
 /** @constructor */
-function $h_Lscalajsreact_template_routes_Item$callbacktest$() {
+function $h_Lscalajsreact_template_routes_Item$LoginMenuItem$() {
   /*<skip>*/
 }
-$h_Lscalajsreact_template_routes_Item$callbacktest$.prototype = $c_Lscalajsreact_template_routes_Item$callbacktest$.prototype;
-$c_Lscalajsreact_template_routes_Item$callbacktest$.prototype.init___ = (function() {
-  $c_Lscalajsreact_template_routes_Item.prototype.init___T__T__F0.call(this, "CameraTest", "CameraTest", new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function() {
-    return $m_Lscalajsreact_template_components_items_CameraTest$().apply__Ljapgolly_scalajs_react_vdom_VdomElement()
+$h_Lscalajsreact_template_routes_Item$LoginMenuItem$.prototype = $c_Lscalajsreact_template_routes_Item$LoginMenuItem$.prototype;
+$c_Lscalajsreact_template_routes_Item$LoginMenuItem$.prototype.init___ = (function() {
+  $c_Lscalajsreact_template_routes_Item.prototype.init___T__T__F0.call(this, "Login", "Login", new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function() {
+    return $m_Lscalajsreact_template_components_items_Login$().apply__Ljapgolly_scalajs_react_vdom_VdomElement()
   })));
   return this
 });
-$c_Lscalajsreact_template_routes_Item$callbacktest$.prototype.productPrefix__T = (function() {
-  return "callbacktest"
+$c_Lscalajsreact_template_routes_Item$LoginMenuItem$.prototype.productPrefix__T = (function() {
+  return "LoginMenuItem"
 });
-$c_Lscalajsreact_template_routes_Item$callbacktest$.prototype.productArity__I = (function() {
+$c_Lscalajsreact_template_routes_Item$LoginMenuItem$.prototype.productArity__I = (function() {
   return 0
 });
-$c_Lscalajsreact_template_routes_Item$callbacktest$.prototype.productElement__I__O = (function(x$1) {
+$c_Lscalajsreact_template_routes_Item$LoginMenuItem$.prototype.productElement__I__O = (function(x$1) {
   throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
 });
-$c_Lscalajsreact_template_routes_Item$callbacktest$.prototype.toString__T = (function() {
-  return "callbacktest"
+$c_Lscalajsreact_template_routes_Item$LoginMenuItem$.prototype.toString__T = (function() {
+  return "LoginMenuItem"
 });
-$c_Lscalajsreact_template_routes_Item$callbacktest$.prototype.hashCode__I = (function() {
-  return 2125380183
+$c_Lscalajsreact_template_routes_Item$LoginMenuItem$.prototype.hashCode__I = (function() {
+  return (-732936325)
 });
-$c_Lscalajsreact_template_routes_Item$callbacktest$.prototype.productIterator__sc_Iterator = (function() {
+$c_Lscalajsreact_template_routes_Item$LoginMenuItem$.prototype.productIterator__sc_Iterator = (function() {
   return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
 });
-var $d_Lscalajsreact_template_routes_Item$callbacktest$ = new $TypeData().initClass({
-  Lscalajsreact_template_routes_Item$callbacktest$: 0
-}, false, "scalajsreact.template.routes.Item$callbacktest$", {
-  Lscalajsreact_template_routes_Item$callbacktest$: 1,
+var $d_Lscalajsreact_template_routes_Item$LoginMenuItem$ = new $TypeData().initClass({
+  Lscalajsreact_template_routes_Item$LoginMenuItem$: 0
+}, false, "scalajsreact.template.routes.Item$LoginMenuItem$", {
+  Lscalajsreact_template_routes_Item$LoginMenuItem$: 1,
   Lscalajsreact_template_routes_Item: 1,
   O: 1,
   s_Product: 1,
@@ -38057,13 +38487,13 @@ var $d_Lscalajsreact_template_routes_Item$callbacktest$ = new $TypeData().initCl
   s_Serializable: 1,
   Ljava_io_Serializable: 1
 });
-$c_Lscalajsreact_template_routes_Item$callbacktest$.prototype.$classData = $d_Lscalajsreact_template_routes_Item$callbacktest$;
-var $n_Lscalajsreact_template_routes_Item$callbacktest$ = (void 0);
-function $m_Lscalajsreact_template_routes_Item$callbacktest$() {
-  if ((!$n_Lscalajsreact_template_routes_Item$callbacktest$)) {
-    $n_Lscalajsreact_template_routes_Item$callbacktest$ = new $c_Lscalajsreact_template_routes_Item$callbacktest$().init___()
+$c_Lscalajsreact_template_routes_Item$LoginMenuItem$.prototype.$classData = $d_Lscalajsreact_template_routes_Item$LoginMenuItem$;
+var $n_Lscalajsreact_template_routes_Item$LoginMenuItem$ = (void 0);
+function $m_Lscalajsreact_template_routes_Item$LoginMenuItem$() {
+  if ((!$n_Lscalajsreact_template_routes_Item$LoginMenuItem$)) {
+    $n_Lscalajsreact_template_routes_Item$LoginMenuItem$ = new $c_Lscalajsreact_template_routes_Item$LoginMenuItem$().init___()
   };
-  return $n_Lscalajsreact_template_routes_Item$callbacktest$
+  return $n_Lscalajsreact_template_routes_Item$LoginMenuItem$
 }
 /** @constructor */
 function $c_T2() {

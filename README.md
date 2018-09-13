@@ -3,6 +3,14 @@ scalajs-react-android app
 
 Basic skeleton app for scalajs-react and scalacss
 
+scalajs understanding
+```
+https://www.toptal.com/scala/using-scala-js-with-npm-and-browserify
+https://medium.com/@michaelmangial1/getting-started-with-scala-js-scalavue-and-scalareact-for-the-javascript-developer-ac578ddcb5a8
+http://scalapro.net/designing-facades-in-scala-js/
+https://medium.com/@takezoe/integrate-scala-js-with-existing-javascript-eco-system-1b841cfc6431
+```
+
 ### Launch this project:
 ```
 1. clone the project
@@ -186,5 +194,53 @@ CfaosKOl08GhQJWq3m51Z3Jb
 
 firebase authentication UI
 https://github.com/firebase/firebaseui-web
+http://softauthor.com/learn-to-build-firebase-crud-app-with-javascript-part01-reading-data/
+https://github.com/FirebaseExtended/reactfire
+```
+
+
+React tools
+```
+
+C:\Users\h217119\IdeaProjects\ScalaJsWebApp>npm install -g react-devtools
+C:\Users\h217119\AppData\Roaming\npm\react-devtools -> C:\Users\h217119\AppData\Roaming\npm\node_modules\react-devtools\bin.js
+
+> electron@1.8.8 postinstall C:\Users\h217119\AppData\Roaming\npm\node_modules\react-devtools\node_modules\electron
+> node install.js
+
+Downloading SHASUMS256.txt
+[============================================>] 100.0% of 5.74 kB (5.74 kB/s)
++ react-devtools@3.3.2
+added 235 packages from 144 contributors in 853.228s
+
+C:\Users\h217119\IdeaProjects\ScalaJsWebApp>npm install -g react-devtools --save
+C:\Users\h217119\AppData\Roaming\npm\react-devtools -> C:\Users\h217119\AppData\Roaming\npm\node_modules\react-devtools\bin.js
++ react-devtools@3.3.2
+updated 1 package in 22.387s
 
 ```
+
+react camera
+```
+npm install react-camera --save
+```
+
+npm update dependencies
+```
+
+
+npm i -g npm-check-updates
+ncu -u
+npm install
+
+```
+
+
+###
+Scala js bundler to add npm dependencies
+```
+http://scala-js.github.io/scala-js-dom/
+https://www.scala-lang.org/blog/2016/10/19/scalajs-bundler.html
+https://medium.com/@michaelmangial1/getting-started-with-scala-js-scalavue-and-scalareact-for-the-javascript-developer-ac578ddcb5a8
+```
+

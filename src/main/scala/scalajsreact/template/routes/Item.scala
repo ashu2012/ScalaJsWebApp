@@ -1,6 +1,6 @@
 package scalajsreact.template.routes
 
-import scalajsreact.template.components.items.{CameraTest, Item1Data, Item2Data, ItemsInfo}
+import scalajsreact.template.components.items.{CallbackTest, Item1Data, Item2Data, ItemsInfo, CameraTest,Login}
 import scalajsreact.template.pages.ItemsPage
 import japgolly.scalajs.react.extra.router.RouterConfigDsl
 import japgolly.scalajs.react.vdom.VdomElement
@@ -17,9 +17,15 @@ object Item {
 
   case object Item2 extends Item("Item2", "item2", () => Item2Data())
 
-  case object callbacktest extends Item("CameraTest", "CameraTest", () => CameraTest())
+  case object CallbackTestMenuItem extends Item("CallbackTest", "CallbackTest", () => CallbackTest())
 
-  val menu = Vector(Info, Item1, Item2,callbacktest)
+
+  case object LoginMenuItem extends Item("Login", "Login", () => Login())
+
+
+  case object CameraTestMenuItem extends Item("Camera", "CameraTest", () => CameraTest())
+
+  val menu = Vector(Info, Item1, Item2,CallbackTestMenuItem ,LoginMenuItem, CameraTestMenuItem)
 
   val routes = RouterConfigDsl[Item].buildRule { dsl =>
     import dsl._
