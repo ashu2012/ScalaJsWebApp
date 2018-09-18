@@ -11,25 +11,24 @@ import scala.scalajs.js
 import scala.scalajs.js.annotation.{JSGlobal, ScalaJSDefined}
 import js.DynamicImplicits._
 import scala.scalajs.js.Dynamic
+import scalajsreact.template.components.FirebaseFacade
+import scalajsreact.template.components.FirebaseFacade.firebase.Firebase
 
-
+/*
 @js.native
 @JSGlobal("firebase")
 object firebase extends js.Object{
-
-
   def initializeApp(config: js.Object): Unit = js.native
-
   def database():  js.Any = js.native
 }
-
-
 
 sealed trait credentials
 case class firebaseApiCredentials(typeCredits:String , project_id :String, private_key_id:String ,private_key:String,client_email:String,client_id:String,auth_uri:String,token_uri:String,auth_provider_x509_cert_url:String,client_x509_cert_url:String) extends credentials
 
-
+@js.native
 class firebaseAppConfig(apiKey:String,authDomain:String, databaseURL:String) extends  js.Object
+
+*/
 
 
 case class State( loggedIn: Boolean,
@@ -39,30 +38,33 @@ case class State( loggedIn: Boolean,
 object Login  {
 
 
-  def initializeApp={
-    /*
+  def initializeApp()={
 
+
+    /*
   var config = {
   apiKey: "apiKey",
   authDomain: "projectId.firebaseapp.com",
   databaseURL: "https://databaseName.firebaseio.com"
   };
-
   firebase.initializeApp(config);
-
   var rootRef = firebase.database().ref();
+
+  "projectId" : "api-project-1021787054473",
+  "storageBucket" : "api-project-1021787054473.appspot.com",
+  "messagingSenderId" : "1021787054473"
   */
-
-
     val apiKey= "AIzaSyCT7g1W-EmqDTv2N-s-em1QTWvpfZH0seI"
     val authDomain=  "api-project-1021787054473.firebaseapp.com"
     val databaseURL ="https://api-project-1021787054473.firebaseio.com"
-
-
-    var config = new firebaseAppConfig(apiKey,authDomain,databaseURL)
-    firebase.initializeApp(config)
-    println(firebase)
-    println(firebase.database())
+    val projectId = "api-project-1021787054473"
+    val storageBucket = "api-project-1021787054473.appspot.com"
+    val messagingSenderId = "1021787054473"
+    var config = FirebaseFacade.firebase.FirebaseConfig(apiKey,authDomain,databaseURL,storageBucket,messagingSenderId)
+    var fjs = FirebaseFacade.firebase.Firebase
+    fjs.initializeApp(config)
+    println(fjs.SDK_VERSION)
+    println(fjs.database().ref(databaseURL))
   }
 
 
@@ -85,7 +87,21 @@ object Login  {
       $.modState(state => State(false, "not logged in", "firebase intializing trying"))
     }
     def logMouseEnter(e: ReactMouseEventFromTextArea) = {
-      initializeApp
+     // initializeApp()
+
+      val apiKey= "AIzaSyCT7g1W-EmqDTv2N-s-em1QTWvpfZH0seI"
+      val authDomain=  "api-project-1021787054473.firebaseapp.com"
+      val databaseURL ="https://api-project-1021787054473.firebaseio.com"
+      val projectId = "api-project-1021787054473"
+      val storageBucket = "api-project-1021787054473.appspot.com"
+      val messagingSenderId = "1021787054473"
+      var config = FirebaseFacade.firebase.FirebaseConfig(apiKey,authDomain,databaseURL,storageBucket,messagingSenderId)
+      var fjs = FirebaseFacade.firebase.Firebase
+      fjs.initializeApp(config)
+      println(fjs.SDK_VERSION)
+      println(fjs.database().refFromURL(databaseURL))
+
+
       logEvent(s"Mouse enter @ ${e.pageX},${e.pageY}")
     }
     val logWindowClick               = logEvent("Window clicked.")

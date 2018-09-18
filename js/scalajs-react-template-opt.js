@@ -1080,6 +1080,7 @@ var $asArrayOf_J = $makeAsArrayOfPrimitive($isArrayOf_J, "J");
 var $asArrayOf_F = $makeAsArrayOfPrimitive($isArrayOf_F, "F");
 var $asArrayOf_D = $makeAsArrayOfPrimitive($isArrayOf_D, "D");
 
+var $i_firebase = require("firebase");
 var $i_react = require("react");
 var $i_react$002ddom = require("react-dom");
 function $is_F0(obj) {
@@ -13299,18 +13300,6 @@ $c_Lscalajsreact_template_components_items_Login$.prototype.init___ = (function(
   })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
   return this
 });
-$c_Lscalajsreact_template_components_items_Login$.prototype.initializeApp__V = (function() {
-  var config = new $g.firebaseAppConfig("AIzaSyCT7g1W-EmqDTv2N-s-em1QTWvpfZH0seI", "api-project-1021787054473.firebaseapp.com", "https://api-project-1021787054473.firebaseio.com");
-  $g.firebase.initializeApp(config);
-  var x = $g.firebase;
-  var this$2 = $m_s_Console$();
-  var this$3 = $as_Ljava_io_PrintStream(this$2.outVar$2.v$1);
-  this$3.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"));
-  var x$1 = $g.firebase.database();
-  var this$5 = $m_s_Console$();
-  var this$6 = $as_Ljava_io_PrintStream(this$5.outVar$2.v$1);
-  this$6.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x$1 + "\n"))
-});
 $c_Lscalajsreact_template_components_items_Login$.prototype.apply__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
   var c = this.component$1;
   return $as_Ljapgolly_scalajs_react_component_Generic$UnmountedSimple($as_Ljapgolly_scalajs_react_CtorType$Nullary(c.ctor__Ljapgolly_scalajs_react_CtorType()).apply__O()).vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
@@ -13378,7 +13367,17 @@ $c_Lscalajsreact_template_components_items_Login$Backend.prototype.init___Ljapgo
   return this
 });
 $c_Lscalajsreact_template_components_items_Login$Backend.prototype.logMouseEnter__Ljapgolly_scalajs_react_raw_SyntheticMouseEvent__F0 = (function(e) {
-  $m_Lscalajsreact_template_components_items_Login$().initializeApp__V();
+  var config = new $c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig().init___T__T__T__T__T("AIzaSyCT7g1W-EmqDTv2N-s-em1QTWvpfZH0seI", "api-project-1021787054473.firebaseapp.com", "https://api-project-1021787054473.firebaseio.com", "api-project-1021787054473.appspot.com", "1021787054473");
+  var fjs = $i_firebase;
+  fjs.initializeApp(config);
+  var x = $as_T(fjs.SDK_VERSION);
+  var this$2 = $m_s_Console$();
+  var this$3 = $as_Ljava_io_PrintStream(this$2.outVar$2.v$1);
+  this$3.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"));
+  var x$1 = fjs.database().refFromURL("https://api-project-1021787054473.firebaseio.com");
+  var this$5 = $m_s_Console$();
+  var this$6 = $as_Ljava_io_PrintStream(this$5.outVar$2.v$1);
+  this$6.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x$1 + "\n"));
   var array = ["Mouse enter @ ", ",", ""];
   var jsx$1 = new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
   var array$1 = [$uD(e.pageX), $uD(e.pageY)];
@@ -31924,6 +31923,151 @@ function $m_Lscalacss_package$Defaults$() {
   };
   return $n_Lscalacss_package$Defaults$
 }
+/** @constructor */
+function $c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig() {
+  $c_O.call(this);
+  this.apiKey$1 = null;
+  this.authDomain$1 = null;
+  this.databaseURL$1 = null;
+  this.storageBucket$1 = null;
+  this.messagingSenderId$1 = null
+}
+$c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype = new $h_O();
+$c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype.constructor = $c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig;
+/** @constructor */
+function $h_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig() {
+  /*<skip>*/
+}
+$h_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype = $c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype;
+$c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype.productPrefix__T = (function() {
+  return "FirebaseConfig"
+});
+$c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype.productArity__I = (function() {
+  return 5
+});
+$c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig(x$1)) {
+    var FirebaseConfig$1 = $as_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig(x$1);
+    return (((((this.apiKey$1 === FirebaseConfig$1.apiKey$1) && (this.authDomain$1 === FirebaseConfig$1.authDomain$1)) && (this.databaseURL$1 === FirebaseConfig$1.databaseURL$1)) && (this.storageBucket$1 === FirebaseConfig$1.storageBucket$1)) && (this.messagingSenderId$1 === FirebaseConfig$1.messagingSenderId$1))
+  } else {
+    return false
+  }
+});
+$c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.apiKey$1;
+      break
+    }
+    case 1: {
+      return this.authDomain$1;
+      break
+    }
+    case 2: {
+      return this.databaseURL$1;
+      break
+    }
+    case 3: {
+      return this.storageBucket$1;
+      break
+    }
+    case 4: {
+      return this.messagingSenderId$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype.$$js$exported$prop$apiKey__O = (function() {
+  return this.apiKey$1
+});
+$c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype.$$js$exported$prop$messagingSenderId__O = (function() {
+  return this.messagingSenderId$1
+});
+$c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype.$$js$exported$prop$databaseURL__O = (function() {
+  return this.databaseURL$1
+});
+$c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype.$$js$exported$prop$authDomain__O = (function() {
+  return this.authDomain$1
+});
+$c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype.init___T__T__T__T__T = (function(apiKey, authDomain, databaseURL, storageBucket, messagingSenderId) {
+  this.apiKey$1 = apiKey;
+  this.authDomain$1 = authDomain;
+  this.databaseURL$1 = databaseURL;
+  this.storageBucket$1 = storageBucket;
+  this.messagingSenderId$1 = messagingSenderId;
+  return this
+});
+$c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype.$$js$exported$prop$storageBucket__O = (function() {
+  return this.storageBucket$1
+});
+$c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+Object.defineProperty($c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype, "messagingSenderId", {
+  "get": (function() {
+    return this.$$js$exported$prop$messagingSenderId__O()
+  }),
+  "configurable": true
+});
+Object.defineProperty($c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype, "storageBucket", {
+  "get": (function() {
+    return this.$$js$exported$prop$storageBucket__O()
+  }),
+  "configurable": true
+});
+Object.defineProperty($c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype, "databaseURL", {
+  "get": (function() {
+    return this.$$js$exported$prop$databaseURL__O()
+  }),
+  "configurable": true
+});
+Object.defineProperty($c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype, "authDomain", {
+  "get": (function() {
+    return this.$$js$exported$prop$authDomain__O()
+  }),
+  "configurable": true
+});
+Object.defineProperty($c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype, "apiKey", {
+  "get": (function() {
+    return this.$$js$exported$prop$apiKey__O()
+  }),
+  "configurable": true
+});
+function $is_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig)))
+}
+function $as_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig(obj) {
+  return (($is_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scalajsreact.template.components.FirebaseFacade.firebase.FirebaseConfig"))
+}
+function $isArrayOf_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig)))
+}
+function $asArrayOf_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig(obj, depth) {
+  return (($isArrayOf_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalajsreact.template.components.FirebaseFacade.firebase.FirebaseConfig;", depth))
+}
+var $d_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig = new $TypeData().initClass({
+  Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig: 0
+}, false, "scalajsreact.template.components.FirebaseFacade.firebase.FirebaseConfig", {
+  Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig.prototype.$classData = $d_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig;
 /** @constructor */
 function $c_Lscalajsreact_template_components_LeftNav$Props() {
   $c_O.call(this);

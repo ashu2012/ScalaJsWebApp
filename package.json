@@ -27,13 +27,14 @@
     "semantic-ui-react": "0.68.5",
     "snabbdom": "0.5.3",
     "svg-loader": "0.0.2",
-    "url-loader": "^1.1.1"
+    "url-loader": "^1.1.1",
+    "webpack-merge": "^4.1.4"
   },
   "devDependencies": {
     "concat-with-sourcemaps": "1.0.7",
     "source-map-loader": "0.1.5",
     "webpack": "^4.18.1",
     "webpack-cli": "0.0.8-development",
-    "webpack-dev-server": "2.11.1"
+    "webpack-dev-server": "^2.11.3"
   }
 }

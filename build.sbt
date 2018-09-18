@@ -108,6 +108,7 @@ lazy val bundlerSettings =
       "firebase"                          ->  "5.4.2",
       "firebase-admin"                    -> "6.0.0",
       "webpack"                            -> "4.18.1",
+      "webpack-merge"                      -> "4.1.0",
       "file-loader"                       -> "2.0.0",
       "jquery"                             ->"3.3.1"
 
