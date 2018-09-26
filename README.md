@@ -244,3 +244,4 @@ https://www.scala-lang.org/blog/2016/10/19/scalajs-bundler.html
 https://medium.com/@michaelmangial1/getting-started-with-scala-js-scalavue-and-scalareact-for-the-javascript-developer-ac578ddcb5a8
 ```
 
+firebase

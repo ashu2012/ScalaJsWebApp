@@ -64,7 +64,7 @@ object Login  {
     var fjs = FirebaseFacade.firebase.Firebase
     fjs.initializeApp(config)
     println(fjs.SDK_VERSION)
-    println(fjs.database().ref(databaseURL))
+   // println(fjs.database().ref(databaseURL))
   }
 
 
@@ -99,6 +99,14 @@ object Login  {
       var fjs = FirebaseFacade.firebase.Firebase
       fjs.initializeApp(config)
       println(fjs.SDK_VERSION)
+      println("reading firebase data")
+      var db= fjs.database()
+      var dataSnapshot =  db.ref().child("user").
+      db.ref("user/").once("value",( dataSnapshot:)={
+        dataSnapshot.paren)
+
+      })
+
       println(fjs.database().refFromURL(databaseURL))
 
 
