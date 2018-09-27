@@ -13,6 +13,8 @@ scalaVersion := "2.12.1"
 val scalaJSReactVersion = "1.0.1"
 val scalaCssVersion = "0.5.3-RC1"
 val reactJSVersion = "15.5.4"
+version in webpack := "4.20.2"
+version in startWebpackDevServer := "3.1.4"
 
 resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
 
@@ -67,7 +69,7 @@ lazy val reactVersion = "15.5.4"
 
 lazy val bundlerSettings =
   Seq(
-    version in webpack := "2.6.1",
+    version in webpack := "4.20.2",
     scalaJSUseMainModuleInitializer := true,
     scalaJSUseMainModuleInitializer.in(Test) := false,
     artifactPath.in(Compile, fastOptJS) := ((crossTarget in (Compile, fastOptJS)).value /
@@ -80,7 +82,7 @@ lazy val bundlerSettings =
           )) ** "*.*",
     webpackEmitSourceMaps := false,
     webpackConfigFile in (Compile, fastOptJS) := Some(
-        baseDirectory.value / "webpack.config.dev.js"),
+        baseDirectory.value / "scalajs.webpack.config.js"),
    // useYarn := true,
     npmDependencies.in(Compile) := Seq(
       "elemental"                         -> EuiVersion,

@@ -13360,6 +13360,17 @@ $c_Lscalajsreact_template_components_items_Login$Backend.prototype.logEvent__T__
     })
   })(this)), this.$$$1.modState$default$2__F0())).japgolly$scalajs$react$CallbackTo$$f$1
 });
+$c_Lscalajsreact_template_components_items_Login$Backend.prototype.successCallback$1__p1__Lscalajsreact_template_components_FirebaseFacade_firebase_database_DataSnapshot__sjs_js_$bar__sjs_js_Any = (function(datSnapshot, b) {
+  var x = $objectToString(datSnapshot);
+  var this$2 = $m_s_Console$();
+  var this$3 = $as_Ljava_io_PrintStream(this$2.outVar$2.v$1);
+  this$3.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"));
+  var this$5 = $m_s_Console$();
+  var this$6 = $as_Ljava_io_PrintStream(this$5.outVar$2.v$1);
+  this$6.java$lang$JSConsoleBasedPrintStream$$printString__T__V("success callback\n");
+  var value = (void 0);
+  return value
+});
 $c_Lscalajsreact_template_components_items_Login$Backend.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function($$) {
   this.$$$1 = $$;
   this.logWindowClick$1 = this.logEvent__T__F0("Window clicked.");
@@ -13374,10 +13385,21 @@ $c_Lscalajsreact_template_components_items_Login$Backend.prototype.logMouseEnter
   var this$2 = $m_s_Console$();
   var this$3 = $as_Ljava_io_PrintStream(this$2.outVar$2.v$1);
   this$3.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"));
-  var x$1 = fjs.database().refFromURL("https://api-project-1021787054473.firebaseio.com");
   var this$5 = $m_s_Console$();
   var this$6 = $as_Ljava_io_PrintStream(this$5.outVar$2.v$1);
-  this$6.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x$1 + "\n"));
+  this$6.java$lang$JSConsoleBasedPrintStream$$printString__T__V("reading firebase data\n");
+  var db = fjs.database();
+  db.ref().child("user");
+  var jsSuccessFun = (function(arg$outer) {
+    return (function(arg1$2, arg2$2) {
+      return arg$outer.successCallback$1__p1__Lscalajsreact_template_components_FirebaseFacade_firebase_database_DataSnapshot__sjs_js_$bar__sjs_js_Any(arg1$2, arg2$2)
+    })
+  })(this);
+  db.ref("user/").once("value", jsSuccessFun, null, null);
+  var x$1 = fjs.database().refFromURL("https://api-project-1021787054473.firebaseio.com");
+  var this$8 = $m_s_Console$();
+  var this$9 = $as_Ljava_io_PrintStream(this$8.outVar$2.v$1);
+  this$9.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x$1 + "\n"));
   var array = ["Mouse enter @ ", ",", ""];
   var jsx$1 = new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
   var array$1 = [$uD(e.pageX), $uD(e.pageY)];

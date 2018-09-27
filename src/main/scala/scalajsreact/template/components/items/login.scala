@@ -10,9 +10,10 @@ import org.scalajs.dom.html.Div
 import scala.scalajs.js
 import scala.scalajs.js.annotation.{JSGlobal, ScalaJSDefined}
 import js.DynamicImplicits._
-import scala.scalajs.js.Dynamic
+import scala.scalajs.js.{Dynamic, Promise}
 import scalajsreact.template.components.FirebaseFacade
 import scalajsreact.template.components.FirebaseFacade.firebase.Firebase
+import scalajsreact.template.components.FirebaseFacade.firebase.database.DataSnapshot
 
 /*
 @js.native
@@ -101,11 +102,14 @@ object Login  {
       println(fjs.SDK_VERSION)
       println("reading firebase data")
       var db= fjs.database()
-      var dataSnapshot =  db.ref().child("user").
-      db.ref("user/").once("value",( dataSnapshot:)={
-        dataSnapshot.paren)
+      var dtSnapshot =  db.ref().child("user")
+      def successCallback( datSnapshot:DataSnapshot,b:js.|[String,Null] ):js.Any={
 
-      })
+        println(datSnapshot.toString())
+        println("success callback")
+      }
+      val jsSuccessFun: js.Function2[DataSnapshot, js.|[String,Null], Any] = successCallback
+      val p= db.ref("user/").once("value",jsSuccessFun, null,null )
 
       println(fjs.database().refFromURL(databaseURL))
 

@@ -1,7 +1,7 @@
 'use strict';
 
 var webpack = require('webpack');
-var _ = require('lodash');
+//var _ = require('lodash');
 var merge = require("webpack-merge")
 //var commonConfig = require("./scalajs.webpack.config")
 
