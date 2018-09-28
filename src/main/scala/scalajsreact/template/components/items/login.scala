@@ -8,12 +8,13 @@ import japgolly.scalajs.react.extra.{EventListener, OnUnmount}
 import org.scalajs.dom.html.Div
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.{JSGlobal, ScalaJSDefined}
+import scala.scalajs.js.annotation.{JSGlobal, JSGlobalScope, ScalaJSDefined}
 import js.DynamicImplicits._
 import scala.scalajs.js.{Dynamic, Promise}
 import scalajsreact.template.components.FirebaseFacade
 import scalajsreact.template.components.FirebaseFacade.firebase.Firebase
 import scalajsreact.template.components.FirebaseFacade.firebase.database.DataSnapshot
+import js.Dynamic.{ global => g }
 
 /*
 @js.native
@@ -36,6 +37,12 @@ case class State( loggedIn: Boolean,
                   currentState: String,
                   someInitialValue: String)
 
+@JSGlobalScope
+object Globals extends  js.Object {
+  var fbjsApp: js.Any = null
+}
+
+
 object Login  {
 
 
@@ -54,7 +61,7 @@ object Login  {
   "projectId" : "api-project-1021787054473",
   "storageBucket" : "api-project-1021787054473.appspot.com",
   "messagingSenderId" : "1021787054473"
-  */
+
     val apiKey= "AIzaSyCT7g1W-EmqDTv2N-s-em1QTWvpfZH0seI"
     val authDomain=  "api-project-1021787054473.firebaseapp.com"
     val databaseURL ="https://api-project-1021787054473.firebaseio.com"
@@ -66,6 +73,7 @@ object Login  {
     fjs.initializeApp(config)
     println(fjs.SDK_VERSION)
    // println(fjs.database().ref(databaseURL))
+    */
   }
 
 
@@ -98,14 +106,19 @@ object Login  {
       val messagingSenderId = "1021787054473"
       var config = FirebaseFacade.firebase.FirebaseConfig(apiKey,authDomain,databaseURL,storageBucket,messagingSenderId)
       var fjs = FirebaseFacade.firebase.Firebase
-      fjs.initializeApp(config)
-      println(fjs.SDK_VERSION)
-      println("reading firebase data")
+      if (js.isUndefined(js.Dynamic.global.fbjsApp)) {
+        js.Dynamic.global.fbjsApp =  fjs.initializeApp(config)
+        println(fjs.SDK_VERSION)
+        println("reading firebase data")
+      } else {
+        println("no need to again intialize firebase app")
+      }
+
       var db= fjs.database()
-      var dtSnapshot =  db.ref().child("user")
+      var datSnapshot =  db.ref("user/")
       def successCallback( datSnapshot:DataSnapshot,b:js.|[String,Null] ):js.Any={
 
-        println(datSnapshot.toString())
+        println(datSnapshot.`val`())
         println("success callback")
       }
       val jsSuccessFun: js.Function2[DataSnapshot, js.|[String,Null], Any] = successCallback
