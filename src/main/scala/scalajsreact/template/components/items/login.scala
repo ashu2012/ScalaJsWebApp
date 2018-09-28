@@ -115,14 +115,21 @@ object Login  {
       }
 
       var db= fjs.database()
-      var datSnapshot =  db.ref("user/")
+      var datSnapshot =  db.ref("user")
       def successCallback( datSnapshot:DataSnapshot,b:js.|[String,Null] ):js.Any={
 
         println(datSnapshot.`val`())
+        def printData(ds:DataSnapshot)={
+          println(ds.child("comments").`val`())
+          true
+        }
+        val jsPrintData:js.Function1[DataSnapshot,Boolean]=printData
+        datSnapshot.forEach(jsPrintData)
         println("success callback")
+        println(b)
       }
       val jsSuccessFun: js.Function2[DataSnapshot, js.|[String,Null], Any] = successCallback
-      val p= db.ref("user/").once("value",jsSuccessFun, null,null )
+      val p= db.ref("user").once("value",jsSuccessFun, null,null )
 
       println(fjs.database().refFromURL(databaseURL))
 
