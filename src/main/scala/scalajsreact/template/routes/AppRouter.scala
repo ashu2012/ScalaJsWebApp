@@ -33,8 +33,8 @@ object AppRouter {
   }
 
   val mainMenu = Vector(
-    Menu("Home", Home),
-    Menu("Items", Items(Item.Info))
+    Menu("StockNap", Home),
+    Menu("Login", Items(Item.Info))
   )
 
   def layout(c: RouterCtl[AppPage], r: Resolution[AppPage]) =
@@ -44,7 +44,7 @@ object AppRouter {
       Footer()
     )
 
-  val baseUrl = BaseUrl.fromWindowOrigin/ "scalajs-react-template/"
+  val baseUrl = BaseUrl.fromWindowOrigin/ "stocknap/"
 
   val router = Router(baseUrl, config)
 }

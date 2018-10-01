@@ -4,16 +4,14 @@ import scalacss.Defaults._
 import scalacss.ScalaCssReact._
 import scalajsreact.template.models.Menu
 import scalajsreact.template.routes.AppRouter.AppPage
-
 import japgolly.scalajs.react._
 import japgolly.scalajs.react.extra.Reusability
 import japgolly.scalajs.react.extra.router.RouterCtl
 import japgolly.scalajs.react.vdom.html_<^._
+import scalacss.internal.LengthUnit.px
 
 import scala.scalajs.js
-
-import chandu0101.scalajs.react.components.materialui._
-
+//import scalatags.JsDom.all._
 
 
 object TopNav {
@@ -38,6 +36,28 @@ object TopNav {
           &.hover(backgroundColor(c"#B6413E")))
       )
     }
+
+
+    /* toggle
+     .toggle{
+      display: none;
+      a{
+        text-decoration: none;
+        color: white;
+        display: block;
+        font-size: 25px;
+      }
+      @media (max-width: 767px){
+        align-items: center;
+        display: flex;
+      }
+    }
+
+    */
+
+
+
+
   }
 
   case class Props(menus: Vector[Menu],
@@ -47,7 +67,7 @@ object TopNav {
   implicit val currentPageReuse = Reusability.by_==[AppPage]
   implicit val propsReuse = Reusability.by((_: Props).selectedPage)
 
-  
+  /* old code
   val component = ScalaComponent
     .builder[Props]("TopNav")
     .render_P { P =>
@@ -70,81 +90,37 @@ object TopNav {
     .configure(Reusability.shouldComponentUpdate)
     .build
 
-  
-
-  //TODO to add Material Ui component
-  //below for frontEnd Layout
-/*
-  val component = ScalaComponent
-    .builder[Props]("TopNav")
-    .render { _ =>
-      <.div(
-        
-          MuiAppBar(
-            title = js.defined("Title"),
-            onLeftIconButtonClick = CallbackDebug.f1("onLeftIconButtonClick"),
-            onRightIconButtonClick = CallbackDebug.f1("onRightIconButtonClick"),
-            onTitleClick = CallbackDebug.f1("onTitleClick"),
-            showMenuIconButton = true
-          )()
-
-          MuiTabs()(
-            MuiTab(key = "tab1", label = js.defined("Flat Buttons"))(
-              <.div(
-                Style.content,
-                MuiFlatButton(
-                  key = "flat1",
-                  label = "Default",
-                  onBlur = CallbackDebug.f1("onBlur"),
-                  onFocus = CallbackDebug.f1("onFocus"),
-                  onKeyboardFocus = CallbackDebug.f2("onKeyboardFocus"),
-                  onKeyDown = CallbackDebug.f1("onKeyDown"),
-                  onKeyUp = CallbackDebug.f1("onKeyUp"),
-                  onClick = CallbackDebug.f1("onClick"),
-                  onMouseLeave = CallbackDebug.f1("onMouseLeave"),
-                  onTouchStart = CallbackDebug.f1("onTouchStart"),
-                  onMouseEnter = CallbackDebug.f1("onMouseEnter")
-                )(),
-                MuiFlatButton(key = "flat2", label = "Primary", primary = true)(),
-                MuiFlatButton(key = "flat3", label = "Secondary", secondary = true)(),
-                MuiFlatButton(key = "flat4", label = "Disabled", disabled = true)()
-              )
-            ),
-            MuiTab(key = "tab2", label = js.defined("Raised Buttons"))(
-              <.div(
-                Style.content,
-                MuiRaisedButton(key = "raised1", label = "Default")(),
-                MuiRaisedButton(key = "raised2", label = "Primary", primary = true)(),
-                MuiRaisedButton(key = "raised3", label = "Secondary", secondary = true)(),
-                MuiRaisedButton(key = "raised4", label = "Disabled", disabled = true)()
-              )
-            ),
-            MuiTab(key = "tab3", label = js.defined("Floating Action Buttons"))(
-              <.div(
-                Style.content,
-                MuiFloatingActionButton(key = "floating1")(ActionGrade()()),
-                MuiFloatingActionButton(key = "floating2", mini = true)(ActionGrade()()),
-                MuiFloatingActionButton(key = "floating3", secondary = true)(ActionGrade()()),
-                MuiFloatingActionButton(key = "floating4", secondary = true, mini = true)(
-                  ActionGrade()())
-              )
-            ),
-            MuiTab(key = "tab4", label = js.defined("Icon Buttons"))(
-              <.div(
-                Style.content,
-                MuiIconButton(onClick = CallbackDebug.f1("onClick"))(ActionGrade()())
-              )
-            )
-          )
-          
-        )
-      
-    }
-    .build
 */
 
+  val component = ScalaComponent
+    .builder[Props]("TopNav")
+    .render_P { P =>
+      <.header()(
+          <.nav()(
+            <.div(^.`class`:= "container-nav")(
+              <.div(^.cls:= "logo")(
+                <.img(^.src:=  "http://pre07.deviantart.net/a18f/th/pre/i/2014/115/1/6/pez_del_infierno_01_by_camusjpc-d7fy0rk.png",^.width:=50.px,^.height:=50.px )
+              ),
+              <.div(^.cls:="toggle",Style.toggle)(
+                <.a(^.href:="#", ^.cls:= "btn-toggle", ^.onClick(^.))("☰")
+              )
+            )
+        ,<.ul(Style.navMenu,^.cls:="toggle-nav",
+          P.menus.toTagMod { item =>
+            <.li(
+              ^.key := item.name,
+              Style.menuItem(item.route.getClass == P.selectedPage.getClass),
+              item.name,
+              P.ctrl setOnClick item.route
+            )
+          })
 
-
+          )
+      )
+    }
+    .configure(Reusability.shouldComponentUpdate)
+    .build
+  
 
   def apply(props: Props) = component(props)
 

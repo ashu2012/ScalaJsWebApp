@@ -244,6 +244,8 @@ https://github.com/scalacenter/scalajs-bundler/blob/master/manual/src/ornate/coo
 http://scala-js.github.io/scala-js-dom/
 https://www.scala-lang.org/blog/2016/10/19/scalajs-bundler.html
 https://medium.com/@michaelmangial1/getting-started-with-scala-js-scalavue-and-scalareact-for-the-javascript-developer-ac578ddcb5a8
+https://medium.com/@ruthmpardee/passing-data-between-react-components-103ad82ebd17
+https://codepen.io/AleGonzalez/pen/YWxXaj
 ```
 
 firebase

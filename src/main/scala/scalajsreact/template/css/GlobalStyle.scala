@@ -1,6 +1,7 @@
 package scalajsreact.template.css
 
 import scalacss.Defaults._
+import scalajsreact.template.components.TopNav.Style.style
 
 object GlobalStyle extends StyleSheet.Inline {
 
@@ -14,4 +15,21 @@ object GlobalStyle extends StyleSheet.Inline {
       fontFamily := "Roboto, sans-serif"
     )
   )
+  val toggle = style(
+    display.none,
+
+    unsafeChild("a")(
+      textDecoration:=none,
+      color.white,
+      display.block,
+      fontSize(25.px)
+
+    ),
+    media.maxWidth(767.px)(
+      alignItems.center,
+      display.flex
+    )
+  )
+
+  val
 }
