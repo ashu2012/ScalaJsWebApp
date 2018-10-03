@@ -248,4 +248,7 @@ https://medium.com/@ruthmpardee/passing-data-between-react-components-103ad82ebd
 https://codepen.io/AleGonzalez/pen/YWxXaj
 ```
 
-firebase
+scalajs-react vs sri
+```
+https://stackoverflow.com/questions/33125601/scalajs-react-vs-xored-scalajs-react-vs-sri
+```

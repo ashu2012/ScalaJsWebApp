@@ -82,7 +82,7 @@ lazy val bundlerSettings =
           )) ** "*.*",
     webpackEmitSourceMaps := false,
     webpackConfigFile in (Compile, fastOptJS) := Some(
-        baseDirectory.value / "scalajs.webpack.config-ubuntu.js"),
+        baseDirectory.value / "scalajs.webpack.config.js"),
    // useYarn := true,
     npmDependencies.in(Compile) := Seq(
       "elemental"                         -> EuiVersion,

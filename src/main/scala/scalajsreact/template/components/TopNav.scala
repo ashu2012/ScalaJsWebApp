@@ -9,7 +9,7 @@ import japgolly.scalajs.react.extra.Reusability
 import japgolly.scalajs.react.extra.router.RouterCtl
 import japgolly.scalajs.react.vdom.html_<^._
 import scalacss.internal.LengthUnit.px
-
+import scalajsreact.template.css.GlobalStyle
 import scala.scalajs.js
 //import scalatags.JsDom.all._
 
@@ -23,7 +23,10 @@ object TopNav {
     val navMenu = style(display.flex,
                         alignItems.center,
                         backgroundColor(c"#F2706D"),
-                        margin.`0`,
+                        margin(0 px , auto ),
+                        padding(15 px , 15 px),
+                        flexWrap.wrap,
+                        justifyContent.spaceBetween,
                         listStyle := "none")
 
     val menuItem = styleF.bool { selected =>
@@ -96,26 +99,23 @@ object TopNav {
     .builder[Props]("TopNav")
     .render_P { P =>
       <.header()(
-          <.nav()(
-            <.div(^.`class`:= "container-nav")(
-              <.div(^.cls:= "logo")(
-                <.img(^.src:=  "http://pre07.deviantart.net/a18f/th/pre/i/2014/115/1/6/pez_del_infierno_01_by_camusjpc-d7fy0rk.png",^.width:=50.px,^.height:=50.px )
+          <.nav(Style.navMenu)(
+              <.div(GlobalStyle.logo)(
+                <.img(^.src:=  "https://res.cloudinary.com/dq5pqcbnq/image/upload/v1538389452/logo.png",^.width:=50.px,^.height:=50.px )
               ),
-              <.div(^.cls:="toggle",Style.toggle)(
-                <.a(^.href:="#", ^.cls:= "btn-toggle", ^.onClick(^.))("☰")
+              <.div(GlobalStyle.toggle)(
+                <.a(^.href:="#", ^.cls:= "btn-toggle")("☰")
               )
+              ,<.ul(GlobalStyle.ul,
+                P.menus.toTagMod { item =>
+                  <.li(
+                    ^.key := item.name,
+                    Style.menuItem(item.route.getClass == P.selectedPage.getClass),
+                    item.name,
+                    P.ctrl setOnClick item.route
+                  )
+                })
             )
-        ,<.ul(Style.navMenu,^.cls:="toggle-nav",
-          P.menus.toTagMod { item =>
-            <.li(
-              ^.key := item.name,
-              Style.menuItem(item.route.getClass == P.selectedPage.getClass),
-              item.name,
-              P.ctrl setOnClick item.route
-            )
-          })
-
-          )
       )
     }
     .configure(Reusability.shouldComponentUpdate)
