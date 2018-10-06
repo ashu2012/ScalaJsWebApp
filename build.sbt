@@ -18,6 +18,7 @@ version in startWebpackDevServer := "3.1.4"
 
 resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
 
+resolvers += "jitpack" at "https://jitpack.io"
 
 libraryDependencies ++= Seq(
 	 "org.scala-js" %%% "scalajs-dom" % "0.9.2",
@@ -29,7 +30,8 @@ libraryDependencies ++= Seq(
   "com.github.japgolly.scalacss" %%% "core" % scalaCssVersion,
   "com.github.japgolly.scalacss" %%% "ext-react" % scalaCssVersion,
  "org.webjars.npm" % "loose-envify" % "1.1.0",
-  "org.webjars.npm" % "js-tokens" % "4.0.0"
+  "org.webjars.npm" % "js-tokens" % "4.0.0",
+  "com.github.fdietze" % "scala-js-fontawesome" % "master-SNAPSHOT"
 
 )
 
@@ -41,19 +43,6 @@ jsDependencies ++= Seq(
   "org.webjars.npm" % "react-dom" % reactJSVersion / "react-dom.js" commonJSName "ReactDOM" minified "react-dom.min.js" dependsOn "react-with-addons.js"
 )
 
-lazy val example =
-  project
-    .in(file("."))
-    .enablePlugins(ScalaJSPlugin, ScalaJSBundlerPlugin)
-    .settings(settings)
-    .settings(
-      libraryDependencies ++= Seq(
-        "com.github.benhutchison" %%% "prickle" % "1.1.13",
-        "com.github.japgolly.scalajs-react" %%% "core"                     % "1.0.1",
-        "com.github.japgolly.scalajs-react" %%% "extra"                    % "1.0.1",
-        "com.olvind"                        %%% "scalajs-react-components" % "1.0.+"
-      )
-    )
 
 // *****************************************************************************
 // Settings
@@ -85,28 +74,28 @@ lazy val bundlerSettings =
         baseDirectory.value / "scalajs.webpack.config.js"),
    // useYarn := true,
     npmDependencies.in(Compile) := Seq(
-      "elemental"                         -> EuiVersion,
-      "highlight.js"                      -> "9.9.0",
-      "material-ui"                       -> MuiVersion,
-      "react"                             -> reactVersion,
-      "react-dom"                         -> reactVersion,
-      "react-addons-create-fragment"      -> reactVersion,
-      "react-addons-css-transition-group" -> "15.0.2",
-      "react-addons-pure-render-mixin"    -> "15.5.2",
-      "react-addons-transition-group"     -> "15.0.0",
-      "react-addons-update"               -> "15.5.2",
-      "react-geomicons"                   -> "2.1.0",
-      "react-infinite"                    -> "0.11.0",
-      "react-select"                      -> "1.0.0-rc.5",
-      "react-slick"                       -> "0.14.11",
-      "react-spinner"                     -> "0.2.7",
-      "react-tagsinput"                   -> "3.16.1",
-      "react-tap-event-plugin"            -> "2.0.1",
-      "semantic-ui-react"                 -> SuiVersion,
-      "svg-loader"                        -> "0.0.2",
-      "snabbdom"                          -> "0.5.3",
-      "font-awesome"                      -> "4.7.0",
-      "url-loader"                        -> "0.5.9",
+     // "elemental"                         -> EuiVersion,
+    //  "highlight.js"                      -> "9.9.0",
+    //  "material-ui"                       -> MuiVersion,
+    //  "react"                             -> reactVersion,
+    //  "react-dom"                         -> reactVersion,
+    //  "react-addons-create-fragment"      -> reactVersion,
+    //  "react-addons-css-transition-group" -> "15.0.2",
+    //  "react-addons-pure-render-mixin"    -> "15.5.2",
+    //  "react-addons-transition-group"     -> "15.0.0",
+    //  "react-addons-update"               -> "15.5.2",
+    //  "react-geomicons"                   -> "2.1.0",
+    //  "react-infinite"                    -> "0.11.0",
+    //  "react-select"                      -> "1.0.0-rc.5",
+    //  "react-slick"                       -> "0.14.11",
+    //  "react-spinner"                     -> "0.2.7",
+    //  "react-tagsinput"                   -> "3.16.1",
+   //   "react-tap-event-plugin"            -> "2.0.1",
+    //  "semantic-ui-react"                 -> SuiVersion,
+    //  "svg-loader"                        -> "0.0.2",
+   //   "snabbdom"                          -> "0.5.3",
+   //   "font-awesome"                      -> "4.7.0",
+    //  "url-loader"                        -> "0.5.9",
       "firebase"                          ->  "5.4.2",
       "firebase-admin"                    -> "6.0.0",
       "webpack"                            -> "4.18.1",

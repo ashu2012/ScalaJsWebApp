@@ -12,6 +12,7 @@ object ReactApp extends JSApp {
   @JSExport
   override def main(): Unit = {
     AppCSS.load
+    dom.console.info("Router logging is enabled. Enjoy!")
     AppRouter.router().renderIntoDOM(dom.document.body)
   }
 
