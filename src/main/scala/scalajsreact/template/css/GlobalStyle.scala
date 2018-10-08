@@ -21,12 +21,12 @@ object GlobalStyle extends StyleSheet.Inline {
 
     unsafeChild("a")(
       textDecoration:=none,
-      color.white,
+      color.black,
       display.block,
-      fontSize(25.px)
+      fontSize(50.px)
 
     ),
-    media.maxWidth(767.px)(
+    media.maxWidth(2000.px)(
       alignItems.center,
       display.flex
     )
@@ -48,8 +48,8 @@ https://codepen.io/AleGonzalez/pen/YWxXaj
     display.flex,
     backgroundColor.black,
     unsafeChild("img")(
-      width(50.px),
-      height(50.px)
+      width(60.px),
+      height(60.px)
     )
   )
 
@@ -98,12 +98,12 @@ ul li{
     color(c"rgb(244, 233, 233)"),
     //backgroundColor(c"#E8433F"),
 
-    media.maxWidth(767.px)(
+    media.maxWidth(2000.px)(
       alignItems.center,
       //position.absolute,
       flexDirection.column,
       position.absolute,
-      top(75.px),
+      top(105.px),
       left(0.px),
       transition:=  "0.3 seconds",
       backgroundColor(Color("#F2706D")),
@@ -119,7 +119,7 @@ ul li{
       backgroundColor(Color("#0C0101")),
       alignItems.center,
       justifyContent.spaceBetween,
-      media.maxWidth(767.px)(
+      media.maxWidth(2000.px)(
         margin(15 px , 10 px)
       ) ,
       unsafeChild("a")(
@@ -128,7 +128,6 @@ ul li{
       )
     )
   )
-
 
 
 

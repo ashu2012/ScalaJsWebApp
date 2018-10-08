@@ -25,13 +25,13 @@ libraryDependencies ++= Seq(
 	"com.olvind" %%% "scalajs-react-components" % "1.0.+",
   "com.lihaoyi" %%% "scalatags" % "0.6.7",
   "io.surfkit" %%% "scalajs-google-maps" % "0.0.3-SNAPSHOT",
-"com.github.japgolly.scalajs-react" %%% "core" % scalaJSReactVersion,
+  "com.github.japgolly.scalajs-react" %%% "core" % scalaJSReactVersion,
   "com.github.japgolly.scalajs-react" %%% "extra" % scalaJSReactVersion,
   "com.github.japgolly.scalacss" %%% "core" % scalaCssVersion,
   "com.github.japgolly.scalacss" %%% "ext-react" % scalaCssVersion,
- "org.webjars.npm" % "loose-envify" % "1.1.0",
+  "org.webjars.npm" % "loose-envify" % "1.1.0",
   "org.webjars.npm" % "js-tokens" % "4.0.0",
-  "com.github.fdietze" % "scala-js-fontawesome" % "master-SNAPSHOT"
+  "org.querki" %%% "jquery-facade" % "1.2"
 
 )
 

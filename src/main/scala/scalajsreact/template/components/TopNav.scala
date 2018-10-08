@@ -12,7 +12,7 @@ import scalacss.internal.LengthUnit.px
 import scalajsreact.template.css.GlobalStyle
 import scala.scalajs.js
 //import scalatags.JsDom.all._
-
+import org.querki.jquery._
 
 object TopNav {
 
@@ -40,24 +40,13 @@ object TopNav {
       )
     }
 
-
-    /* toggle
-     .toggle{
-      display: none;
-      a{
-        text-decoration: none;
-        color: white;
-        display: block;
-        font-size: 25px;
-      }
-      @media (max-width: 767px){
-        align-items: center;
-        display: flex;
-      }
-    }
-
-    */
-
+    val fa_home = style(
+      color.black,
+      fontSize(40.px),
+      //backgroundColor.black,
+      padding(15.px),
+      fontFamily:="fontAwesome"
+    )
 
 
 
@@ -102,7 +91,7 @@ object TopNav {
           <.nav(Style.navMenu)(
               <.div(GlobalStyle.logo)(
                 <.img(^.src:=  "https://res.cloudinary.com/dq5pqcbnq/image/upload/v1538389452/logo.png",^.width:=50.px,^.height:=50.px )
-              ),
+              ),<.span(^.cls := "fa-home" , Style.fa_home),
               <.div(GlobalStyle.toggle)(
                 <.a(^.href:="#", ^.cls:= "btn-toggle")("☰")
               )
