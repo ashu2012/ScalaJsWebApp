@@ -1,5 +1,8 @@
 package scalajsreact.template.components
 
+//import chandu0101.scalajs.react.components.fascades.Icon
+//import fontAwesome.freeSolid._
+
 import scalacss.Defaults._
 import scalacss.ScalaCssReact._
 import scalajsreact.template.models.Menu
@@ -10,8 +13,11 @@ import japgolly.scalajs.react.extra.router.RouterCtl
 import japgolly.scalajs.react.vdom.html_<^._
 import scalacss.internal.LengthUnit.px
 import scalajsreact.template.css.GlobalStyle
+import scala.language.postfixOps
 import scala.scalajs.js
 //import scalatags.JsDom.all._
+//import fontAwesome._
+import scalajsreact.template.icons.reactIcons._
 
 
 object TopNav {
@@ -94,6 +100,12 @@ object TopNav {
     .build
 
 */
+  val g = js.Dynamic.global
+  val faObject =  faIcons
+  println("printing icons")
+  println(faObject.toString)
+  val iconHome = js.Dynamic.newInstance(faIcons.FaHome().asInstanceOf[js.Dynamic])
+  println(iconHome)
 
   val component = ScalaComponent
     .builder[Props]("TopNav")
@@ -114,6 +126,7 @@ object TopNav {
                     item.name,
                     P.ctrl setOnClick item.route
                   )
+
                 })
             )
       )

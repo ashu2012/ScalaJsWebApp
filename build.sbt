@@ -30,8 +30,8 @@ libraryDependencies ++= Seq(
   "com.github.japgolly.scalacss" %%% "core" % scalaCssVersion,
   "com.github.japgolly.scalacss" %%% "ext-react" % scalaCssVersion,
  "org.webjars.npm" % "loose-envify" % "1.1.0",
-  "org.webjars.npm" % "js-tokens" % "4.0.0",
-  "com.github.fdietze" % "scala-js-fontawesome" % "master-SNAPSHOT"
+  "org.webjars.npm" % "js-tokens" % "4.0.0"
+  //"com.github.fdietze" % "scala-js-fontawesome" % "master-SNAPSHOT"
 
 )
 
@@ -71,7 +71,7 @@ lazy val bundlerSettings =
           )) ** "*.*",
     webpackEmitSourceMaps := false,
     webpackConfigFile in (Compile, fastOptJS) := Some(
-        baseDirectory.value / "scalajs.webpack.config.js"),
+        baseDirectory.value / "scalajs.webpack.config-ubuntu.js"),
    // useYarn := true,
     npmDependencies.in(Compile) := Seq(
      // "elemental"                         -> EuiVersion,
@@ -94,8 +94,11 @@ lazy val bundlerSettings =
     //  "semantic-ui-react"                 -> SuiVersion,
     //  "svg-loader"                        -> "0.0.2",
    //   "snabbdom"                          -> "0.5.3",
-   //   "font-awesome"                      -> "4.7.0",
+    //  "@fortawesome/fontawesome"            -> "1.1.8",
+    //  "@fortawesome/fontawesome-svg-core"  ->"1.2.4",
+    //  "@fortawesome/free-solid-svg-icons"   -> "5.2.0",
     //  "url-loader"                        -> "0.5.9",
+      "react-icons"                         -> "3.1.0",
       "firebase"                          ->  "5.4.2",
       "firebase-admin"                    -> "6.0.0",
       "webpack"                            -> "4.18.1",

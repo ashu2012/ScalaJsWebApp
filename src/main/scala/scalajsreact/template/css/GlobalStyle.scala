@@ -4,6 +4,7 @@ import scala.language.postfixOps
 import scalacss.Defaults._
 import scalajsreact.template.components.TopNav.Style.{&, style}
 
+
 object GlobalStyle extends StyleSheet.Inline {
 
   import dsl._
