@@ -18,7 +18,8 @@ object GlobalStyle extends StyleSheet.Inline {
   )
   val toggle = style(
     display.none,
-
+    fontSize(50.px),
+    cursor.pointer,
     unsafeChild("a")(
       textDecoration:=none,
       color.black,
@@ -31,19 +32,7 @@ object GlobalStyle extends StyleSheet.Inline {
       display.flex
     )
   )
-/*
-https://codepen.io/AleGonzalez/pen/YWxXaj
- */
 
-  /*
-  .logo{
-  display: flex;
-  img{
-    width: 50px;
-    height: 50px;
-  }
-}
-   */
   val logo = style(
     display.flex,
     backgroundColor.black,
@@ -53,38 +42,6 @@ https://codepen.io/AleGonzalez/pen/YWxXaj
     )
   )
 
-  /*
-  ul{
-  list-style-type: none;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  @media (max-width: 767px){
-    align-items: center;
-    position: absolute;
-    flex-direction: column;
-    top: 0;
-    left: -250px;
-    transition: 0.3s;
-    background-color: #7f8c8d;
-    width: 250px;
-    height: 100%;
-
-  }
-}
-ul li{
-   margin: 0 10px;
-  color: #fff;
-  font-family: verdana;
-  @media (max-width: 767px){
-    margin: 15px 10px;
-  }
-  a{
-    text-decoration: none;
-    color: #fff;
-  }
-}
-   */
 
 
   val ul = style(
@@ -105,7 +62,8 @@ ul li{
       position.absolute,
       top(105.px),
       left(0.px),
-      transition:=  "0.3 seconds",
+     // transition:=  "0.3 seconds",
+      transition:= "left 0.2s",
       backgroundColor(Color("#F2706D")),
       //width(87.px),
       height(100.%%),

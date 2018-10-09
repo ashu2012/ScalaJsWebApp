@@ -11,7 +11,7 @@ import japgolly.scalajs.react.vdom.html_<^._
 import org.scalajs.dom
 import scalacss.internal.LengthUnit.px
 import scalajsreact.template.css.GlobalStyle
-
+import scala.language.postfixOps
 import scala.scalajs.js
 //import scalatags.JsDom.all._
 import org.querki.jquery._
@@ -44,7 +44,8 @@ object TopNav {
 
     val fa_home = style(
       color.black,
-      fontSize(40.px),
+      fontSize(50.px),
+      cursor.pointer,
       //backgroundColor.black,
       padding(15.px),
       fontFamily:="fontAwesome"
@@ -98,11 +99,11 @@ object TopNav {
       Callback.log("horizontal bar are clicked")
       //togle side panel
       $.modState(State => {
-        if (State.displaySidePanel == "block"){
-          State.copy("none")
+        if (State.displaySidePanel == "0px"){
+          State.copy("-150px")
         }
         else{
-          State.copy("block")
+          State.copy("0px")
         }
       })
     }
@@ -115,11 +116,9 @@ object TopNav {
         <.nav(Style.navMenu)(
           <.div(GlobalStyle.logo)(
             <.img(^.src:=  "https://res.cloudinary.com/dq5pqcbnq/image/upload/v1538389452/logo.png",^.width:=50.px,^.height:=50.px )
-          ),<.span(^.cls := "fa-home" , Style.fa_home),
-          <.div(GlobalStyle.toggle, ^.onClick ==>TogleSidePanel)(
-            <.a(^.href:="#", ^.cls:= "btn-toggle" )("☰")
-          )
-          ,<.ul(GlobalStyle.ul,^.display:=S.displaySidePanel,
+          ),<.a(^.href:="#", ^.cls:= "btn-toggle" ,^.textDecoration.none )(<.span(^.cls := "fa-home" , Style.fa_home)),
+          <.div(GlobalStyle.toggle, ^.onClick ==>TogleSidePanel)("☰")
+          ,<.ul(GlobalStyle.ul,^.left:=S.displaySidePanel,
             P.menus.toTagMod { item =>
               <.li(
                 ^.key := item.name,
@@ -139,7 +138,7 @@ object TopNav {
 
   val component = ScalaComponent
     .builder[Props]("TopNav")
-    .initialState(State("block"))
+    .initialState(State("0px"))
     //.configure(Reusability.shouldComponentUpdate)
     .renderBackend[Backend]
     .build
