@@ -252,3 +252,26 @@ scalajs-react vs sri
 ```
 https://stackoverflow.com/questions/33125601/scalajs-react-vs-xored-scalajs-react-vs-sri
 ```
+
+
+
+Mobile testing and producct listing component example and free news api
+```
+https://app.crossbrowsertesting.com/trial_started
+http://reactdemo.emmanuelyusufu.com/
+http://stellarcode.co/build-a-product-hunt-inspired-app-with-react-2/
+https://medium.freecodecamp.org/how-to-build-a-basic-version-of-product-hunt-using-react-f87d016fedae
+https://reactjs.org/docs/thinking-in-react.html
+
+https://newsapi.org/register/success
+api:-Your API key is: aea30ab672ab45f28de1236014d6b1aa
+https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=aea30ab672ab45f28de1236014d6b1aa
+curl https://newsapi.org/v2/everything -G \
+    -d q=Apple \
+    -d from=2018-10-09 \
+    -d sortBy=popularity \
+    -d apiKey=aea30ab672ab45f28de1236014d6b1aa
+
+
+https://newsapi.org/v2/everything?q=stocks&from=2018-10-01&sortBy=popularity&apiKey=aea30ab672ab45f28de1236014d6b1aa
+```
