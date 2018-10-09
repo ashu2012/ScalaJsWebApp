@@ -8,8 +8,10 @@ import japgolly.scalajs.react._
 import japgolly.scalajs.react.extra.Reusability
 import japgolly.scalajs.react.extra.router.RouterCtl
 import japgolly.scalajs.react.vdom.html_<^._
+import org.scalajs.dom
 import scalacss.internal.LengthUnit.px
 import scalajsreact.template.css.GlobalStyle
+
 import scala.scalajs.js
 //import scalatags.JsDom.all._
 import org.querki.jquery._
@@ -84,30 +86,62 @@ object TopNav {
 
 */
 
-  val component = ScalaComponent
-    .builder[Props]("TopNav")
-    .render_P { P =>
+  case class State(displaySidePanel: String)
+
+  case class Backend($: BackendScope[Props, State]) {
+
+
+    def TogleSidePanel(e:ReactEvent)={
+      println("horizontal bar are clicked")
+      println(e)
+      dom.console.log("toggle state for nav bar, !use this for js facade printing")
+      Callback.log("horizontal bar are clicked")
+      //togle side panel
+      $.modState(State => {
+        if (State.displaySidePanel == "block"){
+          State.copy("none")
+        }
+        else{
+          State.copy("block")
+        }
+      })
+    }
+
+
+    def render(P: Props,S:State) = {
+      // I can access P and event S here directly
+     // val myVar = P.nameOfProperty + 10
       <.header()(
-          <.nav(Style.navMenu)(
-              <.div(GlobalStyle.logo)(
-                <.img(^.src:=  "https://res.cloudinary.com/dq5pqcbnq/image/upload/v1538389452/logo.png",^.width:=50.px,^.height:=50.px )
-              ),<.span(^.cls := "fa-home" , Style.fa_home),
-              <.div(GlobalStyle.toggle)(
-                <.a(^.href:="#", ^.cls:= "btn-toggle")("☰")
+        <.nav(Style.navMenu)(
+          <.div(GlobalStyle.logo)(
+            <.img(^.src:=  "https://res.cloudinary.com/dq5pqcbnq/image/upload/v1538389452/logo.png",^.width:=50.px,^.height:=50.px )
+          ),<.span(^.cls := "fa-home" , Style.fa_home),
+          <.div(GlobalStyle.toggle, ^.onClick ==>TogleSidePanel)(
+            <.a(^.href:="#", ^.cls:= "btn-toggle" )("☰")
+          )
+          ,<.ul(GlobalStyle.ul,^.display:=S.displaySidePanel,
+            P.menus.toTagMod { item =>
+              <.li(
+                ^.key := item.name,
+                Style.menuItem(item.route.getClass == P.selectedPage.getClass),
+                item.name,
+                P.ctrl setOnClick item.route
               )
-              ,<.ul(GlobalStyle.ul,
-                P.menus.toTagMod { item =>
-                  <.li(
-                    ^.key := item.name,
-                    Style.menuItem(item.route.getClass == P.selectedPage.getClass),
-                    item.name,
-                    P.ctrl setOnClick item.route
-                  )
-                })
-            )
+            })
+        )
       )
     }
-    .configure(Reusability.shouldComponentUpdate)
+  }
+
+
+
+
+
+  val component = ScalaComponent
+    .builder[Props]("TopNav")
+    .initialState(State("block"))
+    //.configure(Reusability.shouldComponentUpdate)
+    .renderBackend[Backend]
     .build
   
 
