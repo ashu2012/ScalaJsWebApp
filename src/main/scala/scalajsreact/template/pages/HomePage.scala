@@ -1,5 +1,6 @@
 package scalajsreact.template.pages
 
+import scalajsreact.template.components.items.{NewsTrending, ProductListingBanner}
 import scalacss.Defaults._
 import scalacss.ScalaCssReact._
 import scalatags.text
@@ -17,16 +18,17 @@ object HomePage {
     val content = style(textAlign.center,
                         fontSize(30.px),
                         minHeight(450.px),
-                        paddingTop(40.px))
+                        paddingTop(40.px),
+      display.flex,
+      flexWrap.wrap,
+      flexDirection.column
+    )
   }
 
   val component =
     ScalaComponent.builder
-      .static("HomePage")(<.div(Style.content, "React based app store ",
-        <.p("convert this page to listing"),
-        <.p("using Material UI and with bootstrap css")))
-
-
+      .static("HomePage")(<.div(Style.content)( ProductListingBanner(ProductListingBanner.Props(true)),
+        <.h1("latest trending Business News"),NewsTrending(NewsTrending.Props(false))))
       .build
 
   def apply() = component()

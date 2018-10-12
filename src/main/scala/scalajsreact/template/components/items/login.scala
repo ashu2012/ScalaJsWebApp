@@ -136,6 +136,8 @@ object Login  {
 
       logEvent(s"Mouse enter @ ${e.pageX},${e.pageY}")
     }
+
+
     val logWindowClick               = logEvent("Window clicked.")
     val logLocalClick                = logEvent("Component clicked.")
 
@@ -147,7 +149,7 @@ object Login  {
          ^.width   := "90ex",
          ^.height  := "20em",
          ^.padding := "2px 6px",
-         <.textarea (
+         <.button (
            ^.onClick  ==> logMouseEnter
          )
 

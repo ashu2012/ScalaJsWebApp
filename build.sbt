@@ -30,8 +30,7 @@ libraryDependencies ++= Seq(
   "com.github.japgolly.scalacss" %%% "core" % scalaCssVersion,
   "com.github.japgolly.scalacss" %%% "ext-react" % scalaCssVersion,
   "org.webjars.npm" % "loose-envify" % "1.1.0",
-  "org.webjars.npm" % "js-tokens" % "4.0.0",
-  "org.querki" %%% "jquery-facade" % "1.2"
+  "org.webjars.npm" % "js-tokens" % "4.0.0"
 
 )
 
