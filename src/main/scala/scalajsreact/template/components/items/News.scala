@@ -106,6 +106,7 @@ object News {
   }
 
   val component = ScalaComponent.builder[Props]("TodoApp")
+    .initialState()
     .render_P{P =>
       NewsListDom((read[NewsList](P.newsJsonData)).articles)
       }

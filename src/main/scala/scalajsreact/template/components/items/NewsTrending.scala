@@ -35,9 +35,18 @@ object NewsTrending {
     )
   }
 
+  val jsonTestData =
+    """
+      | {
+      |	"status": "ok",
+      |	"totalResults": 20,
+      |	"articles": [{"source":{"id":null,"name": null},"author":"BusinessToday.In","title":"After BigBasket, Paytm in talks to buy Alibaba-owned UCWeb's India business for $500 million","description":"Paytm wants to buy Alibaba's UCWeb business to tap into a new user base, which will help it market products on a new built-up platform.","url":"https://www.businesstoday.in/current/corporate/bigbasket-paytm-in-talks-to-buy-alibaba-ucweb-india-business-dollar-500-million/story/284884.html","urlToImage":"https://smedia2.intoday.in/btmt/images/stories/vijay-shekhar-paytm-505_081918042334_101218010720.jpg","publishedAt":"2018-10-12T07:40:36Z","content":"Alibaba-backed online retail giant Paytm is in talks to buy UCWeb's India business for a deal pegged around $400-$500 million. UCWeb, which is the Chinese company's smartphone browser, claims to be the number one mobile browser in China as well as India, with… [+2430 chars]"}]
+      |    }
+    """.stripMargin
+
   val component = ScalaComponent
     .builder[Props]("Trending News")
-    .initialState(State("No data fectched initially., click button to get data", 0))
+    .initialState(State(jsonTestData, 0))
     .renderBackend[Backend]
     .componentDidMount(_.backend.start)
     .componentWillUnmount(_.backend.clear)
