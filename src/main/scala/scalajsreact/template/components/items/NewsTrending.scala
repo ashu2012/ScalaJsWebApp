@@ -8,15 +8,12 @@ import japgolly.scalajs.react.vdom.html_<^._
 import org.scalajs.dom
 import scalacss.internal.StyleF.P
 import scalajsreact.template.routes.Item
-import slinky.scalajsreact.Converters._
 
 import scala.language.postfixOps
 import org.scalajs.dom.ext.Ajax
 import org.scalajs.dom.raw.XMLHttpRequest
 import scalajsreact.template.components.items.News._
-import slinky.scalajsreact.Converters._
-import slinky.web.html.div
-//import slinky.core.annotations.react
+
 import scala.scalajs.js
 
 object NewsTrending {
@@ -76,7 +73,7 @@ object NewsTrending {
       makeApiCall().runNow()
     }
 
-    def render(s: State) = <.div( <.h1("Trending Bussiness News"), SlinkyNewsRenderComponent(s.newsData).toScalaJSReact ,  div("slinky component" ).toScalaJSReact,<.div(^.onClick ==> ajaxRequest)(<.button("Get latest News")),<.div("Seconds elapsed: ", s.secondsElapsed))
+    def render(s: State) = <.div( <.h1("Trending Bussiness News"), News(s.newsData) ,<.div(^.onClick ==> ajaxRequest)(<.button("Get latest News")),<.div("Seconds elapsed: ", s.secondsElapsed))
 
 
     def UpdateApiData(props: Props): Unit ={

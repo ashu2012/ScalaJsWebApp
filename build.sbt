@@ -33,14 +33,15 @@ libraryDependencies ++= Seq(
   "com.github.japgolly.scalacss" %%% "core" % scalaCssVersion,
   "com.github.japgolly.scalacss" %%% "ext-react" % scalaCssVersion,
   //"me.shadaj" %%% "slinky-hot" % "0.5.0" ,// Hot loading, requires react-proxy package
-  "me.shadaj" %%% "slinky-web" % "0.5.0",
-  "me.shadaj" %%% "slinky-core" % "0.5.0",
+  //"me.shadaj" %%% "slinky-web" % "0.5.0",
+  //"me.shadaj" %%% "slinky-core" % "0.5.0",
  // "me.shadaj" %%% "slinky-native" % "0.5.0",
-  "org.scalamacros" % "paradise_2.12.2" % "2.1.1"  ,
+ // "org.scalamacros" % "paradise_2.12.2" % "2.1.1"  ,
 //"org.webjars.npm" % "loose-envify" % "1.1.0",
  // "org.webjars.npm" % "js-tokens" % "4.0.0",
-  "me.shadaj" %%% "slinky-scalajsreact-interop" % "0.5.0",
-  "com.lihaoyi" %% "upickle" % "0.6.7"
+ // "me.shadaj" %%% "slinky-scalajsreact-interop" % "0.5.0",
+  "com.lihaoyi" %%% "upickle" % "0.6.6"
+ // "com.lihaoyi" %% "upickle" % "0.6.7"
 
 )
 

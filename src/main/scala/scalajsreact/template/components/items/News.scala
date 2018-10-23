@@ -1,46 +1,44 @@
 package scalajsreact.template.components.items
 
 
-import japgolly.scalajs.react.ScalaComponent
+import japgolly.scalajs.react.{ScalaComponent, ScalaFnComponent}
 import japgolly.scalajs.react.vdom.html_<^._
 import org.scalajs.dom._
 
 import scala.scalajs.js
 import js.annotation.JSExport
 import org.scalajs.dom
-import slinky.core.StatelessComponent
-import slinky.core.annotations.react
-import slinky.core.facade.ReactElement
 
 import scala.collection.Seq
 import upickle.default._
 import upickle.default.{macroRW, ReadWriter => RW}
-import slinky.scalajsreact.Converters._
-//import slinky.core.annotations.react
+
+
+case class Source(id : Option[String] , name : String )
+case class NewsData(source: Source, author: String , title: String , description :String , url :String , urlToImage :String , publishedAt :String , content :String  )
+case class NewsList( status : String  , totalResults :Int, articles : Seq[NewsData]  )
+
+object Source{
+  implicit def rw: RW[Source] = macroRW
+}
+
+object NewsData{
+  //RW.merge(B.rw, macroRW[C.type])
+  implicit def rw: RW[NewsData] =  macroRW
+}
+
+
+
+object NewsList{
+  implicit def rw: RW[NewsList] = macroRW
+}
+
+
+
 
 
 object News {
 
-
-
-  case class Source(id : Option[String] , name : String )
-  case class NewsData(source: Source, author: String , title: String , description :String , url :String , urlToImage :String , publishedAt :String , content :String  )
-  case class NewsList( status : String  , totalResults :Int, articles : Seq[NewsData]  )
-
-  object Source{
-    implicit def rw: RW[Source] = macroRW
-  }
-
-  object NewsData{
-    //RW.merge(B.rw, macroRW[C.type])
-    implicit def rw: RW[NewsData] =  macroRW
-  }
-
-
-
-  object NewsList{
-    implicit def rw: RW[NewsList] = macroRW
-  }
 
 
 /*
@@ -99,12 +97,17 @@ object News {
 
   case class Props(newsJsonData:String )
 
+
+
+  val NewsListDom = ScalaFnComponent[Seq[NewsData]] { props =>
+    def createItem(itemText: NewsData) = <.li(itemText.title)
+
+    <.ul(props map createItem: _*)
+  }
+
   val component = ScalaComponent.builder[Props]("TodoApp")
     .render_P{P =>
-      (read[NewsList](P.newsJsonData)).articles.toVdomArray(ni => {
-        println(ni)
-        <.h5(ni.content)
-      })
+      NewsListDom((read[NewsList](P.newsJsonData)).articles)
       }
     .build
 
@@ -113,7 +116,7 @@ object News {
 }
 
 
-
+/*
 @react class SlinkyNewsRenderComponent extends StatelessComponent {
   case class Props(newsData: String)
 
@@ -124,3 +127,5 @@ object News {
 object SlinkyNewsRenderComponent{
 
 }
+
+*/
