@@ -119,6 +119,7 @@ object Login  {
       def successCallback( datSnapshot:DataSnapshot,b:js.|[String,Null] ):js.Any={
 
         println(datSnapshot.`val`())
+        dom.console.log(datSnapshot.`val`())
         def printData(ds:DataSnapshot)={
           println(ds.child("comments").`val`())
           true
@@ -127,12 +128,14 @@ object Login  {
         datSnapshot.forEach(jsPrintData)
         println("success callback")
         println(b)
+
       }
       val jsSuccessFun: js.Function2[DataSnapshot, js.|[String,Null], Any] = successCallback
       val p= db.ref("user").once("value",jsSuccessFun, null,null )
 
       println(fjs.database().refFromURL(databaseURL))
-
+      dom.console.log(p)
+      Callback.log("mouse clicked")
 
       logEvent(s"Mouse enter @ ${e.pageX},${e.pageY}")
     }
@@ -152,10 +155,7 @@ object Login  {
          <.button (
            ^.onClick  ==> logMouseEnter
          )
-
        )
-
-
     }
 
   }

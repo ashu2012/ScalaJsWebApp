@@ -11,6 +11,13 @@ http://scalapro.net/designing-facades-in-scala-js/
 https://medium.com/@takezoe/integrate-scala-js-with-existing-javascript-eco-system-1b841cfc6431
 ```
 
+React JS Understanding
+```
+https://japgolly.blogspot.com/2018/07/enforcing-rules-at-compile-time-example.html
+http://busypeoples.github.io/post/react-component-lifecycle/
+https://medium.com/mofed/reacts-component-lifecycles-adf0ebc89d23
+```
+
 ### Launch this project:
 ```
 1. clone the project

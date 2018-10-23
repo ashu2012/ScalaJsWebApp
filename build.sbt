@@ -10,11 +10,14 @@ scalaVersion := "2.12.1"
 //persistLauncher := true
 //persistLauncher in Test := false
 
-val scalaJSReactVersion = "1.0.1"
-val scalaCssVersion = "0.5.3-RC1"
-val reactJSVersion = "15.5.4"
+val scalaJSReactVersion = "1.3.1"
+val scalaCssVersion     = "0.5.5"
+val reactJSVersion      = "16.5.1"
 version in webpack := "4.20.2"
 version in startWebpackDevServer := "3.1.4"
+
+
+
 
 resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
 
@@ -30,7 +33,9 @@ libraryDependencies ++= Seq(
   "com.github.japgolly.scalacss" %%% "core" % scalaCssVersion,
   "com.github.japgolly.scalacss" %%% "ext-react" % scalaCssVersion,
   "org.webjars.npm" % "loose-envify" % "1.1.0",
-  "org.webjars.npm" % "js-tokens" % "4.0.0"
+  "org.webjars.npm" % "js-tokens" % "4.0.0",
+  "me.shadaj" %%% "slinky-scalajsreact-interop" % "0.5.0",
+  "com.lihaoyi" %%% "upickle" % "0.6.6"
 
 )
 
@@ -55,6 +60,8 @@ lazy val EuiVersion   = "0.6.1"
 lazy val MuiVersion   = "0.18.1"
 lazy val reactVersion = "15.5.4"
 
+
+
 lazy val bundlerSettings =
   Seq(
     version in webpack := "4.20.2",
@@ -76,8 +83,8 @@ lazy val bundlerSettings =
      // "elemental"                         -> EuiVersion,
     //  "highlight.js"                      -> "9.9.0",
     //  "material-ui"                       -> MuiVersion,
-    //  "react"                             -> reactVersion,
-    //  "react-dom"                         -> reactVersion,
+      "react"                             -> reactVersion,
+      "react-dom"                         -> reactVersion,
     //  "react-addons-create-fragment"      -> reactVersion,
     //  "react-addons-css-transition-group" -> "15.0.2",
     //  "react-addons-pure-render-mixin"    -> "15.5.2",

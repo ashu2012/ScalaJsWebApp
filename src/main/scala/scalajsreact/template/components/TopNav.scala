@@ -13,8 +13,7 @@ import scalacss.internal.LengthUnit.px
 import scalajsreact.template.css.GlobalStyle
 import scala.language.postfixOps
 import scala.scalajs.js
-//import scalatags.JsDom.all._
-import org.querki.jquery._
+
 
 object TopNav {
 
