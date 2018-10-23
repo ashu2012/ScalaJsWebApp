@@ -37,7 +37,7 @@ case class State( loggedIn: Boolean,
                   currentState: String,
                   someInitialValue: String)
 
-@JSGlobalScope
+
 object Globals extends  js.Object {
   var fbjsApp: js.Any = null
 }

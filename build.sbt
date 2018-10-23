@@ -1,10 +1,10 @@
-enablePlugins(ScalaJSPlugin)
+//enablePlugins(ScalaJSPlugin)
 enablePlugins(ScalaJSBundlerPlugin)
 
 
 name := "scalajs-react-template"
 version := "1.0"
-scalaVersion := "2.12.1"
+scalaVersion := "2.12.2"
 
 // create launcher file ( its search for object extends JSApp , make sure there is only one file)
 //persistLauncher := true
@@ -24,29 +24,35 @@ resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repos
 resolvers += "jitpack" at "https://jitpack.io"
 
 libraryDependencies ++= Seq(
-	 "org.scala-js" %%% "scalajs-dom" % "0.9.2",
+  "org.scala-js" %%% "scalajs-dom" % "0.9.2",
 	"com.olvind" %%% "scalajs-react-components" % "1.0.+",
   "com.lihaoyi" %%% "scalatags" % "0.6.7",
-  "io.surfkit" %%% "scalajs-google-maps" % "0.0.3-SNAPSHOT",
+  //"io.surfkit" % "scalajs-google-maps_2.12.1" % "0.0.3-SNAPSHOT",
   "com.github.japgolly.scalajs-react" %%% "core" % scalaJSReactVersion,
   "com.github.japgolly.scalajs-react" %%% "extra" % scalaJSReactVersion,
   "com.github.japgolly.scalacss" %%% "core" % scalaCssVersion,
   "com.github.japgolly.scalacss" %%% "ext-react" % scalaCssVersion,
-  "org.webjars.npm" % "loose-envify" % "1.1.0",
-  "org.webjars.npm" % "js-tokens" % "4.0.0",
+  //"me.shadaj" %%% "slinky-hot" % "0.5.0" ,// Hot loading, requires react-proxy package
+  "me.shadaj" %%% "slinky-web" % "0.5.0",
+  "me.shadaj" %%% "slinky-core" % "0.5.0",
+ // "me.shadaj" %%% "slinky-native" % "0.5.0",
+  "org.scalamacros" % "paradise_2.12.2" % "2.1.1"  ,
+//"org.webjars.npm" % "loose-envify" % "1.1.0",
+ // "org.webjars.npm" % "js-tokens" % "4.0.0",
   "me.shadaj" %%% "slinky-scalajsreact-interop" % "0.5.0",
-  "com.lihaoyi" %%% "upickle" % "0.6.6"
+  "com.lihaoyi" %% "upickle" % "0.6.7"
 
 )
 
 // React itself
 //   (react-with-addons.js can be react.js, react.min.js, react-with-addons.min.js)
 //DOM, which doesn't exist by default in the Rhino runner. To make the DOM available in Rhino
+/*
 jsDependencies ++= Seq(
   "org.webjars.npm" % "react" % reactJSVersion / "react-with-addons.js" commonJSName "React" minified "react-with-addons.min.js",
   "org.webjars.npm" % "react-dom" % reactJSVersion / "react-dom.js" commonJSName "ReactDOM" minified "react-dom.min.js" dependsOn "react-with-addons.js"
 )
-
+*/
 
 // *****************************************************************************
 // Settings
@@ -129,6 +135,13 @@ artifactPath in (Compile, fastOptJS) := ((crossTarget in (Compile, fastOptJS)).v
   ((moduleName in fastOptJS).value + "-opt.js"))
 scalacOptions += "-feature"
 
+
+scalacOptions += "-P:scalajs:sjsDefinedByDefault"
+scalacOptions += "-P:scalajs:suppressMissingJSGlobalDeprecations"
+
+// optional, but recommended; enables the @react macro annotation API
+addCompilerPlugin("org.scalamacros" % "paradise" % "2.1.1" cross CrossVersion.full)
+//addCompilerPlugin("org.scalameta" % "paradise" % "3.0.0-M11" cross CrossVersion.full)
 
 import com.lihaoyi.workbench.Plugin._
 

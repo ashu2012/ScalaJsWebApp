@@ -1,8 +1,6 @@
 package scalajsreact.template.components.items
 
 
-import google.maps.Data.Feature
-import google.maps.LatLng
 import japgolly.scalajs.react.ScalaComponent
 import japgolly.scalajs.react.vdom.html_<^._
 import org.scalajs.dom._
@@ -10,9 +8,16 @@ import org.scalajs.dom._
 import scala.scalajs.js
 import js.annotation.JSExport
 import org.scalajs.dom
+import slinky.core.StatelessComponent
+import slinky.core.annotations.react
+import slinky.core.facade.ReactElement
+
 import scala.collection.Seq
 import upickle.default._
-import upickle.default.{ReadWriter => RW, macroRW}
+import upickle.default.{macroRW, ReadWriter => RW}
+import slinky.scalajsreact.Converters._
+//import slinky.core.annotations.react
+
 
 object News {
 
@@ -94,13 +99,28 @@ object News {
 
   case class Props(newsJsonData:String )
 
-
-
-
-  val component = ScalaComponent.builder
-    .static("News")(<.div("actual  news content  "))
+  val component = ScalaComponent.builder[Props]("TodoApp")
+    .render_P{P =>
+      (read[NewsList](P.newsJsonData)).articles.toVdomArray(ni => {
+        println(ni)
+        <.h5(ni.content)
+      })
+      }
     .build
 
-  def apply() = component().vdomElement
+  def apply(props:String) = component(Props(props)).vdomElement
+
+}
+
+
+
+@react class SlinkyNewsRenderComponent extends StatelessComponent {
+  case class Props(newsData: String)
+
+  def render(): ReactElement = {
+    News(props.newsData).toSlinky
+  }
+}
+object SlinkyNewsRenderComponent{
 
 }
