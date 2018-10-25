@@ -1,6 +1,6 @@
 package scalajsreact.template.components.items
-
-
+import scala.scalajs.js.Dynamic.{global => g, newInstance => jsnew}
+import scalacss.ScalaCssReact._
 import japgolly.scalajs.react.{ScalaComponent, ScalaFnComponent}
 import japgolly.scalajs.react.vdom.html_<^._
 import org.scalajs.dom._
@@ -8,11 +8,13 @@ import org.scalajs.dom._
 import scala.scalajs.js
 import js.annotation.JSExport
 import org.scalajs.dom
+import scalacss.internal.mutable.StyleSheet
 
 import scala.collection.Seq
-import upickle.default._
-import upickle.default.{macroRW, ReadWriter => RW}
+//import upickle.default._
+//import upickle.default.{macroRW, ReadWriter => RW}
 
+/*
 
 case class Source(id : Option[String] , name : String )
 case class NewsData(source: Source, author: String , title: String , description :String , url :String , urlToImage :String , publishedAt :String , content :String  )
@@ -33,6 +35,37 @@ object NewsList{
   implicit def rw: RW[NewsList] = macroRW
 }
 
+ */
+
+@js.native
+trait newsListJS extends js.Object {
+  val status : String = js.native
+  val totalResults :Int = js.native
+  val articles :js.Array[NewsDataJS] =  js.native
+}
+
+
+@js.native
+trait SourceJS extends js.Object {
+  val id : String = js.native
+  val name :String = js.native
+}
+
+
+@js.native
+trait NewsDataJS extends js.Object {
+ //source: Source, author: String , title: String , description :String , url :String , urlToImage :String , publishedAt :String , content :String
+
+  val Source : SourceJS = js.native.asInstanceOf[SourceJS]
+  val author : String = js.native
+  val title : String = js.native
+  val description : String = js.native
+  val url : String = js.native
+  val urlToImage : String = js.native
+  val publishedAt : String = js.native
+  val content : String = js.native
+
+}
 
 
 
@@ -99,16 +132,33 @@ object News {
 
 
 
-  val NewsListDom = ScalaFnComponent[Seq[NewsData]] { props =>
-    def createItem(itemText: NewsData) = <.li(itemText.title)
+  val NewsListDom = ScalaFnComponent[js.Array[NewsDataJS]] { props =>
+    console.log(props)
+    def createItem(itemText: NewsDataJS) = {
+      <.div(^.style:=js.Dictionary().asInstanceOf[js.Object] )(
+      <.div(^.style:= js.Dictionary().asInstanceOf[js.Object], <.img(^.height := "100%"  , ^.width:="100%" , ^.src:= itemText.urlToImage)),
+       <.div( <.a(^.href := itemText.url)(<.h4(itemText.title),<.p(itemText.description), <.h5(itemText.author)))
+      )
+
+
+     // <.li(itemText.title)
+    }
 
     <.ul(props map createItem: _*)
   }
 
   val component = ScalaComponent.builder[Props]("TodoApp")
     .initialState()
-    .render_P{P =>
-      NewsListDom((read[NewsList](P.newsJsonData)).articles)
+    .render_P{P =>{
+      console.log(g.JSON.parse(P.newsJsonData).asInstanceOf[newsListJS])
+      try{
+        NewsListDom(g.JSON.parse(P.newsJsonData).asInstanceOf[newsListJS].articles)
+      }
+      catch { case  e: Exception  => throw js.JavaScriptException(e)
+      }
+
+    }
+
       }
     .build
 

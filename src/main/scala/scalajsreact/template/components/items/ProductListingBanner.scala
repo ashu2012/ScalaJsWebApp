@@ -6,7 +6,9 @@ import japgolly.scalajs.react.extra.Reusability
 import japgolly.scalajs.react.vdom.html_<^._
 import scalacss.internal.StyleF.P
 import scalajsreact.template.routes.Item
+
 import scala.language.postfixOps
+import scala.scalajs.js
 
 
 object ProductListingBanner {
@@ -20,7 +22,7 @@ object ProductListingBanner {
   val component = ScalaComponent
       .builder[Props]("Banner")
       .render_P{
-        P => <.div( <.h1 ("India's Leading Investment Advisor platform "), <.img(^.src:="images/banner/flipkartvsamazonvssnapdeal.jpg",^.cursor.pointer ,^.width:= "100%" , ^.height:="100%")
+        P => <.div(^.style:= js.Dictionary("margin" -> "27px").asInstanceOf[js.Object])( <.h5 ("India's Leading Investment Advisor platform "), <.img(^.src:="images/banner/flipkartvsamazonvssnapdeal.jpg",^.cursor.pointer ,^.width:= "100%" , ^.height:="100%")
         )
       }
       .configure(Reusability.shouldComponentUpdate)

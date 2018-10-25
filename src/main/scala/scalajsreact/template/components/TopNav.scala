@@ -111,7 +111,7 @@ object TopNav {
     def render(P: Props,S:State) = {
       // I can access P and event S here directly
      // val myVar = P.nameOfProperty + 10
-      <.header()(
+      <.header(^.style := js.Dictionary("position" -> "fixed" ,"width"  -> "100%").asInstanceOf[js.Object])(
         <.nav(Style.navMenu)(
           <.div(GlobalStyle.logo)(
             <.img(^.src:=  "https://res.cloudinary.com/dq5pqcbnq/image/upload/v1538389452/logo.png",^.width:=50.px,^.height:=50.px )

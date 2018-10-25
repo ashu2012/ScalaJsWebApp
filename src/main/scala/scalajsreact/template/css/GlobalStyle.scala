@@ -59,7 +59,7 @@ object GlobalStyle extends StyleSheet.Inline {
       alignItems.center,
       //position.absolute,
       flexDirection.column,
-      position.absolute,
+      position.fixed,
       top(105.px),
       left(0.px),
      // transition:=  "0.3 seconds",

@@ -28,7 +28,7 @@ object HomePage {
   val component =
     ScalaComponent.builder
       .static("HomePage")(<.div(Style.content)( ProductListingBanner(ProductListingBanner.Props(true)),
-        <.h1("latest trending Business News"),NewsTrending(NewsTrending.Props("no data"))))
+       NewsTrending(NewsTrending.Props("no data"))))
       .build
 
   def apply() = component()
