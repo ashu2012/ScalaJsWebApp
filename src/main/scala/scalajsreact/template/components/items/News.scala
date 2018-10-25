@@ -135,9 +135,10 @@ object News {
   val NewsListDom = ScalaFnComponent[js.Array[NewsDataJS]] { props =>
     console.log(props)
     def createItem(itemText: NewsDataJS) = {
-      <.div(^.style:=js.Dictionary().asInstanceOf[js.Object] )(
-      <.div(^.style:= js.Dictionary().asInstanceOf[js.Object], <.img(^.height := "100%"  , ^.width:="100%" , ^.src:= itemText.urlToImage)),
-       <.div( <.a(^.href := itemText.url)(<.h4(itemText.title),<.p(itemText.description), <.h5(itemText.author)))
+      <.div(^.style:=js.Dictionary("display" -> "flex", "flexDirection"->"column").asInstanceOf[js.Object] )(
+      <.div(^.style:= js.Dictionary("alignItems" -> "center").asInstanceOf[js.Object], <.img(^.height := "100%"  , ^.width:="100%" , ^.src:= itemText.urlToImage)),
+       <.div( <.a(^.href := itemText.url,<.h4(^.color := "black")(itemText.title)),<.p(itemText.description), <.h5("By " + itemText.author)),
+        <.hr(^.margin :=  "auto" , ^.marginTop := "5%" , ^.width := "80%" , ^.marginBottom := "30px")()
       )
 
 
@@ -147,7 +148,7 @@ object News {
     <.ul(props map createItem: _*)
   }
 
-  val component = ScalaComponent.builder[Props]("TodoApp")
+  val component = ScalaComponent.builder[Props]("NewsListing")
     .initialState()
     .render_P{P =>{
       console.log(g.JSON.parse(P.newsJsonData).asInstanceOf[newsListJS])

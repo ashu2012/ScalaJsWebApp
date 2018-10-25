@@ -40,7 +40,7 @@ libraryDependencies ++= Seq(
 //"org.webjars.npm" % "loose-envify" % "1.1.0",
  // "org.webjars.npm" % "js-tokens" % "4.0.0",
  // "me.shadaj" %%% "slinky-scalajsreact-interop" % "0.5.0",
-  "com.lihaoyi" %%% "upickle" % "0.6.6"
+  //"com.lihaoyi" %%% "upickle" % "0.6.6"
  // "com.lihaoyi" %% "upickle" % "0.6.7"
 
 )
