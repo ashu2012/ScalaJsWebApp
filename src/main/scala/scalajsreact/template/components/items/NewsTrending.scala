@@ -82,7 +82,7 @@ object NewsTrending {
       makeApiCall().runNow()
     }
 
-    def render(s: State) = <.div( <.h5("Trending Bussiness News"), News(s.newsData) ,<.div(^.onClick ==> ajaxRequest)(<.button("Get latest News")))
+    def render(s: State) = <.div(^.marginTop := "10px" ,<.h5("Trending Bussiness News"), News(s.newsData) ,<.div(^.onClick ==> ajaxRequest)(<.button("Get latest News")))
 
 
     def UpdateApiData(props: Props): Unit ={

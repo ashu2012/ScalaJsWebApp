@@ -22,7 +22,7 @@ object ProductListingBanner {
   val component = ScalaComponent
       .builder[Props]("Banner")
       .render_P{
-        P => <.div(^.style:= js.Dictionary("margin" -> "27px").asInstanceOf[js.Object])( <.h5 ("India's Leading Investment Advisor platform "), <.img(^.src:="images/banner/flipkartvsamazonvssnapdeal.jpg",^.cursor.pointer ,^.width:= "100%" , ^.height:="100%")
+        P => <.div(^.style:= js.Dictionary("margin" -> "27px", "height" -> "60%").asInstanceOf[js.Object])( <.h5 ("India's Leading Investment Advisor platform "), <.img(^.src:="https://ashu2012.github.io/images/banner/flipkartvsamazonvssnapdeal.jpg",^.cursor.pointer ,^.width:= "100%" , ^.height:="60%")
         )
       }
       .configure(Reusability.shouldComponentUpdate)
