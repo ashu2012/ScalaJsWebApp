@@ -1080,8 +1080,8 @@ var $asArrayOf_J = $makeAsArrayOfPrimitive($isArrayOf_J, "J");
 var $asArrayOf_F = $makeAsArrayOfPrimitive($isArrayOf_F, "F");
 var $asArrayOf_D = $makeAsArrayOfPrimitive($isArrayOf_D, "D");
 
-var $i_firebase = require("firebase");
 var $i_react = require("react");
+var $i_firebase = require("firebase");
 var $i_react$002ddom = require("react-dom");
 function $is_F0(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.F0)))
@@ -1134,13 +1134,13 @@ function $asArrayOf_F2(obj, depth) {
   return (($isArrayOf_F2(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.Function2;", depth))
 }
 function $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedPure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot($thiz) {
-  return $as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot($thiz.raw__Ljapgolly_scalajs_react_raw_package$ReactComponent().mountedPure)
+  return $as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot($thiz.raw__Ljapgolly_scalajs_react_raw_React$Component().mountedPure)
 }
 function $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot($thiz) {
-  return $as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot($thiz.raw__Ljapgolly_scalajs_react_raw_package$ReactComponent().mountedImpure)
+  return $as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot($thiz.raw__Ljapgolly_scalajs_react_raw_React$Component().mountedImpure)
 }
 function $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__backend__O($thiz) {
-  return $thiz.raw__Ljapgolly_scalajs_react_raw_package$ReactComponent().backend
+  return $thiz.raw__Ljapgolly_scalajs_react_raw_React$Component().backend
 }
 function $is_Ljapgolly_scalajs_react_extra_Listenable(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_extra_Listenable)))
@@ -1155,19 +1155,18 @@ function $asArrayOf_Ljapgolly_scalajs_react_extra_Listenable(obj, depth) {
   return (($isArrayOf_Ljapgolly_scalajs_react_extra_Listenable(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.extra.Listenable;", depth))
 }
 function $f_Ljapgolly_scalajs_react_extra_OnUnmount__unmount__F0($thiz) {
-  return $m_Ljapgolly_scalajs_react_Callback$().apply__F0__Ljapgolly_scalajs_react_Callback$ResultGuard__F0(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
+  var jsx$1 = $m_Ljapgolly_scalajs_react_CallbackTo$();
+  var this$1 = $m_Ljapgolly_scalajs_react_Callback$();
+  var tca = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
     return (function() {
-      var this$1 = $this.japgolly$scalajs$react$extra$OnUnmount$$unmountProcs$1;
-      var these = this$1;
-      while ((!these.isEmpty__Z())) {
-        var arg1 = these.head__O();
-        var x$1 = $as_Ljapgolly_scalajs_react_CallbackTo(arg1).japgolly$scalajs$react$CallbackTo$$f$1;
-        x$1.apply__O();
-        these = $as_sci_List(these.tail__O())
-      };
-      $this.japgolly$scalajs$react$extra$OnUnmount$$unmountProcs$1 = $m_sci_Nil$()
+      return $this.japgolly$scalajs$react$extra$OnUnmount$$unmountProcs$1
     })
-  })($thiz)), null)
+  })($thiz));
+  return jsx$1.$$greater$greater$extension__F0__F0__F0(this$1.traverse__F0__F1__F0(tca, $m_Ljapgolly_scalajs_react_internal_package$().identityFnInstance$1), $m_Ljapgolly_scalajs_react_Callback$().apply__F0__Ljapgolly_scalajs_react_Callback$ResultGuard__F0(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$2) {
+    return (function() {
+      this$2.japgolly$scalajs$react$extra$OnUnmount$$unmountProcs$1 = $m_sci_Nil$()
+    })
+  })($thiz)), null))
 }
 function $f_Ljapgolly_scalajs_react_extra_OnUnmount__onUnmount__F0__F0($thiz, f) {
   return $m_Ljapgolly_scalajs_react_Callback$().apply__F0__Ljapgolly_scalajs_react_Callback$ResultGuard__F0(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, f$1) {
@@ -1190,6 +1189,12 @@ function $isArrayOf_Ljapgolly_scalajs_react_extra_OnUnmount(obj, depth) {
 function $asArrayOf_Ljapgolly_scalajs_react_extra_OnUnmount(obj, depth) {
   return (($isArrayOf_Ljapgolly_scalajs_react_extra_OnUnmount(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.extra.OnUnmount;", depth))
 }
+function $f_Ljapgolly_scalajs_react_internal_JsRepr__unsafeFromJs__sjs_js_Any__O($thiz, u) {
+  return $thiz.fromJs$1.apply__O__O(u)
+}
+function $f_Ljapgolly_scalajs_react_vdom_Builder__addStyles__sjs_js_Any__V($thiz, j) {
+  $thiz.addStylesObject$1.apply__O__O(j)
+}
 function $is_Ljapgolly_scalajs_react_vdom_Builder(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_vdom_Builder)))
 }
@@ -1203,7 +1208,7 @@ function $asArrayOf_Ljapgolly_scalajs_react_vdom_Builder(obj, depth) {
   return (($isArrayOf_Ljapgolly_scalajs_react_vdom_Builder(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.vdom.Builder;", depth))
 }
 function $f_Ljapgolly_scalajs_react_vdom_HtmlAttrs__$$init$__V($thiz) {
-  $thiz.key$1 = $m_Ljapgolly_scalajs_react_vdom_PackageBase$().VdomAttr$1.Key$1;
+  $thiz.key$1 = $m_Ljapgolly_scalajs_react_vdom_Attr$Key$();
   $thiz.onChange$1 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Event().init___T("onChange");
   $thiz.onClick$1 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Event().init___T("onClick");
   $thiz.onClickCapture$1 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Event().init___T("onClickCapture");
@@ -1211,6 +1216,16 @@ function $f_Ljapgolly_scalajs_react_vdom_HtmlAttrs__$$init$__V($thiz) {
   $thiz.title$1 = ($m_Ljapgolly_scalajs_react_vdom_PackageBase$(), new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("title"));
   $thiz.type$1 = ($m_Ljapgolly_scalajs_react_vdom_PackageBase$(), new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("type"));
   $thiz.value$1 = ($m_Ljapgolly_scalajs_react_vdom_PackageBase$(), new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("value"))
+}
+function $f_Ljapgolly_scalajs_react_vdom_HtmlTags__hr__T($thiz) {
+  $m_Ljapgolly_scalajs_react_vdom_Exports$();
+  var $$this = "hr";
+  return $$this
+}
+function $f_Ljapgolly_scalajs_react_vdom_HtmlTags__img__T($thiz) {
+  $m_Ljapgolly_scalajs_react_vdom_Exports$();
+  var $$this = "img";
+  return $$this
 }
 function $f_Ljapgolly_scalajs_react_vdom_ImplicitsForVdomAttr1__vdomAttrVtKey__F1__F2($thiz, k) {
   $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$();
@@ -1314,6 +1329,9 @@ function $isArrayOf_Lscalacss_internal_Media$Feature(obj, depth) {
 }
 function $asArrayOf_Lscalacss_internal_Media$Feature(obj, depth) {
   return (($isArrayOf_Lscalacss_internal_Media$Feature(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalacss.internal.Media$Feature;", depth))
+}
+function $f_Lscalacss_internal_Media$FeatureOps__maxWidth__Lscalacss_internal_Length__O($thiz, v) {
+  return $thiz.F__F1().apply__O__O(new $c_Lscalacss_internal_Media$Width().init___Lscalacss_internal_Media$ValueExpr(new $c_Lscalacss_internal_Media$Max().init___O(v)))
 }
 function $is_Lscalacss_internal_Media$TypeExpr(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalacss_internal_Media$TypeExpr)))
@@ -1432,6 +1450,21 @@ function $f_s_Proxy__equals__O__Z($thiz, that) {
 }
 function $f_s_Proxy__toString__T($thiz) {
   return ("" + $thiz.self$1)
+}
+function $f_s_concurrent_Promise__failure__jl_Throwable__s_concurrent_Promise($thiz, cause) {
+  var result = new $c_s_util_Failure().init___jl_Throwable(cause);
+  return $f_s_concurrent_Promise__complete__s_util_Try__s_concurrent_Promise($thiz, result)
+}
+function $f_s_concurrent_Promise__complete__s_util_Try__s_concurrent_Promise($thiz, result) {
+  if ($thiz.tryComplete__s_util_Try__Z(result)) {
+    return $thiz
+  } else {
+    throw new $c_jl_IllegalStateException().init___T("Promise already completed.")
+  }
+}
+function $f_s_concurrent_Promise__success__O__s_concurrent_Promise($thiz, value) {
+  var result = new $c_s_util_Success().init___O(value);
+  return $f_s_concurrent_Promise__complete__s_util_Try__s_concurrent_Promise($thiz, result)
 }
 function $f_s_util_control_NoStackTrace__fillInStackTrace__jl_Throwable($thiz) {
   var this$1 = $m_s_util_control_NoStackTrace$();
@@ -2085,6 +2118,44 @@ $c_Ljapgolly_scalajs_react_Callback$.prototype.apply__F0__Ljapgolly_scalajs_reac
   })(this, f));
   return f$2
 });
+$c_Ljapgolly_scalajs_react_Callback$.prototype.traverse__F0__F1__F0 = (function(ta, f) {
+  return $m_Ljapgolly_scalajs_react_Callback$().apply__F0__Ljapgolly_scalajs_react_Callback$ResultGuard__F0(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, ta$1, f$1) {
+    return (function() {
+      $as_sc_TraversableOnce(ta$1.apply__O()).foreach__F1__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, f$5) {
+        return (function(a$2) {
+          var $$this = $as_Ljapgolly_scalajs_react_CallbackTo(f$5.apply__O__O(a$2)).japgolly$scalajs$react$CallbackTo$$f$1;
+          $$this.apply__O()
+        })
+      })($this, f$1)))
+    })
+  })(this, ta, f)), null)
+});
+$c_Ljapgolly_scalajs_react_Callback$.prototype.log__sjs_js_Any__sc_Seq__F0 = (function(message, optionalParams) {
+  return $m_Ljapgolly_scalajs_react_Callback$().apply__F0__Ljapgolly_scalajs_react_Callback$ResultGuard__F0(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, message$1, optionalParams$1) {
+    return (function() {
+      var jsx$1 = $m_Lorg_scalajs_dom_package$().console__Lorg_scalajs_dom_raw_Console();
+      var jsx$4 = jsx$1.log;
+      var this$2 = $m_sjsr_Compat$();
+      if ($is_sjs_js_ArrayOps(optionalParams$1)) {
+        var x2 = $as_sjs_js_ArrayOps(optionalParams$1);
+        var jsx$3 = x2.scala$scalajs$js$ArrayOps$$array$f
+      } else if ($is_sjs_js_WrappedArray(optionalParams$1)) {
+        var x3 = $as_sjs_js_WrappedArray(optionalParams$1);
+        var jsx$3 = x3.array$6
+      } else {
+        var result = [];
+        optionalParams$1.foreach__F1__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, result$1) {
+          return (function(x$2) {
+            return $uI(result$1.push(x$2))
+          })
+        })(this$2, result)));
+        var jsx$3 = result
+      };
+      var jsx$2 = [message$1].concat(jsx$3);
+      jsx$4.apply(jsx$1, jsx$2)
+    })
+  })(this, message, optionalParams)), null)
+});
 var $d_Ljapgolly_scalajs_react_Callback$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_Callback$: 0
 }, false, "japgolly.scalajs.react.Callback$", {
@@ -2098,171 +2169,6 @@ function $m_Ljapgolly_scalajs_react_Callback$() {
     $n_Ljapgolly_scalajs_react_Callback$ = new $c_Ljapgolly_scalajs_react_Callback$().init___()
   };
   return $n_Ljapgolly_scalajs_react_Callback$
-}
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_CallbackOption() {
-  $c_O.call(this);
-  this.japgolly$scalajs$react$CallbackOption$$cbfn$1 = null
-}
-$c_Ljapgolly_scalajs_react_CallbackOption.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_CallbackOption.prototype.constructor = $c_Ljapgolly_scalajs_react_CallbackOption;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_CallbackOption() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_CallbackOption.prototype = $c_Ljapgolly_scalajs_react_CallbackOption.prototype;
-$c_Ljapgolly_scalajs_react_CallbackOption.prototype.init___F0 = (function(cbfn) {
-  this.japgolly$scalajs$react$CallbackOption$$cbfn$1 = cbfn;
-  return this
-});
-$c_Ljapgolly_scalajs_react_CallbackOption.prototype.equals__O__Z = (function(x$1) {
-  return $m_Ljapgolly_scalajs_react_CallbackOption$().equals$extension__F0__O__Z(this.japgolly$scalajs$react$CallbackOption$$cbfn$1, x$1)
-});
-$c_Ljapgolly_scalajs_react_CallbackOption.prototype.hashCode__I = (function() {
-  $m_Ljapgolly_scalajs_react_CallbackOption$();
-  var $$this = this.japgolly$scalajs$react$CallbackOption$$cbfn$1;
-  return $systemIdentityHashCode($$this)
-});
-function $is_Ljapgolly_scalajs_react_CallbackOption(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_CallbackOption)))
-}
-function $as_Ljapgolly_scalajs_react_CallbackOption(obj) {
-  return (($is_Ljapgolly_scalajs_react_CallbackOption(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.CallbackOption"))
-}
-function $isArrayOf_Ljapgolly_scalajs_react_CallbackOption(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_CallbackOption)))
-}
-function $asArrayOf_Ljapgolly_scalajs_react_CallbackOption(obj, depth) {
-  return (($isArrayOf_Ljapgolly_scalajs_react_CallbackOption(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.CallbackOption;", depth))
-}
-var $d_Ljapgolly_scalajs_react_CallbackOption = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_CallbackOption: 0
-}, false, "japgolly.scalajs.react.CallbackOption", {
-  Ljapgolly_scalajs_react_CallbackOption: 1,
-  O: 1
-});
-$c_Ljapgolly_scalajs_react_CallbackOption.prototype.$classData = $d_Ljapgolly_scalajs_react_CallbackOption;
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_CallbackOption$() {
-  $c_O.call(this);
-  this.someUnit$1 = null
-}
-$c_Ljapgolly_scalajs_react_CallbackOption$.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_CallbackOption$.prototype.constructor = $c_Ljapgolly_scalajs_react_CallbackOption$;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_CallbackOption$() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_CallbackOption$.prototype = $c_Ljapgolly_scalajs_react_CallbackOption$.prototype;
-$c_Ljapgolly_scalajs_react_CallbackOption$.prototype.equals$extension__F0__O__Z = (function($$this, x$1) {
-  if ($is_Ljapgolly_scalajs_react_CallbackOption(x$1)) {
-    var CallbackOption$1 = ((x$1 === null) ? null : $as_Ljapgolly_scalajs_react_CallbackOption(x$1).japgolly$scalajs$react$CallbackOption$$cbfn$1);
-    return ($$this === CallbackOption$1)
-  } else {
-    return false
-  }
-});
-$c_Ljapgolly_scalajs_react_CallbackOption$.prototype.init___ = (function() {
-  $n_Ljapgolly_scalajs_react_CallbackOption$ = this;
-  this.someUnit$1 = new $c_s_Some().init___O((void 0));
-  return this
-});
-$c_Ljapgolly_scalajs_react_CallbackOption$.prototype.unless__F0__F0 = (function(condition) {
-  return this.require__F0__F0(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, condition$1) {
-    return (function() {
-      return (!$uZ(condition$1.apply__O()))
-    })
-  })(this, condition)))
-});
-$c_Ljapgolly_scalajs_react_CallbackOption$.prototype.map$extension__F0__F1__Ljapgolly_scalajs_react_CallbackTo$MapGuard__F0 = (function($$this, f, ev) {
-  $m_Ljapgolly_scalajs_react_CallbackOption$();
-  var cb = $m_Ljapgolly_scalajs_react_CallbackTo$().map$extension__F0__F1__Ljapgolly_scalajs_react_CallbackTo$MapGuard__F0(($m_Ljapgolly_scalajs_react_CallbackOption$(), $$this), new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, f$1) {
-    return (function(x$5$2) {
-      var x$5 = $as_s_Option(x$5$2);
-      return (x$5.isEmpty__Z() ? $m_s_None$() : new $c_s_Some().init___O(f$1.apply__O__O(x$5.get__O())))
-    })
-  })(this, f)), null);
-  return cb
-});
-$c_Ljapgolly_scalajs_react_CallbackOption$.prototype.flatMap$extension__F0__F1__F0 = (function($$this, f) {
-  $m_Ljapgolly_scalajs_react_CallbackOption$();
-  var cb = $m_Ljapgolly_scalajs_react_CallbackTo$().flatMap$extension__F0__F1__F0(($m_Ljapgolly_scalajs_react_CallbackOption$(), $$this), new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, f$1) {
-    return (function(x0$2$2) {
-      var x0$2 = $as_s_Option(x0$2$2);
-      if ($is_s_Some(x0$2)) {
-        var x2 = $as_s_Some(x0$2);
-        var a = x2.value$2;
-        $m_Ljapgolly_scalajs_react_CallbackOption$();
-        var $$this$1 = $as_Ljapgolly_scalajs_react_CallbackOption(f$1.apply__O__O(a)).japgolly$scalajs$react$CallbackOption$$cbfn$1;
-        var jsx$1 = $$this$1
-      } else {
-        var x = $m_s_None$();
-        if ((x === x0$2)) {
-          var jsx$1 = $m_Ljapgolly_scalajs_react_CallbackTo$().pure__O__F0($m_s_None$())
-        } else {
-          var jsx$1;
-          throw new $c_s_MatchError().init___O(x0$2)
-        }
-      };
-      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(jsx$1)
-    })
-  })(this, f)));
-  return cb
-});
-$c_Ljapgolly_scalajs_react_CallbackOption$.prototype.asEventDefault__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0__F0 = (function(e, co) {
-  return $m_Ljapgolly_scalajs_react_CallbackOption$().flatMap$extension__F0__F1__F0(this.unless__F0__F0(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, e$1) {
-    return (function() {
-      return $uZ(e$1.defaultPrevented)
-    })
-  })(this, e))), new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2, e$2, co$1) {
-    return (function(_$2) {
-      $asUnit(_$2);
-      return new $c_Ljapgolly_scalajs_react_CallbackOption().init___F0($m_Ljapgolly_scalajs_react_CallbackOption$().flatMap$extension__F0__F1__F0(co$1, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, e$2$1) {
-        return (function(a$2) {
-          var jsx$1 = $m_Ljapgolly_scalajs_react_CallbackOption$();
-          var $$this = $m_Ljapgolly_scalajs_react_ReactExt$undReactEvent$().preventDefaultCB$extension__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(($m_Ljapgolly_scalajs_react_package$(), e$2$1));
-          return new $c_Ljapgolly_scalajs_react_CallbackOption().init___F0(jsx$1.map$extension__F0__F1__Ljapgolly_scalajs_react_CallbackTo$MapGuard__F0($m_Ljapgolly_scalajs_react_CallbackOption$().liftCallback__F0__F0($$this), new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$2, a) {
-            return (function(_$2$1) {
-              $asUnit(_$2$1);
-              return a
-            })
-          })($this$1, a$2)), null))
-        })
-      })(this$2, e$2))))
-    })
-  })(this, e, co)))
-});
-$c_Ljapgolly_scalajs_react_CallbackOption$.prototype.require__F0__F0 = (function(condition) {
-  $m_Ljapgolly_scalajs_react_CallbackOption$();
-  var f = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, condition$1) {
-    return (function() {
-      return ($uZ(condition$1.apply__O()) ? $m_Ljapgolly_scalajs_react_CallbackOption$().someUnit$1 : $m_s_None$())
-    })
-  })(this, condition));
-  return f
-});
-$c_Ljapgolly_scalajs_react_CallbackOption$.prototype.liftCallback__F0__F0 = (function(cb) {
-  $m_Ljapgolly_scalajs_react_CallbackOption$();
-  var cb$1 = $m_Ljapgolly_scalajs_react_CallbackTo$().map$extension__F0__F1__Ljapgolly_scalajs_react_CallbackTo$MapGuard__F0(cb, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
-    return (function(value$2) {
-      return new $c_s_Some().init___O(value$2)
-    })
-  })(this)), null);
-  return cb$1
-});
-var $d_Ljapgolly_scalajs_react_CallbackOption$ = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_CallbackOption$: 0
-}, false, "japgolly.scalajs.react.CallbackOption$", {
-  Ljapgolly_scalajs_react_CallbackOption$: 1,
-  O: 1
-});
-$c_Ljapgolly_scalajs_react_CallbackOption$.prototype.$classData = $d_Ljapgolly_scalajs_react_CallbackOption$;
-var $n_Ljapgolly_scalajs_react_CallbackOption$ = (void 0);
-function $m_Ljapgolly_scalajs_react_CallbackOption$() {
-  if ((!$n_Ljapgolly_scalajs_react_CallbackOption$)) {
-    $n_Ljapgolly_scalajs_react_CallbackOption$ = new $c_Ljapgolly_scalajs_react_CallbackOption$().init___()
-  };
-  return $n_Ljapgolly_scalajs_react_CallbackOption$
 }
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_CallbackTo() {
@@ -2338,6 +2244,13 @@ $c_Ljapgolly_scalajs_react_CallbackTo$.prototype.toJsFn$extension__F0__sjs_js_Fu
     })
   })($$this)
 });
+$c_Ljapgolly_scalajs_react_CallbackTo$.prototype.$$less$times$extension__F0__F0__F0 = (function($$this, next) {
+  return $m_Ljapgolly_scalajs_react_CallbackTo$().flatTap$extension__F0__F1__F0($$this, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, next$1) {
+    return (function(x$12$2) {
+      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(next$1)
+    })
+  })(this, next)))
+});
 $c_Ljapgolly_scalajs_react_CallbackTo$.prototype.$$greater$greater$extension__F0__F0__F0 = (function($$this, runNext) {
   return ($m_Ljapgolly_scalajs_react_CallbackTo$().isEmpty$und$qmark$extension__F0__Z($$this) ? runNext : new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, runNext$1, $$this$1) {
     return (function() {
@@ -2345,6 +2258,14 @@ $c_Ljapgolly_scalajs_react_CallbackTo$.prototype.$$greater$greater$extension__F0
       return runNext$1.apply__O()
     })
   })(this, runNext, $$this)))
+});
+$c_Ljapgolly_scalajs_react_CallbackTo$.prototype.when$extension__F0__F0__F0 = (function($$this, cond) {
+  var f = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, cond$1, $$this$1) {
+    return (function() {
+      return ($uZ(cond$1.apply__O()) ? new $c_s_Some().init___O($$this$1.apply__O()) : $m_s_None$())
+    })
+  })(this, cond, $$this));
+  return f
 });
 $c_Ljapgolly_scalajs_react_CallbackTo$.prototype.map$extension__F0__F1__Ljapgolly_scalajs_react_CallbackTo$MapGuard__F0 = (function($$this, g, ev) {
   return new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, $$this$1, g$1) {
@@ -2360,12 +2281,37 @@ $c_Ljapgolly_scalajs_react_CallbackTo$.prototype.flatMap$extension__F0__F1__F0 =
     })
   })(this, $$this, g))
 });
+$c_Ljapgolly_scalajs_react_CallbackTo$.prototype.flatTap$extension__F0__F1__F0 = (function($$this, t) {
+  return $m_Ljapgolly_scalajs_react_CallbackTo$().flatMap$extension__F0__F1__F0($$this, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, t$1) {
+    return (function(a$2) {
+      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($m_Ljapgolly_scalajs_react_CallbackTo$().map$extension__F0__F1__Ljapgolly_scalajs_react_CallbackTo$MapGuard__F0($as_Ljapgolly_scalajs_react_CallbackTo(t$1.apply__O__O(a$2)).japgolly$scalajs$react$CallbackTo$$f$1, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, a) {
+        return (function(_$2) {
+          return a
+        })
+      })($this, a$2)), null))
+    })
+  })(this, t)))
+});
+$c_Ljapgolly_scalajs_react_CallbackTo$.prototype.asEventDefault$extension__F0__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0 = (function($$this, e) {
+  return $m_Ljapgolly_scalajs_react_CallbackTo$().unless$extension__F0__F0__F0($m_Ljapgolly_scalajs_react_CallbackTo$().$$less$times$extension__F0__F0__F0($$this, $m_Ljapgolly_scalajs_react_ReactExt$undReactEvent$().preventDefaultCB$extension__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(($m_Ljapgolly_scalajs_react_package$(), e))), new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, e$1) {
+    return (function() {
+      return $uZ(e$1.defaultPrevented)
+    })
+  })(this, e)))
+});
 $c_Ljapgolly_scalajs_react_CallbackTo$.prototype.pure__O__F0 = (function(a) {
   return new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, a$1) {
     return (function() {
       return a$1
     })
   })(this, a))
+});
+$c_Ljapgolly_scalajs_react_CallbackTo$.prototype.unless$extension__F0__F0__F0 = (function($$this, cond) {
+  return $m_Ljapgolly_scalajs_react_CallbackTo$().when$extension__F0__F0__F0($$this, new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, cond$1) {
+    return (function() {
+      return (!$uZ(cond$1.apply__O()))
+    })
+  })(this, cond)))
 });
 var $d_Ljapgolly_scalajs_react_CallbackTo$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_CallbackTo$: 0
@@ -2426,8 +2372,8 @@ $c_Ljapgolly_scalajs_react_CtorType$Summoner$.prototype.summonP__Ljapgolly_scala
           if ((mm$2 === (void 0))) {
             var p2 = p$2
           } else {
-            var m = $as_Ljapgolly_scalajs_react_CtorType$Mod(mm$2).mod$1;
-            var p2 = $m_Ljapgolly_scalajs_react_CtorType$Mod$().apply$extension__F1__sjs_js_Object__sjs_js_Object(m, $m_Ljapgolly_scalajs_react_CtorType$Summoner$().prepareForMutation__p1__sjs_js_Object__sjs_js_Object(p$2))
+            var x$6 = $as_Ljapgolly_scalajs_react_CtorType$Mod(mm$2).mod$1;
+            var p2 = $m_Ljapgolly_scalajs_react_CtorType$Mod$().applyAndCast$extension__F1__sjs_js_Object__sjs_js_Object(x$6, $m_Ljapgolly_scalajs_react_CtorType$Summoner$().prepareForMutation__p1__sjs_js_Object__sjs_js_Object(p$2))
           };
           return $i_react.createElement(rc, p2)
         })
@@ -2440,15 +2386,10 @@ $c_Ljapgolly_scalajs_react_CtorType$Summoner$.prototype.summonP__Ljapgolly_scala
 $c_Ljapgolly_scalajs_react_CtorType$Summoner$.prototype.summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner = (function(s) {
   var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, s$1) {
     return (function(rc$2) {
-      var jsx$2 = $i_react;
-      var a = s$1.value$1;
-      var jsx$1 = jsx$2.createElement(rc$2, a);
-      return new $c_Ljapgolly_scalajs_react_CtorType$Nullary().init___O__F1__sjs_js_UndefOr(jsx$1, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, s$1$1, rc) {
+      return new $c_Ljapgolly_scalajs_react_CtorType$Nullary().init___O__F1__sjs_js_UndefOr($i_react.createElement(rc$2, s$1.value$1), new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, s$1$1, rc) {
         return (function(m$2) {
           var m = $as_Ljapgolly_scalajs_react_CtorType$Mod(m$2).mod$1;
-          var jsx$3 = $i_react;
-          var a$1 = $m_Ljapgolly_scalajs_react_CtorType$Mod$().apply$extension__F1__sjs_js_Object__sjs_js_Object(m, s$1$1.mutableObj$1.apply__O());
-          return jsx$3.createElement(rc, a$1)
+          return $i_react.createElement(rc, $m_Ljapgolly_scalajs_react_CtorType$Mod$().applyAndCast$extension__F1__sjs_js_Object__sjs_js_Object(m, s$1$1.mutableObj$1.apply__O()))
         })
       })($this, s$1, rc$2)), (void 0))
     })
@@ -2536,8 +2477,8 @@ function $m_Ljapgolly_scalajs_react_component_Generic$() {
   };
   return $n_Ljapgolly_scalajs_react_component_Generic$
 }
-function $f_Ljapgolly_scalajs_react_component_Generic$UnmountedSimple__renderIntoDOM__Lorg_scalajs_dom_raw_Element__F0__O($thiz, container, callback) {
-  return $thiz.mountRaw__F1().apply__O__O($i_react$002ddom.render($thiz.raw__Ljapgolly_scalajs_react_raw_package$ReactComponentElement(), container, $m_Ljapgolly_scalajs_react_CallbackTo$().toJsFn$extension__F0__sjs_js_Function0(callback)))
+function $f_Ljapgolly_scalajs_react_component_Generic$UnmountedSimple__renderIntoDOM__sjs_js_$bar__F0__O($thiz, container, callback) {
+  return $thiz.mountRaw__F1().apply__O__O($i_react$002ddom.render($thiz.raw__Ljapgolly_scalajs_react_raw_React$ComponentElement(), container, $m_Ljapgolly_scalajs_react_CallbackTo$().toJsFn$extension__F0__sjs_js_Function0(callback)))
 }
 function $is_Ljapgolly_scalajs_react_component_Generic$UnmountedSimple(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_Generic$UnmountedSimple)))
@@ -2552,43 +2493,39 @@ function $asArrayOf_Ljapgolly_scalajs_react_component_Generic$UnmountedSimple(ob
   return (($isArrayOf_Ljapgolly_scalajs_react_component_Generic$UnmountedSimple(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.Generic$UnmountedSimple;", depth))
 }
 /** @constructor */
-function $c_Ljapgolly_scalajs_react_component_InspectRaw$() {
-  $c_O.call(this)
+function $c_Ljapgolly_scalajs_react_component_JsForwardRef$() {
+  $c_O.call(this);
+  this.japgolly$scalajs$react$component$JsForwardRef$$constUnit$1 = null
 }
-$c_Ljapgolly_scalajs_react_component_InspectRaw$.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_component_InspectRaw$.prototype.constructor = $c_Ljapgolly_scalajs_react_component_InspectRaw$;
+$c_Ljapgolly_scalajs_react_component_JsForwardRef$.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_component_JsForwardRef$.prototype.constructor = $c_Ljapgolly_scalajs_react_component_JsForwardRef$;
 /** @constructor */
-function $h_Ljapgolly_scalajs_react_component_InspectRaw$() {
+function $h_Ljapgolly_scalajs_react_component_JsForwardRef$() {
   /*<skip>*/
 }
-$h_Ljapgolly_scalajs_react_component_InspectRaw$.prototype = $c_Ljapgolly_scalajs_react_component_InspectRaw$.prototype;
-$c_Ljapgolly_scalajs_react_component_InspectRaw$.prototype.init___ = (function() {
+$h_Ljapgolly_scalajs_react_component_JsForwardRef$.prototype = $c_Ljapgolly_scalajs_react_component_JsForwardRef$.prototype;
+$c_Ljapgolly_scalajs_react_component_JsForwardRef$.prototype.init___ = (function() {
+  $n_Ljapgolly_scalajs_react_component_JsForwardRef$ = this;
+  this.japgolly$scalajs$react$component$JsForwardRef$$constUnit$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(x$2$2) {
+      return (void 0)
+    })
+  })(this));
   return this
 });
-$c_Ljapgolly_scalajs_react_component_InspectRaw$.prototype.invalidComponentDesc__sjs_js_Any__T = (function(a) {
-  if ($is_T(a)) {
-    var x2 = $as_T(a);
-    return ((("" + new $c_jl_Character().init___C(34)) + x2) + "\". Strings are no longer supported; either create a facade or use js.Dynamic. See docs for detail.")
-  } else {
-    return ($uZ((a instanceof $g.Object)) ? $m_Ljapgolly_scalajs_react_internal_JsUtil$().inspectObject__sjs_js_Object__T(a) : ((a === (void 0)) ? $objectToString(a) : new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["", " (type=", ")"])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([a, $as_T((typeof a))]))))
-  }
-});
-$c_Ljapgolly_scalajs_react_component_InspectRaw$.prototype.isComponent__sjs_js_Any__Z = (function(a) {
-  return $uZ((a instanceof $g.Function))
-});
-var $d_Ljapgolly_scalajs_react_component_InspectRaw$ = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_component_InspectRaw$: 0
-}, false, "japgolly.scalajs.react.component.InspectRaw$", {
-  Ljapgolly_scalajs_react_component_InspectRaw$: 1,
+var $d_Ljapgolly_scalajs_react_component_JsForwardRef$ = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_JsForwardRef$: 0
+}, false, "japgolly.scalajs.react.component.JsForwardRef$", {
+  Ljapgolly_scalajs_react_component_JsForwardRef$: 1,
   O: 1
 });
-$c_Ljapgolly_scalajs_react_component_InspectRaw$.prototype.$classData = $d_Ljapgolly_scalajs_react_component_InspectRaw$;
-var $n_Ljapgolly_scalajs_react_component_InspectRaw$ = (void 0);
-function $m_Ljapgolly_scalajs_react_component_InspectRaw$() {
-  if ((!$n_Ljapgolly_scalajs_react_component_InspectRaw$)) {
-    $n_Ljapgolly_scalajs_react_component_InspectRaw$ = new $c_Ljapgolly_scalajs_react_component_InspectRaw$().init___()
+$c_Ljapgolly_scalajs_react_component_JsForwardRef$.prototype.$classData = $d_Ljapgolly_scalajs_react_component_JsForwardRef$;
+var $n_Ljapgolly_scalajs_react_component_JsForwardRef$ = (void 0);
+function $m_Ljapgolly_scalajs_react_component_JsForwardRef$() {
+  if ((!$n_Ljapgolly_scalajs_react_component_JsForwardRef$)) {
+    $n_Ljapgolly_scalajs_react_component_JsForwardRef$ = new $c_Ljapgolly_scalajs_react_component_JsForwardRef$().init___()
   };
-  return $n_Ljapgolly_scalajs_react_component_InspectRaw$
+  return $n_Ljapgolly_scalajs_react_component_JsForwardRef$
 }
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_component_Scala$() {
@@ -2637,6 +2574,13 @@ $h_Ljapgolly_scalajs_react_component_ScalaFn$.prototype = $c_Ljapgolly_scalajs_r
 $c_Ljapgolly_scalajs_react_component_ScalaFn$.prototype.init___ = (function() {
   return this
 });
+$c_Ljapgolly_scalajs_react_component_ScalaFn$.prototype.apply__F1__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot = (function(render, s) {
+  return this.create__p1__F1__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, render$1) {
+    return (function(b$2) {
+      return $as_Ljapgolly_scalajs_react_vdom_VdomElement(render$1.apply__O__O(b$2.a))
+    })
+  })(this, render)), s)
+});
 $c_Ljapgolly_scalajs_react_component_ScalaFn$.prototype.create__p1__F1__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot = (function(render, s) {
   var jsRender = (function(f) {
     return (function(arg1) {
@@ -2648,7 +2592,7 @@ $c_Ljapgolly_scalajs_react_component_ScalaFn$.prototype.create__p1__F1__Ljapgoll
       return x$1.rawElement$2
     })
   })(this))));
-  return $m_Ljapgolly_scalajs_react_component_JsFn$().apply__sjs_js_Any__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(jsRender, s).cmapCtorProps__F1__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2) {
+  return $m_Ljapgolly_scalajs_react_component_JsFn$().force__sjs_js_Any__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(jsRender, s).cmapCtorProps__F1__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2) {
     return (function(x$2$2) {
       $m_Ljapgolly_scalajs_react_internal_Box$();
       return {
@@ -2666,13 +2610,6 @@ $c_Ljapgolly_scalajs_react_component_ScalaFn$.prototype.create__p1__F1__Ljapgoll
     })
   })(this)))
 });
-$c_Ljapgolly_scalajs_react_component_ScalaFn$.prototype.apply__F1__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot = (function(render) {
-  return this.create__p1__F1__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, render$1) {
-    return (function(b$2) {
-      return $as_Ljapgolly_scalajs_react_vdom_VdomElement(render$1.apply__O__O(b$2.a))
-    })
-  })(this, render)), $m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)))
-});
 var $d_Ljapgolly_scalajs_react_component_ScalaFn$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_component_ScalaFn$: 0
 }, false, "japgolly.scalajs.react.component.ScalaFn$", {
@@ -2686,6 +2623,34 @@ function $m_Ljapgolly_scalajs_react_component_ScalaFn$() {
     $n_Ljapgolly_scalajs_react_component_ScalaFn$ = new $c_Ljapgolly_scalajs_react_component_ScalaFn$().init___()
   };
   return $n_Ljapgolly_scalajs_react_component_ScalaFn$
+}
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_ScalaForwardRef$() {
+  $c_O.call(this)
+}
+$c_Ljapgolly_scalajs_react_component_ScalaForwardRef$.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_component_ScalaForwardRef$.prototype.constructor = $c_Ljapgolly_scalajs_react_component_ScalaForwardRef$;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_ScalaForwardRef$() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_ScalaForwardRef$.prototype = $c_Ljapgolly_scalajs_react_component_ScalaForwardRef$.prototype;
+$c_Ljapgolly_scalajs_react_component_ScalaForwardRef$.prototype.init___ = (function() {
+  return this
+});
+var $d_Ljapgolly_scalajs_react_component_ScalaForwardRef$ = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_ScalaForwardRef$: 0
+}, false, "japgolly.scalajs.react.component.ScalaForwardRef$", {
+  Ljapgolly_scalajs_react_component_ScalaForwardRef$: 1,
+  O: 1
+});
+$c_Ljapgolly_scalajs_react_component_ScalaForwardRef$.prototype.$classData = $d_Ljapgolly_scalajs_react_component_ScalaForwardRef$;
+var $n_Ljapgolly_scalajs_react_component_ScalaForwardRef$ = (void 0);
+function $m_Ljapgolly_scalajs_react_component_ScalaForwardRef$() {
+  if ((!$n_Ljapgolly_scalajs_react_component_ScalaForwardRef$)) {
+    $n_Ljapgolly_scalajs_react_component_ScalaForwardRef$ = new $c_Ljapgolly_scalajs_react_component_ScalaForwardRef$().init___()
+  };
+  return $n_Ljapgolly_scalajs_react_component_ScalaForwardRef$
 }
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_component_builder_Builder$() {
@@ -2708,22 +2673,22 @@ $c_Ljapgolly_scalajs_react_component_builder_Builder$.prototype.init___ = (funct
   })(this));
   return this
 });
-$c_Ljapgolly_scalajs_react_component_builder_Builder$.prototype.fromReactClass__sjs_js_Function1__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot = (function(rc, ctorType) {
+$c_Ljapgolly_scalajs_react_component_builder_Builder$.prototype.fromReactComponentClass__sjs_js_Function1__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot = (function(rc, ctorType) {
   $m_Ljapgolly_scalajs_react_component_Js$();
   var x = $m_Ljapgolly_scalajs_react_component_Js$().component__sjs_js_Function1__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(rc, ctorType);
   return x.cmapCtorProps__F1__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
-    return (function(x$14$2) {
+    return (function(x$16$2) {
       $m_Ljapgolly_scalajs_react_internal_Box$();
       return {
-        "a": x$14$2
+        "a": x$16$2
       }
     })
   })(this))).mapUnmounted__F1__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$1) {
-    return (function(x$15$2) {
-      var x$15 = $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(x$15$2);
-      return x$15.mapUnmountedProps__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1) {
-        return (function(x$16$2) {
-          return x$16$2.a
+    return (function(x$17$2) {
+      var x$17 = $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(x$17$2);
+      return x$17.mapUnmountedProps__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1) {
+        return (function(x$18$2) {
+          return x$18$2.a
         })
       })(this$2$1))).mapMounted__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$2) {
         return (function(x$2) {
@@ -2842,16 +2807,8 @@ function $h_Ljapgolly_scalajs_react_component_builder_Builder$Step3() {
   /*<skip>*/
 }
 $h_Ljapgolly_scalajs_react_component_builder_Builder$Step3.prototype = $c_Ljapgolly_scalajs_react_component_builder_Builder$Step3.prototype;
-$c_Ljapgolly_scalajs_react_component_builder_Builder$Step3.prototype.renderStatic__Ljapgolly_scalajs_react_vdom_VdomElement__Ljapgolly_scalajs_react_component_builder_Builder$Step4 = (function(r) {
-  return this.renderWith__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, r$1) {
-    return (function(x$5$2) {
-      $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(x$5$2);
-      return r$1
-    })
-  })(this, r)))
-});
 $c_Ljapgolly_scalajs_react_component_builder_Builder$Step3.prototype.renderWith__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4 = (function(r) {
-  return new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step4().init___T__F1__F1__F1__Ljapgolly_scalajs_react_component_builder_Lifecycle(this.name$1, this.initStateFn$1, this.backendFn$1, r, new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle().init___s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option($m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$()))
+  return new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step4().init___T__F1__F1__F1__Ljapgolly_scalajs_react_component_builder_Lifecycle(this.name$1, this.initStateFn$1, this.backendFn$1, r, new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle().init___s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option($m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$(), $m_s_None$()))
 });
 $c_Ljapgolly_scalajs_react_component_builder_Builder$Step3.prototype.init___T__F1__F1 = (function(name, initStateFn, backendFn) {
   this.name$1 = name;
@@ -2863,8 +2820,8 @@ $c_Ljapgolly_scalajs_react_component_builder_Builder$Step3.prototype.render$undS
   return this.renderWith__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, r$1) {
     return (function($$$) {
       var $$ = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope($$$).raw$1;
-      var this$1 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_package$ReactComponent($$);
-      return $as_Ljapgolly_scalajs_react_vdom_VdomElement(r$1.apply__O__O($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$1).state__O()))
+      var this$1 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component($$);
+      return $as_Ljapgolly_scalajs_react_vdom_VdomNode(r$1.apply__O__O($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$1).state__O()))
     })
   })(this, r)))
 });
@@ -2872,7 +2829,15 @@ $c_Ljapgolly_scalajs_react_component_builder_Builder$Step3.prototype.render$undP
   return this.renderWith__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, r$1) {
     return (function($$$) {
       var $$ = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope($$$).raw$1;
-      return $as_Ljapgolly_scalajs_react_vdom_VdomElement(r$1.apply__O__O($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$().props$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__O($$)))
+      return $as_Ljapgolly_scalajs_react_vdom_VdomNode(r$1.apply__O__O($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$().props$extension__Ljapgolly_scalajs_react_raw_React$Component__O($$)))
+    })
+  })(this, r)))
+});
+$c_Ljapgolly_scalajs_react_component_builder_Builder$Step3.prototype.renderStatic__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_builder_Builder$Step4 = (function(r) {
+  return this.renderWith__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, r$1) {
+    return (function(x$5$2) {
+      $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(x$5$2);
+      return r$1
     })
   })(this, r)))
 });
@@ -2901,15 +2866,23 @@ function $h_Ljapgolly_scalajs_react_component_builder_Builder$Step4() {
 $h_Ljapgolly_scalajs_react_component_builder_Builder$Step4.prototype = $c_Ljapgolly_scalajs_react_component_builder_Builder$Step4.prototype;
 $c_Ljapgolly_scalajs_react_component_builder_Builder$Step4.prototype.shouldComponentUpdateConst__F0__Ljapgolly_scalajs_react_component_builder_Builder$Step4 = (function(cb) {
   var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, cb$1) {
-    return (function(x$13$2) {
-      $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate(x$13$2);
+    return (function(x$15$2) {
+      $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate(x$15$2);
       return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(cb$1)
     })
   })(this, cb));
   return this.lcAppend__p1__Ljapgolly_scalajs_react_internal_Lens__F1__F2__Ljapgolly_scalajs_react_component_builder_Builder$Step4($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().shouldComponentUpdate__Ljapgolly_scalajs_react_internal_Lens(), f, $m_Ljapgolly_scalajs_react_internal_Semigroup$().eitherCB$1)
 });
+$c_Ljapgolly_scalajs_react_component_builder_Builder$Step4.prototype.componentDidUpdate__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4 = (function(f) {
+  var lc = this.lcAppend__p1__Ljapgolly_scalajs_react_internal_Lens__F1__F2__Ljapgolly_scalajs_react_component_builder_Builder$Step4($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().componentDidUpdate__Ljapgolly_scalajs_react_internal_Lens(), f, $m_Ljapgolly_scalajs_react_internal_Semigroup$().callback$1).lifecycle$1;
+  return new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step4().init___T__F1__F1__F1__Ljapgolly_scalajs_react_component_builder_Lifecycle(this.name$1, this.initStateFn$1, this.backendFn$1, this.renderFn$1, lc)
+});
 $c_Ljapgolly_scalajs_react_component_builder_Builder$Step4.prototype.shouldComponentUpdateConst__Z__Ljapgolly_scalajs_react_component_builder_Builder$Step4 = (function(b) {
   return this.shouldComponentUpdateConst__F0__Ljapgolly_scalajs_react_component_builder_Builder$Step4($m_Ljapgolly_scalajs_react_CallbackTo$().pure__O__F0(b))
+});
+$c_Ljapgolly_scalajs_react_component_builder_Builder$Step4.prototype.build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_internal_JsRepr__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot = (function(ctorType, snapshotJs) {
+  var c = $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$().apply__Ljapgolly_scalajs_react_component_builder_Builder$Step4__Ljapgolly_scalajs_react_internal_JsRepr__sjs_js_Function1(this, snapshotJs);
+  return $m_Ljapgolly_scalajs_react_component_builder_Builder$().fromReactComponentClass__sjs_js_Function1__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(c, ctorType)
 });
 $c_Ljapgolly_scalajs_react_component_builder_Builder$Step4.prototype.init___T__F1__F1__F1__Ljapgolly_scalajs_react_component_builder_Lifecycle = (function(name, initStateFn, backendFn, renderFn, lifecycle) {
   this.name$1 = name;
@@ -2920,30 +2893,26 @@ $c_Ljapgolly_scalajs_react_component_builder_Builder$Step4.prototype.init___T__F
   return this
 });
 $c_Ljapgolly_scalajs_react_component_builder_Builder$Step4.prototype.lcAppend__p1__Ljapgolly_scalajs_react_internal_Lens__F1__F2__Ljapgolly_scalajs_react_component_builder_Builder$Step4 = (function(lens, g, s) {
-  var x$17 = this.lifecycle$1.append__Ljapgolly_scalajs_react_internal_Lens__F1__F2__Ljapgolly_scalajs_react_component_builder_Lifecycle(lens, g, s);
-  var x$18 = this.name$1;
-  var x$19 = this.initStateFn$1;
-  var x$20 = this.backendFn$1;
-  var x$21 = this.renderFn$1;
-  return new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step4().init___T__F1__F1__F1__Ljapgolly_scalajs_react_component_builder_Lifecycle(x$18, x$19, x$20, x$21, x$17)
-});
-$c_Ljapgolly_scalajs_react_component_builder_Builder$Step4.prototype.build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot = (function(ctorType) {
-  var c = $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$().apply__Ljapgolly_scalajs_react_component_builder_Builder$Step4__sjs_js_Function1(this);
-  return $m_Ljapgolly_scalajs_react_component_builder_Builder$().fromReactClass__sjs_js_Function1__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(c, ctorType)
+  var x$19 = this.lifecycle$1.append__Ljapgolly_scalajs_react_internal_Lens__F1__F2__Ljapgolly_scalajs_react_component_builder_Lifecycle(lens, g, s);
+  var x$20 = this.name$1;
+  var x$21 = this.initStateFn$1;
+  var x$22 = this.backendFn$1;
+  var x$23 = this.renderFn$1;
+  return new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step4().init___T__F1__F1__F1__Ljapgolly_scalajs_react_component_builder_Lifecycle(x$20, x$21, x$22, x$23, x$19)
 });
 $c_Ljapgolly_scalajs_react_component_builder_Builder$Step4.prototype.shouldComponentUpdatePure__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4 = (function(f) {
-  var f$4 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, f$1) {
+  var f$3 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, f$1) {
     return (function($$$) {
       var $$ = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate($$$);
-      var f$2 = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this$1, f$3, $$$1) {
+      var f$2 = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this$1, f$5, $$$1) {
         return (function() {
-          return $uZ(f$3.apply__O__O($$$1))
+          return $uZ(f$5.apply__O__O($$$1))
         })
       })($this, f$1, $$));
       return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(f$2)
     })
   })(this, f));
-  return this.lcAppend__p1__Ljapgolly_scalajs_react_internal_Lens__F1__F2__Ljapgolly_scalajs_react_component_builder_Builder$Step4($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().shouldComponentUpdate__Ljapgolly_scalajs_react_internal_Lens(), f$4, $m_Ljapgolly_scalajs_react_internal_Semigroup$().eitherCB$1)
+  return this.lcAppend__p1__Ljapgolly_scalajs_react_internal_Lens__F1__F2__Ljapgolly_scalajs_react_component_builder_Builder$Step4($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().shouldComponentUpdate__Ljapgolly_scalajs_react_internal_Lens(), f$3, $m_Ljapgolly_scalajs_react_internal_Semigroup$().eitherCB$1)
 });
 function $is_Ljapgolly_scalajs_react_component_builder_Builder$Step4(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_builder_Builder$Step4)))
@@ -2978,10 +2947,10 @@ $h_Ljapgolly_scalajs_react_component_builder_EntryPoint$.prototype = $c_Ljapgoll
 $c_Ljapgolly_scalajs_react_component_builder_EntryPoint$.prototype.init___ = (function() {
   return this
 });
-$c_Ljapgolly_scalajs_react_component_builder_EntryPoint$.prototype.$static__T__Ljapgolly_scalajs_react_vdom_VdomElement__Ljapgolly_scalajs_react_component_builder_Builder$Step4 = (function(displayName, content) {
+$c_Ljapgolly_scalajs_react_component_builder_EntryPoint$.prototype.$static__T__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_builder_Builder$Step4 = (function(displayName, content) {
   $m_Ljapgolly_scalajs_react_component_builder_Builder$();
   var b = new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T(displayName);
-  return ($m_Ljapgolly_scalajs_react_component_builder_Builder$(), b.stateless__Ljapgolly_scalajs_react_component_builder_Builder$Step2()).noBackend__Ljapgolly_scalajs_react_component_builder_Builder$Step3().renderStatic__Ljapgolly_scalajs_react_vdom_VdomElement__Ljapgolly_scalajs_react_component_builder_Builder$Step4(content).shouldComponentUpdateConst__Z__Ljapgolly_scalajs_react_component_builder_Builder$Step4(false)
+  return ($m_Ljapgolly_scalajs_react_component_builder_Builder$(), b.stateless__Ljapgolly_scalajs_react_component_builder_Builder$Step2()).noBackend__Ljapgolly_scalajs_react_component_builder_Builder$Step3().renderStatic__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_builder_Builder$Step4(content).shouldComponentUpdateConst__Z__Ljapgolly_scalajs_react_component_builder_Builder$Step4(false)
 });
 var $d_Ljapgolly_scalajs_react_component_builder_EntryPoint$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_component_builder_EntryPoint$: 0
@@ -3011,24 +2980,23 @@ $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$.protot
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$.prototype.init___ = (function() {
   return this
 });
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$.prototype.equals$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__O__Z = (function($$this, x$1) {
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$.prototype.toString$extension__Ljapgolly_scalajs_react_raw_React$Component__T = (function($$this) {
+  var jsx$2 = $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$();
+  var jsx$1 = $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$().props$extension__Ljapgolly_scalajs_react_raw_React$Component__O($$this);
+  var this$1 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_React$Component($$this);
+  return jsx$2.japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T((((("ComponentDidMount(props: " + jsx$1) + ", state: ") + $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$1).state__O()) + ")"))
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$.prototype.props$extension__Ljapgolly_scalajs_react_raw_React$Component__O = (function($$this) {
+  var this$1 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_React$Component($$this);
+  return $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$1).props__O()
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$.prototype.equals$extension__Ljapgolly_scalajs_react_raw_React$Component__O__Z = (function($$this, x$1) {
   if ($is_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(x$1)) {
     var ComponentDidMount$1 = ((x$1 === null) ? null : $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(x$1).raw$1);
     return $m_sr_BoxesRunTime$().equals__O__O__Z($$this, ComponentDidMount$1)
   } else {
     return false
   }
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$.prototype.props$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__O = (function($$this) {
-  var this$1 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_package$ReactComponent($$this);
-  return $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$1).props__O()
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$.prototype.toString$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__T = (function($$this) {
-  var jsx$3 = $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$();
-  var jsx$2 = new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["ComponentDidMount(props: ", ", state: ", ")"]));
-  var jsx$1 = $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$().props$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__O($$this);
-  var this$1 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_package$ReactComponent($$this);
-  return jsx$3.japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T(jsx$2.s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$1, $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$1).state__O()])))
 });
 var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$: 0
@@ -3058,24 +3026,23 @@ $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount$.proto
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount$.prototype.init___ = (function() {
   return this
 });
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount$.prototype.equals$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__O__Z = (function($$this, x$1) {
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount$.prototype.toString$extension__Ljapgolly_scalajs_react_raw_React$Component__T = (function($$this) {
+  var jsx$2 = $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$();
+  var jsx$1 = $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount$().props$extension__Ljapgolly_scalajs_react_raw_React$Component__O($$this);
+  var this$1 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount().init___Ljapgolly_scalajs_react_raw_React$Component($$this);
+  return jsx$2.japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T((((("ComponentWillMount(props: " + jsx$1) + ", state: ") + $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$1).state__O()) + ")"))
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount$.prototype.props$extension__Ljapgolly_scalajs_react_raw_React$Component__O = (function($$this) {
+  var this$1 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount().init___Ljapgolly_scalajs_react_raw_React$Component($$this);
+  return $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$1).props__O()
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount$.prototype.equals$extension__Ljapgolly_scalajs_react_raw_React$Component__O__Z = (function($$this, x$1) {
   if ($is_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount(x$1)) {
     var ComponentWillMount$1 = ((x$1 === null) ? null : $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount(x$1).raw$1);
     return $m_sr_BoxesRunTime$().equals__O__O__Z($$this, ComponentWillMount$1)
   } else {
     return false
   }
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount$.prototype.props$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__O = (function($$this) {
-  var this$1 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount().init___Ljapgolly_scalajs_react_raw_package$ReactComponent($$this);
-  return $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$1).props__O()
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount$.prototype.toString$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__T = (function($$this) {
-  var jsx$3 = $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$();
-  var jsx$2 = new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["ComponentWillMount(props: ", ", state: ", ")"]));
-  var jsx$1 = $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount$().props$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__O($$this);
-  var this$1 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount().init___Ljapgolly_scalajs_react_raw_package$ReactComponent($$this);
-  return jsx$3.japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T(jsx$2.s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$1, $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$1).state__O()])))
 });
 var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount$: 0
@@ -3105,24 +3072,24 @@ $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount$.pro
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount$.prototype.init___ = (function() {
   return this
 });
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount$.prototype.equals$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__O__Z = (function($$this, x$1) {
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount$.prototype.toString$extension__Ljapgolly_scalajs_react_raw_React$Component__T = (function($$this) {
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T((((("ComponentWillUnmount(props: " + $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount$().props$extension__Ljapgolly_scalajs_react_raw_React$Component__O($$this)) + ", state: ") + $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount$().state$extension__Ljapgolly_scalajs_react_raw_React$Component__O($$this)) + ")"))
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount$.prototype.props$extension__Ljapgolly_scalajs_react_raw_React$Component__O = (function($$this) {
+  var this$1 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount().init___Ljapgolly_scalajs_react_raw_React$Component($$this);
+  return $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$1).props__O()
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount$.prototype.state$extension__Ljapgolly_scalajs_react_raw_React$Component__O = (function($$this) {
+  var this$1 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount().init___Ljapgolly_scalajs_react_raw_React$Component($$this);
+  return $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$1).state__O()
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount$.prototype.equals$extension__Ljapgolly_scalajs_react_raw_React$Component__O__Z = (function($$this, x$1) {
   if ($is_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount(x$1)) {
     var ComponentWillUnmount$1 = ((x$1 === null) ? null : $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount(x$1).raw$1);
     return $m_sr_BoxesRunTime$().equals__O__O__Z($$this, ComponentWillUnmount$1)
   } else {
     return false
   }
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount$.prototype.state$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__O = (function($$this) {
-  var this$1 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount().init___Ljapgolly_scalajs_react_raw_package$ReactComponent($$this);
-  return $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$1).state__O()
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount$.prototype.props$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__O = (function($$this) {
-  var this$1 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount().init___Ljapgolly_scalajs_react_raw_package$ReactComponent($$this);
-  return $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$1).props__O()
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount$.prototype.toString$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__T = (function($$this) {
-  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T(new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["ComponentWillUnmount(props: ", ", state: ", ")"])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount$().props$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__O($$this), $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount$().state$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__O($$this)])))
 });
 var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount$: 0
@@ -3152,24 +3119,23 @@ $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$.prototype = 
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$.prototype.init___ = (function() {
   return this
 });
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$.prototype.equals$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__O__Z = (function($$this, x$1) {
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$.prototype.toString$extension__Ljapgolly_scalajs_react_raw_React$Component__T = (function($$this) {
+  var jsx$2 = $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$();
+  var jsx$1 = $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$().props$extension__Ljapgolly_scalajs_react_raw_React$Component__O($$this);
+  var this$1 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component($$this);
+  return jsx$2.japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T((((("Render(props: " + jsx$1) + ", state: ") + $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$1).state__O()) + ")"))
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$.prototype.props$extension__Ljapgolly_scalajs_react_raw_React$Component__O = (function($$this) {
+  var this$1 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component($$this);
+  return $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$1).props__O()
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$.prototype.equals$extension__Ljapgolly_scalajs_react_raw_React$Component__O__Z = (function($$this, x$1) {
   if ($is_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(x$1)) {
     var RenderScope$1 = ((x$1 === null) ? null : $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(x$1).raw$1);
     return $m_sr_BoxesRunTime$().equals__O__O__Z($$this, RenderScope$1)
   } else {
     return false
   }
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$.prototype.props$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__O = (function($$this) {
-  var this$1 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_package$ReactComponent($$this);
-  return $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$1).props__O()
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$.prototype.toString$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__T = (function($$this) {
-  var jsx$3 = $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$();
-  var jsx$2 = new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["Render(props: ", ", state: ", ")"]));
-  var jsx$1 = $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$().props$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__O($$this);
-  var this$1 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_package$ReactComponent($$this);
-  return jsx$3.japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T(jsx$2.s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$1, $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$1).state__O()])))
 });
 var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$: 0
@@ -3185,17 +3151,13 @@ function $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$() {
   };
   return $n_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$
 }
-function $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW__setState__O__F0__F0($thiz, newState, cb) {
-  return $as_Ljapgolly_scalajs_react_CallbackTo($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedPure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot($thiz).setState__O__F0__O(newState, cb)).japgolly$scalajs$react$CallbackTo$$f$1
-}
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$() {
   $c_O.call(this);
   this.x$4$1 = null;
   this.$$undgetPrototypeOf$1 = null;
   this.$$undsetPrototypeOf$1 = null;
-  this.ReactComponent$1 = null;
-  this.isMounted$1 = null
+  this.ReactComponent$1 = null
 }
 $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype = new $h_O();
 $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$;
@@ -3204,13 +3166,6 @@ function $h_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$() {
   /*<skip>*/
 }
 $h_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype = $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype;
-$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.add2$1__p1__T__F3__sjs_js_Array__V = (function(k, f, methods$1) {
-  this.add$1__p1__T__sjs_js_Any__sjs_js_Array__V(k, (function(f$1) {
-    return (function(arg1, arg2) {
-      return f$1.apply__O__O__O__O(this, arg1, arg2)
-    })
-  })(f), methods$1)
-});
 $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.init___ = (function() {
   $n_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ = this;
   var f = $g.Object.setPrototypeOf;
@@ -3247,11 +3202,6 @@ $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.init__
   this.$$undgetPrototypeOf$1 = $as_F1(this.x$4$1.$$und1$f);
   this.$$undsetPrototypeOf$1 = this.x$4$1.$$und2$f;
   this.ReactComponent$1 = $i_react.Component;
-  this.isMounted$1 = this.Method__p1__T__sjs_js_Any__Ljapgolly_scalajs_react_component_builder_ViaReactComponent$Method("isMounted", (function(this$3$1) {
-    return (function() {
-      return (void 0)
-    })
-  })(this));
   return this
 });
 $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.$$unddefineProperties__p1__sjs_js_Object__sjs_js_Array__V = (function(target, props) {
@@ -3271,131 +3221,45 @@ $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.$$undd
 $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.japgolly$scalajs$react$component$builder$ViaReactComponent$$$anonfun$x$4$3__sjs_js_Object__sjs_js_Object__V = (function(x$2, x$3) {
   x$2.__proto__ = x$3
 });
-$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.apply__Ljapgolly_scalajs_react_component_builder_Builder$Step4__sjs_js_Function1 = (function(builder) {
-  var initStateFn = builder.initStateFn$1;
-  var backendFn = builder.backendFn$1;
-  var renderFn = builder.renderFn$1;
-  var MyComponent = new $c_sr_ObjectRef().init___O(null);
-  MyComponent.elem$1 = (function(initStateFn$1, backendFn$1, MyComponent$1) {
-    return (function(arg1$2) {
-      return $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$().japgolly$scalajs$react$component$builder$ViaReactComponent$$$anonfun$apply$1__Ljapgolly_scalajs_react_raw_package$ReactComponent__Ljapgolly_scalajs_react_internal_Box__F1__F1__sr_ObjectRef__Ljapgolly_scalajs_react_raw_package$ReactComponent(this, arg1$2, initStateFn$1, backendFn$1, MyComponent$1)
-    })
-  })(initStateFn, backendFn, MyComponent);
-  this.$$undinherits__p1__sjs_js_Object__sjs_js_Object__V(MyComponent.elem$1, this.ReactComponent$1);
-  var methods = [this.isMounted$1];
-  this.add0$1__p1__T__F1__sjs_js_Array__V("render", new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, renderFn$1) {
-    return (function(_this$2) {
-      return $as_Ljapgolly_scalajs_react_vdom_VdomElement(renderFn$1.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_package$ReactComponent(_this$2))).rawElement$2
-    })
-  })(this, renderFn)), methods);
-  var this$2 = builder.lifecycle$1.componentWillMount$1;
-  if ((!this$2.isEmpty__Z())) {
-    var arg1 = this$2.get__O();
-    var f = $as_F1(arg1);
-    this.add0$1__p1__T__F1__sjs_js_Array__V("componentWillMount", new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, f$1) {
-      return (function(_this$2$1) {
-        var $$this = $as_Ljapgolly_scalajs_react_CallbackTo(f$1.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount().init___Ljapgolly_scalajs_react_raw_package$ReactComponent(_this$2$1))).japgolly$scalajs$react$CallbackTo$$f$1;
-        $$this.apply__O()
-      })
-    })(this, f)), methods)
-  };
-  var this$4 = builder.lifecycle$1.componentDidMount$1;
-  if ((!this$4.isEmpty__Z())) {
-    var arg1$1 = this$4.get__O();
-    var f$3 = $as_F1(arg1$1);
-    this.add0$1__p1__T__F1__sjs_js_Array__V("componentDidMount", new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$2, f$2) {
-      return (function(_this$2$2) {
-        var $$this$1 = $as_Ljapgolly_scalajs_react_CallbackTo(f$2.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_package$ReactComponent(_this$2$2))).japgolly$scalajs$react$CallbackTo$$f$1;
-        $$this$1.apply__O()
-      })
-    })(this, f$3)), methods)
-  };
-  var this$6 = builder.lifecycle$1.componentDidUpdate$1;
-  if ((!this$6.isEmpty__Z())) {
-    var arg1$3 = this$6.get__O();
-    var f$4 = $as_F1(arg1$3);
-    this.add2$1__p1__T__F3__sjs_js_Array__V("componentDidUpdate", new $c_sjsr_AnonFunction3().init___sjs_js_Function3((function($this$3, f$5) {
-      return (function(_this$2$3, p$2, s$2) {
-        var $$this$2 = $as_Ljapgolly_scalajs_react_CallbackTo(f$5.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate().init___Ljapgolly_scalajs_react_raw_package$ReactComponent__O__O(_this$2$3, p$2.a, s$2.a))).japgolly$scalajs$react$CallbackTo$$f$1;
-        $$this$2.apply__O()
-      })
-    })(this, f$4)), methods)
-  };
-  var this$8 = builder.lifecycle$1.componentWillUpdate$1;
-  if ((!this$8.isEmpty__Z())) {
-    var arg1$4 = this$8.get__O();
-    var f$5$1 = $as_F1(arg1$4);
-    this.add2$1__p1__T__F3__sjs_js_Array__V("componentWillUpdate", new $c_sjsr_AnonFunction3().init___sjs_js_Function3((function($this$4, f$6) {
-      return (function(_this$2$4, p$2$1, s$2$1) {
-        var $$this$3 = $as_Ljapgolly_scalajs_react_CallbackTo(f$6.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUpdate().init___Ljapgolly_scalajs_react_raw_package$ReactComponent__O__O(_this$2$4, p$2$1.a, s$2$1.a))).japgolly$scalajs$react$CallbackTo$$f$1;
-        $$this$3.apply__O()
-      })
-    })(this, f$5$1)), methods)
-  };
-  var this$10 = builder.lifecycle$1.shouldComponentUpdate$1;
-  if ((!this$10.isEmpty__Z())) {
-    var arg1$5 = this$10.get__O();
-    var f$6$1 = $as_F1(arg1$5);
-    this.add2$1__p1__T__F3__sjs_js_Array__V("shouldComponentUpdate", new $c_sjsr_AnonFunction3().init___sjs_js_Function3((function($this$5, f$7) {
-      return (function(_this$2$5, p$2$2, s$2$2) {
-        var $$this$4 = $as_Ljapgolly_scalajs_react_CallbackTo(f$7.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate().init___Ljapgolly_scalajs_react_raw_package$ReactComponent__O__O(_this$2$5, p$2$2.a, s$2$2.a))).japgolly$scalajs$react$CallbackTo$$f$1;
-        return $uZ($$this$4.apply__O())
-      })
-    })(this, f$6$1)), methods)
-  };
-  var this$12 = builder.lifecycle$1.componentWillReceiveProps$1;
-  if ((!this$12.isEmpty__Z())) {
-    var arg1$6 = this$12.get__O();
-    var f$7$1 = $as_F1(arg1$6);
-    this.add1$1__p1__T__F2__sjs_js_Array__V("componentWillReceiveProps", new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function($this$6, f$8) {
-      return (function(_this$2$6, p$2$3) {
-        var $$this$5 = $as_Ljapgolly_scalajs_react_CallbackTo(f$8.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps().init___Ljapgolly_scalajs_react_raw_package$ReactComponent__O(_this$2$6, p$2$3.a))).japgolly$scalajs$react$CallbackTo$$f$1;
-        $$this$5.apply__O()
-      })
-    })(this, f$7$1)), methods)
-  };
-  var this$14 = builder.lifecycle$1.componentWillUnmount$1;
-  if ((!this$14.isEmpty__Z())) {
-    var arg1$7 = this$14.get__O();
-    var f$8$1 = $as_F1(arg1$7);
-    this.add0$1__p1__T__F1__sjs_js_Array__V("componentWillUnmount", new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$7, f$9) {
-      return (function(_this$2$7) {
-        var $$this$6 = $as_Ljapgolly_scalajs_react_CallbackTo(f$9.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount().init___Ljapgolly_scalajs_react_raw_package$ReactComponent(_this$2$7))).japgolly$scalajs$react$CallbackTo$$f$1;
-        $$this$6.apply__O()
-      })
-    })(this, f$8$1)), methods)
-  };
-  this.$$undcreateClass__p1__sjs_js_Object__sjs_js_Array__V(MyComponent.elem$1, methods);
-  var this$16 = $m_s_Option$().apply__O__s_Option(builder.name$1);
-  if ((!this$16.isEmpty__Z())) {
-    var arg1$8 = this$16.get__O();
-    var n = $as_T(arg1$8);
-    MyComponent.elem$1.displayName = n
-  };
-  return MyComponent.elem$1
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.japgolly$scalajs$react$component$builder$ViaReactComponent$$$anonfun$apply$1__Ljapgolly_scalajs_react_raw_React$Component__Ljapgolly_scalajs_react_internal_Box__F1__F1__sr_ObjectRef__Ljapgolly_scalajs_react_raw_React$Component = (function($this, props, initStateFn$1, backendFn$1, MyComponent$1) {
+  var _this = $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$().$$undpossibleConstructorReturn__p1__sjs_js_Any__sjs_js_Any__sjs_js_Any($this, $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$().$$undgetPrototypeOf$1.apply__O__O(MyComponent$1.elem$1).call($this, props));
+  $m_Ljapgolly_scalajs_react_component_Js$();
+  var this$2 = new $c_Ljapgolly_scalajs_react_component_Js$$anon$1().init___Ljapgolly_scalajs_react_raw_React$Component(_this);
+  _this.mountedImpure = ($m_Ljapgolly_scalajs_react_component_Scala$(), new $c_Ljapgolly_scalajs_react_component_Scala$$anon$1().init___Ljapgolly_scalajs_react_component_Js$MountedWithRoot(this$2));
+  var this$4 = $as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(_this.mountedImpure);
+  var t = $m_Ljapgolly_scalajs_react_internal_Effect$Trans$().idToCallback$1;
+  _this.mountedPure = $as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$4.withEffect__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(t));
+  _this.backend = backendFn$1.apply__O__O($as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(_this.mountedPure));
+  _this.state = initStateFn$1.apply__O__O(props);
+  return _this
+});
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.boxStateOrNull__p1__s_Option__Ljapgolly_scalajs_react_internal_Box = (function(o) {
+  var x = $m_s_None$();
+  if ((x === o)) {
+    return null
+  } else if ($is_s_Some(o)) {
+    var x2 = $as_s_Some(o);
+    var s2 = x2.value$2;
+    $m_Ljapgolly_scalajs_react_internal_Box$();
+    return {
+      "a": s2
+    }
+  } else {
+    throw new $c_s_MatchError().init___O(o)
+  }
+});
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.japgolly$scalajs$react$component$builder$ViaReactComponent$$Method__T__sjs_js_Any__Ljapgolly_scalajs_react_component_builder_ViaReactComponent$Method = (function(_key, _value) {
+  return {
+    "key": _key,
+    "value": _value
+  }
 });
 $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.$$undpossibleConstructorReturn__p1__sjs_js_Any__sjs_js_Any__sjs_js_Any = (function(self, call) {
   return (($uZ((call instanceof $g.Object)) || $uZ((call instanceof $g.Function))) ? call : self)
 });
-$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.add0$1__p1__T__F1__sjs_js_Array__V = (function(k, f, methods$1) {
-  this.add$1__p1__T__sjs_js_Any__sjs_js_Array__V(k, (function(f$1) {
-    return (function() {
-      return f$1.apply__O__O(this)
-    })
-  })(f), methods$1)
-});
-$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.add$1__p1__T__sjs_js_Any__sjs_js_Array__V = (function(k, v, methods$1) {
-  methods$1.push(this.Method__p1__T__sjs_js_Any__Ljapgolly_scalajs_react_component_builder_ViaReactComponent$Method(k, v))
-});
-$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.$$undcreateClass__p1__sjs_js_Object__sjs_js_Array__V = (function(c, protoProps) {
-  this.$$unddefineProperties__p1__sjs_js_Object__sjs_js_Array__V(c.prototype, protoProps)
-});
-$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.add1$1__p1__T__F2__sjs_js_Array__V = (function(k, f, methods$1) {
-  this.add$1__p1__T__sjs_js_Any__sjs_js_Array__V(k, (function(f$1) {
-    return (function(arg1) {
-      return f$1.apply__O__O__O(this, arg1)
-    })
-  })(f), methods$1)
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.$$undcreateClass__p1__sjs_js_Object__sjs_js_Array__sjs_js_Array__V = (function(c, protoProps, staticProps) {
+  this.$$unddefineProperties__p1__sjs_js_Object__sjs_js_Array__V(c.prototype, protoProps);
+  this.$$unddefineProperties__p1__sjs_js_Object__sjs_js_Array__V(c, staticProps)
 });
 $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.$$undinherits__p1__sjs_js_Object__sjs_js_Object__V = (function(subClass, superClass) {
   subClass.prototype = $g.Object.create(superClass.prototype, {
@@ -3408,23 +3272,142 @@ $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.$$undi
   });
   (0, this.$$undsetPrototypeOf$1)(subClass, superClass)
 });
-$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.Method__p1__T__sjs_js_Any__Ljapgolly_scalajs_react_component_builder_ViaReactComponent$Method = (function(_key, _value) {
-  return {
-    "key": _key,
-    "value": _value
-  }
-});
-$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.japgolly$scalajs$react$component$builder$ViaReactComponent$$$anonfun$apply$1__Ljapgolly_scalajs_react_raw_package$ReactComponent__Ljapgolly_scalajs_react_internal_Box__F1__F1__sr_ObjectRef__Ljapgolly_scalajs_react_raw_package$ReactComponent = (function($this, props, initStateFn$1, backendFn$1, MyComponent$1) {
-  var _this = $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$().$$undpossibleConstructorReturn__p1__sjs_js_Any__sjs_js_Any__sjs_js_Any($this, $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$().$$undgetPrototypeOf$1.apply__O__O(MyComponent$1.elem$1).call($this, props));
-  $m_Ljapgolly_scalajs_react_component_Js$();
-  var this$2 = new $c_Ljapgolly_scalajs_react_component_Js$$anon$1().init___Ljapgolly_scalajs_react_raw_package$ReactComponent(_this);
-  _this.mountedImpure = ($m_Ljapgolly_scalajs_react_component_Scala$(), new $c_Ljapgolly_scalajs_react_component_Scala$$anon$1().init___Ljapgolly_scalajs_react_component_Js$MountedWithRoot(this$2));
-  var this$4 = $as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(_this.mountedImpure);
-  var t = $m_Ljapgolly_scalajs_react_internal_Effect$Trans$().idToCallback$1;
-  _this.mountedPure = $as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$4.withEffect__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(t));
-  _this.backend = backendFn$1.apply__O__O($as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(_this.mountedPure));
-  _this.state = initStateFn$1.apply__O__O(props);
-  return _this
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$.prototype.apply__Ljapgolly_scalajs_react_component_builder_Builder$Step4__Ljapgolly_scalajs_react_internal_JsRepr__sjs_js_Function1 = (function(builder, snapshotJs) {
+  var initStateFn = builder.initStateFn$1;
+  var backendFn = builder.backendFn$1;
+  var renderFn = builder.renderFn$1;
+  var MyComponent = new $c_sr_ObjectRef().init___O(null);
+  MyComponent.elem$1 = (function(initStateFn$1, backendFn$1, MyComponent$1) {
+    return (function(arg1$2) {
+      return $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$().japgolly$scalajs$react$component$builder$ViaReactComponent$$$anonfun$apply$1__Ljapgolly_scalajs_react_raw_React$Component__Ljapgolly_scalajs_react_internal_Box__F1__F1__sr_ObjectRef__Ljapgolly_scalajs_react_raw_React$Component(this, arg1$2, initStateFn$1, backendFn$1, MyComponent$1)
+    })
+  })(initStateFn, backendFn, MyComponent);
+  this.$$undinherits__p1__sjs_js_Object__sjs_js_Object__V(MyComponent.elem$1, this.ReactComponent$1);
+  var protoProps = $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().$$lessinit$greater$default$1__sjs_js_Array();
+  var staticProps = $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$().$$lessinit$greater$default$1__sjs_js_Array();
+  $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add0$extension__sjs_js_Array__T__F1__V(protoProps, "render", new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, renderFn$1) {
+    return (function(_this$2) {
+      return $as_Ljapgolly_scalajs_react_vdom_VdomNode(renderFn$1.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component(_this$2))).rawNode$1
+    })
+  })(this, renderFn)));
+  var this$2 = builder.lifecycle$1.componentDidCatch$1;
+  if ((!this$2.isEmpty__Z())) {
+    var arg1 = this$2.get__O();
+    var f = $as_F1(arg1);
+    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add2$extension__sjs_js_Array__T__F3__V(protoProps, "componentDidCatch", new $c_sjsr_AnonFunction3().init___sjs_js_Function3((function($this$1, f$1) {
+      return (function(_this$2$1, e$2, i$2) {
+        var $$this = $as_Ljapgolly_scalajs_react_CallbackTo(f$1.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch().init___Ljapgolly_scalajs_react_raw_React$Component__Ljapgolly_scalajs_react_raw_React$Error__Ljapgolly_scalajs_react_raw_React$ErrorInfo(_this$2$1, e$2, i$2))).japgolly$scalajs$react$CallbackTo$$f$1;
+        $$this.apply__O()
+      })
+    })(this, f)))
+  };
+  var this$4 = builder.lifecycle$1.componentDidMount$1;
+  if ((!this$4.isEmpty__Z())) {
+    var arg1$1 = this$4.get__O();
+    var f$3 = $as_F1(arg1$1);
+    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add0$extension__sjs_js_Array__T__F1__V(protoProps, "componentDidMount", new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$2, f$2) {
+      return (function(_this$2$2) {
+        var $$this$1 = $as_Ljapgolly_scalajs_react_CallbackTo(f$2.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_React$Component(_this$2$2))).japgolly$scalajs$react$CallbackTo$$f$1;
+        $$this$1.apply__O()
+      })
+    })(this, f$3)))
+  };
+  var this$6 = builder.lifecycle$1.componentDidUpdate$1;
+  if ((!this$6.isEmpty__Z())) {
+    var arg1$3 = this$6.get__O();
+    var f$4 = $as_F1(arg1$3);
+    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add3$extension__sjs_js_Array__T__F4__V(protoProps, "componentDidUpdate", new $c_sjsr_AnonFunction4().init___sjs_js_Function4((function($this$3, snapshotJs$1, f$5) {
+      return (function(_this$2$3, p$2, s$2, ss$2) {
+        var $$this$2 = $as_Ljapgolly_scalajs_react_CallbackTo(f$5.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate().init___Ljapgolly_scalajs_react_raw_React$Component__O__O__O(_this$2$3, p$2.a, s$2.a, $f_Ljapgolly_scalajs_react_internal_JsRepr__unsafeFromJs__sjs_js_Any__O(snapshotJs$1, ss$2)))).japgolly$scalajs$react$CallbackTo$$f$1;
+        $$this$2.apply__O()
+      })
+    })(this, snapshotJs, f$4)))
+  };
+  var this$8 = builder.lifecycle$1.componentWillMount$1;
+  if ((!this$8.isEmpty__Z())) {
+    var arg1$4 = this$8.get__O();
+    var f$5$1 = $as_F1(arg1$4);
+    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add0$extension__sjs_js_Array__T__F1__V(protoProps, "componentWillMount", new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$4, f$6) {
+      return (function(_this$2$4) {
+        var $$this$3 = $as_Ljapgolly_scalajs_react_CallbackTo(f$6.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount().init___Ljapgolly_scalajs_react_raw_React$Component(_this$2$4))).japgolly$scalajs$react$CallbackTo$$f$1;
+        $$this$3.apply__O()
+      })
+    })(this, f$5$1)))
+  };
+  var this$10 = builder.lifecycle$1.componentWillReceiveProps$1;
+  if ((!this$10.isEmpty__Z())) {
+    var arg1$5 = this$10.get__O();
+    var f$6$1 = $as_F1(arg1$5);
+    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add1$extension__sjs_js_Array__T__F2__V(protoProps, "componentWillReceiveProps", new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function($this$5, f$7) {
+      return (function(_this$2$5, p$2$1) {
+        var $$this$4 = $as_Ljapgolly_scalajs_react_CallbackTo(f$7.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps().init___Ljapgolly_scalajs_react_raw_React$Component__O(_this$2$5, p$2$1.a))).japgolly$scalajs$react$CallbackTo$$f$1;
+        $$this$4.apply__O()
+      })
+    })(this, f$6$1)))
+  };
+  var this$12 = builder.lifecycle$1.componentWillUnmount$1;
+  if ((!this$12.isEmpty__Z())) {
+    var arg1$6 = this$12.get__O();
+    var f$7$1 = $as_F1(arg1$6);
+    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add0$extension__sjs_js_Array__T__F1__V(protoProps, "componentWillUnmount", new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$6, f$8) {
+      return (function(_this$2$6) {
+        var $$this$5 = $as_Ljapgolly_scalajs_react_CallbackTo(f$8.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount().init___Ljapgolly_scalajs_react_raw_React$Component(_this$2$6))).japgolly$scalajs$react$CallbackTo$$f$1;
+        $$this$5.apply__O()
+      })
+    })(this, f$7$1)))
+  };
+  var this$14 = builder.lifecycle$1.componentWillUpdate$1;
+  if ((!this$14.isEmpty__Z())) {
+    var arg1$7 = this$14.get__O();
+    var f$8$1 = $as_F1(arg1$7);
+    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add2$extension__sjs_js_Array__T__F3__V(protoProps, "componentWillUpdate", new $c_sjsr_AnonFunction3().init___sjs_js_Function3((function($this$7, f$9) {
+      return (function(_this$2$7, p$2$2, s$2$1) {
+        var $$this$6 = $as_Ljapgolly_scalajs_react_CallbackTo(f$9.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUpdate().init___Ljapgolly_scalajs_react_raw_React$Component__O__O(_this$2$7, p$2$2.a, s$2$1.a))).japgolly$scalajs$react$CallbackTo$$f$1;
+        $$this$6.apply__O()
+      })
+    })(this, f$8$1)))
+  };
+  var this$16 = builder.lifecycle$1.getDerivedStateFromProps$1;
+  if ((!this$16.isEmpty__Z())) {
+    var arg1$8 = this$16.get__O();
+    var f$9$1 = $as_F2(arg1$8);
+    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$().add2$extension__sjs_js_Array__T__F2__V(staticProps, "getDerivedStateFromProps", new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function($this$8, f$10) {
+      return (function(p$2$3, s$2$2) {
+        return $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$().boxStateOrNull__p1__s_Option__Ljapgolly_scalajs_react_internal_Box($as_s_Option(f$10.apply__O__O__O(p$2$3.a, s$2$2.a)))
+      })
+    })(this, f$9$1)))
+  };
+  var this$17 = builder.lifecycle$1.getSnapshotBeforeUpdate$1;
+  if ((!this$17.isEmpty__Z())) {
+    var arg1$9 = this$17.get__O();
+    var f$10$1 = $as_F1(arg1$9);
+    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add2$extension__sjs_js_Array__T__F3__V(protoProps, "getSnapshotBeforeUpdate", new $c_sjsr_AnonFunction3().init___sjs_js_Function3((function($this$9, snapshotJs$1$1, f$11) {
+      return (function(_this$2$8, p$2$4, s$2$3) {
+        var jsx$1 = snapshotJs$1$1.toJs$1;
+        var $$this$7 = $as_Ljapgolly_scalajs_react_CallbackTo(f$11.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$GetSnapshotBeforeUpdate().init___Ljapgolly_scalajs_react_raw_React$Component__O__O(_this$2$8, p$2$4.a, s$2$3.a))).japgolly$scalajs$react$CallbackTo$$f$1;
+        return jsx$1.apply__O__O($$this$7.apply__O())
+      })
+    })(this, snapshotJs, f$10$1)))
+  };
+  var this$19 = builder.lifecycle$1.shouldComponentUpdate$1;
+  if ((!this$19.isEmpty__Z())) {
+    var arg1$10 = this$19.get__O();
+    var f$11$1 = $as_F1(arg1$10);
+    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add2$extension__sjs_js_Array__T__F3__V(protoProps, "shouldComponentUpdate", new $c_sjsr_AnonFunction3().init___sjs_js_Function3((function($this$10, f$12) {
+      return (function(_this$2$9, p$2$5, s$2$4) {
+        var $$this$8 = $as_Ljapgolly_scalajs_react_CallbackTo(f$12.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate().init___Ljapgolly_scalajs_react_raw_React$Component__O__O(_this$2$9, p$2$5.a, s$2$4.a))).japgolly$scalajs$react$CallbackTo$$f$1;
+        return $uZ($$this$8.apply__O())
+      })
+    })(this, f$11$1)))
+  };
+  var this$21 = $m_s_Option$().apply__O__s_Option(builder.name$1);
+  if ((!this$21.isEmpty__Z())) {
+    var arg1$11 = this$21.get__O();
+    var n = $as_T(arg1$11);
+    $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$().add$extension__sjs_js_Array__T__sjs_js_Any__V(staticProps, "displayName", n)
+  };
+  this.$$undcreateClass__p1__sjs_js_Object__sjs_js_Array__sjs_js_Array__V(MyComponent.elem$1, protoProps, staticProps);
+  return MyComponent.elem$1
 });
 var $d_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_component_builder_ViaReactComponent$: 0
@@ -3440,12 +3423,116 @@ function $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$() {
   };
   return $n_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$
 }
-function $f_Ljapgolly_scalajs_react_extra_Broadcaster__register__F1__F0($thiz, f) {
-  var f$2 = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, f$1) {
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$() {
+  $c_O.call(this)
+}
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$.prototype = $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$.prototype;
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$.prototype.init___ = (function() {
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$.prototype.add$extension__sjs_js_Array__T__sjs_js_Any__V = (function($$this, k, v) {
+  $$this.push($m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$().japgolly$scalajs$react$component$builder$ViaReactComponent$$Method__T__sjs_js_Any__Ljapgolly_scalajs_react_component_builder_ViaReactComponent$Method(k, v))
+});
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$.prototype.$$lessinit$greater$default$1__sjs_js_Array = (function() {
+  return []
+});
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$.prototype.add0$extension__sjs_js_Array__T__F1__V = (function($$this, k, f) {
+  $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add$extension__sjs_js_Array__T__sjs_js_Any__V($$this, k, (function(f$1) {
     return (function() {
+      return f$1.apply__O__O(this)
+    })
+  })(f))
+});
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$.prototype.add3$extension__sjs_js_Array__T__F4__V = (function($$this, k, f) {
+  $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add$extension__sjs_js_Array__T__sjs_js_Any__V($$this, k, (function(f$1) {
+    return (function(arg1, arg2, arg3) {
+      return f$1.apply__O__O__O__O__O(this, arg1, arg2, arg3)
+    })
+  })(f))
+});
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$.prototype.add2$extension__sjs_js_Array__T__F3__V = (function($$this, k, f) {
+  $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add$extension__sjs_js_Array__T__sjs_js_Any__V($$this, k, (function(f$1) {
+    return (function(arg1, arg2) {
+      return f$1.apply__O__O__O__O(this, arg1, arg2)
+    })
+  })(f))
+});
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$.prototype.add1$extension__sjs_js_Array__T__F2__V = (function($$this, k, f) {
+  $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().add$extension__sjs_js_Array__T__sjs_js_Any__V($$this, k, (function(f$1) {
+    return (function(arg1) {
+      return f$1.apply__O__O__O(this, arg1)
+    })
+  })(f))
+});
+var $d_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$ = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$: 0
+}, false, "japgolly.scalajs.react.component.builder.ViaReactComponent$ProtoProps$", {
+  Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$: 1,
+  O: 1
+});
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$;
+var $n_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$ = (void 0);
+function $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$() {
+  if ((!$n_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$)) {
+    $n_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$ = new $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$().init___()
+  };
+  return $n_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$ProtoProps$
+}
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$() {
+  $c_O.call(this)
+}
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$.prototype = $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$.prototype;
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$.prototype.init___ = (function() {
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$.prototype.add$extension__sjs_js_Array__T__sjs_js_Any__V = (function($$this, k, v) {
+  $$this.push($m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$().japgolly$scalajs$react$component$builder$ViaReactComponent$$Method__T__sjs_js_Any__Ljapgolly_scalajs_react_component_builder_ViaReactComponent$Method(k, v))
+});
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$.prototype.$$lessinit$greater$default$1__sjs_js_Array = (function() {
+  return []
+});
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$.prototype.add2$extension__sjs_js_Array__T__F2__V = (function($$this, k, f) {
+  $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$().add$extension__sjs_js_Array__T__sjs_js_Any__V($$this, k, (function(f$1) {
+    return (function(arg1, arg2) {
+      return f$1.apply__O__O__O(arg1, arg2)
+    })
+  })(f))
+});
+var $d_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$ = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$: 0
+}, false, "japgolly.scalajs.react.component.builder.ViaReactComponent$StaticProps$", {
+  Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$: 1,
+  O: 1
+});
+$c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$;
+var $n_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$ = (void 0);
+function $m_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$() {
+  if ((!$n_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$)) {
+    $n_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$ = new $c_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$().init___()
+  };
+  return $n_Ljapgolly_scalajs_react_component_builder_ViaReactComponent$StaticProps$
+}
+function $f_Ljapgolly_scalajs_react_extra_Broadcaster__register__F1__F0($thiz, listener) {
+  var f = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, listener$1) {
+    return (function() {
+      var record = new $c_T2().init___O__O(listener$1, (void 0));
       var this$1 = $this.japgolly$scalajs$react$extra$Broadcaster$$$undlisteners$1;
-      $this.japgolly$scalajs$react$extra$Broadcaster$$$undlisteners$1 = new $c_sci_$colon$colon().init___O__sci_List(f$1, this$1);
-      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($m_Ljapgolly_scalajs_react_Callback$().apply__F0__Ljapgolly_scalajs_react_Callback$ResultGuard__F0(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this$1, f$1$1) {
+      $this.japgolly$scalajs$react$extra$Broadcaster$$$undlisteners$1 = new $c_sci_$colon$colon().init___O__sci_List(record, this$1);
+      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($m_Ljapgolly_scalajs_react_Callback$().apply__F0__Ljapgolly_scalajs_react_Callback$ResultGuard__F0(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this$1, record$1) {
         return (function() {
           var this$2 = $this$1.japgolly$scalajs$react$extra$Broadcaster$$$undlisteners$1;
           $m_sci_List$();
@@ -3453,33 +3540,30 @@ function $f_Ljapgolly_scalajs_react_extra_Broadcaster__register__F1__F0($thiz, f
           var these = this$2;
           while ((!these.isEmpty__Z())) {
             var arg1 = these.head__O();
-            var x$1 = $as_F1(arg1);
-            if (((x$1 !== f$1$1) !== false)) {
+            var x$3 = $as_T2(arg1);
+            if (((x$3 !== record$1) !== false)) {
               b.$$plus$eq__O__scm_ListBuffer(arg1)
             };
             these = $as_sci_List(these.tail__O())
           };
           $this$1.japgolly$scalajs$react$extra$Broadcaster$$$undlisteners$1 = b.toList__sci_List()
         })
-      })($this, f$1)), null))
+      })($this, record)), null))
     })
-  })($thiz, f));
-  return f$2
+  })($thiz, listener));
+  return f
 }
 function $f_Ljapgolly_scalajs_react_extra_Broadcaster__broadcast__O__F0($thiz, a) {
-  return $m_Ljapgolly_scalajs_react_Callback$().apply__F0__Ljapgolly_scalajs_react_Callback$ResultGuard__F0(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, a$1) {
+  return $m_Ljapgolly_scalajs_react_Callback$().traverse__F0__F1__F0(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
     return (function() {
-      var this$1 = $this.japgolly$scalajs$react$extra$Broadcaster$$$undlisteners$1;
-      var these = this$1;
-      while ((!these.isEmpty__Z())) {
-        var arg1 = these.head__O();
-        var x$2 = $as_F1(arg1);
-        var $$this = $as_Ljapgolly_scalajs_react_CallbackTo(x$2.apply__O__O(a$1)).japgolly$scalajs$react$CallbackTo$$f$1;
-        $$this.apply__O();
-        these = $as_sci_List(these.tail__O())
-      }
+      return $this.japgolly$scalajs$react$extra$Broadcaster$$$undlisteners$1
     })
-  })($thiz, a)), null)
+  })($thiz)), new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2, a$1) {
+    return (function(x$4$2) {
+      var x$4 = $as_T2(x$4$2);
+      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($as_Ljapgolly_scalajs_react_CallbackTo($as_F1(x$4.$$und1$f).apply__O__O(a$1)).japgolly$scalajs$react$CallbackTo$$f$1)
+    })
+  })($thiz, a)))
 }
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_extra_EventListener$() {
@@ -3547,9 +3631,9 @@ $c_Ljapgolly_scalajs_react_extra_EventListener$OfEventType$.prototype.install$ex
       var f$3 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, eventType$1$1, listener$2, target$1$1, useCapture$1$1) {
         return (function($$$) {
           var $$ = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount($$$).raw$1;
-          var this$1 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_package$ReactComponent($$);
+          var this$1 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_React$Component($$);
           var et = target$1$1.apply__O__O($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$1));
-          var this$2 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_package$ReactComponent($$);
+          var this$2 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_React$Component($$);
           var fe = $as_F1(listener$2.apply__O__O($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedPure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$2)));
           var f = (function(fe$1) {
             return (function(arg1$2) {
@@ -3567,7 +3651,7 @@ $c_Ljapgolly_scalajs_react_extra_EventListener$OfEventType$.prototype.install$ex
             })
           })($this$1, et, f, eventType$1$1, useCapture$1$1)), null);
           var jsx$1 = $m_Ljapgolly_scalajs_react_CallbackTo$();
-          var this$3 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_package$ReactComponent($$);
+          var this$3 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_React$Component($$);
           var this$4 = $as_Ljapgolly_scalajs_react_extra_OnUnmount($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__backend__O(this$3));
           return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(jsx$1.$$greater$greater$extension__F0__F0__F0(add, $f_Ljapgolly_scalajs_react_extra_OnUnmount__onUnmount__F0__F0(this$4, del)))
         })
@@ -3611,7 +3695,7 @@ $c_Ljapgolly_scalajs_react_extra_Listenable$.prototype.listenToUnit__F1__F1__F1 
       return new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, makeListener$2, $$$1) {
         return (function(x$2$2) {
           $asUnit(x$2$2);
-          return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($as_Ljapgolly_scalajs_react_CallbackTo(makeListener$2.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_package$ReactComponent($$$1))).japgolly$scalajs$react$CallbackTo$$f$1)
+          return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($as_Ljapgolly_scalajs_react_CallbackTo(makeListener$2.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_React$Component($$$1))).japgolly$scalajs$react$CallbackTo$$f$1)
         })
       })($this, makeListener$1, $$))
     })
@@ -3621,24 +3705,24 @@ $c_Ljapgolly_scalajs_react_extra_Listenable$.prototype.listen__F1__F1__F1 = (fun
   return $m_Ljapgolly_scalajs_react_extra_OnUnmount$().install__F1().andThen__F1__F1(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, listenable$1, makeListener$1) {
     return (function(x$1$2) {
       var x$1 = $as_Ljapgolly_scalajs_react_component_builder_Builder$Step4(x$1$2);
-      var f$3 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, listenable$1$1, makeListener$1$1) {
+      var f$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, listenable$1$1, makeListener$1$1) {
         return (function($$$) {
           var $$ = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount($$$).raw$1;
-          var this$1 = $as_Ljapgolly_scalajs_react_extra_Listenable(listenable$1$1.apply__O__O($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$().props$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__O($$)));
-          var f = $as_F1(makeListener$1$1.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_package$ReactComponent($$)));
-          var $$this = $f_Ljapgolly_scalajs_react_extra_Broadcaster__register__F1__F0(this$1, f);
-          var this$2 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_package$ReactComponent($$);
+          var this$1 = $as_Ljapgolly_scalajs_react_extra_Listenable(listenable$1$1.apply__O__O($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$().props$extension__Ljapgolly_scalajs_react_raw_React$Component__O($$)));
+          var listener = $as_F1(makeListener$1$1.apply__O__O(new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_React$Component($$)));
+          var $$this = $f_Ljapgolly_scalajs_react_extra_Broadcaster__register__F1__F0(this$1, listener);
+          var this$2 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_React$Component($$);
           var eta$0$1 = $as_Ljapgolly_scalajs_react_extra_OnUnmount($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__backend__O(this$2));
           var g = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$2, eta$0$1$1) {
             return (function(f$2) {
-              var f$1 = $as_Ljapgolly_scalajs_react_CallbackTo(f$2).japgolly$scalajs$react$CallbackTo$$f$1;
-              return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($f_Ljapgolly_scalajs_react_extra_OnUnmount__onUnmount__F0__F0(eta$0$1$1, f$1))
+              var f = $as_Ljapgolly_scalajs_react_CallbackTo(f$2).japgolly$scalajs$react$CallbackTo$$f$1;
+              return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($f_Ljapgolly_scalajs_react_extra_OnUnmount__onUnmount__F0__F0(eta$0$1$1, f))
             })
           })($this$1, eta$0$1));
           return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($m_Ljapgolly_scalajs_react_CallbackTo$().flatMap$extension__F0__F1__F0($$this, g))
         })
       })($this, listenable$1, makeListener$1));
-      return x$1.lcAppend__p1__Ljapgolly_scalajs_react_internal_Lens__F1__F2__Ljapgolly_scalajs_react_component_builder_Builder$Step4($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().componentDidMount__Ljapgolly_scalajs_react_internal_Lens(), f$3, $m_Ljapgolly_scalajs_react_internal_Semigroup$().callback$1)
+      return x$1.lcAppend__p1__Ljapgolly_scalajs_react_internal_Lens__F1__F2__Ljapgolly_scalajs_react_component_builder_Builder$Step4($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().componentDidMount__Ljapgolly_scalajs_react_internal_Lens(), f$1, $m_Ljapgolly_scalajs_react_internal_Semigroup$().callback$1)
     })
   })(this, listenable, makeListener)))
 });
@@ -3672,17 +3756,17 @@ $c_Ljapgolly_scalajs_react_extra_OnUnmount$.prototype.init___ = (function() {
 });
 $c_Ljapgolly_scalajs_react_extra_OnUnmount$.prototype.install__F1 = (function() {
   return new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
-    return (function(x$2$2) {
-      var x$2 = $as_Ljapgolly_scalajs_react_component_builder_Builder$Step4(x$2$2);
+    return (function(x$1$2) {
+      var x$1 = $as_Ljapgolly_scalajs_react_component_builder_Builder$Step4(x$1$2);
       var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1) {
-        return (function(x$3$2) {
-          var x$3 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount(x$3$2).raw$1;
-          var this$1 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount().init___Ljapgolly_scalajs_react_raw_package$ReactComponent(x$3);
+        return (function(x$2$2) {
+          var x$2 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount(x$2$2).raw$1;
+          var this$1 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount().init___Ljapgolly_scalajs_react_raw_React$Component(x$2);
           var this$2 = $as_Ljapgolly_scalajs_react_extra_OnUnmount($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__backend__O(this$1));
           return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($f_Ljapgolly_scalajs_react_extra_OnUnmount__unmount__F0(this$2))
         })
       })($this));
-      return x$2.lcAppend__p1__Ljapgolly_scalajs_react_internal_Lens__F1__F2__Ljapgolly_scalajs_react_component_builder_Builder$Step4($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().componentWillUnmount__Ljapgolly_scalajs_react_internal_Lens(), f, $m_Ljapgolly_scalajs_react_internal_Semigroup$().callback$1)
+      return x$1.lcAppend__p1__Ljapgolly_scalajs_react_internal_Lens__F1__F2__Ljapgolly_scalajs_react_component_builder_Builder$Step4($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().componentWillUnmount__Ljapgolly_scalajs_react_internal_Lens(), f, $m_Ljapgolly_scalajs_react_internal_Semigroup$().callback$1)
     })
   })(this))
 });
@@ -3759,13 +3843,13 @@ $h_Ljapgolly_scalajs_react_extra_Reusability$.prototype = $c_Ljapgolly_scalajs_r
 $c_Ljapgolly_scalajs_react_extra_Reusability$.prototype.init___ = (function() {
   $n_Ljapgolly_scalajs_react_extra_Reusability$ = this;
   var f = new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function($this) {
-    return (function(x$3$2, x$4$2) {
+    return (function(x$5$2, x$6$2) {
       return true
     })
   })(this));
   this.alwaysInstance$1 = f;
   var f$1 = new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function(this$2) {
-    return (function(x$5$2, x$6$2) {
+    return (function(x$7$2, x$8$2) {
       return false
     })
   })(this));
@@ -3800,9 +3884,9 @@ $c_Ljapgolly_scalajs_react_extra_Reusability$.prototype.always__F2 = (function()
 });
 $c_Ljapgolly_scalajs_react_extra_Reusability$.prototype.shouldComponentUpdate__F2__F2__F1 = (function(evidence$260, evidence$261) {
   return new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, evidence$260$1, evidence$261$1) {
-    return (function(x$14$2) {
-      var x$14 = $as_Ljapgolly_scalajs_react_component_builder_Builder$Step4(x$14$2);
-      return x$14.shouldComponentUpdatePure__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, evidence$260$1$1, evidence$261$1$1) {
+    return (function(x$16$2) {
+      var x$16 = $as_Ljapgolly_scalajs_react_component_builder_Builder$Step4(x$16$2);
+      return x$16.shouldComponentUpdatePure__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, evidence$260$1$1, evidence$261$1$1) {
         return (function(i$2) {
           var i = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate(i$2);
           var self = $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(i).props__O();
@@ -3909,11 +3993,15 @@ function $h_Ljapgolly_scalajs_react_extra_router_Router$() {
   /*<skip>*/
 }
 $h_Ljapgolly_scalajs_react_extra_router_Router$.prototype = $c_Ljapgolly_scalajs_react_extra_router_Router$.prototype;
-$c_Ljapgolly_scalajs_react_extra_router_Router$.prototype.apply__Ljapgolly_scalajs_react_extra_router_BaseUrl__Ljapgolly_scalajs_react_extra_router_RouterConfig__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot = (function(baseUrl, cfg) {
-  return this.componentUnbuilt__Ljapgolly_scalajs_react_extra_router_BaseUrl__Ljapgolly_scalajs_react_extra_router_RouterConfig__Ljapgolly_scalajs_react_component_builder_Builder$Step4(baseUrl, cfg).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1))
-});
 $c_Ljapgolly_scalajs_react_extra_router_Router$.prototype.init___ = (function() {
   return this
+});
+$c_Ljapgolly_scalajs_react_extra_router_Router$.prototype.apply__Ljapgolly_scalajs_react_extra_router_BaseUrl__Ljapgolly_scalajs_react_extra_router_RouterConfig__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot = (function(baseUrl, cfg) {
+  return this.componentUnbuilt__Ljapgolly_scalajs_react_extra_router_BaseUrl__Ljapgolly_scalajs_react_extra_router_RouterConfig__Ljapgolly_scalajs_react_component_builder_Builder$Step4(baseUrl, cfg).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_internal_JsRepr__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1), $m_Ljapgolly_scalajs_react_internal_JsRepr$().unit$1)
+});
+$c_Ljapgolly_scalajs_react_extra_router_Router$.prototype.isIE11__p1__Z = (function() {
+  var thiz = $as_T($m_Lorg_scalajs_dom_package$().window__Lorg_scalajs_dom_raw_Window().navigator.userAgent);
+  return ($uI(thiz.indexOf("Trident")) !== (-1))
 });
 $c_Ljapgolly_scalajs_react_extra_router_Router$.prototype.componentUnbuilt__Ljapgolly_scalajs_react_extra_router_BaseUrl__Ljapgolly_scalajs_react_extra_router_RouterConfig__Ljapgolly_scalajs_react_component_builder_Builder$Step4 = (function(baseUrl, cfg) {
   return this.componentUnbuiltC__Ljapgolly_scalajs_react_extra_router_BaseUrl__Ljapgolly_scalajs_react_extra_router_RouterConfig__Ljapgolly_scalajs_react_extra_router_RouterLogic__Ljapgolly_scalajs_react_component_builder_Builder$Step4(baseUrl, cfg, new $c_Ljapgolly_scalajs_react_extra_router_RouterLogic().init___Ljapgolly_scalajs_react_extra_router_BaseUrl__Ljapgolly_scalajs_react_extra_router_RouterConfig(baseUrl, cfg))
@@ -3935,70 +4023,63 @@ $c_Ljapgolly_scalajs_react_extra_router_Router$.prototype.componentUnbuiltC__Lja
       var $$ = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount($$$).raw$1;
       var jsx$2 = cfg$1.postRenderFn$1;
       var jsx$1 = $m_s_None$();
-      var this$4 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_package$ReactComponent($$);
+      var this$4 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_React$Component($$);
       return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($as_Ljapgolly_scalajs_react_CallbackTo(jsx$2.apply__O__O__O(jsx$1, $as_Ljapgolly_scalajs_react_extra_router_Resolution($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$4).state__O()).page$1)).japgolly$scalajs$react$CallbackTo$$f$1)
     })
   })(this, cfg));
-  var this$6 = this$5.lcAppend__p1__Ljapgolly_scalajs_react_internal_Lens__F1__F2__Ljapgolly_scalajs_react_component_builder_Builder$Step4($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().componentDidMount__Ljapgolly_scalajs_react_internal_Lens(), f, $m_Ljapgolly_scalajs_react_internal_Semigroup$().callback$1);
-  var f$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$4$1, cfg$2) {
+  var this$8 = this$5.lcAppend__p1__Ljapgolly_scalajs_react_internal_Lens__F1__F2__Ljapgolly_scalajs_react_component_builder_Builder$Step4($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().componentDidMount__Ljapgolly_scalajs_react_internal_Lens(), f, $m_Ljapgolly_scalajs_react_internal_Semigroup$().callback$1).componentDidUpdate__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$4$1, cfg$2) {
     return (function(i$2) {
       var i = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate(i$2);
       return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($as_Ljapgolly_scalajs_react_CallbackTo(cfg$2.postRenderFn$1.apply__O__O__O(new $c_s_Some().init___O($as_Ljapgolly_scalajs_react_extra_router_Resolution(i.prevState$1).page$1), $as_Ljapgolly_scalajs_react_extra_router_Resolution($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(i).state__O()).page$1)).japgolly$scalajs$react$CallbackTo$$f$1)
     })
-  })(this, cfg));
-  var this$11 = this$6.lcAppend__p1__Ljapgolly_scalajs_react_internal_Lens__F1__F2__Ljapgolly_scalajs_react_component_builder_Builder$Step4($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().componentDidUpdate__Ljapgolly_scalajs_react_internal_Lens(), f$1, $m_Ljapgolly_scalajs_react_internal_Semigroup$().callback$1);
-  var array = [$m_Ljapgolly_scalajs_react_extra_EventListener$().install__T__F1__F1__Z__F1("popstate", new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$5$1, lgc$2) {
+  })(this, cfg)));
+  var f$1 = $m_Ljapgolly_scalajs_react_extra_Listenable$().listenToUnit__F1__F1__F1(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$5$1, lgc$2) {
     return (function(x$2$2) {
-      $as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(x$2$2);
-      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(lgc$2.ctl$1.refresh__F0())
+      $asUnit(x$2$2);
+      return lgc$2
     })
-  })(this, lgc)), new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$6$1) {
-    return (function(x$3$2) {
-      $as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(x$3$2);
-      return $m_Lorg_scalajs_dom_package$().window__Lorg_scalajs_dom_raw_Window()
-    })
-  })(this)), false), $m_Ljapgolly_scalajs_react_extra_Listenable$().listenToUnit__F1__F1__F1(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$7, lgc$3) {
-    return (function(x$4$2) {
-      $asUnit(x$4$2);
-      return lgc$3
-    })
-  })(this, lgc)), new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$8, lgc$4) {
+  })(this, lgc)), new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$6, lgc$3) {
     return (function($$$$2) {
       var $$$2 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount($$$$2).raw$1;
-      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($m_Ljapgolly_scalajs_react_CallbackTo$().flatMap$extension__F0__F1__F0(lgc$4.syncToWindowUrl$1, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, $$$1) {
-        return (function(x$5$2) {
-          var x$5 = $as_Ljapgolly_scalajs_react_extra_router_Resolution(x$5$2);
-          var this$10 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_package$ReactComponent($$$1);
-          new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_package$ReactComponent($$$1);
-          var cb = $m_Ljapgolly_scalajs_react_Callback$().empty$1;
-          return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW__setState__O__F0__F0(this$10, x$5, cb))
+      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($m_Ljapgolly_scalajs_react_CallbackTo$().flatMap$extension__F0__F1__F0(lgc$3.syncToWindowUrl$1, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, $$$1) {
+        return (function(x$3$2) {
+          var x$3 = $as_Ljapgolly_scalajs_react_extra_router_Resolution(x$3$2);
+          var this$7 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_React$Component($$$1);
+          return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($as_Ljapgolly_scalajs_react_CallbackTo(this$7.setState__O__F0__O(x$3, $m_Ljapgolly_scalajs_react_Callback$().empty$1)).japgolly$scalajs$react$CallbackTo$$f$1)
         })
-      })(this$8, $$$2))))
+      })(this$6, $$$2))))
     })
-  })(this, lgc)))];
-  var start = 0;
-  var end = $uI(array.length);
-  var z = this$11;
-  var start$1 = start;
-  var z$1 = z;
-  var jsx$3;
-  _foldl: while (true) {
-    if ((start$1 !== end)) {
-      var temp$start = ((1 + start$1) | 0);
-      var arg1 = z$1;
-      var index = start$1;
-      var arg2 = array[index];
-      var s = $as_Ljapgolly_scalajs_react_component_builder_Builder$Step4(arg1);
-      var f$2 = $as_F1(arg2);
-      var temp$z = $as_Ljapgolly_scalajs_react_component_builder_Builder$Step4(f$2.apply__O__O(s));
-      start$1 = temp$start;
-      z$1 = temp$z;
-      continue _foldl
-    };
-    var jsx$3 = z$1;
-    break
-  };
-  return $as_Ljapgolly_scalajs_react_component_builder_Builder$Step4(jsx$3)
+  })(this, lgc)));
+  var this$9 = $as_Ljapgolly_scalajs_react_component_builder_Builder$Step4(f$1.apply__O__O(this$8));
+  var f$2 = $m_Ljapgolly_scalajs_react_extra_EventListener$().install__T__F1__F1__Z__F1("popstate", new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$7$1, lgc$4) {
+    return (function(x$4$2) {
+      $as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(x$4$2);
+      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(lgc$4.ctl$1.refresh__F0())
+    })
+  })(this, lgc)), new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$8$1) {
+    return (function(x$5$2) {
+      $as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(x$5$2);
+      return $m_Lorg_scalajs_dom_package$().window__Lorg_scalajs_dom_raw_Window()
+    })
+  })(this)), false);
+  var this$10 = $as_Ljapgolly_scalajs_react_component_builder_Builder$Step4(f$2.apply__O__O(this$9));
+  var cond = this.isIE11__p1__Z();
+  if (cond) {
+    var f$3 = $m_Ljapgolly_scalajs_react_extra_EventListener$().install__T__F1__F1__Z__F1("hashchange", new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$2, lgc$1$1) {
+      return (function(x$6$2) {
+        $as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(x$6$2);
+        return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(lgc$1$1.ctl$1.refresh__F0())
+      })
+    })(this, lgc)), new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$1) {
+      return (function(x$7$2) {
+        $as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(x$7$2);
+        return $m_Lorg_scalajs_dom_package$().window__Lorg_scalajs_dom_raw_Window()
+      })
+    })(this)), false);
+    return $as_Ljapgolly_scalajs_react_component_builder_Builder$Step4(f$3.apply__O__O(this$10))
+  } else {
+    return this$10
+  }
 });
 var $d_Ljapgolly_scalajs_react_extra_router_Router$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_extra_router_Router$: 0
@@ -4267,14 +4348,8 @@ $c_Ljapgolly_scalajs_react_extra_router_RouterCtl.prototype.setOnClick__O__Ljapg
 $c_Ljapgolly_scalajs_react_extra_router_RouterCtl.prototype.setEH__O__F1 = (function(target) {
   return new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, target$1) {
     return (function(e$2) {
-      $m_Ljapgolly_scalajs_react_CallbackOption$();
-      var jsx$1 = $m_Ljapgolly_scalajs_react_CallbackOption$();
-      $m_Ljapgolly_scalajs_react_CallbackOption$();
-      var c = $this.set__O__F0(target$1);
-      var co = jsx$1.asEventDefault__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0__F0(e$2, $m_Ljapgolly_scalajs_react_CallbackOption$().liftCallback__F0__F0(c));
-      $m_Ljapgolly_scalajs_react_CallbackOption$();
-      $m_Ljapgolly_scalajs_react_CallbackOption$();
-      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($m_Ljapgolly_scalajs_react_CallbackTo$().$$greater$greater$extension__F0__F0__F0(co, $m_Ljapgolly_scalajs_react_Callback$().empty$1))
+      var $$this = $m_Ljapgolly_scalajs_react_CallbackTo$().asEventDefault$extension__F0__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0($this.set__O__F0(target$1), e$2);
+      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($m_Ljapgolly_scalajs_react_CallbackTo$().$$greater$greater$extension__F0__F0__F0($$this, $m_Ljapgolly_scalajs_react_Callback$().empty$1))
     })
   })(this, target))
 });
@@ -4480,6 +4555,34 @@ function $m_Ljapgolly_scalajs_react_extra_router_package$OptionFnExt$() {
   return $n_Ljapgolly_scalajs_react_extra_router_package$OptionFnExt$
 }
 /** @constructor */
+function $c_Ljapgolly_scalajs_react_feature_ReactFragment$() {
+  $c_O.call(this)
+}
+$c_Ljapgolly_scalajs_react_feature_ReactFragment$.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_feature_ReactFragment$.prototype.constructor = $c_Ljapgolly_scalajs_react_feature_ReactFragment$;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_feature_ReactFragment$() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_feature_ReactFragment$.prototype = $c_Ljapgolly_scalajs_react_feature_ReactFragment$.prototype;
+$c_Ljapgolly_scalajs_react_feature_ReactFragment$.prototype.init___ = (function() {
+  return this
+});
+var $d_Ljapgolly_scalajs_react_feature_ReactFragment$ = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_feature_ReactFragment$: 0
+}, false, "japgolly.scalajs.react.feature.ReactFragment$", {
+  Ljapgolly_scalajs_react_feature_ReactFragment$: 1,
+  O: 1
+});
+$c_Ljapgolly_scalajs_react_feature_ReactFragment$.prototype.$classData = $d_Ljapgolly_scalajs_react_feature_ReactFragment$;
+var $n_Ljapgolly_scalajs_react_feature_ReactFragment$ = (void 0);
+function $m_Ljapgolly_scalajs_react_feature_ReactFragment$() {
+  if ((!$n_Ljapgolly_scalajs_react_feature_ReactFragment$)) {
+    $n_Ljapgolly_scalajs_react_feature_ReactFragment$ = new $c_Ljapgolly_scalajs_react_feature_ReactFragment$().init___()
+  };
+  return $n_Ljapgolly_scalajs_react_feature_ReactFragment$
+}
+/** @constructor */
 function $c_Ljapgolly_scalajs_react_internal_Box$() {
   $c_O.call(this);
   this.Unit$1 = null
@@ -4658,89 +4761,6 @@ $h_Ljapgolly_scalajs_react_internal_JsUtil$.prototype = $c_Ljapgolly_scalajs_rea
 $c_Ljapgolly_scalajs_react_internal_JsUtil$.prototype.init___ = (function() {
   return this
 });
-$c_Ljapgolly_scalajs_react_internal_JsUtil$.prototype.inspectObject__sjs_js_Object__T = (function(o) {
-  var this$1 = this.objectIterator__sjs_js_Object__sc_Iterator(o);
-  $m_sci_Vector$();
-  var cbf = $m_sc_IndexedSeq$().ReusableCBF$6;
-  var this$3 = $as_sci_Vector($f_sc_TraversableOnce__to__scg_CanBuildFrom__O(this$1, cbf));
-  var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
-    return (function(x$1$2) {
-      var x$1 = $as_T2(x$1$2);
-      return $as_T(x$1.$$und1$f)
-    })
-  })(this));
-  var ord = $m_s_math_Ordering$String$();
-  var s = $as_sci_Vector($f_sc_SeqLike__sortBy__F1__s_math_Ordering__O(this$3, f, ord));
-  if ($f_sc_SeqLike__isEmpty__Z(s)) {
-    return ("Value has no object properties: " + o)
-  } else {
-    $m_sci_Vector$();
-    var bf = $m_sc_IndexedSeq$().ReusableCBF$6;
-    var b = $f_sc_TraversableLike__builder$1__psc_TraversableLike__scg_CanBuildFrom__scm_Builder(s, bf);
-    var this$5 = s.iterator__sci_VectorIterator();
-    while (this$5.$$undhasNext$2) {
-      var arg1 = this$5.next__O();
-      var x0$1 = $as_T2(arg1);
-      if ((x0$1 === null)) {
-        throw new $c_s_MatchError().init___O(x0$1)
-      };
-      var k = $as_T(x0$1.$$und1$f);
-      var v = x0$1.$$und2$f;
-      var jsx$1 = $as_T((typeof v));
-      var x = ("" + v);
-      var this$7 = new $c_sci_StringOps().init___T(x);
-      b.$$plus$eq__O__scm_Builder(new $c_T3().init___O__O__O(k, jsx$1, $f_sci_StringLike__split__C__AT(this$7, 10).get(0)))
-    };
-    var ss = $as_sci_Vector(b.result__O());
-    var sz = s.length__I();
-    var thiz = ("" + sz);
-    var nlen = $uI(thiz.length);
-    $m_sci_Vector$();
-    var bf$1 = $m_sc_IndexedSeq$().ReusableCBF$6;
-    var b$1 = $f_sc_TraversableLike__builder$1__psc_TraversableLike__scg_CanBuildFrom__scm_Builder(ss, bf$1);
-    var this$11 = ss.iterator__sci_VectorIterator();
-    while (this$11.$$undhasNext$2) {
-      var arg1$1 = this$11.next__O();
-      var x$2 = $as_T3(arg1$1);
-      var thiz$1 = $as_T(x$2.$$und1$1);
-      b$1.$$plus$eq__O__scm_Builder($uI(thiz$1.length))
-    };
-    var klen = $uI($as_sc_TraversableOnce(b$1.result__O()).max__s_math_Ordering__O($m_s_math_Ordering$Int$()));
-    $m_sci_Vector$();
-    var bf$2 = $m_sc_IndexedSeq$().ReusableCBF$6;
-    var b$2 = $f_sc_TraversableLike__builder$1__psc_TraversableLike__scg_CanBuildFrom__scm_Builder(ss, bf$2);
-    var this$14 = ss.iterator__sci_VectorIterator();
-    while (this$14.$$undhasNext$2) {
-      var arg1$2 = this$14.next__O();
-      var x$3 = $as_T3(arg1$2);
-      var thiz$2 = $as_T(x$3.$$und2$1);
-      b$2.$$plus$eq__O__scm_Builder($uI(thiz$2.length))
-    };
-    var tlen = $uI($as_sc_TraversableOnce(b$2.result__O()).max__s_math_Ordering__O($m_s_math_Ordering$Int$()));
-    var fmt = new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["  [%", "d/", "] %-", "s : %-", "s = %s"])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([nlen, sz, klen, tlen]));
-    var elem$1 = 0;
-    elem$1 = 0;
-    $m_sci_Vector$();
-    var bf$3 = $m_sc_IndexedSeq$().ReusableCBF$6;
-    var b$3 = $f_sc_TraversableLike__builder$1__psc_TraversableLike__scg_CanBuildFrom__scm_Builder(ss, bf$3);
-    var this$18 = ss.iterator__sci_VectorIterator();
-    while (this$18.$$undhasNext$2) {
-      var arg1$3 = this$18.next__O();
-      var x0$2 = $as_T3(arg1$3);
-      if ((x0$2 === null)) {
-        throw new $c_s_MatchError().init___O(x0$2)
-      };
-      var k$1 = $as_T(x0$2.$$und1$1);
-      var t = $as_T(x0$2.$$und2$1);
-      var v$1 = $as_T(x0$2.$$und3$1);
-      elem$1 = ((1 + elem$1) | 0);
-      var this$20 = new $c_sci_StringOps().init___T(fmt);
-      var args = new $c_sjs_js_WrappedArray().init___sjs_js_Array([elem$1, k$1, t, v$1]);
-      b$3.$$plus$eq__O__scm_Builder($f_sci_StringLike__format__sc_Seq__T(this$20, args))
-    };
-    return $as_sc_TraversableOnce(b$3.result__O()).mkString__T__T__T__T(new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["", "\\n"])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([o])), "\n", "")
-  }
-});
 $c_Ljapgolly_scalajs_react_internal_JsUtil$.prototype.objectIterator__sjs_js_Object__sc_Iterator = (function(o) {
   var array = $propertiesOf(o);
   var this$2 = new $c_sjs_js_ArrayOps().init___sjs_js_Array(array);
@@ -4753,7 +4773,7 @@ $c_Ljapgolly_scalajs_react_internal_JsUtil$.prototype.objectIterator__sjs_js_Obj
       } catch (e) {
         var e$2 = $m_sjsr_package$().wrapJavaScriptException__O__jl_Throwable(e);
         if ((e$2 !== null)) {
-          var v = e$2.toString__T()
+          var v = $m_Ljapgolly_scalajs_react_internal_JsUtil$().safeToString__O__T(e$2)
         } else {
           var v;
           throw e
@@ -4763,6 +4783,48 @@ $c_Ljapgolly_scalajs_react_internal_JsUtil$.prototype.objectIterator__sjs_js_Obj
     })
   })(this, o));
   return new $c_sc_Iterator$$anon$10().init___sc_Iterator__F1(this$5, f)
+});
+$c_Ljapgolly_scalajs_react_internal_JsUtil$.prototype.symbolToString__sjs_js_Symbol__T = (function(s) {
+  try {
+    return $as_T(s.toString())
+  } catch (e) {
+    var e$2 = $m_sjsr_package$().wrapJavaScriptException__O__jl_Throwable(e);
+    if ((e$2 !== null)) {
+      var value = $g.Symbol.keyFor(s);
+      var x1 = ((value === (void 0)) ? $m_s_None$() : new $c_s_Some().init___O(value));
+      if ($is_s_Some(x1)) {
+        var x2 = $as_s_Some(x1);
+        var k = $as_T(x2.value$2);
+        return (("Symbol(" + k) + ")")
+      } else {
+        var x = $m_s_None$();
+        if ((x === x1)) {
+          return "Symbol(?)"
+        } else {
+          throw new $c_s_MatchError().init___O(x1)
+        }
+      }
+    } else {
+      throw e
+    }
+  }
+});
+$c_Ljapgolly_scalajs_react_internal_JsUtil$.prototype.safeToString__O__T = (function(a) {
+  try {
+    var o7 = $m_Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$().unapply__O__s_Option(a);
+    if ((!o7.isEmpty__Z())) {
+      var s = o7.get__O();
+      return this.symbolToString__sjs_js_Symbol__T(s)
+    };
+    return $objectToString(a)
+  } catch (e) {
+    var e$2 = $m_sjsr_package$().wrapJavaScriptException__O__jl_Throwable(e);
+    if ((e$2 !== null)) {
+      return "?"
+    } else {
+      throw e
+    }
+  }
 });
 var $d_Ljapgolly_scalajs_react_internal_JsUtil$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_internal_JsUtil$: 0
@@ -4777,6 +4839,38 @@ function $m_Ljapgolly_scalajs_react_internal_JsUtil$() {
     $n_Ljapgolly_scalajs_react_internal_JsUtil$ = new $c_Ljapgolly_scalajs_react_internal_JsUtil$().init___()
   };
   return $n_Ljapgolly_scalajs_react_internal_JsUtil$
+}
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$() {
+  $c_O.call(this)
+}
+$c_Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$.prototype.constructor = $c_Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$.prototype = $c_Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$.prototype;
+$c_Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$.prototype.init___ = (function() {
+  return this
+});
+$c_Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$.prototype.unapply__O__s_Option = (function(a) {
+  var x1 = $as_T((typeof a));
+  return ((x1 === "symbol") ? new $c_s_Some().init___O(a) : $m_s_None$())
+});
+var $d_Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$ = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$: 0
+}, false, "japgolly.scalajs.react.internal.JsUtil$JsSymbol$", {
+  Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$: 1,
+  O: 1
+});
+$c_Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$.prototype.$classData = $d_Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$;
+var $n_Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$ = (void 0);
+function $m_Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$() {
+  if ((!$n_Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$)) {
+    $n_Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$ = new $c_Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$().init___()
+  };
+  return $n_Ljapgolly_scalajs_react_internal_JsUtil$JsSymbol$
 }
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_internal_Lens() {
@@ -4840,7 +4934,7 @@ $c_Ljapgolly_scalajs_react_internal_Lens$.prototype.$$undid__p1__Ljapgolly_scala
   var set = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2) {
     return (function(a$3$2) {
       return new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, a) {
-        return (function(x$2$2) {
+        return (function(x$5$2) {
           return a
         })
       })(this$2, a$3$2))
@@ -5036,7 +5130,7 @@ $c_Ljapgolly_scalajs_react_vdom_Attr.prototype.equals__O__Z = (function(any) {
   }
 });
 $c_Ljapgolly_scalajs_react_vdom_Attr.prototype.toString__T = (function() {
-  return new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["VdomAttr{name=", "}"])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([this.name$1]))
+  return (("VdomAttr{name=" + this.name$1) + "}")
 });
 $c_Ljapgolly_scalajs_react_vdom_Attr.prototype.init___T = (function(name) {
   this.name$1 = name;
@@ -5059,8 +5153,7 @@ function $asArrayOf_Ljapgolly_scalajs_react_vdom_Attr(obj, depth) {
 }
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_vdom_Attr$() {
-  $c_O.call(this);
-  this.Key$1 = null
+  $c_O.call(this)
 }
 $c_Ljapgolly_scalajs_react_vdom_Attr$.prototype = new $h_O();
 $c_Ljapgolly_scalajs_react_vdom_Attr$.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_Attr$;
@@ -5070,8 +5163,6 @@ function $h_Ljapgolly_scalajs_react_vdom_Attr$() {
 }
 $h_Ljapgolly_scalajs_react_vdom_Attr$.prototype = $c_Ljapgolly_scalajs_react_vdom_Attr$.prototype;
 $c_Ljapgolly_scalajs_react_vdom_Attr$.prototype.init___ = (function() {
-  $n_Ljapgolly_scalajs_react_vdom_Attr$ = this;
-  this.Key$1 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("key");
   return this
 });
 var $d_Ljapgolly_scalajs_react_vdom_Attr$ = new $TypeData().initClass({
@@ -5195,6 +5286,7 @@ function $f_Ljapgolly_scalajs_react_vdom_Builder$ToJs__$$init$__V($thiz) {
   $thiz.props$1 = {};
   $thiz.styles$1 = {};
   $thiz.children$1 = [];
+  $thiz.key$1 = (void 0);
   $thiz.nonEmptyClassName$1 = (void 0);
   $thiz.addAttr$1 = new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function($this) {
     return (function(x$1$2, x$2$2) {
@@ -5247,6 +5339,11 @@ function $f_Ljapgolly_scalajs_react_vdom_Builder$ToJs__$$init$__V($thiz) {
     return (function(x$7$2) {
       this$5$1.children$1.push(x$7$2)
     })
+  })($thiz));
+  $thiz.setKey$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$6$1) {
+    return (function(k$2) {
+      this$6$1.key$1 = k$2
+    })
   })($thiz))
 }
 function $f_Ljapgolly_scalajs_react_vdom_Builder$ToJs__addClassNameToProps__V($thiz) {
@@ -5275,9 +5372,12 @@ function $h_Ljapgolly_scalajs_react_vdom_Builder$ToRawReactElement$() {
 $h_Ljapgolly_scalajs_react_vdom_Builder$ToRawReactElement$.prototype = $c_Ljapgolly_scalajs_react_vdom_Builder$ToRawReactElement$.prototype;
 $c_Ljapgolly_scalajs_react_vdom_Builder$ToRawReactElement$.prototype.init___ = (function() {
   $n_Ljapgolly_scalajs_react_vdom_Builder$ToRawReactElement$ = this;
-  this.build$1 = new $c_sjsr_AnonFunction3().init___sjs_js_Function3((function($this) {
-    return (function(tag$2, props$2, children$2) {
+  this.build$1 = new $c_sjsr_AnonFunction4().init___sjs_js_Function4((function($this) {
+    return (function(tag$2, props$2, key$2, children$2) {
       var tag = $as_T(tag$2);
+      if ((key$2 !== (void 0))) {
+        $m_Ljapgolly_scalajs_react_vdom_Builder$().setObjectKeyValue__sjs_js_Object__T__sjs_js_Any__V(props$2, "key", key$2)
+      };
       var jsx$1 = $i_react;
       return jsx$1.createElement.apply(jsx$1, [tag, props$2].concat(children$2))
     })
@@ -5299,10 +5399,44 @@ function $m_Ljapgolly_scalajs_react_vdom_Builder$ToRawReactElement$() {
   return $n_Ljapgolly_scalajs_react_vdom_Builder$ToRawReactElement$
 }
 /** @constructor */
+function $c_Ljapgolly_scalajs_react_vdom_CssUnits$() {
+  $c_O.call(this)
+}
+$c_Ljapgolly_scalajs_react_vdom_CssUnits$.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_vdom_CssUnits$.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_CssUnits$;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_vdom_CssUnits$() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_vdom_CssUnits$.prototype = $c_Ljapgolly_scalajs_react_vdom_CssUnits$.prototype;
+$c_Ljapgolly_scalajs_react_vdom_CssUnits$.prototype.init___ = (function() {
+  return this
+});
+$c_Ljapgolly_scalajs_react_vdom_CssUnits$.prototype.addSuffix$extension__O__T__T = (function($$this, suffix) {
+  var s = $objectToString($$this);
+  return ((s === "0") ? s : (("" + s) + suffix))
+});
+var $d_Ljapgolly_scalajs_react_vdom_CssUnits$ = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_vdom_CssUnits$: 0
+}, false, "japgolly.scalajs.react.vdom.CssUnits$", {
+  Ljapgolly_scalajs_react_vdom_CssUnits$: 1,
+  O: 1
+});
+$c_Ljapgolly_scalajs_react_vdom_CssUnits$.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_CssUnits$;
+var $n_Ljapgolly_scalajs_react_vdom_CssUnits$ = (void 0);
+function $m_Ljapgolly_scalajs_react_vdom_CssUnits$() {
+  if ((!$n_Ljapgolly_scalajs_react_vdom_CssUnits$)) {
+    $n_Ljapgolly_scalajs_react_vdom_CssUnits$ = new $c_Ljapgolly_scalajs_react_vdom_CssUnits$().init___()
+  };
+  return $n_Ljapgolly_scalajs_react_vdom_CssUnits$
+}
+/** @constructor */
 function $c_Ljapgolly_scalajs_react_vdom_Exports() {
   $c_O.call(this);
   this.VdomNode$1 = null;
   this.VdomElement$1 = null;
+  this.ReactFragment$1 = null;
+  this.ReactPortal$1 = null;
   this.HtmlTagOf$1 = null;
   this.SvgTagOf$1 = null;
   this.TagMod$1 = null;
@@ -5321,10 +5455,12 @@ $h_Ljapgolly_scalajs_react_vdom_Exports.prototype = $c_Ljapgolly_scalajs_react_v
 $c_Ljapgolly_scalajs_react_vdom_Exports.prototype.init___ = (function() {
   this.VdomNode$1 = $m_Ljapgolly_scalajs_react_vdom_VdomNode$();
   this.VdomElement$1 = $m_Ljapgolly_scalajs_react_vdom_VdomElement$();
+  this.ReactFragment$1 = $m_Ljapgolly_scalajs_react_feature_ReactFragment$();
+  this.ReactPortal$1 = $m_Ljapgolly_scalajs_react_vdom_ReactPortal$();
   this.HtmlTagOf$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   this.SvgTagOf$1 = $m_Ljapgolly_scalajs_react_vdom_SvgTagOf$();
   this.TagMod$1 = $m_Ljapgolly_scalajs_react_vdom_TagMod$();
-  this.EmptyVdom$1 = $m_Ljapgolly_scalajs_react_vdom_TagMod$().Empty$1;
+  this.EmptyVdom$1 = $m_Ljapgolly_scalajs_react_vdom_VdomNode$().empty$1;
   this.VdomAttr$1 = $m_Ljapgolly_scalajs_react_vdom_Attr$();
   this.VdomStyle$1 = $m_Ljapgolly_scalajs_react_vdom_Style$();
   this.VdomArray$1 = $m_Ljapgolly_scalajs_react_vdom_VdomArray$();
@@ -5380,6 +5516,34 @@ function $m_Ljapgolly_scalajs_react_vdom_ImplicitsForVdomNode$TraversableOnceExt
   return $n_Ljapgolly_scalajs_react_vdom_ImplicitsForVdomNode$TraversableOnceExt$
 }
 /** @constructor */
+function $c_Ljapgolly_scalajs_react_vdom_ReactPortal$() {
+  $c_O.call(this)
+}
+$c_Ljapgolly_scalajs_react_vdom_ReactPortal$.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_vdom_ReactPortal$.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_ReactPortal$;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_vdom_ReactPortal$() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_vdom_ReactPortal$.prototype = $c_Ljapgolly_scalajs_react_vdom_ReactPortal$.prototype;
+$c_Ljapgolly_scalajs_react_vdom_ReactPortal$.prototype.init___ = (function() {
+  return this
+});
+var $d_Ljapgolly_scalajs_react_vdom_ReactPortal$ = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_vdom_ReactPortal$: 0
+}, false, "japgolly.scalajs.react.vdom.ReactPortal$", {
+  Ljapgolly_scalajs_react_vdom_ReactPortal$: 1,
+  O: 1
+});
+$c_Ljapgolly_scalajs_react_vdom_ReactPortal$.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_ReactPortal$;
+var $n_Ljapgolly_scalajs_react_vdom_ReactPortal$ = (void 0);
+function $m_Ljapgolly_scalajs_react_vdom_ReactPortal$() {
+  if ((!$n_Ljapgolly_scalajs_react_vdom_ReactPortal$)) {
+    $n_Ljapgolly_scalajs_react_vdom_ReactPortal$ = new $c_Ljapgolly_scalajs_react_vdom_ReactPortal$().init___()
+  };
+  return $n_Ljapgolly_scalajs_react_vdom_ReactPortal$
+}
+/** @constructor */
 function $c_Ljapgolly_scalajs_react_vdom_Style$() {
   $c_O.call(this)
 }
@@ -5410,7 +5574,7 @@ function $m_Ljapgolly_scalajs_react_vdom_Style$() {
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_vdom_TagMod$() {
   $c_O.call(this);
-  this.Empty$1 = null
+  this.empty$1 = null
 }
 $c_Ljapgolly_scalajs_react_vdom_TagMod$.prototype = new $h_O();
 $c_Ljapgolly_scalajs_react_vdom_TagMod$.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_TagMod$;
@@ -5421,7 +5585,7 @@ function $h_Ljapgolly_scalajs_react_vdom_TagMod$() {
 $h_Ljapgolly_scalajs_react_vdom_TagMod$.prototype = $c_Ljapgolly_scalajs_react_vdom_TagMod$.prototype;
 $c_Ljapgolly_scalajs_react_vdom_TagMod$.prototype.init___ = (function() {
   $n_Ljapgolly_scalajs_react_vdom_TagMod$ = this;
-  this.Empty$1 = new $c_Ljapgolly_scalajs_react_vdom_TagMod$$anon$3().init___();
+  this.empty$1 = new $c_Ljapgolly_scalajs_react_vdom_TagMod$$anon$3().init___();
   return this
 });
 $c_Ljapgolly_scalajs_react_vdom_TagMod$.prototype.fromTraversableOnce__sc_TraversableOnce__Ljapgolly_scalajs_react_vdom_TagMod = (function(t) {
@@ -5433,7 +5597,7 @@ $c_Ljapgolly_scalajs_react_vdom_TagMod$.prototype.fromTraversableOnce__sc_Traver
       break
     }
     case 0: {
-      return this.Empty$1;
+      return this.empty$1;
       break
     }
     default: {
@@ -5513,7 +5677,8 @@ function $m_Ljapgolly_scalajs_react_vdom_VdomElement$() {
 }
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_vdom_VdomNode$() {
-  $c_O.call(this)
+  $c_O.call(this);
+  this.empty$1 = null
 }
 $c_Ljapgolly_scalajs_react_vdom_VdomNode$.prototype = new $h_O();
 $c_Ljapgolly_scalajs_react_vdom_VdomNode$.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_VdomNode$;
@@ -5523,6 +5688,8 @@ function $h_Ljapgolly_scalajs_react_vdom_VdomNode$() {
 }
 $h_Ljapgolly_scalajs_react_vdom_VdomNode$.prototype = $c_Ljapgolly_scalajs_react_vdom_VdomNode$.prototype;
 $c_Ljapgolly_scalajs_react_vdom_VdomNode$.prototype.init___ = (function() {
+  $n_Ljapgolly_scalajs_react_vdom_VdomNode$ = this;
+  this.empty$1 = new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(null);
   return this
 });
 var $d_Ljapgolly_scalajs_react_vdom_VdomNode$ = new $TypeData().initClass({
@@ -5597,6 +5764,71 @@ function $isArrayOf_Ljava_io_Closeable(obj, depth) {
 }
 function $asArrayOf_Ljava_io_Closeable(obj, depth) {
   return (($isArrayOf_Ljava_io_Closeable(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljava.io.Closeable;", depth))
+}
+/** @constructor */
+function $c_Lorg_scalajs_dom_ext_Ajax$() {
+  $c_O.call(this)
+}
+$c_Lorg_scalajs_dom_ext_Ajax$.prototype = new $h_O();
+$c_Lorg_scalajs_dom_ext_Ajax$.prototype.constructor = $c_Lorg_scalajs_dom_ext_Ajax$;
+/** @constructor */
+function $h_Lorg_scalajs_dom_ext_Ajax$() {
+  /*<skip>*/
+}
+$h_Lorg_scalajs_dom_ext_Ajax$.prototype = $c_Lorg_scalajs_dom_ext_Ajax$.prototype;
+$c_Lorg_scalajs_dom_ext_Ajax$.prototype.init___ = (function() {
+  return this
+});
+$c_Lorg_scalajs_dom_ext_Ajax$.prototype.org$scalajs$dom$ext$Ajax$$$anonfun$apply$1__Lorg_scalajs_dom_raw_Event__Lorg_scalajs_dom_raw_XMLHttpRequest__s_concurrent_Promise__O = (function(e, req$1, promise$1) {
+  if (($uI(req$1.readyState) === 4)) {
+    if (((($uI(req$1.status) >= 200) && ($uI(req$1.status) < 300)) || ($uI(req$1.status) === 304))) {
+      return $f_s_concurrent_Promise__success__O__s_concurrent_Promise(promise$1, req$1)
+    } else {
+      var cause = new $c_Lorg_scalajs_dom_ext_AjaxException().init___Lorg_scalajs_dom_raw_XMLHttpRequest(req$1);
+      return $f_s_concurrent_Promise__failure__jl_Throwable__s_concurrent_Promise(promise$1, cause)
+    }
+  } else {
+    return (void 0)
+  }
+});
+$c_Lorg_scalajs_dom_ext_Ajax$.prototype.apply__T__T__Lorg_scalajs_dom_ext_Ajax$InputData__I__sci_Map__Z__T__s_concurrent_Future = (function(method, url, data, timeout, headers, withCredentials, responseType) {
+  var req = new $g.XMLHttpRequest();
+  var promise = new $c_s_concurrent_impl_Promise$DefaultPromise().init___();
+  req.onreadystatechange = (function(req$1, promise$1) {
+    return (function(arg1$2) {
+      return $m_Lorg_scalajs_dom_ext_Ajax$().org$scalajs$dom$ext$Ajax$$$anonfun$apply$1__Lorg_scalajs_dom_raw_Event__Lorg_scalajs_dom_raw_XMLHttpRequest__s_concurrent_Promise__O(arg1$2, req$1, promise$1)
+    })
+  })(req, promise);
+  req.open(method, url);
+  req.responseType = responseType;
+  req.timeout = timeout;
+  req.withCredentials = withCredentials;
+  headers.foreach__F1__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, req$2) {
+    return (function(x$2) {
+      var x = $as_T2(x$2);
+      req$2.setRequestHeader($as_T(x.$$und1$f), $as_T(x.$$und2$f))
+    })
+  })(this, req)));
+  if ((data === null)) {
+    req.send()
+  } else {
+    req.send(data)
+  };
+  return promise
+});
+var $d_Lorg_scalajs_dom_ext_Ajax$ = new $TypeData().initClass({
+  Lorg_scalajs_dom_ext_Ajax$: 0
+}, false, "org.scalajs.dom.ext.Ajax$", {
+  Lorg_scalajs_dom_ext_Ajax$: 1,
+  O: 1
+});
+$c_Lorg_scalajs_dom_ext_Ajax$.prototype.$classData = $d_Lorg_scalajs_dom_ext_Ajax$;
+var $n_Lorg_scalajs_dom_ext_Ajax$ = (void 0);
+function $m_Lorg_scalajs_dom_ext_Ajax$() {
+  if ((!$n_Lorg_scalajs_dom_ext_Ajax$)) {
+    $n_Lorg_scalajs_dom_ext_Ajax$ = new $c_Lorg_scalajs_dom_ext_Ajax$().init___()
+  };
+  return $n_Lorg_scalajs_dom_ext_Ajax$
 }
 /** @constructor */
 function $c_Lorg_scalajs_dom_package$() {
@@ -6183,6 +6415,12 @@ $h_Lscalacss_internal_Attrs$.prototype = $c_Lscalacss_internal_Attrs$.prototype;
 $c_Lscalacss_internal_Attrs$.prototype.init___ = (function() {
   return this
 });
+$c_Lscalacss_internal_Attrs$.prototype.transitionProperty__Lscalacss_internal_Attr = (function() {
+  var jsx$1 = $m_Lscalacss_internal_Attr$();
+  var this$1 = $m_Lscalacss_internal_Transform$();
+  var subject = $m_Lscalacss_internal_CanIUse$().transitions$1;
+  return jsx$1.real__T__Lscalacss_internal_Transform__Lscalacss_internal_Attr("transition-property", this$1.prefix__p1__sci_Map__F1__Lscalacss_internal_CssKV$Lens__Lscalacss_internal_Transform(subject, $m_Lscalacss_internal_CanIUse2$PrefixApply$().prepend$1, $m_Lscalacss_internal_CssKV$().key$1))
+});
 $c_Lscalacss_internal_Attrs$.prototype.listStyle__Lscalacss_internal_Attr = (function() {
   return $as_Lscalacss_internal_Attr($m_Lscalacss_internal_Attr$().alias__T__F1("list-style").apply__O__O(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
     return (function(x$53$2) {
@@ -6211,6 +6449,27 @@ $c_Lscalacss_internal_Attrs$.prototype.textDecoration__Lscalacss_internal_Attr =
       var jsx$2 = t$1.attr$2;
       var t$2 = $m_Lscalacss_internal_Attrs$textDecorationStyle$();
       var t$3 = new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$2, t$2.attr$2]);
+      $m_sci_Vector$();
+      var cbf = $m_sc_IndexedSeq$().ReusableCBF$6;
+      var t$4 = $as_sci_Vector($f_sc_TraversableLike__to__scg_CanBuildFrom__O(t$3, cbf));
+      return new $c_Lscalacss_internal_NonEmptyVector().init___O__sci_Vector(h, t$4)
+    })
+  })(this))))
+});
+$c_Lscalacss_internal_Attrs$.prototype.transition__Lscalacss_internal_Attr = (function() {
+  var jsx$1 = $m_Lscalacss_internal_Attr$();
+  var this$1 = $m_Lscalacss_internal_Transform$();
+  var subject = $m_Lscalacss_internal_CanIUse$().transitions$1;
+  return $as_Lscalacss_internal_Attr(jsx$1.alias__T__Lscalacss_internal_Transform__F1("transition", this$1.prefix__p1__sci_Map__F1__Lscalacss_internal_CssKV$Lens__Lscalacss_internal_Transform(subject, $m_Lscalacss_internal_CanIUse2$PrefixApply$().prepend$1, $m_Lscalacss_internal_CssKV$().key$1)).apply__O__O(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(x$80$2) {
+      $as_Lscalacss_internal_Attr$AliasB$(x$80$2);
+      var h = $m_Lscalacss_internal_Attrs$().transitionProperty__Lscalacss_internal_Attr();
+      var t = $m_Lscalacss_internal_Attrs$transitionDuration$();
+      var jsx$3 = t.attr$3;
+      var t$1 = $m_Lscalacss_internal_Attrs$transitionTimingFunction$();
+      var jsx$2 = t$1.attr$2;
+      var t$2 = $m_Lscalacss_internal_Attrs$transitionDelay$();
+      var t$3 = new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$3, jsx$2, t$2.attr$3]);
       $m_sci_Vector$();
       var cbf = $m_sc_IndexedSeq$().ReusableCBF$6;
       var t$4 = $as_sci_Vector($f_sc_TraversableLike__to__scg_CanBuildFrom__O(t$3, cbf));
@@ -6255,6 +6514,642 @@ function $h_Lscalacss_internal_CanIUse$() {
   /*<skip>*/
 }
 $h_Lscalacss_internal_CanIUse$.prototype = $c_Lscalacss_internal_CanIUse$.prototype;
+$c_Lscalacss_internal_CanIUse$.prototype.intrinsicWidth__sci_Map = (function() {
+  var self = $m_Lscalacss_internal_CanIUse$Agent$().AndroidBrowser$1;
+  var array = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$FullX$(), $m_Lscalacss_internal_CanIUse$Support$Full$()];
+  if (($uI(array.length) === 0)) {
+    var y = $m_sci_Set$EmptySet$()
+  } else {
+    var b = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i = 0;
+    var len = $uI(array.length);
+    while ((i < len)) {
+      var index = i;
+      var arg1 = array[index];
+      b.$$plus$eq__O__scm_SetBuilder(arg1);
+      i = ((1 + i) | 0)
+    };
+    var y = b.elems$1
+  };
+  var jsx$17 = new $c_T2().init___O__O(self, y);
+  var self$1 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidChrome$1;
+  var array$1 = [$m_Lscalacss_internal_CanIUse$Support$Full$()];
+  if (($uI(array$1.length) === 0)) {
+    var y$1 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$1 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$1 = 0;
+    var len$1 = $uI(array$1.length);
+    while ((i$1 < len$1)) {
+      var index$1 = i$1;
+      var arg1$1 = array$1[index$1];
+      b$1.$$plus$eq__O__scm_SetBuilder(arg1$1);
+      i$1 = ((1 + i$1) | 0)
+    };
+    var y$1 = b$1.elems$1
+  };
+  var jsx$16 = new $c_T2().init___O__O(self$1, y$1);
+  var self$2 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidFirefox$1;
+  var array$2 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$2.length) === 0)) {
+    var y$2 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$2 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$2 = 0;
+    var len$2 = $uI(array$2.length);
+    while ((i$2 < len$2)) {
+      var index$2 = i$2;
+      var arg1$2 = array$2[index$2];
+      b$2.$$plus$eq__O__scm_SetBuilder(arg1$2);
+      i$2 = ((1 + i$2) | 0)
+    };
+    var y$2 = b$2.elems$1
+  };
+  var jsx$15 = new $c_T2().init___O__O(self$2, y$2);
+  var self$3 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidUC$1;
+  var array$3 = [$m_Lscalacss_internal_CanIUse$Support$FullX$()];
+  if (($uI(array$3.length) === 0)) {
+    var y$3 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$3 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$3 = 0;
+    var len$3 = $uI(array$3.length);
+    while ((i$3 < len$3)) {
+      var index$3 = i$3;
+      var arg1$3 = array$3[index$3];
+      b$3.$$plus$eq__O__scm_SetBuilder(arg1$3);
+      i$3 = ((1 + i$3) | 0)
+    };
+    var y$3 = b$3.elems$1
+  };
+  var jsx$14 = new $c_T2().init___O__O(self$3, y$3);
+  var self$4 = $m_Lscalacss_internal_CanIUse$Agent$().BaiduBrowser$1;
+  var array$4 = [$m_Lscalacss_internal_CanIUse$Support$Full$()];
+  if (($uI(array$4.length) === 0)) {
+    var y$4 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$4 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$4 = 0;
+    var len$4 = $uI(array$4.length);
+    while ((i$4 < len$4)) {
+      var index$4 = i$4;
+      var arg1$4 = array$4[index$4];
+      b$4.$$plus$eq__O__scm_SetBuilder(arg1$4);
+      i$4 = ((1 + i$4) | 0)
+    };
+    var y$4 = b$4.elems$1
+  };
+  var jsx$13 = new $c_T2().init___O__O(self$4, y$4);
+  var self$5 = $m_Lscalacss_internal_CanIUse$Agent$().BlackberryBrowser$1;
+  var array$5 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$FullX$()];
+  if (($uI(array$5.length) === 0)) {
+    var y$5 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$5 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$5 = 0;
+    var len$5 = $uI(array$5.length);
+    while ((i$5 < len$5)) {
+      var index$5 = i$5;
+      var arg1$5 = array$5[index$5];
+      b$5.$$plus$eq__O__scm_SetBuilder(arg1$5);
+      i$5 = ((1 + i$5) | 0)
+    };
+    var y$5 = b$5.elems$1
+  };
+  var jsx$12 = new $c_T2().init___O__O(self$5, y$5);
+  var self$6 = $m_Lscalacss_internal_CanIUse$Agent$().Chrome$1;
+  var array$6 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$FullX$(), $m_Lscalacss_internal_CanIUse$Support$Full$()];
+  if (($uI(array$6.length) === 0)) {
+    var y$6 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$6 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$6 = 0;
+    var len$6 = $uI(array$6.length);
+    while ((i$6 < len$6)) {
+      var index$6 = i$6;
+      var arg1$6 = array$6[index$6];
+      b$6.$$plus$eq__O__scm_SetBuilder(arg1$6);
+      i$6 = ((1 + i$6) | 0)
+    };
+    var y$6 = b$6.elems$1
+  };
+  var jsx$11 = new $c_T2().init___O__O(self$6, y$6);
+  var self$7 = $m_Lscalacss_internal_CanIUse$Agent$().Edge$1;
+  var array$7 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$7.length) === 0)) {
+    var y$7 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$7 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$7 = 0;
+    var len$7 = $uI(array$7.length);
+    while ((i$7 < len$7)) {
+      var index$7 = i$7;
+      var arg1$7 = array$7[index$7];
+      b$7.$$plus$eq__O__scm_SetBuilder(arg1$7);
+      i$7 = ((1 + i$7) | 0)
+    };
+    var y$7 = b$7.elems$1
+  };
+  var jsx$10 = new $c_T2().init___O__O(self$7, y$7);
+  var self$8 = $m_Lscalacss_internal_CanIUse$Agent$().Firefox$1;
+  var array$8 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$8.length) === 0)) {
+    var y$8 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$8 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$8 = 0;
+    var len$8 = $uI(array$8.length);
+    while ((i$8 < len$8)) {
+      var index$8 = i$8;
+      var arg1$8 = array$8[index$8];
+      b$8.$$plus$eq__O__scm_SetBuilder(arg1$8);
+      i$8 = ((1 + i$8) | 0)
+    };
+    var y$8 = b$8.elems$1
+  };
+  var jsx$9 = new $c_T2().init___O__O(self$8, y$8);
+  var self$9 = $m_Lscalacss_internal_CanIUse$Agent$().IE$1;
+  var array$9 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$9.length) === 0)) {
+    var y$9 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$9 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$9 = 0;
+    var len$9 = $uI(array$9.length);
+    while ((i$9 < len$9)) {
+      var index$9 = i$9;
+      var arg1$9 = array$9[index$9];
+      b$9.$$plus$eq__O__scm_SetBuilder(arg1$9);
+      i$9 = ((1 + i$9) | 0)
+    };
+    var y$9 = b$9.elems$1
+  };
+  var jsx$8 = new $c_T2().init___O__O(self$9, y$9);
+  var self$10 = $m_Lscalacss_internal_CanIUse$Agent$().IEMobile$1;
+  var array$10 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$10.length) === 0)) {
+    var y$10 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$10 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$10 = 0;
+    var len$10 = $uI(array$10.length);
+    while ((i$10 < len$10)) {
+      var index$10 = i$10;
+      var arg1$10 = array$10[index$10];
+      b$10.$$plus$eq__O__scm_SetBuilder(arg1$10);
+      i$10 = ((1 + i$10) | 0)
+    };
+    var y$10 = b$10.elems$1
+  };
+  var jsx$7 = new $c_T2().init___O__O(self$10, y$10);
+  var self$11 = $m_Lscalacss_internal_CanIUse$Agent$().IOSSafari$1;
+  var array$11 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$11.length) === 0)) {
+    var y$11 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$11 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$11 = 0;
+    var len$11 = $uI(array$11.length);
+    while ((i$11 < len$11)) {
+      var index$11 = i$11;
+      var arg1$11 = array$11[index$11];
+      b$11.$$plus$eq__O__scm_SetBuilder(arg1$11);
+      i$11 = ((1 + i$11) | 0)
+    };
+    var y$11 = b$11.elems$1
+  };
+  var jsx$6 = new $c_T2().init___O__O(self$11, y$11);
+  var self$12 = $m_Lscalacss_internal_CanIUse$Agent$().Opera$1;
+  var array$12 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$FullX$(), $m_Lscalacss_internal_CanIUse$Support$Full$()];
+  if (($uI(array$12.length) === 0)) {
+    var y$12 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$12 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$12 = 0;
+    var len$12 = $uI(array$12.length);
+    while ((i$12 < len$12)) {
+      var index$12 = i$12;
+      var arg1$12 = array$12[index$12];
+      b$12.$$plus$eq__O__scm_SetBuilder(arg1$12);
+      i$12 = ((1 + i$12) | 0)
+    };
+    var y$12 = b$12.elems$1
+  };
+  var jsx$5 = new $c_T2().init___O__O(self$12, y$12);
+  var self$13 = $m_Lscalacss_internal_CanIUse$Agent$().OperaMini$1;
+  var array$13 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$13.length) === 0)) {
+    var y$13 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$13 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$13 = 0;
+    var len$13 = $uI(array$13.length);
+    while ((i$13 < len$13)) {
+      var index$13 = i$13;
+      var arg1$13 = array$13[index$13];
+      b$13.$$plus$eq__O__scm_SetBuilder(arg1$13);
+      i$13 = ((1 + i$13) | 0)
+    };
+    var y$13 = b$13.elems$1
+  };
+  var jsx$4 = new $c_T2().init___O__O(self$13, y$13);
+  var self$14 = $m_Lscalacss_internal_CanIUse$Agent$().OperaMobile$1;
+  var array$14 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$Full$()];
+  if (($uI(array$14.length) === 0)) {
+    var y$14 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$14 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$14 = 0;
+    var len$14 = $uI(array$14.length);
+    while ((i$14 < len$14)) {
+      var index$14 = i$14;
+      var arg1$14 = array$14[index$14];
+      b$14.$$plus$eq__O__scm_SetBuilder(arg1$14);
+      i$14 = ((1 + i$14) | 0)
+    };
+    var y$14 = b$14.elems$1
+  };
+  var jsx$3 = new $c_T2().init___O__O(self$14, y$14);
+  var self$15 = $m_Lscalacss_internal_CanIUse$Agent$().QQBrowser$1;
+  var array$15 = [$m_Lscalacss_internal_CanIUse$Support$FullX$()];
+  if (($uI(array$15.length) === 0)) {
+    var y$15 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$15 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$15 = 0;
+    var len$15 = $uI(array$15.length);
+    while ((i$15 < len$15)) {
+      var index$15 = i$15;
+      var arg1$15 = array$15[index$15];
+      b$15.$$plus$eq__O__scm_SetBuilder(arg1$15);
+      i$15 = ((1 + i$15) | 0)
+    };
+    var y$15 = b$15.elems$1
+  };
+  var jsx$2 = new $c_T2().init___O__O(self$15, y$15);
+  var self$16 = $m_Lscalacss_internal_CanIUse$Agent$().Safari$1;
+  var array$16 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$PartialX$(), $m_Lscalacss_internal_CanIUse$Support$Partial$()];
+  if (($uI(array$16.length) === 0)) {
+    var y$16 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$16 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$16 = 0;
+    var len$16 = $uI(array$16.length);
+    while ((i$16 < len$16)) {
+      var index$16 = i$16;
+      var arg1$16 = array$16[index$16];
+      b$16.$$plus$eq__O__scm_SetBuilder(arg1$16);
+      i$16 = ((1 + i$16) | 0)
+    };
+    var y$16 = b$16.elems$1
+  };
+  var jsx$1 = new $c_T2().init___O__O(self$16, y$16);
+  var self$17 = $m_Lscalacss_internal_CanIUse$Agent$().Samsung$1;
+  var array$17 = [$m_Lscalacss_internal_CanIUse$Support$FullX$(), $m_Lscalacss_internal_CanIUse$Support$Full$()];
+  if (($uI(array$17.length) === 0)) {
+    var y$17 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$17 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$17 = 0;
+    var len$17 = $uI(array$17.length);
+    while ((i$17 < len$17)) {
+      var index$17 = i$17;
+      var arg1$17 = array$17[index$17];
+      b$17.$$plus$eq__O__scm_SetBuilder(arg1$17);
+      i$17 = ((1 + i$17) | 0)
+    };
+    var y$17 = b$17.elems$1
+  };
+  var array$18 = [jsx$17, jsx$16, jsx$15, jsx$14, jsx$13, jsx$12, jsx$11, jsx$10, jsx$9, jsx$8, jsx$7, jsx$6, jsx$5, jsx$4, jsx$3, jsx$2, jsx$1, new $c_T2().init___O__O(self$17, y$17)];
+  var this$56 = new $c_scm_MapBuilder().init___sc_GenMap($m_sci_Map$EmptyMap$());
+  var i$18 = 0;
+  var len$18 = $uI(array$18.length);
+  while ((i$18 < len$18)) {
+    var index$18 = i$18;
+    var arg1$18 = array$18[index$18];
+    this$56.$$plus$eq__T2__scm_MapBuilder($as_T2(arg1$18));
+    i$18 = ((1 + i$18) | 0)
+  };
+  return $as_sci_Map(this$56.elems$1)
+});
+$c_Lscalacss_internal_CanIUse$.prototype.displayContents__sci_Map = (function() {
+  var self = $m_Lscalacss_internal_CanIUse$Agent$().AndroidBrowser$1;
+  var array = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array.length) === 0)) {
+    var y = $m_sci_Set$EmptySet$()
+  } else {
+    var b = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i = 0;
+    var len = $uI(array.length);
+    while ((i < len)) {
+      var index = i;
+      var arg1 = array[index];
+      b.$$plus$eq__O__scm_SetBuilder(arg1);
+      i = ((1 + i) | 0)
+    };
+    var y = b.elems$1
+  };
+  var jsx$17 = new $c_T2().init___O__O(self, y);
+  var self$1 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidChrome$1;
+  var array$1 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$1.length) === 0)) {
+    var y$1 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$1 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$1 = 0;
+    var len$1 = $uI(array$1.length);
+    while ((i$1 < len$1)) {
+      var index$1 = i$1;
+      var arg1$1 = array$1[index$1];
+      b$1.$$plus$eq__O__scm_SetBuilder(arg1$1);
+      i$1 = ((1 + i$1) | 0)
+    };
+    var y$1 = b$1.elems$1
+  };
+  var jsx$16 = new $c_T2().init___O__O(self$1, y$1);
+  var self$2 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidFirefox$1;
+  var array$2 = [$m_Lscalacss_internal_CanIUse$Support$Full$()];
+  if (($uI(array$2.length) === 0)) {
+    var y$2 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$2 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$2 = 0;
+    var len$2 = $uI(array$2.length);
+    while ((i$2 < len$2)) {
+      var index$2 = i$2;
+      var arg1$2 = array$2[index$2];
+      b$2.$$plus$eq__O__scm_SetBuilder(arg1$2);
+      i$2 = ((1 + i$2) | 0)
+    };
+    var y$2 = b$2.elems$1
+  };
+  var jsx$15 = new $c_T2().init___O__O(self$2, y$2);
+  var self$3 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidUC$1;
+  var array$3 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$3.length) === 0)) {
+    var y$3 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$3 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$3 = 0;
+    var len$3 = $uI(array$3.length);
+    while ((i$3 < len$3)) {
+      var index$3 = i$3;
+      var arg1$3 = array$3[index$3];
+      b$3.$$plus$eq__O__scm_SetBuilder(arg1$3);
+      i$3 = ((1 + i$3) | 0)
+    };
+    var y$3 = b$3.elems$1
+  };
+  var jsx$14 = new $c_T2().init___O__O(self$3, y$3);
+  var self$4 = $m_Lscalacss_internal_CanIUse$Agent$().BaiduBrowser$1;
+  var array$4 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$4.length) === 0)) {
+    var y$4 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$4 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$4 = 0;
+    var len$4 = $uI(array$4.length);
+    while ((i$4 < len$4)) {
+      var index$4 = i$4;
+      var arg1$4 = array$4[index$4];
+      b$4.$$plus$eq__O__scm_SetBuilder(arg1$4);
+      i$4 = ((1 + i$4) | 0)
+    };
+    var y$4 = b$4.elems$1
+  };
+  var jsx$13 = new $c_T2().init___O__O(self$4, y$4);
+  var self$5 = $m_Lscalacss_internal_CanIUse$Agent$().BlackberryBrowser$1;
+  var array$5 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$5.length) === 0)) {
+    var y$5 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$5 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$5 = 0;
+    var len$5 = $uI(array$5.length);
+    while ((i$5 < len$5)) {
+      var index$5 = i$5;
+      var arg1$5 = array$5[index$5];
+      b$5.$$plus$eq__O__scm_SetBuilder(arg1$5);
+      i$5 = ((1 + i$5) | 0)
+    };
+    var y$5 = b$5.elems$1
+  };
+  var jsx$12 = new $c_T2().init___O__O(self$5, y$5);
+  var self$6 = $m_Lscalacss_internal_CanIUse$Agent$().Chrome$1;
+  var array$6 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$6.length) === 0)) {
+    var y$6 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$6 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$6 = 0;
+    var len$6 = $uI(array$6.length);
+    while ((i$6 < len$6)) {
+      var index$6 = i$6;
+      var arg1$6 = array$6[index$6];
+      b$6.$$plus$eq__O__scm_SetBuilder(arg1$6);
+      i$6 = ((1 + i$6) | 0)
+    };
+    var y$6 = b$6.elems$1
+  };
+  var jsx$11 = new $c_T2().init___O__O(self$6, y$6);
+  var self$7 = $m_Lscalacss_internal_CanIUse$Agent$().Edge$1;
+  var array$7 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$7.length) === 0)) {
+    var y$7 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$7 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$7 = 0;
+    var len$7 = $uI(array$7.length);
+    while ((i$7 < len$7)) {
+      var index$7 = i$7;
+      var arg1$7 = array$7[index$7];
+      b$7.$$plus$eq__O__scm_SetBuilder(arg1$7);
+      i$7 = ((1 + i$7) | 0)
+    };
+    var y$7 = b$7.elems$1
+  };
+  var jsx$10 = new $c_T2().init___O__O(self$7, y$7);
+  var self$8 = $m_Lscalacss_internal_CanIUse$Agent$().Firefox$1;
+  var array$8 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$Full$()];
+  if (($uI(array$8.length) === 0)) {
+    var y$8 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$8 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$8 = 0;
+    var len$8 = $uI(array$8.length);
+    while ((i$8 < len$8)) {
+      var index$8 = i$8;
+      var arg1$8 = array$8[index$8];
+      b$8.$$plus$eq__O__scm_SetBuilder(arg1$8);
+      i$8 = ((1 + i$8) | 0)
+    };
+    var y$8 = b$8.elems$1
+  };
+  var jsx$9 = new $c_T2().init___O__O(self$8, y$8);
+  var self$9 = $m_Lscalacss_internal_CanIUse$Agent$().IE$1;
+  var array$9 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$9.length) === 0)) {
+    var y$9 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$9 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$9 = 0;
+    var len$9 = $uI(array$9.length);
+    while ((i$9 < len$9)) {
+      var index$9 = i$9;
+      var arg1$9 = array$9[index$9];
+      b$9.$$plus$eq__O__scm_SetBuilder(arg1$9);
+      i$9 = ((1 + i$9) | 0)
+    };
+    var y$9 = b$9.elems$1
+  };
+  var jsx$8 = new $c_T2().init___O__O(self$9, y$9);
+  var self$10 = $m_Lscalacss_internal_CanIUse$Agent$().IEMobile$1;
+  var array$10 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$10.length) === 0)) {
+    var y$10 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$10 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$10 = 0;
+    var len$10 = $uI(array$10.length);
+    while ((i$10 < len$10)) {
+      var index$10 = i$10;
+      var arg1$10 = array$10[index$10];
+      b$10.$$plus$eq__O__scm_SetBuilder(arg1$10);
+      i$10 = ((1 + i$10) | 0)
+    };
+    var y$10 = b$10.elems$1
+  };
+  var jsx$7 = new $c_T2().init___O__O(self$10, y$10);
+  var self$11 = $m_Lscalacss_internal_CanIUse$Agent$().IOSSafari$1;
+  var array$11 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$11.length) === 0)) {
+    var y$11 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$11 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$11 = 0;
+    var len$11 = $uI(array$11.length);
+    while ((i$11 < len$11)) {
+      var index$11 = i$11;
+      var arg1$11 = array$11[index$11];
+      b$11.$$plus$eq__O__scm_SetBuilder(arg1$11);
+      i$11 = ((1 + i$11) | 0)
+    };
+    var y$11 = b$11.elems$1
+  };
+  var jsx$6 = new $c_T2().init___O__O(self$11, y$11);
+  var self$12 = $m_Lscalacss_internal_CanIUse$Agent$().Opera$1;
+  var array$12 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$12.length) === 0)) {
+    var y$12 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$12 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$12 = 0;
+    var len$12 = $uI(array$12.length);
+    while ((i$12 < len$12)) {
+      var index$12 = i$12;
+      var arg1$12 = array$12[index$12];
+      b$12.$$plus$eq__O__scm_SetBuilder(arg1$12);
+      i$12 = ((1 + i$12) | 0)
+    };
+    var y$12 = b$12.elems$1
+  };
+  var jsx$5 = new $c_T2().init___O__O(self$12, y$12);
+  var self$13 = $m_Lscalacss_internal_CanIUse$Agent$().OperaMini$1;
+  var array$13 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$13.length) === 0)) {
+    var y$13 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$13 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$13 = 0;
+    var len$13 = $uI(array$13.length);
+    while ((i$13 < len$13)) {
+      var index$13 = i$13;
+      var arg1$13 = array$13[index$13];
+      b$13.$$plus$eq__O__scm_SetBuilder(arg1$13);
+      i$13 = ((1 + i$13) | 0)
+    };
+    var y$13 = b$13.elems$1
+  };
+  var jsx$4 = new $c_T2().init___O__O(self$13, y$13);
+  var self$14 = $m_Lscalacss_internal_CanIUse$Agent$().OperaMobile$1;
+  var array$14 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$14.length) === 0)) {
+    var y$14 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$14 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$14 = 0;
+    var len$14 = $uI(array$14.length);
+    while ((i$14 < len$14)) {
+      var index$14 = i$14;
+      var arg1$14 = array$14[index$14];
+      b$14.$$plus$eq__O__scm_SetBuilder(arg1$14);
+      i$14 = ((1 + i$14) | 0)
+    };
+    var y$14 = b$14.elems$1
+  };
+  var jsx$3 = new $c_T2().init___O__O(self$14, y$14);
+  var self$15 = $m_Lscalacss_internal_CanIUse$Agent$().QQBrowser$1;
+  var array$15 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$15.length) === 0)) {
+    var y$15 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$15 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$15 = 0;
+    var len$15 = $uI(array$15.length);
+    while ((i$15 < len$15)) {
+      var index$15 = i$15;
+      var arg1$15 = array$15[index$15];
+      b$15.$$plus$eq__O__scm_SetBuilder(arg1$15);
+      i$15 = ((1 + i$15) | 0)
+    };
+    var y$15 = b$15.elems$1
+  };
+  var jsx$2 = new $c_T2().init___O__O(self$15, y$15);
+  var self$16 = $m_Lscalacss_internal_CanIUse$Agent$().Safari$1;
+  var array$16 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$Full$()];
+  if (($uI(array$16.length) === 0)) {
+    var y$16 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$16 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$16 = 0;
+    var len$16 = $uI(array$16.length);
+    while ((i$16 < len$16)) {
+      var index$16 = i$16;
+      var arg1$16 = array$16[index$16];
+      b$16.$$plus$eq__O__scm_SetBuilder(arg1$16);
+      i$16 = ((1 + i$16) | 0)
+    };
+    var y$16 = b$16.elems$1
+  };
+  var jsx$1 = new $c_T2().init___O__O(self$16, y$16);
+  var self$17 = $m_Lscalacss_internal_CanIUse$Agent$().Samsung$1;
+  var array$17 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$17.length) === 0)) {
+    var y$17 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$17 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$17 = 0;
+    var len$17 = $uI(array$17.length);
+    while ((i$17 < len$17)) {
+      var index$17 = i$17;
+      var arg1$17 = array$17[index$17];
+      b$17.$$plus$eq__O__scm_SetBuilder(arg1$17);
+      i$17 = ((1 + i$17) | 0)
+    };
+    var y$17 = b$17.elems$1
+  };
+  var array$18 = [jsx$17, jsx$16, jsx$15, jsx$14, jsx$13, jsx$12, jsx$11, jsx$10, jsx$9, jsx$8, jsx$7, jsx$6, jsx$5, jsx$4, jsx$3, jsx$2, jsx$1, new $c_T2().init___O__O(self$17, y$17)];
+  var this$56 = new $c_scm_MapBuilder().init___sc_GenMap($m_sci_Map$EmptyMap$());
+  var i$18 = 0;
+  var len$18 = $uI(array$18.length);
+  while ((i$18 < len$18)) {
+    var index$18 = i$18;
+    var arg1$18 = array$18[index$18];
+    this$56.$$plus$eq__T2__scm_MapBuilder($as_T2(arg1$18));
+    i$18 = ((1 + i$18) | 0)
+  };
+  return $as_sci_Map(this$56.elems$1)
+});
 $c_Lscalacss_internal_CanIUse$.prototype.init___ = (function() {
   $n_Lscalacss_internal_CanIUse$ = this;
   var jsx$18 = $m_s_Predef$().Map$2;
@@ -7134,642 +8029,6 @@ $c_Lscalacss_internal_CanIUse$.prototype.init___ = (function() {
   var y$215 = $m_s_Predef$().Set$2.apply__sc_Seq__sc_GenTraversable(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$m_Lscalacss_internal_CanIUse$Support$Full$()]));
   this.transitions$1 = $as_sci_Map(jsx$216.apply__sc_Seq__sc_GenMap(new $c_sjs_js_WrappedArray().init___sjs_js_Array([jsx$215, jsx$214, jsx$213, jsx$212, jsx$211, jsx$210, jsx$209, jsx$208, jsx$207, jsx$206, jsx$205, jsx$204, jsx$203, jsx$202, jsx$201, jsx$200, jsx$199, new $c_T2().init___O__O($$this$215, y$215)])));
   return this
-});
-$c_Lscalacss_internal_CanIUse$.prototype.intrinsicWidth__sci_Map = (function() {
-  var self = $m_Lscalacss_internal_CanIUse$Agent$().AndroidBrowser$1;
-  var array = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$FullX$(), $m_Lscalacss_internal_CanIUse$Support$Full$()];
-  if (($uI(array.length) === 0)) {
-    var y = $m_sci_Set$EmptySet$()
-  } else {
-    var b = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i = 0;
-    var len = $uI(array.length);
-    while ((i < len)) {
-      var index = i;
-      var arg1 = array[index];
-      b.$$plus$eq__O__scm_SetBuilder(arg1);
-      i = ((1 + i) | 0)
-    };
-    var y = b.elems$1
-  };
-  var jsx$17 = new $c_T2().init___O__O(self, y);
-  var self$1 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidChrome$1;
-  var array$1 = [$m_Lscalacss_internal_CanIUse$Support$Full$()];
-  if (($uI(array$1.length) === 0)) {
-    var y$1 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$1 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$1 = 0;
-    var len$1 = $uI(array$1.length);
-    while ((i$1 < len$1)) {
-      var index$1 = i$1;
-      var arg1$1 = array$1[index$1];
-      b$1.$$plus$eq__O__scm_SetBuilder(arg1$1);
-      i$1 = ((1 + i$1) | 0)
-    };
-    var y$1 = b$1.elems$1
-  };
-  var jsx$16 = new $c_T2().init___O__O(self$1, y$1);
-  var self$2 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidFirefox$1;
-  var array$2 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
-  if (($uI(array$2.length) === 0)) {
-    var y$2 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$2 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$2 = 0;
-    var len$2 = $uI(array$2.length);
-    while ((i$2 < len$2)) {
-      var index$2 = i$2;
-      var arg1$2 = array$2[index$2];
-      b$2.$$plus$eq__O__scm_SetBuilder(arg1$2);
-      i$2 = ((1 + i$2) | 0)
-    };
-    var y$2 = b$2.elems$1
-  };
-  var jsx$15 = new $c_T2().init___O__O(self$2, y$2);
-  var self$3 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidUC$1;
-  var array$3 = [$m_Lscalacss_internal_CanIUse$Support$FullX$()];
-  if (($uI(array$3.length) === 0)) {
-    var y$3 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$3 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$3 = 0;
-    var len$3 = $uI(array$3.length);
-    while ((i$3 < len$3)) {
-      var index$3 = i$3;
-      var arg1$3 = array$3[index$3];
-      b$3.$$plus$eq__O__scm_SetBuilder(arg1$3);
-      i$3 = ((1 + i$3) | 0)
-    };
-    var y$3 = b$3.elems$1
-  };
-  var jsx$14 = new $c_T2().init___O__O(self$3, y$3);
-  var self$4 = $m_Lscalacss_internal_CanIUse$Agent$().BaiduBrowser$1;
-  var array$4 = [$m_Lscalacss_internal_CanIUse$Support$Full$()];
-  if (($uI(array$4.length) === 0)) {
-    var y$4 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$4 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$4 = 0;
-    var len$4 = $uI(array$4.length);
-    while ((i$4 < len$4)) {
-      var index$4 = i$4;
-      var arg1$4 = array$4[index$4];
-      b$4.$$plus$eq__O__scm_SetBuilder(arg1$4);
-      i$4 = ((1 + i$4) | 0)
-    };
-    var y$4 = b$4.elems$1
-  };
-  var jsx$13 = new $c_T2().init___O__O(self$4, y$4);
-  var self$5 = $m_Lscalacss_internal_CanIUse$Agent$().BlackberryBrowser$1;
-  var array$5 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$FullX$()];
-  if (($uI(array$5.length) === 0)) {
-    var y$5 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$5 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$5 = 0;
-    var len$5 = $uI(array$5.length);
-    while ((i$5 < len$5)) {
-      var index$5 = i$5;
-      var arg1$5 = array$5[index$5];
-      b$5.$$plus$eq__O__scm_SetBuilder(arg1$5);
-      i$5 = ((1 + i$5) | 0)
-    };
-    var y$5 = b$5.elems$1
-  };
-  var jsx$12 = new $c_T2().init___O__O(self$5, y$5);
-  var self$6 = $m_Lscalacss_internal_CanIUse$Agent$().Chrome$1;
-  var array$6 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$FullX$(), $m_Lscalacss_internal_CanIUse$Support$Full$()];
-  if (($uI(array$6.length) === 0)) {
-    var y$6 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$6 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$6 = 0;
-    var len$6 = $uI(array$6.length);
-    while ((i$6 < len$6)) {
-      var index$6 = i$6;
-      var arg1$6 = array$6[index$6];
-      b$6.$$plus$eq__O__scm_SetBuilder(arg1$6);
-      i$6 = ((1 + i$6) | 0)
-    };
-    var y$6 = b$6.elems$1
-  };
-  var jsx$11 = new $c_T2().init___O__O(self$6, y$6);
-  var self$7 = $m_Lscalacss_internal_CanIUse$Agent$().Edge$1;
-  var array$7 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array$7.length) === 0)) {
-    var y$7 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$7 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$7 = 0;
-    var len$7 = $uI(array$7.length);
-    while ((i$7 < len$7)) {
-      var index$7 = i$7;
-      var arg1$7 = array$7[index$7];
-      b$7.$$plus$eq__O__scm_SetBuilder(arg1$7);
-      i$7 = ((1 + i$7) | 0)
-    };
-    var y$7 = b$7.elems$1
-  };
-  var jsx$10 = new $c_T2().init___O__O(self$7, y$7);
-  var self$8 = $m_Lscalacss_internal_CanIUse$Agent$().Firefox$1;
-  var array$8 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$PartialX$()];
-  if (($uI(array$8.length) === 0)) {
-    var y$8 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$8 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$8 = 0;
-    var len$8 = $uI(array$8.length);
-    while ((i$8 < len$8)) {
-      var index$8 = i$8;
-      var arg1$8 = array$8[index$8];
-      b$8.$$plus$eq__O__scm_SetBuilder(arg1$8);
-      i$8 = ((1 + i$8) | 0)
-    };
-    var y$8 = b$8.elems$1
-  };
-  var jsx$9 = new $c_T2().init___O__O(self$8, y$8);
-  var self$9 = $m_Lscalacss_internal_CanIUse$Agent$().IE$1;
-  var array$9 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array$9.length) === 0)) {
-    var y$9 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$9 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$9 = 0;
-    var len$9 = $uI(array$9.length);
-    while ((i$9 < len$9)) {
-      var index$9 = i$9;
-      var arg1$9 = array$9[index$9];
-      b$9.$$plus$eq__O__scm_SetBuilder(arg1$9);
-      i$9 = ((1 + i$9) | 0)
-    };
-    var y$9 = b$9.elems$1
-  };
-  var jsx$8 = new $c_T2().init___O__O(self$9, y$9);
-  var self$10 = $m_Lscalacss_internal_CanIUse$Agent$().IEMobile$1;
-  var array$10 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array$10.length) === 0)) {
-    var y$10 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$10 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$10 = 0;
-    var len$10 = $uI(array$10.length);
-    while ((i$10 < len$10)) {
-      var index$10 = i$10;
-      var arg1$10 = array$10[index$10];
-      b$10.$$plus$eq__O__scm_SetBuilder(arg1$10);
-      i$10 = ((1 + i$10) | 0)
-    };
-    var y$10 = b$10.elems$1
-  };
-  var jsx$7 = new $c_T2().init___O__O(self$10, y$10);
-  var self$11 = $m_Lscalacss_internal_CanIUse$Agent$().IOSSafari$1;
-  var array$11 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$PartialX$()];
-  if (($uI(array$11.length) === 0)) {
-    var y$11 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$11 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$11 = 0;
-    var len$11 = $uI(array$11.length);
-    while ((i$11 < len$11)) {
-      var index$11 = i$11;
-      var arg1$11 = array$11[index$11];
-      b$11.$$plus$eq__O__scm_SetBuilder(arg1$11);
-      i$11 = ((1 + i$11) | 0)
-    };
-    var y$11 = b$11.elems$1
-  };
-  var jsx$6 = new $c_T2().init___O__O(self$11, y$11);
-  var self$12 = $m_Lscalacss_internal_CanIUse$Agent$().Opera$1;
-  var array$12 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$FullX$(), $m_Lscalacss_internal_CanIUse$Support$Full$()];
-  if (($uI(array$12.length) === 0)) {
-    var y$12 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$12 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$12 = 0;
-    var len$12 = $uI(array$12.length);
-    while ((i$12 < len$12)) {
-      var index$12 = i$12;
-      var arg1$12 = array$12[index$12];
-      b$12.$$plus$eq__O__scm_SetBuilder(arg1$12);
-      i$12 = ((1 + i$12) | 0)
-    };
-    var y$12 = b$12.elems$1
-  };
-  var jsx$5 = new $c_T2().init___O__O(self$12, y$12);
-  var self$13 = $m_Lscalacss_internal_CanIUse$Agent$().OperaMini$1;
-  var array$13 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array$13.length) === 0)) {
-    var y$13 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$13 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$13 = 0;
-    var len$13 = $uI(array$13.length);
-    while ((i$13 < len$13)) {
-      var index$13 = i$13;
-      var arg1$13 = array$13[index$13];
-      b$13.$$plus$eq__O__scm_SetBuilder(arg1$13);
-      i$13 = ((1 + i$13) | 0)
-    };
-    var y$13 = b$13.elems$1
-  };
-  var jsx$4 = new $c_T2().init___O__O(self$13, y$13);
-  var self$14 = $m_Lscalacss_internal_CanIUse$Agent$().OperaMobile$1;
-  var array$14 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$Full$()];
-  if (($uI(array$14.length) === 0)) {
-    var y$14 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$14 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$14 = 0;
-    var len$14 = $uI(array$14.length);
-    while ((i$14 < len$14)) {
-      var index$14 = i$14;
-      var arg1$14 = array$14[index$14];
-      b$14.$$plus$eq__O__scm_SetBuilder(arg1$14);
-      i$14 = ((1 + i$14) | 0)
-    };
-    var y$14 = b$14.elems$1
-  };
-  var jsx$3 = new $c_T2().init___O__O(self$14, y$14);
-  var self$15 = $m_Lscalacss_internal_CanIUse$Agent$().QQBrowser$1;
-  var array$15 = [$m_Lscalacss_internal_CanIUse$Support$FullX$()];
-  if (($uI(array$15.length) === 0)) {
-    var y$15 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$15 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$15 = 0;
-    var len$15 = $uI(array$15.length);
-    while ((i$15 < len$15)) {
-      var index$15 = i$15;
-      var arg1$15 = array$15[index$15];
-      b$15.$$plus$eq__O__scm_SetBuilder(arg1$15);
-      i$15 = ((1 + i$15) | 0)
-    };
-    var y$15 = b$15.elems$1
-  };
-  var jsx$2 = new $c_T2().init___O__O(self$15, y$15);
-  var self$16 = $m_Lscalacss_internal_CanIUse$Agent$().Safari$1;
-  var array$16 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$PartialX$(), $m_Lscalacss_internal_CanIUse$Support$Partial$()];
-  if (($uI(array$16.length) === 0)) {
-    var y$16 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$16 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$16 = 0;
-    var len$16 = $uI(array$16.length);
-    while ((i$16 < len$16)) {
-      var index$16 = i$16;
-      var arg1$16 = array$16[index$16];
-      b$16.$$plus$eq__O__scm_SetBuilder(arg1$16);
-      i$16 = ((1 + i$16) | 0)
-    };
-    var y$16 = b$16.elems$1
-  };
-  var jsx$1 = new $c_T2().init___O__O(self$16, y$16);
-  var self$17 = $m_Lscalacss_internal_CanIUse$Agent$().Samsung$1;
-  var array$17 = [$m_Lscalacss_internal_CanIUse$Support$FullX$(), $m_Lscalacss_internal_CanIUse$Support$Full$()];
-  if (($uI(array$17.length) === 0)) {
-    var y$17 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$17 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$17 = 0;
-    var len$17 = $uI(array$17.length);
-    while ((i$17 < len$17)) {
-      var index$17 = i$17;
-      var arg1$17 = array$17[index$17];
-      b$17.$$plus$eq__O__scm_SetBuilder(arg1$17);
-      i$17 = ((1 + i$17) | 0)
-    };
-    var y$17 = b$17.elems$1
-  };
-  var array$18 = [jsx$17, jsx$16, jsx$15, jsx$14, jsx$13, jsx$12, jsx$11, jsx$10, jsx$9, jsx$8, jsx$7, jsx$6, jsx$5, jsx$4, jsx$3, jsx$2, jsx$1, new $c_T2().init___O__O(self$17, y$17)];
-  var this$56 = new $c_scm_MapBuilder().init___sc_GenMap($m_sci_Map$EmptyMap$());
-  var i$18 = 0;
-  var len$18 = $uI(array$18.length);
-  while ((i$18 < len$18)) {
-    var index$18 = i$18;
-    var arg1$18 = array$18[index$18];
-    this$56.$$plus$eq__T2__scm_MapBuilder($as_T2(arg1$18));
-    i$18 = ((1 + i$18) | 0)
-  };
-  return $as_sci_Map(this$56.elems$1)
-});
-$c_Lscalacss_internal_CanIUse$.prototype.displayContents__sci_Map = (function() {
-  var self = $m_Lscalacss_internal_CanIUse$Agent$().AndroidBrowser$1;
-  var array = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array.length) === 0)) {
-    var y = $m_sci_Set$EmptySet$()
-  } else {
-    var b = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i = 0;
-    var len = $uI(array.length);
-    while ((i < len)) {
-      var index = i;
-      var arg1 = array[index];
-      b.$$plus$eq__O__scm_SetBuilder(arg1);
-      i = ((1 + i) | 0)
-    };
-    var y = b.elems$1
-  };
-  var jsx$17 = new $c_T2().init___O__O(self, y);
-  var self$1 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidChrome$1;
-  var array$1 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array$1.length) === 0)) {
-    var y$1 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$1 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$1 = 0;
-    var len$1 = $uI(array$1.length);
-    while ((i$1 < len$1)) {
-      var index$1 = i$1;
-      var arg1$1 = array$1[index$1];
-      b$1.$$plus$eq__O__scm_SetBuilder(arg1$1);
-      i$1 = ((1 + i$1) | 0)
-    };
-    var y$1 = b$1.elems$1
-  };
-  var jsx$16 = new $c_T2().init___O__O(self$1, y$1);
-  var self$2 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidFirefox$1;
-  var array$2 = [$m_Lscalacss_internal_CanIUse$Support$Full$()];
-  if (($uI(array$2.length) === 0)) {
-    var y$2 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$2 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$2 = 0;
-    var len$2 = $uI(array$2.length);
-    while ((i$2 < len$2)) {
-      var index$2 = i$2;
-      var arg1$2 = array$2[index$2];
-      b$2.$$plus$eq__O__scm_SetBuilder(arg1$2);
-      i$2 = ((1 + i$2) | 0)
-    };
-    var y$2 = b$2.elems$1
-  };
-  var jsx$15 = new $c_T2().init___O__O(self$2, y$2);
-  var self$3 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidUC$1;
-  var array$3 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array$3.length) === 0)) {
-    var y$3 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$3 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$3 = 0;
-    var len$3 = $uI(array$3.length);
-    while ((i$3 < len$3)) {
-      var index$3 = i$3;
-      var arg1$3 = array$3[index$3];
-      b$3.$$plus$eq__O__scm_SetBuilder(arg1$3);
-      i$3 = ((1 + i$3) | 0)
-    };
-    var y$3 = b$3.elems$1
-  };
-  var jsx$14 = new $c_T2().init___O__O(self$3, y$3);
-  var self$4 = $m_Lscalacss_internal_CanIUse$Agent$().BaiduBrowser$1;
-  var array$4 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array$4.length) === 0)) {
-    var y$4 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$4 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$4 = 0;
-    var len$4 = $uI(array$4.length);
-    while ((i$4 < len$4)) {
-      var index$4 = i$4;
-      var arg1$4 = array$4[index$4];
-      b$4.$$plus$eq__O__scm_SetBuilder(arg1$4);
-      i$4 = ((1 + i$4) | 0)
-    };
-    var y$4 = b$4.elems$1
-  };
-  var jsx$13 = new $c_T2().init___O__O(self$4, y$4);
-  var self$5 = $m_Lscalacss_internal_CanIUse$Agent$().BlackberryBrowser$1;
-  var array$5 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array$5.length) === 0)) {
-    var y$5 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$5 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$5 = 0;
-    var len$5 = $uI(array$5.length);
-    while ((i$5 < len$5)) {
-      var index$5 = i$5;
-      var arg1$5 = array$5[index$5];
-      b$5.$$plus$eq__O__scm_SetBuilder(arg1$5);
-      i$5 = ((1 + i$5) | 0)
-    };
-    var y$5 = b$5.elems$1
-  };
-  var jsx$12 = new $c_T2().init___O__O(self$5, y$5);
-  var self$6 = $m_Lscalacss_internal_CanIUse$Agent$().Chrome$1;
-  var array$6 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array$6.length) === 0)) {
-    var y$6 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$6 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$6 = 0;
-    var len$6 = $uI(array$6.length);
-    while ((i$6 < len$6)) {
-      var index$6 = i$6;
-      var arg1$6 = array$6[index$6];
-      b$6.$$plus$eq__O__scm_SetBuilder(arg1$6);
-      i$6 = ((1 + i$6) | 0)
-    };
-    var y$6 = b$6.elems$1
-  };
-  var jsx$11 = new $c_T2().init___O__O(self$6, y$6);
-  var self$7 = $m_Lscalacss_internal_CanIUse$Agent$().Edge$1;
-  var array$7 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array$7.length) === 0)) {
-    var y$7 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$7 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$7 = 0;
-    var len$7 = $uI(array$7.length);
-    while ((i$7 < len$7)) {
-      var index$7 = i$7;
-      var arg1$7 = array$7[index$7];
-      b$7.$$plus$eq__O__scm_SetBuilder(arg1$7);
-      i$7 = ((1 + i$7) | 0)
-    };
-    var y$7 = b$7.elems$1
-  };
-  var jsx$10 = new $c_T2().init___O__O(self$7, y$7);
-  var self$8 = $m_Lscalacss_internal_CanIUse$Agent$().Firefox$1;
-  var array$8 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$Full$()];
-  if (($uI(array$8.length) === 0)) {
-    var y$8 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$8 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$8 = 0;
-    var len$8 = $uI(array$8.length);
-    while ((i$8 < len$8)) {
-      var index$8 = i$8;
-      var arg1$8 = array$8[index$8];
-      b$8.$$plus$eq__O__scm_SetBuilder(arg1$8);
-      i$8 = ((1 + i$8) | 0)
-    };
-    var y$8 = b$8.elems$1
-  };
-  var jsx$9 = new $c_T2().init___O__O(self$8, y$8);
-  var self$9 = $m_Lscalacss_internal_CanIUse$Agent$().IE$1;
-  var array$9 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array$9.length) === 0)) {
-    var y$9 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$9 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$9 = 0;
-    var len$9 = $uI(array$9.length);
-    while ((i$9 < len$9)) {
-      var index$9 = i$9;
-      var arg1$9 = array$9[index$9];
-      b$9.$$plus$eq__O__scm_SetBuilder(arg1$9);
-      i$9 = ((1 + i$9) | 0)
-    };
-    var y$9 = b$9.elems$1
-  };
-  var jsx$8 = new $c_T2().init___O__O(self$9, y$9);
-  var self$10 = $m_Lscalacss_internal_CanIUse$Agent$().IEMobile$1;
-  var array$10 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array$10.length) === 0)) {
-    var y$10 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$10 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$10 = 0;
-    var len$10 = $uI(array$10.length);
-    while ((i$10 < len$10)) {
-      var index$10 = i$10;
-      var arg1$10 = array$10[index$10];
-      b$10.$$plus$eq__O__scm_SetBuilder(arg1$10);
-      i$10 = ((1 + i$10) | 0)
-    };
-    var y$10 = b$10.elems$1
-  };
-  var jsx$7 = new $c_T2().init___O__O(self$10, y$10);
-  var self$11 = $m_Lscalacss_internal_CanIUse$Agent$().IOSSafari$1;
-  var array$11 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array$11.length) === 0)) {
-    var y$11 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$11 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$11 = 0;
-    var len$11 = $uI(array$11.length);
-    while ((i$11 < len$11)) {
-      var index$11 = i$11;
-      var arg1$11 = array$11[index$11];
-      b$11.$$plus$eq__O__scm_SetBuilder(arg1$11);
-      i$11 = ((1 + i$11) | 0)
-    };
-    var y$11 = b$11.elems$1
-  };
-  var jsx$6 = new $c_T2().init___O__O(self$11, y$11);
-  var self$12 = $m_Lscalacss_internal_CanIUse$Agent$().Opera$1;
-  var array$12 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array$12.length) === 0)) {
-    var y$12 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$12 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$12 = 0;
-    var len$12 = $uI(array$12.length);
-    while ((i$12 < len$12)) {
-      var index$12 = i$12;
-      var arg1$12 = array$12[index$12];
-      b$12.$$plus$eq__O__scm_SetBuilder(arg1$12);
-      i$12 = ((1 + i$12) | 0)
-    };
-    var y$12 = b$12.elems$1
-  };
-  var jsx$5 = new $c_T2().init___O__O(self$12, y$12);
-  var self$13 = $m_Lscalacss_internal_CanIUse$Agent$().OperaMini$1;
-  var array$13 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array$13.length) === 0)) {
-    var y$13 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$13 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$13 = 0;
-    var len$13 = $uI(array$13.length);
-    while ((i$13 < len$13)) {
-      var index$13 = i$13;
-      var arg1$13 = array$13[index$13];
-      b$13.$$plus$eq__O__scm_SetBuilder(arg1$13);
-      i$13 = ((1 + i$13) | 0)
-    };
-    var y$13 = b$13.elems$1
-  };
-  var jsx$4 = new $c_T2().init___O__O(self$13, y$13);
-  var self$14 = $m_Lscalacss_internal_CanIUse$Agent$().OperaMobile$1;
-  var array$14 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array$14.length) === 0)) {
-    var y$14 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$14 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$14 = 0;
-    var len$14 = $uI(array$14.length);
-    while ((i$14 < len$14)) {
-      var index$14 = i$14;
-      var arg1$14 = array$14[index$14];
-      b$14.$$plus$eq__O__scm_SetBuilder(arg1$14);
-      i$14 = ((1 + i$14) | 0)
-    };
-    var y$14 = b$14.elems$1
-  };
-  var jsx$3 = new $c_T2().init___O__O(self$14, y$14);
-  var self$15 = $m_Lscalacss_internal_CanIUse$Agent$().QQBrowser$1;
-  var array$15 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array$15.length) === 0)) {
-    var y$15 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$15 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$15 = 0;
-    var len$15 = $uI(array$15.length);
-    while ((i$15 < len$15)) {
-      var index$15 = i$15;
-      var arg1$15 = array$15[index$15];
-      b$15.$$plus$eq__O__scm_SetBuilder(arg1$15);
-      i$15 = ((1 + i$15) | 0)
-    };
-    var y$15 = b$15.elems$1
-  };
-  var jsx$2 = new $c_T2().init___O__O(self$15, y$15);
-  var self$16 = $m_Lscalacss_internal_CanIUse$Agent$().Safari$1;
-  var array$16 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$Full$()];
-  if (($uI(array$16.length) === 0)) {
-    var y$16 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$16 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$16 = 0;
-    var len$16 = $uI(array$16.length);
-    while ((i$16 < len$16)) {
-      var index$16 = i$16;
-      var arg1$16 = array$16[index$16];
-      b$16.$$plus$eq__O__scm_SetBuilder(arg1$16);
-      i$16 = ((1 + i$16) | 0)
-    };
-    var y$16 = b$16.elems$1
-  };
-  var jsx$1 = new $c_T2().init___O__O(self$16, y$16);
-  var self$17 = $m_Lscalacss_internal_CanIUse$Agent$().Samsung$1;
-  var array$17 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array$17.length) === 0)) {
-    var y$17 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$17 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$17 = 0;
-    var len$17 = $uI(array$17.length);
-    while ((i$17 < len$17)) {
-      var index$17 = i$17;
-      var arg1$17 = array$17[index$17];
-      b$17.$$plus$eq__O__scm_SetBuilder(arg1$17);
-      i$17 = ((1 + i$17) | 0)
-    };
-    var y$17 = b$17.elems$1
-  };
-  var array$18 = [jsx$17, jsx$16, jsx$15, jsx$14, jsx$13, jsx$12, jsx$11, jsx$10, jsx$9, jsx$8, jsx$7, jsx$6, jsx$5, jsx$4, jsx$3, jsx$2, jsx$1, new $c_T2().init___O__O(self$17, y$17)];
-  var this$56 = new $c_scm_MapBuilder().init___sc_GenMap($m_sci_Map$EmptyMap$());
-  var i$18 = 0;
-  var len$18 = $uI(array$18.length);
-  while ((i$18 < len$18)) {
-    var index$18 = i$18;
-    var arg1$18 = array$18[index$18];
-    this$56.$$plus$eq__T2__scm_MapBuilder($as_T2(arg1$18));
-    i$18 = ((1 + i$18) | 0)
-  };
-  return $as_sci_Map(this$56.elems$1)
 });
 $c_Lscalacss_internal_CanIUse$.prototype.textJustify__sci_Map = (function() {
   var self = $m_Lscalacss_internal_CanIUse$Agent$().AndroidBrowser$1;
@@ -8725,324 +8984,6 @@ $c_Lscalacss_internal_CanIUse$.prototype.runIn__sci_Map = (function() {
   };
   return $as_sci_Map(this$56.elems$1)
 });
-$c_Lscalacss_internal_CanIUse$.prototype.logicalProps__sci_Map = (function() {
-  var self = $m_Lscalacss_internal_CanIUse$Agent$().AndroidBrowser$1;
-  var array = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
-  if (($uI(array.length) === 0)) {
-    var y = $m_sci_Set$EmptySet$()
-  } else {
-    var b = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i = 0;
-    var len = $uI(array.length);
-    while ((i < len)) {
-      var index = i;
-      var arg1 = array[index];
-      b.$$plus$eq__O__scm_SetBuilder(arg1);
-      i = ((1 + i) | 0)
-    };
-    var y = b.elems$1
-  };
-  var jsx$17 = new $c_T2().init___O__O(self, y);
-  var self$1 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidChrome$1;
-  var array$1 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
-  if (($uI(array$1.length) === 0)) {
-    var y$1 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$1 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$1 = 0;
-    var len$1 = $uI(array$1.length);
-    while ((i$1 < len$1)) {
-      var index$1 = i$1;
-      var arg1$1 = array$1[index$1];
-      b$1.$$plus$eq__O__scm_SetBuilder(arg1$1);
-      i$1 = ((1 + i$1) | 0)
-    };
-    var y$1 = b$1.elems$1
-  };
-  var jsx$16 = new $c_T2().init___O__O(self$1, y$1);
-  var self$2 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidFirefox$1;
-  var array$2 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
-  if (($uI(array$2.length) === 0)) {
-    var y$2 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$2 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$2 = 0;
-    var len$2 = $uI(array$2.length);
-    while ((i$2 < len$2)) {
-      var index$2 = i$2;
-      var arg1$2 = array$2[index$2];
-      b$2.$$plus$eq__O__scm_SetBuilder(arg1$2);
-      i$2 = ((1 + i$2) | 0)
-    };
-    var y$2 = b$2.elems$1
-  };
-  var jsx$15 = new $c_T2().init___O__O(self$2, y$2);
-  var self$3 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidUC$1;
-  var array$3 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
-  if (($uI(array$3.length) === 0)) {
-    var y$3 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$3 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$3 = 0;
-    var len$3 = $uI(array$3.length);
-    while ((i$3 < len$3)) {
-      var index$3 = i$3;
-      var arg1$3 = array$3[index$3];
-      b$3.$$plus$eq__O__scm_SetBuilder(arg1$3);
-      i$3 = ((1 + i$3) | 0)
-    };
-    var y$3 = b$3.elems$1
-  };
-  var jsx$14 = new $c_T2().init___O__O(self$3, y$3);
-  var self$4 = $m_Lscalacss_internal_CanIUse$Agent$().BaiduBrowser$1;
-  var array$4 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
-  if (($uI(array$4.length) === 0)) {
-    var y$4 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$4 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$4 = 0;
-    var len$4 = $uI(array$4.length);
-    while ((i$4 < len$4)) {
-      var index$4 = i$4;
-      var arg1$4 = array$4[index$4];
-      b$4.$$plus$eq__O__scm_SetBuilder(arg1$4);
-      i$4 = ((1 + i$4) | 0)
-    };
-    var y$4 = b$4.elems$1
-  };
-  var jsx$13 = new $c_T2().init___O__O(self$4, y$4);
-  var self$5 = $m_Lscalacss_internal_CanIUse$Agent$().BlackberryBrowser$1;
-  var array$5 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
-  if (($uI(array$5.length) === 0)) {
-    var y$5 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$5 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$5 = 0;
-    var len$5 = $uI(array$5.length);
-    while ((i$5 < len$5)) {
-      var index$5 = i$5;
-      var arg1$5 = array$5[index$5];
-      b$5.$$plus$eq__O__scm_SetBuilder(arg1$5);
-      i$5 = ((1 + i$5) | 0)
-    };
-    var y$5 = b$5.elems$1
-  };
-  var jsx$12 = new $c_T2().init___O__O(self$5, y$5);
-  var self$6 = $m_Lscalacss_internal_CanIUse$Agent$().Chrome$1;
-  var array$6 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
-  if (($uI(array$6.length) === 0)) {
-    var y$6 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$6 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$6 = 0;
-    var len$6 = $uI(array$6.length);
-    while ((i$6 < len$6)) {
-      var index$6 = i$6;
-      var arg1$6 = array$6[index$6];
-      b$6.$$plus$eq__O__scm_SetBuilder(arg1$6);
-      i$6 = ((1 + i$6) | 0)
-    };
-    var y$6 = b$6.elems$1
-  };
-  var jsx$11 = new $c_T2().init___O__O(self$6, y$6);
-  var self$7 = $m_Lscalacss_internal_CanIUse$Agent$().Edge$1;
-  var array$7 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array$7.length) === 0)) {
-    var y$7 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$7 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$7 = 0;
-    var len$7 = $uI(array$7.length);
-    while ((i$7 < len$7)) {
-      var index$7 = i$7;
-      var arg1$7 = array$7[index$7];
-      b$7.$$plus$eq__O__scm_SetBuilder(arg1$7);
-      i$7 = ((1 + i$7) | 0)
-    };
-    var y$7 = b$7.elems$1
-  };
-  var jsx$10 = new $c_T2().init___O__O(self$7, y$7);
-  var self$8 = $m_Lscalacss_internal_CanIUse$Agent$().Firefox$1;
-  var array$8 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$PartialX$(), $m_Lscalacss_internal_CanIUse$Support$Full$()];
-  if (($uI(array$8.length) === 0)) {
-    var y$8 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$8 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$8 = 0;
-    var len$8 = $uI(array$8.length);
-    while ((i$8 < len$8)) {
-      var index$8 = i$8;
-      var arg1$8 = array$8[index$8];
-      b$8.$$plus$eq__O__scm_SetBuilder(arg1$8);
-      i$8 = ((1 + i$8) | 0)
-    };
-    var y$8 = b$8.elems$1
-  };
-  var jsx$9 = new $c_T2().init___O__O(self$8, y$8);
-  var self$9 = $m_Lscalacss_internal_CanIUse$Agent$().IE$1;
-  var array$9 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array$9.length) === 0)) {
-    var y$9 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$9 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$9 = 0;
-    var len$9 = $uI(array$9.length);
-    while ((i$9 < len$9)) {
-      var index$9 = i$9;
-      var arg1$9 = array$9[index$9];
-      b$9.$$plus$eq__O__scm_SetBuilder(arg1$9);
-      i$9 = ((1 + i$9) | 0)
-    };
-    var y$9 = b$9.elems$1
-  };
-  var jsx$8 = new $c_T2().init___O__O(self$9, y$9);
-  var self$10 = $m_Lscalacss_internal_CanIUse$Agent$().IEMobile$1;
-  var array$10 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array$10.length) === 0)) {
-    var y$10 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$10 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$10 = 0;
-    var len$10 = $uI(array$10.length);
-    while ((i$10 < len$10)) {
-      var index$10 = i$10;
-      var arg1$10 = array$10[index$10];
-      b$10.$$plus$eq__O__scm_SetBuilder(arg1$10);
-      i$10 = ((1 + i$10) | 0)
-    };
-    var y$10 = b$10.elems$1
-  };
-  var jsx$7 = new $c_T2().init___O__O(self$10, y$10);
-  var self$11 = $m_Lscalacss_internal_CanIUse$Agent$().IOSSafari$1;
-  var array$11 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
-  if (($uI(array$11.length) === 0)) {
-    var y$11 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$11 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$11 = 0;
-    var len$11 = $uI(array$11.length);
-    while ((i$11 < len$11)) {
-      var index$11 = i$11;
-      var arg1$11 = array$11[index$11];
-      b$11.$$plus$eq__O__scm_SetBuilder(arg1$11);
-      i$11 = ((1 + i$11) | 0)
-    };
-    var y$11 = b$11.elems$1
-  };
-  var jsx$6 = new $c_T2().init___O__O(self$11, y$11);
-  var self$12 = $m_Lscalacss_internal_CanIUse$Agent$().Opera$1;
-  var array$12 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$PartialX$()];
-  if (($uI(array$12.length) === 0)) {
-    var y$12 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$12 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$12 = 0;
-    var len$12 = $uI(array$12.length);
-    while ((i$12 < len$12)) {
-      var index$12 = i$12;
-      var arg1$12 = array$12[index$12];
-      b$12.$$plus$eq__O__scm_SetBuilder(arg1$12);
-      i$12 = ((1 + i$12) | 0)
-    };
-    var y$12 = b$12.elems$1
-  };
-  var jsx$5 = new $c_T2().init___O__O(self$12, y$12);
-  var self$13 = $m_Lscalacss_internal_CanIUse$Agent$().OperaMini$1;
-  var array$13 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
-  if (($uI(array$13.length) === 0)) {
-    var y$13 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$13 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$13 = 0;
-    var len$13 = $uI(array$13.length);
-    while ((i$13 < len$13)) {
-      var index$13 = i$13;
-      var arg1$13 = array$13[index$13];
-      b$13.$$plus$eq__O__scm_SetBuilder(arg1$13);
-      i$13 = ((1 + i$13) | 0)
-    };
-    var y$13 = b$13.elems$1
-  };
-  var jsx$4 = new $c_T2().init___O__O(self$13, y$13);
-  var self$14 = $m_Lscalacss_internal_CanIUse$Agent$().OperaMobile$1;
-  var array$14 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$PartialX$()];
-  if (($uI(array$14.length) === 0)) {
-    var y$14 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$14 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$14 = 0;
-    var len$14 = $uI(array$14.length);
-    while ((i$14 < len$14)) {
-      var index$14 = i$14;
-      var arg1$14 = array$14[index$14];
-      b$14.$$plus$eq__O__scm_SetBuilder(arg1$14);
-      i$14 = ((1 + i$14) | 0)
-    };
-    var y$14 = b$14.elems$1
-  };
-  var jsx$3 = new $c_T2().init___O__O(self$14, y$14);
-  var self$15 = $m_Lscalacss_internal_CanIUse$Agent$().QQBrowser$1;
-  var array$15 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
-  if (($uI(array$15.length) === 0)) {
-    var y$15 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$15 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$15 = 0;
-    var len$15 = $uI(array$15.length);
-    while ((i$15 < len$15)) {
-      var index$15 = i$15;
-      var arg1$15 = array$15[index$15];
-      b$15.$$plus$eq__O__scm_SetBuilder(arg1$15);
-      i$15 = ((1 + i$15) | 0)
-    };
-    var y$15 = b$15.elems$1
-  };
-  var jsx$2 = new $c_T2().init___O__O(self$15, y$15);
-  var self$16 = $m_Lscalacss_internal_CanIUse$Agent$().Safari$1;
-  var array$16 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
-  if (($uI(array$16.length) === 0)) {
-    var y$16 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$16 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$16 = 0;
-    var len$16 = $uI(array$16.length);
-    while ((i$16 < len$16)) {
-      var index$16 = i$16;
-      var arg1$16 = array$16[index$16];
-      b$16.$$plus$eq__O__scm_SetBuilder(arg1$16);
-      i$16 = ((1 + i$16) | 0)
-    };
-    var y$16 = b$16.elems$1
-  };
-  var jsx$1 = new $c_T2().init___O__O(self$16, y$16);
-  var self$17 = $m_Lscalacss_internal_CanIUse$Agent$().Samsung$1;
-  var array$17 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
-  if (($uI(array$17.length) === 0)) {
-    var y$17 = $m_sci_Set$EmptySet$()
-  } else {
-    var b$17 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
-    var i$17 = 0;
-    var len$17 = $uI(array$17.length);
-    while ((i$17 < len$17)) {
-      var index$17 = i$17;
-      var arg1$17 = array$17[index$17];
-      b$17.$$plus$eq__O__scm_SetBuilder(arg1$17);
-      i$17 = ((1 + i$17) | 0)
-    };
-    var y$17 = b$17.elems$1
-  };
-  var array$18 = [jsx$17, jsx$16, jsx$15, jsx$14, jsx$13, jsx$12, jsx$11, jsx$10, jsx$9, jsx$8, jsx$7, jsx$6, jsx$5, jsx$4, jsx$3, jsx$2, jsx$1, new $c_T2().init___O__O(self$17, y$17)];
-  var this$56 = new $c_scm_MapBuilder().init___sc_GenMap($m_sci_Map$EmptyMap$());
-  var i$18 = 0;
-  var len$18 = $uI(array$18.length);
-  while ((i$18 < len$18)) {
-    var index$18 = i$18;
-    var arg1$18 = array$18[index$18];
-    this$56.$$plus$eq__T2__scm_MapBuilder($as_T2(arg1$18));
-    i$18 = ((1 + i$18) | 0)
-  };
-  return $as_sci_Map(this$56.elems$1)
-});
 $c_Lscalacss_internal_CanIUse$.prototype.fontFamilySystemUi__sci_Map = (function() {
   var self = $m_Lscalacss_internal_CanIUse$Agent$().AndroidBrowser$1;
   var array = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$Full$()];
@@ -9335,6 +9276,324 @@ $c_Lscalacss_internal_CanIUse$.prototype.fontFamilySystemUi__sci_Map = (function
   var jsx$1 = new $c_T2().init___O__O(self$16, y$16);
   var self$17 = $m_Lscalacss_internal_CanIUse$Agent$().Samsung$1;
   var array$17 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$Full$()];
+  if (($uI(array$17.length) === 0)) {
+    var y$17 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$17 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$17 = 0;
+    var len$17 = $uI(array$17.length);
+    while ((i$17 < len$17)) {
+      var index$17 = i$17;
+      var arg1$17 = array$17[index$17];
+      b$17.$$plus$eq__O__scm_SetBuilder(arg1$17);
+      i$17 = ((1 + i$17) | 0)
+    };
+    var y$17 = b$17.elems$1
+  };
+  var array$18 = [jsx$17, jsx$16, jsx$15, jsx$14, jsx$13, jsx$12, jsx$11, jsx$10, jsx$9, jsx$8, jsx$7, jsx$6, jsx$5, jsx$4, jsx$3, jsx$2, jsx$1, new $c_T2().init___O__O(self$17, y$17)];
+  var this$56 = new $c_scm_MapBuilder().init___sc_GenMap($m_sci_Map$EmptyMap$());
+  var i$18 = 0;
+  var len$18 = $uI(array$18.length);
+  while ((i$18 < len$18)) {
+    var index$18 = i$18;
+    var arg1$18 = array$18[index$18];
+    this$56.$$plus$eq__T2__scm_MapBuilder($as_T2(arg1$18));
+    i$18 = ((1 + i$18) | 0)
+  };
+  return $as_sci_Map(this$56.elems$1)
+});
+$c_Lscalacss_internal_CanIUse$.prototype.logicalProps__sci_Map = (function() {
+  var self = $m_Lscalacss_internal_CanIUse$Agent$().AndroidBrowser$1;
+  var array = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array.length) === 0)) {
+    var y = $m_sci_Set$EmptySet$()
+  } else {
+    var b = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i = 0;
+    var len = $uI(array.length);
+    while ((i < len)) {
+      var index = i;
+      var arg1 = array[index];
+      b.$$plus$eq__O__scm_SetBuilder(arg1);
+      i = ((1 + i) | 0)
+    };
+    var y = b.elems$1
+  };
+  var jsx$17 = new $c_T2().init___O__O(self, y);
+  var self$1 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidChrome$1;
+  var array$1 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$1.length) === 0)) {
+    var y$1 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$1 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$1 = 0;
+    var len$1 = $uI(array$1.length);
+    while ((i$1 < len$1)) {
+      var index$1 = i$1;
+      var arg1$1 = array$1[index$1];
+      b$1.$$plus$eq__O__scm_SetBuilder(arg1$1);
+      i$1 = ((1 + i$1) | 0)
+    };
+    var y$1 = b$1.elems$1
+  };
+  var jsx$16 = new $c_T2().init___O__O(self$1, y$1);
+  var self$2 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidFirefox$1;
+  var array$2 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$2.length) === 0)) {
+    var y$2 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$2 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$2 = 0;
+    var len$2 = $uI(array$2.length);
+    while ((i$2 < len$2)) {
+      var index$2 = i$2;
+      var arg1$2 = array$2[index$2];
+      b$2.$$plus$eq__O__scm_SetBuilder(arg1$2);
+      i$2 = ((1 + i$2) | 0)
+    };
+    var y$2 = b$2.elems$1
+  };
+  var jsx$15 = new $c_T2().init___O__O(self$2, y$2);
+  var self$3 = $m_Lscalacss_internal_CanIUse$Agent$().AndroidUC$1;
+  var array$3 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$3.length) === 0)) {
+    var y$3 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$3 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$3 = 0;
+    var len$3 = $uI(array$3.length);
+    while ((i$3 < len$3)) {
+      var index$3 = i$3;
+      var arg1$3 = array$3[index$3];
+      b$3.$$plus$eq__O__scm_SetBuilder(arg1$3);
+      i$3 = ((1 + i$3) | 0)
+    };
+    var y$3 = b$3.elems$1
+  };
+  var jsx$14 = new $c_T2().init___O__O(self$3, y$3);
+  var self$4 = $m_Lscalacss_internal_CanIUse$Agent$().BaiduBrowser$1;
+  var array$4 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$4.length) === 0)) {
+    var y$4 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$4 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$4 = 0;
+    var len$4 = $uI(array$4.length);
+    while ((i$4 < len$4)) {
+      var index$4 = i$4;
+      var arg1$4 = array$4[index$4];
+      b$4.$$plus$eq__O__scm_SetBuilder(arg1$4);
+      i$4 = ((1 + i$4) | 0)
+    };
+    var y$4 = b$4.elems$1
+  };
+  var jsx$13 = new $c_T2().init___O__O(self$4, y$4);
+  var self$5 = $m_Lscalacss_internal_CanIUse$Agent$().BlackberryBrowser$1;
+  var array$5 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$5.length) === 0)) {
+    var y$5 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$5 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$5 = 0;
+    var len$5 = $uI(array$5.length);
+    while ((i$5 < len$5)) {
+      var index$5 = i$5;
+      var arg1$5 = array$5[index$5];
+      b$5.$$plus$eq__O__scm_SetBuilder(arg1$5);
+      i$5 = ((1 + i$5) | 0)
+    };
+    var y$5 = b$5.elems$1
+  };
+  var jsx$12 = new $c_T2().init___O__O(self$5, y$5);
+  var self$6 = $m_Lscalacss_internal_CanIUse$Agent$().Chrome$1;
+  var array$6 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$6.length) === 0)) {
+    var y$6 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$6 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$6 = 0;
+    var len$6 = $uI(array$6.length);
+    while ((i$6 < len$6)) {
+      var index$6 = i$6;
+      var arg1$6 = array$6[index$6];
+      b$6.$$plus$eq__O__scm_SetBuilder(arg1$6);
+      i$6 = ((1 + i$6) | 0)
+    };
+    var y$6 = b$6.elems$1
+  };
+  var jsx$11 = new $c_T2().init___O__O(self$6, y$6);
+  var self$7 = $m_Lscalacss_internal_CanIUse$Agent$().Edge$1;
+  var array$7 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$7.length) === 0)) {
+    var y$7 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$7 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$7 = 0;
+    var len$7 = $uI(array$7.length);
+    while ((i$7 < len$7)) {
+      var index$7 = i$7;
+      var arg1$7 = array$7[index$7];
+      b$7.$$plus$eq__O__scm_SetBuilder(arg1$7);
+      i$7 = ((1 + i$7) | 0)
+    };
+    var y$7 = b$7.elems$1
+  };
+  var jsx$10 = new $c_T2().init___O__O(self$7, y$7);
+  var self$8 = $m_Lscalacss_internal_CanIUse$Agent$().Firefox$1;
+  var array$8 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$PartialX$(), $m_Lscalacss_internal_CanIUse$Support$Full$()];
+  if (($uI(array$8.length) === 0)) {
+    var y$8 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$8 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$8 = 0;
+    var len$8 = $uI(array$8.length);
+    while ((i$8 < len$8)) {
+      var index$8 = i$8;
+      var arg1$8 = array$8[index$8];
+      b$8.$$plus$eq__O__scm_SetBuilder(arg1$8);
+      i$8 = ((1 + i$8) | 0)
+    };
+    var y$8 = b$8.elems$1
+  };
+  var jsx$9 = new $c_T2().init___O__O(self$8, y$8);
+  var self$9 = $m_Lscalacss_internal_CanIUse$Agent$().IE$1;
+  var array$9 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$9.length) === 0)) {
+    var y$9 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$9 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$9 = 0;
+    var len$9 = $uI(array$9.length);
+    while ((i$9 < len$9)) {
+      var index$9 = i$9;
+      var arg1$9 = array$9[index$9];
+      b$9.$$plus$eq__O__scm_SetBuilder(arg1$9);
+      i$9 = ((1 + i$9) | 0)
+    };
+    var y$9 = b$9.elems$1
+  };
+  var jsx$8 = new $c_T2().init___O__O(self$9, y$9);
+  var self$10 = $m_Lscalacss_internal_CanIUse$Agent$().IEMobile$1;
+  var array$10 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$10.length) === 0)) {
+    var y$10 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$10 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$10 = 0;
+    var len$10 = $uI(array$10.length);
+    while ((i$10 < len$10)) {
+      var index$10 = i$10;
+      var arg1$10 = array$10[index$10];
+      b$10.$$plus$eq__O__scm_SetBuilder(arg1$10);
+      i$10 = ((1 + i$10) | 0)
+    };
+    var y$10 = b$10.elems$1
+  };
+  var jsx$7 = new $c_T2().init___O__O(self$10, y$10);
+  var self$11 = $m_Lscalacss_internal_CanIUse$Agent$().IOSSafari$1;
+  var array$11 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$11.length) === 0)) {
+    var y$11 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$11 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$11 = 0;
+    var len$11 = $uI(array$11.length);
+    while ((i$11 < len$11)) {
+      var index$11 = i$11;
+      var arg1$11 = array$11[index$11];
+      b$11.$$plus$eq__O__scm_SetBuilder(arg1$11);
+      i$11 = ((1 + i$11) | 0)
+    };
+    var y$11 = b$11.elems$1
+  };
+  var jsx$6 = new $c_T2().init___O__O(self$11, y$11);
+  var self$12 = $m_Lscalacss_internal_CanIUse$Agent$().Opera$1;
+  var array$12 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$12.length) === 0)) {
+    var y$12 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$12 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$12 = 0;
+    var len$12 = $uI(array$12.length);
+    while ((i$12 < len$12)) {
+      var index$12 = i$12;
+      var arg1$12 = array$12[index$12];
+      b$12.$$plus$eq__O__scm_SetBuilder(arg1$12);
+      i$12 = ((1 + i$12) | 0)
+    };
+    var y$12 = b$12.elems$1
+  };
+  var jsx$5 = new $c_T2().init___O__O(self$12, y$12);
+  var self$13 = $m_Lscalacss_internal_CanIUse$Agent$().OperaMini$1;
+  var array$13 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$()];
+  if (($uI(array$13.length) === 0)) {
+    var y$13 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$13 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$13 = 0;
+    var len$13 = $uI(array$13.length);
+    while ((i$13 < len$13)) {
+      var index$13 = i$13;
+      var arg1$13 = array$13[index$13];
+      b$13.$$plus$eq__O__scm_SetBuilder(arg1$13);
+      i$13 = ((1 + i$13) | 0)
+    };
+    var y$13 = b$13.elems$1
+  };
+  var jsx$4 = new $c_T2().init___O__O(self$13, y$13);
+  var self$14 = $m_Lscalacss_internal_CanIUse$Agent$().OperaMobile$1;
+  var array$14 = [$m_Lscalacss_internal_CanIUse$Support$Unsupported$(), $m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$14.length) === 0)) {
+    var y$14 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$14 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$14 = 0;
+    var len$14 = $uI(array$14.length);
+    while ((i$14 < len$14)) {
+      var index$14 = i$14;
+      var arg1$14 = array$14[index$14];
+      b$14.$$plus$eq__O__scm_SetBuilder(arg1$14);
+      i$14 = ((1 + i$14) | 0)
+    };
+    var y$14 = b$14.elems$1
+  };
+  var jsx$3 = new $c_T2().init___O__O(self$14, y$14);
+  var self$15 = $m_Lscalacss_internal_CanIUse$Agent$().QQBrowser$1;
+  var array$15 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$15.length) === 0)) {
+    var y$15 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$15 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$15 = 0;
+    var len$15 = $uI(array$15.length);
+    while ((i$15 < len$15)) {
+      var index$15 = i$15;
+      var arg1$15 = array$15[index$15];
+      b$15.$$plus$eq__O__scm_SetBuilder(arg1$15);
+      i$15 = ((1 + i$15) | 0)
+    };
+    var y$15 = b$15.elems$1
+  };
+  var jsx$2 = new $c_T2().init___O__O(self$15, y$15);
+  var self$16 = $m_Lscalacss_internal_CanIUse$Agent$().Safari$1;
+  var array$16 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
+  if (($uI(array$16.length) === 0)) {
+    var y$16 = $m_sci_Set$EmptySet$()
+  } else {
+    var b$16 = new $c_scm_SetBuilder().init___sc_Set($m_sci_Set$EmptySet$());
+    var i$16 = 0;
+    var len$16 = $uI(array$16.length);
+    while ((i$16 < len$16)) {
+      var index$16 = i$16;
+      var arg1$16 = array$16[index$16];
+      b$16.$$plus$eq__O__scm_SetBuilder(arg1$16);
+      i$16 = ((1 + i$16) | 0)
+    };
+    var y$16 = b$16.elems$1
+  };
+  var jsx$1 = new $c_T2().init___O__O(self$16, y$16);
+  var self$17 = $m_Lscalacss_internal_CanIUse$Agent$().Samsung$1;
+  var array$17 = [$m_Lscalacss_internal_CanIUse$Support$PartialX$()];
   if (($uI(array$17.length) === 0)) {
     var y$17 = $m_sci_Set$EmptySet$()
   } else {
@@ -10784,6 +11043,18 @@ $c_Lscalacss_internal_Literal.prototype.init___T = (function(value) {
   this.value$1 = value;
   return this
 });
+function $is_Lscalacss_internal_Literal(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalacss_internal_Literal)))
+}
+function $as_Lscalacss_internal_Literal(obj) {
+  return (($is_Lscalacss_internal_Literal(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scalacss.internal.Literal"))
+}
+function $isArrayOf_Lscalacss_internal_Literal(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lscalacss_internal_Literal)))
+}
+function $asArrayOf_Lscalacss_internal_Literal(obj, depth) {
+  return (($isArrayOf_Lscalacss_internal_Literal(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalacss.internal.Literal;", depth))
+}
 /** @constructor */
 function $c_Lscalacss_internal_Media$() {
   $c_O.call(this);
@@ -10829,7 +11100,7 @@ $c_Lscalacss_internal_Media$.prototype.init___ = (function() {
           return jsx$3.$$tilde$extension__T__T__T(_s$2, $as_T(f(t$2)))
         } else if ($is_Lscalacss_internal_Media$Max(v)) {
           var x4 = $as_Lscalacss_internal_Media$Max(v);
-          var t$3 = x4.max__O();
+          var t$3 = x4.max$1;
           var jsx$5 = $m_Lscalacss_internal_Media$StringExt$();
           var jsx$4 = $m_Lscalacss_internal_Media$StringExt$();
           var _s$3 = $m_Lscalacss_internal_Media$StringExt$().$$tilde$extension__T__T__T("max-", "aspect-ratio");
@@ -10865,7 +11136,7 @@ $c_Lscalacss_internal_Media$.prototype.init___ = (function() {
           return jsx$8.$$tilde$extension__T__T__T(_s$7, $as_T(f$1(t$2$1)))
         } else if ($is_Lscalacss_internal_Media$Max(v$2)) {
           var x4$1 = $as_Lscalacss_internal_Media$Max(v$2);
-          var t$3$1 = x4$1.max__O();
+          var t$3$1 = x4$1.max$1;
           var jsx$10 = $m_Lscalacss_internal_Media$StringExt$();
           var jsx$9 = $m_Lscalacss_internal_Media$StringExt$();
           var _s$8 = $m_Lscalacss_internal_Media$StringExt$().$$tilde$extension__T__T__T("max-", "height");
@@ -10876,7 +11147,7 @@ $c_Lscalacss_internal_Media$.prototype.init___ = (function() {
         }
       } else if ($is_Lscalacss_internal_Media$Width(x0$1)) {
         var x4$2 = $as_Lscalacss_internal_Media$Width(x0$1);
-        var v$3 = x4$2.length__Lscalacss_internal_Media$ValueExpr();
+        var v$3 = x4$2.length$1;
         $m_Lscalacss_internal_Media$();
         var f$2 = (function(this$3$1) {
           return (function(l$3$2) {
@@ -10901,7 +11172,7 @@ $c_Lscalacss_internal_Media$.prototype.init___ = (function() {
           return jsx$13.$$tilde$extension__T__T__T(_s$12, $as_T(f$2(t$2$2)))
         } else if ($is_Lscalacss_internal_Media$Max(v$3)) {
           var x4$3 = $as_Lscalacss_internal_Media$Max(v$3);
-          var t$3$2 = x4$3.max__O();
+          var t$3$2 = x4$3.max$1;
           var jsx$15 = $m_Lscalacss_internal_Media$StringExt$();
           var jsx$14 = $m_Lscalacss_internal_Media$StringExt$();
           var _s$13 = $m_Lscalacss_internal_Media$StringExt$().$$tilde$extension__T__T__T("max-", "width");
@@ -10937,7 +11208,7 @@ $c_Lscalacss_internal_Media$.prototype.init___ = (function() {
           return jsx$18.$$tilde$extension__T__T__T(_s$17, $as_T(f$3(t$2$3)))
         } else if ($is_Lscalacss_internal_Media$Max(v$4)) {
           var x4$4 = $as_Lscalacss_internal_Media$Max(v$4);
-          var t$3$3 = x4$4.max__O();
+          var t$3$3 = x4$4.max$1;
           var jsx$20 = $m_Lscalacss_internal_Media$StringExt$();
           var jsx$19 = $m_Lscalacss_internal_Media$StringExt$();
           var _s$18 = $m_Lscalacss_internal_Media$StringExt$().$$tilde$extension__T__T__T("max-", "device-aspect-ratio");
@@ -10973,7 +11244,7 @@ $c_Lscalacss_internal_Media$.prototype.init___ = (function() {
           return jsx$23.$$tilde$extension__T__T__T(_s$22, $as_T(f$4(t$2$4)))
         } else if ($is_Lscalacss_internal_Media$Max(v$5)) {
           var x4$5 = $as_Lscalacss_internal_Media$Max(v$5);
-          var t$3$4 = x4$5.max__O();
+          var t$3$4 = x4$5.max$1;
           var jsx$25 = $m_Lscalacss_internal_Media$StringExt$();
           var jsx$24 = $m_Lscalacss_internal_Media$StringExt$();
           var _s$23 = $m_Lscalacss_internal_Media$StringExt$().$$tilde$extension__T__T__T("max-", "device-height");
@@ -11009,7 +11280,7 @@ $c_Lscalacss_internal_Media$.prototype.init___ = (function() {
           return jsx$28.$$tilde$extension__T__T__T(_s$27, $as_T(f$5(t$2$5)))
         } else if ($is_Lscalacss_internal_Media$Max(v$6)) {
           var x4$6 = $as_Lscalacss_internal_Media$Max(v$6);
-          var t$3$5 = x4$6.max__O();
+          var t$3$5 = x4$6.max$1;
           var jsx$30 = $m_Lscalacss_internal_Media$StringExt$();
           var jsx$29 = $m_Lscalacss_internal_Media$StringExt$();
           var _s$28 = $m_Lscalacss_internal_Media$StringExt$().$$tilde$extension__T__T__T("max-", "device-width");
@@ -11054,7 +11325,7 @@ $c_Lscalacss_internal_Media$.prototype.init___ = (function() {
               throw new $c_s_MatchError().init___O(x$4)
             };
             var x4$7 = $as_Lscalacss_internal_Media$Max(x$4);
-            var t$3$6 = x4$7.max__O();
+            var t$3$6 = x4$7.max$1;
             var jsx$36 = $m_Lscalacss_internal_Media$StringExt$();
             var jsx$35 = $m_Lscalacss_internal_Media$StringExt$();
             var _s$33 = $m_Lscalacss_internal_Media$StringExt$().$$tilde$extension__T__T__T("max-", "color");
@@ -11099,7 +11370,7 @@ $c_Lscalacss_internal_Media$.prototype.init___ = (function() {
               throw new $c_s_MatchError().init___O(x$4$1)
             };
             var x4$8 = $as_Lscalacss_internal_Media$Max(x$4$1);
-            var t$3$7 = x4$8.max__O();
+            var t$3$7 = x4$8.max$1;
             var jsx$42 = $m_Lscalacss_internal_Media$StringExt$();
             var jsx$41 = $m_Lscalacss_internal_Media$StringExt$();
             var _s$38 = $m_Lscalacss_internal_Media$StringExt$().$$tilde$extension__T__T__T("max-", "color-index");
@@ -11135,7 +11406,7 @@ $c_Lscalacss_internal_Media$.prototype.init___ = (function() {
           return jsx$45.$$tilde$extension__T__T__T(_s$42, $as_T(f$8(t$2$8)))
         } else if ($is_Lscalacss_internal_Media$Max(v$9)) {
           var x4$9 = $as_Lscalacss_internal_Media$Max(v$9);
-          var t$3$8 = x4$9.max__O();
+          var t$3$8 = x4$9.max$1;
           var jsx$47 = $m_Lscalacss_internal_Media$StringExt$();
           var jsx$46 = $m_Lscalacss_internal_Media$StringExt$();
           var _s$43 = $m_Lscalacss_internal_Media$StringExt$().$$tilde$extension__T__T__T("max-", "resolution");
@@ -11180,7 +11451,7 @@ $c_Lscalacss_internal_Media$.prototype.init___ = (function() {
               throw new $c_s_MatchError().init___O(x$4$2)
             };
             var x4$10 = $as_Lscalacss_internal_Media$Max(x$4$2);
-            var t$3$9 = x4$10.max__O();
+            var t$3$9 = x4$10.max$1;
             var jsx$53 = $m_Lscalacss_internal_Media$StringExt$();
             var jsx$52 = $m_Lscalacss_internal_Media$StringExt$();
             var _s$48 = $m_Lscalacss_internal_Media$StringExt$().$$tilde$extension__T__T__T("max-", "monochrome");
@@ -11278,8 +11549,8 @@ $c_Lscalacss_internal_Media$.prototype.cssQueries__Lscalacss_internal_NonEmptyVe
   return $as_T(elem$1)
 });
 $c_Lscalacss_internal_Media$.prototype.cssQuery__Lscalacss_internal_Media$Query__T = (function(q) {
-  var z = $as_T(q.head__s_util_Either().fold__F1__F1__O(this.cssTypeExpr$1, this.cssFeature$1));
-  var this$1 = q.tail__sci_Vector();
+  var z = $as_T(q.head$1.fold__F1__F1__O(this.cssTypeExpr$1, this.cssFeature$1));
+  var this$1 = q.tail$1;
   var elem$1 = null;
   elem$1 = z;
   var this$3 = this$1.iterator__sci_VectorIterator();
@@ -12628,27 +12899,31 @@ function $h_Lscalajsreact_template_components_Footer$() {
 $h_Lscalajsreact_template_components_Footer$.prototype = $c_Lscalajsreact_template_components_Footer$.prototype;
 $c_Lscalajsreact_template_components_Footer$.prototype.init___ = (function() {
   $n_Lscalajsreact_template_components_Footer$ = this;
-  var jsx$8 = $m_Ljapgolly_scalajs_react_package$().ScalaComponent$1.builder$1;
+  var jsx$11 = $m_Ljapgolly_scalajs_react_package$().ScalaComponent$1.builder$1;
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var jsx$7 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  var jsx$10 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   var this$3 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$TextAlign().init___T("textAlign");
-  var jsx$6 = this$3.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("center", $m_Ljapgolly_scalajs_react_vdom_PackageBase$().vdomAttrVtString$2);
-  var jsx$5 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  var jsx$9 = this$3.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("center", $m_Ljapgolly_scalajs_react_vdom_PackageBase$().vdomAttrVtString$2);
+  var jsx$8 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("borderBottom")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("1px solid grey", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("padding")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("0px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
-  var jsx$4 = jsx$5.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
-  var jsx$3 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  var jsx$7 = jsx$8.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+  var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("copyright message and privacy policy"))];
-  var jsx$2 = jsx$3.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("p", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
+  var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("StockNap is market Place of India's Top Technical Analyst\n- Somesh Nayak, Nidhi Nayak, Mukul Katare, Aswani Gujral. Our Advisors will give you paid support for your queries in timely manner. "))];
+  var jsx$5 = jsx$6.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("p", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
+  var jsx$4 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.a__Ljapgolly_scalajs_react_vdom_HtmlTags$a$();
+  var jsx$3 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("paddingTop")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("5px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.cursor__Ljapgolly_scalajs_react_vdom_HtmlStyles$cursor$().$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("pointer", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
   var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$2 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("paddingTop")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("5px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Footer"))];
-  var array$3 = [jsx$6, jsx$4, jsx$2, jsx$1.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("p", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2))];
-  var a = jsx$7.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("footer", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3));
-  this.component$1 = jsx$8.$static__T__Ljapgolly_scalajs_react_vdom_VdomElement__Ljapgolly_scalajs_react_component_builder_Builder$Step4("Footer", a.render__Ljapgolly_scalajs_react_vdom_VdomElement()).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
+  var array$2 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("privacy policy|facebook|instagram|ContactUs|Google+"))];
+  var array$3 = [jsx$3, jsx$2, jsx$1.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("b", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2))];
+  var array$4 = [jsx$9, jsx$7, jsx$5, jsx$4.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3))];
+  var a = jsx$10.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("footer", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$4));
+  this.component$1 = jsx$11.$static__T__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_builder_Builder$Step4("footer", a.render__Ljapgolly_scalajs_react_vdom_VdomElement()).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_internal_JsRepr__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1), $m_Ljapgolly_scalajs_react_internal_JsRepr$().unit$1);
   return this
 });
 $c_Lscalajsreact_template_components_Footer$.prototype.apply__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function() {
@@ -12698,7 +12973,7 @@ $c_Lscalajsreact_template_components_LeftNav$.prototype.init___ = (function() {
   $m_Ljapgolly_scalajs_react_component_builder_Builder$();
   $m_Ljapgolly_scalajs_react_package$();
   var b = new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T("LeftNav");
-  var this$20 = ($m_Ljapgolly_scalajs_react_component_builder_Builder$(), b.stateless__Ljapgolly_scalajs_react_component_builder_Builder$Step2()).noBackend__Ljapgolly_scalajs_react_component_builder_Builder$Step3().render$undP__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$3$1) {
+  var this$18 = ($m_Ljapgolly_scalajs_react_component_builder_Builder$(), b.stateless__Ljapgolly_scalajs_react_component_builder_Builder$Step2()).noBackend__Ljapgolly_scalajs_react_component_builder_Builder$Step3().render$undP__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$3$1) {
     return (function(P$2) {
       var P = $as_Lscalajsreact_template_components_LeftNav$Props(P$2);
       $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
@@ -12723,6 +12998,7 @@ $c_Lscalajsreact_template_components_LeftNav$.prototype.init___ = (function() {
           var jsx$4 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$9, s$1);
           $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
           var v = item.title$1;
+          $m_Ljapgolly_scalajs_react_vdom_VdomNode$();
           var array = [jsx$5, jsx$4, new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(v), P$1.ctrl$1.setOnClick__O__Ljapgolly_scalajs_react_vdom_TagMod(item)];
           return jsx$6.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("li", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array))
         })
@@ -12734,30 +13010,8 @@ $c_Lscalajsreact_template_components_LeftNav$.prototype.init___ = (function() {
   var jsx$9 = $m_Ljapgolly_scalajs_react_extra_Reusability$();
   var jsx$8 = this.propsReuse$1;
   var this$17 = $m_Ljapgolly_scalajs_react_extra_Reusability$();
-  var array$2 = [jsx$9.shouldComponentUpdate__F2__F2__F1(jsx$8, this$17.always__F2())];
-  var start = 0;
-  var end = $uI(array$2.length);
-  var z = this$20;
-  var start$1 = start;
-  var z$1 = z;
-  var jsx$10;
-  _foldl: while (true) {
-    if ((start$1 !== end)) {
-      var temp$start = ((1 + start$1) | 0);
-      var arg1 = z$1;
-      var index = start$1;
-      var arg2 = array$2[index];
-      var s$2 = $as_Ljapgolly_scalajs_react_component_builder_Builder$Step4(arg1);
-      var f$2 = $as_F1(arg2);
-      var temp$z = $as_Ljapgolly_scalajs_react_component_builder_Builder$Step4(f$2.apply__O__O(s$2));
-      start$1 = temp$start;
-      z$1 = temp$z;
-      continue _foldl
-    };
-    var jsx$10 = z$1;
-    break
-  };
-  this.component$1 = $as_Ljapgolly_scalajs_react_component_builder_Builder$Step4(jsx$10).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)));
+  var f$2 = jsx$9.shouldComponentUpdate__F2__F2__F1(jsx$8, this$17.always__F2());
+  this.component$1 = $as_Ljapgolly_scalajs_react_component_builder_Builder$Step4(f$2.apply__O__O(this$18)).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_internal_JsRepr__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)), $m_Ljapgolly_scalajs_react_internal_JsRepr$().unit$1);
   return this
 });
 $c_Lscalajsreact_template_components_LeftNav$.prototype.apply__Lscalajsreact_template_components_LeftNav$Props__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(props) {
@@ -12805,78 +13059,27 @@ $c_Lscalajsreact_template_components_TopNav$.prototype.init___ = (function() {
   })(this));
   var r = this.currentPageReuse$1;
   this.propsReuse$1 = $m_Ljapgolly_scalajs_react_extra_Reusability$().contramap$extension__F2__F1__F2(r, f);
-  $m_Ljapgolly_scalajs_react_component_builder_Builder$();
-  $m_Ljapgolly_scalajs_react_package$();
-  var b = new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T("TopNav");
-  var this$28 = ($m_Ljapgolly_scalajs_react_component_builder_Builder$(), b.stateless__Ljapgolly_scalajs_react_component_builder_Builder$Step2()).noBackend__Ljapgolly_scalajs_react_component_builder_Builder$Step3().render$undP__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$3$1) {
-    return (function(P$2) {
-      var P = $as_Lscalajsreact_template_components_TopNav$Props(P$2);
+  this.component$1 = ($m_Ljapgolly_scalajs_react_package$(), new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T("TopNav")).initialState__F0__Ljapgolly_scalajs_react_component_builder_Builder$Step2(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$2$1) {
+    return (function() {
+      return new $c_Lscalajsreact_template_components_TopNav$State().init___T("0px")
+    })
+  })(this))).backend__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step3(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$3) {
+    return (function(x$2) {
+      var x = $as_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(x$2);
+      return new $c_Lscalajsreact_template_components_TopNav$Backend().init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(x)
+    })
+  })(this))).renderWith__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$4) {
+    return (function(x$3$2) {
+      var x$3 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(x$3$2).raw$1;
       $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var jsx$9 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var jsx$8 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var jsx$7 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var this$8 = $m_Lscalacss_ScalaCssReact$();
-      var s = $m_Lscalajsreact_template_components_TopNav$Style$().navMenu$3;
-      var jsx$2 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$8, s);
-      var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_ImplicitsForVdomNode$TraversableOnceExt$();
-      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var as = P.menus$1;
-      var array$1 = [jsx$2, jsx$1.toTagMod$extension__sc_TraversableOnce__F1__Ljapgolly_scalajs_react_vdom_TagMod(as, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, P$1) {
-        return (function(item$2) {
-          var item = $as_Lscalajsreact_template_models_Menu(item$2);
-          var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-          $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-          var jsx$5 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.key$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(item.name$1, $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtKeyS$2);
-          var this$13 = $m_Lscalacss_ScalaCssReact$();
-          var jsx$3 = $m_Lscalajsreact_template_components_TopNav$Style$().menuItem$3;
-          var this$11 = item.route$1;
-          var x = $objectGetClass(this$11);
-          var this$12 = P$1.selectedPage$1;
-          var x$2 = $objectGetClass(this$12);
-          var s$1 = $as_Lscalacss_internal_StyleA(jsx$3.apply__O__O((x === x$2)));
-          var jsx$4 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$13, s$1);
-          $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-          var v = item.name$1;
-          var array = [jsx$5, jsx$4, new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(v), P$1.ctrl$1.setOnClick__O__Ljapgolly_scalajs_react_vdom_TagMod(item.route$1)];
-          return jsx$6.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("li", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array))
-        })
-      })(this$3$1, P)))];
-      var array$2 = [jsx$7.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("ul", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1))];
-      var array$3 = [jsx$8.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("nav", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2))];
-      var a = jsx$9.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("header", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3));
+      var this$5 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component(x$3);
+      var jsx$2 = $as_Lscalajsreact_template_components_TopNav$Backend($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__backend__O(this$5));
+      var jsx$1 = $as_Lscalajsreact_template_components_TopNav$Props($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$().props$extension__Ljapgolly_scalajs_react_raw_React$Component__O(x$3));
+      var this$6 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component(x$3);
+      var a = jsx$2.render__Lscalajsreact_template_components_TopNav$Props__Lscalajsreact_template_components_TopNav$State__Ljapgolly_scalajs_react_vdom_TagOf(jsx$1, $as_Lscalajsreact_template_components_TopNav$State($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$6).state__O()));
       return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
     })
-  })(this)));
-  var jsx$11 = $m_Ljapgolly_scalajs_react_extra_Reusability$();
-  var jsx$10 = this.propsReuse$1;
-  var this$25 = $m_Ljapgolly_scalajs_react_extra_Reusability$();
-  var array$4 = [jsx$11.shouldComponentUpdate__F2__F2__F1(jsx$10, this$25.always__F2())];
-  var start = 0;
-  var end = $uI(array$4.length);
-  var z = this$28;
-  var start$1 = start;
-  var z$1 = z;
-  var jsx$12;
-  _foldl: while (true) {
-    if ((start$1 !== end)) {
-      var temp$start = ((1 + start$1) | 0);
-      var arg1 = z$1;
-      var index = start$1;
-      var arg2 = array$4[index];
-      var s$2 = $as_Ljapgolly_scalajs_react_component_builder_Builder$Step4(arg1);
-      var f$2 = $as_F1(arg2);
-      var temp$z = $as_Ljapgolly_scalajs_react_component_builder_Builder$Step4(f$2.apply__O__O(s$2));
-      start$1 = temp$start;
-      z$1 = temp$z;
-      continue _foldl
-    };
-    var jsx$12 = z$1;
-    break
-  };
-  this.component$1 = $as_Ljapgolly_scalajs_react_component_builder_Builder$Step4(jsx$12).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)));
+  })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_internal_JsRepr__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)), $m_Ljapgolly_scalajs_react_internal_JsRepr$().unit$1);
   return this
 });
 $c_Lscalajsreact_template_components_TopNav$.prototype.apply__Lscalajsreact_template_components_TopNav$Props__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(props) {
@@ -12926,14 +13129,14 @@ $c_Lscalajsreact_template_components_items_CallbackTest$.prototype.init___ = (fu
     return (function(x$3$2) {
       var x$3 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(x$3$2).raw$1;
       $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var this$4 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_package$ReactComponent(x$3);
+      var this$4 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component(x$3);
       var jsx$1 = $as_Lscalajsreact_template_components_items_CallbackTest$Backend($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__backend__O(this$4));
-      var this$5 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_package$ReactComponent(x$3);
+      var this$5 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component(x$3);
       var a = jsx$1.render__Lscalajsreact_template_components_items_CallbackTest$State__Ljapgolly_scalajs_react_vdom_TagOf($as_Lscalajsreact_template_components_items_CallbackTest$State($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$5).state__O()));
       return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
     })
-  })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
-  this.TodoList$1 = $m_Ljapgolly_scalajs_react_package$().ScalaFnComponent$1.apply__F1__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$4$1) {
+  })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_internal_JsRepr__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1), $m_Ljapgolly_scalajs_react_internal_JsRepr$().unit$1);
+  this.TodoList$1 = $m_Ljapgolly_scalajs_react_package$().ScalaFnComponent$1.apply__F1__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$4$1) {
     return (function(props$2) {
       var props = $as_sci_List(props$2);
       $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
@@ -12977,13 +13180,13 @@ $c_Lscalajsreact_template_components_items_CallbackTest$.prototype.init___ = (fu
       var a$1 = jsx$3.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("ul", $as_sc_Seq(jsx$2));
       return a$1.render__Ljapgolly_scalajs_react_vdom_VdomElement()
     })
-  })(this)));
+  })(this)), $m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)));
   return this
 });
 $c_Lscalajsreact_template_components_items_CallbackTest$.prototype.createItem$1__p1__T__Ljapgolly_scalajs_react_vdom_TagOf = (function(itemText) {
   var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(itemText))];
+  var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(itemText))];
   return jsx$1.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("li", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array))
 });
 $c_Lscalajsreact_template_components_items_CallbackTest$.prototype.apply__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
@@ -13018,20 +13221,22 @@ function $h_Lscalajsreact_template_components_items_CallbackTest$Backend() {
 $h_Lscalajsreact_template_components_items_CallbackTest$Backend.prototype = $c_Lscalajsreact_template_components_items_CallbackTest$Backend.prototype;
 $c_Lscalajsreact_template_components_items_CallbackTest$Backend.prototype.onChange__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0 = (function(e) {
   var newValue = $as_T(e.target.value);
-  return $as_Ljapgolly_scalajs_react_CallbackTo(this.$$$1.modState__F1__F0__O(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, newValue$1) {
+  var this$1 = this.$$$1;
+  var mod = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, newValue$1) {
     return (function(x$1$2) {
       var x$1 = $as_Lscalajsreact_template_components_items_CallbackTest$State(x$1$2);
-      var x$4 = x$1.items$1;
-      return new $c_Lscalajsreact_template_components_items_CallbackTest$State().init___sci_List__T(x$4, newValue$1)
+      var x$3 = x$1.items$1;
+      return new $c_Lscalajsreact_template_components_items_CallbackTest$State().init___sci_List__T(x$3, newValue$1)
     })
-  })(this, newValue)), this.$$$1.modState$default$2__F0())).japgolly$scalajs$react$CallbackTo$$f$1
+  })(this, newValue));
+  return $as_Ljapgolly_scalajs_react_CallbackTo(this$1.modState__F1__F0__O(mod, $m_Ljapgolly_scalajs_react_Callback$().empty$1)).japgolly$scalajs$react$CallbackTo$$f$1
 });
 $c_Lscalajsreact_template_components_items_CallbackTest$Backend.prototype.render__Lscalajsreact_template_components_items_CallbackTest$State__Ljapgolly_scalajs_react_vdom_TagOf = (function(state) {
   var jsx$10 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   var jsx$9 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("TODO"))];
+  var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("TODO"))];
   var jsx$8 = jsx$9.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("h3", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   var c = $m_Lscalajsreact_template_components_items_CallbackTest$().TodoList$1;
@@ -13056,10 +13261,12 @@ $c_Lscalajsreact_template_components_items_CallbackTest$Backend.prototype.render
   var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_VdomNode$();
   var jsx$1 = new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Add #");
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   var this$20 = state.items$1;
   var v = ((1 + $f_sc_LinearSeqOptimized__length__I(this$20)) | 0);
+  $m_Ljapgolly_scalajs_react_vdom_VdomNode$();
   var array$2 = [jsx$1, new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(v)];
   var array$3 = [jsx$5, jsx$3, jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("button", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2))];
   var array$4 = [jsx$8, jsx$7, jsx$6.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("form", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3))];
@@ -13070,7 +13277,10 @@ $c_Lscalajsreact_template_components_items_CallbackTest$Backend.prototype.init__
   return this
 });
 $c_Lscalajsreact_template_components_items_CallbackTest$Backend.prototype.handleSubmit__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0 = (function(e) {
-  return $m_Ljapgolly_scalajs_react_CallbackTo$().$$greater$greater$extension__F0__F0__F0($m_Ljapgolly_scalajs_react_ReactExt$undReactEvent$().preventDefaultCB$extension__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(($m_Ljapgolly_scalajs_react_package$(), e)), $as_Ljapgolly_scalajs_react_CallbackTo(this.$$$1.modState__F1__F0__O(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+  var jsx$2 = $m_Ljapgolly_scalajs_react_CallbackTo$();
+  var jsx$1 = $m_Ljapgolly_scalajs_react_ReactExt$undReactEvent$().preventDefaultCB$extension__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(($m_Ljapgolly_scalajs_react_package$(), e));
+  var this$4 = this.$$$1;
+  var mod = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
     return (function(s$2) {
       var s = $as_Lscalajsreact_template_components_items_CallbackTest$State(s$2);
       var this$3 = s.items$1;
@@ -13079,7 +13289,8 @@ $c_Lscalajsreact_template_components_items_CallbackTest$Backend.prototype.handle
       var bf = this$2.ReusableCBFInstance$2;
       return new $c_Lscalajsreact_template_components_items_CallbackTest$State().init___sci_List__T($as_sci_List($f_sc_SeqLike__$$colon$plus__O__scg_CanBuildFrom__O(this$3, elem, bf)), "")
     })
-  })(this)), this.$$$1.modState$default$2__F0())).japgolly$scalajs$react$CallbackTo$$f$1)
+  })(this));
+  return jsx$2.$$greater$greater$extension__F0__F0__F0(jsx$1, $as_Ljapgolly_scalajs_react_CallbackTo(this$4.modState__F1__F0__O(mod, $m_Ljapgolly_scalajs_react_Callback$().empty$1)).japgolly$scalajs$react$CallbackTo$$f$1)
 });
 function $is_Lscalajsreact_template_components_items_CallbackTest$Backend(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalajsreact_template_components_items_CallbackTest$Backend)))
@@ -13118,9 +13329,9 @@ $c_Lscalajsreact_template_components_items_CameraTest$.prototype.init___ = (func
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("TODO add camera selfi part "))];
+  var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("TODO add camera selfi part "))];
   var a = jsx$1.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
-  this.component$1 = jsx$2.$static__T__Ljapgolly_scalajs_react_vdom_VdomElement__Ljapgolly_scalajs_react_component_builder_Builder$Step4("User Camera", a.render__Ljapgolly_scalajs_react_vdom_VdomElement()).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
+  this.component$1 = jsx$2.$static__T__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_builder_Builder$Step4("User Camera", a.render__Ljapgolly_scalajs_react_vdom_VdomElement()).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_internal_JsRepr__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1), $m_Ljapgolly_scalajs_react_internal_JsRepr$().unit$1);
   return this
 });
 $c_Lscalajsreact_template_components_items_CameraTest$.prototype.apply__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
@@ -13159,9 +13370,9 @@ $c_Lscalajsreact_template_components_items_Item1Data$.prototype.init___ = (funct
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("TODO add paytm add credits "))];
+  var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("TODO add paytm add credits "))];
   var a = jsx$1.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
-  this.component$1 = jsx$2.$static__T__Ljapgolly_scalajs_react_vdom_VdomElement__Ljapgolly_scalajs_react_component_builder_Builder$Step4("User credits/wallet", a.render__Ljapgolly_scalajs_react_vdom_VdomElement()).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
+  this.component$1 = jsx$2.$static__T__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_builder_Builder$Step4("User credits/wallet", a.render__Ljapgolly_scalajs_react_vdom_VdomElement()).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_internal_JsRepr__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1), $m_Ljapgolly_scalajs_react_internal_JsRepr$().unit$1);
   return this
 });
 $c_Lscalajsreact_template_components_items_Item1Data$.prototype.apply__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
@@ -13200,9 +13411,9 @@ $c_Lscalajsreact_template_components_items_Item2Data$.prototype.init___ = (funct
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Loading Past orders "))];
+  var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Loading Past orders "))];
   var a = jsx$1.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
-  this.component$1 = jsx$2.$static__T__Ljapgolly_scalajs_react_vdom_VdomElement__Ljapgolly_scalajs_react_component_builder_Builder$Step4("Past Orders", a.render__Ljapgolly_scalajs_react_vdom_VdomElement()).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
+  this.component$1 = jsx$2.$static__T__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_builder_Builder$Step4("Past Orders", a.render__Ljapgolly_scalajs_react_vdom_VdomElement()).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_internal_JsRepr__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1), $m_Ljapgolly_scalajs_react_internal_JsRepr$().unit$1);
   return this
 });
 $c_Lscalajsreact_template_components_items_Item2Data$.prototype.apply__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
@@ -13241,9 +13452,9 @@ $c_Lscalajsreact_template_components_items_ItemsInfo$.prototype.init___ = (funct
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(" See your profile , TODO show default profile pic and user accounts details  "))];
+  var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(" See your profile , TODO show default profile pic and user accounts details  "))];
   var a = jsx$1.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
-  this.component$1 = jsx$2.$static__T__Ljapgolly_scalajs_react_vdom_VdomElement__Ljapgolly_scalajs_react_component_builder_Builder$Step4("Profile", a.render__Ljapgolly_scalajs_react_vdom_VdomElement()).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
+  this.component$1 = jsx$2.$static__T__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_builder_Builder$Step4("Profile", a.render__Ljapgolly_scalajs_react_vdom_VdomElement()).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_internal_JsRepr__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1), $m_Ljapgolly_scalajs_react_internal_JsRepr$().unit$1);
   return this
 });
 $c_Lscalajsreact_template_components_items_ItemsInfo$.prototype.apply__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
@@ -13291,13 +13502,13 @@ $c_Lscalajsreact_template_components_items_Login$.prototype.init___ = (function(
     return (function(x$3$2) {
       var x$3 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(x$3$2).raw$1;
       $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-      var this$4 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_package$ReactComponent(x$3);
+      var this$4 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component(x$3);
       var jsx$1 = $as_Lscalajsreact_template_components_items_Login$Backend($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__backend__O(this$4));
-      var this$5 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_package$ReactComponent(x$3);
+      var this$5 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component(x$3);
       var a = jsx$1.render__Lscalajsreact_template_components_items_State__Ljapgolly_scalajs_react_vdom_TagOf($as_Lscalajsreact_template_components_items_State($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$5).state__O()));
       return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
     })
-  })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
+  })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_internal_JsRepr__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1), $m_Ljapgolly_scalajs_react_internal_JsRepr$().unit$1);
   return this
 });
 $c_Lscalajsreact_template_components_items_Login$.prototype.apply__Ljapgolly_scalajs_react_vdom_VdomElement = (function() {
@@ -13336,8 +13547,8 @@ $c_Lscalajsreact_template_components_items_Login$Backend.prototype.render__Lscal
   var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   var jsx$5 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("border")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("solid 1px black", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
-  var jsx$4 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle().init___T("width")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("90ex", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
-  var jsx$3 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle().init___T("height")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("20em", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  var jsx$4 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle().init___T("width")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("50%", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  var jsx$3 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle().init___T("height")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("60%", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
   var jsx$2 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("padding")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("2px 6px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
   var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
@@ -13346,30 +13557,49 @@ $c_Lscalajsreact_template_components_items_Login$Backend.prototype.render__Lscal
       return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($this.logMouseEnter__Ljapgolly_scalajs_react_raw_SyntheticMouseEvent__F0(e$2))
     })
   })(this)), null)];
-  var array$1 = [jsx$5, jsx$4, jsx$3, jsx$2, jsx$1.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("textarea", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array))];
+  var array$1 = [jsx$5, jsx$4, jsx$3, jsx$2, jsx$1.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("button", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array))];
   return jsx$6.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1))
 });
 $c_Lscalajsreact_template_components_items_Login$Backend.prototype.logEvent__T__F0 = (function(desc) {
   var this$2 = $m_s_Console$();
   var this$3 = $as_Ljava_io_PrintStream(this$2.outVar$2.v$1);
   this$3.java$lang$JSConsoleBasedPrintStream$$printString__T__V((desc + "\n"));
-  return $as_Ljapgolly_scalajs_react_CallbackTo(this.$$$1.modState__F1__F0__O(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+  var this$4 = this.$$$1;
+  var mod = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
     return (function(state$2) {
       $as_Lscalajsreact_template_components_items_State(state$2);
       return new $c_Lscalajsreact_template_components_items_State().init___Z__T__T(false, "not logged in", "firebase intializing trying")
     })
-  })(this)), this.$$$1.modState$default$2__F0())).japgolly$scalajs$react$CallbackTo$$f$1
+  })(this));
+  return $as_Ljapgolly_scalajs_react_CallbackTo(this$4.modState__F1__F0__O(mod, $m_Ljapgolly_scalajs_react_Callback$().empty$1)).japgolly$scalajs$react$CallbackTo$$f$1
 });
 $c_Lscalajsreact_template_components_items_Login$Backend.prototype.successCallback$1__p1__Lscalajsreact_template_components_FirebaseFacade_firebase_database_DataSnapshot__sjs_js_$bar__sjs_js_Any = (function(datSnapshot, b) {
-  var x = $objectToString(datSnapshot);
+  var x = datSnapshot.val();
   var this$2 = $m_s_Console$();
   var this$3 = $as_Ljava_io_PrintStream(this$2.outVar$2.v$1);
   this$3.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"));
+  $m_Lorg_scalajs_dom_package$().console__Lorg_scalajs_dom_raw_Console().log(datSnapshot.val());
+  var jsPrintData = (function(arg$outer) {
+    return (function(arg1$2) {
+      return arg$outer.printData$1__p1__Lscalajsreact_template_components_FirebaseFacade_firebase_database_DataSnapshot__Z(arg1$2)
+    })
+  })(this);
+  datSnapshot.forEach(jsPrintData);
   var this$5 = $m_s_Console$();
   var this$6 = $as_Ljava_io_PrintStream(this$5.outVar$2.v$1);
   this$6.java$lang$JSConsoleBasedPrintStream$$printString__T__V("success callback\n");
+  var this$8 = $m_s_Console$();
+  var this$9 = $as_Ljava_io_PrintStream(this$8.outVar$2.v$1);
+  this$9.java$lang$JSConsoleBasedPrintStream$$printString__T__V((b + "\n"));
   var value = (void 0);
   return value
+});
+$c_Lscalajsreact_template_components_items_Login$Backend.prototype.printData$1__p1__Lscalajsreact_template_components_FirebaseFacade_firebase_database_DataSnapshot__Z = (function(ds) {
+  var x = ds.child("comments").val();
+  var this$2 = $m_s_Console$();
+  var this$3 = $as_Ljava_io_PrintStream(this$2.outVar$2.v$1);
+  this$3.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"));
+  return true
 });
 $c_Lscalajsreact_template_components_items_Login$Backend.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function($$) {
   this.$$$1 = $$;
@@ -13380,26 +13610,36 @@ $c_Lscalajsreact_template_components_items_Login$Backend.prototype.init___Ljapgo
 $c_Lscalajsreact_template_components_items_Login$Backend.prototype.logMouseEnter__Ljapgolly_scalajs_react_raw_SyntheticMouseEvent__F0 = (function(e) {
   var config = new $c_Lscalajsreact_template_components_FirebaseFacade_firebase_FirebaseConfig().init___T__T__T__T__T("AIzaSyCT7g1W-EmqDTv2N-s-em1QTWvpfZH0seI", "api-project-1021787054473.firebaseapp.com", "https://api-project-1021787054473.firebaseio.com", "api-project-1021787054473.appspot.com", "1021787054473");
   var fjs = $i_firebase;
-  fjs.initializeApp(config);
-  var x = $as_T(fjs.SDK_VERSION);
-  var this$2 = $m_s_Console$();
-  var this$3 = $as_Ljava_io_PrintStream(this$2.outVar$2.v$1);
-  this$3.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"));
-  var this$5 = $m_s_Console$();
-  var this$6 = $as_Ljava_io_PrintStream(this$5.outVar$2.v$1);
-  this$6.java$lang$JSConsoleBasedPrintStream$$printString__T__V("reading firebase data\n");
+  var v = $g.fbjsApp;
+  if ((v === (void 0))) {
+    $g.fbjsApp = fjs.initializeApp(config);
+    var x = $as_T(fjs.SDK_VERSION);
+    var this$7 = $m_s_Console$();
+    var this$8 = $as_Ljava_io_PrintStream(this$7.outVar$2.v$1);
+    this$8.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x + "\n"));
+    var this$10 = $m_s_Console$();
+    var this$11 = $as_Ljava_io_PrintStream(this$10.outVar$2.v$1);
+    this$11.java$lang$JSConsoleBasedPrintStream$$printString__T__V("reading firebase data\n")
+  } else {
+    var this$13 = $m_s_Console$();
+    var this$14 = $as_Ljava_io_PrintStream(this$13.outVar$2.v$1);
+    this$14.java$lang$JSConsoleBasedPrintStream$$printString__T__V("no need to again intialize firebase app\n")
+  };
   var db = fjs.database();
-  db.ref().child("user");
+  db.ref("user");
   var jsSuccessFun = (function(arg$outer) {
     return (function(arg1$2, arg2$2) {
       return arg$outer.successCallback$1__p1__Lscalajsreact_template_components_FirebaseFacade_firebase_database_DataSnapshot__sjs_js_$bar__sjs_js_Any(arg1$2, arg2$2)
     })
   })(this);
-  db.ref("user/").once("value", jsSuccessFun, null, null);
+  var p = db.ref("user").once("value", jsSuccessFun, null, null);
   var x$1 = fjs.database().refFromURL("https://api-project-1021787054473.firebaseio.com");
-  var this$8 = $m_s_Console$();
-  var this$9 = $as_Ljava_io_PrintStream(this$8.outVar$2.v$1);
-  this$9.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x$1 + "\n"));
+  var this$16 = $m_s_Console$();
+  var this$17 = $as_Ljava_io_PrintStream(this$16.outVar$2.v$1);
+  this$17.java$lang$JSConsoleBasedPrintStream$$printString__T__V((x$1 + "\n"));
+  $m_Lorg_scalajs_dom_package$().console__Lorg_scalajs_dom_raw_Console().log(p);
+  $m_Ljapgolly_scalajs_react_Callback$();
+  $m_Ljapgolly_scalajs_react_Callback$();
   var array = ["Mouse enter @ ", ",", ""];
   var jsx$1 = new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
   var array$1 = [$uD(e.pageX), $uD(e.pageY)];
@@ -13424,6 +13664,480 @@ var $d_Lscalajsreact_template_components_items_Login$Backend = new $TypeData().i
   O: 1
 });
 $c_Lscalajsreact_template_components_items_Login$Backend.prototype.$classData = $d_Lscalajsreact_template_components_items_Login$Backend;
+/** @constructor */
+function $c_Lscalajsreact_template_components_items_News$() {
+  $c_O.call(this);
+  this.customAttr$1 = null;
+  this.customStyle$1 = null;
+  this.customHtmlTag$1 = null;
+  this.NewsListDom$1 = null;
+  this.component$1 = null
+}
+$c_Lscalajsreact_template_components_items_News$.prototype = new $h_O();
+$c_Lscalajsreact_template_components_items_News$.prototype.constructor = $c_Lscalajsreact_template_components_items_News$;
+/** @constructor */
+function $h_Lscalajsreact_template_components_items_News$() {
+  /*<skip>*/
+}
+$h_Lscalajsreact_template_components_items_News$.prototype = $c_Lscalajsreact_template_components_items_News$.prototype;
+$c_Lscalajsreact_template_components_items_News$.prototype.init___ = (function() {
+  $n_Lscalajsreact_template_components_items_News$ = this;
+  this.customAttr$1 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("customAttr"));
+  this.customStyle$1 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_Style().init___T("customStyle"));
+  var this$3 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  this.customHtmlTag$1 = "customTag";
+  this.NewsListDom$1 = $m_Ljapgolly_scalajs_react_package$().ScalaFnComponent$1.apply__F1__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(props$2) {
+      $m_Lorg_scalajs_dom_package$().console__Lorg_scalajs_dom_raw_Console().log(props$2);
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array = [];
+      var x1 = $uI(props$2.length);
+      switch (x1) {
+        case (-1): {
+          break
+        }
+      };
+      var i = 0;
+      var len = $uI(props$2.length);
+      while ((i < len)) {
+        var index = i;
+        var arg1 = props$2[index];
+        var elem = $this.createItem$1__p1__Lscalajsreact_template_components_items_NewsDataJS__Ljapgolly_scalajs_react_vdom_TagOf(arg1);
+        array.push(elem);
+        i = ((1 + i) | 0)
+      };
+      var a = jsx$1.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("ul", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+      return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+    })
+  })(this)), $m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)));
+  $m_Ljapgolly_scalajs_react_component_builder_Builder$();
+  var b = ($m_Ljapgolly_scalajs_react_package$(), new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T("NewsListing")).initialState__F0__Ljapgolly_scalajs_react_component_builder_Builder$Step2(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$2$1) {
+    return (function() {
+      return (void 0)
+    })
+  })(this)));
+  this.component$1 = b.noBackend__Ljapgolly_scalajs_react_component_builder_Builder$Step3().render$undP__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$3$1) {
+    return (function(P$2) {
+      var P = $as_Lscalajsreact_template_components_items_News$Props(P$2);
+      var jsx$4 = $m_Lorg_scalajs_dom_package$().console__Lorg_scalajs_dom_raw_Console();
+      var jsx$3 = $g.JSON;
+      var s = P.newsJsonData$1;
+      var jsx$2 = jsx$3.parse(s);
+      jsx$4.log(jsx$2);
+      try {
+        $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+        var c = this$3$1.NewsListDom$1;
+        var this$19 = $as_Ljapgolly_scalajs_react_CtorType$Props(c.ctor__Ljapgolly_scalajs_react_CtorType());
+        var jsx$6 = $g.JSON;
+        var s$1 = P.newsJsonData$1;
+        var jsx$5 = jsx$6.parse(s$1);
+        var props = jsx$5.articles;
+        var u = $as_Ljapgolly_scalajs_react_component_Generic$UnmountedWithRoot(this$19.construct$2.apply__O__O__O(props, this$19.mods$2));
+        return u.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
+      } catch (e) {
+        var e$2 = $m_sjsr_package$().wrapJavaScriptException__O__jl_Throwable(e);
+        if ($is_jl_Exception(e$2)) {
+          var e$3 = $as_jl_Exception(e$2);
+          throw $m_sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(new $c_sjs_js_JavaScriptException().init___O(e$3))
+        } else {
+          throw e
+        }
+      }
+    })
+  })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_internal_JsRepr__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)), $m_Ljapgolly_scalajs_react_internal_JsRepr$().unit$1);
+  return this
+});
+$c_Lscalajsreact_template_components_items_News$.prototype.apply__T__Ljapgolly_scalajs_react_vdom_VdomElement = (function(props) {
+  var c = this.component$1;
+  var this$2 = $as_Ljapgolly_scalajs_react_CtorType$Props(c.ctor__Ljapgolly_scalajs_react_CtorType());
+  var props$1 = new $c_Lscalajsreact_template_components_items_News$Props().init___T(props);
+  return $as_Ljapgolly_scalajs_react_component_Generic$UnmountedSimple(this$2.construct$2.apply__O__O__O(props$1, this$2.mods$2)).vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()
+});
+$c_Lscalajsreact_template_components_items_News$.prototype.createItem$1__p1__Lscalajsreact_template_components_items_NewsDataJS__Ljapgolly_scalajs_react_vdom_TagOf = (function(itemText) {
+  var jsx$24 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$23 = $m_Ljapgolly_scalajs_react_vdom_Attr$Style$();
+  var jsx$22 = $m_sjs_js_Dictionary$();
+  var array = [new $c_T2().init___O__O("display", "flex"), new $c_T2().init___O__O("flexDirection", "column"), new $c_T2().init___O__O("padding-right", "50px")];
+  var array$1 = [jsx$23.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(jsx$22.apply__sc_Seq__sjs_js_Dictionary(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array)), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtJsObject$2)];
+  var jsx$21 = jsx$24.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
+  var jsx$20 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$19 = $m_Ljapgolly_scalajs_react_vdom_Attr$Style$();
+  var jsx$18 = $m_sjs_js_Dictionary$();
+  var array$2 = [new $c_T2().init___O__O("alignItems", "center")];
+  var jsx$17 = jsx$19.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(jsx$18.apply__sc_Seq__sjs_js_Dictionary(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2)), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtJsObject$2);
+  var jsx$16 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  var this$19 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3;
+  var jsx$15 = $f_Ljapgolly_scalajs_react_vdom_HtmlTags__img__T(this$19);
+  var array$3 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle().init___T("height")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("100%", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle().init___T("width")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("100%", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.src$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod($as_T(itemText.urlToImage), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+  var array$4 = [jsx$17, jsx$16.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(jsx$15, new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3))];
+  var jsx$14 = jsx$20.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$4));
+  var jsx$13 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$12 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.a__Ljapgolly_scalajs_react_vdom_HtmlTags$a$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+  var this$29 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
+  var a = $as_T(itemText.url);
+  var t = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+  var jsx$11 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t, this$29.name$1, a);
+  var jsx$10 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var array$5 = [$m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.color__Ljapgolly_scalajs_react_vdom_HtmlStyles$color$().$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("black", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+  var jsx$9 = jsx$10.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("h4", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$5));
+  var this$33 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.target__Ljapgolly_scalajs_react_vdom_HtmlAttrs$target$();
+  var t$1 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+  var array$6 = [jsx$11, jsx$9, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t$1, this$33.name$1, "_blank")];
+  var jsx$8 = jsx$12.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$6));
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var v = $as_T(itemText.title);
+  $m_Ljapgolly_scalajs_react_vdom_VdomNode$();
+  var array$7 = [new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(v)];
+  var jsx$7 = jsx$8.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$7));
+  var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var v$1 = $as_T(itemText.description);
+  $m_Ljapgolly_scalajs_react_vdom_VdomNode$();
+  var array$8 = [new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(v$1)];
+  var jsx$5 = jsx$6.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("p", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$8));
+  var jsx$4 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var v$2 = ("By " + $as_T(itemText.author));
+  $m_Ljapgolly_scalajs_react_vdom_VdomNode$();
+  var array$9 = [new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(v$2)];
+  var array$10 = [jsx$7, jsx$5, jsx$4.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("h5", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$9))];
+  var jsx$3 = jsx$13.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$10));
+  var jsx$2 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  var this$52 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3;
+  var jsx$1 = $f_Ljapgolly_scalajs_react_vdom_HtmlTags__hr__T(this$52);
+  var array$11 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle().init___T("margin")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("auto", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle().init___T("marginTop")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("5%", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle().init___T("width")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("80%", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle().init___T("marginBottom")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("30px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+  var array$12 = [jsx$14, jsx$3, jsx$2.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(jsx$1, new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$11)).apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf($m_sci_Nil$())];
+  return jsx$21.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$12))
+});
+var $d_Lscalajsreact_template_components_items_News$ = new $TypeData().initClass({
+  Lscalajsreact_template_components_items_News$: 0
+}, false, "scalajsreact.template.components.items.News$", {
+  Lscalajsreact_template_components_items_News$: 1,
+  O: 1
+});
+$c_Lscalajsreact_template_components_items_News$.prototype.$classData = $d_Lscalajsreact_template_components_items_News$;
+var $n_Lscalajsreact_template_components_items_News$ = (void 0);
+function $m_Lscalajsreact_template_components_items_News$() {
+  if ((!$n_Lscalajsreact_template_components_items_News$)) {
+    $n_Lscalajsreact_template_components_items_News$ = new $c_Lscalajsreact_template_components_items_News$().init___()
+  };
+  return $n_Lscalajsreact_template_components_items_News$
+}
+/** @constructor */
+function $c_Lscalajsreact_template_components_items_NewsTrending$() {
+  $c_O.call(this);
+  this.currentPageReuse$1 = null;
+  this.propsReuse$1 = null;
+  this.statReuse$1 = null;
+  this.jsonTestData$1 = null;
+  this.component$1 = null
+}
+$c_Lscalajsreact_template_components_items_NewsTrending$.prototype = new $h_O();
+$c_Lscalajsreact_template_components_items_NewsTrending$.prototype.constructor = $c_Lscalajsreact_template_components_items_NewsTrending$;
+/** @constructor */
+function $h_Lscalajsreact_template_components_items_NewsTrending$() {
+  /*<skip>*/
+}
+$h_Lscalajsreact_template_components_items_NewsTrending$.prototype = $c_Lscalajsreact_template_components_items_NewsTrending$.prototype;
+$c_Lscalajsreact_template_components_items_NewsTrending$.prototype.init___ = (function() {
+  $n_Lscalajsreact_template_components_items_NewsTrending$ = this;
+  this.currentPageReuse$1 = $m_Ljapgolly_scalajs_react_extra_Reusability$().by$und$eq$eq__F2();
+  $m_Ljapgolly_scalajs_react_extra_Reusability$();
+  var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(x$1$2) {
+      var x$1 = $as_Lscalajsreact_template_components_items_NewsTrending$Props(x$1$2);
+      return x$1.receivedData$1
+    })
+  })(this));
+  var this$1 = $m_Ljapgolly_scalajs_react_extra_Reusability$();
+  var r = this$1.by$und$eq$eq__F2();
+  this.propsReuse$1 = $m_Ljapgolly_scalajs_react_extra_Reusability$().contramap$extension__F2__F1__F2(r, f);
+  $m_Ljapgolly_scalajs_react_extra_Reusability$();
+  var f$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$1) {
+    return (function(x$2$2) {
+      var x$2 = $as_Lscalajsreact_template_components_items_NewsTrending$State(x$2$2);
+      return x$2.newsData$1
+    })
+  })(this));
+  var this$3 = $m_Ljapgolly_scalajs_react_extra_Reusability$();
+  var r$1 = this$3.by$und$eq$eq__F2();
+  this.statReuse$1 = $m_Ljapgolly_scalajs_react_extra_Reusability$().contramap$extension__F2__F1__F2(r$1, f$1);
+  var this$6 = new $c_sci_StringOps().init___T("\r\n      | {\r\n      |\t\"status\": \"ok\",\r\n      |\t\"totalResults\": 20,\r\n      |\t\"articles\": [{\"source\":{\"id\":null,\"name\": null},\"author\":\"BusinessToday.In\",\"title\":\"After BigBasket, Paytm in talks to buy Alibaba-owned UCWeb's India business for $500 million\",\"description\":\"Paytm wants to buy Alibaba's UCWeb business to tap into a new user base, which will help it market products on a new built-up platform.\",\"url\":\"https://www.businesstoday.in/current/corporate/bigbasket-paytm-in-talks-to-buy-alibaba-ucweb-india-business-dollar-500-million/story/284884.html\",\"urlToImage\":\"https://smedia2.intoday.in/btmt/images/stories/vijay-shekhar-paytm-505_081918042334_101218010720.jpg\",\"publishedAt\":\"2018-10-12T07:40:36Z\",\"content\":\"Alibaba-backed online retail giant Paytm is in talks to buy UCWeb's India business for a deal pegged around $400-$500 million. UCWeb, which is the Chinese company's smartphone browser, claims to be the number one mobile browser in China as well as India, with\u2026 [+2430 chars]\"}]\r\n      |    }\r\n    ");
+  this.jsonTestData$1 = $f_sci_StringLike__stripMargin__C__T(this$6, 124);
+  var this$12 = ($m_Ljapgolly_scalajs_react_package$(), new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T("Trending News")).initialState__F0__Ljapgolly_scalajs_react_component_builder_Builder$Step2(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$3$1) {
+    return (function() {
+      return new $c_Lscalajsreact_template_components_items_NewsTrending$State().init___T__I(this$3$1.jsonTestData$1, 0)
+    })
+  })(this))).backend__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step3(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$4$1) {
+    return (function(x$3) {
+      var x = $as_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(x$3);
+      return new $c_Lscalajsreact_template_components_items_NewsTrending$Backend().init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(x)
+    })
+  })(this))).renderWith__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$5$1) {
+    return (function(x$4$2) {
+      var x$4 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(x$4$2).raw$1;
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var this$8 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component(x$4);
+      var jsx$1 = $as_Lscalajsreact_template_components_items_NewsTrending$Backend($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__backend__O(this$8));
+      var this$9 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope().init___Ljapgolly_scalajs_react_raw_React$Component(x$4);
+      var a = jsx$1.render__Lscalajsreact_template_components_items_NewsTrending$State__Ljapgolly_scalajs_react_vdom_TagOf($as_Lscalajsreact_template_components_items_NewsTrending$State($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this$9).state__O()));
+      return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+    })
+  })(this)));
+  var f$3 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$6$1) {
+    return (function(x$3$2$2) {
+      var x$3$2 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(x$3$2$2).raw$1;
+      var this$11 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount().init___Ljapgolly_scalajs_react_raw_React$Component(x$3$2);
+      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($as_Lscalajsreact_template_components_items_NewsTrending$Backend($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__backend__O(this$11)).start__F0())
+    })
+  })(this));
+  var this$14 = this$12.lcAppend__p1__Ljapgolly_scalajs_react_internal_Lens__F1__F2__Ljapgolly_scalajs_react_component_builder_Builder$Step4($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().componentDidMount__Ljapgolly_scalajs_react_internal_Lens(), f$3, $m_Ljapgolly_scalajs_react_internal_Semigroup$().callback$1);
+  var f$4 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$7$1) {
+    return (function(x$4$3$2) {
+      var x$4$3 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount(x$4$3$2).raw$1;
+      var this$13 = new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount().init___Ljapgolly_scalajs_react_raw_React$Component(x$4$3);
+      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($as_Lscalajsreact_template_components_items_NewsTrending$Backend($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__backend__O(this$13)).clear__F0())
+    })
+  })(this));
+  this.component$1 = this$14.lcAppend__p1__Ljapgolly_scalajs_react_internal_Lens__F1__F2__Ljapgolly_scalajs_react_component_builder_Builder$Step4($m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().componentWillUnmount__Ljapgolly_scalajs_react_internal_Lens(), f$4, $m_Ljapgolly_scalajs_react_internal_Semigroup$().callback$1).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_internal_JsRepr__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)), $m_Ljapgolly_scalajs_react_internal_JsRepr$().unit$1);
+  return this
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$.prototype.apply__Lscalajsreact_template_components_items_NewsTrending$Props__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(props) {
+  var c = this.component$1;
+  var this$2 = $as_Ljapgolly_scalajs_react_CtorType$Props(c.ctor__Ljapgolly_scalajs_react_CtorType());
+  return $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(this$2.construct$2.apply__O__O__O(props, this$2.mods$2))
+});
+var $d_Lscalajsreact_template_components_items_NewsTrending$ = new $TypeData().initClass({
+  Lscalajsreact_template_components_items_NewsTrending$: 0
+}, false, "scalajsreact.template.components.items.NewsTrending$", {
+  Lscalajsreact_template_components_items_NewsTrending$: 1,
+  O: 1
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$.prototype.$classData = $d_Lscalajsreact_template_components_items_NewsTrending$;
+var $n_Lscalajsreact_template_components_items_NewsTrending$ = (void 0);
+function $m_Lscalajsreact_template_components_items_NewsTrending$() {
+  if ((!$n_Lscalajsreact_template_components_items_NewsTrending$)) {
+    $n_Lscalajsreact_template_components_items_NewsTrending$ = new $c_Lscalajsreact_template_components_items_NewsTrending$().init___()
+  };
+  return $n_Lscalajsreact_template_components_items_NewsTrending$
+}
+/** @constructor */
+function $c_Lscalajsreact_template_components_items_NewsTrending$Backend() {
+  $c_O.call(this);
+  this.$$$1 = null;
+  this.interval$1 = null
+}
+$c_Lscalajsreact_template_components_items_NewsTrending$Backend.prototype = new $h_O();
+$c_Lscalajsreact_template_components_items_NewsTrending$Backend.prototype.constructor = $c_Lscalajsreact_template_components_items_NewsTrending$Backend;
+/** @constructor */
+function $h_Lscalajsreact_template_components_items_NewsTrending$Backend() {
+  /*<skip>*/
+}
+$h_Lscalajsreact_template_components_items_NewsTrending$Backend.prototype = $c_Lscalajsreact_template_components_items_NewsTrending$Backend.prototype;
+$c_Lscalajsreact_template_components_items_NewsTrending$Backend.prototype.tick__F0 = (function() {
+  var this$1 = this.$$$1;
+  var mod = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(s$2) {
+      var s = $as_Lscalajsreact_template_components_items_NewsTrending$State(s$2);
+      return new $c_Lscalajsreact_template_components_items_NewsTrending$State().init___T__I(s.newsData$1, ((1 + s.secondsElapsed$1) | 0))
+    })
+  })(this));
+  return $as_Ljapgolly_scalajs_react_CallbackTo(this$1.modState__F1__F0__O(mod, $m_Ljapgolly_scalajs_react_Callback$().empty$1)).japgolly$scalajs$react$CallbackTo$$f$1
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$Backend.prototype.clear__F0 = (function() {
+  return $m_Ljapgolly_scalajs_react_Callback$().apply__F0__Ljapgolly_scalajs_react_Callback$ResultGuard__F0(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
+    return (function() {
+      var value = $this.interval$1;
+      if ((value !== (void 0))) {
+        $m_sjs_js_timers_package$().clearInterval__sjs_js_timers_SetIntervalHandle__V(value)
+      };
+      $this.interval$1 = (void 0);
+      var $$this = $this.makeApiCall__F0();
+      $$this.apply__O()
+    })
+  })(this)), null)
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$Backend.prototype.render__Lscalajsreact_template_components_items_NewsTrending$State__Ljapgolly_scalajs_react_vdom_TagOf = (function(s) {
+  var jsx$8 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$7 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle().init___T("marginTop")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("10px", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Trending Bussiness News"))];
+  var jsx$5 = jsx$6.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("h5", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+  var jsx$4 = $m_Lscalajsreact_template_components_items_News$().apply__T__Ljapgolly_scalajs_react_vdom_VdomElement(s.newsData$1);
+  var jsx$3 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var array$1 = [$m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.onClick$1.$$eq$eq$greater__F1__Ljapgolly_scalajs_react_vdom_DomCallbackResult__Ljapgolly_scalajs_react_vdom_TagMod(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(syntheticEvent$2) {
+      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($this.makeApiCall__F0())
+    })
+  })(this)), null)];
+  var jsx$2 = jsx$3.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
+  var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var array$2 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("Get latest News"))];
+  var array$3 = [jsx$1.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("button", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2))];
+  var array$4 = [jsx$7, jsx$5, jsx$4, jsx$2.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3))];
+  return jsx$8.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$4))
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$Backend.prototype.start__F0 = (function() {
+  return $m_Ljapgolly_scalajs_react_Callback$().apply__F0__Ljapgolly_scalajs_react_Callback$ResultGuard__F0(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
+    return (function() {
+      var $$this = $this.tick__F0();
+      $$this.apply__O();
+      var $$this$1 = $this.makeApiCall__F0();
+      $$this$1.apply__O()
+    })
+  })(this)), null)
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$Backend.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function($$) {
+  this.$$$1 = $$;
+  this.interval$1 = (void 0);
+  return this
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$Backend.prototype.makeApiCall__F0 = (function() {
+  var x$9 = $m_sci_Map$EmptyMap$();
+  var this$5 = $m_Lorg_scalajs_dom_ext_Ajax$();
+  var request = this$5.apply__T__T__Lorg_scalajs_dom_ext_Ajax$InputData__I__sci_Map__Z__T__s_concurrent_Future("GET", "https://newsapi.org/v2/top-headlines?country=in&category=business&apiKey=aea30ab672ab45f28de1236014d6b1aa", null, 0, x$9, false, "text");
+  var responseText = new $c_sr_ObjectRef().init___O("");
+  return $m_Ljapgolly_scalajs_react_Callback$().apply__F0__Ljapgolly_scalajs_react_Callback$ResultGuard__F0(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, request$1, responseText$1) {
+    return (function() {
+      request$1.onComplete__F1__s_concurrent_ExecutionContext__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, responseText$1$1) {
+        return (function(x0$1$2) {
+          var x0$1 = $as_s_util_Try(x0$1$2);
+          responseText$1$1.elem$1 = $as_T(x0$1.get__O().responseText);
+          var this$7 = $this$1.$$$1;
+          var mod = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$2, responseText$1$2) {
+            return (function(s$2) {
+              var s = $as_Lscalajsreact_template_components_items_NewsTrending$State(s$2);
+              return new $c_Lscalajsreact_template_components_items_NewsTrending$State().init___T__I($as_T(responseText$1$2.elem$1), ((1 + s.secondsElapsed$1) | 0))
+            })
+          })($this$1, responseText$1$1));
+          var $$this = $as_Ljapgolly_scalajs_react_CallbackTo(this$7.modState__F1__F0__O(mod, $m_Ljapgolly_scalajs_react_Callback$().empty$1)).japgolly$scalajs$react$CallbackTo$$f$1;
+          $$this.apply__O();
+          var jsx$1 = $m_Ljapgolly_scalajs_react_Callback$();
+          var array = [];
+          return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(jsx$1.log__sjs_js_Any__sc_Seq__F0("got data from api", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array)))
+        })
+      })($this, responseText$1)), $m_s_concurrent_ExecutionContext$Implicits$().global__s_concurrent_ExecutionContext())
+    })
+  })(this, request, responseText)), null)
+});
+function $is_Lscalajsreact_template_components_items_NewsTrending$Backend(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalajsreact_template_components_items_NewsTrending$Backend)))
+}
+function $as_Lscalajsreact_template_components_items_NewsTrending$Backend(obj) {
+  return (($is_Lscalajsreact_template_components_items_NewsTrending$Backend(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scalajsreact.template.components.items.NewsTrending$Backend"))
+}
+function $isArrayOf_Lscalajsreact_template_components_items_NewsTrending$Backend(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lscalajsreact_template_components_items_NewsTrending$Backend)))
+}
+function $asArrayOf_Lscalajsreact_template_components_items_NewsTrending$Backend(obj, depth) {
+  return (($isArrayOf_Lscalajsreact_template_components_items_NewsTrending$Backend(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalajsreact.template.components.items.NewsTrending$Backend;", depth))
+}
+var $d_Lscalajsreact_template_components_items_NewsTrending$Backend = new $TypeData().initClass({
+  Lscalajsreact_template_components_items_NewsTrending$Backend: 0
+}, false, "scalajsreact.template.components.items.NewsTrending$Backend", {
+  Lscalajsreact_template_components_items_NewsTrending$Backend: 1,
+  O: 1
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$Backend.prototype.$classData = $d_Lscalajsreact_template_components_items_NewsTrending$Backend;
+/** @constructor */
+function $c_Lscalajsreact_template_components_items_ProductListingBanner$() {
+  $c_O.call(this);
+  this.currentPageReuse$1 = null;
+  this.propsReuse$1 = null;
+  this.component$1 = null
+}
+$c_Lscalajsreact_template_components_items_ProductListingBanner$.prototype = new $h_O();
+$c_Lscalajsreact_template_components_items_ProductListingBanner$.prototype.constructor = $c_Lscalajsreact_template_components_items_ProductListingBanner$;
+/** @constructor */
+function $h_Lscalajsreact_template_components_items_ProductListingBanner$() {
+  /*<skip>*/
+}
+$h_Lscalajsreact_template_components_items_ProductListingBanner$.prototype = $c_Lscalajsreact_template_components_items_ProductListingBanner$.prototype;
+$c_Lscalajsreact_template_components_items_ProductListingBanner$.prototype.init___ = (function() {
+  $n_Lscalajsreact_template_components_items_ProductListingBanner$ = this;
+  this.currentPageReuse$1 = $m_Ljapgolly_scalajs_react_extra_Reusability$().by$und$eq$eq__F2();
+  $m_Ljapgolly_scalajs_react_extra_Reusability$();
+  var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(x$1$2) {
+      var x$1 = $as_Lscalajsreact_template_components_items_ProductListingBanner$Props(x$1$2);
+      return x$1.isDispalyed$1
+    })
+  })(this));
+  var this$1 = $m_Ljapgolly_scalajs_react_extra_Reusability$();
+  var r = this$1.by$und$eq$eq__F2();
+  this.propsReuse$1 = $m_Ljapgolly_scalajs_react_extra_Reusability$().contramap$extension__F2__F1__F2(r, f);
+  $m_Ljapgolly_scalajs_react_component_builder_Builder$();
+  $m_Ljapgolly_scalajs_react_package$();
+  var b = new $c_Ljapgolly_scalajs_react_component_builder_Builder$Step1().init___T("Banner");
+  var this$31 = ($m_Ljapgolly_scalajs_react_component_builder_Builder$(), b.stateless__Ljapgolly_scalajs_react_component_builder_Builder$Step2()).noBackend__Ljapgolly_scalajs_react_component_builder_Builder$Step3().render$undP__F1__Ljapgolly_scalajs_react_component_builder_Builder$Step4(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$3$1) {
+    return (function(P$2) {
+      $as_Lscalajsreact_template_components_items_ProductListingBanner$Props(P$2);
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var jsx$9 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var jsx$8 = $m_Ljapgolly_scalajs_react_vdom_Attr$Style$();
+      var jsx$7 = $m_sjs_js_Dictionary$();
+      var array = [new $c_T2().init___O__O("margin", "27px"), new $c_T2().init___O__O("height", "60%")];
+      var array$1 = [jsx$8.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(jsx$7.apply__sc_Seq__sjs_js_Dictionary(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array)), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtJsObject$2)];
+      var jsx$6 = jsx$9.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
+      var jsx$5 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var array$2 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("India's Leading Investment Advisor platform "))];
+      var jsx$4 = jsx$5.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("h5", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2));
+      var jsx$3 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      var this$21 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3;
+      var jsx$2 = $f_Ljapgolly_scalajs_react_vdom_HtmlTags__img__T(this$21);
+      var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.src$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("https://ashu2012.github.io/images/banner/flipkartvsamazonvssnapdeal.jpg", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+      var this$22 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.cursor__Ljapgolly_scalajs_react_vdom_HtmlStyles$cursor$();
+      var array$3 = [jsx$1, this$22.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("pointer", $m_Ljapgolly_scalajs_react_vdom_PackageBase$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle().init___T("width")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("100%", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2), ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle().init___T("height")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("60%", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+      var array$4 = [jsx$4, jsx$3.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(jsx$2, new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3))];
+      var a = jsx$6.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$4));
+      return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
+    })
+  })(this)));
+  var jsx$11 = $m_Ljapgolly_scalajs_react_extra_Reusability$();
+  var jsx$10 = this.propsReuse$1;
+  var this$30 = $m_Ljapgolly_scalajs_react_extra_Reusability$();
+  var f$2 = jsx$11.shouldComponentUpdate__F2__F2__F1(jsx$10, this$30.always__F2());
+  this.component$1 = $as_Ljapgolly_scalajs_react_component_builder_Builder$Step4(f$2.apply__O__O(this$31)).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_internal_JsRepr__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)), $m_Ljapgolly_scalajs_react_internal_JsRepr$().unit$1);
+  return this
+});
+$c_Lscalajsreact_template_components_items_ProductListingBanner$.prototype.apply__Lscalajsreact_template_components_items_ProductListingBanner$Props__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(props) {
+  var c = this.component$1;
+  var this$2 = $as_Ljapgolly_scalajs_react_CtorType$Props(c.ctor__Ljapgolly_scalajs_react_CtorType());
+  return $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(this$2.construct$2.apply__O__O__O(props, this$2.mods$2))
+});
+var $d_Lscalajsreact_template_components_items_ProductListingBanner$ = new $TypeData().initClass({
+  Lscalajsreact_template_components_items_ProductListingBanner$: 0
+}, false, "scalajsreact.template.components.items.ProductListingBanner$", {
+  Lscalajsreact_template_components_items_ProductListingBanner$: 1,
+  O: 1
+});
+$c_Lscalajsreact_template_components_items_ProductListingBanner$.prototype.$classData = $d_Lscalajsreact_template_components_items_ProductListingBanner$;
+var $n_Lscalajsreact_template_components_items_ProductListingBanner$ = (void 0);
+function $m_Lscalajsreact_template_components_items_ProductListingBanner$() {
+  if ((!$n_Lscalajsreact_template_components_items_ProductListingBanner$)) {
+    $n_Lscalajsreact_template_components_items_ProductListingBanner$ = new $c_Lscalajsreact_template_components_items_ProductListingBanner$().init___()
+  };
+  return $n_Lscalajsreact_template_components_items_ProductListingBanner$
+}
 /** @constructor */
 function $c_Lscalajsreact_template_css_AppCSS$() {
   $c_O.call(this)
@@ -13482,25 +14196,22 @@ function $h_Lscalajsreact_template_pages_HomePage$() {
 $h_Lscalajsreact_template_pages_HomePage$.prototype = $c_Lscalajsreact_template_pages_HomePage$.prototype;
 $c_Lscalajsreact_template_pages_HomePage$.prototype.init___ = (function() {
   $n_Lscalajsreact_template_pages_HomePage$ = this;
-  var jsx$7 = $m_Ljapgolly_scalajs_react_package$().ScalaComponent$1.builder$1;
+  var jsx$4 = $m_Ljapgolly_scalajs_react_package$().ScalaComponent$1.builder$1;
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  var jsx$3 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
   var this$2 = $m_Lscalacss_ScalaCssReact$();
   var s = $m_Lscalajsreact_template_pages_HomePage$Style$().content$3;
-  var jsx$5 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$2, s);
+  var array = [$f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$2, s)];
+  var jsx$2 = jsx$3.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var jsx$4 = new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("React based app store ");
-  var jsx$3 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  var u = $m_Lscalajsreact_template_components_items_ProductListingBanner$().apply__Lscalajsreact_template_components_items_ProductListingBanner$Props__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(new $c_Lscalajsreact_template_components_items_ProductListingBanner$Props().init___Z(true));
+  var jsx$1 = u.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement();
   $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("convert this page to listing"))];
-  var jsx$2 = jsx$3.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("p", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
-  var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
-  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
-  var array$1 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("using Material UI and with bootstrap css"))];
-  var array$2 = [jsx$5, jsx$4, jsx$2, jsx$1.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("p", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1))];
-  var a = jsx$6.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2));
-  this.component$1 = jsx$7.$static__T__Ljapgolly_scalajs_react_vdom_VdomElement__Ljapgolly_scalajs_react_component_builder_Builder$Step4("HomePage", a.render__Ljapgolly_scalajs_react_vdom_VdomElement()).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1));
+  var u$1 = $m_Lscalajsreact_template_components_items_NewsTrending$().apply__Lscalajsreact_template_components_items_NewsTrending$Props__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(new $c_Lscalajsreact_template_components_items_NewsTrending$Props().init___T("no data"));
+  var array$1 = [jsx$1, u$1.vdomElement__Ljapgolly_scalajs_react_vdom_VdomElement()];
+  var a = jsx$2.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
+  this.component$1 = jsx$4.$static__T__Ljapgolly_scalajs_react_vdom_VdomNode__Ljapgolly_scalajs_react_component_builder_Builder$Step4("HomePage", a.render__Ljapgolly_scalajs_react_vdom_VdomElement()).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_internal_JsRepr__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonN__Ljapgolly_scalajs_react_internal_Singleton__Ljapgolly_scalajs_react_CtorType$Summoner($m_Ljapgolly_scalajs_react_internal_Singleton$().BoxUnit$1), $m_Ljapgolly_scalajs_react_internal_JsRepr$().unit$1);
   return this
 });
 $c_Lscalajsreact_template_pages_HomePage$.prototype.apply__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function() {
@@ -13565,7 +14276,7 @@ $c_Lscalajsreact_template_pages_ItemsPage$.prototype.init___ = (function() {
       var a = jsx$6.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2));
       return a.render__Ljapgolly_scalajs_react_vdom_VdomElement()
     })
-  })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)));
+  })(this))).build__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_internal_JsRepr__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot($m_Ljapgolly_scalajs_react_CtorType$Summoner$().summonP__Ljapgolly_scalajs_react_internal_Singleton$Not__Ljapgolly_scalajs_react_CtorType$Summoner(($m_Ljapgolly_scalajs_react_internal_Singleton$(), null)), $m_Ljapgolly_scalajs_react_internal_JsRepr$().unit$1);
   return this
 });
 $c_Lscalajsreact_template_pages_ItemsPage$.prototype.apply__Lscalajsreact_template_pages_ItemsPage$Props__Ljapgolly_scalajs_react_vdom_VdomElement = (function(props) {
@@ -13646,27 +14357,97 @@ $c_Lscalajsreact_template_routes_AppRouter$.prototype.init___ = (function() {
       var a$1 = this$4$1.layout__Ljapgolly_scalajs_react_extra_router_RouterCtl__Ljapgolly_scalajs_react_extra_router_Resolution__Ljapgolly_scalajs_react_vdom_TagOf(c, r$3$1);
       return a$1.render__Ljapgolly_scalajs_react_vdom_VdomElement()
     })
+  })(this))).onPostRender__F2__Ljapgolly_scalajs_react_extra_router_RouterConfig(new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function(this$5$1) {
+    return (function(prev$2, cur$2) {
+      var prev = $as_s_Option(prev$2);
+      var cur = $as_Lscalajsreact_template_routes_AppRouter$AppPage(cur$2);
+      var jsx$4 = $m_Ljapgolly_scalajs_react_Callback$();
+      var array = ["Page changing from ", " to ", "."];
+      var jsx$3 = new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array));
+      var array$1 = [prev, cur];
+      var s = jsx$3.s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
+      var array$2 = [];
+      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(jsx$4.log__sjs_js_Any__sc_Seq__F0(s, new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2)))
+    })
   })(this)));
-  var this$11 = $m_s_package$().Vector$1;
-  var array = [new $c_Lscalajsreact_template_models_Menu().init___T__Lscalajsreact_template_routes_AppRouter$AppPage("Home", $m_Lscalajsreact_template_routes_AppRouter$Home$()), new $c_Lscalajsreact_template_models_Menu().init___T__Lscalajsreact_template_routes_AppRouter$AppPage("Items", new $c_Lscalajsreact_template_routes_AppRouter$Items().init___Lscalajsreact_template_routes_Item($m_Lscalajsreact_template_routes_Item$Info$()))];
-  if (($uI(array.length) === 0)) {
-    var jsx$3 = this$11.NIL$6
+  var this$18 = $m_s_package$().Vector$1;
+  var array$3 = [new $c_Lscalajsreact_template_models_Menu().init___T__Lscalajsreact_template_routes_AppRouter$AppPage("StockNap", $m_Lscalajsreact_template_routes_AppRouter$Home$()), new $c_Lscalajsreact_template_models_Menu().init___T__Lscalajsreact_template_routes_AppRouter$AppPage("Login", new $c_Lscalajsreact_template_routes_AppRouter$Items().init___Lscalajsreact_template_routes_Item($m_Lscalajsreact_template_routes_Item$Info$()))];
+  if (($uI(array$3.length) === 0)) {
+    var jsx$5 = this$18.NIL$6
   } else {
     var b = new $c_sci_VectorBuilder().init___();
     var i = 0;
-    var len = $uI(array.length);
+    var len = $uI(array$3.length);
     while ((i < len)) {
       var index = i;
-      var arg1$1 = array[index];
+      var arg1$1 = array$3[index];
       b.$$plus$eq__O__sci_VectorBuilder(arg1$1);
       i = ((1 + i) | 0)
     };
-    var jsx$3 = b.result__sci_Vector()
+    var jsx$5 = b.result__sci_Vector()
   };
-  this.mainMenu$1 = jsx$3;
-  var this$12 = $m_Ljapgolly_scalajs_react_extra_router_BaseUrl$().fromWindowOrigin__Ljapgolly_scalajs_react_extra_router_BaseUrl();
-  this.baseUrl$1 = $as_Ljapgolly_scalajs_react_extra_router_BaseUrl(this$12.endWith$und$div__Ljapgolly_scalajs_react_extra_router_PathLike().$$plus__T__Ljapgolly_scalajs_react_extra_router_PathLike("scalajs-react-template/"));
-  this.router$1 = $m_Ljapgolly_scalajs_react_extra_router_Router$().apply__Ljapgolly_scalajs_react_extra_router_BaseUrl__Ljapgolly_scalajs_react_extra_router_RouterConfig__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(this.baseUrl$1, this.config$1);
+  this.mainMenu$1 = jsx$5;
+  var x1 = $as_T($m_Lorg_scalajs_dom_package$().window__Lorg_scalajs_dom_raw_Window().location.hostname);
+  if (((x1 === "localhost") || ((x1 === "127.0.0.1") || (x1 === "0.0.0.0")))) {
+    var arg1$2 = $as_T($m_Lorg_scalajs_dom_package$().window__Lorg_scalajs_dom_raw_Window().location.href);
+    var this$21 = new $c_sci_StringOps().init___T(arg1$2);
+    var $$this$1 = this$21.repr$1;
+    var len$1 = $uI($$this$1.length);
+    var i$1 = 0;
+    while (true) {
+      if ((i$1 < len$1)) {
+        var arg1$3 = this$21.apply__I__O(i$1);
+        if ((arg1$3 === null)) {
+          var x$2 = 0
+        } else {
+          var this$25 = $as_jl_Character(arg1$3);
+          var x$2 = this$25.value$1
+        };
+        var jsx$7 = (x$2 !== 35)
+      } else {
+        var jsx$7 = false
+      };
+      if (jsx$7) {
+        i$1 = ((1 + i$1) | 0)
+      } else {
+        break
+      }
+    };
+    var n = i$1;
+    var jsx$6 = new $c_Ljapgolly_scalajs_react_extra_router_BaseUrl().init___T($m_sci_StringOps$().slice$extension__T__I__I__T(this$21.repr$1, 0, n))
+  } else {
+    var arg1$4 = $as_T($m_Lorg_scalajs_dom_package$().window__Lorg_scalajs_dom_raw_Window().location.href);
+    var this$28 = new $c_sci_StringOps().init___T(arg1$4);
+    var $$this$2 = this$28.repr$1;
+    var len$2 = $uI($$this$2.length);
+    var i$2 = 0;
+    while (true) {
+      if ((i$2 < len$2)) {
+        var arg1$5 = this$28.apply__I__O(i$2);
+        if ((arg1$5 === null)) {
+          var x$4 = 0
+        } else {
+          var this$32 = $as_jl_Character(arg1$5);
+          var x$4 = this$32.value$1
+        };
+        var jsx$8 = (x$4 !== 35)
+      } else {
+        var jsx$8 = false
+      };
+      if (jsx$8) {
+        i$2 = ((1 + i$2) | 0)
+      } else {
+        break
+      }
+    };
+    var n$1 = i$2;
+    var jsx$6 = new $c_Ljapgolly_scalajs_react_extra_router_BaseUrl().init___T($m_sci_StringOps$().slice$extension__T__I__I__T(this$28.repr$1, 0, n$1))
+  };
+  this.baseUrl$1 = jsx$6;
+  var jsx$10 = $m_Ljapgolly_scalajs_react_extra_router_Router$();
+  var jsx$9 = this.baseUrl$1;
+  var this$33 = this.config$1;
+  this.router$1 = jsx$10.apply__Ljapgolly_scalajs_react_extra_router_BaseUrl__Ljapgolly_scalajs_react_extra_router_RouterConfig__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(jsx$9, this$33.logWith__F1__Ljapgolly_scalajs_react_extra_router_RouterConfig($m_Ljapgolly_scalajs_react_extra_router_RouterConfig$().consoleLogger__F1()));
   return this
 });
 $c_Lscalajsreact_template_routes_AppRouter$.prototype.layout__Ljapgolly_scalajs_react_extra_router_RouterCtl__Ljapgolly_scalajs_react_extra_router_Resolution__Ljapgolly_scalajs_react_vdom_TagOf = (function(c, r) {
@@ -14011,90 +14792,12 @@ $c_ju_Arrays$.prototype.binarySearch__AI__I__I = (function(a, key) {
     }
   }
 });
-$c_ju_Arrays$.prototype.java$util$Arrays$$insertionSortAnyRef__AO__I__I__s_math_Ordering__V = (function(a, start, end, ord) {
-  var n = ((end - start) | 0);
-  if ((n >= 2)) {
-    if ((ord.compare__O__O__I(a.get(start), a.get(((1 + start) | 0))) > 0)) {
-      var temp = a.get(start);
-      a.set(start, a.get(((1 + start) | 0)));
-      a.set(((1 + start) | 0), temp)
-    };
-    var m = 2;
-    while ((m < n)) {
-      var next = a.get(((start + m) | 0));
-      if ((ord.compare__O__O__I(next, a.get((((-1) + ((start + m) | 0)) | 0))) < 0)) {
-        var iA = start;
-        var iB = (((-1) + ((start + m) | 0)) | 0);
-        while ((((iB - iA) | 0) > 1)) {
-          var ix = ((((iA + iB) | 0) >>> 1) | 0);
-          if ((ord.compare__O__O__I(next, a.get(ix)) < 0)) {
-            iB = ix
-          } else {
-            iA = ix
-          }
-        };
-        var ix$2 = ((iA + ((ord.compare__O__O__I(next, a.get(iA)) < 0) ? 0 : 1)) | 0);
-        var i = ((start + m) | 0);
-        while ((i > ix$2)) {
-          a.set(i, a.get((((-1) + i) | 0)));
-          i = (((-1) + i) | 0)
-        };
-        a.set(ix$2, next)
-      };
-      m = ((1 + m) | 0)
-    }
-  }
-});
 $c_ju_Arrays$.prototype.fill__AI__I__V = (function(a, value) {
   var toIndex = a.u.length;
   var i = 0;
   while ((i !== toIndex)) {
     a.set(i, value);
     i = ((1 + i) | 0)
-  }
-});
-$c_ju_Arrays$.prototype.sort__AO__ju_Comparator__V = (function(array, comparator) {
-  var ord = new $c_ju_Arrays$$anon$3().init___ju_Comparator(comparator);
-  var end = array.u.length;
-  if ((end > 16)) {
-    this.java$util$Arrays$$stableSplitMergeAnyRef__AO__AO__I__I__s_math_Ordering__V(array, $newArrayObject($d_O.getArrayOf(), [array.u.length]), 0, end, ord)
-  } else {
-    this.java$util$Arrays$$insertionSortAnyRef__AO__I__I__s_math_Ordering__V(array, 0, end, ord)
-  }
-});
-$c_ju_Arrays$.prototype.java$util$Arrays$$stableSplitMergeAnyRef__AO__AO__I__I__s_math_Ordering__V = (function(a, temp, start, end, ord) {
-  var length = ((end - start) | 0);
-  if ((length > 16)) {
-    var middle = ((start + ((length / 2) | 0)) | 0);
-    this.java$util$Arrays$$stableSplitMergeAnyRef__AO__AO__I__I__s_math_Ordering__V(a, temp, start, middle, ord);
-    this.java$util$Arrays$$stableSplitMergeAnyRef__AO__AO__I__I__s_math_Ordering__V(a, temp, middle, end, ord);
-    var outIndex = start;
-    var leftInIndex = start;
-    var rightInIndex = middle;
-    while ((outIndex < end)) {
-      if ((leftInIndex < middle)) {
-        if ((rightInIndex >= end)) {
-          var jsx$1 = true
-        } else {
-          var x = a.get(leftInIndex);
-          var y = a.get(rightInIndex);
-          var jsx$1 = $f_s_math_Ordering__lteq__O__O__Z(ord, x, y)
-        }
-      } else {
-        var jsx$1 = false
-      };
-      if (jsx$1) {
-        temp.set(outIndex, a.get(leftInIndex));
-        leftInIndex = ((1 + leftInIndex) | 0)
-      } else {
-        temp.set(outIndex, a.get(rightInIndex));
-        rightInIndex = ((1 + rightInIndex) | 0)
-      };
-      outIndex = ((1 + outIndex) | 0)
-    };
-    $systemArraycopy(temp, start, a, start, length)
-  } else {
-    this.java$util$Arrays$$insertionSortAnyRef__AO__I__I__s_math_Ordering__V(a, start, end, ord)
   }
 });
 var $d_ju_Arrays$ = new $TypeData().initClass({
@@ -14253,6 +14956,100 @@ function $m_s_Predef$any2stringadd$() {
     $n_s_Predef$any2stringadd$ = new $c_s_Predef$any2stringadd$().init___()
   };
   return $n_s_Predef$any2stringadd$
+}
+/** @constructor */
+function $c_s_concurrent_ExecutionContext$Implicits$() {
+  $c_O.call(this);
+  this.global$1 = null;
+  this.bitmap$0$1 = false
+}
+$c_s_concurrent_ExecutionContext$Implicits$.prototype = new $h_O();
+$c_s_concurrent_ExecutionContext$Implicits$.prototype.constructor = $c_s_concurrent_ExecutionContext$Implicits$;
+/** @constructor */
+function $h_s_concurrent_ExecutionContext$Implicits$() {
+  /*<skip>*/
+}
+$h_s_concurrent_ExecutionContext$Implicits$.prototype = $c_s_concurrent_ExecutionContext$Implicits$.prototype;
+$c_s_concurrent_ExecutionContext$Implicits$.prototype.init___ = (function() {
+  return this
+});
+$c_s_concurrent_ExecutionContext$Implicits$.prototype.global$lzycompute__p1__s_concurrent_ExecutionContext = (function() {
+  if ((!this.bitmap$0$1)) {
+    this.global$1 = $m_sjs_concurrent_JSExecutionContext$().queue$1;
+    this.bitmap$0$1 = true
+  };
+  return this.global$1
+});
+$c_s_concurrent_ExecutionContext$Implicits$.prototype.global__s_concurrent_ExecutionContext = (function() {
+  return ((!this.bitmap$0$1) ? this.global$lzycompute__p1__s_concurrent_ExecutionContext() : this.global$1)
+});
+var $d_s_concurrent_ExecutionContext$Implicits$ = new $TypeData().initClass({
+  s_concurrent_ExecutionContext$Implicits$: 0
+}, false, "scala.concurrent.ExecutionContext$Implicits$", {
+  s_concurrent_ExecutionContext$Implicits$: 1,
+  O: 1
+});
+$c_s_concurrent_ExecutionContext$Implicits$.prototype.$classData = $d_s_concurrent_ExecutionContext$Implicits$;
+var $n_s_concurrent_ExecutionContext$Implicits$ = (void 0);
+function $m_s_concurrent_ExecutionContext$Implicits$() {
+  if ((!$n_s_concurrent_ExecutionContext$Implicits$)) {
+    $n_s_concurrent_ExecutionContext$Implicits$ = new $c_s_concurrent_ExecutionContext$Implicits$().init___()
+  };
+  return $n_s_concurrent_ExecutionContext$Implicits$
+}
+/** @constructor */
+function $c_s_concurrent_impl_Promise$() {
+  $c_O.call(this)
+}
+$c_s_concurrent_impl_Promise$.prototype = new $h_O();
+$c_s_concurrent_impl_Promise$.prototype.constructor = $c_s_concurrent_impl_Promise$;
+/** @constructor */
+function $h_s_concurrent_impl_Promise$() {
+  /*<skip>*/
+}
+$h_s_concurrent_impl_Promise$.prototype = $c_s_concurrent_impl_Promise$.prototype;
+$c_s_concurrent_impl_Promise$.prototype.init___ = (function() {
+  return this
+});
+$c_s_concurrent_impl_Promise$.prototype.scala$concurrent$impl$Promise$$resolveTry__s_util_Try__s_util_Try = (function(source) {
+  if ($is_s_util_Failure(source)) {
+    var x2 = $as_s_util_Failure(source);
+    var t = x2.exception$2;
+    return this.resolver__p1__jl_Throwable__s_util_Try(t)
+  } else {
+    return source
+  }
+});
+$c_s_concurrent_impl_Promise$.prototype.resolver__p1__jl_Throwable__s_util_Try = (function(throwable) {
+  if ($is_sr_NonLocalReturnControl(throwable)) {
+    var x2 = $as_sr_NonLocalReturnControl(throwable);
+    return new $c_s_util_Success().init___O(x2.value__O())
+  } else if ($is_s_util_control_ControlThrowable(throwable)) {
+    var x3 = $as_s_util_control_ControlThrowable(throwable);
+    return new $c_s_util_Failure().init___jl_Throwable(new $c_ju_concurrent_ExecutionException().init___T__jl_Throwable("Boxed ControlThrowable", $as_jl_Throwable(x3)))
+  } else if ($is_jl_InterruptedException(throwable)) {
+    var x4 = $as_jl_InterruptedException(throwable);
+    return new $c_s_util_Failure().init___jl_Throwable(new $c_ju_concurrent_ExecutionException().init___T__jl_Throwable("Boxed InterruptedException", x4))
+  } else if ($is_jl_Error(throwable)) {
+    var x5 = $as_jl_Error(throwable);
+    return new $c_s_util_Failure().init___jl_Throwable(new $c_ju_concurrent_ExecutionException().init___T__jl_Throwable("Boxed Error", x5))
+  } else {
+    return new $c_s_util_Failure().init___jl_Throwable(throwable)
+  }
+});
+var $d_s_concurrent_impl_Promise$ = new $TypeData().initClass({
+  s_concurrent_impl_Promise$: 0
+}, false, "scala.concurrent.impl.Promise$", {
+  s_concurrent_impl_Promise$: 1,
+  O: 1
+});
+$c_s_concurrent_impl_Promise$.prototype.$classData = $d_s_concurrent_impl_Promise$;
+var $n_s_concurrent_impl_Promise$ = (void 0);
+function $m_s_concurrent_impl_Promise$() {
+  if ((!$n_s_concurrent_impl_Promise$)) {
+    $n_s_concurrent_impl_Promise$ = new $c_s_concurrent_impl_Promise$().init___()
+  };
+  return $n_s_concurrent_impl_Promise$
 }
 /** @constructor */
 function $c_s_math_Ordered$() {
@@ -14562,6 +15359,52 @@ var $d_s_util_control_Breaks = new $TypeData().initClass({
   O: 1
 });
 $c_s_util_control_Breaks.prototype.$classData = $d_s_util_control_Breaks;
+function $is_s_util_control_ControlThrowable(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.s_util_control_ControlThrowable)))
+}
+function $as_s_util_control_ControlThrowable(obj) {
+  return (($is_s_util_control_ControlThrowable(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scala.util.control.ControlThrowable"))
+}
+function $isArrayOf_s_util_control_ControlThrowable(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.s_util_control_ControlThrowable)))
+}
+function $asArrayOf_s_util_control_ControlThrowable(obj, depth) {
+  return (($isArrayOf_s_util_control_ControlThrowable(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.util.control.ControlThrowable;", depth))
+}
+/** @constructor */
+function $c_s_util_control_NonFatal$() {
+  $c_O.call(this)
+}
+$c_s_util_control_NonFatal$.prototype = new $h_O();
+$c_s_util_control_NonFatal$.prototype.constructor = $c_s_util_control_NonFatal$;
+/** @constructor */
+function $h_s_util_control_NonFatal$() {
+  /*<skip>*/
+}
+$h_s_util_control_NonFatal$.prototype = $c_s_util_control_NonFatal$.prototype;
+$c_s_util_control_NonFatal$.prototype.init___ = (function() {
+  return this
+});
+$c_s_util_control_NonFatal$.prototype.apply__jl_Throwable__Z = (function(t) {
+  return (!($is_jl_VirtualMachineError(t) || ($is_jl_ThreadDeath(t) || ($is_jl_InterruptedException(t) || ($is_jl_LinkageError(t) || $is_s_util_control_ControlThrowable(t))))))
+});
+$c_s_util_control_NonFatal$.prototype.unapply__jl_Throwable__s_Option = (function(t) {
+  return (this.apply__jl_Throwable__Z(t) ? new $c_s_Some().init___O(t) : $m_s_None$())
+});
+var $d_s_util_control_NonFatal$ = new $TypeData().initClass({
+  s_util_control_NonFatal$: 0
+}, false, "scala.util.control.NonFatal$", {
+  s_util_control_NonFatal$: 1,
+  O: 1
+});
+$c_s_util_control_NonFatal$.prototype.$classData = $d_s_util_control_NonFatal$;
+var $n_s_util_control_NonFatal$ = (void 0);
+function $m_s_util_control_NonFatal$() {
+  if ((!$n_s_util_control_NonFatal$)) {
+    $n_s_util_control_NonFatal$ = new $c_s_util_control_NonFatal$().init___()
+  };
+  return $n_s_util_control_NonFatal$
+}
 /** @constructor */
 function $c_s_util_hashing_MurmurHash3() {
   $c_O.call(this)
@@ -14808,9 +15651,6 @@ var $d_sc_Iterator$ConcatIteratorCell = new $TypeData().initClass({
   O: 1
 });
 $c_sc_Iterator$ConcatIteratorCell.prototype.$classData = $d_sc_Iterator$ConcatIteratorCell;
-function $f_sc_TraversableOnce__copyToArray__O__I__V($thiz, xs, start) {
-  $thiz.copyToArray__O__I__I__V(xs, start, (($m_sr_ScalaRunTime$().array$undlength__O__I(xs) - start) | 0))
-}
 function $f_sc_TraversableOnce__to__scg_CanBuildFrom__O($thiz, cbf) {
   var b = cbf.apply__scm_Builder();
   b.$$plus$plus$eq__sc_TraversableOnce__scg_Growable($thiz.seq__sc_TraversableOnce());
@@ -14855,25 +15695,6 @@ function $f_sc_TraversableOnce__addString__scm_StringBuilder__T__T__T__scm_Strin
   })($thiz, b, sep, first)));
   b.append__T__scm_StringBuilder(end);
   return b
-}
-function $f_sc_TraversableOnce__max__s_math_Ordering__O($thiz, cmp) {
-  if ($thiz.isEmpty__Z()) {
-    throw new $c_jl_UnsupportedOperationException().init___T("empty.max")
-  };
-  return $thiz.reduceLeft__F2__O(new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function($this, cmp$1) {
-    return (function(x$2, y$2) {
-      return ($f_s_math_Ordering__gteq__O__O__Z(cmp$1, x$2, y$2) ? x$2 : y$2)
-    })
-  })($thiz, cmp)))
-}
-function $f_sc_TraversableOnce__toArray__s_reflect_ClassTag__O($thiz, evidence$1) {
-  if ($thiz.isTraversableAgain__Z()) {
-    var result = evidence$1.newArray__I__O($thiz.size__I());
-    $thiz.copyToArray__O__I__V(result, 0);
-    return result
-  } else {
-    return $thiz.toBuffer__scm_Buffer().toArray__s_reflect_ClassTag__O(evidence$1)
-  }
 }
 function $f_sc_TraversableOnce__nonEmpty__Z($thiz) {
   return (!$thiz.isEmpty__Z())
@@ -16023,6 +16844,75 @@ function $m_scm_HashTable$() {
   return $n_scm_HashTable$
 }
 /** @constructor */
+function $c_sjs_concurrent_JSExecutionContext$() {
+  $c_O.call(this);
+  this.runNow$1 = null;
+  this.queue$1 = null
+}
+$c_sjs_concurrent_JSExecutionContext$.prototype = new $h_O();
+$c_sjs_concurrent_JSExecutionContext$.prototype.constructor = $c_sjs_concurrent_JSExecutionContext$;
+/** @constructor */
+function $h_sjs_concurrent_JSExecutionContext$() {
+  /*<skip>*/
+}
+$h_sjs_concurrent_JSExecutionContext$.prototype = $c_sjs_concurrent_JSExecutionContext$.prototype;
+$c_sjs_concurrent_JSExecutionContext$.prototype.init___ = (function() {
+  $n_sjs_concurrent_JSExecutionContext$ = this;
+  this.runNow$1 = $m_sjs_concurrent_RunNowExecutionContext$();
+  this.queue$1 = $m_sjs_concurrent_QueueExecutionContext$().apply__s_concurrent_ExecutionContextExecutor();
+  return this
+});
+var $d_sjs_concurrent_JSExecutionContext$ = new $TypeData().initClass({
+  sjs_concurrent_JSExecutionContext$: 0
+}, false, "scala.scalajs.concurrent.JSExecutionContext$", {
+  sjs_concurrent_JSExecutionContext$: 1,
+  O: 1
+});
+$c_sjs_concurrent_JSExecutionContext$.prototype.$classData = $d_sjs_concurrent_JSExecutionContext$;
+var $n_sjs_concurrent_JSExecutionContext$ = (void 0);
+function $m_sjs_concurrent_JSExecutionContext$() {
+  if ((!$n_sjs_concurrent_JSExecutionContext$)) {
+    $n_sjs_concurrent_JSExecutionContext$ = new $c_sjs_concurrent_JSExecutionContext$().init___()
+  };
+  return $n_sjs_concurrent_JSExecutionContext$
+}
+/** @constructor */
+function $c_sjs_concurrent_QueueExecutionContext$() {
+  $c_O.call(this)
+}
+$c_sjs_concurrent_QueueExecutionContext$.prototype = new $h_O();
+$c_sjs_concurrent_QueueExecutionContext$.prototype.constructor = $c_sjs_concurrent_QueueExecutionContext$;
+/** @constructor */
+function $h_sjs_concurrent_QueueExecutionContext$() {
+  /*<skip>*/
+}
+$h_sjs_concurrent_QueueExecutionContext$.prototype = $c_sjs_concurrent_QueueExecutionContext$.prototype;
+$c_sjs_concurrent_QueueExecutionContext$.prototype.init___ = (function() {
+  return this
+});
+$c_sjs_concurrent_QueueExecutionContext$.prototype.apply__s_concurrent_ExecutionContextExecutor = (function() {
+  var v = $g.Promise;
+  if ((v === (void 0))) {
+    return new $c_sjs_concurrent_QueueExecutionContext$TimeoutsExecutionContext().init___()
+  } else {
+    return new $c_sjs_concurrent_QueueExecutionContext$PromisesExecutionContext().init___()
+  }
+});
+var $d_sjs_concurrent_QueueExecutionContext$ = new $TypeData().initClass({
+  sjs_concurrent_QueueExecutionContext$: 0
+}, false, "scala.scalajs.concurrent.QueueExecutionContext$", {
+  sjs_concurrent_QueueExecutionContext$: 1,
+  O: 1
+});
+$c_sjs_concurrent_QueueExecutionContext$.prototype.$classData = $d_sjs_concurrent_QueueExecutionContext$;
+var $n_sjs_concurrent_QueueExecutionContext$ = (void 0);
+function $m_sjs_concurrent_QueueExecutionContext$() {
+  if ((!$n_sjs_concurrent_QueueExecutionContext$)) {
+    $n_sjs_concurrent_QueueExecutionContext$ = new $c_sjs_concurrent_QueueExecutionContext$().init___()
+  };
+  return $n_sjs_concurrent_QueueExecutionContext$
+}
+/** @constructor */
 function $c_sjs_js_ArrayOpsCommon$() {
   $c_O.call(this)
 }
@@ -16071,6 +16961,117 @@ function $m_sjs_js_ArrayOpsCommon$() {
     $n_sjs_js_ArrayOpsCommon$ = new $c_sjs_js_ArrayOpsCommon$().init___()
   };
   return $n_sjs_js_ArrayOpsCommon$
+}
+/** @constructor */
+function $c_sjs_js_Dictionary$() {
+  $c_O.call(this)
+}
+$c_sjs_js_Dictionary$.prototype = new $h_O();
+$c_sjs_js_Dictionary$.prototype.constructor = $c_sjs_js_Dictionary$;
+/** @constructor */
+function $h_sjs_js_Dictionary$() {
+  /*<skip>*/
+}
+$h_sjs_js_Dictionary$.prototype = $c_sjs_js_Dictionary$.prototype;
+$c_sjs_js_Dictionary$.prototype.init___ = (function() {
+  return this
+});
+$c_sjs_js_Dictionary$.prototype.apply__sc_Seq__sjs_js_Dictionary = (function(properties) {
+  var result = {};
+  properties.withFilter__F1__scg_FilterMonadic(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(check$ifrefutable$1$2) {
+      var check$ifrefutable$1 = $as_T2(check$ifrefutable$1$2);
+      return (check$ifrefutable$1 !== null)
+    })
+  })(this))).foreach__F1__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2, result$1) {
+    return (function(x$1$2) {
+      var x$1 = $as_T2(x$1$2);
+      if ((x$1 !== null)) {
+        var key = $as_T(x$1.$$und1$f);
+        var value = x$1.$$und2$f;
+        result$1[key] = value
+      } else {
+        throw new $c_s_MatchError().init___O(x$1)
+      }
+    })
+  })(this, result)));
+  return result
+});
+var $d_sjs_js_Dictionary$ = new $TypeData().initClass({
+  sjs_js_Dictionary$: 0
+}, false, "scala.scalajs.js.Dictionary$", {
+  sjs_js_Dictionary$: 1,
+  O: 1
+});
+$c_sjs_js_Dictionary$.prototype.$classData = $d_sjs_js_Dictionary$;
+var $n_sjs_js_Dictionary$ = (void 0);
+function $m_sjs_js_Dictionary$() {
+  if ((!$n_sjs_js_Dictionary$)) {
+    $n_sjs_js_Dictionary$ = new $c_sjs_js_Dictionary$().init___()
+  };
+  return $n_sjs_js_Dictionary$
+}
+/** @constructor */
+function $c_sjs_js_WrappedDictionary$Cache$() {
+  $c_O.call(this);
+  this.safeHasOwnProperty$1 = null
+}
+$c_sjs_js_WrappedDictionary$Cache$.prototype = new $h_O();
+$c_sjs_js_WrappedDictionary$Cache$.prototype.constructor = $c_sjs_js_WrappedDictionary$Cache$;
+/** @constructor */
+function $h_sjs_js_WrappedDictionary$Cache$() {
+  /*<skip>*/
+}
+$h_sjs_js_WrappedDictionary$Cache$.prototype = $c_sjs_js_WrappedDictionary$Cache$.prototype;
+$c_sjs_js_WrappedDictionary$Cache$.prototype.init___ = (function() {
+  $n_sjs_js_WrappedDictionary$Cache$ = this;
+  this.safeHasOwnProperty$1 = $g.Object.prototype.hasOwnProperty;
+  return this
+});
+var $d_sjs_js_WrappedDictionary$Cache$ = new $TypeData().initClass({
+  sjs_js_WrappedDictionary$Cache$: 0
+}, false, "scala.scalajs.js.WrappedDictionary$Cache$", {
+  sjs_js_WrappedDictionary$Cache$: 1,
+  O: 1
+});
+$c_sjs_js_WrappedDictionary$Cache$.prototype.$classData = $d_sjs_js_WrappedDictionary$Cache$;
+var $n_sjs_js_WrappedDictionary$Cache$ = (void 0);
+function $m_sjs_js_WrappedDictionary$Cache$() {
+  if ((!$n_sjs_js_WrappedDictionary$Cache$)) {
+    $n_sjs_js_WrappedDictionary$Cache$ = new $c_sjs_js_WrappedDictionary$Cache$().init___()
+  };
+  return $n_sjs_js_WrappedDictionary$Cache$
+}
+/** @constructor */
+function $c_sjs_js_timers_package$() {
+  $c_O.call(this)
+}
+$c_sjs_js_timers_package$.prototype = new $h_O();
+$c_sjs_js_timers_package$.prototype.constructor = $c_sjs_js_timers_package$;
+/** @constructor */
+function $h_sjs_js_timers_package$() {
+  /*<skip>*/
+}
+$h_sjs_js_timers_package$.prototype = $c_sjs_js_timers_package$.prototype;
+$c_sjs_js_timers_package$.prototype.init___ = (function() {
+  return this
+});
+$c_sjs_js_timers_package$.prototype.clearInterval__sjs_js_timers_SetIntervalHandle__V = (function(handle) {
+  $g.clearInterval(handle)
+});
+var $d_sjs_js_timers_package$ = new $TypeData().initClass({
+  sjs_js_timers_package$: 0
+}, false, "scala.scalajs.js.timers.package$", {
+  sjs_js_timers_package$: 1,
+  O: 1
+});
+$c_sjs_js_timers_package$.prototype.$classData = $d_sjs_js_timers_package$;
+var $n_sjs_js_timers_package$ = (void 0);
+function $m_sjs_js_timers_package$() {
+  if ((!$n_sjs_js_timers_package$)) {
+    $n_sjs_js_timers_package$ = new $c_sjs_js_timers_package$().init___()
+  };
+  return $n_sjs_js_timers_package$
 }
 /** @constructor */
 function $c_sjsr_Bits$() {
@@ -16216,6 +17217,34 @@ function $m_sjsr_Bits$() {
   return $n_sjsr_Bits$
 }
 /** @constructor */
+function $c_sjsr_Compat$() {
+  $c_O.call(this)
+}
+$c_sjsr_Compat$.prototype = new $h_O();
+$c_sjsr_Compat$.prototype.constructor = $c_sjsr_Compat$;
+/** @constructor */
+function $h_sjsr_Compat$() {
+  /*<skip>*/
+}
+$h_sjsr_Compat$.prototype = $c_sjsr_Compat$.prototype;
+$c_sjsr_Compat$.prototype.init___ = (function() {
+  return this
+});
+var $d_sjsr_Compat$ = new $TypeData().initClass({
+  sjsr_Compat$: 0
+}, false, "scala.scalajs.runtime.Compat$", {
+  sjsr_Compat$: 1,
+  O: 1
+});
+$c_sjsr_Compat$.prototype.$classData = $d_sjsr_Compat$;
+var $n_sjsr_Compat$ = (void 0);
+function $m_sjsr_Compat$() {
+  if ((!$n_sjsr_Compat$)) {
+    $n_sjsr_Compat$ = new $c_sjsr_Compat$().init___()
+  };
+  return $n_sjsr_Compat$
+}
+/** @constructor */
 function $c_sjsr_RuntimeString$() {
   $c_O.call(this);
   this.CASE$undINSENSITIVE$undORDER$1 = null;
@@ -16237,25 +17266,6 @@ $c_sjsr_RuntimeString$.prototype.init___ = (function() {
 $c_sjsr_RuntimeString$.prototype.indexOf__T__I__I__I = (function(thiz, ch, fromIndex) {
   var str = this.fromCodePoint__p1__I__T(ch);
   return $uI(thiz.indexOf(str, fromIndex))
-});
-$c_sjsr_RuntimeString$.prototype.split__T__T__I__AT = (function(thiz, regex, limit) {
-  if ((thiz === null)) {
-    throw new $c_jl_NullPointerException().init___()
-  };
-  var this$1 = $m_ju_regex_Pattern$();
-  return this$1.compile__T__I__ju_regex_Pattern(regex, 0).split__jl_CharSequence__I__AT(thiz, limit)
-});
-$c_sjsr_RuntimeString$.prototype.toCharArray__T__AC = (function(thiz) {
-  var length = $uI(thiz.length);
-  var result = $newArrayObject($d_C.getArrayOf(), [length]);
-  var i = 0;
-  while ((i < length)) {
-    var jsx$1 = i;
-    var index = i;
-    result.set(jsx$1, (65535 & $uI(thiz.charCodeAt(index))));
-    i = ((1 + i) | 0)
-  };
-  return result
 });
 $c_sjsr_RuntimeString$.prototype.replaceFirst__T__T__T__T = (function(thiz, regex, replacement) {
   if ((thiz === null)) {
@@ -16319,6 +17329,602 @@ function $m_sjsr_RuntimeString$() {
     $n_sjsr_RuntimeString$ = new $c_sjsr_RuntimeString$().init___()
   };
   return $n_sjsr_RuntimeString$
+}
+/** @constructor */
+function $c_sjsr_StackTrace$() {
+  $c_O.call(this);
+  this.isRhino$1 = false;
+  this.decompressedClasses$1 = null;
+  this.decompressedPrefixes$1 = null;
+  this.compressedPrefixes$1 = null;
+  this.bitmap$0$1 = 0
+}
+$c_sjsr_StackTrace$.prototype = new $h_O();
+$c_sjsr_StackTrace$.prototype.constructor = $c_sjsr_StackTrace$;
+/** @constructor */
+function $h_sjsr_StackTrace$() {
+  /*<skip>*/
+}
+$h_sjsr_StackTrace$.prototype = $c_sjsr_StackTrace$.prototype;
+$c_sjsr_StackTrace$.prototype.compressedPrefixes$lzycompute__p1__sjs_js_Array = (function() {
+  if (((((8 & this.bitmap$0$1) << 24) >> 24) === 0)) {
+    this.compressedPrefixes$1 = $g.Object.keys(this.decompressedPrefixes__p1__sjs_js_Dictionary());
+    this.bitmap$0$1 = (((8 | this.bitmap$0$1) << 24) >> 24)
+  };
+  return this.compressedPrefixes$1
+});
+$c_sjsr_StackTrace$.prototype.extractFirefox__p1__sjs_js_Dynamic__sjs_js_Array = (function(e) {
+  var x = $as_T(e.stack);
+  var jsx$2 = x.replace($m_sjsr_StackTrace$StringRE$().re$extension1__T__T__sjs_js_RegExp("(?:\\n@:0)?\\s+$", "m"), "");
+  var x$1 = $as_T(jsx$2);
+  var jsx$1 = x$1.replace($m_sjsr_StackTrace$StringRE$().re$extension1__T__T__sjs_js_RegExp("^(?:\\((\\S*)\\))?@", "gm"), "{anonymous}($1)@");
+  var x$2 = $as_T(jsx$1);
+  return x$2.split("\n")
+});
+$c_sjsr_StackTrace$.prototype.extractOpera10a__p1__sjs_js_Dynamic__sjs_js_Array = (function(e) {
+  var lineRE = $m_sjsr_StackTrace$StringRE$().re$extension1__T__T__sjs_js_RegExp("Line (\\d+).*script (?:in )?(\\S+)(?:: In function (\\S+))?$", "i");
+  var x = $as_T(e.stacktrace);
+  var lines = x.split("\n");
+  var result = [];
+  var i = 0;
+  var len = $uI(lines.length);
+  while ((i < len)) {
+    var mtch = lineRE.exec($as_T(lines[i]));
+    if ((mtch !== null)) {
+      var value = mtch[3];
+      var fnName = $as_T(((value === (void 0)) ? "{anonymous}" : value));
+      var value$1 = mtch[2];
+      if ((value$1 === (void 0))) {
+        throw new $c_ju_NoSuchElementException().init___T("undefined.get")
+      };
+      var value$2 = mtch[1];
+      if ((value$2 === (void 0))) {
+        throw new $c_ju_NoSuchElementException().init___T("undefined.get")
+      };
+      var jsx$1 = result.push(((((fnName + "()@") + value$1) + ":") + value$2));
+      $uI(jsx$1)
+    };
+    i = ((2 + i) | 0)
+  };
+  return result
+});
+$c_sjsr_StackTrace$.prototype.init___ = (function() {
+  return this
+});
+$c_sjsr_StackTrace$.prototype.isRhino__p1__Z = (function() {
+  return (((((1 & this.bitmap$0$1) << 24) >> 24) === 0) ? this.isRhino$lzycompute__p1__Z() : this.isRhino$1)
+});
+$c_sjsr_StackTrace$.prototype.decodeClassName__p1__T__T = (function(encodedName) {
+  var encoded = (((65535 & $uI(encodedName.charCodeAt(0))) === 36) ? $as_T(encodedName.substring(1)) : encodedName);
+  var dict = this.decompressedClasses__p1__sjs_js_Dictionary();
+  if ($uZ($m_sjs_js_WrappedDictionary$Cache$().safeHasOwnProperty$1.call(dict, encoded))) {
+    var dict$1 = this.decompressedClasses__p1__sjs_js_Dictionary();
+    if ((!$uZ($m_sjs_js_WrappedDictionary$Cache$().safeHasOwnProperty$1.call(dict$1, encoded)))) {
+      throw new $c_ju_NoSuchElementException().init___T(("key not found: " + encoded))
+    };
+    var base = $as_T(dict$1[encoded])
+  } else {
+    var base = this.loop$1__p1__I__T__T(0, encoded)
+  };
+  var thiz = $as_T(base.split("_").join("."));
+  return $as_T(thiz.split("$und").join("_"))
+});
+$c_sjsr_StackTrace$.prototype.extractOpera10b__p1__sjs_js_Dynamic__sjs_js_Array = (function(e) {
+  var lineRE = $m_sjsr_StackTrace$StringRE$().re$extension0__T__sjs_js_RegExp("^(.*)@(.+):(\\d+)$");
+  var x = $as_T(e.stacktrace);
+  var lines = x.split("\n");
+  var result = [];
+  var i = 0;
+  var len = $uI(lines.length);
+  while ((i < len)) {
+    var mtch = lineRE.exec($as_T(lines[i]));
+    if ((mtch !== null)) {
+      var value = mtch[1];
+      if ((value === (void 0))) {
+        var fnName = "global code"
+      } else {
+        var x$3 = $as_T(value);
+        var fnName = (x$3 + "()")
+      };
+      var value$1 = mtch[2];
+      if ((value$1 === (void 0))) {
+        throw new $c_ju_NoSuchElementException().init___T("undefined.get")
+      };
+      var value$2 = mtch[3];
+      if ((value$2 === (void 0))) {
+        throw new $c_ju_NoSuchElementException().init___T("undefined.get")
+      };
+      var jsx$1 = result.push(((((fnName + "@") + value$1) + ":") + value$2));
+      $uI(jsx$1)
+    };
+    i = ((1 + i) | 0)
+  };
+  return result
+});
+$c_sjsr_StackTrace$.prototype.extractChrome__p1__sjs_js_Dynamic__sjs_js_Array = (function(e) {
+  var x = ($as_T(e.stack) + "\n");
+  var jsx$6 = x.replace($m_sjsr_StackTrace$StringRE$().re$extension0__T__sjs_js_RegExp("^[\\s\\S]+?\\s+at\\s+"), " at ");
+  var x$1 = $as_T(jsx$6);
+  var jsx$5 = x$1.replace($m_sjsr_StackTrace$StringRE$().re$extension1__T__T__sjs_js_RegExp("^\\s+(at eval )?at\\s+", "gm"), "");
+  var x$2 = $as_T(jsx$5);
+  var jsx$4 = x$2.replace($m_sjsr_StackTrace$StringRE$().re$extension1__T__T__sjs_js_RegExp("^([^\\(]+?)([\\n])", "gm"), "{anonymous}() ($1)$2");
+  var x$3 = $as_T(jsx$4);
+  var jsx$3 = x$3.replace($m_sjsr_StackTrace$StringRE$().re$extension1__T__T__sjs_js_RegExp("^Object.<anonymous>\\s*\\(([^\\)]+)\\)", "gm"), "{anonymous}() ($1)");
+  var x$4 = $as_T(jsx$3);
+  var jsx$2 = x$4.replace($m_sjsr_StackTrace$StringRE$().re$extension1__T__T__sjs_js_RegExp("^([^\\(]+|\\{anonymous\\}\\(\\)) \\((.+)\\)$", "gm"), "$1@$2");
+  var x$5 = $as_T(jsx$2);
+  var jsx$1 = x$5.split("\n");
+  return jsx$1.slice(0, (-1))
+});
+$c_sjsr_StackTrace$.prototype.extract__sjs_js_Dynamic__Ajl_StackTraceElement = (function(stackdata) {
+  var lines = this.normalizeStackTraceLines__p1__sjs_js_Dynamic__sjs_js_Array(stackdata);
+  return this.normalizedLinesToStackTrace__p1__sjs_js_Array__Ajl_StackTraceElement(lines)
+});
+$c_sjsr_StackTrace$.prototype.compressedPrefixes__p1__sjs_js_Array = (function() {
+  return (((((8 & this.bitmap$0$1) << 24) >> 24) === 0) ? this.compressedPrefixes$lzycompute__p1__sjs_js_Array() : this.compressedPrefixes$1)
+});
+$c_sjsr_StackTrace$.prototype.decompressedClasses__p1__sjs_js_Dictionary = (function() {
+  return (((((2 & this.bitmap$0$1) << 24) >> 24) === 0) ? this.decompressedClasses$lzycompute__p1__sjs_js_Dictionary() : this.decompressedClasses$1)
+});
+$c_sjsr_StackTrace$.prototype.extractClassMethod__p1__T__T2 = (function(functionName) {
+  var PatC = $m_sjsr_StackTrace$StringRE$().re$extension0__T__sjs_js_RegExp("^(?:Object\\.|\\[object Object\\]\\.)?(?:ScalaJS\\.c\\.|\\$c_)([^\\.]+)(?:\\.prototype)?\\.([^\\.]+)$");
+  var PatS = $m_sjsr_StackTrace$StringRE$().re$extension0__T__sjs_js_RegExp("^(?:Object\\.|\\[object Object\\]\\.)?(?:ScalaJS\\.(?:s|f)\\.|\\$(?:s|f)_)((?:_[^_]|[^_])+)__([^\\.]+)$");
+  var PatM = $m_sjsr_StackTrace$StringRE$().re$extension0__T__sjs_js_RegExp("^(?:Object\\.|\\[object Object\\]\\.)?(?:ScalaJS\\.m\\.|\\$m_)([^\\.]+)$");
+  var isModule = false;
+  var mtch = PatC.exec(functionName);
+  if ((mtch === null)) {
+    mtch = PatS.exec(functionName);
+    if ((mtch === null)) {
+      mtch = PatM.exec(functionName);
+      isModule = true
+    }
+  };
+  if ((mtch !== null)) {
+    var value = mtch[1];
+    if ((value === (void 0))) {
+      throw new $c_ju_NoSuchElementException().init___T("undefined.get")
+    };
+    var className = this.decodeClassName__p1__T__T($as_T(value));
+    if (isModule) {
+      var methodName = "<clinit>"
+    } else {
+      var value$1 = mtch[2];
+      if ((value$1 === (void 0))) {
+        throw new $c_ju_NoSuchElementException().init___T("undefined.get")
+      };
+      var methodName = this.decodeMethodName__p1__T__T($as_T(value$1))
+    };
+    return new $c_T2().init___O__O(className, methodName)
+  } else {
+    return new $c_T2().init___O__O("<jscode>", functionName)
+  }
+});
+$c_sjsr_StackTrace$.prototype.isRhino$lzycompute__p1__Z = (function() {
+  if (((((1 & this.bitmap$0$1) << 24) >> 24) === 0)) {
+    this.isRhino$1 = this.liftedTree1$1__p1__Z();
+    this.bitmap$0$1 = (((1 | this.bitmap$0$1) << 24) >> 24)
+  };
+  return this.isRhino$1
+});
+$c_sjsr_StackTrace$.prototype.decompressedPrefixes$lzycompute__p1__sjs_js_Dictionary = (function() {
+  if (((((4 & this.bitmap$0$1) << 24) >> 24) === 0)) {
+    this.decompressedPrefixes$1 = {
+      "sjsr_": "scala_scalajs_runtime_",
+      "sjs_": "scala_scalajs_",
+      "sci_": "scala_collection_immutable_",
+      "scm_": "scala_collection_mutable_",
+      "scg_": "scala_collection_generic_",
+      "sc_": "scala_collection_",
+      "sr_": "scala_runtime_",
+      "s_": "scala_",
+      "jl_": "java_lang_",
+      "ju_": "java_util_"
+    };
+    this.bitmap$0$1 = (((4 | this.bitmap$0$1) << 24) >> 24)
+  };
+  return this.decompressedPrefixes$1
+});
+$c_sjsr_StackTrace$.prototype.extract__jl_Throwable__Ajl_StackTraceElement = (function(throwable) {
+  return this.extract__sjs_js_Dynamic__Ajl_StackTraceElement(throwable.stackdata)
+});
+$c_sjsr_StackTrace$.prototype.decompressedClasses$lzycompute__p1__sjs_js_Dictionary = (function() {
+  if (((((2 & this.bitmap$0$1) << 24) >> 24) === 0)) {
+    var dict = {
+      "O": "java_lang_Object",
+      "T": "java_lang_String",
+      "V": "scala_Unit",
+      "Z": "scala_Boolean",
+      "C": "scala_Char",
+      "B": "scala_Byte",
+      "S": "scala_Short",
+      "I": "scala_Int",
+      "J": "scala_Long",
+      "F": "scala_Float",
+      "D": "scala_Double"
+    };
+    var index = 0;
+    while ((index <= 22)) {
+      if ((index >= 2)) {
+        dict[("T" + index)] = ("scala_Tuple" + index)
+      };
+      dict[("F" + index)] = ("scala_Function" + index);
+      index = ((1 + index) | 0)
+    };
+    this.decompressedClasses$1 = dict;
+    this.bitmap$0$1 = (((2 | this.bitmap$0$1) << 24) >> 24)
+  };
+  return this.decompressedClasses$1
+});
+$c_sjsr_StackTrace$.prototype.normalizeStackTraceLines__p1__sjs_js_Dynamic__sjs_js_Array = (function(e) {
+  var x = (!e);
+  if ($uZ((!(!x)))) {
+    return []
+  } else if (this.isRhino__p1__Z()) {
+    return this.extractRhino__p1__sjs_js_Dynamic__sjs_js_Array(e)
+  } else {
+    var x$1 = (e.arguments && e.stack);
+    if ($uZ((!(!x$1)))) {
+      return this.extractChrome__p1__sjs_js_Dynamic__sjs_js_Array(e)
+    } else {
+      var x$2 = (e.stack && e.sourceURL);
+      if ($uZ((!(!x$2)))) {
+        return this.extractSafari__p1__sjs_js_Dynamic__sjs_js_Array(e)
+      } else {
+        var x$3 = (e.stack && e.number);
+        if ($uZ((!(!x$3)))) {
+          return this.extractIE__p1__sjs_js_Dynamic__sjs_js_Array(e)
+        } else {
+          var x$4 = (e.stack && e.fileName);
+          if ($uZ((!(!x$4)))) {
+            return this.extractFirefox__p1__sjs_js_Dynamic__sjs_js_Array(e)
+          } else {
+            var x$5 = (e.message && e["opera#sourceloc"]);
+            if ($uZ((!(!x$5)))) {
+              var x$6 = (!e.stacktrace);
+              if ($uZ((!(!x$6)))) {
+                return this.extractOpera9__p1__sjs_js_Dynamic__sjs_js_Array(e)
+              } else {
+                var x$7 = ((e.message.indexOf("\n") > (-1)) && (e.message.split("\n").length > e.stacktrace.split("\n").length));
+                if ($uZ((!(!x$7)))) {
+                  return this.extractOpera9__p1__sjs_js_Dynamic__sjs_js_Array(e)
+                } else {
+                  return this.extractOpera10a__p1__sjs_js_Dynamic__sjs_js_Array(e)
+                }
+              }
+            } else {
+              var x$8 = ((e.message && e.stack) && e.stacktrace);
+              if ($uZ((!(!x$8)))) {
+                var x$9 = (e.stacktrace.indexOf("called from line") < 0);
+                if ($uZ((!(!x$9)))) {
+                  return this.extractOpera10b__p1__sjs_js_Dynamic__sjs_js_Array(e)
+                } else {
+                  return this.extractOpera11__p1__sjs_js_Dynamic__sjs_js_Array(e)
+                }
+              } else {
+                var x$10 = (e.stack && (!e.fileName));
+                if ($uZ((!(!x$10)))) {
+                  return this.extractChrome__p1__sjs_js_Dynamic__sjs_js_Array(e)
+                } else {
+                  return this.extractOther__p1__sjs_js_Dynamic__sjs_js_Array(e)
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+});
+$c_sjsr_StackTrace$.prototype.extractOpera9__p1__sjs_js_Dynamic__sjs_js_Array = (function(e) {
+  var lineRE = $m_sjsr_StackTrace$StringRE$().re$extension1__T__T__sjs_js_RegExp("Line (\\d+).*script (?:in )?(\\S+)", "i");
+  var x = $as_T(e.message);
+  var lines = x.split("\n");
+  var result = [];
+  var i = 2;
+  var len = $uI(lines.length);
+  while ((i < len)) {
+    var mtch = lineRE.exec($as_T(lines[i]));
+    if ((mtch !== null)) {
+      var value = mtch[2];
+      if ((value === (void 0))) {
+        throw new $c_ju_NoSuchElementException().init___T("undefined.get")
+      };
+      var value$1 = mtch[1];
+      if ((value$1 === (void 0))) {
+        throw new $c_ju_NoSuchElementException().init___T("undefined.get")
+      };
+      var jsx$1 = result.push(((("{anonymous}()@" + value) + ":") + value$1));
+      $uI(jsx$1)
+    };
+    i = ((2 + i) | 0)
+  };
+  return result
+});
+$c_sjsr_StackTrace$.prototype.normalizedLinesToStackTrace__p1__sjs_js_Array__Ajl_StackTraceElement = (function(lines) {
+  var NormalizedFrameLine = $m_sjsr_StackTrace$StringRE$().re$extension0__T__sjs_js_RegExp("^([^\\@]*)\\@(.*):([0-9]+)$");
+  var NormalizedFrameLineWithColumn = $m_sjsr_StackTrace$StringRE$().re$extension0__T__sjs_js_RegExp("^([^\\@]*)\\@(.*):([0-9]+):([0-9]+)$");
+  var trace = [];
+  var i = 0;
+  while ((i < $uI(lines.length))) {
+    var line = $as_T(lines[i]);
+    if ((line === null)) {
+      throw new $c_jl_NullPointerException().init___()
+    };
+    if ((line !== "")) {
+      var mtch1 = NormalizedFrameLineWithColumn.exec(line);
+      if ((mtch1 !== null)) {
+        var value = mtch1[1];
+        if ((value === (void 0))) {
+          throw new $c_ju_NoSuchElementException().init___T("undefined.get")
+        };
+        var x1 = this.extractClassMethod__p1__T__T2($as_T(value));
+        if ((x1 === null)) {
+          throw new $c_s_MatchError().init___O(x1)
+        };
+        var className = $as_T(x1.$$und1$f);
+        var methodName = $as_T(x1.$$und2$f);
+        var value$1 = mtch1[2];
+        if ((value$1 === (void 0))) {
+          throw new $c_ju_NoSuchElementException().init___T("undefined.get")
+        };
+        var fileName = $as_T(value$1);
+        var value$2 = mtch1[3];
+        if ((value$2 === (void 0))) {
+          throw new $c_ju_NoSuchElementException().init___T("undefined.get")
+        };
+        var x = $as_T(value$2);
+        var this$15 = new $c_sci_StringOps().init___T(x);
+        var this$17 = $m_jl_Integer$();
+        var $$this = this$15.repr$1;
+        var lineNumber = this$17.parseInt__T__I__I($$this, 10);
+        var value$3 = mtch1[4];
+        if ((value$3 === (void 0))) {
+          throw new $c_ju_NoSuchElementException().init___T("undefined.get")
+        };
+        var x$1 = $as_T(value$3);
+        var this$23 = new $c_sci_StringOps().init___T(x$1);
+        var this$25 = $m_jl_Integer$();
+        var $$this$1 = this$23.repr$1;
+        var value$4 = this$25.parseInt__T__I__I($$this$1, 10);
+        var jsx$1 = trace.push({
+          "declaringClass": className,
+          "methodName": methodName,
+          "fileName": fileName,
+          "lineNumber": lineNumber,
+          "columnNumber": ((value$4 === (void 0)) ? (void 0) : value$4)
+        });
+        $uI(jsx$1)
+      } else {
+        var mtch2 = NormalizedFrameLine.exec(line);
+        if ((mtch2 !== null)) {
+          var value$5 = mtch2[1];
+          if ((value$5 === (void 0))) {
+            throw new $c_ju_NoSuchElementException().init___T("undefined.get")
+          };
+          var x1$2 = this.extractClassMethod__p1__T__T2($as_T(value$5));
+          if ((x1$2 === null)) {
+            throw new $c_s_MatchError().init___O(x1$2)
+          };
+          var className$3 = $as_T(x1$2.$$und1$f);
+          var methodName$3 = $as_T(x1$2.$$und2$f);
+          var value$6 = mtch2[2];
+          if ((value$6 === (void 0))) {
+            throw new $c_ju_NoSuchElementException().init___T("undefined.get")
+          };
+          var fileName$1 = $as_T(value$6);
+          var value$7 = mtch2[3];
+          if ((value$7 === (void 0))) {
+            throw new $c_ju_NoSuchElementException().init___T("undefined.get")
+          };
+          var x$2 = $as_T(value$7);
+          var this$52 = new $c_sci_StringOps().init___T(x$2);
+          var this$54 = $m_jl_Integer$();
+          var $$this$2 = this$52.repr$1;
+          var lineNumber$1 = this$54.parseInt__T__I__I($$this$2, 10);
+          var jsx$2 = trace.push({
+            "declaringClass": className$3,
+            "methodName": methodName$3,
+            "fileName": fileName$1,
+            "lineNumber": lineNumber$1,
+            "columnNumber": (void 0)
+          });
+          $uI(jsx$2)
+        } else {
+          $uI(trace.push({
+            "declaringClass": "<jscode>",
+            "methodName": line,
+            "fileName": null,
+            "lineNumber": (-1),
+            "columnNumber": (void 0)
+          }))
+        }
+      }
+    };
+    i = ((1 + i) | 0)
+  };
+  var value$8 = $env.sourceMapper;
+  var mappedTrace = ((value$8 === (void 0)) ? trace : value$8(trace));
+  var result = $newArrayObject($d_jl_StackTraceElement.getArrayOf(), [$uI(mappedTrace.length)]);
+  i = 0;
+  while ((i < $uI(mappedTrace.length))) {
+    var jsSte = mappedTrace[i];
+    var ste = new $c_jl_StackTraceElement().init___T__T__T__I($as_T(jsSte.declaringClass), $as_T(jsSte.methodName), $as_T(jsSte.fileName), $uI(jsSte.lineNumber));
+    var value$9 = jsSte.columnNumber;
+    if ((value$9 !== (void 0))) {
+      var columnNumber = $uI(value$9);
+      ste.setColumnNumber(columnNumber)
+    };
+    result.set(i, ste);
+    i = ((1 + i) | 0)
+  };
+  return result
+});
+$c_sjsr_StackTrace$.prototype.extractOpera11__p1__sjs_js_Dynamic__sjs_js_Array = (function(e) {
+  var lineRE = $m_sjsr_StackTrace$StringRE$().re$extension0__T__sjs_js_RegExp("^.*line (\\d+), column (\\d+)(?: in (.+))? in (\\S+):$");
+  var x = $as_T(e.stacktrace);
+  var lines = x.split("\n");
+  var result = [];
+  var i = 0;
+  var len = $uI(lines.length);
+  while ((i < len)) {
+    var mtch = lineRE.exec($as_T(lines[i]));
+    if ((mtch !== null)) {
+      var value = mtch[4];
+      if ((value === (void 0))) {
+        throw new $c_ju_NoSuchElementException().init___T("undefined.get")
+      };
+      var jsx$1 = $as_T(value);
+      var value$1 = mtch[1];
+      if ((value$1 === (void 0))) {
+        throw new $c_ju_NoSuchElementException().init___T("undefined.get")
+      };
+      var value$2 = mtch[2];
+      if ((value$2 === (void 0))) {
+        throw new $c_ju_NoSuchElementException().init___T("undefined.get")
+      };
+      var location = ((((jsx$1 + ":") + value$1) + ":") + value$2);
+      var value$3 = mtch[2];
+      var fnName0 = $as_T(((value$3 === (void 0)) ? "global code" : value$3));
+      var x$1 = $as_T(fnName0.replace($m_sjsr_StackTrace$StringRE$().re$extension0__T__sjs_js_RegExp("<anonymous function: (\\S+)>"), "$1"));
+      var jsx$2 = x$1.replace($m_sjsr_StackTrace$StringRE$().re$extension0__T__sjs_js_RegExp("<anonymous function>"), "{anonymous}");
+      var fnName = $as_T(jsx$2);
+      $uI(result.push(((fnName + "@") + location)))
+    };
+    i = ((2 + i) | 0)
+  };
+  return result
+});
+$c_sjsr_StackTrace$.prototype.extractSafari__p1__sjs_js_Dynamic__sjs_js_Array = (function(e) {
+  var x = $as_T(e.stack);
+  var jsx$3 = x.replace($m_sjsr_StackTrace$StringRE$().re$extension1__T__T__sjs_js_RegExp("\\[native code\\]\\n", "m"), "");
+  var x$1 = $as_T(jsx$3);
+  var jsx$2 = x$1.replace($m_sjsr_StackTrace$StringRE$().re$extension1__T__T__sjs_js_RegExp("^(?=\\w+Error\\:).*$\\n", "m"), "");
+  var x$2 = $as_T(jsx$2);
+  var jsx$1 = x$2.replace($m_sjsr_StackTrace$StringRE$().re$extension1__T__T__sjs_js_RegExp("^@", "gm"), "{anonymous}()@");
+  var x$3 = $as_T(jsx$1);
+  return x$3.split("\n")
+});
+$c_sjsr_StackTrace$.prototype.loop$1__p1__I__T__T = (function(i, encoded$1) {
+  _loop: while (true) {
+    if ((i < $uI(this.compressedPrefixes__p1__sjs_js_Array().length))) {
+      var prefix = $as_T(this.compressedPrefixes__p1__sjs_js_Array()[i]);
+      if ((($uI(encoded$1.length) >= 0) && ($as_T(encoded$1.substring(0, $uI(prefix.length))) === prefix))) {
+        var dict = this.decompressedPrefixes__p1__sjs_js_Dictionary();
+        if ((!$uZ($m_sjs_js_WrappedDictionary$Cache$().safeHasOwnProperty$1.call(dict, prefix)))) {
+          throw new $c_ju_NoSuchElementException().init___T(("key not found: " + prefix))
+        };
+        var jsx$1 = $as_T(dict[prefix]);
+        var beginIndex = $uI(prefix.length);
+        return (("" + jsx$1) + $as_T(encoded$1.substring(beginIndex)))
+      } else {
+        i = ((1 + i) | 0);
+        continue _loop
+      }
+    } else {
+      return ((($uI(encoded$1.length) >= 0) && ($as_T(encoded$1.substring(0, $uI("L".length))) === "L")) ? $as_T(encoded$1.substring(1)) : encoded$1)
+    }
+  }
+});
+$c_sjsr_StackTrace$.prototype.liftedTree1$1__p1__Z = (function() {
+  try {
+    $g.Packages.org.mozilla.javascript.JavaScriptException;
+    return true
+  } catch (e) {
+    var e$2 = $m_sjsr_package$().wrapJavaScriptException__O__jl_Throwable(e);
+    if ((e$2 !== null)) {
+      if ($is_sjs_js_JavaScriptException(e$2)) {
+        return false
+      } else {
+        throw $m_sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(e$2)
+      }
+    } else {
+      throw e
+    }
+  }
+});
+$c_sjsr_StackTrace$.prototype.decompressedPrefixes__p1__sjs_js_Dictionary = (function() {
+  return (((((4 & this.bitmap$0$1) << 24) >> 24) === 0) ? this.decompressedPrefixes$lzycompute__p1__sjs_js_Dictionary() : this.decompressedPrefixes$1)
+});
+$c_sjsr_StackTrace$.prototype.extractRhino__p1__sjs_js_Dynamic__sjs_js_Array = (function(e) {
+  var value = e.stack;
+  var x = $as_T(((value === (void 0)) ? "" : value));
+  var jsx$3 = x.replace($m_sjsr_StackTrace$StringRE$().re$extension1__T__T__sjs_js_RegExp("^\\s+at\\s+", "gm"), "");
+  var x$1 = $as_T(jsx$3);
+  var jsx$2 = x$1.replace($m_sjsr_StackTrace$StringRE$().re$extension1__T__T__sjs_js_RegExp("^(.+?)(?: \\((.+)\\))?$", "gm"), "$2@$1");
+  var x$2 = $as_T(jsx$2);
+  var jsx$1 = x$2.replace($m_sjsr_StackTrace$StringRE$().re$extension1__T__T__sjs_js_RegExp("\\r\\n?", "gm"), "\n");
+  var x$3 = $as_T(jsx$1);
+  return x$3.split("\n")
+});
+$c_sjsr_StackTrace$.prototype.extractOther__p1__sjs_js_Dynamic__sjs_js_Array = (function(e) {
+  return []
+});
+$c_sjsr_StackTrace$.prototype.extractIE__p1__sjs_js_Dynamic__sjs_js_Array = (function(e) {
+  var x = $as_T(e.stack);
+  var jsx$3 = x.replace($m_sjsr_StackTrace$StringRE$().re$extension1__T__T__sjs_js_RegExp("^\\s*at\\s+(.*)$", "gm"), "$1");
+  var x$1 = $as_T(jsx$3);
+  var jsx$2 = x$1.replace($m_sjsr_StackTrace$StringRE$().re$extension1__T__T__sjs_js_RegExp("^Anonymous function\\s+", "gm"), "{anonymous}() ");
+  var x$2 = $as_T(jsx$2);
+  var jsx$1 = x$2.replace($m_sjsr_StackTrace$StringRE$().re$extension1__T__T__sjs_js_RegExp("^([^\\(]+|\\{anonymous\\}\\(\\))\\s+\\((.+)\\)$", "gm"), "$1@$2");
+  var x$3 = $as_T(jsx$1);
+  var qual$1 = x$3.split("\n");
+  return qual$1.slice(1)
+});
+$c_sjsr_StackTrace$.prototype.decodeMethodName__p1__T__T = (function(encodedName) {
+  if ((($uI(encodedName.length) >= 0) && ($as_T(encodedName.substring(0, $uI("init___".length))) === "init___"))) {
+    return "<init>"
+  } else {
+    var methodNameLen = $uI(encodedName.indexOf("__"));
+    return ((methodNameLen < 0) ? encodedName : $as_T(encodedName.substring(0, methodNameLen)))
+  }
+});
+var $d_sjsr_StackTrace$ = new $TypeData().initClass({
+  sjsr_StackTrace$: 0
+}, false, "scala.scalajs.runtime.StackTrace$", {
+  sjsr_StackTrace$: 1,
+  O: 1
+});
+$c_sjsr_StackTrace$.prototype.$classData = $d_sjsr_StackTrace$;
+var $n_sjsr_StackTrace$ = (void 0);
+function $m_sjsr_StackTrace$() {
+  if ((!$n_sjsr_StackTrace$)) {
+    $n_sjsr_StackTrace$ = new $c_sjsr_StackTrace$().init___()
+  };
+  return $n_sjsr_StackTrace$
+}
+/** @constructor */
+function $c_sjsr_StackTrace$StringRE$() {
+  $c_O.call(this)
+}
+$c_sjsr_StackTrace$StringRE$.prototype = new $h_O();
+$c_sjsr_StackTrace$StringRE$.prototype.constructor = $c_sjsr_StackTrace$StringRE$;
+/** @constructor */
+function $h_sjsr_StackTrace$StringRE$() {
+  /*<skip>*/
+}
+$h_sjsr_StackTrace$StringRE$.prototype = $c_sjsr_StackTrace$StringRE$.prototype;
+$c_sjsr_StackTrace$StringRE$.prototype.init___ = (function() {
+  return this
+});
+$c_sjsr_StackTrace$StringRE$.prototype.re$extension1__T__T__sjs_js_RegExp = (function($$this, mods) {
+  return new $g.RegExp($$this, mods)
+});
+$c_sjsr_StackTrace$StringRE$.prototype.re$extension0__T__sjs_js_RegExp = (function($$this) {
+  return new $g.RegExp($$this)
+});
+var $d_sjsr_StackTrace$StringRE$ = new $TypeData().initClass({
+  sjsr_StackTrace$StringRE$: 0
+}, false, "scala.scalajs.runtime.StackTrace$StringRE$", {
+  sjsr_StackTrace$StringRE$: 1,
+  O: 1
+});
+$c_sjsr_StackTrace$StringRE$.prototype.$classData = $d_sjsr_StackTrace$StringRE$;
+var $n_sjsr_StackTrace$StringRE$ = (void 0);
+function $m_sjsr_StackTrace$StringRE$() {
+  if ((!$n_sjsr_StackTrace$StringRE$)) {
+    $n_sjsr_StackTrace$StringRE$ = new $c_sjsr_StackTrace$StringRE$().init___()
+  };
+  return $n_sjsr_StackTrace$StringRE$
 }
 /** @constructor */
 function $c_sjsr_package$() {
@@ -16965,32 +18571,33 @@ $h_Ljapgolly_scalajs_react_component_Js$.prototype = $c_Ljapgolly_scalajs_react_
 $c_Ljapgolly_scalajs_react_component_Js$.prototype.init___ = (function() {
   $n_Ljapgolly_scalajs_react_component_Js$ = this;
   this.rawComponentDisplayName$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
-    return (function(c$2) {
-      return $m_Ljapgolly_scalajs_react_component_Js$().japgolly$scalajs$react$component$Js$$fixDisplayName__sjs_js_UndefOr__T(c$2.displayName)
+    return (function(a$2) {
+      return $m_Ljapgolly_scalajs_react_component_Js$().japgolly$scalajs$react$component$Js$$readDisplayName__Ljapgolly_scalajs_react_raw_package$HasDisplayName__T(a$2)
     })
   })(this));
   return this
 });
-$c_Ljapgolly_scalajs_react_component_Js$.prototype.japgolly$scalajs$react$component$Js$$fixDisplayName__sjs_js_UndefOr__T = (function(n) {
-  return $as_T(((n === (void 0)) ? "" : n))
-});
-$c_Ljapgolly_scalajs_react_component_Js$.prototype.unmounted__Ljapgolly_scalajs_react_raw_package$ReactComponentElement__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(r) {
-  var m = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
-    return (function(r$2$2) {
-      $m_Ljapgolly_scalajs_react_component_Js$();
-      return new $c_Ljapgolly_scalajs_react_component_Js$$anon$1().init___Ljapgolly_scalajs_react_raw_package$ReactComponent(r$2$2)
-    })
-  })(this));
-  return new $c_Ljapgolly_scalajs_react_component_Js$$anon$3().init___Ljapgolly_scalajs_react_raw_package$ReactComponentElement__F1(r, m)
+$c_Ljapgolly_scalajs_react_component_Js$.prototype.japgolly$scalajs$react$component$Js$$readDisplayName__Ljapgolly_scalajs_react_raw_package$HasDisplayName__T = (function(a) {
+  var value = a.displayName;
+  return $as_T(((value === (void 0)) ? "" : value))
 });
 $c_Ljapgolly_scalajs_react_component_Js$.prototype.component__sjs_js_Function1__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot = (function(rc, s) {
   var c = $as_Ljapgolly_scalajs_react_CtorType(s.pf$1.rmap__O__F1__O(s.summon$1.apply__O__O(rc), new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
     return (function(r$2) {
-      return $m_Ljapgolly_scalajs_react_component_Js$().unmounted__Ljapgolly_scalajs_react_raw_package$ReactComponentElement__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(r$2)
+      return $m_Ljapgolly_scalajs_react_component_Js$().unmounted__Ljapgolly_scalajs_react_raw_React$ComponentElement__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot(r$2)
     })
   })(this))));
   var pf = s.pf$1;
   return new $c_Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$$anon$1().init___Ljapgolly_scalajs_react_component_JsBaseComponentTemplate__sjs_js_Any__Ljapgolly_scalajs_react_CtorType__Ljapgolly_scalajs_react_internal_Profunctor(this, rc, c, pf)
+});
+$c_Ljapgolly_scalajs_react_component_Js$.prototype.unmounted__Ljapgolly_scalajs_react_raw_React$ComponentElement__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(r) {
+  var m = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(r$2$2) {
+      $m_Ljapgolly_scalajs_react_component_Js$();
+      return new $c_Ljapgolly_scalajs_react_component_Js$$anon$1().init___Ljapgolly_scalajs_react_raw_React$Component(r$2$2)
+    })
+  })(this));
+  return new $c_Ljapgolly_scalajs_react_component_Js$$anon$3().init___Ljapgolly_scalajs_react_raw_React$ComponentElement__F1(r, m)
 });
 var $d_Ljapgolly_scalajs_react_component_Js$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_component_Js$: 0
@@ -17022,25 +18629,17 @@ $h_Ljapgolly_scalajs_react_component_JsFn$.prototype = $c_Ljapgolly_scalajs_reac
 $c_Ljapgolly_scalajs_react_component_JsFn$.prototype.init___ = (function() {
   $n_Ljapgolly_scalajs_react_component_JsFn$ = this;
   this.japgolly$scalajs$react$component$JsFn$$constUnit$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
-    return (function(x$2$2) {
+    return (function(x$6$2) {
       return (void 0)
     })
   })(this));
   return this
 });
-$c_Ljapgolly_scalajs_react_component_JsFn$.prototype.apply__sjs_js_Any__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot = (function(raw, s) {
-  var this$1 = $m_Ljapgolly_scalajs_react_component_InspectRaw$();
-  var assertion = this$1.isComponent__sjs_js_Any__Z(raw);
-  if ((!assertion)) {
-    throw new $c_jl_AssertionError().init___O(("assertion failed: " + new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["Invalid ", ": ", ""])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["JsFnComponent", $m_Ljapgolly_scalajs_react_component_InspectRaw$().invalidComponentDesc__sjs_js_Any__T(raw)]))))
-  };
-  return this.force__sjs_js_Any__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot(raw, s)
-});
 $c_Ljapgolly_scalajs_react_component_JsFn$.prototype.force__sjs_js_Any__Ljapgolly_scalajs_react_CtorType$Summoner__Ljapgolly_scalajs_react_component_JsBaseComponentTemplate$ComponentWithRoot = (function(raw, s) {
   var c = $as_Ljapgolly_scalajs_react_CtorType(s.pf$1.rmap__O__F1__O(s.summon$1.apply__O__O(raw), new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
     return (function(r$2) {
       $m_Ljapgolly_scalajs_react_component_JsFn$();
-      return new $c_Ljapgolly_scalajs_react_component_JsFn$$anon$1().init___Ljapgolly_scalajs_react_raw_package$ReactComponentElement(r$2)
+      return new $c_Ljapgolly_scalajs_react_component_JsFn$$anon$1().init___Ljapgolly_scalajs_react_raw_React$ComponentElement(r$2)
     })
   })(this))));
   var pf = s.pf$1;
@@ -17073,22 +18672,22 @@ function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnm
   /*<skip>*/
 }
 $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount.prototype;
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount.prototype.raw__Ljapgolly_scalajs_react_raw_package$ReactComponent = (function() {
-  return this.raw$1
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount.prototype.init___Ljapgolly_scalajs_react_raw_package$ReactComponent = (function(raw) {
-  this.raw$1 = raw;
-  return this
-});
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount.prototype.equals__O__Z = (function(x$1) {
-  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount$().equals$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__O__Z(this.raw$1, x$1)
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount$().equals$extension__Ljapgolly_scalajs_react_raw_React$Component__O__Z(this.raw$1, x$1)
 });
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount.prototype.toString__T = (function() {
-  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount$().toString$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__T(this.raw$1)
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount$().toString$extension__Ljapgolly_scalajs_react_raw_React$Component__T(this.raw$1)
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount.prototype.init___Ljapgolly_scalajs_react_raw_React$Component = (function(raw) {
+  this.raw$1 = raw;
+  return this
 });
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount.prototype.hashCode__I = (function() {
   var $$this = this.raw$1;
   return $objectHashCode($$this)
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+  return this.raw$1
 });
 function $is_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUnmount)))
@@ -17124,17 +18723,17 @@ function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUpd
   /*<skip>*/
 }
 $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUpdate.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUpdate.prototype;
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUpdate.prototype.raw__Ljapgolly_scalajs_react_raw_package$ReactComponent = (function() {
-  return this.raw$1
-});
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUpdate.prototype.toString__T = (function() {
-  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T(new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["ComponentWillUpdate(props: ", " \u2192 ", ", state: ", " \u2192 ", ")"])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).props__O(), this.nextProps$1, $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).state__O(), this.nextState$1])))
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T((((((((("ComponentWillUpdate(props: " + $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).props__O()) + " \u2192 ") + this.nextProps$1) + ", state: ") + $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).state__O()) + " \u2192 ") + this.nextState$1) + ")"))
 });
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUpdate.prototype.init___Ljapgolly_scalajs_react_raw_package$ReactComponent__O__O = (function(raw, nextProps, nextState) {
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUpdate.prototype.init___Ljapgolly_scalajs_react_raw_React$Component__O__O = (function(raw, nextProps, nextState) {
   this.raw$1 = raw;
   this.nextProps$1 = nextProps;
   this.nextState$1 = nextState;
   return this
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUpdate.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+  return this.raw$1
 });
 var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUpdate = new $TypeData().initClass({
   Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUpdate: 0
@@ -17144,6 +18743,40 @@ var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUpdate =
   Ljapgolly_scalajs_react_component_builder_Lifecycle$Base: 1
 });
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUpdate.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillUpdate;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$GetSnapshotBeforeUpdate() {
+  $c_O.call(this);
+  this.raw$1 = null;
+  this.prevProps$1 = null;
+  this.prevState$1 = null
+}
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$GetSnapshotBeforeUpdate.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$GetSnapshotBeforeUpdate.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$GetSnapshotBeforeUpdate;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$GetSnapshotBeforeUpdate() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$GetSnapshotBeforeUpdate.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$GetSnapshotBeforeUpdate.prototype;
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$GetSnapshotBeforeUpdate.prototype.toString__T = (function() {
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T((((((((("GetSnapshotBeforeUpdate(props: " + this.prevProps$1) + " \u2192 ") + $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).props__O()) + ", state: ") + this.prevState$1) + " \u2192 ") + $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).state__O()) + ")"))
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$GetSnapshotBeforeUpdate.prototype.init___Ljapgolly_scalajs_react_raw_React$Component__O__O = (function(raw, prevProps, prevState) {
+  this.raw$1 = raw;
+  this.prevProps$1 = prevProps;
+  this.prevState$1 = prevState;
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$GetSnapshotBeforeUpdate.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+  return this.raw$1
+});
+var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$GetSnapshotBeforeUpdate = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$GetSnapshotBeforeUpdate: 0
+}, false, "japgolly.scalajs.react.component.builder.Lifecycle$GetSnapshotBeforeUpdate", {
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$GetSnapshotBeforeUpdate: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$Base: 1
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$GetSnapshotBeforeUpdate.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$GetSnapshotBeforeUpdate;
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate() {
   $c_O.call(this);
@@ -17158,17 +18791,17 @@ function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentU
   /*<skip>*/
 }
 $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate.prototype;
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate.prototype.raw__Ljapgolly_scalajs_react_raw_package$ReactComponent = (function() {
-  return this.raw$1
-});
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate.prototype.toString__T = (function() {
-  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T(new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["ShouldComponentUpdate(props: ", " \u2192 ", ", state: ", " \u2192 ", ")"])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).props__O(), this.nextProps$1, $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).state__O(), this.nextState$1])))
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T((((((((("ShouldComponentUpdate(props: " + $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).props__O()) + " \u2192 ") + this.nextProps$1) + ", state: ") + $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).state__O()) + " \u2192 ") + this.nextState$1) + ")"))
 });
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate.prototype.init___Ljapgolly_scalajs_react_raw_package$ReactComponent__O__O = (function(raw, nextProps, nextState) {
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate.prototype.init___Ljapgolly_scalajs_react_raw_React$Component__O__O = (function(raw, nextProps, nextState) {
   this.raw$1 = raw;
   this.nextProps$1 = nextProps;
   this.nextState$1 = nextState;
   return this
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+  return this.raw$1
 });
 function $is_Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$ShouldComponentUpdate)))
@@ -17268,7 +18901,7 @@ function $h_Ljapgolly_scalajs_react_extra_router_StaticDsl$Route() {
 }
 $h_Ljapgolly_scalajs_react_extra_router_StaticDsl$Route.prototype = $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$Route.prototype;
 $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$Route.prototype.toString__T = (function() {
-  return new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["Route(", ")"])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([this.pattern$2]))
+  return (("Route(" + this.pattern$2) + ")")
 });
 $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$Route.prototype.init___ju_regex_Pattern__F1__F1 = (function(pattern, parseFn, buildFn) {
   this.pattern$2 = pattern;
@@ -17336,7 +18969,7 @@ function $h_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB() {
 }
 $h_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB.prototype = $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB.prototype;
 $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB.prototype.toString__T = (function() {
-  return new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["RouteB(", ")"])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([this.regex$2]))
+  return (("RouteB(" + this.regex$2) + ")")
 });
 $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB.prototype.pmap__F1__F1__Ljapgolly_scalajs_react_extra_router_StaticDsl$RouteB = (function(b, a) {
   var jsx$3 = this.regex$2;
@@ -17473,13 +19106,49 @@ var $d_Ljapgolly_scalajs_react_internal_Effect$Trans$Id = new $TypeData().initCl
 });
 $c_Ljapgolly_scalajs_react_internal_Effect$Trans$Id.prototype.$classData = $d_Ljapgolly_scalajs_react_internal_Effect$Trans$Id;
 /** @constructor */
+function $c_Ljapgolly_scalajs_react_internal_JsRepr$$anon$1() {
+  $c_O.call(this);
+  this.fromJs$1 = null;
+  this.toJs$1 = null
+}
+$c_Ljapgolly_scalajs_react_internal_JsRepr$$anon$1.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_internal_JsRepr$$anon$1.prototype.constructor = $c_Ljapgolly_scalajs_react_internal_JsRepr$$anon$1;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_internal_JsRepr$$anon$1() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_internal_JsRepr$$anon$1.prototype = $c_Ljapgolly_scalajs_react_internal_JsRepr$$anon$1.prototype;
+$c_Ljapgolly_scalajs_react_internal_JsRepr$$anon$1.prototype.init___F1__F1 = (function(_fromJs$1, _toJs$1) {
+  this.fromJs$1 = _fromJs$1;
+  this.toJs$1 = _toJs$1;
+  return this
+});
+var $d_Ljapgolly_scalajs_react_internal_JsRepr$$anon$1 = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_internal_JsRepr$$anon$1: 0
+}, false, "japgolly.scalajs.react.internal.JsRepr$$anon$1", {
+  Ljapgolly_scalajs_react_internal_JsRepr$$anon$1: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_internal_JsRepr: 1
+});
+$c_Ljapgolly_scalajs_react_internal_JsRepr$$anon$1.prototype.$classData = $d_Ljapgolly_scalajs_react_internal_JsRepr$$anon$1;
+function $f_Ljapgolly_scalajs_react_internal_JsReprHighPri__$$init$__V($thiz) {
+  $thiz.unit$1 = $m_Ljapgolly_scalajs_react_internal_JsRepr$().id__F1__Ljapgolly_scalajs_react_internal_JsRepr(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(value$2) {
+      var value = $asUnit(value$2);
+      return value
+    })
+  })($thiz)))
+}
+/** @constructor */
 function $c_Ljapgolly_scalajs_react_package$() {
   $c_O.call(this);
   this.GenericComponent$1 = null;
   this.JsComponent$1 = null;
   this.JsFnComponent$1 = null;
+  this.JsForwardRefComponent$1 = null;
   this.ScalaComponent$1 = null;
-  this.ScalaFnComponent$1 = null
+  this.ScalaFnComponent$1 = null;
+  this.ScalaForwardRefComponent$1 = null
 }
 $c_Ljapgolly_scalajs_react_package$.prototype = new $h_O();
 $c_Ljapgolly_scalajs_react_package$.prototype.constructor = $c_Ljapgolly_scalajs_react_package$;
@@ -17493,8 +19162,10 @@ $c_Ljapgolly_scalajs_react_package$.prototype.init___ = (function() {
   this.GenericComponent$1 = $m_Ljapgolly_scalajs_react_component_Generic$();
   this.JsComponent$1 = $m_Ljapgolly_scalajs_react_component_Js$();
   this.JsFnComponent$1 = $m_Ljapgolly_scalajs_react_component_JsFn$();
+  this.JsForwardRefComponent$1 = $m_Ljapgolly_scalajs_react_component_JsForwardRef$();
   this.ScalaComponent$1 = $m_Ljapgolly_scalajs_react_component_Scala$();
   this.ScalaFnComponent$1 = $m_Ljapgolly_scalajs_react_component_ScalaFn$();
+  this.ScalaForwardRefComponent$1 = $m_Ljapgolly_scalajs_react_component_ScalaForwardRef$();
   return this
 });
 var $d_Ljapgolly_scalajs_react_package$ = new $TypeData().initClass({
@@ -17579,6 +19250,90 @@ var $d_Ljapgolly_scalajs_react_vdom_Attr$Generic = new $TypeData().initClass({
 });
 $c_Ljapgolly_scalajs_react_vdom_Attr$Generic.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_Attr$Generic;
 /** @constructor */
+function $c_Ljapgolly_scalajs_react_vdom_Attr$Key$() {
+  $c_Ljapgolly_scalajs_react_vdom_Attr.call(this)
+}
+$c_Ljapgolly_scalajs_react_vdom_Attr$Key$.prototype = new $h_Ljapgolly_scalajs_react_vdom_Attr();
+$c_Ljapgolly_scalajs_react_vdom_Attr$Key$.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_Attr$Key$;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_vdom_Attr$Key$() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_vdom_Attr$Key$.prototype = $c_Ljapgolly_scalajs_react_vdom_Attr$Key$.prototype;
+$c_Ljapgolly_scalajs_react_vdom_Attr$Key$.prototype.init___ = (function() {
+  $c_Ljapgolly_scalajs_react_vdom_Attr.prototype.init___T.call(this, "key");
+  return this
+});
+$c_Ljapgolly_scalajs_react_vdom_Attr$Key$.prototype.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod = (function(a, t) {
+  $m_Ljapgolly_scalajs_react_vdom_TagMod$();
+  var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, a$1, t$1) {
+    return (function(b$2) {
+      var b = $as_Ljapgolly_scalajs_react_vdom_Builder(b$2);
+      t$1.apply__O__O__O(b.setKey$1, a$1)
+    })
+  })(this, a, t));
+  return new $c_Ljapgolly_scalajs_react_vdom_TagMod$$anon$2().init___F1(f)
+});
+var $d_Ljapgolly_scalajs_react_vdom_Attr$Key$ = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_vdom_Attr$Key$: 0
+}, false, "japgolly.scalajs.react.vdom.Attr$Key$", {
+  Ljapgolly_scalajs_react_vdom_Attr$Key$: 1,
+  Ljapgolly_scalajs_react_vdom_Attr: 1,
+  O: 1
+});
+$c_Ljapgolly_scalajs_react_vdom_Attr$Key$.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_Attr$Key$;
+var $n_Ljapgolly_scalajs_react_vdom_Attr$Key$ = (void 0);
+function $m_Ljapgolly_scalajs_react_vdom_Attr$Key$() {
+  if ((!$n_Ljapgolly_scalajs_react_vdom_Attr$Key$)) {
+    $n_Ljapgolly_scalajs_react_vdom_Attr$Key$ = new $c_Ljapgolly_scalajs_react_vdom_Attr$Key$().init___()
+  };
+  return $n_Ljapgolly_scalajs_react_vdom_Attr$Key$
+}
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_vdom_Attr$Style$() {
+  $c_Ljapgolly_scalajs_react_vdom_Attr.call(this)
+}
+$c_Ljapgolly_scalajs_react_vdom_Attr$Style$.prototype = new $h_Ljapgolly_scalajs_react_vdom_Attr();
+$c_Ljapgolly_scalajs_react_vdom_Attr$Style$.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_Attr$Style$;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_vdom_Attr$Style$() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_vdom_Attr$Style$.prototype = $c_Ljapgolly_scalajs_react_vdom_Attr$Style$.prototype;
+$c_Ljapgolly_scalajs_react_vdom_Attr$Style$.prototype.init___ = (function() {
+  $c_Ljapgolly_scalajs_react_vdom_Attr.prototype.init___T.call(this, "style");
+  return this
+});
+$c_Ljapgolly_scalajs_react_vdom_Attr$Style$.prototype.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod = (function(a, t) {
+  $m_Ljapgolly_scalajs_react_vdom_TagMod$();
+  var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, a$1, t$1) {
+    return (function(b$2) {
+      var b = $as_Ljapgolly_scalajs_react_vdom_Builder(b$2);
+      t$1.apply__O__O__O(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, b$1) {
+        return (function(j$2) {
+          $f_Ljapgolly_scalajs_react_vdom_Builder__addStyles__sjs_js_Any__V(b$1, j$2)
+        })
+      })($this, b)), a$1)
+    })
+  })(this, a, t));
+  return new $c_Ljapgolly_scalajs_react_vdom_TagMod$$anon$2().init___F1(f)
+});
+var $d_Ljapgolly_scalajs_react_vdom_Attr$Style$ = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_vdom_Attr$Style$: 0
+}, false, "japgolly.scalajs.react.vdom.Attr$Style$", {
+  Ljapgolly_scalajs_react_vdom_Attr$Style$: 1,
+  Ljapgolly_scalajs_react_vdom_Attr: 1,
+  O: 1
+});
+$c_Ljapgolly_scalajs_react_vdom_Attr$Style$.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_Attr$Style$;
+var $n_Ljapgolly_scalajs_react_vdom_Attr$Style$ = (void 0);
+function $m_Ljapgolly_scalajs_react_vdom_Attr$Style$() {
+  if ((!$n_Ljapgolly_scalajs_react_vdom_Attr$Style$)) {
+    $n_Ljapgolly_scalajs_react_vdom_Attr$Style$ = new $c_Ljapgolly_scalajs_react_vdom_Attr$Style$().init___()
+  };
+  return $n_Ljapgolly_scalajs_react_vdom_Attr$Style$
+}
+/** @constructor */
 function $c_Ljapgolly_scalajs_react_vdom_Exports$() {
   $c_Ljapgolly_scalajs_react_vdom_Exports.call(this)
 }
@@ -17633,6 +19388,17 @@ $c_Ljapgolly_scalajs_react_vdom_HtmlTags$.prototype.input__Ljapgolly_scalajs_rea
 $c_Ljapgolly_scalajs_react_vdom_HtmlTags$.prototype.input$lzycompute$1__p1__V = (function() {
   if (($m_Ljapgolly_scalajs_react_vdom_HtmlTags$().input$module$1 === null)) {
     $m_Ljapgolly_scalajs_react_vdom_HtmlTags$().input$module$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlTags$input$().init___Ljapgolly_scalajs_react_vdom_HtmlTags(this)
+  }
+});
+$c_Ljapgolly_scalajs_react_vdom_HtmlTags$.prototype.a__Ljapgolly_scalajs_react_vdom_HtmlTags$a$ = (function() {
+  if (($m_Ljapgolly_scalajs_react_vdom_HtmlTags$().a$module$1 === null)) {
+    this.a$lzycompute$1__p1__V()
+  };
+  return $m_Ljapgolly_scalajs_react_vdom_HtmlTags$().a$module$1
+});
+$c_Ljapgolly_scalajs_react_vdom_HtmlTags$.prototype.a$lzycompute$1__p1__V = (function() {
+  if (($m_Ljapgolly_scalajs_react_vdom_HtmlTags$().a$module$1 === null)) {
+    $m_Ljapgolly_scalajs_react_vdom_HtmlTags$().a$module$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlTags$a$().init___Ljapgolly_scalajs_react_vdom_HtmlTags(this)
   }
 });
 var $d_Ljapgolly_scalajs_react_vdom_HtmlTags$ = new $TypeData().initClass({
@@ -17729,9 +19495,6 @@ function $h_Ljapgolly_scalajs_react_vdom_TagMod$$anon$3() {
 $h_Ljapgolly_scalajs_react_vdom_TagMod$$anon$3.prototype = $c_Ljapgolly_scalajs_react_vdom_TagMod$$anon$3.prototype;
 $c_Ljapgolly_scalajs_react_vdom_TagMod$$anon$3.prototype.init___ = (function() {
   return this
-});
-$c_Ljapgolly_scalajs_react_vdom_TagMod$$anon$3.prototype.toString__T = (function() {
-  return "EmptyVdom"
 });
 $c_Ljapgolly_scalajs_react_vdom_TagMod$$anon$3.prototype.applyTo__Ljapgolly_scalajs_react_vdom_Builder__V = (function(b) {
   /*<skip>*/
@@ -17841,14 +19604,24 @@ function $h_Ljapgolly_scalajs_react_vdom_VdomNode() {
 }
 $h_Ljapgolly_scalajs_react_vdom_VdomNode.prototype = $c_Ljapgolly_scalajs_react_vdom_VdomNode.prototype;
 $c_Ljapgolly_scalajs_react_vdom_VdomNode.prototype.applyTo__Ljapgolly_scalajs_react_vdom_Builder__V = (function(b) {
-  var jsx$1 = b.appendChild$1;
-  var a = this.rawNode$1;
-  jsx$1.apply__O__O(a)
+  b.appendChild$1.apply__O__O(this.rawNode$1)
 });
 $c_Ljapgolly_scalajs_react_vdom_VdomNode.prototype.init___sjs_js_$bar = (function(rawNode) {
   this.rawNode$1 = rawNode;
   return this
 });
+function $is_Ljapgolly_scalajs_react_vdom_VdomNode(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_vdom_VdomNode)))
+}
+function $as_Ljapgolly_scalajs_react_vdom_VdomNode(obj) {
+  return (($is_Ljapgolly_scalajs_react_vdom_VdomNode(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.vdom.VdomNode"))
+}
+function $isArrayOf_Ljapgolly_scalajs_react_vdom_VdomNode(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_vdom_VdomNode)))
+}
+function $asArrayOf_Ljapgolly_scalajs_react_vdom_VdomNode(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_vdom_VdomNode(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.vdom.VdomNode;", depth))
+}
 var $d_Ljapgolly_scalajs_react_vdom_VdomNode = new $TypeData().initClass({
   Ljapgolly_scalajs_react_vdom_VdomNode: 0
 }, false, "japgolly.scalajs.react.vdom.VdomNode", {
@@ -18165,6 +19938,44 @@ function $m_Lscalacss_internal_Attrs$flexDirection$() {
   return $n_Lscalacss_internal_Attrs$flexDirection$
 }
 /** @constructor */
+function $c_Lscalacss_internal_Attrs$flexWrap$() {
+  $c_Lscalacss_internal_ValueT$TypedAttrBase.call(this);
+  this.attr$2 = null
+}
+$c_Lscalacss_internal_Attrs$flexWrap$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrBase();
+$c_Lscalacss_internal_Attrs$flexWrap$.prototype.constructor = $c_Lscalacss_internal_Attrs$flexWrap$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$flexWrap$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$flexWrap$.prototype = $c_Lscalacss_internal_Attrs$flexWrap$.prototype;
+$c_Lscalacss_internal_Attrs$flexWrap$.prototype.init___ = (function() {
+  $n_Lscalacss_internal_Attrs$flexWrap$ = this;
+  var jsx$1 = $m_Lscalacss_internal_Attr$();
+  var this$1 = $m_Lscalacss_internal_Transform$();
+  var subject = $m_Lscalacss_internal_CanIUse$().flexbox$1;
+  this.attr$2 = jsx$1.real__T__Lscalacss_internal_Transform__Lscalacss_internal_Attr("flex-wrap", this$1.prefix__p1__sci_Map__F1__Lscalacss_internal_CssKV$Lens__Lscalacss_internal_Transform(subject, $m_Lscalacss_internal_CanIUse2$PrefixApply$().prepend$1, $m_Lscalacss_internal_CssKV$().key$1));
+  return this
+});
+$c_Lscalacss_internal_Attrs$flexWrap$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$2
+});
+var $d_Lscalacss_internal_Attrs$flexWrap$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$flexWrap$: 0
+}, false, "scalacss.internal.Attrs$flexWrap$", {
+  Lscalacss_internal_Attrs$flexWrap$: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1
+});
+$c_Lscalacss_internal_Attrs$flexWrap$.prototype.$classData = $d_Lscalacss_internal_Attrs$flexWrap$;
+var $n_Lscalacss_internal_Attrs$flexWrap$ = (void 0);
+function $m_Lscalacss_internal_Attrs$flexWrap$() {
+  if ((!$n_Lscalacss_internal_Attrs$flexWrap$)) {
+    $n_Lscalacss_internal_Attrs$flexWrap$ = new $c_Lscalacss_internal_Attrs$flexWrap$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$flexWrap$
+}
+/** @constructor */
 function $c_Lscalacss_internal_Attrs$fontFamily$() {
   $c_Lscalacss_internal_ValueT$TypedAttrBase.call(this);
   this.attr$2 = null
@@ -18235,6 +20046,44 @@ function $m_Lscalacss_internal_Attrs$fontWeight$() {
   return $n_Lscalacss_internal_Attrs$fontWeight$
 }
 /** @constructor */
+function $c_Lscalacss_internal_Attrs$justifyContent$() {
+  $c_Lscalacss_internal_ValueT$TypedAttrBase.call(this);
+  this.attr$2 = null
+}
+$c_Lscalacss_internal_Attrs$justifyContent$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrBase();
+$c_Lscalacss_internal_Attrs$justifyContent$.prototype.constructor = $c_Lscalacss_internal_Attrs$justifyContent$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$justifyContent$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$justifyContent$.prototype = $c_Lscalacss_internal_Attrs$justifyContent$.prototype;
+$c_Lscalacss_internal_Attrs$justifyContent$.prototype.init___ = (function() {
+  $n_Lscalacss_internal_Attrs$justifyContent$ = this;
+  var jsx$1 = $m_Lscalacss_internal_Attr$();
+  var this$1 = $m_Lscalacss_internal_Transform$();
+  var subject = $m_Lscalacss_internal_CanIUse$().flexbox$1;
+  this.attr$2 = jsx$1.real__T__Lscalacss_internal_Transform__Lscalacss_internal_Attr("justify-content", this$1.prefix__p1__sci_Map__F1__Lscalacss_internal_CssKV$Lens__Lscalacss_internal_Transform(subject, $m_Lscalacss_internal_CanIUse2$PrefixApply$().prepend$1, $m_Lscalacss_internal_CssKV$().key$1));
+  return this
+});
+$c_Lscalacss_internal_Attrs$justifyContent$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$2
+});
+var $d_Lscalacss_internal_Attrs$justifyContent$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$justifyContent$: 0
+}, false, "scalacss.internal.Attrs$justifyContent$", {
+  Lscalacss_internal_Attrs$justifyContent$: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1
+});
+$c_Lscalacss_internal_Attrs$justifyContent$.prototype.$classData = $d_Lscalacss_internal_Attrs$justifyContent$;
+var $n_Lscalacss_internal_Attrs$justifyContent$ = (void 0);
+function $m_Lscalacss_internal_Attrs$justifyContent$() {
+  if ((!$n_Lscalacss_internal_Attrs$justifyContent$)) {
+    $n_Lscalacss_internal_Attrs$justifyContent$ = new $c_Lscalacss_internal_Attrs$justifyContent$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$justifyContent$
+}
+/** @constructor */
 function $c_Lscalacss_internal_Attrs$listStylePosition$() {
   $c_Lscalacss_internal_ValueT$TypedAttrBase.call(this);
   this.attr$2 = null
@@ -18268,6 +20117,41 @@ function $m_Lscalacss_internal_Attrs$listStylePosition$() {
     $n_Lscalacss_internal_Attrs$listStylePosition$ = new $c_Lscalacss_internal_Attrs$listStylePosition$().init___()
   };
   return $n_Lscalacss_internal_Attrs$listStylePosition$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Attrs$position$() {
+  $c_Lscalacss_internal_ValueT$TypedAttrBase.call(this);
+  this.attr$2 = null
+}
+$c_Lscalacss_internal_Attrs$position$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrBase();
+$c_Lscalacss_internal_Attrs$position$.prototype.constructor = $c_Lscalacss_internal_Attrs$position$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$position$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$position$.prototype = $c_Lscalacss_internal_Attrs$position$.prototype;
+$c_Lscalacss_internal_Attrs$position$.prototype.init___ = (function() {
+  $n_Lscalacss_internal_Attrs$position$ = this;
+  this.attr$2 = $m_Lscalacss_internal_Attr$().real__T__Lscalacss_internal_Attr("position");
+  return this
+});
+$c_Lscalacss_internal_Attrs$position$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$2
+});
+var $d_Lscalacss_internal_Attrs$position$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$position$: 0
+}, false, "scalacss.internal.Attrs$position$", {
+  Lscalacss_internal_Attrs$position$: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1
+});
+$c_Lscalacss_internal_Attrs$position$.prototype.$classData = $d_Lscalacss_internal_Attrs$position$;
+var $n_Lscalacss_internal_Attrs$position$ = (void 0);
+function $m_Lscalacss_internal_Attrs$position$() {
+  if ((!$n_Lscalacss_internal_Attrs$position$)) {
+    $n_Lscalacss_internal_Attrs$position$ = new $c_Lscalacss_internal_Attrs$position$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$position$
 }
 /** @constructor */
 function $c_Lscalacss_internal_Attrs$textAlign$() {
@@ -18341,6 +20225,44 @@ function $m_Lscalacss_internal_Attrs$textDecorationStyle$() {
     $n_Lscalacss_internal_Attrs$textDecorationStyle$ = new $c_Lscalacss_internal_Attrs$textDecorationStyle$().init___()
   };
   return $n_Lscalacss_internal_Attrs$textDecorationStyle$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Attrs$transitionTimingFunction$() {
+  $c_Lscalacss_internal_ValueT$TypedAttrBase.call(this);
+  this.attr$2 = null
+}
+$c_Lscalacss_internal_Attrs$transitionTimingFunction$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrBase();
+$c_Lscalacss_internal_Attrs$transitionTimingFunction$.prototype.constructor = $c_Lscalacss_internal_Attrs$transitionTimingFunction$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$transitionTimingFunction$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$transitionTimingFunction$.prototype = $c_Lscalacss_internal_Attrs$transitionTimingFunction$.prototype;
+$c_Lscalacss_internal_Attrs$transitionTimingFunction$.prototype.init___ = (function() {
+  $n_Lscalacss_internal_Attrs$transitionTimingFunction$ = this;
+  var jsx$1 = $m_Lscalacss_internal_Attr$();
+  var this$1 = $m_Lscalacss_internal_Transform$();
+  var subject = $m_Lscalacss_internal_CanIUse$().transitions$1;
+  this.attr$2 = jsx$1.real__T__Lscalacss_internal_Transform__Lscalacss_internal_Attr("transition-timing-function", this$1.prefix__p1__sci_Map__F1__Lscalacss_internal_CssKV$Lens__Lscalacss_internal_Transform(subject, $m_Lscalacss_internal_CanIUse2$PrefixApply$().prepend$1, $m_Lscalacss_internal_CssKV$().key$1));
+  return this
+});
+$c_Lscalacss_internal_Attrs$transitionTimingFunction$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$2
+});
+var $d_Lscalacss_internal_Attrs$transitionTimingFunction$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$transitionTimingFunction$: 0
+}, false, "scalacss.internal.Attrs$transitionTimingFunction$", {
+  Lscalacss_internal_Attrs$transitionTimingFunction$: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1
+});
+$c_Lscalacss_internal_Attrs$transitionTimingFunction$.prototype.$classData = $d_Lscalacss_internal_Attrs$transitionTimingFunction$;
+var $n_Lscalacss_internal_Attrs$transitionTimingFunction$ = (void 0);
+function $m_Lscalacss_internal_Attrs$transitionTimingFunction$() {
+  if ((!$n_Lscalacss_internal_Attrs$transitionTimingFunction$)) {
+    $n_Lscalacss_internal_Attrs$transitionTimingFunction$ = new $c_Lscalacss_internal_Attrs$transitionTimingFunction$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$transitionTimingFunction$
 }
 /** @constructor */
 function $c_Lscalacss_internal_Compose$Rules$$anon$1() {
@@ -18809,6 +20731,26 @@ $c_Lscalacss_internal_ValueT$TypedAttrT4Edges.prototype.init___T = (function(sep
   this.sep$2 = sep;
   return this
 });
+$c_Lscalacss_internal_ValueT$TypedAttrT4Edges.prototype.apply__Lscalacss_internal_ValueT__Lscalacss_internal_ValueT__Lscalacss_internal_AV = (function(v, h) {
+  var v$1 = $m_Lscalacss_internal_ValueT$().concat__T__Lscalacss_internal_ValueT__Lscalacss_internal_ValueT__T(this.sep$2, v, h);
+  return new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this.attr__Lscalacss_internal_Attr(), v$1)
+});
+/** @constructor */
+function $c_Lscalacss_internal_ValueT$TypedAttrTN() {
+  $c_Lscalacss_internal_ValueT$TypedAttrBase.call(this);
+  this.sep$2 = null
+}
+$c_Lscalacss_internal_ValueT$TypedAttrTN.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrBase();
+$c_Lscalacss_internal_ValueT$TypedAttrTN.prototype.constructor = $c_Lscalacss_internal_ValueT$TypedAttrTN;
+/** @constructor */
+function $h_Lscalacss_internal_ValueT$TypedAttrTN() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_ValueT$TypedAttrTN.prototype = $c_Lscalacss_internal_ValueT$TypedAttrTN.prototype;
+$c_Lscalacss_internal_ValueT$TypedAttrTN.prototype.init___T = (function(sep) {
+  this.sep$2 = sep;
+  return this
+});
 /** @constructor */
 function $c_Lscalacss_internal_mutable_GlobalRegistry$() {
   $c_Lscalacss_internal_mutable_StyleSheetRegistry.call(this)
@@ -19007,11 +20949,12 @@ $c_Lscalajsreact_template_ReactApp$.prototype.init___ = (function() {
 });
 $c_Lscalajsreact_template_ReactApp$.prototype.main__V = (function() {
   $m_Lscalajsreact_template_css_AppCSS$().load__V();
+  $m_Lorg_scalajs_dom_package$().console__Lorg_scalajs_dom_raw_Console().info("Router logging is enabled. Enjoy!");
   var c = $m_Lscalajsreact_template_routes_AppRouter$().router$1;
   var qual$1 = $as_Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot($as_Ljapgolly_scalajs_react_CtorType$Nullary(c.ctor__Ljapgolly_scalajs_react_CtorType()).apply__O());
-  var x$1 = $m_Lorg_scalajs_dom_package$().document__Lorg_scalajs_dom_raw_HTMLDocument().body;
+  var a = $m_Lorg_scalajs_dom_package$().document__Lorg_scalajs_dom_raw_HTMLDocument().body;
   var x$2 = $m_Ljapgolly_scalajs_react_Callback$().empty$1;
-  $f_Ljapgolly_scalajs_react_component_Generic$UnmountedSimple__renderIntoDOM__Lorg_scalajs_dom_raw_Element__F0__O(qual$1, x$1, x$2)
+  $f_Ljapgolly_scalajs_react_component_Generic$UnmountedSimple__renderIntoDOM__sjs_js_$bar__F0__O(qual$1, a, x$2)
 });
 $c_Lscalajsreact_template_ReactApp$.prototype.$$js$exported$meth$main__O = (function() {
   this.main__V()
@@ -19057,6 +21000,97 @@ function $isArrayOf_jl_Number(obj, depth) {
 function $asArrayOf_jl_Number(obj, depth) {
   return (($isArrayOf_jl_Number(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljava.lang.Number;", depth))
 }
+/** @constructor */
+function $c_jl_StackTraceElement() {
+  $c_O.call(this);
+  this.declaringClass$1 = null;
+  this.methodName$1 = null;
+  this.fileName$1 = null;
+  this.lineNumber$1 = 0;
+  this.columnNumber$1 = 0
+}
+$c_jl_StackTraceElement.prototype = new $h_O();
+$c_jl_StackTraceElement.prototype.constructor = $c_jl_StackTraceElement;
+/** @constructor */
+function $h_jl_StackTraceElement() {
+  /*<skip>*/
+}
+$h_jl_StackTraceElement.prototype = $c_jl_StackTraceElement.prototype;
+$c_jl_StackTraceElement.prototype.$$js$exported$meth$getColumnNumber__O = (function() {
+  return this.columnNumber$1
+});
+$c_jl_StackTraceElement.prototype.init___T__T__T__I = (function(declaringClass, methodName, fileName, lineNumber) {
+  this.declaringClass$1 = declaringClass;
+  this.methodName$1 = methodName;
+  this.fileName$1 = fileName;
+  this.lineNumber$1 = lineNumber;
+  this.columnNumber$1 = (-1);
+  return this
+});
+$c_jl_StackTraceElement.prototype.equals__O__Z = (function(that) {
+  if ($is_jl_StackTraceElement(that)) {
+    var x2 = $as_jl_StackTraceElement(that);
+    return ((((this.fileName$1 === x2.fileName$1) && (this.lineNumber$1 === x2.lineNumber$1)) && (this.declaringClass$1 === x2.declaringClass$1)) && (this.methodName$1 === x2.methodName$1))
+  } else {
+    return false
+  }
+});
+$c_jl_StackTraceElement.prototype.$$js$exported$meth$setColumnNumber__I__O = (function(columnNumber) {
+  this.columnNumber$1 = columnNumber
+});
+$c_jl_StackTraceElement.prototype.toString__T = (function() {
+  var result = "";
+  if ((this.declaringClass$1 !== "<jscode>")) {
+    result = ((("" + result) + this.declaringClass$1) + ".")
+  };
+  result = (("" + result) + this.methodName$1);
+  if ((this.fileName$1 === null)) {
+    result = (result + "(Unknown Source)")
+  } else {
+    result = ((result + "(") + this.fileName$1);
+    if ((this.lineNumber$1 >= 0)) {
+      result = ((result + ":") + this.lineNumber$1);
+      if ((this.columnNumber$1 >= 0)) {
+        result = ((result + ":") + this.columnNumber$1)
+      }
+    };
+    result = (result + ")")
+  };
+  return result
+});
+$c_jl_StackTraceElement.prototype.hashCode__I = (function() {
+  var this$1 = this.declaringClass$1;
+  var jsx$1 = $m_sjsr_RuntimeString$().hashCode__T__I(this$1);
+  var this$2 = this.methodName$1;
+  return (jsx$1 ^ $m_sjsr_RuntimeString$().hashCode__T__I(this$2))
+});
+$c_jl_StackTraceElement.prototype.setColumnNumber = (function(arg$1) {
+  var prep0 = $uI(arg$1);
+  return this.$$js$exported$meth$setColumnNumber__I__O(prep0)
+});
+$c_jl_StackTraceElement.prototype.getColumnNumber = (function() {
+  return this.$$js$exported$meth$getColumnNumber__O()
+});
+function $is_jl_StackTraceElement(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.jl_StackTraceElement)))
+}
+function $as_jl_StackTraceElement(obj) {
+  return (($is_jl_StackTraceElement(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "java.lang.StackTraceElement"))
+}
+function $isArrayOf_jl_StackTraceElement(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.jl_StackTraceElement)))
+}
+function $asArrayOf_jl_StackTraceElement(obj, depth) {
+  return (($isArrayOf_jl_StackTraceElement(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljava.lang.StackTraceElement;", depth))
+}
+var $d_jl_StackTraceElement = new $TypeData().initClass({
+  jl_StackTraceElement: 0
+}, false, "java.lang.StackTraceElement", {
+  jl_StackTraceElement: 1,
+  O: 1,
+  Ljava_io_Serializable: 1
+});
+$c_jl_StackTraceElement.prototype.$classData = $d_jl_StackTraceElement;
 /** @constructor */
 function $c_jl_Throwable() {
   $c_O.call(this);
@@ -19107,11 +21141,94 @@ $c_jl_Throwable.prototype.toString__T = (function() {
   var message = this.getMessage__T();
   return ((message === null) ? className : ((className + ": ") + message))
 });
+$c_jl_Throwable.prototype.getStackTrace__Ajl_StackTraceElement = (function() {
+  if ((this.stackTrace$1 === null)) {
+    this.stackTrace$1 = $m_sjsr_StackTrace$().extract__jl_Throwable__Ajl_StackTraceElement(this)
+  };
+  return this.stackTrace$1
+});
 $c_jl_Throwable.prototype.init___T__jl_Throwable = (function(s, e) {
   this.s$1 = s;
   this.e$1 = e;
   this.fillInStackTrace__jl_Throwable();
   return this
+});
+$c_jl_Throwable.prototype.printStackTrace__Ljava_io_PrintStream__V = (function(s) {
+  var f = (function($this, s$1) {
+    return (function(x$1$2) {
+      var x$1 = $as_T(x$1$2);
+      s$1.println__T__V(x$1)
+    })
+  })(this, s);
+  this.getStackTrace__Ajl_StackTraceElement();
+  var arg1 = this.toString__T();
+  f(arg1);
+  if ((this.stackTrace$1.u.length !== 0)) {
+    var i = 0;
+    while ((i < this.stackTrace$1.u.length)) {
+      var arg1$1 = ("  at " + this.stackTrace$1.get(i));
+      f(arg1$1);
+      i = ((1 + i) | 0)
+    }
+  } else {
+    f("  <no stack trace available>")
+  };
+  var wCause = this;
+  while (true) {
+    var jsx$2 = wCause;
+    var this$1 = wCause;
+    if ((jsx$2 !== this$1.e$1)) {
+      var this$2 = wCause;
+      var jsx$1 = (this$2.e$1 !== null)
+    } else {
+      var jsx$1 = false
+    };
+    if (jsx$1) {
+      var parentTrace = wCause.getStackTrace__Ajl_StackTraceElement();
+      var this$3 = wCause;
+      wCause = this$3.e$1;
+      var thisTrace = wCause.getStackTrace__Ajl_StackTraceElement();
+      var thisLength = thisTrace.u.length;
+      var parentLength = parentTrace.u.length;
+      var arg1$2 = ("Caused by: " + wCause.toString__T());
+      f(arg1$2);
+      if ((thisLength !== 0)) {
+        var sameFrameCount = 0;
+        while (true) {
+          if (((sameFrameCount < thisLength) && (sameFrameCount < parentLength))) {
+            var x = thisTrace.get((((-1) + ((thisLength - sameFrameCount) | 0)) | 0));
+            var x$2 = parentTrace.get((((-1) + ((parentLength - sameFrameCount) | 0)) | 0));
+            var jsx$3 = ((x === null) ? (x$2 === null) : x.equals__O__Z(x$2))
+          } else {
+            var jsx$3 = false
+          };
+          if (jsx$3) {
+            sameFrameCount = ((1 + sameFrameCount) | 0)
+          } else {
+            break
+          }
+        };
+        if ((sameFrameCount > 0)) {
+          sameFrameCount = (((-1) + sameFrameCount) | 0)
+        };
+        var lengthToPrint = ((thisLength - sameFrameCount) | 0);
+        var i$2 = 0;
+        while ((i$2 < lengthToPrint)) {
+          var arg1$3 = ("  at " + thisTrace.get(i$2));
+          f(arg1$3);
+          i$2 = ((1 + i$2) | 0)
+        };
+        if ((sameFrameCount > 0)) {
+          var arg1$4 = (("  ... " + sameFrameCount) + " more");
+          f(arg1$4)
+        }
+      } else {
+        f("  <no stack trace available>")
+      }
+    } else {
+      break
+    }
+  }
 });
 function $is_jl_Throwable(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.jl_Throwable)))
@@ -19571,15 +21688,6 @@ function $f_sc_Iterator__toStream__sci_Stream($thiz) {
     return $m_sci_Stream$Empty$()
   }
 }
-function $f_sc_Iterator__copyToArray__O__I__I__V($thiz, xs, start, len) {
-  var i = start;
-  var y = (($m_sr_ScalaRunTime$().array$undlength__O__I(xs) - start) | 0);
-  var end = ((start + ((len < y) ? len : y)) | 0);
-  while (((i < end) && $thiz.hasNext__Z())) {
-    $m_sr_ScalaRunTime$().array$undupdate__O__I__O__V(xs, i, $thiz.next__O());
-    i = ((1 + i) | 0)
-  }
-}
 function $f_sc_Iterator__drop__I__sc_Iterator($thiz, n) {
   var j = 0;
   while (((j < n) && $thiz.hasNext__Z())) {
@@ -19824,6 +21932,51 @@ var $d_sci_List$$anon$1 = new $TypeData().initClass({
   F1: 1
 });
 $c_sci_List$$anon$1.prototype.$classData = $d_sci_List$$anon$1;
+/** @constructor */
+function $c_sci_Stream$StreamWithFilter() {
+  $c_O.call(this);
+  this.filtered$1 = null;
+  this.p$1 = null;
+  this.s$1 = null;
+  this.bitmap$0$1 = false
+}
+$c_sci_Stream$StreamWithFilter.prototype = new $h_O();
+$c_sci_Stream$StreamWithFilter.prototype.constructor = $c_sci_Stream$StreamWithFilter;
+/** @constructor */
+function $h_sci_Stream$StreamWithFilter() {
+  /*<skip>*/
+}
+$h_sci_Stream$StreamWithFilter.prototype = $c_sci_Stream$StreamWithFilter.prototype;
+$c_sci_Stream$StreamWithFilter.prototype.foreach__F1__V = (function(f) {
+  this.filtered__p1__sci_Stream().foreach__F1__V(f)
+});
+$c_sci_Stream$StreamWithFilter.prototype.filtered__p1__sci_Stream = (function() {
+  return ((!this.bitmap$0$1) ? this.filtered$lzycompute__p1__sci_Stream() : this.filtered$1)
+});
+$c_sci_Stream$StreamWithFilter.prototype.init___F0__F1 = (function(sl, p) {
+  this.p$1 = p;
+  this.s$1 = $as_sci_Stream(sl.apply__O());
+  return this
+});
+$c_sci_Stream$StreamWithFilter.prototype.filtered$lzycompute__p1__sci_Stream = (function() {
+  if ((!this.bitmap$0$1)) {
+    var this$1 = this.s$1;
+    var p = this.p$1;
+    var f = this$1.filterImpl__F1__Z__sci_Stream(p, false);
+    this.s$1 = null;
+    this.filtered$1 = f;
+    this.bitmap$0$1 = true
+  };
+  return this.filtered$1
+});
+var $d_sci_Stream$StreamWithFilter = new $TypeData().initClass({
+  sci_Stream$StreamWithFilter: 0
+}, false, "scala.collection.immutable.Stream$StreamWithFilter", {
+  sci_Stream$StreamWithFilter: 1,
+  O: 1,
+  scg_FilterMonadic: 1
+});
+$c_sci_Stream$StreamWithFilter.prototype.$classData = $d_sci_Stream$StreamWithFilter;
 function $f_scm_Builder__sizeHint__sc_TraversableLike__V($thiz, coll) {
   var x1 = coll.sizeHintIfCheap__I();
   switch (x1) {
@@ -19929,6 +22082,20 @@ $c_sr_AbstractFunction3.prototype.toString__T = (function() {
   return "<function3>"
 });
 /** @constructor */
+function $c_sr_AbstractFunction4() {
+  $c_O.call(this)
+}
+$c_sr_AbstractFunction4.prototype = new $h_O();
+$c_sr_AbstractFunction4.prototype.constructor = $c_sr_AbstractFunction4;
+/** @constructor */
+function $h_sr_AbstractFunction4() {
+  /*<skip>*/
+}
+$h_sr_AbstractFunction4.prototype = $c_sr_AbstractFunction4.prototype;
+$c_sr_AbstractFunction4.prototype.toString__T = (function() {
+  return "<function4>"
+});
+/** @constructor */
 function $c_sr_BooleanRef() {
   $c_O.call(this);
   this.elem$1 = false
@@ -20027,18 +22194,6 @@ var $d_sr_ObjectRef = new $TypeData().initClass({
   Ljava_io_Serializable: 1
 });
 $c_sr_ObjectRef.prototype.$classData = $d_sr_ObjectRef;
-function $is_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_Generic$MountedWithRoot)))
-}
-function $as_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj) {
-  return (($is_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.Generic$MountedWithRoot"))
-}
-function $isArrayOf_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_Generic$MountedWithRoot)))
-}
-function $asArrayOf_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj, depth) {
-  return (($isArrayOf_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.Generic$MountedWithRoot;", depth))
-}
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$() {
   $c_O.call(this)
@@ -20056,24 +22211,27 @@ $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$.prototype.init___ = (fun
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$.prototype.shouldComponentUpdate__Ljapgolly_scalajs_react_internal_Lens = (function() {
   $m_Ljapgolly_scalajs_react_internal_Lens$();
   var get = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
-    return (function(x$13$2) {
-      var x$13 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle(x$13$2);
-      return x$13.shouldComponentUpdate$1
+    return (function(x$19$2) {
+      var x$19 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle(x$19$2);
+      return x$19.shouldComponentUpdate$1
     })
   })(this));
   var set = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2) {
     return (function(n$2) {
       var n = $as_s_Option(n$2);
       return new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, n$1) {
-        return (function(x$14$2) {
-          var x$14 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle(x$14$2);
-          var x$16 = x$14.componentDidMount$1;
-          var x$17 = x$14.componentDidUpdate$1;
-          var x$18 = x$14.componentWillMount$1;
-          var x$19 = x$14.componentWillReceiveProps$1;
-          var x$20 = x$14.componentWillUnmount$1;
-          var x$21 = x$14.componentWillUpdate$1;
-          return new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle().init___s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option(x$16, x$17, x$18, x$19, x$20, x$21, n$1)
+        return (function(x$20$2) {
+          var x$20 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle(x$20$2);
+          var x$92 = x$20.componentDidCatch$1;
+          var x$93 = x$20.componentDidMount$1;
+          var x$94 = x$20.componentDidUpdate$1;
+          var x$95 = x$20.componentWillMount$1;
+          var x$96 = x$20.componentWillReceiveProps$1;
+          var x$97 = x$20.componentWillUnmount$1;
+          var x$98 = x$20.componentWillUpdate$1;
+          var x$99 = x$20.getDerivedStateFromProps$1;
+          var x$100 = x$20.getSnapshotBeforeUpdate$1;
+          return new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle().init___s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option(x$92, x$93, x$94, x$95, x$96, x$97, x$98, x$99, x$100, n$1)
         })
       })(this$2, n))
     })
@@ -20083,24 +22241,27 @@ $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$.prototype.shouldComponen
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$.prototype.componentDidUpdate__Ljapgolly_scalajs_react_internal_Lens = (function() {
   $m_Ljapgolly_scalajs_react_internal_Lens$();
   var get = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
-    return (function(x$3$2) {
-      var x$3 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle(x$3$2);
-      return x$3.componentDidUpdate$1
+    return (function(x$5$2) {
+      var x$5 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle(x$5$2);
+      return x$5.componentDidUpdate$1
     })
   })(this));
   var set = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2) {
     return (function(n$2) {
       var n = $as_s_Option(n$2);
       return new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, n$1) {
-        return (function(x$4$2) {
-          var x$4 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle(x$4$2);
-          var x$51 = x$4.componentDidMount$1;
-          var x$52 = x$4.componentWillMount$1;
-          var x$53 = x$4.componentWillReceiveProps$1;
-          var x$54 = x$4.componentWillUnmount$1;
-          var x$55 = x$4.componentWillUpdate$1;
-          var x$56 = x$4.shouldComponentUpdate$1;
-          return new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle().init___s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option(x$51, n$1, x$52, x$53, x$54, x$55, x$56)
+        return (function(x$6$2) {
+          var x$6 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle(x$6$2);
+          var x$32 = x$6.componentDidCatch$1;
+          var x$33 = x$6.componentDidMount$1;
+          var x$34 = x$6.componentWillMount$1;
+          var x$35 = x$6.componentWillReceiveProps$1;
+          var x$36 = x$6.componentWillUnmount$1;
+          var x$37 = x$6.componentWillUpdate$1;
+          var x$38 = x$6.getDerivedStateFromProps$1;
+          var x$39 = x$6.getSnapshotBeforeUpdate$1;
+          var x$40 = x$6.shouldComponentUpdate$1;
+          return new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle().init___s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option(x$32, x$33, n$1, x$34, x$35, x$36, x$37, x$38, x$39, x$40)
         })
       })(this$2, n))
     })
@@ -20110,24 +22271,27 @@ $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$.prototype.componentDidUp
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$.prototype.componentWillUnmount__Ljapgolly_scalajs_react_internal_Lens = (function() {
   $m_Ljapgolly_scalajs_react_internal_Lens$();
   var get = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
-    return (function(x$7$2) {
-      var x$7 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle(x$7$2);
-      return x$7.componentWillUnmount$1
+    return (function(x$9$2) {
+      var x$9 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle(x$9$2);
+      return x$9.componentWillUnmount$1
     })
   })(this));
   var set = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2) {
     return (function(n$2) {
       var n = $as_s_Option(n$2);
       return new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, n$1) {
-        return (function(x$8$2) {
-          var x$8 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle(x$8$2);
-          var x$30 = x$8.componentDidMount$1;
-          var x$31 = x$8.componentDidUpdate$1;
-          var x$32 = x$8.componentWillMount$1;
-          var x$33 = x$8.componentWillReceiveProps$1;
-          var x$34 = x$8.componentWillUpdate$1;
-          var x$35 = x$8.shouldComponentUpdate$1;
-          return new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle().init___s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option(x$30, x$31, x$32, x$33, n$1, x$34, x$35)
+        return (function(x$10$2) {
+          var x$10 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle(x$10$2);
+          var x$62 = x$10.componentDidCatch$1;
+          var x$63 = x$10.componentDidMount$1;
+          var x$64 = x$10.componentDidUpdate$1;
+          var x$65 = x$10.componentWillMount$1;
+          var x$66 = x$10.componentWillReceiveProps$1;
+          var x$67 = x$10.componentWillUpdate$1;
+          var x$68 = x$10.getDerivedStateFromProps$1;
+          var x$69 = x$10.getSnapshotBeforeUpdate$1;
+          var x$70 = x$10.shouldComponentUpdate$1;
+          return new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle().init___s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option(x$62, x$63, x$64, x$65, x$66, n$1, x$67, x$68, x$69, x$70)
         })
       })(this$2, n))
     })
@@ -20143,24 +22307,27 @@ $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$.prototype.japgolly$scala
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$.prototype.componentDidMount__Ljapgolly_scalajs_react_internal_Lens = (function() {
   $m_Ljapgolly_scalajs_react_internal_Lens$();
   var get = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
-    return (function(x$1$2) {
-      var x$1 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle(x$1$2);
-      return x$1.componentDidMount$1
+    return (function(x$3$2) {
+      var x$3 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle(x$3$2);
+      return x$3.componentDidMount$1
     })
   })(this));
   var set = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2) {
     return (function(n$2) {
       var n = $as_s_Option(n$2);
       return new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1, n$1) {
-        return (function(x$2$2) {
-          var x$2 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle(x$2$2);
-          var componentDidUpdate = x$2.componentDidUpdate$1;
-          var componentWillMount = x$2.componentWillMount$1;
-          var componentWillReceiveProps = x$2.componentWillReceiveProps$1;
-          var componentWillUnmount = x$2.componentWillUnmount$1;
-          var componentWillUpdate = x$2.componentWillUpdate$1;
-          var shouldComponentUpdate = x$2.shouldComponentUpdate$1;
-          return new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle().init___s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option(n$1, componentDidUpdate, componentWillMount, componentWillReceiveProps, componentWillUnmount, componentWillUpdate, shouldComponentUpdate)
+        return (function(x$4$2) {
+          var x$4 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle(x$4$2);
+          var x$22 = x$4.componentDidCatch$1;
+          var x$23 = x$4.componentDidUpdate$1;
+          var x$24 = x$4.componentWillMount$1;
+          var x$25 = x$4.componentWillReceiveProps$1;
+          var x$26 = x$4.componentWillUnmount$1;
+          var x$27 = x$4.componentWillUpdate$1;
+          var x$28 = x$4.getDerivedStateFromProps$1;
+          var x$29 = x$4.getSnapshotBeforeUpdate$1;
+          var x$30 = x$4.shouldComponentUpdate$1;
+          return new $c_Ljapgolly_scalajs_react_component_builder_Lifecycle().init___s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option(x$22, n$1, x$23, x$24, x$25, x$26, x$27, x$28, x$29, x$30)
         })
       })(this$2, n))
     })
@@ -20217,48 +22384,6 @@ function $m_Ljapgolly_scalajs_react_extra_router_AbsUrl$() {
   return $n_Ljapgolly_scalajs_react_extra_router_AbsUrl$
 }
 /** @constructor */
-function $c_Ljapgolly_scalajs_react_extra_router_BaseUrl$() {
-  $c_O.call(this)
-}
-$c_Ljapgolly_scalajs_react_extra_router_BaseUrl$.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_extra_router_BaseUrl$.prototype.constructor = $c_Ljapgolly_scalajs_react_extra_router_BaseUrl$;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_extra_router_BaseUrl$() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_extra_router_BaseUrl$.prototype = $c_Ljapgolly_scalajs_react_extra_router_BaseUrl$.prototype;
-$c_Ljapgolly_scalajs_react_extra_router_BaseUrl$.prototype.init___ = (function() {
-  return this
-});
-$c_Ljapgolly_scalajs_react_extra_router_BaseUrl$.prototype.fromWindowOrigin__Ljapgolly_scalajs_react_extra_router_BaseUrl = (function() {
-  var l = $m_Lorg_scalajs_dom_package$().window__Lorg_scalajs_dom_raw_Window().location;
-  var url = (($as_T(l.protocol) + "//") + $as_T(l.hostname));
-  var thiz = $as_T(l.port);
-  if ((thiz === null)) {
-    throw new $c_jl_NullPointerException().init___()
-  };
-  if ((!$m_ju_regex_Pattern$().matches__T__jl_CharSequence__Z("^(?:80)?$", thiz))) {
-    url = ((url + ":") + $as_T(l.port))
-  };
-  return new $c_Ljapgolly_scalajs_react_extra_router_BaseUrl().init___T(url)
-});
-var $d_Ljapgolly_scalajs_react_extra_router_BaseUrl$ = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_extra_router_BaseUrl$: 0
-}, false, "japgolly.scalajs.react.extra.router.BaseUrl$", {
-  Ljapgolly_scalajs_react_extra_router_BaseUrl$: 1,
-  O: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_Ljapgolly_scalajs_react_extra_router_BaseUrl$.prototype.$classData = $d_Ljapgolly_scalajs_react_extra_router_BaseUrl$;
-var $n_Ljapgolly_scalajs_react_extra_router_BaseUrl$ = (void 0);
-function $m_Ljapgolly_scalajs_react_extra_router_BaseUrl$() {
-  if ((!$n_Ljapgolly_scalajs_react_extra_router_BaseUrl$)) {
-    $n_Ljapgolly_scalajs_react_extra_router_BaseUrl$ = new $c_Ljapgolly_scalajs_react_extra_router_BaseUrl$().init___()
-  };
-  return $n_Ljapgolly_scalajs_react_extra_router_BaseUrl$
-}
-/** @constructor */
 function $c_Ljapgolly_scalajs_react_extra_router_RouterConfig$() {
   $c_O.call(this);
   this.nopLogger$1 = null
@@ -20300,6 +22425,17 @@ $c_Ljapgolly_scalajs_react_extra_router_RouterConfig$.prototype.defaultRenderFn_
       $as_Ljapgolly_scalajs_react_extra_router_RouterCtl(x$8$2);
       var r = $as_Ljapgolly_scalajs_react_extra_router_Resolution(r$2);
       return $as_Ljapgolly_scalajs_react_vdom_VdomElement(r.render$1.apply__O())
+    })
+  })(this))
+});
+$c_Ljapgolly_scalajs_react_extra_router_RouterConfig$.prototype.consoleLogger__F1 = (function() {
+  return new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(s$2) {
+      var s = $as_F0(s$2);
+      var jsx$1 = $m_Ljapgolly_scalajs_react_Callback$();
+      var s$1 = ("[Router] " + s.apply__O());
+      var array = [];
+      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(jsx$1.log__sjs_js_Any__sc_Seq__F0(s$1, new $c_sjs_js_WrappedArray().init___sjs_js_Array(array)))
     })
   })(this))
 });
@@ -20351,7 +22487,7 @@ $c_Ljapgolly_scalajs_react_extra_router_RouterLogic.prototype.init___Ljapgolly_s
       var url = $as_Ljapgolly_scalajs_react_extra_router_AbsUrl(url$2);
       return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($m_Ljapgolly_scalajs_react_CallbackTo$().flatMap$extension__F0__F1__F0($as_Ljapgolly_scalajs_react_CallbackTo(this$2$1.cfg$1.logger$1.apply__O__O(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this$1, url$1) {
         return (function() {
-          return new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["Syncing to ", "."])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([url$1]))
+          return (("Syncing to " + url$1) + ".")
         })
       })(this$2$1, url)))).japgolly$scalajs$react$CallbackTo$$f$1, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$2, url$3) {
         return (function(_$2) {
@@ -20361,7 +22497,7 @@ $c_Ljapgolly_scalajs_react_extra_router_RouterLogic.prototype.init___Ljapgolly_s
               var res = $as_Ljapgolly_scalajs_react_extra_router_Resolution(res$2);
               return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($m_Ljapgolly_scalajs_react_CallbackTo$().flatMap$extension__F0__F1__F0($as_Ljapgolly_scalajs_react_CallbackTo($this$2.cfg$1.logger$1.apply__O__O(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this$3, res$1) {
                 return (function() {
-                  return new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["Resolved to page ", "."])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([res$1.page$1]))
+                  return (("Resolved to page " + res$1.page$1) + ".")
                 })
               })($this$2, res)))).japgolly$scalajs$react$CallbackTo$$f$1, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$3, res$3) {
                 return (function(_$2$1) {
@@ -20393,9 +22529,8 @@ $c_Ljapgolly_scalajs_react_extra_router_RouterLogic.prototype.init___Ljapgolly_s
 $c_Ljapgolly_scalajs_react_extra_router_RouterLogic.prototype.redirectToPath__Ljapgolly_scalajs_react_extra_router_Path__Ljapgolly_scalajs_react_extra_router_Redirect$Method__Ljapgolly_scalajs_react_extra_router_RouteCmd = (function(path, method) {
   var msg = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, path$1, method$1) {
     return (function() {
-      var jsx$2 = new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["Redirecting to ", " via ", "."]));
       var base = $this.baseUrl$1;
-      return jsx$2.s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([base.apply__Ljapgolly_scalajs_react_extra_router_Path__Ljapgolly_scalajs_react_extra_router_AbsUrl(path$1), method$1]))
+      return (((("Redirecting to " + base.apply__Ljapgolly_scalajs_react_extra_router_Path__Ljapgolly_scalajs_react_extra_router_AbsUrl(path$1)) + " via ") + method$1) + ".")
     })
   })(this, path, method));
   var jsx$1 = new $c_Ljapgolly_scalajs_react_extra_router_RouteCmd$Log().init___F0(msg).$$greater$greater__Ljapgolly_scalajs_react_extra_router_RouteCmd__Ljapgolly_scalajs_react_extra_router_RouteCmd(this.redirectCmd__Ljapgolly_scalajs_react_extra_router_Path__Ljapgolly_scalajs_react_extra_router_Redirect$Method__Ljapgolly_scalajs_react_extra_router_RouteCmd(path, method));
@@ -20443,7 +22578,7 @@ $c_Ljapgolly_scalajs_react_extra_router_RouterLogic.prototype.interpret__Ljapgol
     })(this, url));
     var runBefore = $as_Ljapgolly_scalajs_react_CallbackTo(this.cfg$1.logger$1.apply__O__O(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$2, url$2) {
       return (function() {
-        return new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["PushState: [", "]"])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([url$2.value$2]))
+        return (("PushState: [" + url$2.value$2) + "]")
       })
     })(this, url)))).japgolly$scalajs$react$CallbackTo$$f$1;
     var ev$1 = new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($m_Ljapgolly_scalajs_react_CallbackTo$().$$greater$greater$extension__F0__F0__F0(runBefore, f));
@@ -20458,7 +22593,7 @@ $c_Ljapgolly_scalajs_react_extra_router_RouterLogic.prototype.interpret__Ljapgol
     })(this, url$2$1));
     var runBefore$1 = $as_Ljapgolly_scalajs_react_CallbackTo(this.cfg$1.logger$1.apply__O__O(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$4$1, url$2$3) {
       return (function() {
-        return new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["ReplaceState: [", "]"])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([url$2$3.value$2]))
+        return (("ReplaceState: [" + url$2$3.value$2) + "]")
       })
     })(this, url$2$1)))).japgolly$scalajs$react$CallbackTo$$f$1;
     var ev$2 = new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($m_Ljapgolly_scalajs_react_CallbackTo$().$$greater$greater$extension__F0__F0__F0(runBefore$1, f$1));
@@ -20473,7 +22608,7 @@ $c_Ljapgolly_scalajs_react_extra_router_RouterLogic.prototype.interpret__Ljapgol
     })(this, url$3));
     var runBefore$2 = $as_Ljapgolly_scalajs_react_CallbackTo(this.cfg$1.logger$1.apply__O__O(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$6$1, url$3$2) {
       return (function() {
-        return new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["SetWindowLocation: [", "]"])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([url$3$2.value$2]))
+        return (("SetWindowLocation: [" + url$3$2.value$2) + "]")
       })
     })(this, url$3)))).japgolly$scalajs$react$CallbackTo$$f$1;
     var ev$3 = new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($m_Ljapgolly_scalajs_react_CallbackTo$().$$greater$greater$extension__F0__F0__F0(runBefore$2, f$2));
@@ -20510,9 +22645,9 @@ $c_Ljapgolly_scalajs_react_extra_router_RouterLogic.prototype.interpret__Ljapgol
       while (this$10.$$undhasNext$2) {
         var arg1 = this$10.next__O();
         var arg1$1 = elem$1;
-        var x$8 = $as_Ljapgolly_scalajs_react_CallbackTo(arg1$1).japgolly$scalajs$react$CallbackTo$$f$1;
-        var x$9 = $as_Ljapgolly_scalajs_react_extra_router_RouteCmd(arg1);
-        elem$1 = new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($m_Ljapgolly_scalajs_react_CallbackTo$().$$greater$greater$extension__F0__F0__F0(x$8, this.interpret__Ljapgolly_scalajs_react_extra_router_RouteCmd__F0(x$9)))
+        var x$10 = $as_Ljapgolly_scalajs_react_CallbackTo(arg1$1).japgolly$scalajs$react$CallbackTo$$f$1;
+        var x$11 = $as_Ljapgolly_scalajs_react_extra_router_RouteCmd(arg1);
+        elem$1 = new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($m_Ljapgolly_scalajs_react_CallbackTo$().$$greater$greater$extension__F0__F0__F0(x$10, this.interpret__Ljapgolly_scalajs_react_extra_router_RouteCmd__F0(x$11)))
       };
       return jsx$1.$$greater$greater$extension__F0__F0__F0($as_Ljapgolly_scalajs_react_CallbackTo(elem$1).japgolly$scalajs$react$CallbackTo$$f$1, this.interpret__Ljapgolly_scalajs_react_extra_router_RouteCmd__F0(b))
     } else {
@@ -20524,9 +22659,8 @@ $c_Ljapgolly_scalajs_react_extra_router_RouterLogic.prototype.wrongBase__Ljapgol
   var root = new $c_Ljapgolly_scalajs_react_extra_router_Path().init___T("");
   var msg = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, wrongUrl$1, root$1) {
     return (function() {
-      var jsx$1 = new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["Wrong base: ", " is outside of ", "."]));
       var base = $this.baseUrl$1;
-      return jsx$1.s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([wrongUrl$1, base.apply__Ljapgolly_scalajs_react_extra_router_Path__Ljapgolly_scalajs_react_extra_router_AbsUrl(root$1)]))
+      return (((("Wrong base: " + wrongUrl$1) + " is outside of ") + base.apply__Ljapgolly_scalajs_react_extra_router_Path__Ljapgolly_scalajs_react_extra_router_AbsUrl(root$1)) + ".")
     })
   })(this, wrongUrl, root));
   return new $c_Ljapgolly_scalajs_react_extra_router_RouteCmd$Log().init___F0(msg).$$greater$greater__Ljapgolly_scalajs_react_extra_router_RouteCmd__Ljapgolly_scalajs_react_extra_router_RouteCmd(this.redirectToPath__Ljapgolly_scalajs_react_extra_router_Path__Ljapgolly_scalajs_react_extra_router_Redirect$Method__Ljapgolly_scalajs_react_extra_router_RouteCmd(root, $m_Ljapgolly_scalajs_react_extra_router_Redirect$Push$()))
@@ -20570,7 +22704,7 @@ $c_Ljapgolly_scalajs_react_extra_router_RouterLogic.prototype.redirectCmd__Ljapg
 $c_Ljapgolly_scalajs_react_extra_router_RouterLogic.prototype.setPath__Ljapgolly_scalajs_react_extra_router_Path__Ljapgolly_scalajs_react_extra_router_RouteCmd = (function(path) {
   var msg = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, path$1) {
     return (function() {
-      return new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["Set route to ", "."])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([path$1]))
+      return (("Set route to " + path$1) + ".")
     })
   })(this, path));
   var jsx$1 = new $c_Ljapgolly_scalajs_react_extra_router_RouteCmd$Log().init___F0(msg);
@@ -20585,7 +22719,7 @@ $c_Ljapgolly_scalajs_react_extra_router_RouterLogic.prototype.syncToPath__Ljapgo
     var action = $as_Ljapgolly_scalajs_react_extra_router_Action(this.cfg$1.action$1.apply__O__O__O(path, page));
     var msg = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, path$1, page$1, action$1) {
       return (function() {
-        return new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["Action for page ", " at ", " is ", "."])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([page$1, path$1, action$1]))
+        return (((((("Action for page " + page$1) + " at ") + path$1) + " is ") + action$1) + ".")
       })
     })(this, path, page, action));
     var cmd = new $c_Ljapgolly_scalajs_react_extra_router_RouteCmd$Log().init___F0(msg).$$greater$greater__Ljapgolly_scalajs_react_extra_router_RouteCmd__Ljapgolly_scalajs_react_extra_router_RouteCmd(this.resolve__O__Ljapgolly_scalajs_react_extra_router_Action__Ljapgolly_scalajs_react_extra_router_RouteCmd(page, action))
@@ -20599,7 +22733,7 @@ $c_Ljapgolly_scalajs_react_extra_router_RouterLogic.prototype.syncToPath__Ljapgo
   };
   var msg$1 = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function(this$2, path$2, parsed$1) {
     return (function() {
-      return new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["Parsed ", " to ", "."])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([path$2, parsed$1]))
+      return (((("Parsed " + path$2) + " to ") + parsed$1) + ".")
     })
   })(this, path, parsed));
   return new $c_Ljapgolly_scalajs_react_extra_router_RouteCmd$Log().init___F0(msg$1).$$greater$greater__Ljapgolly_scalajs_react_extra_router_RouteCmd__Ljapgolly_scalajs_react_extra_router_RouteCmd(cmd)
@@ -20731,10 +22865,10 @@ $c_Ljapgolly_scalajs_react_internal_Semigroup$.prototype.init___ = (function() {
       var b = $as_Ljapgolly_scalajs_react_CallbackTo(x$4.apply__O()).japgolly$scalajs$react$CallbackTo$$f$1;
       var this$3 = $m_Ljapgolly_scalajs_react_CallbackTo$();
       var op = new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function($this$1) {
-        return (function(x$18$2, x$19$2) {
-          var x$18 = $as_F0(x$18$2);
+        return (function(x$19$2, x$20$2) {
           var x$19 = $as_F0(x$19$2);
-          return ($uZ(x$18.apply__O()) || $uZ(x$19.apply__O()))
+          var x$20 = $as_F0(x$20$2);
+          return ($uZ(x$19.apply__O()) || $uZ(x$20.apply__O()))
         })
       })(this$1));
       var x = new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0(x$3);
@@ -20808,12 +22942,14 @@ function $c_Ljapgolly_scalajs_react_vdom_Builder$ToVdomElement() {
   this.props$1 = null;
   this.styles$1 = null;
   this.children$1 = null;
+  this.key$1 = null;
   this.nonEmptyClassName$1 = null;
   this.addAttr$1 = null;
   this.addClassName$1 = null;
   this.addStyle$1 = null;
   this.addStylesObject$1 = null;
-  this.appendChild$1 = null
+  this.appendChild$1 = null;
+  this.setKey$1 = null
 }
 $c_Ljapgolly_scalajs_react_vdom_Builder$ToVdomElement.prototype = new $h_O();
 $c_Ljapgolly_scalajs_react_vdom_Builder$ToVdomElement.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_Builder$ToVdomElement;
@@ -20829,8 +22965,8 @@ $c_Ljapgolly_scalajs_react_vdom_Builder$ToVdomElement.prototype.init___ = (funct
 $c_Ljapgolly_scalajs_react_vdom_Builder$ToVdomElement.prototype.render__T__Ljapgolly_scalajs_react_vdom_VdomElement = (function(tag) {
   $f_Ljapgolly_scalajs_react_vdom_Builder$ToJs__addClassNameToProps__V(this);
   $f_Ljapgolly_scalajs_react_vdom_Builder$ToJs__addStyleToProps__V(this);
-  var e = $m_Ljapgolly_scalajs_react_vdom_Builder$ToRawReactElement$().build$1.apply__O__O__O__O(tag, this.props$1, this.children$1);
-  return new $c_Ljapgolly_scalajs_react_vdom_VdomElement().init___Ljapgolly_scalajs_react_raw_package$ReactElement(e)
+  var e = $m_Ljapgolly_scalajs_react_vdom_Builder$ToRawReactElement$().build$1.apply__O__O__O__O__O(tag, this.props$1, this.key$1, this.children$1);
+  return new $c_Ljapgolly_scalajs_react_vdom_VdomElement().init___Ljapgolly_scalajs_react_raw_React$Element(e)
 });
 var $d_Ljapgolly_scalajs_react_vdom_Builder$ToVdomElement = new $TypeData().initClass({
   Ljapgolly_scalajs_react_vdom_Builder$ToVdomElement: 0
@@ -20841,6 +22977,102 @@ var $d_Ljapgolly_scalajs_react_vdom_Builder$ToVdomElement = new $TypeData().init
   Ljapgolly_scalajs_react_vdom_Builder: 1
 });
 $c_Ljapgolly_scalajs_react_vdom_Builder$ToVdomElement.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_Builder$ToVdomElement;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_vdom_HtmlAttrs$target$() {
+  $c_Ljapgolly_scalajs_react_vdom_Attr$Generic.call(this)
+}
+$c_Ljapgolly_scalajs_react_vdom_HtmlAttrs$target$.prototype = new $h_Ljapgolly_scalajs_react_vdom_Attr$Generic();
+$c_Ljapgolly_scalajs_react_vdom_HtmlAttrs$target$.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlAttrs$target$;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_vdom_HtmlAttrs$target$() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_vdom_HtmlAttrs$target$.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlAttrs$target$.prototype;
+$c_Ljapgolly_scalajs_react_vdom_HtmlAttrs$target$.prototype.init___Ljapgolly_scalajs_react_vdom_HtmlAttrs = (function($$outer) {
+  $c_Ljapgolly_scalajs_react_vdom_Attr.prototype.init___T.call(this, "target");
+  return this
+});
+var $d_Ljapgolly_scalajs_react_vdom_HtmlAttrs$target$ = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_vdom_HtmlAttrs$target$: 0
+}, false, "japgolly.scalajs.react.vdom.HtmlAttrs$target$", {
+  Ljapgolly_scalajs_react_vdom_HtmlAttrs$target$: 1,
+  Ljapgolly_scalajs_react_vdom_Attr$Generic: 1,
+  Ljapgolly_scalajs_react_vdom_Attr: 1,
+  O: 1
+});
+$c_Ljapgolly_scalajs_react_vdom_HtmlAttrs$target$.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlAttrs$target$;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$color$() {
+  $c_Ljapgolly_scalajs_react_vdom_Style.call(this)
+}
+$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$color$.prototype = new $h_Ljapgolly_scalajs_react_vdom_Style();
+$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$color$.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$color$;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_vdom_HtmlStyles$color$() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_vdom_HtmlStyles$color$.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$color$.prototype;
+$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$color$.prototype.init___Ljapgolly_scalajs_react_vdom_HtmlStyles = (function($$outer) {
+  $c_Ljapgolly_scalajs_react_vdom_Style.prototype.init___T.call(this, "color");
+  return this
+});
+var $d_Ljapgolly_scalajs_react_vdom_HtmlStyles$color$ = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_vdom_HtmlStyles$color$: 0
+}, false, "japgolly.scalajs.react.vdom.HtmlStyles$color$", {
+  Ljapgolly_scalajs_react_vdom_HtmlStyles$color$: 1,
+  Ljapgolly_scalajs_react_vdom_Style: 1,
+  Ljapgolly_scalajs_react_vdom_Attr: 1,
+  O: 1
+});
+$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$color$.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlStyles$color$;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$cursor$() {
+  $c_Ljapgolly_scalajs_react_vdom_Style.call(this)
+}
+$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$cursor$.prototype = new $h_Ljapgolly_scalajs_react_vdom_Style();
+$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$cursor$.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$cursor$;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_vdom_HtmlStyles$cursor$() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_vdom_HtmlStyles$cursor$.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$cursor$.prototype;
+$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$cursor$.prototype.init___Ljapgolly_scalajs_react_vdom_HtmlStyles = (function($$outer) {
+  $c_Ljapgolly_scalajs_react_vdom_Style.prototype.init___T.call(this, "cursor");
+  return this
+});
+var $d_Ljapgolly_scalajs_react_vdom_HtmlStyles$cursor$ = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_vdom_HtmlStyles$cursor$: 0
+}, false, "japgolly.scalajs.react.vdom.HtmlStyles$cursor$", {
+  Ljapgolly_scalajs_react_vdom_HtmlStyles$cursor$: 1,
+  Ljapgolly_scalajs_react_vdom_Style: 1,
+  Ljapgolly_scalajs_react_vdom_Attr: 1,
+  O: 1
+});
+$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$cursor$.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlStyles$cursor$;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$textDecoration$() {
+  $c_Ljapgolly_scalajs_react_vdom_Style.call(this)
+}
+$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$textDecoration$.prototype = new $h_Ljapgolly_scalajs_react_vdom_Style();
+$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$textDecoration$.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$textDecoration$;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_vdom_HtmlStyles$textDecoration$() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_vdom_HtmlStyles$textDecoration$.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$textDecoration$.prototype;
+$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$textDecoration$.prototype.init___Ljapgolly_scalajs_react_vdom_HtmlStyles = (function($$outer) {
+  $c_Ljapgolly_scalajs_react_vdom_Style.prototype.init___T.call(this, "textDecoration");
+  return this
+});
+var $d_Ljapgolly_scalajs_react_vdom_HtmlStyles$textDecoration$ = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_vdom_HtmlStyles$textDecoration$: 0
+}, false, "japgolly.scalajs.react.vdom.HtmlStyles$textDecoration$", {
+  Ljapgolly_scalajs_react_vdom_HtmlStyles$textDecoration$: 1,
+  Ljapgolly_scalajs_react_vdom_Style: 1,
+  Ljapgolly_scalajs_react_vdom_Attr: 1,
+  O: 1
+});
+$c_Ljapgolly_scalajs_react_vdom_HtmlStyles$textDecoration$.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlStyles$textDecoration$;
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle() {
   $c_Ljapgolly_scalajs_react_vdom_Style.call(this)
@@ -20924,6 +23156,30 @@ function $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$() {
   return $n_Ljapgolly_scalajs_react_vdom_HtmlTagOf$
 }
 /** @constructor */
+function $c_Ljapgolly_scalajs_react_vdom_HtmlTags$a$() {
+  $c_Ljapgolly_scalajs_react_vdom_TagOf.call(this)
+}
+$c_Ljapgolly_scalajs_react_vdom_HtmlTags$a$.prototype = new $h_Ljapgolly_scalajs_react_vdom_TagOf();
+$c_Ljapgolly_scalajs_react_vdom_HtmlTags$a$.prototype.constructor = $c_Ljapgolly_scalajs_react_vdom_HtmlTags$a$;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_vdom_HtmlTags$a$() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_vdom_HtmlTags$a$.prototype = $c_Ljapgolly_scalajs_react_vdom_HtmlTags$a$.prototype;
+$c_Ljapgolly_scalajs_react_vdom_HtmlTags$a$.prototype.init___Ljapgolly_scalajs_react_vdom_HtmlTags = (function($$outer) {
+  $c_Ljapgolly_scalajs_react_vdom_TagOf.prototype.init___T__sci_List__T.call(this, "a", $m_sci_Nil$(), $m_Ljapgolly_scalajs_react_vdom_Namespace$().Html$1);
+  return this
+});
+var $d_Ljapgolly_scalajs_react_vdom_HtmlTags$a$ = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_vdom_HtmlTags$a$: 0
+}, false, "japgolly.scalajs.react.vdom.HtmlTags$a$", {
+  Ljapgolly_scalajs_react_vdom_HtmlTags$a$: 1,
+  Ljapgolly_scalajs_react_vdom_TagOf: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_vdom_TagMod: 1
+});
+$c_Ljapgolly_scalajs_react_vdom_HtmlTags$a$.prototype.$classData = $d_Ljapgolly_scalajs_react_vdom_HtmlTags$a$;
+/** @constructor */
 function $c_Ljapgolly_scalajs_react_vdom_HtmlTags$input$() {
   $c_Ljapgolly_scalajs_react_vdom_TagOf.call(this);
   this.type$2 = null;
@@ -20945,7 +23201,8 @@ $c_Ljapgolly_scalajs_react_vdom_HtmlTags$input$.prototype.init___Ljapgolly_scala
   return this
 });
 $c_Ljapgolly_scalajs_react_vdom_HtmlTags$input$.prototype.withType__T__Ljapgolly_scalajs_react_vdom_TagOf = (function(t) {
-  return this.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array([this.type$2.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(t, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().string$1)]))
+  var array = [this.type$2.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(t, $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().string$1)];
+  return this.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array))
 });
 var $d_Ljapgolly_scalajs_react_vdom_HtmlTags$input$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_vdom_HtmlTags$input$: 0
@@ -21032,7 +23289,7 @@ function $h_Ljapgolly_scalajs_react_vdom_VdomElement() {
   /*<skip>*/
 }
 $h_Ljapgolly_scalajs_react_vdom_VdomElement.prototype = $c_Ljapgolly_scalajs_react_vdom_VdomElement.prototype;
-$c_Ljapgolly_scalajs_react_vdom_VdomElement.prototype.init___Ljapgolly_scalajs_react_raw_package$ReactElement = (function(rawElement) {
+$c_Ljapgolly_scalajs_react_vdom_VdomElement.prototype.init___Ljapgolly_scalajs_react_raw_React$Element = (function(rawElement) {
   this.rawElement$2 = rawElement;
   $c_Ljapgolly_scalajs_react_vdom_VdomNode.prototype.init___sjs_js_$bar.call(this, rawElement);
   return this
@@ -21289,6 +23546,86 @@ function $m_Lscalacss_internal_Attrs$textDecorationLine$() {
   return $n_Lscalacss_internal_Attrs$textDecorationLine$
 }
 /** @constructor */
+function $c_Lscalacss_internal_Attrs$transitionDelay$() {
+  $c_Lscalacss_internal_ValueT$TypedAttrTN.call(this);
+  this.attr$3 = null
+}
+$c_Lscalacss_internal_Attrs$transitionDelay$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrTN();
+$c_Lscalacss_internal_Attrs$transitionDelay$.prototype.constructor = $c_Lscalacss_internal_Attrs$transitionDelay$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$transitionDelay$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$transitionDelay$.prototype = $c_Lscalacss_internal_Attrs$transitionDelay$.prototype;
+$c_Lscalacss_internal_Attrs$transitionDelay$.prototype.init___ = (function() {
+  $c_Lscalacss_internal_ValueT$TypedAttrTN.prototype.init___T.call(this, ",");
+  $n_Lscalacss_internal_Attrs$transitionDelay$ = this;
+  var jsx$1 = $m_Lscalacss_internal_Attr$();
+  var this$1 = $m_Lscalacss_internal_Transform$();
+  var subject = $m_Lscalacss_internal_CanIUse$().transitions$1;
+  this.attr$3 = jsx$1.real__T__Lscalacss_internal_Transform__Lscalacss_internal_Attr("transition-delay", this$1.prefix__p1__sci_Map__F1__Lscalacss_internal_CssKV$Lens__Lscalacss_internal_Transform(subject, $m_Lscalacss_internal_CanIUse2$PrefixApply$().prepend$1, $m_Lscalacss_internal_CssKV$().key$1));
+  return this
+});
+$c_Lscalacss_internal_Attrs$transitionDelay$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$3
+});
+var $d_Lscalacss_internal_Attrs$transitionDelay$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$transitionDelay$: 0
+}, false, "scalacss.internal.Attrs$transitionDelay$", {
+  Lscalacss_internal_Attrs$transitionDelay$: 1,
+  Lscalacss_internal_ValueT$TypedAttrTN: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1
+});
+$c_Lscalacss_internal_Attrs$transitionDelay$.prototype.$classData = $d_Lscalacss_internal_Attrs$transitionDelay$;
+var $n_Lscalacss_internal_Attrs$transitionDelay$ = (void 0);
+function $m_Lscalacss_internal_Attrs$transitionDelay$() {
+  if ((!$n_Lscalacss_internal_Attrs$transitionDelay$)) {
+    $n_Lscalacss_internal_Attrs$transitionDelay$ = new $c_Lscalacss_internal_Attrs$transitionDelay$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$transitionDelay$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Attrs$transitionDuration$() {
+  $c_Lscalacss_internal_ValueT$TypedAttrTN.call(this);
+  this.attr$3 = null
+}
+$c_Lscalacss_internal_Attrs$transitionDuration$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttrTN();
+$c_Lscalacss_internal_Attrs$transitionDuration$.prototype.constructor = $c_Lscalacss_internal_Attrs$transitionDuration$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$transitionDuration$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$transitionDuration$.prototype = $c_Lscalacss_internal_Attrs$transitionDuration$.prototype;
+$c_Lscalacss_internal_Attrs$transitionDuration$.prototype.init___ = (function() {
+  $c_Lscalacss_internal_ValueT$TypedAttrTN.prototype.init___T.call(this, ",");
+  $n_Lscalacss_internal_Attrs$transitionDuration$ = this;
+  var jsx$1 = $m_Lscalacss_internal_Attr$();
+  var this$1 = $m_Lscalacss_internal_Transform$();
+  var subject = $m_Lscalacss_internal_CanIUse$().transitions$1;
+  this.attr$3 = jsx$1.real__T__Lscalacss_internal_Transform__Lscalacss_internal_Attr("transition-duration", this$1.prefix__p1__sci_Map__F1__Lscalacss_internal_CssKV$Lens__Lscalacss_internal_Transform(subject, $m_Lscalacss_internal_CanIUse2$PrefixApply$().prepend$1, $m_Lscalacss_internal_CssKV$().key$1));
+  return this
+});
+$c_Lscalacss_internal_Attrs$transitionDuration$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$3
+});
+var $d_Lscalacss_internal_Attrs$transitionDuration$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$transitionDuration$: 0
+}, false, "scalacss.internal.Attrs$transitionDuration$", {
+  Lscalacss_internal_Attrs$transitionDuration$: 1,
+  Lscalacss_internal_ValueT$TypedAttrTN: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1
+});
+$c_Lscalacss_internal_Attrs$transitionDuration$.prototype.$classData = $d_Lscalacss_internal_Attrs$transitionDuration$;
+var $n_Lscalacss_internal_Attrs$transitionDuration$ = (void 0);
+function $m_Lscalacss_internal_Attrs$transitionDuration$() {
+  if ((!$n_Lscalacss_internal_Attrs$transitionDuration$)) {
+    $n_Lscalacss_internal_Attrs$transitionDuration$ = new $c_Lscalacss_internal_Attrs$transitionDuration$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$transitionDuration$
+}
+/** @constructor */
 function $c_Lscalacss_internal_CanIUse$Agent$() {
   $c_O.call(this);
   this.AndroidBrowser$1 = null;
@@ -21536,6 +23873,47 @@ function $m_Lscalacss_internal_CssKV$() {
   return $n_Lscalacss_internal_CssKV$
 }
 /** @constructor */
+function $c_Lscalacss_internal_DslBase$MediaQueryEmpty$() {
+  $c_O.call(this)
+}
+$c_Lscalacss_internal_DslBase$MediaQueryEmpty$.prototype = new $h_O();
+$c_Lscalacss_internal_DslBase$MediaQueryEmpty$.prototype.constructor = $c_Lscalacss_internal_DslBase$MediaQueryEmpty$;
+/** @constructor */
+function $h_Lscalacss_internal_DslBase$MediaQueryEmpty$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_DslBase$MediaQueryEmpty$.prototype = $c_Lscalacss_internal_DslBase$MediaQueryEmpty$.prototype;
+$c_Lscalacss_internal_DslBase$MediaQueryEmpty$.prototype.init___ = (function() {
+  return this
+});
+$c_Lscalacss_internal_DslBase$MediaQueryEmpty$.prototype.F__F1 = (function() {
+  return new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(f$2) {
+      var f = $as_Lscalacss_internal_Media$Feature(f$2);
+      $m_s_package$();
+      var jsx$1 = new $c_s_util_Right().init___O(f);
+      var this$2 = $m_s_package$().Vector$1;
+      return new $c_Lscalacss_internal_Media$Query().init___s_util_Either__sci_Vector(jsx$1, this$2.NIL$6)
+    })
+  })(this))
+});
+var $d_Lscalacss_internal_DslBase$MediaQueryEmpty$ = new $TypeData().initClass({
+  Lscalacss_internal_DslBase$MediaQueryEmpty$: 0
+}, false, "scalacss.internal.DslBase$MediaQueryEmpty$", {
+  Lscalacss_internal_DslBase$MediaQueryEmpty$: 1,
+  O: 1,
+  Lscalacss_internal_Media$TypeAOps: 1,
+  Lscalacss_internal_Media$FeatureOps: 1
+});
+$c_Lscalacss_internal_DslBase$MediaQueryEmpty$.prototype.$classData = $d_Lscalacss_internal_DslBase$MediaQueryEmpty$;
+var $n_Lscalacss_internal_DslBase$MediaQueryEmpty$ = (void 0);
+function $m_Lscalacss_internal_DslBase$MediaQueryEmpty$() {
+  if ((!$n_Lscalacss_internal_DslBase$MediaQueryEmpty$)) {
+    $n_Lscalacss_internal_DslBase$MediaQueryEmpty$ = new $c_Lscalacss_internal_DslBase$MediaQueryEmpty$().init___()
+  };
+  return $n_Lscalacss_internal_DslBase$MediaQueryEmpty$
+}
+/** @constructor */
 function $c_Lscalacss_internal_Env$() {
   $c_O.call(this);
   this.empty$1 = null
@@ -21570,6 +23948,37 @@ function $m_Lscalacss_internal_Env$() {
     $n_Lscalacss_internal_Env$ = new $c_Lscalacss_internal_Env$().init___()
   };
   return $n_Lscalacss_internal_Env$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Literal$Typed$auto$() {
+  $c_Lscalacss_internal_Literal.call(this)
+}
+$c_Lscalacss_internal_Literal$Typed$auto$.prototype = new $h_Lscalacss_internal_Literal();
+$c_Lscalacss_internal_Literal$Typed$auto$.prototype.constructor = $c_Lscalacss_internal_Literal$Typed$auto$;
+/** @constructor */
+function $h_Lscalacss_internal_Literal$Typed$auto$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Literal$Typed$auto$.prototype = $c_Lscalacss_internal_Literal$Typed$auto$.prototype;
+$c_Lscalacss_internal_Literal$Typed$auto$.prototype.init___ = (function() {
+  $c_Lscalacss_internal_Literal.prototype.init___T.call(this, "auto");
+  return this
+});
+var $d_Lscalacss_internal_Literal$Typed$auto$ = new $TypeData().initClass({
+  Lscalacss_internal_Literal$Typed$auto$: 0
+}, false, "scalacss.internal.Literal$Typed$auto$", {
+  Lscalacss_internal_Literal$Typed$auto$: 1,
+  Lscalacss_internal_Literal: 1,
+  O: 1,
+  Lscalacss_internal_Literal$Typed$OverflowBehaviour: 1
+});
+$c_Lscalacss_internal_Literal$Typed$auto$.prototype.$classData = $d_Lscalacss_internal_Literal$Typed$auto$;
+var $n_Lscalacss_internal_Literal$Typed$auto$ = (void 0);
+function $m_Lscalacss_internal_Literal$Typed$auto$() {
+  if ((!$n_Lscalacss_internal_Literal$Typed$auto$)) {
+    $n_Lscalacss_internal_Literal$Typed$auto$ = new $c_Lscalacss_internal_Literal$Typed$auto$().init___()
+  };
+  return $n_Lscalacss_internal_Literal$Typed$auto$
 }
 /** @constructor */
 function $c_Lscalacss_internal_Literal$Typed$end$() {
@@ -21764,6 +24173,39 @@ function $m_Lscalacss_internal_StyleS$() {
     $n_Lscalacss_internal_StyleS$ = new $c_Lscalacss_internal_StyleS$().init___()
   };
   return $n_Lscalacss_internal_StyleS$
+}
+/** @constructor */
+function $c_Lscalacss_internal_ValueT$() {
+  $c_O.call(this)
+}
+$c_Lscalacss_internal_ValueT$.prototype = new $h_O();
+$c_Lscalacss_internal_ValueT$.prototype.constructor = $c_Lscalacss_internal_ValueT$;
+/** @constructor */
+function $h_Lscalacss_internal_ValueT$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_ValueT$.prototype = $c_Lscalacss_internal_ValueT$.prototype;
+$c_Lscalacss_internal_ValueT$.prototype.init___ = (function() {
+  return this
+});
+$c_Lscalacss_internal_ValueT$.prototype.concat__T__Lscalacss_internal_ValueT__Lscalacss_internal_ValueT__T = (function(sep, a, b) {
+  return ((("" + a.value$1) + sep) + b.value$1)
+});
+var $d_Lscalacss_internal_ValueT$ = new $TypeData().initClass({
+  Lscalacss_internal_ValueT$: 0
+}, false, "scalacss.internal.ValueT$", {
+  Lscalacss_internal_ValueT$: 1,
+  O: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lscalacss_internal_ValueT$.prototype.$classData = $d_Lscalacss_internal_ValueT$;
+var $n_Lscalacss_internal_ValueT$ = (void 0);
+function $m_Lscalacss_internal_ValueT$() {
+  if ((!$n_Lscalacss_internal_ValueT$)) {
+    $n_Lscalacss_internal_ValueT$ = new $c_Lscalacss_internal_ValueT$().init___()
+  };
+  return $n_Lscalacss_internal_ValueT$
 }
 /** @constructor */
 function $c_Lscalacss_internal_ValueT$TypedAttr$undBrStyle() {
@@ -22051,6 +24493,18 @@ function $h_jl_Error() {
   /*<skip>*/
 }
 $h_jl_Error.prototype = $c_jl_Error.prototype;
+function $is_jl_Error(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.jl_Error)))
+}
+function $as_jl_Error(obj) {
+  return (($is_jl_Error(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "java.lang.Error"))
+}
+function $isArrayOf_jl_Error(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.jl_Error)))
+}
+function $asArrayOf_jl_Error(obj, depth) {
+  return (($isArrayOf_jl_Error(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljava.lang.Error;", depth))
+}
 /** @constructor */
 function $c_jl_Exception() {
   $c_jl_Throwable.call(this)
@@ -22062,6 +24516,18 @@ function $h_jl_Exception() {
   /*<skip>*/
 }
 $h_jl_Exception.prototype = $c_jl_Exception.prototype;
+function $is_jl_Exception(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.jl_Exception)))
+}
+function $as_jl_Exception(obj) {
+  return (($is_jl_Exception(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "java.lang.Exception"))
+}
+function $isArrayOf_jl_Exception(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.jl_Exception)))
+}
+function $asArrayOf_jl_Exception(obj, depth) {
+  return (($isArrayOf_jl_Exception(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljava.lang.Exception;", depth))
+}
 /** @constructor */
 function $c_jl_Integer$() {
   $c_O.call(this)
@@ -22555,6 +25021,30 @@ function $m_ju_UUID$() {
   return $n_ju_UUID$
 }
 /** @constructor */
+function $c_ju_concurrent_atomic_AtomicReference() {
+  $c_O.call(this);
+  this.value$1 = null
+}
+$c_ju_concurrent_atomic_AtomicReference.prototype = new $h_O();
+$c_ju_concurrent_atomic_AtomicReference.prototype.constructor = $c_ju_concurrent_atomic_AtomicReference;
+/** @constructor */
+function $h_ju_concurrent_atomic_AtomicReference() {
+  /*<skip>*/
+}
+$h_ju_concurrent_atomic_AtomicReference.prototype = $c_ju_concurrent_atomic_AtomicReference.prototype;
+$c_ju_concurrent_atomic_AtomicReference.prototype.compareAndSet__O__O__Z = (function(expect, update) {
+  if ((expect === this.value$1)) {
+    this.value$1 = update;
+    return true
+  } else {
+    return false
+  }
+});
+$c_ju_concurrent_atomic_AtomicReference.prototype.init___O = (function(value) {
+  this.value$1 = value;
+  return this
+});
+/** @constructor */
 function $c_ju_regex_Pattern() {
   $c_O.call(this);
   this.jsRegExp$1 = null;
@@ -22576,62 +25066,6 @@ $c_ju_regex_Pattern.prototype.init___sjs_js_RegExp__T__I = (function(jsRegExp, _
 });
 $c_ju_regex_Pattern.prototype.toString__T = (function() {
   return this.$$undpattern$1
-});
-$c_ju_regex_Pattern.prototype.split__jl_CharSequence__I__AT = (function(input, limit) {
-  var inputStr = $objectToString(input);
-  if ((inputStr === "")) {
-    var array = [""];
-    var xs = new $c_sjs_js_WrappedArray().init___sjs_js_Array(array);
-    var len = $uI(xs.array$6.length);
-    var array$1 = $newArrayObject($d_T.getArrayOf(), [len]);
-    var elem$1 = 0;
-    elem$1 = 0;
-    var this$6 = new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(xs, 0, $uI(xs.array$6.length));
-    while (this$6.hasNext__Z()) {
-      var arg1 = this$6.next__O();
-      array$1.set(elem$1, arg1);
-      elem$1 = ((1 + elem$1) | 0)
-    };
-    return array$1
-  } else {
-    var lim = ((limit > 0) ? limit : 2147483647);
-    var matcher = new $c_ju_regex_Matcher().init___ju_regex_Pattern__jl_CharSequence__I__I(this, inputStr, 0, $uI(inputStr.length));
-    var elems$2 = null;
-    elems$2 = [];
-    var prevEnd = 0;
-    var size = 0;
-    while (((size < (((-1) + lim) | 0)) && matcher.find__Z())) {
-      if ((matcher.end__I() !== 0)) {
-        var beginIndex = prevEnd;
-        var endIndex = matcher.start__I();
-        var elem = $as_T(inputStr.substring(beginIndex, endIndex));
-        var unboxedElem = ((elem === null) ? null : elem);
-        elems$2.push(unboxedElem);
-        size = ((1 + size) | 0)
-      };
-      prevEnd = matcher.end__I()
-    };
-    var beginIndex$1 = prevEnd;
-    var elem$2 = $as_T(inputStr.substring(beginIndex$1));
-    var unboxedElem$1 = ((elem$2 === null) ? null : elem$2);
-    elems$2.push(unboxedElem$1);
-    var result = $makeNativeArrayWrapper($d_T.getArrayOf(), elems$2);
-    if ((limit !== 0)) {
-      return result
-    } else {
-      var actualLength = result.u.length;
-      while (((actualLength !== 0) && (result.get((((-1) + actualLength) | 0)) === ""))) {
-        actualLength = (((-1) + actualLength) | 0)
-      };
-      if ((actualLength === result.u.length)) {
-        return result
-      } else {
-        var actualResult = $newArrayObject($d_T.getArrayOf(), [actualLength]);
-        $systemArraycopy(result, 0, actualResult, 0, actualLength);
-        return actualResult
-      }
-    }
-  }
 });
 $c_ju_regex_Pattern.prototype.newJSRegExp__sjs_js_RegExp = (function() {
   var r = new $g.RegExp(this.jsRegExp$1);
@@ -22669,10 +25103,6 @@ $c_ju_regex_Pattern$.prototype.init___ = (function() {
   this.java$util$regex$Pattern$$splitHackPat$1 = new $g.RegExp("^\\\\Q(.|\\n|\\r)\\\\E$");
   this.java$util$regex$Pattern$$flagHackPat$1 = new $g.RegExp("^\\(\\?([idmsuxU]*)(?:-([idmsuxU]*))?\\)");
   return this
-});
-$c_ju_regex_Pattern$.prototype.matches__T__jl_CharSequence__Z = (function(regex, input) {
-  var this$1 = this.compile__T__I__ju_regex_Pattern(regex, 0);
-  return new $c_ju_regex_Matcher().init___ju_regex_Pattern__jl_CharSequence__I__I(this$1, input, 0, $charSequenceLength(input)).matches__Z()
 });
 $c_ju_regex_Pattern$.prototype.compile__T__I__ju_regex_Pattern = (function(regex, flags) {
   if (((16 & flags) !== 0)) {
@@ -23160,6 +25590,105 @@ function $m_s_StringContext$() {
     $n_s_StringContext$ = new $c_s_StringContext$().init___()
   };
   return $n_s_StringContext$
+}
+/** @constructor */
+function $c_s_concurrent_impl_CallbackRunnable() {
+  $c_O.call(this);
+  this.executor$1 = null;
+  this.onComplete$1 = null;
+  this.value$1 = null
+}
+$c_s_concurrent_impl_CallbackRunnable.prototype = new $h_O();
+$c_s_concurrent_impl_CallbackRunnable.prototype.constructor = $c_s_concurrent_impl_CallbackRunnable;
+/** @constructor */
+function $h_s_concurrent_impl_CallbackRunnable() {
+  /*<skip>*/
+}
+$h_s_concurrent_impl_CallbackRunnable.prototype = $c_s_concurrent_impl_CallbackRunnable.prototype;
+$c_s_concurrent_impl_CallbackRunnable.prototype.run__V = (function() {
+  $m_s_Predef$().require__Z__V((this.value$1 !== null));
+  try {
+    this.onComplete$1.apply__O__O(this.value$1)
+  } catch (e) {
+    var e$2 = $m_sjsr_package$().wrapJavaScriptException__O__jl_Throwable(e);
+    if ((e$2 !== null)) {
+      matchEnd8: {
+        var o11 = $m_s_util_control_NonFatal$().unapply__jl_Throwable__s_Option(e$2);
+        if ((!o11.isEmpty__Z())) {
+          var e$3 = $as_jl_Throwable(o11.get__O());
+          this.executor$1.reportFailure__jl_Throwable__V(e$3);
+          break matchEnd8
+        };
+        throw $m_sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(e$2)
+      }
+    } else {
+      throw e
+    }
+  }
+});
+$c_s_concurrent_impl_CallbackRunnable.prototype.init___s_concurrent_ExecutionContext__F1 = (function(executor, onComplete) {
+  this.executor$1 = executor;
+  this.onComplete$1 = onComplete;
+  this.value$1 = null;
+  return this
+});
+$c_s_concurrent_impl_CallbackRunnable.prototype.executeWithValue__s_util_Try__V = (function(v) {
+  $m_s_Predef$().require__Z__V((this.value$1 === null));
+  this.value$1 = v;
+  try {
+    this.executor$1.execute__jl_Runnable__V(this)
+  } catch (e) {
+    var e$2 = $m_sjsr_package$().wrapJavaScriptException__O__jl_Throwable(e);
+    if ((e$2 !== null)) {
+      matchEnd8: {
+        var o11 = $m_s_util_control_NonFatal$().unapply__jl_Throwable__s_Option(e$2);
+        if ((!o11.isEmpty__Z())) {
+          var t = $as_jl_Throwable(o11.get__O());
+          this.executor$1.reportFailure__jl_Throwable__V(t);
+          break matchEnd8
+        };
+        throw $m_sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(e$2)
+      }
+    } else {
+      throw e
+    }
+  }
+});
+function $is_s_concurrent_impl_CallbackRunnable(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.s_concurrent_impl_CallbackRunnable)))
+}
+function $as_s_concurrent_impl_CallbackRunnable(obj) {
+  return (($is_s_concurrent_impl_CallbackRunnable(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scala.concurrent.impl.CallbackRunnable"))
+}
+function $isArrayOf_s_concurrent_impl_CallbackRunnable(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.s_concurrent_impl_CallbackRunnable)))
+}
+function $asArrayOf_s_concurrent_impl_CallbackRunnable(obj, depth) {
+  return (($isArrayOf_s_concurrent_impl_CallbackRunnable(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.concurrent.impl.CallbackRunnable;", depth))
+}
+var $d_s_concurrent_impl_CallbackRunnable = new $TypeData().initClass({
+  s_concurrent_impl_CallbackRunnable: 0
+}, false, "scala.concurrent.impl.CallbackRunnable", {
+  s_concurrent_impl_CallbackRunnable: 1,
+  O: 1,
+  jl_Runnable: 1,
+  s_concurrent_OnCompleteRunnable: 1
+});
+$c_s_concurrent_impl_CallbackRunnable.prototype.$classData = $d_s_concurrent_impl_CallbackRunnable;
+function $f_s_concurrent_impl_Promise__toString__T($thiz) {
+  var x1 = $thiz.value0__p2__s_Option();
+  if ($is_s_Some(x1)) {
+    var x2 = $as_s_Some(x1);
+    var result = $as_s_util_Try(x2.value$2);
+    return (("Future(" + result) + ")")
+  } else {
+    var x = $m_s_None$();
+    if ((x === x1)) {
+      return "Future(<not completed>)"
+    } else {
+      throw new $c_s_MatchError().init___O(x1)
+    }
+  }
 }
 /** @constructor */
 function $c_s_math_Fractional$() {
@@ -23799,6 +26328,34 @@ var $d_sjsr_AnonFunction3 = new $TypeData().initClass({
 });
 $c_sjsr_AnonFunction3.prototype.$classData = $d_sjsr_AnonFunction3;
 /** @constructor */
+function $c_sjsr_AnonFunction4() {
+  $c_sr_AbstractFunction4.call(this);
+  this.f$2 = null
+}
+$c_sjsr_AnonFunction4.prototype = new $h_sr_AbstractFunction4();
+$c_sjsr_AnonFunction4.prototype.constructor = $c_sjsr_AnonFunction4;
+/** @constructor */
+function $h_sjsr_AnonFunction4() {
+  /*<skip>*/
+}
+$h_sjsr_AnonFunction4.prototype = $c_sjsr_AnonFunction4.prototype;
+$c_sjsr_AnonFunction4.prototype.apply__O__O__O__O__O = (function(arg1, arg2, arg3, arg4) {
+  return (0, this.f$2)(arg1, arg2, arg3, arg4)
+});
+$c_sjsr_AnonFunction4.prototype.init___sjs_js_Function4 = (function(f) {
+  this.f$2 = f;
+  return this
+});
+var $d_sjsr_AnonFunction4 = new $TypeData().initClass({
+  sjsr_AnonFunction4: 0
+}, false, "scala.scalajs.runtime.AnonFunction4", {
+  sjsr_AnonFunction4: 1,
+  sr_AbstractFunction4: 1,
+  O: 1,
+  F4: 1
+});
+$c_sjsr_AnonFunction4.prototype.$classData = $d_sjsr_AnonFunction4;
+/** @constructor */
 function $c_sjsr_RuntimeLong$() {
   $c_O.call(this);
   this.scala$scalajs$runtime$RuntimeLong$$hiReturn$f = 0;
@@ -24182,105 +26739,6 @@ function $isArrayOf_Ljapgolly_scalajs_react_component_JsFn$UnmountedWithRoot(obj
 function $asArrayOf_Ljapgolly_scalajs_react_component_JsFn$UnmountedWithRoot(obj, depth) {
   return (($isArrayOf_Ljapgolly_scalajs_react_component_JsFn$UnmountedWithRoot(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.JsFn$UnmountedWithRoot;", depth))
 }
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate() {
-  $c_O.call(this);
-  this.raw$1 = null;
-  this.prevProps$1 = null;
-  this.prevState$1 = null
-}
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype;
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype.raw__Ljapgolly_scalajs_react_raw_package$ReactComponent = (function() {
-  return this.raw$1
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype.toString__T = (function() {
-  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T(new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["ComponentDidUpdate(props: ", " \u2192 ", ", state: ", " \u2192 ", ")"])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([this.prevProps$1, $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).props__O(), this.prevState$1, $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).state__O()])))
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype.init___Ljapgolly_scalajs_react_raw_package$ReactComponent__O__O = (function(raw, prevProps, prevState) {
-  this.raw$1 = raw;
-  this.prevProps$1 = prevProps;
-  this.prevState$1 = prevState;
-  return this
-});
-function $is_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate)))
-}
-function $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate(obj) {
-  return (($is_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentDidUpdate"))
-}
-function $isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate)))
-}
-function $asArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate(obj, depth) {
-  return (($isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.builder.Lifecycle$ComponentDidUpdate;", depth))
-}
-var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate: 0
-}, false, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentDidUpdate", {
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate: 1,
-  O: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$Base: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ForceUpdate: 1
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate;
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount() {
-  $c_O.call(this);
-  this.raw$1 = null
-}
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype;
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.raw__Ljapgolly_scalajs_react_raw_package$ReactComponent = (function() {
-  return this.raw$1
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.init___Ljapgolly_scalajs_react_raw_package$ReactComponent = (function(raw) {
-  this.raw$1 = raw;
-  return this
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.equals__O__Z = (function(x$1) {
-  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount$().equals$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__O__Z(this.raw$1, x$1)
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.toString__T = (function() {
-  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount$().toString$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__T(this.raw$1)
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.hashCode__I = (function() {
-  var $$this = this.raw$1;
-  return $objectHashCode($$this)
-});
-function $is_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount)))
-}
-function $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount(obj) {
-  return (($is_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentWillMount"))
-}
-function $isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount)))
-}
-function $asArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount(obj, depth) {
-  return (($isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.builder.Lifecycle$ComponentWillMount;", depth))
-}
-var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount: 0
-}, false, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentWillMount", {
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount: 1,
-  O: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateRW: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$Base: 1
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount;
 function $is_Ljapgolly_scalajs_react_extra_router_Action(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_extra_router_Action)))
 }
@@ -24292,6 +26750,50 @@ function $isArrayOf_Ljapgolly_scalajs_react_extra_router_Action(obj, depth) {
 }
 function $asArrayOf_Ljapgolly_scalajs_react_extra_router_Action(obj, depth) {
   return (($isArrayOf_Ljapgolly_scalajs_react_extra_router_Action(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.extra.router.Action;", depth))
+}
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_internal_JsRepr$() {
+  $c_O.call(this);
+  this.unit$1 = null
+}
+$c_Ljapgolly_scalajs_react_internal_JsRepr$.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_internal_JsRepr$.prototype.constructor = $c_Ljapgolly_scalajs_react_internal_JsRepr$;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_internal_JsRepr$() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_internal_JsRepr$.prototype = $c_Ljapgolly_scalajs_react_internal_JsRepr$.prototype;
+$c_Ljapgolly_scalajs_react_internal_JsRepr$.prototype.init___ = (function() {
+  $n_Ljapgolly_scalajs_react_internal_JsRepr$ = this;
+  $f_Ljapgolly_scalajs_react_internal_JsReprHighPri__$$init$__V(this);
+  return this
+});
+$c_Ljapgolly_scalajs_react_internal_JsRepr$.prototype.apply__F1__F1__Ljapgolly_scalajs_react_internal_JsRepr = (function(toJs, fromJs) {
+  return new $c_Ljapgolly_scalajs_react_internal_JsRepr$$anon$1().init___F1__F1(fromJs, toJs)
+});
+$c_Ljapgolly_scalajs_react_internal_JsRepr$.prototype.id__F1__Ljapgolly_scalajs_react_internal_JsRepr = (function(f) {
+  return this.apply__F1__F1__Ljapgolly_scalajs_react_internal_JsRepr(f, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(x$1$2) {
+      return x$1$2
+    })
+  })(this)))
+});
+var $d_Ljapgolly_scalajs_react_internal_JsRepr$ = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_internal_JsRepr$: 0
+}, false, "japgolly.scalajs.react.internal.JsRepr$", {
+  Ljapgolly_scalajs_react_internal_JsRepr$: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_internal_JsReprHighPri: 1,
+  Ljapgolly_scalajs_react_internal_JsReprMedPri: 1,
+  Ljapgolly_scalajs_react_internal_JsReprLowPri: 1
+});
+$c_Ljapgolly_scalajs_react_internal_JsRepr$.prototype.$classData = $d_Ljapgolly_scalajs_react_internal_JsRepr$;
+var $n_Ljapgolly_scalajs_react_internal_JsRepr$ = (void 0);
+function $m_Ljapgolly_scalajs_react_internal_JsRepr$() {
+  if ((!$n_Ljapgolly_scalajs_react_internal_JsRepr$)) {
+    $n_Ljapgolly_scalajs_react_internal_JsRepr$ = new $c_Ljapgolly_scalajs_react_internal_JsRepr$().init___()
+  };
+  return $n_Ljapgolly_scalajs_react_internal_JsRepr$
 }
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$() {
@@ -24349,6 +26851,8 @@ function $c_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$() {
   this.transformStyle$module$1 = null;
   this.unicodeBidi$module$1 = null;
   this.wordBreak$module$1 = null;
+  this.justifySelf$module$1 = null;
+  this.justifyItems$module$1 = null;
   this.aria$module$1 = null;
   this.autoComplete$module$1 = null;
   this.key$1 = null;
@@ -24373,6 +26877,50 @@ $c_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$.prototype.init___ = (function
   $n_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$ = this;
   $f_Ljapgolly_scalajs_react_vdom_HtmlAttrs__$$init$__V(this);
   return this
+});
+$c_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$.prototype.color$lzycompute$1__p1__V = (function() {
+  if (($m_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$().color$module$1 === null)) {
+    $m_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$().color$module$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$color$().init___Ljapgolly_scalajs_react_vdom_HtmlStyles(this)
+  }
+});
+$c_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$.prototype.color__Ljapgolly_scalajs_react_vdom_HtmlStyles$color$ = (function() {
+  if (($m_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$().color$module$1 === null)) {
+    this.color$lzycompute$1__p1__V()
+  };
+  return $m_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$().color$module$1
+});
+$c_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$.prototype.cursor__Ljapgolly_scalajs_react_vdom_HtmlStyles$cursor$ = (function() {
+  if (($m_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$().cursor$module$1 === null)) {
+    this.cursor$lzycompute$1__p1__V()
+  };
+  return $m_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$().cursor$module$1
+});
+$c_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$.prototype.target$lzycompute$1__p1__V = (function() {
+  if (($m_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$().target$module$1 === null)) {
+    $m_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$().target$module$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlAttrs$target$().init___Ljapgolly_scalajs_react_vdom_HtmlAttrs(this)
+  }
+});
+$c_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$.prototype.textDecoration__Ljapgolly_scalajs_react_vdom_HtmlStyles$textDecoration$ = (function() {
+  if (($m_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$().textDecoration$module$1 === null)) {
+    this.textDecoration$lzycompute$1__p1__V()
+  };
+  return $m_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$().textDecoration$module$1
+});
+$c_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$.prototype.target__Ljapgolly_scalajs_react_vdom_HtmlAttrs$target$ = (function() {
+  if (($m_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$().target$module$1 === null)) {
+    this.target$lzycompute$1__p1__V()
+  };
+  return $m_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$().target$module$1
+});
+$c_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$.prototype.cursor$lzycompute$1__p1__V = (function() {
+  if (($m_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$().cursor$module$1 === null)) {
+    $m_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$().cursor$module$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$cursor$().init___Ljapgolly_scalajs_react_vdom_HtmlStyles(this)
+  }
+});
+$c_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$.prototype.textDecoration$lzycompute$1__p1__V = (function() {
+  if (($m_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$().textDecoration$module$1 === null)) {
+    $m_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$().textDecoration$module$1 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStyles$textDecoration$().init___Ljapgolly_scalajs_react_vdom_HtmlStyles(this)
+  }
 });
 var $d_Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$ = new $TypeData().initClass({
   Ljapgolly_scalajs_react_vdom_HtmlAttrAndStyles$: 0
@@ -24783,6 +27331,38 @@ function $m_Lscalacss_internal_Attrs$paddingTop$() {
     $n_Lscalacss_internal_Attrs$paddingTop$ = new $c_Lscalacss_internal_Attrs$paddingTop$().init___()
   };
   return $n_Lscalacss_internal_Attrs$paddingTop$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Literal$Typed$none$() {
+  $c_Lscalacss_internal_Literal.call(this)
+}
+$c_Lscalacss_internal_Literal$Typed$none$.prototype = new $h_Lscalacss_internal_Literal();
+$c_Lscalacss_internal_Literal$Typed$none$.prototype.constructor = $c_Lscalacss_internal_Literal$Typed$none$;
+/** @constructor */
+function $h_Lscalacss_internal_Literal$Typed$none$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Literal$Typed$none$.prototype = $c_Lscalacss_internal_Literal$Typed$none$.prototype;
+$c_Lscalacss_internal_Literal$Typed$none$.prototype.init___ = (function() {
+  $c_Lscalacss_internal_Literal.prototype.init___T.call(this, "none");
+  return this
+});
+var $d_Lscalacss_internal_Literal$Typed$none$ = new $TypeData().initClass({
+  Lscalacss_internal_Literal$Typed$none$: 0
+}, false, "scalacss.internal.Literal$Typed$none$", {
+  Lscalacss_internal_Literal$Typed$none$: 1,
+  Lscalacss_internal_Literal: 1,
+  O: 1,
+  Lscalacss_internal_Literal$Typed$BrStyle: 1,
+  Lscalacss_internal_Literal$Typed$OverflowBehaviour: 1
+});
+$c_Lscalacss_internal_Literal$Typed$none$.prototype.$classData = $d_Lscalacss_internal_Literal$Typed$none$;
+var $n_Lscalacss_internal_Literal$Typed$none$ = (void 0);
+function $m_Lscalacss_internal_Literal$Typed$none$() {
+  if ((!$n_Lscalacss_internal_Literal$Typed$none$)) {
+    $n_Lscalacss_internal_Literal$Typed$none$ = new $c_Lscalacss_internal_Literal$Typed$none$().init___()
+  };
+  return $n_Lscalacss_internal_Literal$Typed$none$
 }
 /** @constructor */
 function $c_Lscalacss_internal_StyleF$$anon$1() {
@@ -25251,7 +27831,8 @@ function $m_Lscalajsreact_template_components_LeftNav$Style$() {
 function $c_Lscalajsreact_template_components_TopNav$Style$() {
   $c_Lscalacss_internal_mutable_StyleSheet$Inline.call(this);
   this.navMenu$3 = null;
-  this.menuItem$3 = null
+  this.menuItem$3 = null;
+  this.fa$undhome$3 = null
 }
 $c_Lscalajsreact_template_components_TopNav$Style$.prototype = new $h_Lscalacss_internal_mutable_StyleSheet$Inline();
 $c_Lscalajsreact_template_components_TopNav$Style$.prototype.constructor = $c_Lscalajsreact_template_components_TopNav$Style$;
@@ -25264,35 +27845,129 @@ $c_Lscalajsreact_template_components_TopNav$Style$.prototype.init___ = (function
   var this$1 = $m_Lscalacss_package$Defaults$();
   $c_Lscalacss_internal_mutable_StyleSheet$Inline.prototype.init___Lscalacss_internal_mutable_Register.call(this, new $c_Lscalacss_internal_mutable_Register().init___Lscalacss_internal_mutable_Register$NameGen__Lscalacss_internal_mutable_Register$MacroName__Lscalacss_internal_mutable_Register$ErrorHandler__Lscalacss_internal_mutable_Mutex(this$1.cssRegisterNameGen$1, $m_Lscalacss_internal_mutable_Register$MacroName$Use$(), this$1.cssRegisterErrorHandler$1, $m_Lscalacss_internal_mutable_Mutex$().mutex$1));
   $n_Lscalajsreact_template_components_TopNav$Style$ = this;
-  var this$17 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "navMenu");
-  var jsx$9 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$49 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "navMenu");
+  var jsx$19 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var this$3 = $m_Lscalacss_internal_Attrs$display$();
-  var jsx$8 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$9.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$3.attr$2, "flex")));
-  var jsx$7 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var jsx$18 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$19.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$3.attr$2, "flex")));
+  var jsx$17 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var this$5 = $m_Lscalacss_internal_Attrs$alignItems$();
-  var jsx$6 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$7.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$5.attr$2, "center")));
-  var jsx$5 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var jsx$16 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$17.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$5.attr$2, "center")));
+  var jsx$15 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var this$8 = $m_Lscalacss_internal_Attrs$backgroundColor$();
   var v = new $c_Lscalacss_internal_ValueT().init___T("#f2706d");
   var v$1 = v.value$1;
-  var jsx$4 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$5.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$8.attr$4, v$1)));
+  var jsx$14 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$15.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$8.attr$4, v$1)));
+  var jsx$13 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var jsx$12 = $m_Lscalacss_internal_Attrs$margin$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this = 0;
+  var u = $m_Lscalacss_internal_LengthUnit$px$();
+  var f$1 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this, u);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$13 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var ab = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(x$3$2) {
+      var x$3 = $as_Lscalacss_internal_Length(x$3$2);
+      return x$3.value__T()
+    })
+  })(this$13)));
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$15 = $m_Lscalacss_internal_ValueT$Rule$();
+  var f = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1) {
+    return (function(x$1$2) {
+      var x$1 = $as_Lscalacss_internal_ValueT(x$1$2);
+      return x$1
+    })
+  })(this$15));
+  var bc = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f);
+  var r = ab.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc);
+  var jsx$11 = r.apply__O__Lscalacss_internal_ValueT(f$1);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var f$2 = $m_Lscalacss_internal_Literal$Typed$auto$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$20 = $m_Lscalacss_internal_ValueT$Rule$();
+  var r$1 = this$20.apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$2) {
+    return (function(x$2$2) {
+      var x$2 = $as_Lscalacss_internal_Literal(x$2$2);
+      return x$2.value$1
+    })
+  })(this$20)));
+  var jsx$10 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$13.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(jsx$12.apply__Lscalacss_internal_ValueT__Lscalacss_internal_ValueT__Lscalacss_internal_AV(jsx$11, r$1.apply__O__Lscalacss_internal_ValueT(f$2))));
+  var jsx$9 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var jsx$8 = $m_Lscalacss_internal_Attrs$padding$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$1 = 15;
+  var u$1 = $m_Lscalacss_internal_LengthUnit$px$();
+  var f$4 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$1, u$1);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$26 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var ab$1 = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$3) {
+    return (function(x$3$2$1) {
+      var x$3$1 = $as_Lscalacss_internal_Length(x$3$2$1);
+      return x$3$1.value__T()
+    })
+  })(this$26)));
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$28 = $m_Lscalacss_internal_ValueT$Rule$();
+  var f$3 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$4) {
+    return (function(x$1$2$1) {
+      var x$1$1 = $as_Lscalacss_internal_ValueT(x$1$2$1);
+      return x$1$1
+    })
+  })(this$28));
+  var bc$1 = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f$3);
+  var r$2 = ab$1.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$1);
+  var jsx$7 = r$2.apply__O__Lscalacss_internal_ValueT(f$4);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$2 = 15;
+  var u$2 = $m_Lscalacss_internal_LengthUnit$px$();
+  var f$6 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$2, u$2);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$34 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var ab$2 = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$5) {
+    return (function(x$3$2$2) {
+      var x$3$3 = $as_Lscalacss_internal_Length(x$3$2$2);
+      return x$3$3.value__T()
+    })
+  })(this$34)));
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$36 = $m_Lscalacss_internal_ValueT$Rule$();
+  var f$5 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$6) {
+    return (function(x$1$2$2) {
+      var x$1$3 = $as_Lscalacss_internal_ValueT(x$1$2$2);
+      return x$1$3
+    })
+  })(this$36));
+  var bc$2 = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f$5);
+  var r$3 = ab$2.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$2);
+  var jsx$6 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$9.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(jsx$8.apply__Lscalacss_internal_ValueT__Lscalacss_internal_ValueT__Lscalacss_internal_AV(jsx$7, r$3.apply__O__Lscalacss_internal_ValueT(f$6))));
+  var jsx$5 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$40 = $m_Lscalacss_internal_Attrs$flexWrap$();
+  var jsx$4 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$5.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$40.attr$2, "wrap")));
   var jsx$3 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-  var this$10 = $m_Lscalacss_internal_Attrs$margin$();
-  var jsx$2 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$3.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$10.attr$3, "0")));
+  var this$42 = $m_Lscalacss_internal_Attrs$justifyContent$();
+  var jsx$2 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$3.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$42.attr$2, "space-between")));
   var jsx$1 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var a = $m_Lscalacss_internal_Attrs$().listStyle__Lscalacss_internal_Attr();
-  var array = [jsx$8, jsx$6, jsx$4, jsx$2, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$1.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a, "none")))];
+  var array = [jsx$18, jsx$16, jsx$14, jsx$10, jsx$6, jsx$4, jsx$2, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$1.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a, "none")))];
   $m_Lscalacss_package$Defaults$();
   var c = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-  var this$18 = $m_Lscalacss_internal_Dsl$();
+  var this$50 = $m_Lscalacss_internal_Dsl$();
   if (($uI(array.length) === 0)) {
-    var s1 = this$18.StyleS$3.empty$1
+    var s1 = this$50.StyleS$3.empty$1
   } else {
     $m_sc_Seq$();
     $m_sjs_js_WrappedArray$();
@@ -25312,32 +27987,32 @@ $c_Lscalajsreact_template_components_TopNav$Style$.prototype.init___ = (function
       array$1.push(x$9);
       i = ((1 + i) | 0)
     };
-    var f = (function(this$2$1, c$1) {
+    var f$7 = (function(this$2$1, c$1) {
       return (function(x$10$2, x$11$2) {
         var x$10 = $as_Lscalacss_internal_StyleS(x$10$2);
         var x$11 = $as_Lscalacss_internal_StyleS(x$11$2);
         return c$1.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10, x$11)
       })
-    })(this$18, c);
+    })(this$50, c);
     if (($uI(array$1.length) > 0)) {
       var start = 1;
       var end = $uI(array$1.length);
       var z = array$1[0];
       var start$1 = start;
       var z$1 = z;
-      var jsx$10;
+      var jsx$20;
       _foldl: while (true) {
         if ((start$1 !== end)) {
           var temp$start = ((1 + start$1) | 0);
           var arg1$1 = z$1;
           var index$1 = start$1;
           var arg2 = array$1[index$1];
-          var temp$z = f(arg1$1, arg2);
+          var temp$z = f$7(arg1$1, arg2);
           start$1 = temp$start;
           z$1 = temp$z;
           continue _foldl
         };
-        var jsx$10 = z$1;
+        var jsx$20 = z$1;
         break
       }
     } else {
@@ -25358,115 +28033,115 @@ $c_Lscalajsreact_template_components_TopNav$Style$.prototype.init___ = (function
           elem$1 = false
         } else {
           var arg1$3 = elem$1$1;
-          elem$1$1 = f(arg1$3, arg1$2)
+          elem$1$1 = f$7(arg1$3, arg1$2)
         };
         i$1 = ((1 + i$1) | 0)
       };
-      var jsx$10 = elem$1$1
+      var jsx$20 = elem$1$1
     };
-    var s1 = $as_Lscalacss_internal_StyleS(jsx$10)
+    var s1 = $as_Lscalacss_internal_StyleS(jsx$20)
   };
-  var s2 = this$17.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$17.name$1, s1, this$17.$$outer$1.classNameHint$1);
-  this.navMenu$3 = this$17.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2, this$17.$$outer$1.classNameHint$1);
-  var this$83 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyleF().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "menuItem");
-  var f$7 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+  var s2 = this$49.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$49.name$1, s1, this$49.$$outer$1.classNameHint$1);
+  this.navMenu$3 = this$49.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2, this$49.$$outer$1.classNameHint$1);
+  var this$115 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyleF().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "menuItem");
+  var f$14 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$7) {
     return (function(selected$2) {
       var selected = $uZ(selected$2);
-      $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      var jsx$24 = $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      var this$32 = $m_Lscalacss_internal_Attrs$padding$();
-      $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      var $$this = 20;
-      var u = $m_Lscalacss_internal_LengthUnit$px$();
-      var f$2 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this, u);
-      $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      var this$27 = $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      var ab = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$1) {
-        return (function(x$3$2) {
-          var x$3 = $as_Lscalacss_internal_Length(x$3$2);
-          return x$3.value__T()
+      $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      var jsx$34 = $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      var this$64 = $m_Lscalacss_internal_Attrs$padding$();
+      $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      var $$this$3 = 20;
+      var u$3 = $m_Lscalacss_internal_LengthUnit$px$();
+      var f$9 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$3, u$3);
+      $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      var this$59 = $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      var ab$3 = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$8) {
+        return (function(x$3$2$3) {
+          var x$3$4 = $as_Lscalacss_internal_Length(x$3$2$3);
+          return x$3$4.value__T()
         })
-      })(this$27)));
-      $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      var this$29 = $m_Lscalacss_internal_ValueT$Rule$();
-      var f$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$2) {
-        return (function(x$1$2) {
-          var x$1 = $as_Lscalacss_internal_ValueT(x$1$2);
-          return x$1
+      })(this$59)));
+      $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      var this$61 = $m_Lscalacss_internal_ValueT$Rule$();
+      var f$8 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$9) {
+        return (function(x$1$2$3) {
+          var x$1$4 = $as_Lscalacss_internal_ValueT(x$1$2$3);
+          return x$1$4
         })
-      })(this$29));
-      var bc = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f$1);
-      var r = ab.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc);
-      var all = r.apply__O__Lscalacss_internal_ValueT(f$2);
+      })(this$61));
+      var bc$3 = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f$8);
+      var r$4 = ab$3.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$3);
+      var all = r$4.apply__O__Lscalacss_internal_ValueT(f$9);
       var v$2 = all.value$1;
-      var jsx$23 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$24.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$32.attr$3, v$2)));
-      var jsx$22 = $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      var this$42 = $m_Lscalacss_internal_Attrs$fontSize$();
-      $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      var $$this$1 = 1.5;
-      var u$1 = $m_Lscalacss_internal_LengthUnit$em$();
-      var f$4 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$1, u$1);
-      $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      var this$37 = $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      var ab$1 = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$3) {
-        return (function(x$3$2$1) {
-          var x$3$1 = $as_Lscalacss_internal_Length(x$3$2$1);
-          return x$3$1.value__T()
+      var jsx$33 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$34.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$64.attr$3, v$2)));
+      var jsx$32 = $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      var this$74 = $m_Lscalacss_internal_Attrs$fontSize$();
+      $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      var $$this$4 = 1.5;
+      var u$4 = $m_Lscalacss_internal_LengthUnit$em$();
+      var f$11 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$4, u$4);
+      $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      var this$69 = $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      var ab$4 = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$10) {
+        return (function(x$3$2$4) {
+          var x$3$5 = $as_Lscalacss_internal_Length(x$3$2$4);
+          return x$3$5.value__T()
         })
-      })(this$37)));
-      $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      var this$39 = $m_Lscalacss_internal_ValueT$Rule$();
-      var f$3 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$4) {
-        return (function(x$1$2$1) {
-          var x$1$1 = $as_Lscalacss_internal_ValueT(x$1$2$1);
-          return x$1$1
+      })(this$69)));
+      $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      var this$71 = $m_Lscalacss_internal_ValueT$Rule$();
+      var f$10 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$11) {
+        return (function(x$1$2$4) {
+          var x$1$5 = $as_Lscalacss_internal_ValueT(x$1$2$4);
+          return x$1$5
         })
-      })(this$39));
-      var bc$1 = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f$3);
-      var r$1 = ab$1.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$1);
-      var v$3 = r$1.apply__O__Lscalacss_internal_ValueT(f$4);
+      })(this$71));
+      var bc$4 = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f$10);
+      var r$5 = ab$4.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$4);
+      var v$3 = r$5.apply__O__Lscalacss_internal_ValueT(f$11);
       var v$4 = v$3.value$1;
-      var jsx$21 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$22.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$42.attr$3, v$4)));
-      var jsx$20 = $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      var this$44 = $m_Lscalacss_internal_Attrs$cursor$();
-      var jsx$19 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$20.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$44.attr$2, "pointer")));
-      var jsx$18 = $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      var this$47 = $m_Lscalacss_internal_Attrs$color$();
+      var jsx$31 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$32.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$74.attr$3, v$4)));
+      var jsx$30 = $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      var this$76 = $m_Lscalacss_internal_Attrs$cursor$();
+      var jsx$29 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$30.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$76.attr$2, "pointer")));
+      var jsx$28 = $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      var this$79 = $m_Lscalacss_internal_Attrs$color$();
       var v$5 = new $c_Lscalacss_internal_ValueT().init___T("rgb(244,233,233)");
       var v$6 = v$5.value$1;
-      var jsx$17 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$18.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$47.attr$4, v$6)));
-      $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      var jsx$13 = $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      var this$50 = $m_Lscalacss_internal_Attrs$backgroundColor$();
+      var jsx$27 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$28.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$79.attr$4, v$6)));
+      $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      var jsx$23 = $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      var this$82 = $m_Lscalacss_internal_Attrs$backgroundColor$();
       var v$7 = new $c_Lscalacss_internal_ValueT().init___T("#e8433f");
       var v$8 = v$7.value$1;
-      var jsx$12 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$13.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$50.attr$4, v$8)));
-      var jsx$11 = $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      var this$52 = $m_Lscalacss_internal_Attrs$fontWeight$();
-      var array$2 = [jsx$12, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$11.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$52.attr$2, "500")))];
-      $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      var this$56 = $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      var this$55 = $m_Lscalacss_internal_Cond$().empty$1;
+      var jsx$22 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$23.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$82.attr$4, v$8)));
+      var jsx$21 = $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      var this$84 = $m_Lscalacss_internal_Attrs$fontWeight$();
+      var array$2 = [jsx$22, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$21.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$84.attr$2, "500")))];
+      $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      var this$88 = $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      var this$87 = $m_Lscalacss_internal_Cond$().empty$1;
       var p = $m_Lscalacss_internal_Pseudo$Hover$();
-      var x = this$55.addPseudo__Lscalacss_internal_Pseudo__Lscalacss_internal_Cond(p);
-      var jsx$15 = new $c_Lscalacss_internal_DslBase$DslCond().init___Lscalacss_internal_Cond__Lscalacss_internal_DslBase(x, this$56);
-      var jsx$14 = $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      $this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
-      var this$59 = $m_Lscalacss_internal_Attrs$backgroundColor$();
+      var x = this$87.addPseudo__Lscalacss_internal_Pseudo__Lscalacss_internal_Cond(p);
+      var jsx$25 = new $c_Lscalacss_internal_DslBase$DslCond().init___Lscalacss_internal_Cond__Lscalacss_internal_DslBase(x, this$88);
+      var jsx$24 = $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      $this$7.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+      var this$91 = $m_Lscalacss_internal_Attrs$backgroundColor$();
       var v$9 = new $c_Lscalacss_internal_ValueT().init___T("#b6413e");
       var v$10 = v$9.value$1;
-      var array$3 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$14.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$59.attr$4, v$10)))];
-      var x$2 = jsx$15.apply__sc_Seq__Lscalacss_internal_Compose__Lscalacss_internal_StyleS(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3), ($m_Lscalacss_package$Defaults$(), $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose()));
-      var array$4 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(x$2)];
+      var array$3 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$24.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$91.attr$4, v$10)))];
+      var x$4 = jsx$25.apply__sc_Seq__Lscalacss_internal_Compose__Lscalacss_internal_StyleS(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3), ($m_Lscalacss_package$Defaults$(), $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose()));
+      var array$4 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(x$4)];
       $m_Lscalacss_package$Defaults$();
       var c$2 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
       if (selected) {
@@ -25474,9 +28149,9 @@ $c_Lscalajsreact_template_components_TopNav$Style$.prototype.init___ = (function
       } else {
         var t_$_array$6 = array$4
       };
-      var this$68 = $m_Lscalacss_internal_Dsl$();
+      var this$100 = $m_Lscalacss_internal_Dsl$();
       if (($uI(t_$_array$6.length) === 0)) {
-        var x$4 = this$68.StyleS$3.empty$1
+        var x$5 = this$100.StyleS$3.empty$1
       } else {
         $m_sc_Seq$();
         $m_sjs_js_WrappedArray$();
@@ -25496,32 +28171,32 @@ $c_Lscalajsreact_template_components_TopNav$Style$.prototype.init___ = (function
           array$5.push(x$9$1);
           i$2 = ((1 + i$2) | 0)
         };
-        var f$5 = (function(this$2$2, c$3) {
+        var f$12 = (function(this$2$2, c$3) {
           return (function(x$10$2$1, x$11$2$1) {
             var x$10$1 = $as_Lscalacss_internal_StyleS(x$10$2$1);
             var x$11$1 = $as_Lscalacss_internal_StyleS(x$11$2$1);
             return c$3.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$1, x$11$1)
           })
-        })(this$68, c$2);
+        })(this$100, c$2);
         if (($uI(array$5.length) > 0)) {
           var start$2 = 1;
           var end$1 = $uI(array$5.length);
           var z$2 = array$5[0];
           var start$3 = start$2;
           var z$3 = z$2;
-          var jsx$16;
+          var jsx$26;
           _foldl$1: while (true) {
             if ((start$3 !== end$1)) {
               var temp$start$1 = ((1 + start$3) | 0);
               var arg1$5 = z$3;
               var index$4 = start$3;
               var arg2$1 = array$5[index$4];
-              var temp$z$1 = f$5(arg1$5, arg2$1);
+              var temp$z$1 = f$12(arg1$5, arg2$1);
               start$3 = temp$start$1;
               z$3 = temp$z$1;
               continue _foldl$1
             };
-            var jsx$16 = z$3;
+            var jsx$26 = z$3;
             break
           }
         } else {
@@ -25542,20 +28217,20 @@ $c_Lscalajsreact_template_components_TopNav$Style$.prototype.init___ = (function
               elem$1$2 = false
             } else {
               var arg1$7 = elem$1$3;
-              elem$1$3 = f$5(arg1$7, arg1$6)
+              elem$1$3 = f$12(arg1$7, arg1$6)
             };
             i$3 = ((1 + i$3) | 0)
           };
-          var jsx$16 = elem$1$3
+          var jsx$26 = elem$1$3
         };
-        var x$4 = $as_Lscalacss_internal_StyleS(jsx$16)
+        var x$5 = $as_Lscalacss_internal_StyleS(jsx$26)
       };
-      var array$6 = [jsx$23, jsx$21, jsx$19, jsx$17, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(x$4)];
+      var array$6 = [jsx$33, jsx$31, jsx$29, jsx$27, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(x$5)];
       $m_Lscalacss_package$Defaults$();
       var c$4 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-      var this$78 = $m_Lscalacss_internal_Dsl$();
+      var this$110 = $m_Lscalacss_internal_Dsl$();
       if (($uI(array$6.length) === 0)) {
-        return this$78.StyleS$3.empty$1
+        return this$110.StyleS$3.empty$1
       } else {
         $m_sc_Seq$();
         $m_sjs_js_WrappedArray$();
@@ -25575,32 +28250,32 @@ $c_Lscalajsreact_template_components_TopNav$Style$.prototype.init___ = (function
           array$7.push(x$9$2);
           i$4 = ((1 + i$4) | 0)
         };
-        var f$6 = (function(this$2$3, c$5) {
+        var f$13 = (function(this$2$3, c$5) {
           return (function(x$10$2$2, x$11$2$2) {
             var x$10$3 = $as_Lscalacss_internal_StyleS(x$10$2$2);
             var x$11$3 = $as_Lscalacss_internal_StyleS(x$11$2$2);
             return c$5.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$3, x$11$3)
           })
-        })(this$78, c$4);
+        })(this$110, c$4);
         if (($uI(array$7.length) > 0)) {
           var start$4 = 1;
           var end$2 = $uI(array$7.length);
           var z$4 = array$7[0];
           var start$5 = start$4;
           var z$5 = z$4;
-          var jsx$25;
+          var jsx$35;
           _foldl$2: while (true) {
             if ((start$5 !== end$2)) {
               var temp$start$2 = ((1 + start$5) | 0);
               var arg1$9 = z$5;
               var index$7 = start$5;
               var arg2$2 = array$7[index$7];
-              var temp$z$2 = f$6(arg1$9, arg2$2);
+              var temp$z$2 = f$13(arg1$9, arg2$2);
               start$5 = temp$start$2;
               z$5 = temp$z$2;
               continue _foldl$2
             };
-            var jsx$25 = z$5;
+            var jsx$35 = z$5;
             break
           }
         } else {
@@ -25621,17 +28296,169 @@ $c_Lscalajsreact_template_components_TopNav$Style$.prototype.init___ = (function
               elem$1$4 = false
             } else {
               var arg1$11 = elem$1$5;
-              elem$1$5 = f$6(arg1$11, arg1$10)
+              elem$1$5 = f$13(arg1$11, arg1$10)
             };
             i$5 = ((1 + i$5) | 0)
           };
-          var jsx$25 = elem$1$5
+          var jsx$35 = elem$1$5
         };
-        return $as_Lscalacss_internal_StyleS(jsx$25)
+        return $as_Lscalacss_internal_StyleS(jsx$35)
       }
     })
   })(this));
-  this.menuItem$3 = this$83.create__s_Option__Lscalacss_internal_Domain__F1__F2__Lscalacss_internal_StyleLookup__F1($m_s_None$(), $m_Lscalacss_internal_Domain$().boolean$1, f$7, $m_Lscalacss_internal_DslMacros$().defaultStyleFClassNameSuffixB$1, $m_Lscalacss_internal_StyleLookup$().boolean$1);
+  this.menuItem$3 = this$115.create__s_Option__Lscalacss_internal_Domain__F1__F2__Lscalacss_internal_StyleLookup__F1($m_s_None$(), $m_Lscalacss_internal_Domain$().boolean$1, f$14, $m_Lscalacss_internal_DslMacros$().defaultStyleFClassNameSuffixB$1, $m_Lscalacss_internal_StyleLookup$().boolean$1);
+  var this$147 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "fa_home");
+  var jsx$44 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$117 = $m_Lscalacss_internal_Attrs$color$();
+  var jsx$43 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$44.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$117.attr$4, "black")));
+  var jsx$42 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$127 = $m_Lscalacss_internal_Attrs$fontSize$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$5 = 50;
+  var u$5 = $m_Lscalacss_internal_LengthUnit$px$();
+  var f$16 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$5, u$5);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$122 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var ab$5 = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$12) {
+    return (function(x$3$2$5) {
+      var x$3$6 = $as_Lscalacss_internal_Length(x$3$2$5);
+      return x$3$6.value__T()
+    })
+  })(this$122)));
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$124 = $m_Lscalacss_internal_ValueT$Rule$();
+  var f$15 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$13) {
+    return (function(x$1$2$5) {
+      var x$1$6 = $as_Lscalacss_internal_ValueT(x$1$2$5);
+      return x$1$6
+    })
+  })(this$124));
+  var bc$5 = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f$15);
+  var r$6 = ab$5.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$5);
+  var v$11 = r$6.apply__O__Lscalacss_internal_ValueT(f$16);
+  var v$12 = v$11.value$1;
+  var jsx$41 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$42.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$127.attr$3, v$12)));
+  var jsx$40 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$129 = $m_Lscalacss_internal_Attrs$cursor$();
+  var jsx$39 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$40.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$129.attr$2, "pointer")));
+  var jsx$38 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$139 = $m_Lscalacss_internal_Attrs$padding$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$6 = 15;
+  var u$6 = $m_Lscalacss_internal_LengthUnit$px$();
+  var f$18 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$6, u$6);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$134 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var ab$6 = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$14) {
+    return (function(x$3$2$6) {
+      var x$3$7 = $as_Lscalacss_internal_Length(x$3$2$6);
+      return x$3$7.value__T()
+    })
+  })(this$134)));
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$136 = $m_Lscalacss_internal_ValueT$Rule$();
+  var f$17 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$15) {
+    return (function(x$1$2$6) {
+      var x$1$7 = $as_Lscalacss_internal_ValueT(x$1$2$6);
+      return x$1$7
+    })
+  })(this$136));
+  var bc$6 = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f$17);
+  var r$7 = ab$6.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$6);
+  var all$1 = r$7.apply__O__Lscalacss_internal_ValueT(f$18);
+  var v$13 = all$1.value$1;
+  var jsx$37 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$38.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$139.attr$3, v$13)));
+  var jsx$36 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$1 = $m_Lscalacss_internal_Attrs$fontFamily$();
+  var array$8 = [jsx$43, jsx$41, jsx$39, jsx$37, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$36.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$1.attr$2, "fontAwesome")))];
+  $m_Lscalacss_package$Defaults$();
+  var c$6 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
+  var this$148 = $m_Lscalacss_internal_Dsl$();
+  if (($uI(array$8.length) === 0)) {
+    var s1$1 = this$148.StyleS$3.empty$1
+  } else {
+    $m_sc_Seq$();
+    $m_sjs_js_WrappedArray$();
+    var array$9 = [];
+    var x1$3 = $uI(array$8.length);
+    switch (x1$3) {
+      case (-1): {
+        break
+      }
+    };
+    var i$6 = 0;
+    var len$6 = $uI(array$8.length);
+    while ((i$6 < len$6)) {
+      var index$9 = i$6;
+      var arg1$12 = array$8[index$9];
+      var x$9$3 = $as_Lscalacss_internal_DslBase$ToStyle(arg1$12).s$1;
+      array$9.push(x$9$3);
+      i$6 = ((1 + i$6) | 0)
+    };
+    var f$19 = (function(this$2$4, c$7) {
+      return (function(x$10$2$3, x$11$2$3) {
+        var x$10$4 = $as_Lscalacss_internal_StyleS(x$10$2$3);
+        var x$11$4 = $as_Lscalacss_internal_StyleS(x$11$2$3);
+        return c$7.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$4, x$11$4)
+      })
+    })(this$148, c$6);
+    if (($uI(array$9.length) > 0)) {
+      var start$6 = 1;
+      var end$3 = $uI(array$9.length);
+      var z$6 = array$9[0];
+      var start$7 = start$6;
+      var z$7 = z$6;
+      var jsx$45;
+      _foldl$3: while (true) {
+        if ((start$7 !== end$3)) {
+          var temp$start$3 = ((1 + start$7) | 0);
+          var arg1$13 = z$7;
+          var index$10 = start$7;
+          var arg2$3 = array$9[index$10];
+          var temp$z$3 = f$19(arg1$13, arg2$3);
+          start$7 = temp$start$3;
+          z$7 = temp$z$3;
+          continue _foldl$3
+        };
+        var jsx$45 = z$7;
+        break
+      }
+    } else {
+      if (($uI(array$9.length) === 0)) {
+        throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
+      };
+      var elem$1$6 = false;
+      elem$1$6 = true;
+      var elem$1$7 = null;
+      elem$1$7 = 0;
+      var i$7 = 0;
+      var len$7 = $uI(array$9.length);
+      while ((i$7 < len$7)) {
+        var index$11 = i$7;
+        var arg1$14 = array$9[index$11];
+        if (elem$1$6) {
+          elem$1$7 = arg1$14;
+          elem$1$6 = false
+        } else {
+          var arg1$15 = elem$1$7;
+          elem$1$7 = f$19(arg1$15, arg1$14)
+        };
+        i$7 = ((1 + i$7) | 0)
+      };
+      var jsx$45 = elem$1$7
+    };
+    var s1$1 = $as_Lscalacss_internal_StyleS(jsx$45)
+  };
+  var s2$1 = this$147.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$147.name$1, s1$1, this$147.$$outer$1.classNameHint$1);
+  this.fa$undhome$3 = this$147.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$1, this$147.$$outer$1.classNameHint$1);
   return this
 });
 var $d_Lscalajsreact_template_components_TopNav$Style$ = new $TypeData().initClass({
@@ -25653,7 +28480,10 @@ function $m_Lscalajsreact_template_components_TopNav$Style$() {
 }
 /** @constructor */
 function $c_Lscalajsreact_template_css_GlobalStyle$() {
-  $c_Lscalacss_internal_mutable_StyleSheet$Inline.call(this)
+  $c_Lscalacss_internal_mutable_StyleSheet$Inline.call(this);
+  this.toggle$3 = null;
+  this.logo$3 = null;
+  this.ul$3 = null
 }
 $c_Lscalajsreact_template_css_GlobalStyle$.prototype = new $h_Lscalacss_internal_mutable_StyleSheet$Inline();
 $c_Lscalajsreact_template_css_GlobalStyle$.prototype.constructor = $c_Lscalajsreact_template_css_GlobalStyle$;
@@ -25877,6 +28707,1131 @@ $c_Lscalajsreact_template_css_GlobalStyle$.prototype.init___ = (function() {
   };
   var s2 = this$32.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$32.name$1, s1, this$32.$$outer$1.classNameHint$1);
   this$32.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2, this$32.$$outer$1.classNameHint$1);
+  var this$96 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "toggle");
+  var jsx$34 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$39 = $m_Lscalacss_internal_Attrs$display$();
+  var v$2 = $m_Lscalacss_internal_Literal$Typed$none$();
+  var v$3 = v$2.value$1;
+  var jsx$33 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$34.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$39.attr$2, v$3)));
+  var jsx$32 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$49 = $m_Lscalacss_internal_Attrs$fontSize$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$1 = 50;
+  var u$1 = $m_Lscalacss_internal_LengthUnit$px$();
+  var f$6 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$1, u$1);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$44 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var ab$1 = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$3) {
+    return (function(x$3$2$1) {
+      var x$3$1 = $as_Lscalacss_internal_Length(x$3$2$1);
+      return x$3$1.value__T()
+    })
+  })(this$44)));
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$46 = $m_Lscalacss_internal_ValueT$Rule$();
+  var f$5 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$4) {
+    return (function(x$1$2$1) {
+      var x$1$1 = $as_Lscalacss_internal_ValueT(x$1$2$1);
+      return x$1$1
+    })
+  })(this$46));
+  var bc$1 = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f$5);
+  var r$1 = ab$1.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$1);
+  var v$4 = r$1.apply__O__Lscalacss_internal_ValueT(f$6);
+  var v$5 = v$4.value$1;
+  var jsx$31 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$32.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$49.attr$3, v$5)));
+  var jsx$30 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$51 = $m_Lscalacss_internal_Attrs$cursor$();
+  var jsx$29 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$30.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$51.attr$2, "pointer")));
+  var jsx$28 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$73 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var jsx$24 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$1 = $m_Lscalacss_internal_Attrs$().textDecoration__Lscalacss_internal_Attr();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var value = $m_Lscalacss_internal_Literal$Typed$none$();
+  var jsx$23 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$24.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$1, value.value$1)));
+  var jsx$22 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$57 = $m_Lscalacss_internal_Attrs$color$();
+  var jsx$21 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$22.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$57.attr$4, "black")));
+  var jsx$20 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$59 = $m_Lscalacss_internal_Attrs$display$();
+  var jsx$19 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$20.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$59.attr$2, "block")));
+  var jsx$18 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$69 = $m_Lscalacss_internal_Attrs$fontSize$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$2 = 50;
+  var u$2 = $m_Lscalacss_internal_LengthUnit$px$();
+  var f$8 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$2, u$2);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$64 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var ab$2 = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$5) {
+    return (function(x$3$2$2) {
+      var x$3$3 = $as_Lscalacss_internal_Length(x$3$2$2);
+      return x$3$3.value__T()
+    })
+  })(this$64)));
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$66 = $m_Lscalacss_internal_ValueT$Rule$();
+  var f$7 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$6) {
+    return (function(x$1$2$2) {
+      var x$1$3 = $as_Lscalacss_internal_ValueT(x$1$2$2);
+      return x$1$3
+    })
+  })(this$66));
+  var bc$2 = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f$7);
+  var r$2 = ab$2.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$2);
+  var v$6 = r$2.apply__O__Lscalacss_internal_ValueT(f$8);
+  var v$7 = v$6.value$1;
+  var array$4 = [jsx$23, jsx$21, jsx$19, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$18.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$69.attr$3, v$7)))];
+  $m_Lscalacss_package$Defaults$();
+  var c$4 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
+  var f$9 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$7, n) {
+    return (function(x$4$2) {
+      var x$4 = $as_T(x$4$2);
+      return ((x$4 + " ") + n)
+    })
+  })(this$73, "a"));
+  var jsx$27 = $m_Lscalacss_internal_Cond$().empty$1;
+  var this$74 = $m_Lscalacss_internal_Dsl$();
+  if (($uI(array$4.length) === 0)) {
+    var jsx$25 = this$74.StyleS$3.empty$1
+  } else {
+    $m_sc_Seq$();
+    $m_sjs_js_WrappedArray$();
+    var array$5 = [];
+    var x1$2 = $uI(array$4.length);
+    switch (x1$2) {
+      case (-1): {
+        break
+      }
+    };
+    var i$4 = 0;
+    var len$4 = $uI(array$4.length);
+    while ((i$4 < len$4)) {
+      var index$6 = i$4;
+      var arg1$8 = array$4[index$6];
+      var x$9$2 = $as_Lscalacss_internal_DslBase$ToStyle(arg1$8).s$1;
+      array$5.push(x$9$2);
+      i$4 = ((1 + i$4) | 0)
+    };
+    var f$10 = (function(this$2$3, c$5) {
+      return (function(x$10$2$2, x$11$2$2) {
+        var x$10$3 = $as_Lscalacss_internal_StyleS(x$10$2$2);
+        var x$11$3 = $as_Lscalacss_internal_StyleS(x$11$2$2);
+        return c$5.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$3, x$11$3)
+      })
+    })(this$74, c$4);
+    if (($uI(array$5.length) > 0)) {
+      var start$4 = 1;
+      var end$2 = $uI(array$5.length);
+      var z$4 = array$5[0];
+      var start$5 = start$4;
+      var z$5 = z$4;
+      var jsx$26;
+      _foldl$2: while (true) {
+        if ((start$5 !== end$2)) {
+          var temp$start$2 = ((1 + start$5) | 0);
+          var arg1$9 = z$5;
+          var index$7 = start$5;
+          var arg2$2 = array$5[index$7];
+          var temp$z$2 = f$10(arg1$9, arg2$2);
+          start$5 = temp$start$2;
+          z$5 = temp$z$2;
+          continue _foldl$2
+        };
+        var jsx$26 = z$5;
+        break
+      }
+    } else {
+      if (($uI(array$5.length) === 0)) {
+        throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
+      };
+      var elem$1$4 = false;
+      elem$1$4 = true;
+      var elem$1$5 = null;
+      elem$1$5 = 0;
+      var i$5 = 0;
+      var len$5 = $uI(array$5.length);
+      while ((i$5 < len$5)) {
+        var index$8 = i$5;
+        var arg1$10 = array$5[index$8];
+        if (elem$1$4) {
+          elem$1$5 = arg1$10;
+          elem$1$4 = false
+        } else {
+          var arg1$11 = elem$1$5;
+          elem$1$5 = f$10(arg1$11, arg1$10)
+        };
+        i$5 = ((1 + i$5) | 0)
+      };
+      var jsx$26 = elem$1$5
+    };
+    var jsx$25 = $as_Lscalacss_internal_StyleS(jsx$26)
+  };
+  var jsx$17 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$28.ToStyleUnsafeExt__Lscalacss_internal_Style$UnsafeExt__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_Style$UnsafeExt().init___F1__Lscalacss_internal_Cond__Lscalacss_internal_StyleS(f$9, jsx$27, jsx$25)));
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$84 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$83 = $m_Lscalacss_internal_DslBase$MediaQueryEmpty$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$3 = 2000;
+  var u$3 = $m_Lscalacss_internal_LengthUnit$px$();
+  var v$8 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$3, u$3);
+  var x = $f_Lscalacss_internal_Media$FeatureOps__maxWidth__Lscalacss_internal_Length__O(this$83, v$8);
+  var x$2 = $as_Lscalacss_internal_Media$Query(x);
+  var jsx$16 = new $c_Lscalacss_internal_DslBase$DslCond().init___Lscalacss_internal_Cond__Lscalacss_internal_DslBase(this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$().CondMediaQuery__Lscalacss_internal_Media$Query__Lscalacss_internal_Cond(x$2), this$84);
+  var jsx$15 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$86 = $m_Lscalacss_internal_Attrs$alignItems$();
+  var jsx$14 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$15.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$86.attr$2, "center")));
+  var jsx$13 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$88 = $m_Lscalacss_internal_Attrs$display$();
+  var array$6 = [jsx$14, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$13.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$88.attr$2, "flex")))];
+  var x$6 = jsx$16.apply__sc_Seq__Lscalacss_internal_Compose__Lscalacss_internal_StyleS(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$6), ($m_Lscalacss_package$Defaults$(), $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose()));
+  var array$7 = [jsx$33, jsx$31, jsx$29, jsx$17, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(x$6)];
+  $m_Lscalacss_package$Defaults$();
+  var c$6 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
+  var this$97 = $m_Lscalacss_internal_Dsl$();
+  if (($uI(array$7.length) === 0)) {
+    var s1$1 = this$97.StyleS$3.empty$1
+  } else {
+    $m_sc_Seq$();
+    $m_sjs_js_WrappedArray$();
+    var array$8 = [];
+    var x1$3 = $uI(array$7.length);
+    switch (x1$3) {
+      case (-1): {
+        break
+      }
+    };
+    var i$6 = 0;
+    var len$6 = $uI(array$7.length);
+    while ((i$6 < len$6)) {
+      var index$9 = i$6;
+      var arg1$12 = array$7[index$9];
+      var x$9$3 = $as_Lscalacss_internal_DslBase$ToStyle(arg1$12).s$1;
+      array$8.push(x$9$3);
+      i$6 = ((1 + i$6) | 0)
+    };
+    var f$11 = (function(this$2$4, c$7) {
+      return (function(x$10$2$3, x$11$2$3) {
+        var x$10$4 = $as_Lscalacss_internal_StyleS(x$10$2$3);
+        var x$11$4 = $as_Lscalacss_internal_StyleS(x$11$2$3);
+        return c$7.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$4, x$11$4)
+      })
+    })(this$97, c$6);
+    if (($uI(array$8.length) > 0)) {
+      var start$6 = 1;
+      var end$3 = $uI(array$8.length);
+      var z$6 = array$8[0];
+      var start$7 = start$6;
+      var z$7 = z$6;
+      var jsx$35;
+      _foldl$3: while (true) {
+        if ((start$7 !== end$3)) {
+          var temp$start$3 = ((1 + start$7) | 0);
+          var arg1$13 = z$7;
+          var index$10 = start$7;
+          var arg2$3 = array$8[index$10];
+          var temp$z$3 = f$11(arg1$13, arg2$3);
+          start$7 = temp$start$3;
+          z$7 = temp$z$3;
+          continue _foldl$3
+        };
+        var jsx$35 = z$7;
+        break
+      }
+    } else {
+      if (($uI(array$8.length) === 0)) {
+        throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
+      };
+      var elem$1$6 = false;
+      elem$1$6 = true;
+      var elem$1$7 = null;
+      elem$1$7 = 0;
+      var i$7 = 0;
+      var len$7 = $uI(array$8.length);
+      while ((i$7 < len$7)) {
+        var index$11 = i$7;
+        var arg1$14 = array$8[index$11];
+        if (elem$1$6) {
+          elem$1$7 = arg1$14;
+          elem$1$6 = false
+        } else {
+          var arg1$15 = elem$1$7;
+          elem$1$7 = f$11(arg1$15, arg1$14)
+        };
+        i$7 = ((1 + i$7) | 0)
+      };
+      var jsx$35 = elem$1$7
+    };
+    var s1$1 = $as_Lscalacss_internal_StyleS(jsx$35)
+  };
+  var s2$1 = this$96.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$96.name$1, s1$1, this$96.$$outer$1.classNameHint$1);
+  this.toggle$3 = this$96.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$1, this$96.$$outer$1.classNameHint$1);
+  var this$138 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "logo");
+  var jsx$46 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$103 = $m_Lscalacss_internal_Attrs$display$();
+  var jsx$45 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$46.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$103.attr$2, "flex")));
+  var jsx$44 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$105 = $m_Lscalacss_internal_Attrs$backgroundColor$();
+  var jsx$43 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$44.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$105.attr$4, "black")));
+  var jsx$42 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$129 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var jsx$38 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$115 = $m_Lscalacss_internal_Attrs$width$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$4 = 60;
+  var u$4 = $m_Lscalacss_internal_LengthUnit$px$();
+  var f$13 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$4, u$4);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$110 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var ab$3 = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$8) {
+    return (function(x$3$2$3) {
+      var x$3$4 = $as_Lscalacss_internal_Length(x$3$2$3);
+      return x$3$4.value__T()
+    })
+  })(this$110)));
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$112 = $m_Lscalacss_internal_ValueT$Rule$();
+  var f$12 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$9) {
+    return (function(x$1$2$3) {
+      var x$1$4 = $as_Lscalacss_internal_ValueT(x$1$2$3);
+      return x$1$4
+    })
+  })(this$112));
+  var bc$3 = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f$12);
+  var r$3 = ab$3.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$3);
+  var v$9 = r$3.apply__O__Lscalacss_internal_ValueT(f$13);
+  var v$10 = v$9.value$1;
+  var jsx$37 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$38.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$115.attr$3, v$10)));
+  var jsx$36 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$125 = $m_Lscalacss_internal_Attrs$height$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$5 = 60;
+  var u$5 = $m_Lscalacss_internal_LengthUnit$px$();
+  var f$15 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$5, u$5);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$120 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var ab$4 = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$10) {
+    return (function(x$3$2$4) {
+      var x$3$5 = $as_Lscalacss_internal_Length(x$3$2$4);
+      return x$3$5.value__T()
+    })
+  })(this$120)));
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$122 = $m_Lscalacss_internal_ValueT$Rule$();
+  var f$14 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$11) {
+    return (function(x$1$2$4) {
+      var x$1$5 = $as_Lscalacss_internal_ValueT(x$1$2$4);
+      return x$1$5
+    })
+  })(this$122));
+  var bc$4 = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f$14);
+  var r$4 = ab$4.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$4);
+  var v$11 = r$4.apply__O__Lscalacss_internal_ValueT(f$15);
+  var v$12 = v$11.value$1;
+  var array$9 = [jsx$37, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$36.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$125.attr$3, v$12)))];
+  $m_Lscalacss_package$Defaults$();
+  var c$8 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
+  var f$16 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$12, n$1) {
+    return (function(x$4$2$1) {
+      var x$4$1 = $as_T(x$4$2$1);
+      return ((x$4$1 + " ") + n$1)
+    })
+  })(this$129, "img"));
+  var jsx$41 = $m_Lscalacss_internal_Cond$().empty$1;
+  var this$130 = $m_Lscalacss_internal_Dsl$();
+  if (($uI(array$9.length) === 0)) {
+    var jsx$39 = this$130.StyleS$3.empty$1
+  } else {
+    $m_sc_Seq$();
+    $m_sjs_js_WrappedArray$();
+    var array$10 = [];
+    var x1$4 = $uI(array$9.length);
+    switch (x1$4) {
+      case (-1): {
+        break
+      }
+    };
+    var i$8 = 0;
+    var len$8 = $uI(array$9.length);
+    while ((i$8 < len$8)) {
+      var index$12 = i$8;
+      var arg1$16 = array$9[index$12];
+      var x$9$4 = $as_Lscalacss_internal_DslBase$ToStyle(arg1$16).s$1;
+      array$10.push(x$9$4);
+      i$8 = ((1 + i$8) | 0)
+    };
+    var f$17 = (function(this$2$5, c$9) {
+      return (function(x$10$2$4, x$11$2$4) {
+        var x$10$5 = $as_Lscalacss_internal_StyleS(x$10$2$4);
+        var x$11$5 = $as_Lscalacss_internal_StyleS(x$11$2$4);
+        return c$9.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$5, x$11$5)
+      })
+    })(this$130, c$8);
+    if (($uI(array$10.length) > 0)) {
+      var start$8 = 1;
+      var end$4 = $uI(array$10.length);
+      var z$8 = array$10[0];
+      var start$9 = start$8;
+      var z$9 = z$8;
+      var jsx$40;
+      _foldl$4: while (true) {
+        if ((start$9 !== end$4)) {
+          var temp$start$4 = ((1 + start$9) | 0);
+          var arg1$17 = z$9;
+          var index$13 = start$9;
+          var arg2$4 = array$10[index$13];
+          var temp$z$4 = f$17(arg1$17, arg2$4);
+          start$9 = temp$start$4;
+          z$9 = temp$z$4;
+          continue _foldl$4
+        };
+        var jsx$40 = z$9;
+        break
+      }
+    } else {
+      if (($uI(array$10.length) === 0)) {
+        throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
+      };
+      var elem$1$8 = false;
+      elem$1$8 = true;
+      var elem$1$9 = null;
+      elem$1$9 = 0;
+      var i$9 = 0;
+      var len$9 = $uI(array$10.length);
+      while ((i$9 < len$9)) {
+        var index$14 = i$9;
+        var arg1$18 = array$10[index$14];
+        if (elem$1$8) {
+          elem$1$9 = arg1$18;
+          elem$1$8 = false
+        } else {
+          var arg1$19 = elem$1$9;
+          elem$1$9 = f$17(arg1$19, arg1$18)
+        };
+        i$9 = ((1 + i$9) | 0)
+      };
+      var jsx$40 = elem$1$9
+    };
+    var jsx$39 = $as_Lscalacss_internal_StyleS(jsx$40)
+  };
+  var array$11 = [jsx$45, jsx$43, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$42.ToStyleUnsafeExt__Lscalacss_internal_Style$UnsafeExt__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_Style$UnsafeExt().init___F1__Lscalacss_internal_Cond__Lscalacss_internal_StyleS(f$16, jsx$41, jsx$39)))];
+  $m_Lscalacss_package$Defaults$();
+  var c$10 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
+  var this$139 = $m_Lscalacss_internal_Dsl$();
+  if (($uI(array$11.length) === 0)) {
+    var s1$2 = this$139.StyleS$3.empty$1
+  } else {
+    $m_sc_Seq$();
+    $m_sjs_js_WrappedArray$();
+    var array$12 = [];
+    var x1$5 = $uI(array$11.length);
+    switch (x1$5) {
+      case (-1): {
+        break
+      }
+    };
+    var i$10 = 0;
+    var len$10 = $uI(array$11.length);
+    while ((i$10 < len$10)) {
+      var index$15 = i$10;
+      var arg1$20 = array$11[index$15];
+      var x$9$5 = $as_Lscalacss_internal_DslBase$ToStyle(arg1$20).s$1;
+      array$12.push(x$9$5);
+      i$10 = ((1 + i$10) | 0)
+    };
+    var f$18 = (function(this$2$6, c$11) {
+      return (function(x$10$2$5, x$11$2$5) {
+        var x$10$6 = $as_Lscalacss_internal_StyleS(x$10$2$5);
+        var x$11$6 = $as_Lscalacss_internal_StyleS(x$11$2$5);
+        return c$11.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$6, x$11$6)
+      })
+    })(this$139, c$10);
+    if (($uI(array$12.length) > 0)) {
+      var start$10 = 1;
+      var end$5 = $uI(array$12.length);
+      var z$10 = array$12[0];
+      var start$11 = start$10;
+      var z$11 = z$10;
+      var jsx$47;
+      _foldl$5: while (true) {
+        if ((start$11 !== end$5)) {
+          var temp$start$5 = ((1 + start$11) | 0);
+          var arg1$21 = z$11;
+          var index$16 = start$11;
+          var arg2$5 = array$12[index$16];
+          var temp$z$5 = f$18(arg1$21, arg2$5);
+          start$11 = temp$start$5;
+          z$11 = temp$z$5;
+          continue _foldl$5
+        };
+        var jsx$47 = z$11;
+        break
+      }
+    } else {
+      if (($uI(array$12.length) === 0)) {
+        throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
+      };
+      var elem$1$10 = false;
+      elem$1$10 = true;
+      var elem$1$11 = null;
+      elem$1$11 = 0;
+      var i$11 = 0;
+      var len$11 = $uI(array$12.length);
+      while ((i$11 < len$11)) {
+        var index$17 = i$11;
+        var arg1$22 = array$12[index$17];
+        if (elem$1$10) {
+          elem$1$11 = arg1$22;
+          elem$1$10 = false
+        } else {
+          var arg1$23 = elem$1$11;
+          elem$1$11 = f$18(arg1$23, arg1$22)
+        };
+        i$11 = ((1 + i$11) | 0)
+      };
+      var jsx$47 = elem$1$11
+    };
+    var s1$2 = $as_Lscalacss_internal_StyleS(jsx$47)
+  };
+  var s2$2 = this$138.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$138.name$1, s1$2, this$138.$$outer$1.classNameHint$1);
+  this.logo$3 = this$138.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$2, this$138.$$outer$1.classNameHint$1);
+  var this$317 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "ul");
+  var jsx$110 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$2 = $m_Lscalacss_internal_Attr$().real__T__Lscalacss_internal_Attr("list-style-type");
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var value$1 = $m_Lscalacss_internal_Literal$Typed$none$();
+  var jsx$109 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$110.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$2, value$1.value$1)));
+  var jsx$108 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$150 = $m_Lscalacss_internal_Attrs$display$();
+  var jsx$107 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$108.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$150.attr$2, "flex")));
+  var jsx$106 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$152 = $m_Lscalacss_internal_Attrs$alignItems$();
+  var jsx$105 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$106.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$152.attr$2, "center")));
+  var jsx$104 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$162 = $m_Lscalacss_internal_Attrs$padding$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$6 = 20;
+  var u$6 = $m_Lscalacss_internal_LengthUnit$px$();
+  var f$20 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$6, u$6);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$157 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var ab$5 = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$13) {
+    return (function(x$3$2$5) {
+      var x$3$6 = $as_Lscalacss_internal_Length(x$3$2$5);
+      return x$3$6.value__T()
+    })
+  })(this$157)));
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$159 = $m_Lscalacss_internal_ValueT$Rule$();
+  var f$19 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$14) {
+    return (function(x$1$2$5) {
+      var x$1$6 = $as_Lscalacss_internal_ValueT(x$1$2$5);
+      return x$1$6
+    })
+  })(this$159));
+  var bc$5 = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f$19);
+  var r$5 = ab$5.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$5);
+  var all = r$5.apply__O__Lscalacss_internal_ValueT(f$20);
+  var v$13 = all.value$1;
+  var jsx$103 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$104.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$162.attr$3, v$13)));
+  var jsx$102 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$172 = $m_Lscalacss_internal_Attrs$fontSize$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$7 = 0.5;
+  var u$7 = $m_Lscalacss_internal_LengthUnit$em$();
+  var f$22 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$7, u$7);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$167 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var ab$6 = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$15) {
+    return (function(x$3$2$6) {
+      var x$3$7 = $as_Lscalacss_internal_Length(x$3$2$6);
+      return x$3$7.value__T()
+    })
+  })(this$167)));
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$169 = $m_Lscalacss_internal_ValueT$Rule$();
+  var f$21 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$16) {
+    return (function(x$1$2$6) {
+      var x$1$7 = $as_Lscalacss_internal_ValueT(x$1$2$6);
+      return x$1$7
+    })
+  })(this$169));
+  var bc$6 = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f$21);
+  var r$6 = ab$6.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$6);
+  var v$14 = r$6.apply__O__Lscalacss_internal_ValueT(f$22);
+  var v$15 = v$14.value$1;
+  var jsx$101 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$102.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$172.attr$3, v$15)));
+  var jsx$100 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$174 = $m_Lscalacss_internal_Attrs$cursor$();
+  var jsx$99 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$100.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$174.attr$2, "pointer")));
+  var jsx$98 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$177 = $m_Lscalacss_internal_Attrs$color$();
+  var v$16 = new $c_Lscalacss_internal_ValueT().init___T("rgb(244,233,233)");
+  var v$17 = v$16.value$1;
+  var jsx$97 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$98.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$177.attr$4, v$17)));
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$183 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$182 = $m_Lscalacss_internal_DslBase$MediaQueryEmpty$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$8 = 2000;
+  var u$8 = $m_Lscalacss_internal_LengthUnit$px$();
+  var v$18 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$8, u$8);
+  var x$7 = $f_Lscalacss_internal_Media$FeatureOps__maxWidth__Lscalacss_internal_Length__O(this$182, v$18);
+  var x$3$8 = $as_Lscalacss_internal_Media$Query(x$7);
+  var jsx$96 = new $c_Lscalacss_internal_DslBase$DslCond().init___Lscalacss_internal_Cond__Lscalacss_internal_DslBase(this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$().CondMediaQuery__Lscalacss_internal_Media$Query__Lscalacss_internal_Cond(x$3$8), this$183);
+  var jsx$95 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$185 = $m_Lscalacss_internal_Attrs$alignItems$();
+  var jsx$94 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$95.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$185.attr$2, "center")));
+  var jsx$93 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$187 = $m_Lscalacss_internal_Attrs$flexDirection$();
+  var jsx$92 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$93.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$187.attr$2, "column")));
+  var jsx$91 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$189 = $m_Lscalacss_internal_Attrs$position$();
+  var jsx$90 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$91.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$189.attr$2, "fixed")));
+  var jsx$89 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$199 = $m_Lscalacss_internal_Attrs$top$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$9 = 105;
+  var u$9 = $m_Lscalacss_internal_LengthUnit$px$();
+  var f$24 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$9, u$9);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$194 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var ab$7 = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$17) {
+    return (function(x$3$2$7) {
+      var x$3$9 = $as_Lscalacss_internal_Length(x$3$2$7);
+      return x$3$9.value__T()
+    })
+  })(this$194)));
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$196 = $m_Lscalacss_internal_ValueT$Rule$();
+  var f$23 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$18) {
+    return (function(x$1$2$7) {
+      var x$1$8 = $as_Lscalacss_internal_ValueT(x$1$2$7);
+      return x$1$8
+    })
+  })(this$196));
+  var bc$7 = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f$23);
+  var r$7 = ab$7.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$7);
+  var v$19 = r$7.apply__O__Lscalacss_internal_ValueT(f$24);
+  var v$20 = v$19.value$1;
+  var jsx$88 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$89.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$199.attr$4, v$20)));
+  var jsx$87 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$209 = $m_Lscalacss_internal_Attrs$left$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$10 = 0;
+  var u$10 = $m_Lscalacss_internal_LengthUnit$px$();
+  var f$26 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$10, u$10);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$204 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var ab$8 = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$19) {
+    return (function(x$3$2$8) {
+      var x$3$10 = $as_Lscalacss_internal_Length(x$3$2$8);
+      return x$3$10.value__T()
+    })
+  })(this$204)));
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$206 = $m_Lscalacss_internal_ValueT$Rule$();
+  var f$25 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$20) {
+    return (function(x$1$2$8) {
+      var x$1$9 = $as_Lscalacss_internal_ValueT(x$1$2$8);
+      return x$1$9
+    })
+  })(this$206));
+  var bc$8 = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f$25);
+  var r$8 = ab$8.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$8);
+  var v$21 = r$8.apply__O__Lscalacss_internal_ValueT(f$26);
+  var v$22 = v$21.value$1;
+  var jsx$86 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$87.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$209.attr$4, v$22)));
+  var jsx$85 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$3 = $m_Lscalacss_internal_Attrs$().transition__Lscalacss_internal_Attr();
+  var jsx$84 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$85.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$3, "left 0.2s")));
+  var jsx$83 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$216 = $m_Lscalacss_internal_Attrs$backgroundColor$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var v$23 = new $c_Lscalacss_internal_ValueT().init___T("#F2706D");
+  var v$24 = v$23.value$1;
+  var jsx$82 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$83.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$216.attr$4, v$24)));
+  var jsx$81 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$225 = $m_Lscalacss_internal_Attrs$height$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$11 = 100;
+  var f$28 = new $c_Lscalacss_internal_Percentage().init___O($$this$11);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$220 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var ab$9 = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$21) {
+    return (function(x$4$2$2) {
+      var x$4$3 = $as_Lscalacss_internal_Percentage(x$4$2$2);
+      return x$4$3.value__T()
+    })
+  })(this$220)));
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$222 = $m_Lscalacss_internal_ValueT$Rule$();
+  var f$27 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$22) {
+    return (function(x$1$2$9) {
+      var x$1$10 = $as_Lscalacss_internal_ValueT(x$1$2$9);
+      return x$1$10
+    })
+  })(this$222));
+  var bc$9 = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f$27);
+  var r$9 = ab$9.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$9);
+  var v$25 = r$9.apply__O__Lscalacss_internal_ValueT(f$28);
+  var v$26 = v$25.value$1;
+  var jsx$80 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$81.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$225.attr$3, v$26)));
+  var jsx$79 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$227 = $m_Lscalacss_internal_Attrs$justifyContent$();
+  var jsx$78 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$79.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$227.attr$2, "flex-start")));
+  var jsx$77 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$229 = $m_Lscalacss_internal_Attrs$alignItems$();
+  var jsx$76 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$77.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$229.attr$2, "center")));
+  var jsx$75 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$231 = $m_Lscalacss_internal_Attrs$display$();
+  var array$13 = [jsx$94, jsx$92, jsx$90, jsx$88, jsx$86, jsx$84, jsx$82, jsx$80, jsx$78, jsx$76, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$75.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$231.attr$2, "block")))];
+  var x$8 = jsx$96.apply__sc_Seq__Lscalacss_internal_Compose__Lscalacss_internal_StyleS(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$13), ($m_Lscalacss_package$Defaults$(), $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose()));
+  var jsx$74 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(x$8);
+  var jsx$73 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$308 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var jsx$69 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var jsx$68 = $m_Lscalacss_internal_Attrs$margin$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$12 = 0;
+  var u$11 = $m_Lscalacss_internal_LengthUnit$px$();
+  var f$30 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$12, u$11);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$240 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var ab$10 = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$23) {
+    return (function(x$3$2$9) {
+      var x$3$11 = $as_Lscalacss_internal_Length(x$3$2$9);
+      return x$3$11.value__T()
+    })
+  })(this$240)));
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$242 = $m_Lscalacss_internal_ValueT$Rule$();
+  var f$29 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$24) {
+    return (function(x$1$2$10) {
+      var x$1$11 = $as_Lscalacss_internal_ValueT(x$1$2$10);
+      return x$1$11
+    })
+  })(this$242));
+  var bc$10 = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f$29);
+  var r$10 = ab$10.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$10);
+  var jsx$67 = r$10.apply__O__Lscalacss_internal_ValueT(f$30);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$13 = 10;
+  var u$12 = $m_Lscalacss_internal_LengthUnit$px$();
+  var f$32 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$13, u$12);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$248 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var ab$11 = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$25) {
+    return (function(x$3$2$10) {
+      var x$3$12 = $as_Lscalacss_internal_Length(x$3$2$10);
+      return x$3$12.value__T()
+    })
+  })(this$248)));
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$250 = $m_Lscalacss_internal_ValueT$Rule$();
+  var f$31 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$26) {
+    return (function(x$1$2$11) {
+      var x$1$12 = $as_Lscalacss_internal_ValueT(x$1$2$11);
+      return x$1$12
+    })
+  })(this$250));
+  var bc$11 = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f$31);
+  var r$11 = ab$11.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$11);
+  var jsx$66 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$69.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(jsx$68.apply__Lscalacss_internal_ValueT__Lscalacss_internal_ValueT__Lscalacss_internal_AV(jsx$67, r$11.apply__O__Lscalacss_internal_ValueT(f$32))));
+  var jsx$65 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$256 = $m_Lscalacss_internal_Attrs$backgroundColor$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var v$27 = new $c_Lscalacss_internal_ValueT().init___T("#0C0101");
+  var v$28 = v$27.value$1;
+  var jsx$64 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$65.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$256.attr$4, v$28)));
+  var jsx$63 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$258 = $m_Lscalacss_internal_Attrs$alignItems$();
+  var jsx$62 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$63.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$258.attr$2, "center")));
+  var jsx$61 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$260 = $m_Lscalacss_internal_Attrs$justifyContent$();
+  var jsx$60 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$61.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$260.attr$2, "space-between")));
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$266 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$265 = $m_Lscalacss_internal_DslBase$MediaQueryEmpty$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$14 = 2000;
+  var u$13 = $m_Lscalacss_internal_LengthUnit$px$();
+  var v$29 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$14, u$13);
+  var x$12 = $f_Lscalacss_internal_Media$FeatureOps__maxWidth__Lscalacss_internal_Length__O(this$265, v$29);
+  var x$4$4 = $as_Lscalacss_internal_Media$Query(x$12);
+  var jsx$59 = new $c_Lscalacss_internal_DslBase$DslCond().init___Lscalacss_internal_Cond__Lscalacss_internal_DslBase(this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$().CondMediaQuery__Lscalacss_internal_Media$Query__Lscalacss_internal_Cond(x$4$4), this$266);
+  var jsx$58 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var jsx$57 = $m_Lscalacss_internal_Attrs$margin$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$15 = 15;
+  var u$14 = $m_Lscalacss_internal_LengthUnit$px$();
+  var f$34 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$15, u$14);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$271 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var ab$12 = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$27) {
+    return (function(x$3$2$11) {
+      var x$3$13 = $as_Lscalacss_internal_Length(x$3$2$11);
+      return x$3$13.value__T()
+    })
+  })(this$271)));
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$273 = $m_Lscalacss_internal_ValueT$Rule$();
+  var f$33 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$28) {
+    return (function(x$1$2$12) {
+      var x$1$13 = $as_Lscalacss_internal_ValueT(x$1$2$12);
+      return x$1$13
+    })
+  })(this$273));
+  var bc$12 = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f$33);
+  var r$12 = ab$12.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$12);
+  var jsx$56 = r$12.apply__O__Lscalacss_internal_ValueT(f$34);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$16 = 10;
+  var u$15 = $m_Lscalacss_internal_LengthUnit$px$();
+  var f$36 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$16, u$15);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$279 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var ab$13 = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$29) {
+    return (function(x$3$2$12) {
+      var x$3$14 = $as_Lscalacss_internal_Length(x$3$2$12);
+      return x$3$14.value__T()
+    })
+  })(this$279)));
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$281 = $m_Lscalacss_internal_ValueT$Rule$();
+  var f$35 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$30) {
+    return (function(x$1$2$13) {
+      var x$1$14 = $as_Lscalacss_internal_ValueT(x$1$2$13);
+      return x$1$14
+    })
+  })(this$281));
+  var bc$13 = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f$35);
+  var r$13 = ab$13.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$13);
+  var array$14 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$58.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(jsx$57.apply__Lscalacss_internal_ValueT__Lscalacss_internal_ValueT__Lscalacss_internal_AV(jsx$56, r$13.apply__O__Lscalacss_internal_ValueT(f$36))))];
+  var x$13 = jsx$59.apply__sc_Seq__Lscalacss_internal_Compose__Lscalacss_internal_StyleS(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$14), ($m_Lscalacss_package$Defaults$(), $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose()));
+  var jsx$55 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(x$13);
+  var jsx$54 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$299 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var jsx$50 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$4 = $m_Lscalacss_internal_Attrs$().textDecoration__Lscalacss_internal_Attr();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var value$2 = $m_Lscalacss_internal_Literal$Typed$none$();
+  var jsx$49 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$50.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$4, value$2.value$1)));
+  var jsx$48 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var a$5 = $m_Lscalacss_internal_Attrs$color$();
+  var array$15 = [jsx$49, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$48.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(a$5.attr$4, "#E8433F")))];
+  $m_Lscalacss_package$Defaults$();
+  var c$12 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
+  var f$37 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$31, n$2) {
+    return (function(x$4$2$3) {
+      var x$4$5 = $as_T(x$4$2$3);
+      return ((x$4$5 + " ") + n$2)
+    })
+  })(this$299, "a"));
+  var jsx$53 = $m_Lscalacss_internal_Cond$().empty$1;
+  var this$300 = $m_Lscalacss_internal_Dsl$();
+  if (($uI(array$15.length) === 0)) {
+    var jsx$51 = this$300.StyleS$3.empty$1
+  } else {
+    $m_sc_Seq$();
+    $m_sjs_js_WrappedArray$();
+    var array$16 = [];
+    var x1$6 = $uI(array$15.length);
+    switch (x1$6) {
+      case (-1): {
+        break
+      }
+    };
+    var i$12 = 0;
+    var len$12 = $uI(array$15.length);
+    while ((i$12 < len$12)) {
+      var index$18 = i$12;
+      var arg1$24 = array$15[index$18];
+      var x$9$6 = $as_Lscalacss_internal_DslBase$ToStyle(arg1$24).s$1;
+      array$16.push(x$9$6);
+      i$12 = ((1 + i$12) | 0)
+    };
+    var f$38 = (function(this$2$7, c$13) {
+      return (function(x$10$2$6, x$11$2$6) {
+        var x$10$7 = $as_Lscalacss_internal_StyleS(x$10$2$6);
+        var x$11$7 = $as_Lscalacss_internal_StyleS(x$11$2$6);
+        return c$13.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$7, x$11$7)
+      })
+    })(this$300, c$12);
+    if (($uI(array$16.length) > 0)) {
+      var start$12 = 1;
+      var end$6 = $uI(array$16.length);
+      var z$12 = array$16[0];
+      var start$13 = start$12;
+      var z$13 = z$12;
+      var jsx$52;
+      _foldl$6: while (true) {
+        if ((start$13 !== end$6)) {
+          var temp$start$6 = ((1 + start$13) | 0);
+          var arg1$25 = z$13;
+          var index$19 = start$13;
+          var arg2$6 = array$16[index$19];
+          var temp$z$6 = f$38(arg1$25, arg2$6);
+          start$13 = temp$start$6;
+          z$13 = temp$z$6;
+          continue _foldl$6
+        };
+        var jsx$52 = z$13;
+        break
+      }
+    } else {
+      if (($uI(array$16.length) === 0)) {
+        throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
+      };
+      var elem$1$12 = false;
+      elem$1$12 = true;
+      var elem$1$13 = null;
+      elem$1$13 = 0;
+      var i$13 = 0;
+      var len$13 = $uI(array$16.length);
+      while ((i$13 < len$13)) {
+        var index$20 = i$13;
+        var arg1$26 = array$16[index$20];
+        if (elem$1$12) {
+          elem$1$13 = arg1$26;
+          elem$1$12 = false
+        } else {
+          var arg1$27 = elem$1$13;
+          elem$1$13 = f$38(arg1$27, arg1$26)
+        };
+        i$13 = ((1 + i$13) | 0)
+      };
+      var jsx$52 = elem$1$13
+    };
+    var jsx$51 = $as_Lscalacss_internal_StyleS(jsx$52)
+  };
+  var array$17 = [jsx$66, jsx$64, jsx$62, jsx$60, jsx$55, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$54.ToStyleUnsafeExt__Lscalacss_internal_Style$UnsafeExt__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_Style$UnsafeExt().init___F1__Lscalacss_internal_Cond__Lscalacss_internal_StyleS(f$37, jsx$53, jsx$51)))];
+  $m_Lscalacss_package$Defaults$();
+  var c$14 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
+  var f$39 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$32, n$3) {
+    return (function(x$4$2$4) {
+      var x$4$6 = $as_T(x$4$2$4);
+      return ((x$4$6 + " ") + n$3)
+    })
+  })(this$308, "li"));
+  var jsx$72 = $m_Lscalacss_internal_Cond$().empty$1;
+  var this$309 = $m_Lscalacss_internal_Dsl$();
+  if (($uI(array$17.length) === 0)) {
+    var jsx$70 = this$309.StyleS$3.empty$1
+  } else {
+    $m_sc_Seq$();
+    $m_sjs_js_WrappedArray$();
+    var array$18 = [];
+    var x1$7 = $uI(array$17.length);
+    switch (x1$7) {
+      case (-1): {
+        break
+      }
+    };
+    var i$14 = 0;
+    var len$14 = $uI(array$17.length);
+    while ((i$14 < len$14)) {
+      var index$21 = i$14;
+      var arg1$28 = array$17[index$21];
+      var x$9$7 = $as_Lscalacss_internal_DslBase$ToStyle(arg1$28).s$1;
+      array$18.push(x$9$7);
+      i$14 = ((1 + i$14) | 0)
+    };
+    var f$40 = (function(this$2$8, c$15) {
+      return (function(x$10$2$7, x$11$2$7) {
+        var x$10$8 = $as_Lscalacss_internal_StyleS(x$10$2$7);
+        var x$11$8 = $as_Lscalacss_internal_StyleS(x$11$2$7);
+        return c$15.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$8, x$11$8)
+      })
+    })(this$309, c$14);
+    if (($uI(array$18.length) > 0)) {
+      var start$14 = 1;
+      var end$7 = $uI(array$18.length);
+      var z$14 = array$18[0];
+      var start$15 = start$14;
+      var z$15 = z$14;
+      var jsx$71;
+      _foldl$7: while (true) {
+        if ((start$15 !== end$7)) {
+          var temp$start$7 = ((1 + start$15) | 0);
+          var arg1$29 = z$15;
+          var index$22 = start$15;
+          var arg2$7 = array$18[index$22];
+          var temp$z$7 = f$40(arg1$29, arg2$7);
+          start$15 = temp$start$7;
+          z$15 = temp$z$7;
+          continue _foldl$7
+        };
+        var jsx$71 = z$15;
+        break
+      }
+    } else {
+      if (($uI(array$18.length) === 0)) {
+        throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
+      };
+      var elem$1$14 = false;
+      elem$1$14 = true;
+      var elem$1$15 = null;
+      elem$1$15 = 0;
+      var i$15 = 0;
+      var len$15 = $uI(array$18.length);
+      while ((i$15 < len$15)) {
+        var index$23 = i$15;
+        var arg1$30 = array$18[index$23];
+        if (elem$1$14) {
+          elem$1$15 = arg1$30;
+          elem$1$14 = false
+        } else {
+          var arg1$31 = elem$1$15;
+          elem$1$15 = f$40(arg1$31, arg1$30)
+        };
+        i$15 = ((1 + i$15) | 0)
+      };
+      var jsx$71 = elem$1$15
+    };
+    var jsx$70 = $as_Lscalacss_internal_StyleS(jsx$71)
+  };
+  var array$19 = [jsx$109, jsx$107, jsx$105, jsx$103, jsx$101, jsx$99, jsx$97, jsx$74, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$73.ToStyleUnsafeExt__Lscalacss_internal_Style$UnsafeExt__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_Style$UnsafeExt().init___F1__Lscalacss_internal_Cond__Lscalacss_internal_StyleS(f$39, jsx$72, jsx$70)))];
+  $m_Lscalacss_package$Defaults$();
+  var c$16 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
+  var this$318 = $m_Lscalacss_internal_Dsl$();
+  if (($uI(array$19.length) === 0)) {
+    var s1$3 = this$318.StyleS$3.empty$1
+  } else {
+    $m_sc_Seq$();
+    $m_sjs_js_WrappedArray$();
+    var array$20 = [];
+    var x1$8 = $uI(array$19.length);
+    switch (x1$8) {
+      case (-1): {
+        break
+      }
+    };
+    var i$16 = 0;
+    var len$16 = $uI(array$19.length);
+    while ((i$16 < len$16)) {
+      var index$24 = i$16;
+      var arg1$32 = array$19[index$24];
+      var x$9$8 = $as_Lscalacss_internal_DslBase$ToStyle(arg1$32).s$1;
+      array$20.push(x$9$8);
+      i$16 = ((1 + i$16) | 0)
+    };
+    var f$41 = (function(this$2$9, c$17) {
+      return (function(x$10$2$8, x$11$2$8) {
+        var x$10$9 = $as_Lscalacss_internal_StyleS(x$10$2$8);
+        var x$11$9 = $as_Lscalacss_internal_StyleS(x$11$2$8);
+        return c$17.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$9, x$11$9)
+      })
+    })(this$318, c$16);
+    if (($uI(array$20.length) > 0)) {
+      var start$16 = 1;
+      var end$8 = $uI(array$20.length);
+      var z$16 = array$20[0];
+      var start$17 = start$16;
+      var z$17 = z$16;
+      var jsx$111;
+      _foldl$8: while (true) {
+        if ((start$17 !== end$8)) {
+          var temp$start$8 = ((1 + start$17) | 0);
+          var arg1$33 = z$17;
+          var index$25 = start$17;
+          var arg2$8 = array$20[index$25];
+          var temp$z$8 = f$41(arg1$33, arg2$8);
+          start$17 = temp$start$8;
+          z$17 = temp$z$8;
+          continue _foldl$8
+        };
+        var jsx$111 = z$17;
+        break
+      }
+    } else {
+      if (($uI(array$20.length) === 0)) {
+        throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
+      };
+      var elem$1$16 = false;
+      elem$1$16 = true;
+      var elem$1$17 = null;
+      elem$1$17 = 0;
+      var i$17 = 0;
+      var len$17 = $uI(array$20.length);
+      while ((i$17 < len$17)) {
+        var index$26 = i$17;
+        var arg1$34 = array$20[index$26];
+        if (elem$1$16) {
+          elem$1$17 = arg1$34;
+          elem$1$16 = false
+        } else {
+          var arg1$35 = elem$1$17;
+          elem$1$17 = f$41(arg1$35, arg1$34)
+        };
+        i$17 = ((1 + i$17) | 0)
+      };
+      var jsx$111 = elem$1$17
+    };
+    var s1$3 = $as_Lscalacss_internal_StyleS(jsx$111)
+  };
+  var s2$3 = this$317.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$317.name$1, s1$3, this$317.$$outer$1.classNameHint$1);
+  this.ul$3 = this$317.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$3, this$317.$$outer$1.classNameHint$1);
   return this
 });
 var $d_Lscalajsreact_template_css_GlobalStyle$ = new $TypeData().initClass({
@@ -25912,12 +29867,12 @@ $c_Lscalajsreact_template_pages_HomePage$Style$.prototype.init___ = (function() 
   var this$1 = $m_Lscalacss_package$Defaults$();
   $c_Lscalacss_internal_mutable_StyleSheet$Inline.prototype.init___Lscalacss_internal_mutable_Register.call(this, new $c_Lscalacss_internal_mutable_Register().init___Lscalacss_internal_mutable_Register$NameGen__Lscalacss_internal_mutable_Register$MacroName__Lscalacss_internal_mutable_Register$ErrorHandler__Lscalacss_internal_mutable_Mutex(this$1.cssRegisterNameGen$1, $m_Lscalacss_internal_mutable_Register$MacroName$Use$(), this$1.cssRegisterErrorHandler$1, $m_Lscalacss_internal_mutable_Mutex$().mutex$1));
   $n_Lscalajsreact_template_pages_HomePage$Style$ = this;
-  var this$37 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "content");
-  var jsx$7 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$43 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "content");
+  var jsx$13 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var this$3 = $m_Lscalacss_internal_Attrs$textAlign$();
-  var jsx$6 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$7.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$3.attr$2, "center")));
-  var jsx$5 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var jsx$12 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$13.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$3.attr$2, "center")));
+  var jsx$11 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var this$13 = $m_Lscalacss_internal_Attrs$fontSize$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
@@ -25945,8 +29900,8 @@ $c_Lscalajsreact_template_pages_HomePage$Style$.prototype.init___ = (function() 
   var r = ab.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc);
   var v = r.apply__O__Lscalacss_internal_ValueT(f$1);
   var v$1 = v.value$1;
-  var jsx$4 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$5.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$13.attr$3, v$1)));
-  var jsx$3 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var jsx$10 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$11.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$13.attr$3, v$1)));
+  var jsx$9 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var this$23 = $m_Lscalacss_internal_Attrs$minHeight$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
@@ -25974,8 +29929,8 @@ $c_Lscalajsreact_template_pages_HomePage$Style$.prototype.init___ = (function() 
   var r$1 = ab$1.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$1);
   var v$2 = r$1.apply__O__Lscalacss_internal_ValueT(f$3);
   var v$3 = v$2.value$1;
-  var jsx$2 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$3.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$23.attr$3, v$3)));
-  var jsx$1 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var jsx$8 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$9.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$23.attr$3, v$3)));
+  var jsx$7 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var this$33 = $m_Lscalacss_internal_Attrs$paddingTop$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
@@ -26003,12 +29958,24 @@ $c_Lscalajsreact_template_pages_HomePage$Style$.prototype.init___ = (function() 
   var r$2 = ab$2.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$2);
   var v$4 = r$2.apply__O__Lscalacss_internal_ValueT(f$5);
   var v$5 = v$4.value$1;
-  var array = [jsx$6, jsx$4, jsx$2, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$1.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$33.attr$3, v$5)))];
+  var jsx$6 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$7.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$33.attr$3, v$5)));
+  var jsx$5 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$35 = $m_Lscalacss_internal_Attrs$display$();
+  var jsx$4 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$5.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$35.attr$2, "flex")));
+  var jsx$3 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$37 = $m_Lscalacss_internal_Attrs$flexWrap$();
+  var jsx$2 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$3.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$37.attr$2, "wrap")));
+  var jsx$1 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$39 = $m_Lscalacss_internal_Attrs$flexDirection$();
+  var array = [jsx$12, jsx$10, jsx$8, jsx$6, jsx$4, jsx$2, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$1.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$39.attr$2, "column")))];
   $m_Lscalacss_package$Defaults$();
   var c = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-  var this$38 = $m_Lscalacss_internal_Dsl$();
+  var this$44 = $m_Lscalacss_internal_Dsl$();
   if (($uI(array.length) === 0)) {
-    var s1 = this$38.StyleS$3.empty$1
+    var s1 = this$44.StyleS$3.empty$1
   } else {
     $m_sc_Seq$();
     $m_sjs_js_WrappedArray$();
@@ -26034,14 +30001,14 @@ $c_Lscalajsreact_template_pages_HomePage$Style$.prototype.init___ = (function() 
         var x$11 = $as_Lscalacss_internal_StyleS(x$11$2);
         return c$1.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10, x$11)
       })
-    })(this$38, c);
+    })(this$44, c);
     if (($uI(array$1.length) > 0)) {
       var start = 1;
       var end = $uI(array$1.length);
       var z = array$1[0];
       var start$1 = start;
       var z$1 = z;
-      var jsx$8;
+      var jsx$14;
       _foldl: while (true) {
         if ((start$1 !== end)) {
           var temp$start = ((1 + start$1) | 0);
@@ -26053,7 +30020,7 @@ $c_Lscalajsreact_template_pages_HomePage$Style$.prototype.init___ = (function() 
           z$1 = temp$z;
           continue _foldl
         };
-        var jsx$8 = z$1;
+        var jsx$14 = z$1;
         break
       }
     } else {
@@ -26078,12 +30045,12 @@ $c_Lscalajsreact_template_pages_HomePage$Style$.prototype.init___ = (function() 
         };
         i$1 = ((1 + i$1) | 0)
       };
-      var jsx$8 = elem$1$1
+      var jsx$14 = elem$1$1
     };
-    var s1 = $as_Lscalacss_internal_StyleS(jsx$8)
+    var s1 = $as_Lscalacss_internal_StyleS(jsx$14)
   };
-  var s2 = this$37.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$37.name$1, s1, this$37.$$outer$1.classNameHint$1);
-  this.content$3 = this$37.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2, this$37.$$outer$1.classNameHint$1);
+  var s2 = this$43.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$43.name$1, s1, this$43.$$outer$1.classNameHint$1);
+  this.content$3 = this$43.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2, this$43.$$outer$1.classNameHint$1);
   return this
 });
 var $d_Lscalajsreact_template_pages_HomePage$Style$ = new $TypeData().initClass({
@@ -26351,8 +30318,8 @@ $c_Lscalajsreact_template_pages_ItemsPage$Style$.prototype.init___ = (function()
   };
   var s2$1 = this$38.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$38.name$1, s1$1, this$38.$$outer$1.classNameHint$1);
   this.nav$3 = this$38.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$1, this$38.$$outer$1.classNameHint$1);
-  var this$57 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "content");
-  var jsx$10 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$67 = new $c_Lscalacss_internal_mutable_StyleSheet$Inline$MStyle().init___Lscalacss_internal_mutable_StyleSheet$Inline__T(this, "content");
+  var jsx$12 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
   var this$53 = $m_Lscalacss_internal_Attrs$padding$();
   this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
@@ -26380,12 +30347,41 @@ $c_Lscalajsreact_template_pages_ItemsPage$Style$.prototype.init___ = (function()
   var r$2 = ab$2.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$2);
   var all = r$2.apply__O__Lscalacss_internal_ValueT(f$7);
   var v$4 = all.value$1;
-  var array$4 = [new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$10.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$53.attr$3, v$4)))];
+  var jsx$11 = new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$12.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$53.attr$3, v$4)));
+  var jsx$10 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$63 = $m_Lscalacss_internal_Attrs$marginTop$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var $$this$3 = 50;
+  var u$3 = $m_Lscalacss_internal_LengthUnit$px$();
+  var f$9 = new $c_Lscalacss_internal_Length().init___O__Lscalacss_internal_LengthUnit($$this$3, u$3);
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$58 = this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var ab$3 = $m_Lscalacss_internal_ValueT$Rule$().apply__F1__Lscalacss_internal_ValueT$Rule(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$6) {
+    return (function(x$3$2$3) {
+      var x$3$4 = $as_Lscalacss_internal_Length(x$3$2$3);
+      return x$3$4.value__T()
+    })
+  })(this$58)));
+  this.dsl__Lscalacss_internal_mutable_StyleSheet$Base$dsl$();
+  var this$60 = $m_Lscalacss_internal_ValueT$Rule$();
+  var f$8 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this$7) {
+    return (function(x$1$2$3) {
+      var x$1$4 = $as_Lscalacss_internal_ValueT(x$1$2$3);
+      return x$1$4
+    })
+  })(this$60));
+  var bc$3 = new $c_Lscalacss_internal_ValueT$Rule$$anon$1().init___F1(f$8);
+  var r$3 = ab$3.$$greater$greater__Lscalacss_internal_ValueT$Rule__Lscalacss_internal_ValueT$Rule(bc$3);
+  var v$5 = r$3.apply__O__Lscalacss_internal_ValueT(f$9);
+  var v$6 = v$5.value$1;
+  var array$4 = [jsx$11, new $c_Lscalacss_internal_DslBase$ToStyle().init___Lscalacss_internal_StyleS(jsx$10.ToStyleAV__Lscalacss_internal_AV__Lscalacss_internal_StyleS(new $c_Lscalacss_internal_AV().init___Lscalacss_internal_Attr__T(this$63.attr$4, v$6)))];
   $m_Lscalacss_package$Defaults$();
   var c$4 = $m_Lscalacss_internal_Compose$().safe__Lscalacss_internal_Compose();
-  var this$58 = $m_Lscalacss_internal_Dsl$();
+  var this$68 = $m_Lscalacss_internal_Dsl$();
   if (($uI(array$4.length) === 0)) {
-    var s1$2 = this$58.StyleS$3.empty$1
+    var s1$2 = this$68.StyleS$3.empty$1
   } else {
     $m_sc_Seq$();
     $m_sjs_js_WrappedArray$();
@@ -26405,32 +30401,32 @@ $c_Lscalajsreact_template_pages_ItemsPage$Style$.prototype.init___ = (function()
       array$5.push(x$9$2);
       i$4 = ((1 + i$4) | 0)
     };
-    var f$8 = (function(this$2$3, c$5) {
+    var f$10 = (function(this$2$3, c$5) {
       return (function(x$10$2$2, x$11$2$2) {
         var x$10$3 = $as_Lscalacss_internal_StyleS(x$10$2$2);
         var x$11$3 = $as_Lscalacss_internal_StyleS(x$11$2$2);
         return c$5.apply__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS__Lscalacss_internal_StyleS(x$10$3, x$11$3)
       })
-    })(this$58, c$4);
+    })(this$68, c$4);
     if (($uI(array$5.length) > 0)) {
       var start$4 = 1;
       var end$2 = $uI(array$5.length);
       var z$4 = array$5[0];
       var start$5 = start$4;
       var z$5 = z$4;
-      var jsx$11;
+      var jsx$13;
       _foldl$2: while (true) {
         if ((start$5 !== end$2)) {
           var temp$start$2 = ((1 + start$5) | 0);
           var arg1$9 = z$5;
           var index$7 = start$5;
           var arg2$2 = array$5[index$7];
-          var temp$z$2 = f$8(arg1$9, arg2$2);
+          var temp$z$2 = f$10(arg1$9, arg2$2);
           start$5 = temp$start$2;
           z$5 = temp$z$2;
           continue _foldl$2
         };
-        var jsx$11 = z$5;
+        var jsx$13 = z$5;
         break
       }
     } else {
@@ -26451,16 +30447,16 @@ $c_Lscalajsreact_template_pages_ItemsPage$Style$.prototype.init___ = (function()
           elem$1$4 = false
         } else {
           var arg1$11 = elem$1$5;
-          elem$1$5 = f$8(arg1$11, arg1$10)
+          elem$1$5 = f$10(arg1$11, arg1$10)
         };
         i$5 = ((1 + i$5) | 0)
       };
-      var jsx$11 = elem$1$5
+      var jsx$13 = elem$1$5
     };
-    var s1$2 = $as_Lscalacss_internal_StyleS(jsx$11)
+    var s1$2 = $as_Lscalacss_internal_StyleS(jsx$13)
   };
-  var s2$2 = this$57.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$57.name$1, s1$2, this$57.$$outer$1.classNameHint$1);
-  this.content$3 = this$57.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$2, this$57.$$outer$1.classNameHint$1);
+  var s2$2 = this$67.$$outer$1.cssRegister$2.applyMacroName__T__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleS(this$67.name$1, s1$2, this$67.$$outer$1.classNameHint$1);
+  this.content$3 = this$67.$$outer$1.cssRegister$2.registerS__Lscalacss_internal_StyleS__Lscalacss_internal_ClassNameHint__Lscalacss_internal_StyleA(s2$2, this$67.$$outer$1.classNameHint$1);
   return this
 });
 var $d_Lscalajsreact_template_pages_ItemsPage$Style$ = new $TypeData().initClass({
@@ -26614,6 +30610,30 @@ var $d_jl_Integer = new $TypeData().initClass({
 }, (void 0), (void 0), (function(x) {
   return $isInt(x)
 }));
+function $is_jl_InterruptedException(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.jl_InterruptedException)))
+}
+function $as_jl_InterruptedException(obj) {
+  return (($is_jl_InterruptedException(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "java.lang.InterruptedException"))
+}
+function $isArrayOf_jl_InterruptedException(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.jl_InterruptedException)))
+}
+function $asArrayOf_jl_InterruptedException(obj, depth) {
+  return (($isArrayOf_jl_InterruptedException(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljava.lang.InterruptedException;", depth))
+}
+function $is_jl_LinkageError(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.jl_LinkageError)))
+}
+function $as_jl_LinkageError(obj) {
+  return (($is_jl_LinkageError(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "java.lang.LinkageError"))
+}
+function $isArrayOf_jl_LinkageError(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.jl_LinkageError)))
+}
+function $asArrayOf_jl_LinkageError(obj, depth) {
+  return (($isArrayOf_jl_LinkageError(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljava.lang.LinkageError;", depth))
+}
 function $isArrayOf_jl_Long(obj, depth) {
   return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.jl_Long)))
 }
@@ -26797,6 +30817,30 @@ var $d_jl_StringBuilder = new $TypeData().initClass({
   Ljava_io_Serializable: 1
 });
 $c_jl_StringBuilder.prototype.$classData = $d_jl_StringBuilder;
+function $is_jl_ThreadDeath(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.jl_ThreadDeath)))
+}
+function $as_jl_ThreadDeath(obj) {
+  return (($is_jl_ThreadDeath(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "java.lang.ThreadDeath"))
+}
+function $isArrayOf_jl_ThreadDeath(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.jl_ThreadDeath)))
+}
+function $asArrayOf_jl_ThreadDeath(obj, depth) {
+  return (($isArrayOf_jl_ThreadDeath(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljava.lang.ThreadDeath;", depth))
+}
+function $is_jl_VirtualMachineError(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.jl_VirtualMachineError)))
+}
+function $as_jl_VirtualMachineError(obj) {
+  return (($is_jl_VirtualMachineError(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "java.lang.VirtualMachineError"))
+}
+function $isArrayOf_jl_VirtualMachineError(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.jl_VirtualMachineError)))
+}
+function $asArrayOf_jl_VirtualMachineError(obj, depth) {
+  return (($isArrayOf_jl_VirtualMachineError(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljava.lang.VirtualMachineError;", depth))
+}
 /** @constructor */
 function $c_ju_Formatter() {
   $c_O.call(this);
@@ -27450,6 +31494,31 @@ var $d_ju_Formatter = new $TypeData().initClass({
 });
 $c_ju_Formatter.prototype.$classData = $d_ju_Formatter;
 /** @constructor */
+function $c_ju_concurrent_ExecutionException() {
+  $c_jl_Exception.call(this)
+}
+$c_ju_concurrent_ExecutionException.prototype = new $h_jl_Exception();
+$c_ju_concurrent_ExecutionException.prototype.constructor = $c_ju_concurrent_ExecutionException;
+/** @constructor */
+function $h_ju_concurrent_ExecutionException() {
+  /*<skip>*/
+}
+$h_ju_concurrent_ExecutionException.prototype = $c_ju_concurrent_ExecutionException.prototype;
+$c_ju_concurrent_ExecutionException.prototype.init___T__jl_Throwable = (function(message, cause) {
+  $c_jl_Throwable.prototype.init___T__jl_Throwable.call(this, message, cause);
+  return this
+});
+var $d_ju_concurrent_ExecutionException = new $TypeData().initClass({
+  ju_concurrent_ExecutionException: 0
+}, false, "java.util.concurrent.ExecutionException", {
+  ju_concurrent_ExecutionException: 1,
+  jl_Exception: 1,
+  jl_Throwable: 1,
+  O: 1,
+  Ljava_io_Serializable: 1
+});
+$c_ju_concurrent_ExecutionException.prototype.$classData = $d_ju_concurrent_ExecutionException;
+/** @constructor */
 function $c_s_Array$() {
   $c_s_FallbackArrayBuilding.call(this)
 }
@@ -27650,17 +31719,11 @@ $h_sc_AbstractIterator.prototype = $c_sc_AbstractIterator.prototype;
 $c_sc_AbstractIterator.prototype.seq__sc_TraversableOnce = (function() {
   return this
 });
-$c_sc_AbstractIterator.prototype.copyToArray__O__I__V = (function(xs, start) {
-  $f_sc_TraversableOnce__copyToArray__O__I__V(this, xs, start)
-});
 $c_sc_AbstractIterator.prototype.toIterator__sc_Iterator = (function() {
   return this
 });
 $c_sc_AbstractIterator.prototype.isEmpty__Z = (function() {
   return $f_sc_Iterator__isEmpty__Z(this)
-});
-$c_sc_AbstractIterator.prototype.mkString__T__T__T__T = (function(start, sep, end) {
-  return $f_sc_TraversableOnce__mkString__T__T__T__T(this, start, sep, end)
 });
 $c_sc_AbstractIterator.prototype.toString__T = (function() {
   return $f_sc_Iterator__toString__T(this)
@@ -27668,18 +31731,13 @@ $c_sc_AbstractIterator.prototype.toString__T = (function() {
 $c_sc_AbstractIterator.prototype.foreach__F1__V = (function(f) {
   $f_sc_Iterator__foreach__F1__V(this, f)
 });
+$c_sc_AbstractIterator.prototype.$$plus$plus__F0__sc_Iterator = (function(that) {
+  return $f_sc_Iterator__$$plus$plus__F0__sc_Iterator(this, that)
+});
 $c_sc_AbstractIterator.prototype.toVector__sci_Vector = (function() {
   $m_sci_Vector$();
   var cbf = $m_sc_IndexedSeq$().ReusableCBF$6;
   return $as_sci_Vector($f_sc_TraversableOnce__to__scg_CanBuildFrom__O(this, cbf))
-});
-$c_sc_AbstractIterator.prototype.$$plus$plus__F0__sc_Iterator = (function(that) {
-  return $f_sc_Iterator__$$plus$plus__F0__sc_Iterator(this, that)
-});
-$c_sc_AbstractIterator.prototype.toBuffer__scm_Buffer = (function() {
-  var this$1 = $m_scm_ArrayBuffer$();
-  var cbf = this$1.ReusableCBFInstance$2;
-  return $as_scm_Buffer($f_sc_TraversableOnce__to__scg_CanBuildFrom__O(this, cbf))
 });
 $c_sc_AbstractIterator.prototype.size__I = (function() {
   return $f_sc_TraversableOnce__size__I(this)
@@ -27690,23 +31748,14 @@ $c_sc_AbstractIterator.prototype.toStream__sci_Stream = (function() {
 $c_sc_AbstractIterator.prototype.addString__scm_StringBuilder__T__T__T__scm_StringBuilder = (function(b, start, sep, end) {
   return $f_sc_TraversableOnce__addString__scm_StringBuilder__T__T__T__scm_StringBuilder(this, b, start, sep, end)
 });
-$c_sc_AbstractIterator.prototype.max__s_math_Ordering__O = (function(cmp) {
-  return $f_sc_TraversableOnce__max__s_math_Ordering__O(this, cmp)
-});
 $c_sc_AbstractIterator.prototype.$$div$colon__O__F2__O = (function(z, op) {
   return $f_sc_TraversableOnce__foldLeft__O__F2__O(this, z, op)
 });
 $c_sc_AbstractIterator.prototype.isTraversableAgain__Z = (function() {
   return false
 });
-$c_sc_AbstractIterator.prototype.copyToArray__O__I__I__V = (function(xs, start, len) {
-  $f_sc_Iterator__copyToArray__O__I__I__V(this, xs, start, len)
-});
 $c_sc_AbstractIterator.prototype.drop__I__sc_Iterator = (function(n) {
   return $f_sc_Iterator__drop__I__sc_Iterator(this, n)
-});
-$c_sc_AbstractIterator.prototype.toArray__s_reflect_ClassTag__O = (function(evidence$1) {
-  return $f_sc_TraversableOnce__toArray__s_reflect_ClassTag__O(this, evidence$1)
 });
 $c_sc_AbstractIterator.prototype.reduceLeft__F2__O = (function(op) {
   return $f_sc_TraversableOnce__reduceLeft__F2__O(this, op)
@@ -27747,9 +31796,6 @@ $c_sc_Iterator$ConcatIterator.prototype.advance__p1__Z = (function() {
     }
   }
 });
-$c_sc_Iterator$ConcatIterator.prototype.copyToArray__O__I__V = (function(xs, start) {
-  $f_sc_TraversableOnce__copyToArray__O__I__V(this, xs, start)
-});
 $c_sc_Iterator$ConcatIterator.prototype.seq__sc_TraversableOnce = (function() {
   return this
 });
@@ -27766,9 +31812,6 @@ $c_sc_Iterator$ConcatIterator.prototype.toIterator__sc_Iterator = (function() {
 });
 $c_sc_Iterator$ConcatIterator.prototype.isEmpty__Z = (function() {
   return $f_sc_Iterator__isEmpty__Z(this)
-});
-$c_sc_Iterator$ConcatIterator.prototype.mkString__T__T__T__T = (function(start, sep, end) {
-  return $f_sc_TraversableOnce__mkString__T__T__T__T(this, start, sep, end)
 });
 $c_sc_Iterator$ConcatIterator.prototype.toString__T = (function() {
   return $f_sc_Iterator__toString__T(this)
@@ -27798,11 +31841,6 @@ $c_sc_Iterator$ConcatIterator.prototype.toVector__sci_Vector = (function() {
 $c_sc_Iterator$ConcatIterator.prototype.size__I = (function() {
   return $f_sc_TraversableOnce__size__I(this)
 });
-$c_sc_Iterator$ConcatIterator.prototype.toBuffer__scm_Buffer = (function() {
-  var this$1 = $m_scm_ArrayBuffer$();
-  var cbf = this$1.ReusableCBFInstance$2;
-  return $as_scm_Buffer($f_sc_TraversableOnce__to__scg_CanBuildFrom__O(this, cbf))
-});
 $c_sc_Iterator$ConcatIterator.prototype.hasNext__Z = (function() {
   if (this.currentHasNextChecked$1) {
     return true
@@ -27823,9 +31861,6 @@ $c_sc_Iterator$ConcatIterator.prototype.toStream__sci_Stream = (function() {
 $c_sc_Iterator$ConcatIterator.prototype.addString__scm_StringBuilder__T__T__T__scm_StringBuilder = (function(b, start, sep, end) {
   return $f_sc_TraversableOnce__addString__scm_StringBuilder__T__T__T__scm_StringBuilder(this, b, start, sep, end)
 });
-$c_sc_Iterator$ConcatIterator.prototype.max__s_math_Ordering__O = (function(cmp) {
-  return $f_sc_TraversableOnce__max__s_math_Ordering__O(this, cmp)
-});
 $c_sc_Iterator$ConcatIterator.prototype.init___sc_Iterator = (function(current) {
   this.current$1 = current;
   this.tail$1 = null;
@@ -27835,9 +31870,6 @@ $c_sc_Iterator$ConcatIterator.prototype.init___sc_Iterator = (function(current) 
 });
 $c_sc_Iterator$ConcatIterator.prototype.$$div$colon__O__F2__O = (function(z, op) {
   return $f_sc_TraversableOnce__foldLeft__O__F2__O(this, z, op)
-});
-$c_sc_Iterator$ConcatIterator.prototype.copyToArray__O__I__I__V = (function(xs, start, len) {
-  $f_sc_Iterator__copyToArray__O__I__I__V(this, xs, start, len)
 });
 $c_sc_Iterator$ConcatIterator.prototype.isTraversableAgain__Z = (function() {
   return false
@@ -27859,9 +31891,6 @@ $c_sc_Iterator$ConcatIterator.prototype.merge__p1__V = (function() {
     };
     break
   }
-});
-$c_sc_Iterator$ConcatIterator.prototype.toArray__s_reflect_ClassTag__O = (function(evidence$1) {
-  return $f_sc_TraversableOnce__toArray__s_reflect_ClassTag__O(this, evidence$1)
 });
 $c_sc_Iterator$ConcatIterator.prototype.reduceLeft__F2__O = (function(op) {
   return $f_sc_TraversableOnce__reduceLeft__F2__O(this, op)
@@ -28061,9 +32090,6 @@ $c_sci_RedBlackTree$TreeIterator.prototype.next__O = (function() {
     return x1.key$1
   }
 });
-$c_sci_RedBlackTree$TreeIterator.prototype.copyToArray__O__I__V = (function(xs, start) {
-  $f_sc_TraversableOnce__copyToArray__O__I__V(this, xs, start)
-});
 $c_sci_RedBlackTree$TreeIterator.prototype.findLeftMostOrPopOnEmpty__p1__sci_RedBlackTree$Tree__sci_RedBlackTree$Tree = (function(tree) {
   _findLeftMostOrPopOnEmpty: while (true) {
     if ((tree === null)) {
@@ -28081,9 +32107,6 @@ $c_sci_RedBlackTree$TreeIterator.prototype.toIterator__sc_Iterator = (function()
 });
 $c_sci_RedBlackTree$TreeIterator.prototype.isEmpty__Z = (function() {
   return $f_sc_Iterator__isEmpty__Z(this)
-});
-$c_sci_RedBlackTree$TreeIterator.prototype.mkString__T__T__T__T = (function(start, sep, end) {
-  return $f_sc_TraversableOnce__mkString__T__T__T__T(this, start, sep, end)
 });
 $c_sci_RedBlackTree$TreeIterator.prototype.init___sci_RedBlackTree$Tree__s_Option__s_math_Ordering = (function(root, start, ordering) {
   this.root$1 = root;
@@ -28114,13 +32137,13 @@ $c_sci_RedBlackTree$TreeIterator.prototype.foreach__F1__V = (function(f) {
 $c_sci_RedBlackTree$TreeIterator.prototype.startFrom__p1__O__sci_RedBlackTree$Tree = (function(key) {
   return ((this.root$1 === null) ? null : this.find$1__p1__sci_RedBlackTree$Tree__O__sci_RedBlackTree$Tree(this.root$1, key))
 });
+$c_sci_RedBlackTree$TreeIterator.prototype.$$plus$plus__F0__sc_Iterator = (function(that) {
+  return $f_sc_Iterator__$$plus$plus__F0__sc_Iterator(this, that)
+});
 $c_sci_RedBlackTree$TreeIterator.prototype.toVector__sci_Vector = (function() {
   $m_sci_Vector$();
   var cbf = $m_sc_IndexedSeq$().ReusableCBF$6;
   return $as_sci_Vector($f_sc_TraversableOnce__to__scg_CanBuildFrom__O(this, cbf))
-});
-$c_sci_RedBlackTree$TreeIterator.prototype.$$plus$plus__F0__sc_Iterator = (function(that) {
-  return $f_sc_Iterator__$$plus$plus__F0__sc_Iterator(this, that)
 });
 $c_sci_RedBlackTree$TreeIterator.prototype.popNext__p1__sci_RedBlackTree$Tree = (function() {
   if ((this.index$1 === 0)) {
@@ -28129,11 +32152,6 @@ $c_sci_RedBlackTree$TreeIterator.prototype.popNext__p1__sci_RedBlackTree$Tree = 
     this.index$1 = (((-1) + this.index$1) | 0);
     return this.stackOfNexts$1.get(this.index$1)
   }
-});
-$c_sci_RedBlackTree$TreeIterator.prototype.toBuffer__scm_Buffer = (function() {
-  var this$1 = $m_scm_ArrayBuffer$();
-  var cbf = this$1.ReusableCBFInstance$2;
-  return $as_scm_Buffer($f_sc_TraversableOnce__to__scg_CanBuildFrom__O(this, cbf))
 });
 $c_sci_RedBlackTree$TreeIterator.prototype.size__I = (function() {
   return $f_sc_TraversableOnce__size__I(this)
@@ -28147,17 +32165,11 @@ $c_sci_RedBlackTree$TreeIterator.prototype.toStream__sci_Stream = (function() {
 $c_sci_RedBlackTree$TreeIterator.prototype.addString__scm_StringBuilder__T__T__T__scm_StringBuilder = (function(b, start, sep, end) {
   return $f_sc_TraversableOnce__addString__scm_StringBuilder__T__T__T__scm_StringBuilder(this, b, start, sep, end)
 });
-$c_sci_RedBlackTree$TreeIterator.prototype.max__s_math_Ordering__O = (function(cmp) {
-  return $f_sc_TraversableOnce__max__s_math_Ordering__O(this, cmp)
-});
 $c_sci_RedBlackTree$TreeIterator.prototype.$$div$colon__O__F2__O = (function(z, op) {
   return $f_sc_TraversableOnce__foldLeft__O__F2__O(this, z, op)
 });
 $c_sci_RedBlackTree$TreeIterator.prototype.isTraversableAgain__Z = (function() {
   return false
-});
-$c_sci_RedBlackTree$TreeIterator.prototype.copyToArray__O__I__I__V = (function(xs, start, len) {
-  $f_sc_Iterator__copyToArray__O__I__I__V(this, xs, start, len)
 });
 $c_sci_RedBlackTree$TreeIterator.prototype.goLeft__p1__sci_RedBlackTree$Tree__sci_RedBlackTree$Tree = (function(tree) {
   this.pushNext__p1__sci_RedBlackTree$Tree__V(tree);
@@ -28165,9 +32177,6 @@ $c_sci_RedBlackTree$TreeIterator.prototype.goLeft__p1__sci_RedBlackTree$Tree__sc
 });
 $c_sci_RedBlackTree$TreeIterator.prototype.drop__I__sc_Iterator = (function(n) {
   return $f_sc_Iterator__drop__I__sc_Iterator(this, n)
-});
-$c_sci_RedBlackTree$TreeIterator.prototype.toArray__s_reflect_ClassTag__O = (function(evidence$1) {
-  return $f_sc_TraversableOnce__toArray__s_reflect_ClassTag__O(this, evidence$1)
 });
 $c_sci_RedBlackTree$TreeIterator.prototype.find$1__p1__sci_RedBlackTree$Tree__O__sci_RedBlackTree$Tree = (function(tree, key$1) {
   _find: while (true) {
@@ -28317,6 +32326,144 @@ var $d_scm_GrowingBuilder = new $TypeData().initClass({
   scg_Clearable: 1
 });
 $c_scm_GrowingBuilder.prototype.$classData = $d_scm_GrowingBuilder;
+/** @constructor */
+function $c_sjs_concurrent_QueueExecutionContext$PromisesExecutionContext() {
+  $c_O.call(this);
+  this.resolvedUnitPromise$1 = null
+}
+$c_sjs_concurrent_QueueExecutionContext$PromisesExecutionContext.prototype = new $h_O();
+$c_sjs_concurrent_QueueExecutionContext$PromisesExecutionContext.prototype.constructor = $c_sjs_concurrent_QueueExecutionContext$PromisesExecutionContext;
+/** @constructor */
+function $h_sjs_concurrent_QueueExecutionContext$PromisesExecutionContext() {
+  /*<skip>*/
+}
+$h_sjs_concurrent_QueueExecutionContext$PromisesExecutionContext.prototype = $c_sjs_concurrent_QueueExecutionContext$PromisesExecutionContext.prototype;
+$c_sjs_concurrent_QueueExecutionContext$PromisesExecutionContext.prototype.init___ = (function() {
+  this.resolvedUnitPromise$1 = $g.Promise.resolve((void 0));
+  return this
+});
+$c_sjs_concurrent_QueueExecutionContext$PromisesExecutionContext.prototype.scala$scalajs$concurrent$QueueExecutionContext$PromisesExecutionContext$$$anonfun$execute$2__sr_BoxedUnit__jl_Runnable__sjs_js_$bar = (function(x$1, runnable$2) {
+  try {
+    runnable$2.run__V()
+  } catch (e) {
+    var e$2 = $m_sjsr_package$().wrapJavaScriptException__O__jl_Throwable(e);
+    if ((e$2 !== null)) {
+      e$2.printStackTrace__Ljava_io_PrintStream__V($m_jl_System$().err$1)
+    } else {
+      throw e
+    }
+  }
+});
+$c_sjs_concurrent_QueueExecutionContext$PromisesExecutionContext.prototype.reportFailure__jl_Throwable__V = (function(t) {
+  t.printStackTrace__Ljava_io_PrintStream__V($m_jl_System$().err$1)
+});
+$c_sjs_concurrent_QueueExecutionContext$PromisesExecutionContext.prototype.execute__jl_Runnable__V = (function(runnable) {
+  this.resolvedUnitPromise$1.then((function(arg$outer, runnable$2) {
+    return (function(arg1$2) {
+      var arg1 = $asUnit(arg1$2);
+      return arg$outer.scala$scalajs$concurrent$QueueExecutionContext$PromisesExecutionContext$$$anonfun$execute$2__sr_BoxedUnit__jl_Runnable__sjs_js_$bar(arg1, runnable$2)
+    })
+  })(this, runnable))
+});
+var $d_sjs_concurrent_QueueExecutionContext$PromisesExecutionContext = new $TypeData().initClass({
+  sjs_concurrent_QueueExecutionContext$PromisesExecutionContext: 0
+}, false, "scala.scalajs.concurrent.QueueExecutionContext$PromisesExecutionContext", {
+  sjs_concurrent_QueueExecutionContext$PromisesExecutionContext: 1,
+  O: 1,
+  s_concurrent_ExecutionContextExecutor: 1,
+  s_concurrent_ExecutionContext: 1,
+  ju_concurrent_Executor: 1
+});
+$c_sjs_concurrent_QueueExecutionContext$PromisesExecutionContext.prototype.$classData = $d_sjs_concurrent_QueueExecutionContext$PromisesExecutionContext;
+/** @constructor */
+function $c_sjs_concurrent_QueueExecutionContext$TimeoutsExecutionContext() {
+  $c_O.call(this)
+}
+$c_sjs_concurrent_QueueExecutionContext$TimeoutsExecutionContext.prototype = new $h_O();
+$c_sjs_concurrent_QueueExecutionContext$TimeoutsExecutionContext.prototype.constructor = $c_sjs_concurrent_QueueExecutionContext$TimeoutsExecutionContext;
+/** @constructor */
+function $h_sjs_concurrent_QueueExecutionContext$TimeoutsExecutionContext() {
+  /*<skip>*/
+}
+$h_sjs_concurrent_QueueExecutionContext$TimeoutsExecutionContext.prototype = $c_sjs_concurrent_QueueExecutionContext$TimeoutsExecutionContext.prototype;
+$c_sjs_concurrent_QueueExecutionContext$TimeoutsExecutionContext.prototype.init___ = (function() {
+  return this
+});
+$c_sjs_concurrent_QueueExecutionContext$TimeoutsExecutionContext.prototype.reportFailure__jl_Throwable__V = (function(t) {
+  t.printStackTrace__Ljava_io_PrintStream__V($m_jl_System$().err$1)
+});
+$c_sjs_concurrent_QueueExecutionContext$TimeoutsExecutionContext.prototype.execute__jl_Runnable__V = (function(runnable) {
+  $g.setTimeout((function($this, runnable$1) {
+    return (function() {
+      try {
+        runnable$1.run__V()
+      } catch (e) {
+        var e$2 = $m_sjsr_package$().wrapJavaScriptException__O__jl_Throwable(e);
+        if ((e$2 !== null)) {
+          e$2.printStackTrace__Ljava_io_PrintStream__V($m_jl_System$().err$1)
+        } else {
+          throw e
+        }
+      }
+    })
+  })(this, runnable), 0)
+});
+var $d_sjs_concurrent_QueueExecutionContext$TimeoutsExecutionContext = new $TypeData().initClass({
+  sjs_concurrent_QueueExecutionContext$TimeoutsExecutionContext: 0
+}, false, "scala.scalajs.concurrent.QueueExecutionContext$TimeoutsExecutionContext", {
+  sjs_concurrent_QueueExecutionContext$TimeoutsExecutionContext: 1,
+  O: 1,
+  s_concurrent_ExecutionContextExecutor: 1,
+  s_concurrent_ExecutionContext: 1,
+  ju_concurrent_Executor: 1
+});
+$c_sjs_concurrent_QueueExecutionContext$TimeoutsExecutionContext.prototype.$classData = $d_sjs_concurrent_QueueExecutionContext$TimeoutsExecutionContext;
+/** @constructor */
+function $c_sjs_concurrent_RunNowExecutionContext$() {
+  $c_O.call(this)
+}
+$c_sjs_concurrent_RunNowExecutionContext$.prototype = new $h_O();
+$c_sjs_concurrent_RunNowExecutionContext$.prototype.constructor = $c_sjs_concurrent_RunNowExecutionContext$;
+/** @constructor */
+function $h_sjs_concurrent_RunNowExecutionContext$() {
+  /*<skip>*/
+}
+$h_sjs_concurrent_RunNowExecutionContext$.prototype = $c_sjs_concurrent_RunNowExecutionContext$.prototype;
+$c_sjs_concurrent_RunNowExecutionContext$.prototype.init___ = (function() {
+  return this
+});
+$c_sjs_concurrent_RunNowExecutionContext$.prototype.reportFailure__jl_Throwable__V = (function(t) {
+  t.printStackTrace__Ljava_io_PrintStream__V($m_jl_System$().err$1)
+});
+$c_sjs_concurrent_RunNowExecutionContext$.prototype.execute__jl_Runnable__V = (function(runnable) {
+  try {
+    runnable.run__V()
+  } catch (e) {
+    var e$2 = $m_sjsr_package$().wrapJavaScriptException__O__jl_Throwable(e);
+    if ((e$2 !== null)) {
+      e$2.printStackTrace__Ljava_io_PrintStream__V($m_jl_System$().err$1)
+    } else {
+      throw e
+    }
+  }
+});
+var $d_sjs_concurrent_RunNowExecutionContext$ = new $TypeData().initClass({
+  sjs_concurrent_RunNowExecutionContext$: 0
+}, false, "scala.scalajs.concurrent.RunNowExecutionContext$", {
+  sjs_concurrent_RunNowExecutionContext$: 1,
+  O: 1,
+  s_concurrent_ExecutionContextExecutor: 1,
+  s_concurrent_ExecutionContext: 1,
+  ju_concurrent_Executor: 1
+});
+$c_sjs_concurrent_RunNowExecutionContext$.prototype.$classData = $d_sjs_concurrent_RunNowExecutionContext$;
+var $n_sjs_concurrent_RunNowExecutionContext$ = (void 0);
+function $m_sjs_concurrent_RunNowExecutionContext$() {
+  if ((!$n_sjs_concurrent_RunNowExecutionContext$)) {
+    $n_sjs_concurrent_RunNowExecutionContext$ = new $c_sjs_concurrent_RunNowExecutionContext$().init___()
+  };
+  return $n_sjs_concurrent_RunNowExecutionContext$
+}
 /** @constructor */
 function $c_sjsr_RuntimeLong() {
   $c_jl_Number.call(this);
@@ -28601,7 +32748,7 @@ $c_Ljapgolly_scalajs_react_CtorType$Mod$.prototype.toString__T = (function() {
 $c_Ljapgolly_scalajs_react_CtorType$Mod$.prototype.toString$extension__F1__T = (function($$this) {
   return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(new $c_Ljapgolly_scalajs_react_CtorType$Mod().init___F1($$this))
 });
-$c_Ljapgolly_scalajs_react_CtorType$Mod$.prototype.apply$extension__F1__sjs_js_Object__sjs_js_Object = (function($$this, o) {
+$c_Ljapgolly_scalajs_react_CtorType$Mod$.prototype.applyAndCast$extension__F1__sjs_js_Object__sjs_js_Object = (function($$this, o) {
   $$this.apply__O__O(o);
   return o
 });
@@ -28631,116 +32778,18 @@ function $m_Ljapgolly_scalajs_react_CtorType$Mod$() {
   };
   return $n_Ljapgolly_scalajs_react_CtorType$Mod$
 }
-function $is_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_Js$MountedWithRoot)))
-}
-function $as_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj) {
-  return (($is_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.Js$MountedWithRoot"))
-}
-function $isArrayOf_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_Js$MountedWithRoot)))
-}
-function $asArrayOf_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj, depth) {
-  return (($isArrayOf_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.Js$MountedWithRoot;", depth))
-}
-function $is_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_Scala$MountedWithRoot)))
-}
-function $as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj) {
-  return (($is_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.Scala$MountedWithRoot"))
-}
-function $isArrayOf_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_Scala$MountedWithRoot)))
-}
-function $asArrayOf_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj, depth) {
-  return (($isArrayOf_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.Scala$MountedWithRoot;", depth))
-}
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_component_Template$MountedMapped() {
-  $c_O.call(this);
-  this.from$1 = null;
-  this.mp$1 = null;
-  this.ls$1 = null;
-  this.ft$1 = null
-}
-$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Template$MountedMapped;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_component_Template$MountedMapped() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype = $c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype;
-$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.withEffect__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(t) {
-  return this.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(this.mp$1, this.ls$1, this.ft$1.compose__Ljapgolly_scalajs_react_internal_Effect$Trans__s_Predef$$less$colon$less__Ljapgolly_scalajs_react_internal_Effect$Trans(t, null))
-});
-$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.modState$default$2__F0 = (function() {
-  return $m_Ljapgolly_scalajs_react_Callback$().empty$1
-});
-$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.props__O = (function() {
-  return this.ft$1.apply__F0__O(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
-    return (function() {
-      return $this.mp$1.apply__O__O($this.from$1.props__O())
-    })
-  })(this)))
-});
-$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.modState__F1__F0__O = (function(f, callback) {
-  return this.ft$1.apply__F0__O(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, f$1, callback$1) {
-    return (function() {
-      $this.from$1.modState__F1__F0__O($as_F1($this.ls$1.mod$1.apply__O__O(f$1)), callback$1)
-    })
-  })(this, f, callback)))
-});
-$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.setState__O__F0__O = (function(s, callback) {
-  return this.ft$1.apply__F0__O(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, s$1, callback$1) {
-    return (function() {
-      $this.from$1.modState__F1__F0__O($as_F1($this.ls$1.set$1.apply__O__O(s$1)), callback$1)
-    })
-  })(this, s, callback)))
-});
-$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans = (function(from, mp, ls, ft) {
-  this.from$1 = from;
-  this.mp$1 = mp;
-  this.ls$1 = ls;
-  this.ft$1 = ft;
-  return this
-});
-$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.state__O = (function() {
-  return this.ft$1.apply__F0__O(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
-    return (function() {
-      return $this.ls$1.get$1.apply__O__O($this.from$1.state__O())
-    })
-  })(this)))
-});
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot() {
-  $c_O.call(this);
-  this.ft$1 = null
-}
-$c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_component_Template$MountedWithRoot() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype = $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype;
-$c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype.withEffect__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(t) {
-  var jsx$1 = $m_Ljapgolly_scalajs_react_internal_package$().identityFnInstance$1;
-  var this$1 = $m_Ljapgolly_scalajs_react_internal_Lens$();
-  return this.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(jsx$1, this$1.idInstance$1, this.ft$1.compose__Ljapgolly_scalajs_react_internal_Effect$Trans__s_Predef$$less$colon$less__Ljapgolly_scalajs_react_internal_Effect$Trans(t, null))
-});
-$c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype.init___Ljapgolly_scalajs_react_internal_Effect$Trans = (function(ft) {
-  this.ft$1 = ft;
-  return this
-});
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle() {
   $c_O.call(this);
+  this.componentDidCatch$1 = null;
   this.componentDidMount$1 = null;
   this.componentDidUpdate$1 = null;
   this.componentWillMount$1 = null;
   this.componentWillReceiveProps$1 = null;
   this.componentWillUnmount$1 = null;
   this.componentWillUpdate$1 = null;
+  this.getDerivedStateFromProps$1 = null;
+  this.getSnapshotBeforeUpdate$1 = null;
   this.shouldComponentUpdate$1 = null
 }
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle.prototype = new $h_O();
@@ -28754,54 +32803,75 @@ $c_Ljapgolly_scalajs_react_component_builder_Lifecycle.prototype.productPrefix__
   return "Lifecycle"
 });
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle.prototype.productArity__I = (function() {
-  return 7
+  return 10
 });
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle.prototype.equals__O__Z = (function(x$1) {
   if ((this === x$1)) {
     return true
   } else if ($is_Ljapgolly_scalajs_react_component_builder_Lifecycle(x$1)) {
     var Lifecycle$1 = $as_Ljapgolly_scalajs_react_component_builder_Lifecycle(x$1);
-    var x = this.componentDidMount$1;
-    var x$2 = Lifecycle$1.componentDidMount$1;
+    var x = this.componentDidCatch$1;
+    var x$2 = Lifecycle$1.componentDidCatch$1;
     if (((x === null) ? (x$2 === null) : x.equals__O__Z(x$2))) {
-      var x$3 = this.componentDidUpdate$1;
-      var x$4 = Lifecycle$1.componentDidUpdate$1;
-      var jsx$5 = ((x$3 === null) ? (x$4 === null) : x$3.equals__O__Z(x$4))
+      var x$3 = this.componentDidMount$1;
+      var x$4 = Lifecycle$1.componentDidMount$1;
+      var jsx$8 = ((x$3 === null) ? (x$4 === null) : x$3.equals__O__Z(x$4))
+    } else {
+      var jsx$8 = false
+    };
+    if (jsx$8) {
+      var x$5 = this.componentDidUpdate$1;
+      var x$6 = Lifecycle$1.componentDidUpdate$1;
+      var jsx$7 = ((x$5 === null) ? (x$6 === null) : x$5.equals__O__Z(x$6))
+    } else {
+      var jsx$7 = false
+    };
+    if (jsx$7) {
+      var x$7 = this.componentWillMount$1;
+      var x$8 = Lifecycle$1.componentWillMount$1;
+      var jsx$6 = ((x$7 === null) ? (x$8 === null) : x$7.equals__O__Z(x$8))
+    } else {
+      var jsx$6 = false
+    };
+    if (jsx$6) {
+      var x$9 = this.componentWillReceiveProps$1;
+      var x$10 = Lifecycle$1.componentWillReceiveProps$1;
+      var jsx$5 = ((x$9 === null) ? (x$10 === null) : x$9.equals__O__Z(x$10))
     } else {
       var jsx$5 = false
     };
     if (jsx$5) {
-      var x$5 = this.componentWillMount$1;
-      var x$6 = Lifecycle$1.componentWillMount$1;
-      var jsx$4 = ((x$5 === null) ? (x$6 === null) : x$5.equals__O__Z(x$6))
+      var x$11 = this.componentWillUnmount$1;
+      var x$12 = Lifecycle$1.componentWillUnmount$1;
+      var jsx$4 = ((x$11 === null) ? (x$12 === null) : x$11.equals__O__Z(x$12))
     } else {
       var jsx$4 = false
     };
     if (jsx$4) {
-      var x$7 = this.componentWillReceiveProps$1;
-      var x$8 = Lifecycle$1.componentWillReceiveProps$1;
-      var jsx$3 = ((x$7 === null) ? (x$8 === null) : x$7.equals__O__Z(x$8))
+      var x$13 = this.componentWillUpdate$1;
+      var x$14 = Lifecycle$1.componentWillUpdate$1;
+      var jsx$3 = ((x$13 === null) ? (x$14 === null) : x$13.equals__O__Z(x$14))
     } else {
       var jsx$3 = false
     };
     if (jsx$3) {
-      var x$9 = this.componentWillUnmount$1;
-      var x$10 = Lifecycle$1.componentWillUnmount$1;
-      var jsx$2 = ((x$9 === null) ? (x$10 === null) : x$9.equals__O__Z(x$10))
+      var x$15 = this.getDerivedStateFromProps$1;
+      var x$16 = Lifecycle$1.getDerivedStateFromProps$1;
+      var jsx$2 = ((x$15 === null) ? (x$16 === null) : x$15.equals__O__Z(x$16))
     } else {
       var jsx$2 = false
     };
     if (jsx$2) {
-      var x$11 = this.componentWillUpdate$1;
-      var x$12 = Lifecycle$1.componentWillUpdate$1;
-      var jsx$1 = ((x$11 === null) ? (x$12 === null) : x$11.equals__O__Z(x$12))
+      var x$17 = this.getSnapshotBeforeUpdate$1;
+      var x$18 = Lifecycle$1.getSnapshotBeforeUpdate$1;
+      var jsx$1 = ((x$17 === null) ? (x$18 === null) : x$17.equals__O__Z(x$18))
     } else {
       var jsx$1 = false
     };
     if (jsx$1) {
-      var x$13 = this.shouldComponentUpdate$1;
-      var x$14 = Lifecycle$1.shouldComponentUpdate$1;
-      return ((x$13 === null) ? (x$14 === null) : x$13.equals__O__Z(x$14))
+      var x$19 = this.shouldComponentUpdate$1;
+      var x$20 = Lifecycle$1.shouldComponentUpdate$1;
+      return ((x$19 === null) ? (x$20 === null) : x$19.equals__O__Z(x$20))
     } else {
       return false
     }
@@ -28809,33 +32879,58 @@ $c_Ljapgolly_scalajs_react_component_builder_Lifecycle.prototype.equals__O__Z = 
     return false
   }
 });
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle.prototype.init___s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option = (function(componentDidCatch, componentDidMount, componentDidUpdate, componentWillMount, componentWillReceiveProps, componentWillUnmount, componentWillUpdate, getDerivedStateFromProps, getSnapshotBeforeUpdate, shouldComponentUpdate) {
+  this.componentDidCatch$1 = componentDidCatch;
+  this.componentDidMount$1 = componentDidMount;
+  this.componentDidUpdate$1 = componentDidUpdate;
+  this.componentWillMount$1 = componentWillMount;
+  this.componentWillReceiveProps$1 = componentWillReceiveProps;
+  this.componentWillUnmount$1 = componentWillUnmount;
+  this.componentWillUpdate$1 = componentWillUpdate;
+  this.getDerivedStateFromProps$1 = getDerivedStateFromProps;
+  this.getSnapshotBeforeUpdate$1 = getSnapshotBeforeUpdate;
+  this.shouldComponentUpdate$1 = shouldComponentUpdate;
+  return this
+});
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle.prototype.productElement__I__O = (function(x$1) {
   switch (x$1) {
     case 0: {
-      return this.componentDidMount$1;
+      return this.componentDidCatch$1;
       break
     }
     case 1: {
-      return this.componentDidUpdate$1;
+      return this.componentDidMount$1;
       break
     }
     case 2: {
-      return this.componentWillMount$1;
+      return this.componentDidUpdate$1;
       break
     }
     case 3: {
-      return this.componentWillReceiveProps$1;
+      return this.componentWillMount$1;
       break
     }
     case 4: {
-      return this.componentWillUnmount$1;
+      return this.componentWillReceiveProps$1;
       break
     }
     case 5: {
-      return this.componentWillUpdate$1;
+      return this.componentWillUnmount$1;
       break
     }
     case 6: {
+      return this.componentWillUpdate$1;
+      break
+    }
+    case 7: {
+      return this.getDerivedStateFromProps$1;
+      break
+    }
+    case 8: {
+      return this.getSnapshotBeforeUpdate$1;
+      break
+    }
+    case 9: {
       return this.shouldComponentUpdate$1;
       break
     }
@@ -28846,16 +32941,6 @@ $c_Ljapgolly_scalajs_react_component_builder_Lifecycle.prototype.productElement_
 });
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle.prototype.toString__T = (function() {
   return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle.prototype.init___s_Option__s_Option__s_Option__s_Option__s_Option__s_Option__s_Option = (function(componentDidMount, componentDidUpdate, componentWillMount, componentWillReceiveProps, componentWillUnmount, componentWillUpdate, shouldComponentUpdate) {
-  this.componentDidMount$1 = componentDidMount;
-  this.componentDidUpdate$1 = componentDidUpdate;
-  this.componentWillMount$1 = componentWillMount;
-  this.componentWillReceiveProps$1 = componentWillReceiveProps;
-  this.componentWillUnmount$1 = componentWillUnmount;
-  this.componentWillUpdate$1 = componentWillUpdate;
-  this.shouldComponentUpdate$1 = shouldComponentUpdate;
-  return this
 });
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle.prototype.append__Ljapgolly_scalajs_react_internal_Lens__F1__F2__Ljapgolly_scalajs_react_component_builder_Lifecycle = (function(lens, g, s) {
   return $as_Ljapgolly_scalajs_react_component_builder_Lifecycle($as_F1(lens.mod$1.apply__O__O(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, g$1, s$1) {
@@ -28910,145 +32995,6 @@ var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle = new $TypeData().ini
   Ljava_io_Serializable: 1
 });
 $c_Ljapgolly_scalajs_react_component_builder_Lifecycle.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle;
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount() {
-  $c_O.call(this);
-  this.raw$1 = null
-}
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype;
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.raw__Ljapgolly_scalajs_react_raw_package$ReactComponent = (function() {
-  return this.raw$1
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.init___Ljapgolly_scalajs_react_raw_package$ReactComponent = (function(raw) {
-  this.raw$1 = raw;
-  return this
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.equals__O__Z = (function(x$1) {
-  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$().equals$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__O__Z(this.raw$1, x$1)
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.toString__T = (function() {
-  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$().toString$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__T(this.raw$1)
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.hashCode__I = (function() {
-  var $$this = this.raw$1;
-  return $objectHashCode($$this)
-});
-function $is_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount)))
-}
-function $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(obj) {
-  return (($is_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentDidMount"))
-}
-function $isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount)))
-}
-function $asArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(obj, depth) {
-  return (($isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.builder.Lifecycle$ComponentDidMount;", depth))
-}
-var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount: 0
-}, false, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentDidMount", {
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount: 1,
-  O: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateRW: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$Base: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ForceUpdate: 1
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount;
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps() {
-  $c_O.call(this);
-  this.raw$1 = null;
-  this.nextProps$1 = null
-}
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype;
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype.raw__Ljapgolly_scalajs_react_raw_package$ReactComponent = (function() {
-  return this.raw$1
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype.toString__T = (function() {
-  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T(new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["ComponentWillReceiveProps(props: ", " \u2192 ", ", state: ", ")"])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([$f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).props__O(), this.nextProps$1, $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).state__O()])))
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype.init___Ljapgolly_scalajs_react_raw_package$ReactComponent__O = (function(raw, nextProps) {
-  this.raw$1 = raw;
-  this.nextProps$1 = nextProps;
-  return this
-});
-var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps: 0
-}, false, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentWillReceiveProps", {
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps: 1,
-  O: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateRW: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$Base: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ForceUpdate: 1
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps;
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope() {
-  $c_O.call(this);
-  this.raw$1 = null
-}
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype = new $h_O();
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype;
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.raw__Ljapgolly_scalajs_react_raw_package$ReactComponent = (function() {
-  return this.raw$1
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.init___Ljapgolly_scalajs_react_raw_package$ReactComponent = (function(raw) {
-  this.raw$1 = raw;
-  return this
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.equals__O__Z = (function(x$1) {
-  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$().equals$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__O__Z(this.raw$1, x$1)
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.toString__T = (function() {
-  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$().toString$extension__Ljapgolly_scalajs_react_raw_package$ReactComponent__T(this.raw$1)
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.hashCode__I = (function() {
-  var $$this = this.raw$1;
-  return $objectHashCode($$this)
-});
-function $is_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(obj) {
-  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope)))
-}
-function $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(obj) {
-  return (($is_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.builder.Lifecycle$RenderScope"))
-}
-function $isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(obj, depth) {
-  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope)))
-}
-function $asArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(obj, depth) {
-  return (($isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.builder.Lifecycle$RenderScope;", depth))
-}
-var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope: 0
-}, false, "japgolly.scalajs.react.component.builder.Lifecycle$RenderScope", {
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope: 1,
-  O: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateRW: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$Base: 1,
-  Ljapgolly_scalajs_react_component_builder_Lifecycle$ForceUpdate: 1
-});
-$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope;
 function $is_Ljapgolly_scalajs_react_extra_router_Redirect(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_extra_router_Redirect)))
 }
@@ -29261,6 +33207,22 @@ $c_Ljapgolly_scalajs_react_extra_router_RouterConfig.prototype.init___F1__F1__F2
   this.logger$1 = logger;
   return this
 });
+$c_Ljapgolly_scalajs_react_extra_router_RouterConfig.prototype.logWith__F1__Ljapgolly_scalajs_react_extra_router_RouterConfig = (function(l) {
+  var x$12 = this.parse$1;
+  var x$13 = this.path$1;
+  var x$14 = this.action$1;
+  var x$15 = this.renderFn$1;
+  var x$16 = this.postRenderFn$1;
+  return new $c_Ljapgolly_scalajs_react_extra_router_RouterConfig().init___F1__F1__F2__F2__F2__F1(x$12, x$13, x$14, x$15, x$16, l)
+});
+$c_Ljapgolly_scalajs_react_extra_router_RouterConfig.prototype.setPostRender__F2__Ljapgolly_scalajs_react_extra_router_RouterConfig = (function(f) {
+  var x$24 = this.parse$1;
+  var x$25 = this.path$1;
+  var x$26 = this.action$1;
+  var x$27 = this.renderFn$1;
+  var x$28 = this.logger$1;
+  return new $c_Ljapgolly_scalajs_react_extra_router_RouterConfig().init___F1__F1__F2__F2__F2__F1(x$24, x$25, x$26, x$27, f, x$28)
+});
 $c_Ljapgolly_scalajs_react_extra_router_RouterConfig.prototype.renderWith__F2__Ljapgolly_scalajs_react_extra_router_RouterConfig = (function(f) {
   var x$18 = this.parse$1;
   var x$19 = this.path$1;
@@ -29275,6 +33237,14 @@ $c_Ljapgolly_scalajs_react_extra_router_RouterConfig.prototype.hashCode__I = (fu
 });
 $c_Ljapgolly_scalajs_react_extra_router_RouterConfig.prototype.productIterator__sc_Iterator = (function() {
   return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+$c_Ljapgolly_scalajs_react_extra_router_RouterConfig.prototype.onPostRender__F2__Ljapgolly_scalajs_react_extra_router_RouterConfig = (function(f) {
+  return this.setPostRender__F2__Ljapgolly_scalajs_react_extra_router_RouterConfig(new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function($this, f$1) {
+    return (function(a$2, b$2) {
+      var a = $as_s_Option(a$2);
+      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($m_Ljapgolly_scalajs_react_CallbackTo$().$$greater$greater$extension__F0__F0__F0($as_Ljapgolly_scalajs_react_CallbackTo($this.postRenderFn$1.apply__O__O__O(a, b$2)).japgolly$scalajs$react$CallbackTo$$f$1, $as_Ljapgolly_scalajs_react_CallbackTo(f$1.apply__O__O__O(a, b$2)).japgolly$scalajs$react$CallbackTo$$f$1))
+    })
+  })(this, f)))
 });
 function $is_Ljapgolly_scalajs_react_extra_router_RouterConfig(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_extra_router_RouterConfig)))
@@ -29401,12 +33371,12 @@ $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$Rule.prototype.productElement_
 $c_Ljapgolly_scalajs_react_extra_router_StaticDsl$Rule.prototype.noFallback__Ljapgolly_scalajs_react_extra_router_StaticDsl$Rules = (function() {
   return this.fallback__F1__F2__Ljapgolly_scalajs_react_extra_router_StaticDsl$Rules(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
     return (function(page$2) {
-      $m_s_sys_package$().error__T__sr_Nothing$(new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["Unspecified path for page ", "."])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([page$2])))
+      $m_s_sys_package$().error__T__sr_Nothing$((("Unspecified path for page " + page$2) + "."))
     })
   })(this)), new $c_sjsr_AnonFunction2().init___sjs_js_Function2((function(this$2) {
     return (function(path$2, page$3$2) {
       var path = $as_Ljapgolly_scalajs_react_extra_router_Path(path$2);
-      $m_s_sys_package$().error__T__sr_Nothing$(new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["Unspecified action for page ", " at ", "."])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([page$3$2, path])))
+      $m_s_sys_package$().error__T__sr_Nothing$((((("Unspecified action for page " + page$3$2) + " at ") + path) + "."))
     })
   })(this)))
 });
@@ -29741,6 +33711,85 @@ var $d_Lscalacss_internal_AV = new $TypeData().initClass({
 });
 $c_Lscalacss_internal_AV.prototype.$classData = $d_Lscalacss_internal_AV;
 /** @constructor */
+function $c_Lscalacss_internal_Attrs$height$() {
+  $c_Lscalacss_internal_ValueT$TypedAttr$undLength.call(this)
+}
+$c_Lscalacss_internal_Attrs$height$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttr$undLength();
+$c_Lscalacss_internal_Attrs$height$.prototype.constructor = $c_Lscalacss_internal_Attrs$height$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$height$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$height$.prototype = $c_Lscalacss_internal_Attrs$height$.prototype;
+$c_Lscalacss_internal_Attrs$height$.prototype.init___ = (function() {
+  $c_Lscalacss_internal_ValueT$TypedAttr$undLength.prototype.init___.call(this);
+  return this
+});
+$c_Lscalacss_internal_Attrs$height$.prototype.attr2__F1 = (function() {
+  return new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(x$4$2) {
+      var x$4 = $as_Lscalacss_internal_Transform(x$4$2);
+      return $m_Lscalacss_internal_Attr$().real__T__Lscalacss_internal_Transform__Lscalacss_internal_Attr("height", x$4)
+    })
+  })(this))
+});
+var $d_Lscalacss_internal_Attrs$height$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$height$: 0
+}, false, "scalacss.internal.Attrs$height$", {
+  Lscalacss_internal_Attrs$height$: 1,
+  Lscalacss_internal_ValueT$TypedAttr$undLength: 1,
+  Lscalacss_internal_ValueT$TypedAttrT1: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1,
+  Lscalacss_internal_ValueT$ZeroLit: 1
+});
+$c_Lscalacss_internal_Attrs$height$.prototype.$classData = $d_Lscalacss_internal_Attrs$height$;
+var $n_Lscalacss_internal_Attrs$height$ = (void 0);
+function $m_Lscalacss_internal_Attrs$height$() {
+  if ((!$n_Lscalacss_internal_Attrs$height$)) {
+    $n_Lscalacss_internal_Attrs$height$ = new $c_Lscalacss_internal_Attrs$height$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$height$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Attrs$left$() {
+  $c_Lscalacss_internal_ValueT$TypedAttr$undLenPctAuto.call(this);
+  this.attr$4 = null
+}
+$c_Lscalacss_internal_Attrs$left$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttr$undLenPctAuto();
+$c_Lscalacss_internal_Attrs$left$.prototype.constructor = $c_Lscalacss_internal_Attrs$left$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$left$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$left$.prototype = $c_Lscalacss_internal_Attrs$left$.prototype;
+$c_Lscalacss_internal_Attrs$left$.prototype.init___ = (function() {
+  $n_Lscalacss_internal_Attrs$left$ = this;
+  this.attr$4 = $m_Lscalacss_internal_Attr$().real__T__Lscalacss_internal_Attr("left");
+  return this
+});
+$c_Lscalacss_internal_Attrs$left$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$4
+});
+var $d_Lscalacss_internal_Attrs$left$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$left$: 0
+}, false, "scalacss.internal.Attrs$left$", {
+  Lscalacss_internal_Attrs$left$: 1,
+  Lscalacss_internal_ValueT$TypedAttr$undLenPctAuto: 1,
+  Lscalacss_internal_ValueT$TypedAttrT1: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1,
+  Lscalacss_internal_ValueT$ZeroLit: 1
+});
+$c_Lscalacss_internal_Attrs$left$.prototype.$classData = $d_Lscalacss_internal_Attrs$left$;
+var $n_Lscalacss_internal_Attrs$left$ = (void 0);
+function $m_Lscalacss_internal_Attrs$left$() {
+  if ((!$n_Lscalacss_internal_Attrs$left$)) {
+    $n_Lscalacss_internal_Attrs$left$ = new $c_Lscalacss_internal_Attrs$left$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$left$
+}
+/** @constructor */
 function $c_Lscalacss_internal_Attrs$marginBottom$() {
   $c_Lscalacss_internal_ValueT$TypedAttr$undLenPctAuto.call(this);
   this.attr$4 = null
@@ -29932,6 +33981,44 @@ function $m_Lscalacss_internal_Attrs$minHeight$() {
     $n_Lscalacss_internal_Attrs$minHeight$ = new $c_Lscalacss_internal_Attrs$minHeight$().init___()
   };
   return $n_Lscalacss_internal_Attrs$minHeight$
+}
+/** @constructor */
+function $c_Lscalacss_internal_Attrs$top$() {
+  $c_Lscalacss_internal_ValueT$TypedAttr$undLenPctAuto.call(this);
+  this.attr$4 = null
+}
+$c_Lscalacss_internal_Attrs$top$.prototype = new $h_Lscalacss_internal_ValueT$TypedAttr$undLenPctAuto();
+$c_Lscalacss_internal_Attrs$top$.prototype.constructor = $c_Lscalacss_internal_Attrs$top$;
+/** @constructor */
+function $h_Lscalacss_internal_Attrs$top$() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Attrs$top$.prototype = $c_Lscalacss_internal_Attrs$top$.prototype;
+$c_Lscalacss_internal_Attrs$top$.prototype.init___ = (function() {
+  $n_Lscalacss_internal_Attrs$top$ = this;
+  this.attr$4 = $m_Lscalacss_internal_Attr$().real__T__Lscalacss_internal_Attr("top");
+  return this
+});
+$c_Lscalacss_internal_Attrs$top$.prototype.attr__Lscalacss_internal_Attr = (function() {
+  return this.attr$4
+});
+var $d_Lscalacss_internal_Attrs$top$ = new $TypeData().initClass({
+  Lscalacss_internal_Attrs$top$: 0
+}, false, "scalacss.internal.Attrs$top$", {
+  Lscalacss_internal_Attrs$top$: 1,
+  Lscalacss_internal_ValueT$TypedAttr$undLenPctAuto: 1,
+  Lscalacss_internal_ValueT$TypedAttrT1: 1,
+  Lscalacss_internal_ValueT$TypedAttrBase: 1,
+  O: 1,
+  Lscalacss_internal_ValueT$ZeroLit: 1
+});
+$c_Lscalacss_internal_Attrs$top$.prototype.$classData = $d_Lscalacss_internal_Attrs$top$;
+var $n_Lscalacss_internal_Attrs$top$ = (void 0);
+function $m_Lscalacss_internal_Attrs$top$() {
+  if ((!$n_Lscalacss_internal_Attrs$top$)) {
+    $n_Lscalacss_internal_Attrs$top$ = new $c_Lscalacss_internal_Attrs$top$().init___()
+  };
+  return $n_Lscalacss_internal_Attrs$top$
 }
 /** @constructor */
 function $c_Lscalacss_internal_Attrs$width$() {
@@ -30609,6 +34696,9 @@ $c_Lscalacss_internal_DslBase.prototype.ToStyleUnsafeExts__sci_Vector__Lscalacss
   var x$16 = this$4.warnings$2;
   return new $c_Lscalacss_internal_StyleS().init___sci_ListMap__sci_Vector__s_Option__sci_Vector__sci_Vector(x$13, x, x$14, x$15, x$16)
 });
+$c_Lscalacss_internal_DslBase.prototype.CondMediaQuery__Lscalacss_internal_Media$Query__Lscalacss_internal_Cond = (function(x) {
+  return new $c_Lscalacss_internal_Cond().init___s_Option__sci_Vector($m_s_None$(), $m_Lscalacss_internal_package$().Vector1__O__sci_Vector(x))
+});
 /** @constructor */
 function $c_Lscalacss_internal_Env() {
   $c_O.call(this);
@@ -31083,6 +35173,62 @@ var $d_Lscalacss_internal_Length = new $TypeData().initClass({
   Ljava_io_Serializable: 1
 });
 $c_Lscalacss_internal_Length.prototype.$classData = $d_Lscalacss_internal_Length;
+/** @constructor */
+function $c_Lscalacss_internal_Percentage() {
+  $c_O.call(this);
+  this.n$f = null
+}
+$c_Lscalacss_internal_Percentage.prototype = new $h_O();
+$c_Lscalacss_internal_Percentage.prototype.constructor = $c_Lscalacss_internal_Percentage;
+/** @constructor */
+function $h_Lscalacss_internal_Percentage() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Percentage.prototype = $c_Lscalacss_internal_Percentage.prototype;
+$c_Lscalacss_internal_Percentage.prototype.productPrefix__T = (function() {
+  return "Percentage"
+});
+$c_Lscalacss_internal_Percentage.prototype.productArity__I = (function() {
+  return 1
+});
+$c_Lscalacss_internal_Percentage.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lscalacss_internal_Percentage(x$1)) {
+    var Percentage$1 = $as_Lscalacss_internal_Percentage(x$1);
+    return $m_sr_BoxesRunTime$().equals__O__O__Z(this.n$f, Percentage$1.n$f)
+  } else {
+    return false
+  }
+});
+$c_Lscalacss_internal_Percentage.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.n$f;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lscalacss_internal_Percentage.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lscalacss_internal_Percentage.prototype.value__T = (function() {
+  return ($objectToString(this.n$f) + "%")
+});
+$c_Lscalacss_internal_Percentage.prototype.init___O = (function(n) {
+  this.n$f = n;
+  return this
+});
+$c_Lscalacss_internal_Percentage.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lscalacss_internal_Percentage.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
 function $is_Lscalacss_internal_Percentage(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalacss_internal_Percentage)))
 }
@@ -31095,6 +35241,17 @@ function $isArrayOf_Lscalacss_internal_Percentage(obj, depth) {
 function $asArrayOf_Lscalacss_internal_Percentage(obj, depth) {
   return (($isArrayOf_Lscalacss_internal_Percentage(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalacss.internal.Percentage;", depth))
 }
+var $d_Lscalacss_internal_Percentage = new $TypeData().initClass({
+  Lscalacss_internal_Percentage: 0
+}, false, "scalacss.internal.Percentage", {
+  Lscalacss_internal_Percentage: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lscalacss_internal_Percentage.prototype.$classData = $d_Lscalacss_internal_Percentage;
 function $is_Lscalacss_internal_Ratio(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalacss_internal_Ratio)))
 }
@@ -32194,6 +36351,204 @@ var $d_Lscalajsreact_template_components_LeftNav$Props = new $TypeData().initCla
 });
 $c_Lscalajsreact_template_components_LeftNav$Props.prototype.$classData = $d_Lscalajsreact_template_components_LeftNav$Props;
 /** @constructor */
+function $c_Lscalajsreact_template_components_TopNav$Backend() {
+  $c_O.call(this);
+  this.$$$1 = null
+}
+$c_Lscalajsreact_template_components_TopNav$Backend.prototype = new $h_O();
+$c_Lscalajsreact_template_components_TopNav$Backend.prototype.constructor = $c_Lscalajsreact_template_components_TopNav$Backend;
+/** @constructor */
+function $h_Lscalajsreact_template_components_TopNav$Backend() {
+  /*<skip>*/
+}
+$h_Lscalajsreact_template_components_TopNav$Backend.prototype = $c_Lscalajsreact_template_components_TopNav$Backend.prototype;
+$c_Lscalajsreact_template_components_TopNav$Backend.prototype.productPrefix__T = (function() {
+  return "Backend"
+});
+$c_Lscalajsreact_template_components_TopNav$Backend.prototype.productArity__I = (function() {
+  return 1
+});
+$c_Lscalajsreact_template_components_TopNav$Backend.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lscalajsreact_template_components_TopNav$Backend(x$1)) {
+    var Backend$1 = $as_Lscalajsreact_template_components_TopNav$Backend(x$1);
+    var x = this.$$$1;
+    var x$2 = Backend$1.$$$1;
+    return (x === x$2)
+  } else {
+    return false
+  }
+});
+$c_Lscalajsreact_template_components_TopNav$Backend.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.$$$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lscalajsreact_template_components_TopNav$Backend.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lscalajsreact_template_components_TopNav$Backend.prototype.render__Lscalajsreact_template_components_TopNav$Props__Lscalajsreact_template_components_TopNav$State__Ljapgolly_scalajs_react_vdom_TagOf = (function(P, S) {
+  var jsx$33 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$32 = $m_Ljapgolly_scalajs_react_vdom_Attr$Style$();
+  var jsx$31 = $m_sjs_js_Dictionary$();
+  var array = [new $c_T2().init___O__O("position", "fixed"), new $c_T2().init___O__O("width", "100%")];
+  var array$1 = [jsx$32.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(jsx$31.apply__sc_Seq__sjs_js_Dictionary(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array)), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtJsObject$2)];
+  var jsx$30 = jsx$33.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("header", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$1));
+  var jsx$29 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var this$12 = $m_Lscalacss_ScalaCssReact$();
+  var s = $m_Lscalajsreact_template_components_TopNav$Style$().navMenu$3;
+  var array$2 = [$f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$12, s)];
+  var jsx$28 = jsx$29.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("nav", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$2));
+  var jsx$27 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var this$16 = $m_Lscalacss_ScalaCssReact$();
+  var s$1 = $m_Lscalajsreact_template_css_GlobalStyle$().logo$3;
+  var array$3 = [$f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$16, s$1)];
+  var jsx$26 = jsx$27.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$3));
+  var jsx$25 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  var this$19 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3;
+  var jsx$24 = $f_Ljapgolly_scalajs_react_vdom_HtmlTags__img__T(this$19);
+  var jsx$23 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.src$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("https://res.cloudinary.com/dq5pqcbnq/image/upload/v1538389452/logo.png", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$22 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle().init___T("width");
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var $$this = 50;
+  var jsx$21 = jsx$22.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod($m_Ljapgolly_scalajs_react_vdom_CssUnits$().addSuffix$extension__O__T__T($$this, "px"), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$20 = new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle().init___T("height");
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var $$this$1 = 50;
+  var array$4 = [jsx$23, jsx$21, jsx$20.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod($m_Ljapgolly_scalajs_react_vdom_CssUnits$().addSuffix$extension__O__T__T($$this$1, "px"), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2)];
+  var array$5 = [jsx$25.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(jsx$24, new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$4))];
+  var jsx$19 = jsx$26.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$5));
+  var jsx$18 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$less$3.a__Ljapgolly_scalajs_react_vdom_HtmlTags$a$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  $m_Ljapgolly_scalajs_react_vdom_PackageBase$();
+  var this$32 = new $c_Ljapgolly_scalajs_react_vdom_Attr$Generic().init___T("href");
+  var t = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2;
+  var jsx$17 = $m_Ljapgolly_scalajs_react_vdom_Attr$ValueType$().apply$extension__F2__T__O__Ljapgolly_scalajs_react_vdom_TagMod(t, this$32.name$1, "#");
+  var jsx$16 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("btn-toggle", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  var this$34 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.textDecoration__Ljapgolly_scalajs_react_vdom_HtmlStyles$textDecoration$();
+  var array$6 = [jsx$17, jsx$16, this$34.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("none", $m_Ljapgolly_scalajs_react_vdom_PackageBase$().vdomAttrVtString$2)];
+  var jsx$15 = jsx$18.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$6));
+  var jsx$14 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var jsx$13 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_Attr$ClassName$()).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod("fa-home", $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  var this$39 = $m_Lscalacss_ScalaCssReact$();
+  var s$2 = $m_Lscalajsreact_template_components_TopNav$Style$().fa$undhome$3;
+  var array$7 = [jsx$13, $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$39, s$2)];
+  var array$8 = [jsx$14.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("span", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$7))];
+  var jsx$12 = jsx$15.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$8));
+  var jsx$11 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var this$45 = $m_Lscalacss_ScalaCssReact$();
+  var s$3 = $m_Lscalajsreact_template_css_GlobalStyle$().toggle$3;
+  var array$9 = [$f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$45, s$3), $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.onClick$1.$$eq$eq$greater__F1__Ljapgolly_scalajs_react_vdom_DomCallbackResult__Ljapgolly_scalajs_react_vdom_TagMod(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(e$2) {
+      return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($this.TogleSidePanel__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0(e$2))
+    })
+  })(this)), null)];
+  var jsx$10 = jsx$11.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("div", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$9));
+  var array$10 = [($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), $m_Ljapgolly_scalajs_react_vdom_VdomNode$(), new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar("\u2630"))];
+  var jsx$9 = jsx$10.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$10));
+  var jsx$8 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var this$54 = $m_Lscalacss_ScalaCssReact$();
+  var s$4 = $m_Lscalajsreact_template_css_GlobalStyle$().ul$3;
+  var jsx$3 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$54, s$4);
+  var jsx$2 = ($m_Ljapgolly_scalajs_react_vdom_html$und$less$up$(), new $c_Ljapgolly_scalajs_react_vdom_HtmlStylesStatic$AutoStyle().init___T("left")).$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(S.displaySidePanel$1, $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtString$2);
+  var jsx$1 = $m_Ljapgolly_scalajs_react_vdom_ImplicitsForVdomNode$TraversableOnceExt$();
+  $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+  var as = P.menus$1;
+  var array$12 = [jsx$3, jsx$2, jsx$1.toTagMod$extension__sc_TraversableOnce__F1__Ljapgolly_scalajs_react_vdom_TagMod(as, new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function(this$2$1, P$1) {
+    return (function(item$2) {
+      var item = $as_Lscalajsreact_template_models_Menu(item$2);
+      var jsx$7 = $m_Ljapgolly_scalajs_react_vdom_HtmlTagOf$();
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var jsx$6 = $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().$$up$3.key$1.$$colon$eq__O__F2__Ljapgolly_scalajs_react_vdom_TagMod(item.name$1, $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$().vdomAttrVtKeyS$2);
+      var this$60 = $m_Lscalacss_ScalaCssReact$();
+      var jsx$4 = $m_Lscalajsreact_template_components_TopNav$Style$().menuItem$3;
+      var this$58 = item.route$1;
+      var x = $objectGetClass(this$58);
+      var this$59 = P$1.selectedPage$1;
+      var x$2 = $objectGetClass(this$59);
+      var s$5 = $as_Lscalacss_internal_StyleA(jsx$4.apply__O__O((x === x$2)));
+      var jsx$5 = $f_Lscalacss_ScalaCssReactImplicits__scalacssStyleaToTagMod__Lscalacss_internal_StyleA__Ljapgolly_scalajs_react_vdom_TagMod(this$60, s$5);
+      $m_Ljapgolly_scalajs_react_vdom_html$und$less$up$();
+      var v = item.name$1;
+      $m_Ljapgolly_scalajs_react_vdom_VdomNode$();
+      var array$11 = [jsx$6, jsx$5, new $c_Ljapgolly_scalajs_react_vdom_VdomNode().init___sjs_js_$bar(v), P$1.ctrl$1.setOnClick__O__Ljapgolly_scalajs_react_vdom_TagMod(item.route$1)];
+      return jsx$7.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("li", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$11))
+    })
+  })(this, P)))];
+  var array$13 = [jsx$19, jsx$12, jsx$9, jsx$8.apply$extension__T__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf("ul", new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$12))];
+  var array$14 = [jsx$28.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$13))];
+  return jsx$30.apply__sc_Seq__Ljapgolly_scalajs_react_vdom_TagOf(new $c_sjs_js_WrappedArray().init___sjs_js_Array(array$14))
+});
+$c_Lscalajsreact_template_components_TopNav$Backend.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lscalajsreact_template_components_TopNav$Backend.prototype.TogleSidePanel__Ljapgolly_scalajs_react_raw_SyntheticEvent__F0 = (function(e) {
+  var this$2 = $m_s_Console$();
+  var this$3 = $as_Ljava_io_PrintStream(this$2.outVar$2.v$1);
+  this$3.java$lang$JSConsoleBasedPrintStream$$printString__T__V("horizontal bar are clicked\n");
+  var this$5 = $m_s_Console$();
+  var this$6 = $as_Ljava_io_PrintStream(this$5.outVar$2.v$1);
+  this$6.java$lang$JSConsoleBasedPrintStream$$printString__T__V((e + "\n"));
+  $m_Lorg_scalajs_dom_package$().console__Lorg_scalajs_dom_raw_Console().log("toggle state for nav bar, !use this for js facade printing");
+  $m_Ljapgolly_scalajs_react_Callback$();
+  $m_Ljapgolly_scalajs_react_Callback$();
+  var this$14 = this.$$$1;
+  var mod = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(State$2) {
+      var State = $as_Lscalajsreact_template_components_TopNav$State(State$2);
+      return ((State.displaySidePanel$1 === "0px") ? new $c_Lscalajsreact_template_components_TopNav$State().init___T("-150px") : new $c_Lscalajsreact_template_components_TopNav$State().init___T("0px"))
+    })
+  })(this));
+  return $as_Ljapgolly_scalajs_react_CallbackTo(this$14.modState__F1__F0__O(mod, $m_Ljapgolly_scalajs_react_Callback$().empty$1)).japgolly$scalajs$react$CallbackTo$$f$1
+});
+$c_Lscalajsreact_template_components_TopNav$Backend.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function($$) {
+  this.$$$1 = $$;
+  return this
+});
+$c_Lscalajsreact_template_components_TopNav$Backend.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $is_Lscalajsreact_template_components_TopNav$Backend(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalajsreact_template_components_TopNav$Backend)))
+}
+function $as_Lscalajsreact_template_components_TopNav$Backend(obj) {
+  return (($is_Lscalajsreact_template_components_TopNav$Backend(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scalajsreact.template.components.TopNav$Backend"))
+}
+function $isArrayOf_Lscalajsreact_template_components_TopNav$Backend(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lscalajsreact_template_components_TopNav$Backend)))
+}
+function $asArrayOf_Lscalajsreact_template_components_TopNav$Backend(obj, depth) {
+  return (($isArrayOf_Lscalajsreact_template_components_TopNav$Backend(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalajsreact.template.components.TopNav$Backend;", depth))
+}
+var $d_Lscalajsreact_template_components_TopNav$Backend = new $TypeData().initClass({
+  Lscalajsreact_template_components_TopNav$Backend: 0
+}, false, "scalajsreact.template.components.TopNav$Backend", {
+  Lscalajsreact_template_components_TopNav$Backend: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lscalajsreact_template_components_TopNav$Backend.prototype.$classData = $d_Lscalajsreact_template_components_TopNav$Backend;
+/** @constructor */
 function $c_Lscalajsreact_template_components_TopNav$Props() {
   $c_O.call(this);
   this.menus$1 = null;
@@ -32297,6 +36652,82 @@ var $d_Lscalajsreact_template_components_TopNav$Props = new $TypeData().initClas
 });
 $c_Lscalajsreact_template_components_TopNav$Props.prototype.$classData = $d_Lscalajsreact_template_components_TopNav$Props;
 /** @constructor */
+function $c_Lscalajsreact_template_components_TopNav$State() {
+  $c_O.call(this);
+  this.displaySidePanel$1 = null
+}
+$c_Lscalajsreact_template_components_TopNav$State.prototype = new $h_O();
+$c_Lscalajsreact_template_components_TopNav$State.prototype.constructor = $c_Lscalajsreact_template_components_TopNav$State;
+/** @constructor */
+function $h_Lscalajsreact_template_components_TopNav$State() {
+  /*<skip>*/
+}
+$h_Lscalajsreact_template_components_TopNav$State.prototype = $c_Lscalajsreact_template_components_TopNav$State.prototype;
+$c_Lscalajsreact_template_components_TopNav$State.prototype.productPrefix__T = (function() {
+  return "State"
+});
+$c_Lscalajsreact_template_components_TopNav$State.prototype.productArity__I = (function() {
+  return 1
+});
+$c_Lscalajsreact_template_components_TopNav$State.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lscalajsreact_template_components_TopNav$State(x$1)) {
+    var State$1 = $as_Lscalajsreact_template_components_TopNav$State(x$1);
+    return (this.displaySidePanel$1 === State$1.displaySidePanel$1)
+  } else {
+    return false
+  }
+});
+$c_Lscalajsreact_template_components_TopNav$State.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.displaySidePanel$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lscalajsreact_template_components_TopNav$State.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lscalajsreact_template_components_TopNav$State.prototype.init___T = (function(displaySidePanel) {
+  this.displaySidePanel$1 = displaySidePanel;
+  return this
+});
+$c_Lscalajsreact_template_components_TopNav$State.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lscalajsreact_template_components_TopNav$State.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $is_Lscalajsreact_template_components_TopNav$State(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalajsreact_template_components_TopNav$State)))
+}
+function $as_Lscalajsreact_template_components_TopNav$State(obj) {
+  return (($is_Lscalajsreact_template_components_TopNav$State(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scalajsreact.template.components.TopNav$State"))
+}
+function $isArrayOf_Lscalajsreact_template_components_TopNav$State(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lscalajsreact_template_components_TopNav$State)))
+}
+function $asArrayOf_Lscalajsreact_template_components_TopNav$State(obj, depth) {
+  return (($isArrayOf_Lscalajsreact_template_components_TopNav$State(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalajsreact.template.components.TopNav$State;", depth))
+}
+var $d_Lscalajsreact_template_components_TopNav$State = new $TypeData().initClass({
+  Lscalajsreact_template_components_TopNav$State: 0
+}, false, "scalajsreact.template.components.TopNav$State", {
+  Lscalajsreact_template_components_TopNav$State: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lscalajsreact_template_components_TopNav$State.prototype.$classData = $d_Lscalajsreact_template_components_TopNav$State;
+/** @constructor */
 function $c_Lscalajsreact_template_components_items_CallbackTest$State() {
   $c_O.call(this);
   this.items$1 = null;
@@ -32384,6 +36815,319 @@ var $d_Lscalajsreact_template_components_items_CallbackTest$State = new $TypeDat
   Ljava_io_Serializable: 1
 });
 $c_Lscalajsreact_template_components_items_CallbackTest$State.prototype.$classData = $d_Lscalajsreact_template_components_items_CallbackTest$State;
+/** @constructor */
+function $c_Lscalajsreact_template_components_items_News$Props() {
+  $c_O.call(this);
+  this.newsJsonData$1 = null
+}
+$c_Lscalajsreact_template_components_items_News$Props.prototype = new $h_O();
+$c_Lscalajsreact_template_components_items_News$Props.prototype.constructor = $c_Lscalajsreact_template_components_items_News$Props;
+/** @constructor */
+function $h_Lscalajsreact_template_components_items_News$Props() {
+  /*<skip>*/
+}
+$h_Lscalajsreact_template_components_items_News$Props.prototype = $c_Lscalajsreact_template_components_items_News$Props.prototype;
+$c_Lscalajsreact_template_components_items_News$Props.prototype.productPrefix__T = (function() {
+  return "Props"
+});
+$c_Lscalajsreact_template_components_items_News$Props.prototype.productArity__I = (function() {
+  return 1
+});
+$c_Lscalajsreact_template_components_items_News$Props.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lscalajsreact_template_components_items_News$Props(x$1)) {
+    var Props$1 = $as_Lscalajsreact_template_components_items_News$Props(x$1);
+    return (this.newsJsonData$1 === Props$1.newsJsonData$1)
+  } else {
+    return false
+  }
+});
+$c_Lscalajsreact_template_components_items_News$Props.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.newsJsonData$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lscalajsreact_template_components_items_News$Props.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lscalajsreact_template_components_items_News$Props.prototype.init___T = (function(newsJsonData) {
+  this.newsJsonData$1 = newsJsonData;
+  return this
+});
+$c_Lscalajsreact_template_components_items_News$Props.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lscalajsreact_template_components_items_News$Props.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $is_Lscalajsreact_template_components_items_News$Props(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalajsreact_template_components_items_News$Props)))
+}
+function $as_Lscalajsreact_template_components_items_News$Props(obj) {
+  return (($is_Lscalajsreact_template_components_items_News$Props(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scalajsreact.template.components.items.News$Props"))
+}
+function $isArrayOf_Lscalajsreact_template_components_items_News$Props(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lscalajsreact_template_components_items_News$Props)))
+}
+function $asArrayOf_Lscalajsreact_template_components_items_News$Props(obj, depth) {
+  return (($isArrayOf_Lscalajsreact_template_components_items_News$Props(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalajsreact.template.components.items.News$Props;", depth))
+}
+var $d_Lscalajsreact_template_components_items_News$Props = new $TypeData().initClass({
+  Lscalajsreact_template_components_items_News$Props: 0
+}, false, "scalajsreact.template.components.items.News$Props", {
+  Lscalajsreact_template_components_items_News$Props: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lscalajsreact_template_components_items_News$Props.prototype.$classData = $d_Lscalajsreact_template_components_items_News$Props;
+/** @constructor */
+function $c_Lscalajsreact_template_components_items_NewsTrending$Props() {
+  $c_O.call(this);
+  this.receivedData$1 = null
+}
+$c_Lscalajsreact_template_components_items_NewsTrending$Props.prototype = new $h_O();
+$c_Lscalajsreact_template_components_items_NewsTrending$Props.prototype.constructor = $c_Lscalajsreact_template_components_items_NewsTrending$Props;
+/** @constructor */
+function $h_Lscalajsreact_template_components_items_NewsTrending$Props() {
+  /*<skip>*/
+}
+$h_Lscalajsreact_template_components_items_NewsTrending$Props.prototype = $c_Lscalajsreact_template_components_items_NewsTrending$Props.prototype;
+$c_Lscalajsreact_template_components_items_NewsTrending$Props.prototype.productPrefix__T = (function() {
+  return "Props"
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$Props.prototype.productArity__I = (function() {
+  return 1
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$Props.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lscalajsreact_template_components_items_NewsTrending$Props(x$1)) {
+    var Props$1 = $as_Lscalajsreact_template_components_items_NewsTrending$Props(x$1);
+    return (this.receivedData$1 === Props$1.receivedData$1)
+  } else {
+    return false
+  }
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$Props.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.receivedData$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$Props.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$Props.prototype.init___T = (function(receivedData) {
+  this.receivedData$1 = receivedData;
+  return this
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$Props.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$Props.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $is_Lscalajsreact_template_components_items_NewsTrending$Props(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalajsreact_template_components_items_NewsTrending$Props)))
+}
+function $as_Lscalajsreact_template_components_items_NewsTrending$Props(obj) {
+  return (($is_Lscalajsreact_template_components_items_NewsTrending$Props(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scalajsreact.template.components.items.NewsTrending$Props"))
+}
+function $isArrayOf_Lscalajsreact_template_components_items_NewsTrending$Props(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lscalajsreact_template_components_items_NewsTrending$Props)))
+}
+function $asArrayOf_Lscalajsreact_template_components_items_NewsTrending$Props(obj, depth) {
+  return (($isArrayOf_Lscalajsreact_template_components_items_NewsTrending$Props(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalajsreact.template.components.items.NewsTrending$Props;", depth))
+}
+var $d_Lscalajsreact_template_components_items_NewsTrending$Props = new $TypeData().initClass({
+  Lscalajsreact_template_components_items_NewsTrending$Props: 0
+}, false, "scalajsreact.template.components.items.NewsTrending$Props", {
+  Lscalajsreact_template_components_items_NewsTrending$Props: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$Props.prototype.$classData = $d_Lscalajsreact_template_components_items_NewsTrending$Props;
+/** @constructor */
+function $c_Lscalajsreact_template_components_items_NewsTrending$State() {
+  $c_O.call(this);
+  this.newsData$1 = null;
+  this.secondsElapsed$1 = 0
+}
+$c_Lscalajsreact_template_components_items_NewsTrending$State.prototype = new $h_O();
+$c_Lscalajsreact_template_components_items_NewsTrending$State.prototype.constructor = $c_Lscalajsreact_template_components_items_NewsTrending$State;
+/** @constructor */
+function $h_Lscalajsreact_template_components_items_NewsTrending$State() {
+  /*<skip>*/
+}
+$h_Lscalajsreact_template_components_items_NewsTrending$State.prototype = $c_Lscalajsreact_template_components_items_NewsTrending$State.prototype;
+$c_Lscalajsreact_template_components_items_NewsTrending$State.prototype.productPrefix__T = (function() {
+  return "State"
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$State.prototype.productArity__I = (function() {
+  return 2
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$State.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lscalajsreact_template_components_items_NewsTrending$State(x$1)) {
+    var State$1 = $as_Lscalajsreact_template_components_items_NewsTrending$State(x$1);
+    return ((this.newsData$1 === State$1.newsData$1) && (this.secondsElapsed$1 === State$1.secondsElapsed$1))
+  } else {
+    return false
+  }
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$State.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.newsData$1;
+      break
+    }
+    case 1: {
+      return this.secondsElapsed$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$State.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$State.prototype.init___T__I = (function(newsData, secondsElapsed) {
+  this.newsData$1 = newsData;
+  this.secondsElapsed$1 = secondsElapsed;
+  return this
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$State.prototype.hashCode__I = (function() {
+  var acc = (-889275714);
+  acc = $m_sr_Statics$().mix__I__I__I(acc, $m_sr_Statics$().anyHash__O__I(this.newsData$1));
+  acc = $m_sr_Statics$().mix__I__I__I(acc, this.secondsElapsed$1);
+  return $m_sr_Statics$().finalizeHash__I__I__I(acc, 2)
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$State.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $is_Lscalajsreact_template_components_items_NewsTrending$State(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalajsreact_template_components_items_NewsTrending$State)))
+}
+function $as_Lscalajsreact_template_components_items_NewsTrending$State(obj) {
+  return (($is_Lscalajsreact_template_components_items_NewsTrending$State(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scalajsreact.template.components.items.NewsTrending$State"))
+}
+function $isArrayOf_Lscalajsreact_template_components_items_NewsTrending$State(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lscalajsreact_template_components_items_NewsTrending$State)))
+}
+function $asArrayOf_Lscalajsreact_template_components_items_NewsTrending$State(obj, depth) {
+  return (($isArrayOf_Lscalajsreact_template_components_items_NewsTrending$State(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalajsreact.template.components.items.NewsTrending$State;", depth))
+}
+var $d_Lscalajsreact_template_components_items_NewsTrending$State = new $TypeData().initClass({
+  Lscalajsreact_template_components_items_NewsTrending$State: 0
+}, false, "scalajsreact.template.components.items.NewsTrending$State", {
+  Lscalajsreact_template_components_items_NewsTrending$State: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lscalajsreact_template_components_items_NewsTrending$State.prototype.$classData = $d_Lscalajsreact_template_components_items_NewsTrending$State;
+/** @constructor */
+function $c_Lscalajsreact_template_components_items_ProductListingBanner$Props() {
+  $c_O.call(this);
+  this.isDispalyed$1 = false
+}
+$c_Lscalajsreact_template_components_items_ProductListingBanner$Props.prototype = new $h_O();
+$c_Lscalajsreact_template_components_items_ProductListingBanner$Props.prototype.constructor = $c_Lscalajsreact_template_components_items_ProductListingBanner$Props;
+/** @constructor */
+function $h_Lscalajsreact_template_components_items_ProductListingBanner$Props() {
+  /*<skip>*/
+}
+$h_Lscalajsreact_template_components_items_ProductListingBanner$Props.prototype = $c_Lscalajsreact_template_components_items_ProductListingBanner$Props.prototype;
+$c_Lscalajsreact_template_components_items_ProductListingBanner$Props.prototype.productPrefix__T = (function() {
+  return "Props"
+});
+$c_Lscalajsreact_template_components_items_ProductListingBanner$Props.prototype.productArity__I = (function() {
+  return 1
+});
+$c_Lscalajsreact_template_components_items_ProductListingBanner$Props.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lscalajsreact_template_components_items_ProductListingBanner$Props(x$1)) {
+    var Props$1 = $as_Lscalajsreact_template_components_items_ProductListingBanner$Props(x$1);
+    return (this.isDispalyed$1 === Props$1.isDispalyed$1)
+  } else {
+    return false
+  }
+});
+$c_Lscalajsreact_template_components_items_ProductListingBanner$Props.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.isDispalyed$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lscalajsreact_template_components_items_ProductListingBanner$Props.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lscalajsreact_template_components_items_ProductListingBanner$Props.prototype.hashCode__I = (function() {
+  var acc = (-889275714);
+  acc = $m_sr_Statics$().mix__I__I__I(acc, (this.isDispalyed$1 ? 1231 : 1237));
+  return $m_sr_Statics$().finalizeHash__I__I__I(acc, 1)
+});
+$c_Lscalajsreact_template_components_items_ProductListingBanner$Props.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+$c_Lscalajsreact_template_components_items_ProductListingBanner$Props.prototype.init___Z = (function(isDispalyed) {
+  this.isDispalyed$1 = isDispalyed;
+  return this
+});
+function $is_Lscalajsreact_template_components_items_ProductListingBanner$Props(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalajsreact_template_components_items_ProductListingBanner$Props)))
+}
+function $as_Lscalajsreact_template_components_items_ProductListingBanner$Props(obj) {
+  return (($is_Lscalajsreact_template_components_items_ProductListingBanner$Props(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scalajsreact.template.components.items.ProductListingBanner$Props"))
+}
+function $isArrayOf_Lscalajsreact_template_components_items_ProductListingBanner$Props(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lscalajsreact_template_components_items_ProductListingBanner$Props)))
+}
+function $asArrayOf_Lscalajsreact_template_components_items_ProductListingBanner$Props(obj, depth) {
+  return (($isArrayOf_Lscalajsreact_template_components_items_ProductListingBanner$Props(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalajsreact.template.components.items.ProductListingBanner$Props;", depth))
+}
+var $d_Lscalajsreact_template_components_items_ProductListingBanner$Props = new $TypeData().initClass({
+  Lscalajsreact_template_components_items_ProductListingBanner$Props: 0
+}, false, "scalajsreact.template.components.items.ProductListingBanner$Props", {
+  Lscalajsreact_template_components_items_ProductListingBanner$Props: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lscalajsreact_template_components_items_ProductListingBanner$Props.prototype.$classData = $d_Lscalajsreact_template_components_items_ProductListingBanner$Props;
 /** @constructor */
 function $c_Lscalajsreact_template_components_items_State() {
   $c_O.call(this);
@@ -33349,9 +38093,6 @@ var $d_s_StringContext = new $TypeData().initClass({
   Ljava_io_Serializable: 1
 });
 $c_s_StringContext.prototype.$classData = $d_s_StringContext;
-function $f_s_math_Ordering__gteq__O__O__Z($thiz, x, y) {
-  return ($thiz.compare__O__O__I(x, y) >= 0)
-}
 function $f_s_math_Ordering__lteq__O__O__Z($thiz, x, y) {
   return ($thiz.compare__O__O__I(x, y) <= 0)
 }
@@ -33390,6 +38131,29 @@ function $isArrayOf_s_util_Either(obj, depth) {
 }
 function $asArrayOf_s_util_Either(obj, depth) {
   return (($isArrayOf_s_util_Either(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.util.Either;", depth))
+}
+/** @constructor */
+function $c_s_util_Try() {
+  $c_O.call(this)
+}
+$c_s_util_Try.prototype = new $h_O();
+$c_s_util_Try.prototype.constructor = $c_s_util_Try;
+/** @constructor */
+function $h_s_util_Try() {
+  /*<skip>*/
+}
+$h_s_util_Try.prototype = $c_s_util_Try.prototype;
+function $is_s_util_Try(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.s_util_Try)))
+}
+function $as_s_util_Try(obj) {
+  return (($is_s_util_Try(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scala.util.Try"))
+}
+function $isArrayOf_s_util_Try(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.s_util_Try)))
+}
+function $asArrayOf_s_util_Try(obj, depth) {
+  return (($isArrayOf_s_util_Try(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.util.Try;", depth))
 }
 /** @constructor */
 function $c_s_util_control_BreakControl() {
@@ -34079,6 +38843,76 @@ var $d_sci_StreamIterator = new $TypeData().initClass({
 });
 $c_sci_StreamIterator.prototype.$classData = $d_sci_StreamIterator;
 /** @constructor */
+function $c_sci_StringLike$$anon$1() {
+  $c_sc_AbstractIterator.call(this);
+  this.str$2 = null;
+  this.len$2 = 0;
+  this.index$2 = 0;
+  this.$$outer$2 = null
+}
+$c_sci_StringLike$$anon$1.prototype = new $h_sc_AbstractIterator();
+$c_sci_StringLike$$anon$1.prototype.constructor = $c_sci_StringLike$$anon$1;
+/** @constructor */
+function $h_sci_StringLike$$anon$1() {
+  /*<skip>*/
+}
+$h_sci_StringLike$$anon$1.prototype = $c_sci_StringLike$$anon$1.prototype;
+$c_sci_StringLike$$anon$1.prototype.next__O = (function() {
+  return this.next__T()
+});
+$c_sci_StringLike$$anon$1.prototype.next__T = (function() {
+  if ((this.index$2 >= this.len$2)) {
+    throw new $c_ju_NoSuchElementException().init___T("next on empty iterator")
+  };
+  var start = this.index$2;
+  while (true) {
+    if ((this.index$2 < this.len$2)) {
+      var this$1 = this.$$outer$2;
+      var c = this.$$outer$2.apply__I__C(this.index$2);
+      var jsx$1 = (!$f_sci_StringLike__scala$collection$immutable$StringLike$$isLineBreak__C__Z(this$1, c))
+    } else {
+      var jsx$1 = false
+    };
+    if (jsx$1) {
+      this.index$2 = ((1 + this.index$2) | 0)
+    } else {
+      break
+    }
+  };
+  this.index$2 = ((1 + this.index$2) | 0);
+  var thiz = this.str$2;
+  var x = this.index$2;
+  var that = this.len$2;
+  var endIndex = ((x < that) ? x : that);
+  return $as_T(thiz.substring(start, endIndex))
+});
+$c_sci_StringLike$$anon$1.prototype.hasNext__Z = (function() {
+  return (this.index$2 < this.len$2)
+});
+$c_sci_StringLike$$anon$1.prototype.init___sci_StringLike = (function($$outer) {
+  if (($$outer === null)) {
+    throw $m_sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(null)
+  } else {
+    this.$$outer$2 = $$outer
+  };
+  this.str$2 = $$outer.toString__T();
+  var thiz = this.str$2;
+  this.len$2 = $uI(thiz.length);
+  this.index$2 = 0;
+  return this
+});
+var $d_sci_StringLike$$anon$1 = new $TypeData().initClass({
+  sci_StringLike$$anon$1: 0
+}, false, "scala.collection.immutable.StringLike$$anon$1", {
+  sci_StringLike$$anon$1: 1,
+  sc_AbstractIterator: 1,
+  O: 1,
+  sc_Iterator: 1,
+  sc_TraversableOnce: 1,
+  sc_GenTraversableOnce: 1
+});
+$c_sci_StringLike$$anon$1.prototype.$classData = $d_sci_StringLike$$anon$1;
+/** @constructor */
 function $c_sci_Traversable$() {
   $c_scg_GenTraversableFactory.call(this)
 }
@@ -34660,6 +39494,18 @@ var $d_scm_SetBuilder = new $TypeData().initClass({
   scg_Clearable: 1
 });
 $c_scm_SetBuilder.prototype.$classData = $d_scm_SetBuilder;
+function $is_sr_NonLocalReturnControl(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.sr_NonLocalReturnControl)))
+}
+function $as_sr_NonLocalReturnControl(obj) {
+  return (($is_sr_NonLocalReturnControl(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scala.runtime.NonLocalReturnControl"))
+}
+function $isArrayOf_sr_NonLocalReturnControl(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.sr_NonLocalReturnControl)))
+}
+function $asArrayOf_sr_NonLocalReturnControl(obj, depth) {
+  return (($isArrayOf_sr_NonLocalReturnControl(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.runtime.NonLocalReturnControl;", depth))
+}
 /** @constructor */
 function $c_sr_ScalaRunTime$$anon$1() {
   $c_sc_AbstractIterator.call(this);
@@ -34719,15 +39565,8 @@ $c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.vdomElement__Ljapgolly
 $c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.mountRaw__F1 = (function() {
   return this.mountRaw$1
 });
-$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.raw__Ljapgolly_scalajs_react_raw_package$ReactComponentElement = (function() {
+$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.raw__Ljapgolly_scalajs_react_raw_React$ComponentElement = (function() {
   return this.raw$1
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.init___Ljapgolly_scalajs_react_raw_package$ReactComponentElement__F1 = (function(r$1, m$1) {
-  this.raw$1 = r$1;
-  this.mountRaw$1 = m$1;
-  var n = this.raw$1;
-  this.vdomElement$1 = new $c_Ljapgolly_scalajs_react_vdom_VdomElement().init___Ljapgolly_scalajs_react_raw_package$ReactElement(n);
-  return this
 });
 $c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.mapMounted__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(f) {
   $m_Ljapgolly_scalajs_react_component_Js$();
@@ -34738,6 +39577,13 @@ $c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.mapUnmountedProps__F1_
   $m_Ljapgolly_scalajs_react_component_Js$();
   var mm = $m_Ljapgolly_scalajs_react_internal_package$().identityFnInstance$1;
   return new $c_Ljapgolly_scalajs_react_component_Js$$anon$4().init___Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot__F1__F1(this, f, mm)
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$3.prototype.init___Ljapgolly_scalajs_react_raw_React$ComponentElement__F1 = (function(r$1, m$1) {
+  this.raw$1 = r$1;
+  this.mountRaw$1 = m$1;
+  var n = this.raw$1;
+  this.vdomElement$1 = new $c_Ljapgolly_scalajs_react_vdom_VdomElement().init___Ljapgolly_scalajs_react_raw_React$Element(n);
+  return this
 });
 var $d_Ljapgolly_scalajs_react_component_Js$$anon$3 = new $TypeData().initClass({
   Ljapgolly_scalajs_react_component_Js$$anon$3: 0
@@ -34773,7 +39619,7 @@ $c_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype.vdomElement__Ljapgolly
 $c_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype.mountRaw__F1 = (function() {
   return this.mountRaw$1
 });
-$c_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype.raw__Ljapgolly_scalajs_react_raw_package$ReactComponentElement = (function() {
+$c_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype.raw__Ljapgolly_scalajs_react_raw_React$ComponentElement = (function() {
   return this.raw$1
 });
 $c_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype.mapMounted__F1__Ljapgolly_scalajs_react_component_Js$UnmountedWithRoot = (function(f) {
@@ -34788,7 +39634,7 @@ $c_Ljapgolly_scalajs_react_component_Js$$anon$4.prototype.init___Ljapgolly_scala
   this.from$1$1 = from$1;
   this.mp$1$1 = mp$1;
   this.mm$1$1 = mm$1;
-  this.raw$1 = from$1.raw__Ljapgolly_scalajs_react_raw_package$ReactComponentElement();
+  this.raw$1 = from$1.raw__Ljapgolly_scalajs_react_raw_React$ComponentElement();
   var g = from$1.mountRaw__F1();
   this.mountRaw$1 = $f_F1__compose__F1__F1(mm$1, g);
   return this
@@ -34960,13 +39806,6 @@ function $h_Ljapgolly_scalajs_react_component_JsFn$$anon$1() {
   /*<skip>*/
 }
 $h_Ljapgolly_scalajs_react_component_JsFn$$anon$1.prototype = $c_Ljapgolly_scalajs_react_component_JsFn$$anon$1.prototype;
-$c_Ljapgolly_scalajs_react_component_JsFn$$anon$1.prototype.init___Ljapgolly_scalajs_react_raw_package$ReactComponentElement = (function(r$1) {
-  this.raw$1 = r$1;
-  this.mountRaw$1 = $m_Ljapgolly_scalajs_react_component_JsFn$().japgolly$scalajs$react$component$JsFn$$constUnit$1;
-  var n = this.raw$1;
-  this.vdomElement$1 = new $c_Ljapgolly_scalajs_react_vdom_VdomElement().init___Ljapgolly_scalajs_react_raw_package$ReactElement(n);
-  return this
-});
 $c_Ljapgolly_scalajs_react_component_JsFn$$anon$1.prototype.mapUnmountedProps__F1__Ljapgolly_scalajs_react_component_JsFn$UnmountedWithRoot = (function(f) {
   $m_Ljapgolly_scalajs_react_component_JsFn$();
   var mm = $m_Ljapgolly_scalajs_react_internal_package$().identityFnInstance$1;
@@ -34978,8 +39817,15 @@ $c_Ljapgolly_scalajs_react_component_JsFn$$anon$1.prototype.vdomElement__Ljapgol
 $c_Ljapgolly_scalajs_react_component_JsFn$$anon$1.prototype.mountRaw__F1 = (function() {
   return this.mountRaw$1
 });
-$c_Ljapgolly_scalajs_react_component_JsFn$$anon$1.prototype.raw__Ljapgolly_scalajs_react_raw_package$ReactComponentElement = (function() {
+$c_Ljapgolly_scalajs_react_component_JsFn$$anon$1.prototype.raw__Ljapgolly_scalajs_react_raw_React$ComponentElement = (function() {
   return this.raw$1
+});
+$c_Ljapgolly_scalajs_react_component_JsFn$$anon$1.prototype.init___Ljapgolly_scalajs_react_raw_React$ComponentElement = (function(r$1) {
+  this.raw$1 = r$1;
+  this.mountRaw$1 = $m_Ljapgolly_scalajs_react_component_JsFn$().japgolly$scalajs$react$component$JsFn$$constUnit$1;
+  var n = this.raw$1;
+  this.vdomElement$1 = new $c_Ljapgolly_scalajs_react_vdom_VdomElement().init___Ljapgolly_scalajs_react_raw_React$Element(n);
+  return this
 });
 var $d_Ljapgolly_scalajs_react_component_JsFn$$anon$1 = new $TypeData().initClass({
   Ljapgolly_scalajs_react_component_JsFn$$anon$1: 0
@@ -35023,14 +39869,14 @@ $c_Ljapgolly_scalajs_react_component_JsFn$$anon$2.prototype.vdomElement__Ljapgol
 $c_Ljapgolly_scalajs_react_component_JsFn$$anon$2.prototype.mountRaw__F1 = (function() {
   return this.mountRaw$1
 });
-$c_Ljapgolly_scalajs_react_component_JsFn$$anon$2.prototype.raw__Ljapgolly_scalajs_react_raw_package$ReactComponentElement = (function() {
+$c_Ljapgolly_scalajs_react_component_JsFn$$anon$2.prototype.raw__Ljapgolly_scalajs_react_raw_React$ComponentElement = (function() {
   return this.raw$1
 });
 $c_Ljapgolly_scalajs_react_component_JsFn$$anon$2.prototype.init___Ljapgolly_scalajs_react_component_JsFn$UnmountedWithRoot__F1__F1 = (function(from$1, mp$1, mm$1) {
   this.from$1$1 = from$1;
   this.mp$1$1 = mp$1;
   this.mm$1$1 = mm$1;
-  this.raw$1 = from$1.raw__Ljapgolly_scalajs_react_raw_package$ReactComponentElement();
+  this.raw$1 = from$1.raw__Ljapgolly_scalajs_react_raw_React$ComponentElement();
   var g = from$1.mountRaw__F1();
   this.mountRaw$1 = $f_F1__compose__F1__F1(mm$1, g);
   return this
@@ -35047,6 +39893,9 @@ var $d_Ljapgolly_scalajs_react_component_JsFn$$anon$2 = new $TypeData().initClas
   Ljapgolly_scalajs_react_component_Generic$UnmountedWithRoot: 1
 });
 $c_Ljapgolly_scalajs_react_component_JsFn$$anon$2.prototype.$classData = $d_Ljapgolly_scalajs_react_component_JsFn$$anon$2;
+function $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW__setState__O__F0__F0($thiz, newState, callback) {
+  return $as_Ljapgolly_scalajs_react_CallbackTo($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedPure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot($thiz).setState__O__F0__O(newState, callback)).japgolly$scalajs$react$CallbackTo$$f$1
+}
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_extra_router_AbsUrl() {
   $c_Ljapgolly_scalajs_react_extra_router_PathLike.call(this);
@@ -35098,7 +39947,7 @@ $c_Ljapgolly_scalajs_react_extra_router_AbsUrl.prototype.init___T = (function(va
   var thiz = this.value$2;
   if ((!($uI(thiz.indexOf("://")) !== (-1)))) {
     var jsx$1 = $m_Lorg_scalajs_dom_package$().console__Lorg_scalajs_dom_raw_Console();
-    var s = new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["", " doesn't seem to be a valid URL. It's missing '://'. Consider using AbsUrl.fromWindow."])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([this]));
+    var s = (this + " doesn't seem to be a valid URL. It's missing '://'. Consider using AbsUrl.fromWindow.");
     jsx$1.warn(s)
   };
   return this
@@ -35188,7 +40037,7 @@ $c_Ljapgolly_scalajs_react_extra_router_BaseUrl.prototype.init___T = (function(v
   var thiz = this.value$2;
   if ((!($uI(thiz.indexOf("://")) !== (-1)))) {
     var jsx$1 = $m_Lorg_scalajs_dom_package$().console__Lorg_scalajs_dom_raw_Console();
-    var s = new $c_s_StringContext().init___sc_Seq(new $c_sjs_js_WrappedArray().init___sjs_js_Array(["", " doesn't seem to be a valid URL. It's missing '://'. Consider using BaseUrl.fromWindowOrigin."])).s__sc_Seq__T(new $c_sjs_js_WrappedArray().init___sjs_js_Array([this]));
+    var s = (this + " doesn't seem to be a valid URL. It's missing '://'. Consider using BaseUrl.fromWindowOrigin.");
     jsx$1.warn(s)
   };
   return this
@@ -37955,6 +42804,59 @@ function $isArrayOf_Lscalacss_internal_Media$Just(obj, depth) {
 function $asArrayOf_Lscalacss_internal_Media$Just(obj, depth) {
   return (($isArrayOf_Lscalacss_internal_Media$Just(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalacss.internal.Media$Just;", depth))
 }
+/** @constructor */
+function $c_Lscalacss_internal_Media$Max() {
+  $c_O.call(this);
+  this.max$1 = null
+}
+$c_Lscalacss_internal_Media$Max.prototype = new $h_O();
+$c_Lscalacss_internal_Media$Max.prototype.constructor = $c_Lscalacss_internal_Media$Max;
+/** @constructor */
+function $h_Lscalacss_internal_Media$Max() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Media$Max.prototype = $c_Lscalacss_internal_Media$Max.prototype;
+$c_Lscalacss_internal_Media$Max.prototype.productPrefix__T = (function() {
+  return "Max"
+});
+$c_Lscalacss_internal_Media$Max.prototype.productArity__I = (function() {
+  return 1
+});
+$c_Lscalacss_internal_Media$Max.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lscalacss_internal_Media$Max(x$1)) {
+    var Max$1 = $as_Lscalacss_internal_Media$Max(x$1);
+    return $m_sr_BoxesRunTime$().equals__O__O__Z(this.max$1, Max$1.max$1)
+  } else {
+    return false
+  }
+});
+$c_Lscalacss_internal_Media$Max.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.max$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lscalacss_internal_Media$Max.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lscalacss_internal_Media$Max.prototype.init___O = (function(max) {
+  this.max$1 = max;
+  return this
+});
+$c_Lscalacss_internal_Media$Max.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lscalacss_internal_Media$Max.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
 function $is_Lscalacss_internal_Media$Max(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalacss_internal_Media$Max)))
 }
@@ -37967,6 +42869,18 @@ function $isArrayOf_Lscalacss_internal_Media$Max(obj, depth) {
 function $asArrayOf_Lscalacss_internal_Media$Max(obj, depth) {
   return (($isArrayOf_Lscalacss_internal_Media$Max(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalacss.internal.Media$Max;", depth))
 }
+var $d_Lscalacss_internal_Media$Max = new $TypeData().initClass({
+  Lscalacss_internal_Media$Max: 0
+}, false, "scalacss.internal.Media$Max", {
+  Lscalacss_internal_Media$Max: 1,
+  O: 1,
+  Lscalacss_internal_Media$ValueExpr: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lscalacss_internal_Media$Max.prototype.$classData = $d_Lscalacss_internal_Media$Max;
 function $is_Lscalacss_internal_Media$Min(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalacss_internal_Media$Min)))
 }
@@ -38027,6 +42941,97 @@ function $isArrayOf_Lscalacss_internal_Media$Orientation(obj, depth) {
 function $asArrayOf_Lscalacss_internal_Media$Orientation(obj, depth) {
   return (($isArrayOf_Lscalacss_internal_Media$Orientation(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalacss.internal.Media$Orientation;", depth))
 }
+/** @constructor */
+function $c_Lscalacss_internal_Media$Query() {
+  $c_O.call(this);
+  this.head$1 = null;
+  this.tail$1 = null
+}
+$c_Lscalacss_internal_Media$Query.prototype = new $h_O();
+$c_Lscalacss_internal_Media$Query.prototype.constructor = $c_Lscalacss_internal_Media$Query;
+/** @constructor */
+function $h_Lscalacss_internal_Media$Query() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Media$Query.prototype = $c_Lscalacss_internal_Media$Query.prototype;
+$c_Lscalacss_internal_Media$Query.prototype.F__F1 = (function() {
+  return new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
+    return (function(f$2) {
+      var f = $as_Lscalacss_internal_Media$Feature(f$2);
+      return new $c_Lscalacss_internal_Media$Query().init___s_util_Either__sci_Vector($this.head$1, $as_sci_Vector($this.tail$1.$$colon$plus__O__scg_CanBuildFrom__O(f, ($m_sci_Vector$(), $m_sc_IndexedSeq$().ReusableCBF$6))))
+    })
+  })(this))
+});
+$c_Lscalacss_internal_Media$Query.prototype.productPrefix__T = (function() {
+  return "Query"
+});
+$c_Lscalacss_internal_Media$Query.prototype.init___s_util_Either__sci_Vector = (function(head, tail) {
+  this.head$1 = head;
+  this.tail$1 = tail;
+  return this
+});
+$c_Lscalacss_internal_Media$Query.prototype.productArity__I = (function() {
+  return 2
+});
+$c_Lscalacss_internal_Media$Query.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lscalacss_internal_Media$Query(x$1)) {
+    var Query$1 = $as_Lscalacss_internal_Media$Query(x$1);
+    var x = this.head$1;
+    var x$2 = Query$1.head$1;
+    if (((x === null) ? (x$2 === null) : x.equals__O__Z(x$2))) {
+      var x$3 = this.tail$1;
+      var x$4 = Query$1.tail$1;
+      return ((x$3 === null) ? (x$4 === null) : $f_sc_GenSeqLike__equals__O__Z(x$3, x$4))
+    } else {
+      return false
+    }
+  } else {
+    return false
+  }
+});
+$c_Lscalacss_internal_Media$Query.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.head$1;
+      break
+    }
+    case 1: {
+      return this.tail$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lscalacss_internal_Media$Query.prototype.toString__T = (function() {
+  return $m_Lscalacss_internal_Media$().css__Lscalacss_internal_NonEmptyVector__T($m_Lscalacss_internal_NonEmptyVector$().one__O__Lscalacss_internal_NonEmptyVector(this))
+});
+$c_Lscalacss_internal_Media$Query.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lscalacss_internal_Media$Query.prototype.$$plus$colon__sci_Vector__sci_Vector = (function(qs) {
+  var this$1 = qs.iterator__sci_VectorIterator();
+  var res = false;
+  while (((!res) && this$1.$$undhasNext$2)) {
+    var arg1 = this$1.next__O();
+    var x$1 = $as_Lscalacss_internal_Media$Query(arg1);
+    $m_Lscalacss_internal_Media$();
+    $m_Ljapgolly_univeq_UnivEq$();
+    res = $m_sr_BoxesRunTime$().equals__O__O__Z(x$1, this)
+  };
+  if (res) {
+    return qs
+  } else {
+    return $as_sci_Vector(qs.$$colon$plus__O__scg_CanBuildFrom__O(this, ($m_sci_Vector$(), $m_sc_IndexedSeq$().ReusableCBF$6)))
+  }
+});
+$c_Lscalacss_internal_Media$Query.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
 function $is_Lscalacss_internal_Media$Query(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalacss_internal_Media$Query)))
 }
@@ -38039,6 +43044,18 @@ function $isArrayOf_Lscalacss_internal_Media$Query(obj, depth) {
 function $asArrayOf_Lscalacss_internal_Media$Query(obj, depth) {
   return (($isArrayOf_Lscalacss_internal_Media$Query(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalacss.internal.Media$Query;", depth))
 }
+var $d_Lscalacss_internal_Media$Query = new $TypeData().initClass({
+  Lscalacss_internal_Media$Query: 0
+}, false, "scalacss.internal.Media$Query", {
+  Lscalacss_internal_Media$Query: 1,
+  O: 1,
+  Lscalacss_internal_Media$FeatureOps: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lscalacss_internal_Media$Query.prototype.$classData = $d_Lscalacss_internal_Media$Query;
 function $is_Lscalacss_internal_Media$Resolution(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalacss_internal_Media$Resolution)))
 }
@@ -38063,6 +43080,61 @@ function $isArrayOf_Lscalacss_internal_Media$Scan(obj, depth) {
 function $asArrayOf_Lscalacss_internal_Media$Scan(obj, depth) {
   return (($isArrayOf_Lscalacss_internal_Media$Scan(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalacss.internal.Media$Scan;", depth))
 }
+/** @constructor */
+function $c_Lscalacss_internal_Media$Width() {
+  $c_O.call(this);
+  this.length$1 = null
+}
+$c_Lscalacss_internal_Media$Width.prototype = new $h_O();
+$c_Lscalacss_internal_Media$Width.prototype.constructor = $c_Lscalacss_internal_Media$Width;
+/** @constructor */
+function $h_Lscalacss_internal_Media$Width() {
+  /*<skip>*/
+}
+$h_Lscalacss_internal_Media$Width.prototype = $c_Lscalacss_internal_Media$Width.prototype;
+$c_Lscalacss_internal_Media$Width.prototype.productPrefix__T = (function() {
+  return "Width"
+});
+$c_Lscalacss_internal_Media$Width.prototype.productArity__I = (function() {
+  return 1
+});
+$c_Lscalacss_internal_Media$Width.prototype.init___Lscalacss_internal_Media$ValueExpr = (function(length) {
+  this.length$1 = length;
+  return this
+});
+$c_Lscalacss_internal_Media$Width.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lscalacss_internal_Media$Width(x$1)) {
+    var Width$1 = $as_Lscalacss_internal_Media$Width(x$1);
+    var x = this.length$1;
+    var x$2 = Width$1.length$1;
+    return ((x === null) ? (x$2 === null) : x.equals__O__Z(x$2))
+  } else {
+    return false
+  }
+});
+$c_Lscalacss_internal_Media$Width.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.length$1;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lscalacss_internal_Media$Width.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_Lscalacss_internal_Media$Width.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lscalacss_internal_Media$Width.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
 function $is_Lscalacss_internal_Media$Width(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lscalacss_internal_Media$Width)))
 }
@@ -38075,6 +43147,18 @@ function $isArrayOf_Lscalacss_internal_Media$Width(obj, depth) {
 function $asArrayOf_Lscalacss_internal_Media$Width(obj, depth) {
   return (($isArrayOf_Lscalacss_internal_Media$Width(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscalacss.internal.Media$Width;", depth))
 }
+var $d_Lscalacss_internal_Media$Width = new $TypeData().initClass({
+  Lscalacss_internal_Media$Width: 0
+}, false, "scalacss.internal.Media$Width", {
+  Lscalacss_internal_Media$Width: 1,
+  O: 1,
+  Lscalacss_internal_Media$Feature: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_Lscalacss_internal_Media$Width.prototype.$classData = $d_Lscalacss_internal_Media$Width;
 /** @constructor */
 function $c_Lscalacss_internal_PseudoType$Class$() {
   $c_Lscalacss_internal_PseudoType.call(this)
@@ -39210,6 +44294,88 @@ var $d_s_StringContext$InvalidEscapeException = new $TypeData().initClass({
 });
 $c_s_StringContext$InvalidEscapeException.prototype.$classData = $d_s_StringContext$InvalidEscapeException;
 /** @constructor */
+function $c_s_util_Failure() {
+  $c_s_util_Try.call(this);
+  this.exception$2 = null
+}
+$c_s_util_Failure.prototype = new $h_s_util_Try();
+$c_s_util_Failure.prototype.constructor = $c_s_util_Failure;
+/** @constructor */
+function $h_s_util_Failure() {
+  /*<skip>*/
+}
+$h_s_util_Failure.prototype = $c_s_util_Failure.prototype;
+$c_s_util_Failure.prototype.productPrefix__T = (function() {
+  return "Failure"
+});
+$c_s_util_Failure.prototype.productArity__I = (function() {
+  return 1
+});
+$c_s_util_Failure.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_s_util_Failure(x$1)) {
+    var Failure$1 = $as_s_util_Failure(x$1);
+    var x = this.exception$2;
+    var x$2 = Failure$1.exception$2;
+    return ((x === null) ? (x$2 === null) : x.equals__O__Z(x$2))
+  } else {
+    return false
+  }
+});
+$c_s_util_Failure.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.exception$2;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_s_util_Failure.prototype.get__O = (function() {
+  throw $m_sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(this.exception$2)
+});
+$c_s_util_Failure.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_s_util_Failure.prototype.init___jl_Throwable = (function(exception) {
+  this.exception$2 = exception;
+  return this
+});
+$c_s_util_Failure.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_s_util_Failure.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $is_s_util_Failure(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.s_util_Failure)))
+}
+function $as_s_util_Failure(obj) {
+  return (($is_s_util_Failure(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scala.util.Failure"))
+}
+function $isArrayOf_s_util_Failure(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.s_util_Failure)))
+}
+function $asArrayOf_s_util_Failure(obj, depth) {
+  return (($isArrayOf_s_util_Failure(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.util.Failure;", depth))
+}
+var $d_s_util_Failure = new $TypeData().initClass({
+  s_util_Failure: 0
+}, false, "scala.util.Failure", {
+  s_util_Failure: 1,
+  s_util_Try: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_s_util_Failure.prototype.$classData = $d_s_util_Failure;
+/** @constructor */
 function $c_s_util_Left() {
   $c_s_util_Either.call(this);
   this.value$2 = null
@@ -39363,6 +44529,86 @@ var $d_s_util_Right = new $TypeData().initClass({
   Ljava_io_Serializable: 1
 });
 $c_s_util_Right.prototype.$classData = $d_s_util_Right;
+/** @constructor */
+function $c_s_util_Success() {
+  $c_s_util_Try.call(this);
+  this.value$2 = null
+}
+$c_s_util_Success.prototype = new $h_s_util_Try();
+$c_s_util_Success.prototype.constructor = $c_s_util_Success;
+/** @constructor */
+function $h_s_util_Success() {
+  /*<skip>*/
+}
+$h_s_util_Success.prototype = $c_s_util_Success.prototype;
+$c_s_util_Success.prototype.productPrefix__T = (function() {
+  return "Success"
+});
+$c_s_util_Success.prototype.productArity__I = (function() {
+  return 1
+});
+$c_s_util_Success.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_s_util_Success(x$1)) {
+    var Success$1 = $as_s_util_Success(x$1);
+    return $m_sr_BoxesRunTime$().equals__O__O__Z(this.value$2, Success$1.value$2)
+  } else {
+    return false
+  }
+});
+$c_s_util_Success.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.value$2;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_s_util_Success.prototype.get__O = (function() {
+  return this.value$2
+});
+$c_s_util_Success.prototype.toString__T = (function() {
+  return $m_sr_ScalaRunTime$().$$undtoString__s_Product__T(this)
+});
+$c_s_util_Success.prototype.init___O = (function(value) {
+  this.value$2 = value;
+  return this
+});
+$c_s_util_Success.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_s_util_Success.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $is_s_util_Success(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.s_util_Success)))
+}
+function $as_s_util_Success(obj) {
+  return (($is_s_util_Success(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scala.util.Success"))
+}
+function $isArrayOf_s_util_Success(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.s_util_Success)))
+}
+function $asArrayOf_s_util_Success(obj, depth) {
+  return (($isArrayOf_s_util_Success(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.util.Success;", depth))
+}
+var $d_s_util_Success = new $TypeData().initClass({
+  s_util_Success: 0
+}, false, "scala.util.Success", {
+  s_util_Success: 1,
+  s_util_Try: 1,
+  O: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1,
+  Ljava_io_Serializable: 1
+});
+$c_s_util_Success.prototype.$classData = $d_s_util_Success;
 function $f_sc_GenSetLike__equals__O__Z($thiz, that) {
   if ($is_sc_GenSet(that)) {
     var x2 = $as_sc_GenSet(that);
@@ -40288,6 +45534,82 @@ function $asArrayOf_Ljava_io_PrintStream(obj, depth) {
   return (($isArrayOf_Ljava_io_PrintStream(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljava.io.PrintStream;", depth))
 }
 /** @constructor */
+function $c_Lorg_scalajs_dom_ext_AjaxException() {
+  $c_jl_Exception.call(this);
+  this.xhr$3 = null
+}
+$c_Lorg_scalajs_dom_ext_AjaxException.prototype = new $h_jl_Exception();
+$c_Lorg_scalajs_dom_ext_AjaxException.prototype.constructor = $c_Lorg_scalajs_dom_ext_AjaxException;
+/** @constructor */
+function $h_Lorg_scalajs_dom_ext_AjaxException() {
+  /*<skip>*/
+}
+$h_Lorg_scalajs_dom_ext_AjaxException.prototype = $c_Lorg_scalajs_dom_ext_AjaxException.prototype;
+$c_Lorg_scalajs_dom_ext_AjaxException.prototype.productPrefix__T = (function() {
+  return "AjaxException"
+});
+$c_Lorg_scalajs_dom_ext_AjaxException.prototype.productArity__I = (function() {
+  return 1
+});
+$c_Lorg_scalajs_dom_ext_AjaxException.prototype.equals__O__Z = (function(x$1) {
+  if ((this === x$1)) {
+    return true
+  } else if ($is_Lorg_scalajs_dom_ext_AjaxException(x$1)) {
+    var AjaxException$1 = $as_Lorg_scalajs_dom_ext_AjaxException(x$1);
+    return $m_sr_BoxesRunTime$().equals__O__O__Z(this.xhr$3, AjaxException$1.xhr$3)
+  } else {
+    return false
+  }
+});
+$c_Lorg_scalajs_dom_ext_AjaxException.prototype.productElement__I__O = (function(x$1) {
+  switch (x$1) {
+    case 0: {
+      return this.xhr$3;
+      break
+    }
+    default: {
+      throw new $c_jl_IndexOutOfBoundsException().init___T(("" + x$1))
+    }
+  }
+});
+$c_Lorg_scalajs_dom_ext_AjaxException.prototype.init___Lorg_scalajs_dom_raw_XMLHttpRequest = (function(xhr) {
+  this.xhr$3 = xhr;
+  $c_jl_Throwable.prototype.init___T__jl_Throwable.call(this, null, null);
+  return this
+});
+$c_Lorg_scalajs_dom_ext_AjaxException.prototype.hashCode__I = (function() {
+  var this$2 = $m_s_util_hashing_MurmurHash3$();
+  return this$2.productHash__s_Product__I__I(this, (-889275714))
+});
+$c_Lorg_scalajs_dom_ext_AjaxException.prototype.productIterator__sc_Iterator = (function() {
+  return new $c_sr_ScalaRunTime$$anon$1().init___s_Product(this)
+});
+function $is_Lorg_scalajs_dom_ext_AjaxException(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Lorg_scalajs_dom_ext_AjaxException)))
+}
+function $as_Lorg_scalajs_dom_ext_AjaxException(obj) {
+  return (($is_Lorg_scalajs_dom_ext_AjaxException(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "org.scalajs.dom.ext.AjaxException"))
+}
+function $isArrayOf_Lorg_scalajs_dom_ext_AjaxException(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Lorg_scalajs_dom_ext_AjaxException)))
+}
+function $asArrayOf_Lorg_scalajs_dom_ext_AjaxException(obj, depth) {
+  return (($isArrayOf_Lorg_scalajs_dom_ext_AjaxException(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lorg.scalajs.dom.ext.AjaxException;", depth))
+}
+var $d_Lorg_scalajs_dom_ext_AjaxException = new $TypeData().initClass({
+  Lorg_scalajs_dom_ext_AjaxException: 0
+}, false, "org.scalajs.dom.ext.AjaxException", {
+  Lorg_scalajs_dom_ext_AjaxException: 1,
+  jl_Exception: 1,
+  jl_Throwable: 1,
+  O: 1,
+  Ljava_io_Serializable: 1,
+  s_Product: 1,
+  s_Equals: 1,
+  s_Serializable: 1
+});
+$c_Lorg_scalajs_dom_ext_AjaxException.prototype.$classData = $d_Lorg_scalajs_dom_ext_AjaxException;
+/** @constructor */
 function $c_Lscalacss_internal_AttrCmp$Overlap$() {
   $c_Lscalacss_internal_AttrCmp$Conflict.call(this)
 }
@@ -40725,38 +46047,6 @@ var $d_Lscalacss_internal_StyleS = new $TypeData().initClass({
 });
 $c_Lscalacss_internal_StyleS.prototype.$classData = $d_Lscalacss_internal_StyleS;
 /** @constructor */
-function $c_ju_Arrays$$anon$3() {
-  $c_O.call(this);
-  this.cmp$1$1 = null
-}
-$c_ju_Arrays$$anon$3.prototype = new $h_O();
-$c_ju_Arrays$$anon$3.prototype.constructor = $c_ju_Arrays$$anon$3;
-/** @constructor */
-function $h_ju_Arrays$$anon$3() {
-  /*<skip>*/
-}
-$h_ju_Arrays$$anon$3.prototype = $c_ju_Arrays$$anon$3.prototype;
-$c_ju_Arrays$$anon$3.prototype.init___ju_Comparator = (function(cmp$1) {
-  this.cmp$1$1 = cmp$1;
-  return this
-});
-$c_ju_Arrays$$anon$3.prototype.compare__O__O__I = (function(x, y) {
-  return this.cmp$1$1.compare__O__O__I(x, y)
-});
-var $d_ju_Arrays$$anon$3 = new $TypeData().initClass({
-  ju_Arrays$$anon$3: 0
-}, false, "java.util.Arrays$$anon$3", {
-  ju_Arrays$$anon$3: 1,
-  O: 1,
-  s_math_Ordering: 1,
-  ju_Comparator: 1,
-  s_math_PartialOrdering: 1,
-  s_math_Equiv: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_ju_Arrays$$anon$3.prototype.$classData = $d_ju_Arrays$$anon$3;
-/** @constructor */
 function $c_ju_DuplicateFormatFlagsException() {
   $c_ju_IllegalFormatException.call(this);
   this.f$6 = null
@@ -41119,44 +46409,6 @@ var $d_ju_UnknownFormatConversionException = new $TypeData().initClass({
 });
 $c_ju_UnknownFormatConversionException.prototype.$classData = $d_ju_UnknownFormatConversionException;
 /** @constructor */
-function $c_s_math_Ordering$$anon$5() {
-  $c_O.call(this);
-  this.$$outer$1 = null;
-  this.f$1$1 = null
-}
-$c_s_math_Ordering$$anon$5.prototype = new $h_O();
-$c_s_math_Ordering$$anon$5.prototype.constructor = $c_s_math_Ordering$$anon$5;
-/** @constructor */
-function $h_s_math_Ordering$$anon$5() {
-  /*<skip>*/
-}
-$h_s_math_Ordering$$anon$5.prototype = $c_s_math_Ordering$$anon$5.prototype;
-$c_s_math_Ordering$$anon$5.prototype.compare__O__O__I = (function(x, y) {
-  return this.$$outer$1.compare__O__O__I(this.f$1$1.apply__O__O(x), this.f$1$1.apply__O__O(y))
-});
-$c_s_math_Ordering$$anon$5.prototype.init___s_math_Ordering__F1 = (function($$outer, f$1) {
-  if (($$outer === null)) {
-    throw $m_sjsr_package$().unwrapJavaScriptException__jl_Throwable__O(null)
-  } else {
-    this.$$outer$1 = $$outer
-  };
-  this.f$1$1 = f$1;
-  return this
-});
-var $d_s_math_Ordering$$anon$5 = new $TypeData().initClass({
-  s_math_Ordering$$anon$5: 0
-}, false, "scala.math.Ordering$$anon$5", {
-  s_math_Ordering$$anon$5: 1,
-  O: 1,
-  s_math_Ordering: 1,
-  ju_Comparator: 1,
-  s_math_PartialOrdering: 1,
-  s_math_Equiv: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_s_math_Ordering$$anon$5.prototype.$classData = $d_s_math_Ordering$$anon$5;
-/** @constructor */
 function $c_sc_Seq$() {
   $c_scg_SeqFactory.call(this)
 }
@@ -41388,248 +46640,18 @@ function $m_sjs_js_WrappedArray$() {
   };
   return $n_sjs_js_WrappedArray$
 }
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_component_Js$$anon$1() {
-  $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.call(this);
-  this.raw$2 = null
+function $is_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_Generic$MountedWithRoot)))
 }
-$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype = new $h_Ljapgolly_scalajs_react_component_Template$MountedWithRoot();
-$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Js$$anon$1;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_component_Js$$anon$1() {
-  /*<skip>*/
+function $as_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj) {
+  return (($is_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.Generic$MountedWithRoot"))
 }
-$h_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype = $c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype;
-$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.setState__sjs_js_Object__F0__V = (function(state, callback) {
-  this.raw$2.setState(state, $m_Ljapgolly_scalajs_react_CallbackTo$().toJsFn$extension__F0__sjs_js_Function0(callback))
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.raw__Ljapgolly_scalajs_react_raw_package$ReactComponent = (function() {
-  return this.raw$2
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.init___Ljapgolly_scalajs_react_raw_package$ReactComponent = (function(r$2) {
-  $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype.init___Ljapgolly_scalajs_react_internal_Effect$Trans.call(this, $m_Ljapgolly_scalajs_react_internal_Effect$Trans$().endoId$1);
-  this.raw$2 = r$2;
-  return this
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.modState__F1__F0__V = (function(mod, callback) {
-  this.raw$2.setState((function(f) {
-    return (function(arg1) {
-      return f.apply__O__O(arg1)
-    })
-  })(mod), $m_Ljapgolly_scalajs_react_CallbackTo$().toJsFn$extension__F0__sjs_js_Function0(callback))
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(mp, ls, ft) {
-  $m_Ljapgolly_scalajs_react_component_Js$();
-  return new $c_Ljapgolly_scalajs_react_component_Js$$anon$2().init___Ljapgolly_scalajs_react_component_Js$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans(this, mp, ls, ft)
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.modState$default$2__F0 = (function() {
-  return $m_Ljapgolly_scalajs_react_Callback$().empty$1
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.props__sjs_js_Object = (function() {
-  return this.raw$2.props
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.props__O = (function() {
-  return this.props__sjs_js_Object()
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.modState__F1__F0__O = (function(mod, callback) {
-  this.modState__F1__F0__V(mod, callback)
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.setState__O__F0__O = (function(newState, callback) {
-  this.setState__sjs_js_Object__F0__V(newState, callback)
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.state__O = (function() {
-  return this.state__sjs_js_Object()
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.state__sjs_js_Object = (function() {
-  return this.raw$2.state
-});
-var $d_Ljapgolly_scalajs_react_component_Js$$anon$1 = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_component_Js$$anon$1: 0
-}, false, "japgolly.scalajs.react.component.Js$$anon$1", {
-  Ljapgolly_scalajs_react_component_Js$$anon$1: 1,
-  Ljapgolly_scalajs_react_component_Template$MountedWithRoot: 1,
-  O: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedWithRoot: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedSimple: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedRaw: 1,
-  Ljapgolly_scalajs_react_StateAccess: 1,
-  Ljapgolly_scalajs_react_component_Js$MountedWithRoot: 1,
-  Ljapgolly_scalajs_react_component_Js$MountedSimple: 1
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.$classData = $d_Ljapgolly_scalajs_react_component_Js$$anon$1;
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_component_Js$$anon$2() {
-  $c_Ljapgolly_scalajs_react_component_Template$MountedMapped.call(this);
-  this.raw$2 = null;
-  this.from$2$2 = null;
-  this.ft$1$2 = null
+function $isArrayOf_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_Generic$MountedWithRoot)))
 }
-$c_Ljapgolly_scalajs_react_component_Js$$anon$2.prototype = new $h_Ljapgolly_scalajs_react_component_Template$MountedMapped();
-$c_Ljapgolly_scalajs_react_component_Js$$anon$2.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Js$$anon$2;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_component_Js$$anon$2() {
-  /*<skip>*/
+function $asArrayOf_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.Generic$MountedWithRoot;", depth))
 }
-$h_Ljapgolly_scalajs_react_component_Js$$anon$2.prototype = $c_Ljapgolly_scalajs_react_component_Js$$anon$2.prototype;
-$c_Ljapgolly_scalajs_react_component_Js$$anon$2.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Js$MountedWithRoot = (function(mp, ls, ft) {
-  $m_Ljapgolly_scalajs_react_component_Js$();
-  var from = this.from$2$2;
-  return new $c_Ljapgolly_scalajs_react_component_Js$$anon$2().init___Ljapgolly_scalajs_react_component_Js$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans(from, mp, ls, ft)
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$2.prototype.raw__Ljapgolly_scalajs_react_raw_package$ReactComponent = (function() {
-  return this.raw$2
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$2.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(mp, ls, ft) {
-  return this.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Js$MountedWithRoot(mp, ls, ft)
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$2.prototype.init___Ljapgolly_scalajs_react_component_Js$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans = (function(from$2, mp$2, ls$1, ft$1) {
-  this.from$2$2 = from$2;
-  this.ft$1$2 = ft$1;
-  $c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans.call(this, from$2, mp$2, ls$1, ft$1);
-  this.raw$2 = from$2.raw__Ljapgolly_scalajs_react_raw_package$ReactComponent();
-  return this
-});
-var $d_Ljapgolly_scalajs_react_component_Js$$anon$2 = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_component_Js$$anon$2: 0
-}, false, "japgolly.scalajs.react.component.Js$$anon$2", {
-  Ljapgolly_scalajs_react_component_Js$$anon$2: 1,
-  Ljapgolly_scalajs_react_component_Template$MountedMapped: 1,
-  O: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedWithRoot: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedSimple: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedRaw: 1,
-  Ljapgolly_scalajs_react_StateAccess: 1,
-  Ljapgolly_scalajs_react_component_Js$MountedWithRoot: 1,
-  Ljapgolly_scalajs_react_component_Js$MountedSimple: 1
-});
-$c_Ljapgolly_scalajs_react_component_Js$$anon$2.prototype.$classData = $d_Ljapgolly_scalajs_react_component_Js$$anon$2;
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_component_Scala$$anon$1() {
-  $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.call(this);
-  this.js$2 = null;
-  this.raw$2 = null;
-  this.x$1$2 = null
-}
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype = new $h_Ljapgolly_scalajs_react_component_Template$MountedWithRoot();
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Scala$$anon$1;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_component_Scala$$anon$1() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype = $c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype;
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.js__Ljapgolly_scalajs_react_component_Js$MountedWithRoot = (function() {
-  return this.js$2
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.raw__Ljapgolly_scalajs_react_raw_package$ReactComponent = (function() {
-  return this.raw$2
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.modState__F1__F0__V = (function(mod, callback) {
-  this.x$1$2.modState__F1__F0__O(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, mod$1) {
-    return (function(s$2) {
-      $m_Ljapgolly_scalajs_react_internal_Box$();
-      var value = mod$1.apply__O__O(s$2.a);
-      return {
-        "a": value
-      }
-    })
-  })(this, mod)), callback)
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.setState__O__F0__V = (function(newState, callback) {
-  this.x$1$2.setState__O__F0__O(($m_Ljapgolly_scalajs_react_internal_Box$(), {
-    "a": newState
-  }), callback)
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(mp, ls, ft) {
-  $m_Ljapgolly_scalajs_react_component_Scala$();
-  return new $c_Ljapgolly_scalajs_react_component_Scala$$anon$2().init___Ljapgolly_scalajs_react_component_Scala$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans(this, mp, ls, ft)
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.modState$default$2__F0 = (function() {
-  return $m_Ljapgolly_scalajs_react_Callback$().empty$1
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.props__O = (function() {
-  return this.x$1$2.props__O().a
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.modState__F1__F0__O = (function(mod, callback) {
-  this.modState__F1__F0__V(mod, callback)
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.setState__O__F0__O = (function(newState, callback) {
-  this.setState__O__F0__V(newState, callback)
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.state__O = (function() {
-  return this.x$1$2.state__O().a
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.init___Ljapgolly_scalajs_react_component_Js$MountedWithRoot = (function(x$1) {
-  this.x$1$2 = x$1;
-  $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype.init___Ljapgolly_scalajs_react_internal_Effect$Trans.call(this, $m_Ljapgolly_scalajs_react_internal_Effect$Trans$().endoId$1);
-  this.js$2 = x$1;
-  this.raw$2 = x$1.raw__Ljapgolly_scalajs_react_raw_package$ReactComponent();
-  return this
-});
-var $d_Ljapgolly_scalajs_react_component_Scala$$anon$1 = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_component_Scala$$anon$1: 0
-}, false, "japgolly.scalajs.react.component.Scala$$anon$1", {
-  Ljapgolly_scalajs_react_component_Scala$$anon$1: 1,
-  Ljapgolly_scalajs_react_component_Template$MountedWithRoot: 1,
-  O: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedWithRoot: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedSimple: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedRaw: 1,
-  Ljapgolly_scalajs_react_StateAccess: 1,
-  Ljapgolly_scalajs_react_component_Scala$MountedWithRoot: 1,
-  Ljapgolly_scalajs_react_component_Scala$MountedSimple: 1
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.$classData = $d_Ljapgolly_scalajs_react_component_Scala$$anon$1;
-/** @constructor */
-function $c_Ljapgolly_scalajs_react_component_Scala$$anon$2() {
-  $c_Ljapgolly_scalajs_react_component_Template$MountedMapped.call(this);
-  this.js$2 = null;
-  this.raw$2 = null;
-  this.from$1$2 = null;
-  this.ft$1$2 = null
-}
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype = new $h_Ljapgolly_scalajs_react_component_Template$MountedMapped();
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Scala$$anon$2;
-/** @constructor */
-function $h_Ljapgolly_scalajs_react_component_Scala$$anon$2() {
-  /*<skip>*/
-}
-$h_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype = $c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype;
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.js__Ljapgolly_scalajs_react_component_Js$MountedWithRoot = (function() {
-  return this.js$2
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.init___Ljapgolly_scalajs_react_component_Scala$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans = (function(from$1, mp$1, ls$1, ft$1) {
-  this.from$1$2 = from$1;
-  this.ft$1$2 = ft$1;
-  $c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans.call(this, from$1, mp$1, ls$1, ft$1);
-  this.js$2 = from$1.js__Ljapgolly_scalajs_react_component_Js$MountedWithRoot();
-  this.raw$2 = from$1.raw__Ljapgolly_scalajs_react_raw_package$ReactComponent();
-  return this
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.raw__Ljapgolly_scalajs_react_raw_package$ReactComponent = (function() {
-  return this.raw$2
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(mp, ls, ft) {
-  return this.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(mp, ls, ft)
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot = (function(mp, ls, ft) {
-  $m_Ljapgolly_scalajs_react_component_Scala$();
-  var from = this.from$1$2;
-  return new $c_Ljapgolly_scalajs_react_component_Scala$$anon$2().init___Ljapgolly_scalajs_react_component_Scala$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans(from, mp, ls, ft)
-});
-var $d_Ljapgolly_scalajs_react_component_Scala$$anon$2 = new $TypeData().initClass({
-  Ljapgolly_scalajs_react_component_Scala$$anon$2: 0
-}, false, "japgolly.scalajs.react.component.Scala$$anon$2", {
-  Ljapgolly_scalajs_react_component_Scala$$anon$2: 1,
-  Ljapgolly_scalajs_react_component_Template$MountedMapped: 1,
-  O: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedWithRoot: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedSimple: 1,
-  Ljapgolly_scalajs_react_component_Generic$MountedRaw: 1,
-  Ljapgolly_scalajs_react_StateAccess: 1,
-  Ljapgolly_scalajs_react_component_Scala$MountedWithRoot: 1,
-  Ljapgolly_scalajs_react_component_Scala$MountedSimple: 1
-});
-$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.$classData = $d_Ljapgolly_scalajs_react_component_Scala$$anon$2;
 /** @constructor */
 function $c_Ljapgolly_scalajs_react_vdom_PackageBase() {
   $c_Ljapgolly_scalajs_react_vdom_Exports.call(this);
@@ -41804,85 +46826,164 @@ var $d_jl_JSConsoleBasedPrintStream = new $TypeData().initClass({
 });
 $c_jl_JSConsoleBasedPrintStream.prototype.$classData = $d_jl_JSConsoleBasedPrintStream;
 /** @constructor */
-function $c_s_math_Ordering$Int$() {
-  $c_O.call(this)
+function $c_s_concurrent_impl_Promise$DefaultPromise() {
+  $c_ju_concurrent_atomic_AtomicReference.call(this)
 }
-$c_s_math_Ordering$Int$.prototype = new $h_O();
-$c_s_math_Ordering$Int$.prototype.constructor = $c_s_math_Ordering$Int$;
+$c_s_concurrent_impl_Promise$DefaultPromise.prototype = new $h_ju_concurrent_atomic_AtomicReference();
+$c_s_concurrent_impl_Promise$DefaultPromise.prototype.constructor = $c_s_concurrent_impl_Promise$DefaultPromise;
 /** @constructor */
-function $h_s_math_Ordering$Int$() {
+function $h_s_concurrent_impl_Promise$DefaultPromise() {
   /*<skip>*/
 }
-$h_s_math_Ordering$Int$.prototype = $c_s_math_Ordering$Int$.prototype;
-$c_s_math_Ordering$Int$.prototype.init___ = (function() {
+$h_s_concurrent_impl_Promise$DefaultPromise.prototype = $c_s_concurrent_impl_Promise$DefaultPromise.prototype;
+$c_s_concurrent_impl_Promise$DefaultPromise.prototype.compressedRoot__p2__s_concurrent_impl_Promise$DefaultPromise__s_concurrent_impl_Promise$DefaultPromise = (function(linked) {
+  _compressedRoot: while (true) {
+    var target = linked.root__p2__s_concurrent_impl_Promise$DefaultPromise();
+    if ((linked === target)) {
+      return target
+    } else if (this.compareAndSet__O__O__Z(linked, target)) {
+      return target
+    } else {
+      var x1 = this.value$1;
+      if ($is_s_concurrent_impl_Promise$DefaultPromise(x1)) {
+        var x2 = $as_s_concurrent_impl_Promise$DefaultPromise(x1);
+        linked = x2;
+        continue _compressedRoot
+      } else {
+        return this
+      }
+    }
+  }
+});
+$c_s_concurrent_impl_Promise$DefaultPromise.prototype.init___ = (function() {
+  $c_ju_concurrent_atomic_AtomicReference.prototype.init___O.call(this, $m_sci_Nil$());
   return this
 });
-$c_s_math_Ordering$Int$.prototype.compare__O__O__I = (function(x, y) {
-  var x$1 = $uI(x);
-  var y$1 = $uI(y);
-  return ((x$1 === y$1) ? 0 : ((x$1 < y$1) ? (-1) : 1))
+$c_s_concurrent_impl_Promise$DefaultPromise.prototype.dispatchOrAddCallback__p2__s_concurrent_impl_CallbackRunnable__V = (function(runnable) {
+  var _$this = this;
+  _dispatchOrAddCallback: while (true) {
+    var x1 = _$this.value$1;
+    if ($is_s_util_Try(x1)) {
+      var x2 = $as_s_util_Try(x1);
+      runnable.executeWithValue__s_util_Try__V(x2)
+    } else {
+      if ($is_s_concurrent_impl_Promise$DefaultPromise(x1)) {
+        var x3 = $as_s_concurrent_impl_Promise$DefaultPromise(x1);
+        _$this = _$this.compressedRoot__p2__s_concurrent_impl_Promise$DefaultPromise__s_concurrent_impl_Promise$DefaultPromise(x3);
+        continue _dispatchOrAddCallback
+      };
+      if ((!$is_sci_List(x1))) {
+        throw new $c_s_MatchError().init___O(x1)
+      };
+      var x4 = $as_sci_List(x1);
+      if ((!_$this.compareAndSet__O__O__Z(x4, new $c_sci_$colon$colon().init___O__sci_List(runnable, x4)))) {
+        continue _dispatchOrAddCallback
+      }
+    };
+    break
+  }
 });
-var $d_s_math_Ordering$Int$ = new $TypeData().initClass({
-  s_math_Ordering$Int$: 0
-}, false, "scala.math.Ordering$Int$", {
-  s_math_Ordering$Int$: 1,
+$c_s_concurrent_impl_Promise$DefaultPromise.prototype.tryComplete__s_util_Try__Z = (function(value) {
+  var resolved = $m_s_concurrent_impl_Promise$().scala$concurrent$impl$Promise$$resolveTry__s_util_Try__s_util_Try(value);
+  var x1 = this.tryCompleteAndGetListeners__p2__s_util_Try__sci_List(resolved);
+  if ((x1 !== null)) {
+    if (x1.isEmpty__Z()) {
+      return true
+    } else {
+      var these = x1;
+      while ((!these.isEmpty__Z())) {
+        var arg1 = these.head__O();
+        var r = $as_s_concurrent_impl_CallbackRunnable(arg1);
+        r.executeWithValue__s_util_Try__V(resolved);
+        these = $as_sci_List(these.tail__O())
+      };
+      return true
+    }
+  } else {
+    return false
+  }
+});
+$c_s_concurrent_impl_Promise$DefaultPromise.prototype.toString__T = (function() {
+  return $f_s_concurrent_impl_Promise__toString__T(this)
+});
+$c_s_concurrent_impl_Promise$DefaultPromise.prototype.root__p2__s_concurrent_impl_Promise$DefaultPromise = (function() {
+  var _$this = this;
+  _root: while (true) {
+    var x1 = _$this.value$1;
+    if ($is_s_concurrent_impl_Promise$DefaultPromise(x1)) {
+      var x2 = $as_s_concurrent_impl_Promise$DefaultPromise(x1);
+      _$this = x2;
+      continue _root
+    } else {
+      return _$this
+    }
+  }
+});
+$c_s_concurrent_impl_Promise$DefaultPromise.prototype.tryCompleteAndGetListeners__p2__s_util_Try__sci_List = (function(v) {
+  var _$this = this;
+  _tryCompleteAndGetListeners: while (true) {
+    var x1 = _$this.value$1;
+    if ($is_sci_List(x1)) {
+      var x2 = $as_sci_List(x1);
+      if (_$this.compareAndSet__O__O__Z(x2, v)) {
+        return x2
+      } else {
+        continue _tryCompleteAndGetListeners
+      }
+    } else if ($is_s_concurrent_impl_Promise$DefaultPromise(x1)) {
+      var x3 = $as_s_concurrent_impl_Promise$DefaultPromise(x1);
+      _$this = _$this.compressedRoot__p2__s_concurrent_impl_Promise$DefaultPromise__s_concurrent_impl_Promise$DefaultPromise(x3);
+      continue _tryCompleteAndGetListeners
+    } else {
+      return null
+    }
+  }
+});
+$c_s_concurrent_impl_Promise$DefaultPromise.prototype.onComplete__F1__s_concurrent_ExecutionContext__V = (function(func, executor) {
+  this.dispatchOrAddCallback__p2__s_concurrent_impl_CallbackRunnable__V(new $c_s_concurrent_impl_CallbackRunnable().init___s_concurrent_ExecutionContext__F1(executor, func))
+});
+$c_s_concurrent_impl_Promise$DefaultPromise.prototype.value0__p2__s_Option = (function() {
+  var _$this = this;
+  _value0: while (true) {
+    var x1 = _$this.value$1;
+    if ($is_s_util_Try(x1)) {
+      var x2 = $as_s_util_Try(x1);
+      return new $c_s_Some().init___O(x2)
+    } else if ($is_s_concurrent_impl_Promise$DefaultPromise(x1)) {
+      var x3 = $as_s_concurrent_impl_Promise$DefaultPromise(x1);
+      _$this = _$this.compressedRoot__p2__s_concurrent_impl_Promise$DefaultPromise__s_concurrent_impl_Promise$DefaultPromise(x3);
+      continue _value0
+    } else {
+      return $m_s_None$()
+    }
+  }
+});
+function $is_s_concurrent_impl_Promise$DefaultPromise(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.s_concurrent_impl_Promise$DefaultPromise)))
+}
+function $as_s_concurrent_impl_Promise$DefaultPromise(obj) {
+  return (($is_s_concurrent_impl_Promise$DefaultPromise(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scala.concurrent.impl.Promise$DefaultPromise"))
+}
+function $isArrayOf_s_concurrent_impl_Promise$DefaultPromise(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.s_concurrent_impl_Promise$DefaultPromise)))
+}
+function $asArrayOf_s_concurrent_impl_Promise$DefaultPromise(obj, depth) {
+  return (($isArrayOf_s_concurrent_impl_Promise$DefaultPromise(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.concurrent.impl.Promise$DefaultPromise;", depth))
+}
+var $d_s_concurrent_impl_Promise$DefaultPromise = new $TypeData().initClass({
+  s_concurrent_impl_Promise$DefaultPromise: 0
+}, false, "scala.concurrent.impl.Promise$DefaultPromise", {
+  s_concurrent_impl_Promise$DefaultPromise: 1,
+  ju_concurrent_atomic_AtomicReference: 1,
   O: 1,
-  s_math_Ordering$IntOrdering: 1,
-  s_math_Ordering: 1,
-  ju_Comparator: 1,
-  s_math_PartialOrdering: 1,
-  s_math_Equiv: 1,
   s_Serializable: 1,
-  Ljava_io_Serializable: 1
+  Ljava_io_Serializable: 1,
+  s_concurrent_impl_Promise: 1,
+  s_concurrent_Promise: 1,
+  s_concurrent_Future: 1,
+  s_concurrent_Awaitable: 1
 });
-$c_s_math_Ordering$Int$.prototype.$classData = $d_s_math_Ordering$Int$;
-var $n_s_math_Ordering$Int$ = (void 0);
-function $m_s_math_Ordering$Int$() {
-  if ((!$n_s_math_Ordering$Int$)) {
-    $n_s_math_Ordering$Int$ = new $c_s_math_Ordering$Int$().init___()
-  };
-  return $n_s_math_Ordering$Int$
-}
-/** @constructor */
-function $c_s_math_Ordering$String$() {
-  $c_O.call(this)
-}
-$c_s_math_Ordering$String$.prototype = new $h_O();
-$c_s_math_Ordering$String$.prototype.constructor = $c_s_math_Ordering$String$;
-/** @constructor */
-function $h_s_math_Ordering$String$() {
-  /*<skip>*/
-}
-$h_s_math_Ordering$String$.prototype = $c_s_math_Ordering$String$.prototype;
-$c_s_math_Ordering$String$.prototype.init___ = (function() {
-  return this
-});
-$c_s_math_Ordering$String$.prototype.compare__O__O__I = (function(x, y) {
-  var x$1 = $as_T(x);
-  var y$1 = $as_T(y);
-  return ((x$1 === y$1) ? 0 : ($uZ((x$1 < y$1)) ? (-1) : 1))
-});
-var $d_s_math_Ordering$String$ = new $TypeData().initClass({
-  s_math_Ordering$String$: 0
-}, false, "scala.math.Ordering$String$", {
-  s_math_Ordering$String$: 1,
-  O: 1,
-  s_math_Ordering$StringOrdering: 1,
-  s_math_Ordering: 1,
-  ju_Comparator: 1,
-  s_math_PartialOrdering: 1,
-  s_math_Equiv: 1,
-  s_Serializable: 1,
-  Ljava_io_Serializable: 1
-});
-$c_s_math_Ordering$String$.prototype.$classData = $d_s_math_Ordering$String$;
-var $n_s_math_Ordering$String$ = (void 0);
-function $m_s_math_Ordering$String$() {
-  if ((!$n_s_math_Ordering$String$)) {
-    $n_s_math_Ordering$String$ = new $c_s_math_Ordering$String$().init___()
-  };
-  return $n_s_math_Ordering$String$
-}
+$c_s_concurrent_impl_Promise$DefaultPromise.prototype.$classData = $d_s_concurrent_impl_Promise$DefaultPromise;
 /** @constructor */
 function $c_s_reflect_AnyValManifest() {
   $c_O.call(this);
@@ -42238,6 +47339,117 @@ var $d_sjs_js_JavaScriptException = new $TypeData().initClass({
 });
 $c_sjs_js_JavaScriptException.prototype.$classData = $d_sjs_js_JavaScriptException;
 /** @constructor */
+function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate() {
+  $c_O.call(this);
+  this.raw$1 = null;
+  this.prevProps$1 = null;
+  this.prevState$1 = null;
+  this.snapshot$1 = null
+}
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype;
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype.toString__T = (function() {
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T((((((((("ComponentDidUpdate(props: " + this.prevProps$1) + " \u2192 ") + $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).props__O()) + ", state: ") + this.prevState$1) + " \u2192 ") + $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).state__O()) + ")"))
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype.init___Ljapgolly_scalajs_react_raw_React$Component__O__O__O = (function(raw, prevProps, prevState, snapshot) {
+  this.raw$1 = raw;
+  this.prevProps$1 = prevProps;
+  this.prevState$1 = prevState;
+  this.snapshot$1 = snapshot;
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+  return this.raw$1
+});
+function $is_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate)))
+}
+function $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate(obj) {
+  return (($is_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentDidUpdate"))
+}
+function $isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate)))
+}
+function $asArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.builder.Lifecycle$ComponentDidUpdate;", depth))
+}
+var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate: 0
+}, false, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentDidUpdate", {
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$Base: 1,
+  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
+  Ljapgolly_scalajs_react_StateAccess$Write: 1,
+  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ForceUpdate: 1
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidUpdate;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount() {
+  $c_O.call(this);
+  this.raw$1 = null
+}
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype;
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.equals__O__Z = (function(x$1) {
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount$().equals$extension__Ljapgolly_scalajs_react_raw_React$Component__O__Z(this.raw$1, x$1)
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.toString__T = (function() {
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount$().toString$extension__Ljapgolly_scalajs_react_raw_React$Component__T(this.raw$1)
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.init___Ljapgolly_scalajs_react_raw_React$Component = (function(raw) {
+  this.raw$1 = raw;
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.hashCode__I = (function() {
+  var $$this = this.raw$1;
+  return $objectHashCode($$this)
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+  return this.raw$1
+});
+function $is_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount)))
+}
+function $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount(obj) {
+  return (($is_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentWillMount"))
+}
+function $isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount)))
+}
+function $asArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.builder.Lifecycle$ComponentWillMount;", depth))
+}
+var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount: 0
+}, false, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentWillMount", {
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateRW: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$Base: 1,
+  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
+  Ljapgolly_scalajs_react_StateAccess$Write: 1,
+  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillMount;
+/** @constructor */
 function $c_Ljapgolly_scalajs_react_vdom_PackageBase$() {
   $c_Ljapgolly_scalajs_react_vdom_PackageBase.call(this)
 }
@@ -42392,9 +47604,6 @@ $c_s_reflect_ManifestFactory$BooleanManifest$.prototype.init___ = (function() {
   this.toString$1 = "Boolean";
   return this
 });
-$c_s_reflect_ManifestFactory$BooleanManifest$.prototype.newArray__I__O = (function(len) {
-  return $newArrayObject($d_Z.getArrayOf(), [len])
-});
 var $d_s_reflect_ManifestFactory$BooleanManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$BooleanManifest$: 0
 }, false, "scala.reflect.ManifestFactory$BooleanManifest$", {
@@ -42431,9 +47640,6 @@ $h_s_reflect_ManifestFactory$ByteManifest$.prototype = $c_s_reflect_ManifestFact
 $c_s_reflect_ManifestFactory$ByteManifest$.prototype.init___ = (function() {
   this.toString$1 = "Byte";
   return this
-});
-$c_s_reflect_ManifestFactory$ByteManifest$.prototype.newArray__I__O = (function(len) {
-  return $newArrayObject($d_B.getArrayOf(), [len])
 });
 var $d_s_reflect_ManifestFactory$ByteManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$ByteManifest$: 0
@@ -42472,9 +47678,6 @@ $c_s_reflect_ManifestFactory$CharManifest$.prototype.init___ = (function() {
   this.toString$1 = "Char";
   return this
 });
-$c_s_reflect_ManifestFactory$CharManifest$.prototype.newArray__I__O = (function(len) {
-  return $newArrayObject($d_C.getArrayOf(), [len])
-});
 var $d_s_reflect_ManifestFactory$CharManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$CharManifest$: 0
 }, false, "scala.reflect.ManifestFactory$CharManifest$", {
@@ -42511,9 +47714,6 @@ $h_s_reflect_ManifestFactory$DoubleManifest$.prototype = $c_s_reflect_ManifestFa
 $c_s_reflect_ManifestFactory$DoubleManifest$.prototype.init___ = (function() {
   this.toString$1 = "Double";
   return this
-});
-$c_s_reflect_ManifestFactory$DoubleManifest$.prototype.newArray__I__O = (function(len) {
-  return $newArrayObject($d_D.getArrayOf(), [len])
 });
 var $d_s_reflect_ManifestFactory$DoubleManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$DoubleManifest$: 0
@@ -42552,9 +47752,6 @@ $c_s_reflect_ManifestFactory$FloatManifest$.prototype.init___ = (function() {
   this.toString$1 = "Float";
   return this
 });
-$c_s_reflect_ManifestFactory$FloatManifest$.prototype.newArray__I__O = (function(len) {
-  return $newArrayObject($d_F.getArrayOf(), [len])
-});
 var $d_s_reflect_ManifestFactory$FloatManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$FloatManifest$: 0
 }, false, "scala.reflect.ManifestFactory$FloatManifest$", {
@@ -42592,9 +47789,6 @@ $c_s_reflect_ManifestFactory$IntManifest$.prototype.init___ = (function() {
   this.toString$1 = "Int";
   return this
 });
-$c_s_reflect_ManifestFactory$IntManifest$.prototype.newArray__I__O = (function(len) {
-  return $newArrayObject($d_I.getArrayOf(), [len])
-});
 var $d_s_reflect_ManifestFactory$IntManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$IntManifest$: 0
 }, false, "scala.reflect.ManifestFactory$IntManifest$", {
@@ -42631,9 +47825,6 @@ $h_s_reflect_ManifestFactory$LongManifest$.prototype = $c_s_reflect_ManifestFact
 $c_s_reflect_ManifestFactory$LongManifest$.prototype.init___ = (function() {
   this.toString$1 = "Long";
   return this
-});
-$c_s_reflect_ManifestFactory$LongManifest$.prototype.newArray__I__O = (function(len) {
-  return $newArrayObject($d_J.getArrayOf(), [len])
 });
 var $d_s_reflect_ManifestFactory$LongManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$LongManifest$: 0
@@ -42693,9 +47884,6 @@ $c_s_reflect_ManifestFactory$ShortManifest$.prototype.init___ = (function() {
   this.toString$1 = "Short";
   return this
 });
-$c_s_reflect_ManifestFactory$ShortManifest$.prototype.newArray__I__O = (function(len) {
-  return $newArrayObject($d_S.getArrayOf(), [len])
-});
 var $d_s_reflect_ManifestFactory$ShortManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$ShortManifest$: 0
 }, false, "scala.reflect.ManifestFactory$ShortManifest$", {
@@ -42732,9 +47920,6 @@ $h_s_reflect_ManifestFactory$UnitManifest$.prototype = $c_s_reflect_ManifestFact
 $c_s_reflect_ManifestFactory$UnitManifest$.prototype.init___ = (function() {
   this.toString$1 = "Unit";
   return this
-});
-$c_s_reflect_ManifestFactory$UnitManifest$.prototype.newArray__I__O = (function(len) {
-  return $newArrayObject($d_sr_BoxedUnit.getArrayOf(), [len])
 });
 var $d_s_reflect_ManifestFactory$UnitManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$UnitManifest$: 0
@@ -42883,6 +48068,15 @@ $c_sci_Stream$.prototype.init___ = (function() {
   $c_scg_GenTraversableFactory.prototype.init___.call(this);
   return this
 });
+$c_sci_Stream$.prototype.filteredTail__sci_Stream__F1__Z__sci_Stream$Cons = (function(stream, p, isFlipped) {
+  var hd = stream.head__O();
+  var tl = new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, stream$1, p$1, isFlipped$1) {
+    return (function() {
+      return $as_sci_Stream(stream$1.tail__O()).filterImpl__F1__Z__sci_Stream(p$1, isFlipped$1)
+    })
+  })(this, stream, p, isFlipped));
+  return new $c_sci_Stream$Cons().init___O__F0(hd, tl)
+});
 $c_sci_Stream$.prototype.empty__sc_GenTraversable = (function() {
   return $m_sci_Stream$Empty$()
 });
@@ -42991,6 +48185,303 @@ function $m_scm_ListBuffer$() {
   };
   return $n_scm_ListBuffer$
 }
+function $is_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_Js$MountedWithRoot)))
+}
+function $as_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj) {
+  return (($is_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.Js$MountedWithRoot"))
+}
+function $isArrayOf_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_Js$MountedWithRoot)))
+}
+function $asArrayOf_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_component_Js$MountedWithRoot(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.Js$MountedWithRoot;", depth))
+}
+function $is_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_Scala$MountedWithRoot)))
+}
+function $as_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj) {
+  return (($is_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.Scala$MountedWithRoot"))
+}
+function $isArrayOf_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_Scala$MountedWithRoot)))
+}
+function $asArrayOf_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.Scala$MountedWithRoot;", depth))
+}
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_Template$MountedMapped() {
+  $c_O.call(this);
+  this.from$1 = null;
+  this.mp$1 = null;
+  this.ls$1 = null;
+  this.ft$1 = null
+}
+$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Template$MountedMapped;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_Template$MountedMapped() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype = $c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype;
+$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.withEffect__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(t) {
+  return this.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(this.mp$1, this.ls$1, this.ft$1.compose__Ljapgolly_scalajs_react_internal_Effect$Trans__s_Predef$$less$colon$less__Ljapgolly_scalajs_react_internal_Effect$Trans(t, null))
+});
+$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.props__O = (function() {
+  return this.ft$1.apply__F0__O(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
+    return (function() {
+      return $this.mp$1.apply__O__O($this.from$1.props__O())
+    })
+  })(this)))
+});
+$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.modState__F1__F0__O = (function(f, callback) {
+  return this.ft$1.apply__F0__O(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, f$1, callback$1) {
+    return (function() {
+      $this.from$1.modState__F1__F0__O($as_F1($this.ls$1.mod$1.apply__O__O(f$1)), callback$1)
+    })
+  })(this, f, callback)))
+});
+$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.setState__O__F0__O = (function(s, callback) {
+  return this.ft$1.apply__F0__O(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this, s$1, callback$1) {
+    return (function() {
+      $this.from$1.modState__F1__F0__O($as_F1($this.ls$1.set$1.apply__O__O(s$1)), callback$1)
+    })
+  })(this, s, callback)))
+});
+$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans = (function(from, mp, ls, ft) {
+  this.from$1 = from;
+  this.mp$1 = mp;
+  this.ls$1 = ls;
+  this.ft$1 = ft;
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.state__O = (function() {
+  return this.ft$1.apply__F0__O(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
+    return (function() {
+      return $this.ls$1.get$1.apply__O__O($this.from$1.state__O())
+    })
+  })(this)))
+});
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot() {
+  $c_O.call(this);
+  this.ft$1 = null
+}
+$c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_Template$MountedWithRoot() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype = $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype;
+$c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype.withEffect__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(t) {
+  var jsx$1 = $m_Ljapgolly_scalajs_react_internal_package$().identityFnInstance$1;
+  var this$1 = $m_Ljapgolly_scalajs_react_internal_Lens$();
+  return this.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot(jsx$1, this$1.idInstance$1, this.ft$1.compose__Ljapgolly_scalajs_react_internal_Effect$Trans__s_Predef$$less$colon$less__Ljapgolly_scalajs_react_internal_Effect$Trans(t, null))
+});
+$c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype.init___Ljapgolly_scalajs_react_internal_Effect$Trans = (function(ft) {
+  this.ft$1 = ft;
+  return this
+});
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch() {
+  $c_O.call(this);
+  this.raw$1 = null;
+  this.error$1 = null;
+  this.info$1 = null
+}
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype;
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype.toString__T = (function() {
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T((("ComponentDidCatch(" + this.error$1) + ")"))
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype.init___Ljapgolly_scalajs_react_raw_React$Component__Ljapgolly_scalajs_react_raw_React$Error__Ljapgolly_scalajs_react_raw_React$ErrorInfo = (function(raw, error, info) {
+  this.raw$1 = raw;
+  this.error$1 = error;
+  this.info$1 = info;
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+  return this.raw$1
+});
+var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch: 0
+}, false, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentDidCatch", {
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateRW: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$Base: 1,
+  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
+  Ljapgolly_scalajs_react_StateAccess$Write: 1,
+  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ForceUpdate: 1
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidCatch;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount() {
+  $c_O.call(this);
+  this.raw$1 = null
+}
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype;
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.equals__O__Z = (function(x$1) {
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$().equals$extension__Ljapgolly_scalajs_react_raw_React$Component__O__Z(this.raw$1, x$1)
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.toString__T = (function() {
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount$().toString$extension__Ljapgolly_scalajs_react_raw_React$Component__T(this.raw$1)
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.setState__O__F0__O = (function(newState, callback) {
+  return new $c_Ljapgolly_scalajs_react_CallbackTo().init___F0($f_Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW__setState__O__F0__F0(this, newState, callback))
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.init___Ljapgolly_scalajs_react_raw_React$Component = (function(raw) {
+  this.raw$1 = raw;
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.hashCode__I = (function() {
+  var $$this = this.raw$1;
+  return $objectHashCode($$this)
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+  return this.raw$1
+});
+function $is_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount)))
+}
+function $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(obj) {
+  return (($is_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentDidMount"))
+}
+function $isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount)))
+}
+function $asArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.builder.Lifecycle$ComponentDidMount;", depth))
+}
+var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount: 0
+}, false, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentDidMount", {
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateRW: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$Base: 1,
+  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
+  Ljapgolly_scalajs_react_StateAccess$Write: 1,
+  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ForceUpdate: 1
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentDidMount;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps() {
+  $c_O.call(this);
+  this.raw$1 = null;
+  this.nextProps$1 = null
+}
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype;
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype.init___Ljapgolly_scalajs_react_raw_React$Component__O = (function(raw, nextProps) {
+  this.raw$1 = raw;
+  this.nextProps$1 = nextProps;
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype.toString__T = (function() {
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$().japgolly$scalajs$react$component$builder$Lifecycle$$wrapTostring__T__T((((((("ComponentWillReceiveProps(props: " + $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).props__O()) + " \u2192 ") + this.nextProps$1) + ", state: ") + $f_Ljapgolly_scalajs_react_component_builder_Lifecycle$Base__mountedImpure__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(this).state__O()) + ")"))
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+  return this.raw$1
+});
+var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps: 0
+}, false, "japgolly.scalajs.react.component.builder.Lifecycle$ComponentWillReceiveProps", {
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateRW: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$Base: 1,
+  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
+  Ljapgolly_scalajs_react_StateAccess$Write: 1,
+  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ForceUpdate: 1
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$ComponentWillReceiveProps;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope() {
+  $c_O.call(this);
+  this.raw$1 = null
+}
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype = new $h_O();
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.constructor = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype = $c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype;
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.equals__O__Z = (function(x$1) {
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$().equals$extension__Ljapgolly_scalajs_react_raw_React$Component__O__Z(this.raw$1, x$1)
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.toString__T = (function() {
+  return $m_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope$().toString$extension__Ljapgolly_scalajs_react_raw_React$Component__T(this.raw$1)
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.init___Ljapgolly_scalajs_react_raw_React$Component = (function(raw) {
+  this.raw$1 = raw;
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.hashCode__I = (function() {
+  var $$this = this.raw$1;
+  return $objectHashCode($$this)
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+  return this.raw$1
+});
+function $is_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope)))
+}
+function $as_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(obj) {
+  return (($is_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "japgolly.scalajs.react.component.builder.Lifecycle$RenderScope"))
+}
+function $isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope)))
+}
+function $asArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(obj, depth) {
+  return (($isArrayOf_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Ljapgolly.scalajs.react.component.builder.Lifecycle$RenderScope;", depth))
+}
+var $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope: 0
+}, false, "japgolly.scalajs.react.component.builder.Lifecycle$RenderScope", {
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateRW: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$StateW: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$Base: 1,
+  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
+  Ljapgolly_scalajs_react_StateAccess$Write: 1,
+  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
+  Ljapgolly_scalajs_react_component_builder_Lifecycle$ForceUpdate: 1
+});
+$c_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope.prototype.$classData = $d_Ljapgolly_scalajs_react_component_builder_Lifecycle$RenderScope;
 /** @constructor */
 function $c_s_reflect_ManifestFactory$AnyManifest$() {
   $c_s_reflect_ManifestFactory$PhantomManifest.call(this)
@@ -43010,9 +48501,6 @@ $c_s_reflect_ManifestFactory$AnyManifest$.prototype.init___ = (function() {
   this.runtimeClass1$1 = $d_O.getClassOf();
   this.typeArguments$1 = typeArguments;
   return this
-});
-$c_s_reflect_ManifestFactory$AnyManifest$.prototype.newArray__I__O = (function(len) {
-  return $newArrayObject($d_O.getArrayOf(), [len])
 });
 var $d_s_reflect_ManifestFactory$AnyManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$AnyManifest$: 0
@@ -43057,9 +48545,6 @@ $c_s_reflect_ManifestFactory$AnyValManifest$.prototype.init___ = (function() {
   this.typeArguments$1 = typeArguments;
   return this
 });
-$c_s_reflect_ManifestFactory$AnyValManifest$.prototype.newArray__I__O = (function(len) {
-  return $newArrayObject($d_O.getArrayOf(), [len])
-});
 var $d_s_reflect_ManifestFactory$AnyValManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$AnyValManifest$: 0
 }, false, "scala.reflect.ManifestFactory$AnyValManifest$", {
@@ -43102,9 +48587,6 @@ $c_s_reflect_ManifestFactory$NothingManifest$.prototype.init___ = (function() {
   this.runtimeClass1$1 = $d_sr_Nothing$.getClassOf();
   this.typeArguments$1 = typeArguments;
   return this
-});
-$c_s_reflect_ManifestFactory$NothingManifest$.prototype.newArray__I__O = (function(len) {
-  return $newArrayObject($d_O.getArrayOf(), [len])
 });
 var $d_s_reflect_ManifestFactory$NothingManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$NothingManifest$: 0
@@ -43149,9 +48631,6 @@ $c_s_reflect_ManifestFactory$NullManifest$.prototype.init___ = (function() {
   this.typeArguments$1 = typeArguments;
   return this
 });
-$c_s_reflect_ManifestFactory$NullManifest$.prototype.newArray__I__O = (function(len) {
-  return $newArrayObject($d_O.getArrayOf(), [len])
-});
 var $d_s_reflect_ManifestFactory$NullManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$NullManifest$: 0
 }, false, "scala.reflect.ManifestFactory$NullManifest$", {
@@ -43194,9 +48673,6 @@ $c_s_reflect_ManifestFactory$ObjectManifest$.prototype.init___ = (function() {
   this.runtimeClass1$1 = $d_O.getClassOf();
   this.typeArguments$1 = typeArguments;
   return this
-});
-$c_s_reflect_ManifestFactory$ObjectManifest$.prototype.newArray__I__O = (function(len) {
-  return $newArrayObject($d_O.getArrayOf(), [len])
 });
 var $d_s_reflect_ManifestFactory$ObjectManifest$ = new $TypeData().initClass({
   s_reflect_ManifestFactory$ObjectManifest$: 0
@@ -43303,14 +48779,14 @@ function $h_sc_AbstractTraversable() {
   /*<skip>*/
 }
 $h_sc_AbstractTraversable.prototype = $c_sc_AbstractTraversable.prototype;
-$c_sc_AbstractTraversable.prototype.copyToArray__O__I__V = (function(xs, start) {
-  $f_sc_TraversableOnce__copyToArray__O__I__V(this, xs, start)
-});
 $c_sc_AbstractTraversable.prototype.flatMap__F1__scg_CanBuildFrom__O = (function(f, bf) {
   return $f_sc_TraversableLike__flatMap__F1__scg_CanBuildFrom__O(this, f, bf)
 });
 $c_sc_AbstractTraversable.prototype.mkString__T__T__T__T = (function(start, sep, end) {
   return $f_sc_TraversableOnce__mkString__T__T__T__T(this, start, sep, end)
+});
+$c_sc_AbstractTraversable.prototype.withFilter__F1__scg_FilterMonadic = (function(p) {
+  return new $c_sc_TraversableLike$WithFilter().init___sc_TraversableLike__F1(this, p)
 });
 $c_sc_AbstractTraversable.prototype.toString__T = (function() {
   return $f_sc_TraversableLike__toString__T(this)
@@ -43322,11 +48798,6 @@ $c_sc_AbstractTraversable.prototype.toVector__sci_Vector = (function() {
   $m_sci_Vector$();
   var cbf = $m_sc_IndexedSeq$().ReusableCBF$6;
   return $as_sci_Vector($f_sc_TraversableLike__to__scg_CanBuildFrom__O(this, cbf))
-});
-$c_sc_AbstractTraversable.prototype.toBuffer__scm_Buffer = (function() {
-  var this$1 = $m_scm_ArrayBuffer$();
-  var cbf = this$1.ReusableCBFInstance$2;
-  return $as_scm_Buffer($f_sc_TraversableLike__to__scg_CanBuildFrom__O(this, cbf))
 });
 $c_sc_AbstractTraversable.prototype.size__I = (function() {
   return $f_sc_TraversableOnce__size__I(this)
@@ -43340,28 +48811,22 @@ $c_sc_AbstractTraversable.prototype.tail__O = (function() {
 $c_sc_AbstractTraversable.prototype.addString__scm_StringBuilder__T__T__T__scm_StringBuilder = (function(b, start, sep, end) {
   return $f_sc_TraversableOnce__addString__scm_StringBuilder__T__T__T__scm_StringBuilder(this, b, start, sep, end)
 });
-$c_sc_AbstractTraversable.prototype.max__s_math_Ordering__O = (function(cmp) {
-  return $f_sc_TraversableOnce__max__s_math_Ordering__O(this, cmp)
-});
-$c_sc_AbstractTraversable.prototype.toSet__sci_Set = (function() {
-  var this$1 = $m_sci_Set$();
-  var cbf = new $c_scg_GenSetFactory$$anon$1().init___scg_GenSetFactory(this$1);
-  return $as_sci_Set($f_sc_TraversableLike__to__scg_CanBuildFrom__O(this, cbf))
-});
 $c_sc_AbstractTraversable.prototype.repr__O = (function() {
   return this
 });
 $c_sc_AbstractTraversable.prototype.$$div$colon__O__F2__O = (function(z, op) {
   return this.foldLeft__O__F2__O(z, op)
 });
+$c_sc_AbstractTraversable.prototype.toSet__sci_Set = (function() {
+  var this$1 = $m_sci_Set$();
+  var cbf = new $c_scg_GenSetFactory$$anon$1().init___scg_GenSetFactory(this$1);
+  return $as_sci_Set($f_sc_TraversableLike__to__scg_CanBuildFrom__O(this, cbf))
+});
 $c_sc_AbstractTraversable.prototype.isTraversableAgain__Z = (function() {
   return true
 });
 $c_sc_AbstractTraversable.prototype.map__F1__scg_CanBuildFrom__O = (function(f, bf) {
   return $f_sc_TraversableLike__map__F1__scg_CanBuildFrom__O(this, f, bf)
-});
-$c_sc_AbstractTraversable.prototype.toArray__s_reflect_ClassTag__O = (function(evidence$1) {
-  return $f_sc_TraversableOnce__toArray__s_reflect_ClassTag__O(this, evidence$1)
 });
 $c_sc_AbstractTraversable.prototype.reduceLeft__F2__O = (function(op) {
   return $f_sc_TraversableOnce__reduceLeft__F2__O(this, op)
@@ -43397,30 +48862,6 @@ function $f_sc_SeqLike__$$colon$plus__O__scg_CanBuildFrom__O($thiz, elem, bf) {
   b.$$plus$eq__O__scm_Builder(elem);
   return b.result__O()
 }
-function $f_sc_SeqLike__sorted__s_math_Ordering__O($thiz, ord) {
-  var len = $thiz.length__I();
-  var b = $thiz.newBuilder__scm_Builder();
-  if ((len === 1)) {
-    b.$$plus$plus$eq__sc_TraversableOnce__scg_Growable($thiz)
-  } else if ((len > 1)) {
-    b.sizeHint__I__V(len);
-    var arr = $newArrayObject($d_O.getArrayOf(), [len]);
-    var i = new $c_sr_IntRef().init___I(0);
-    $thiz.foreach__F1__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, arr$1, i$1) {
-      return (function(x$2) {
-        arr$1.set(i$1.elem$1, x$2);
-        i$1.elem$1 = ((1 + i$1.elem$1) | 0)
-      })
-    })($thiz, arr, i)));
-    $m_ju_Arrays$().sort__AO__ju_Comparator__V(arr, ord);
-    i.elem$1 = 0;
-    while ((i.elem$1 < arr.u.length)) {
-      b.$$plus$eq__O__scm_Builder(arr.get(i.elem$1));
-      i.elem$1 = ((1 + i.elem$1) | 0)
-    }
-  };
-  return b.result__O()
-}
 function $f_sc_SeqLike__indexWhere__F1__I__I($thiz, p, from) {
   var i = ((from > 0) ? from : 0);
   var it = $thiz.iterator__sc_Iterator().drop__I__sc_Iterator(from);
@@ -43438,10 +48879,6 @@ function $f_sc_SeqLike__$$plus$colon__O__scg_CanBuildFrom__O($thiz, elem, bf) {
   b.$$plus$eq__O__scm_Builder(elem);
   b.$$plus$plus$eq__sc_TraversableOnce__scg_Growable($thiz.thisCollection__sc_Seq());
   return b.result__O()
-}
-function $f_sc_SeqLike__sortBy__F1__s_math_Ordering__O($thiz, f, ord) {
-  var ord$1 = new $c_s_math_Ordering$$anon$5().init___s_math_Ordering__F1(ord, f);
-  return $f_sc_SeqLike__sorted__s_math_Ordering__O($thiz, ord$1)
 }
 function $is_sc_SeqLike(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.sc_SeqLike)))
@@ -43467,12 +48904,6 @@ function $isArrayOf_sc_GenSet(obj, depth) {
 function $asArrayOf_sc_GenSet(obj, depth) {
   return (($isArrayOf_sc_GenSet(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.collection.GenSet;", depth))
 }
-function $f_sc_IndexedSeqLike__toBuffer__scm_Buffer($thiz) {
-  var result = new $c_scm_ArrayBuffer().init___I($thiz.size__I());
-  var xs = $thiz.seq__sc_TraversableOnce();
-  result.$$plus$plus$eq__sc_TraversableOnce__scm_ArrayBuffer(xs);
-  return result
-}
 function $is_sc_IndexedSeqLike(obj) {
   return (!(!((obj && obj.$classData) && obj.$classData.ancestors.sc_IndexedSeqLike)))
 }
@@ -43497,14 +48928,268 @@ function $isArrayOf_sc_LinearSeqLike(obj, depth) {
 function $asArrayOf_sc_LinearSeqLike(obj, depth) {
   return (($isArrayOf_sc_LinearSeqLike(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.collection.LinearSeqLike;", depth))
 }
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_Js$$anon$1() {
+  $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.call(this);
+  this.raw$2 = null
+}
+$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype = new $h_Ljapgolly_scalajs_react_component_Template$MountedWithRoot();
+$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Js$$anon$1;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_Js$$anon$1() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype = $c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype;
+$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.setState__sjs_js_Object__F0__V = (function(state, callback) {
+  this.raw$2.setState(state, $m_Ljapgolly_scalajs_react_CallbackTo$().toJsFn$extension__F0__sjs_js_Function0(callback))
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.modState__F1__F0__V = (function(mod, callback) {
+  var jsFn1 = (function(f) {
+    return (function(arg1) {
+      return f.apply__O__O(arg1)
+    })
+  })(mod);
+  this.raw$2.setState(jsFn1, $m_Ljapgolly_scalajs_react_CallbackTo$().toJsFn$extension__F0__sjs_js_Function0(callback))
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(mp, ls, ft) {
+  $m_Ljapgolly_scalajs_react_component_Js$();
+  return new $c_Ljapgolly_scalajs_react_component_Js$$anon$2().init___Ljapgolly_scalajs_react_component_Js$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans(this, mp, ls, ft)
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.props__sjs_js_Object = (function() {
+  return this.raw$2.props
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.props__O = (function() {
+  return this.props__sjs_js_Object()
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.modState__F1__F0__O = (function(mod, callback) {
+  this.modState__F1__F0__V(mod, callback)
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.setState__O__F0__O = (function(newState, callback) {
+  this.setState__sjs_js_Object__F0__V(newState, callback)
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.init___Ljapgolly_scalajs_react_raw_React$Component = (function(r$2) {
+  $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype.init___Ljapgolly_scalajs_react_internal_Effect$Trans.call(this, $m_Ljapgolly_scalajs_react_internal_Effect$Trans$().endoId$1);
+  this.raw$2 = r$2;
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.state__O = (function() {
+  return this.state__sjs_js_Object()
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+  return this.raw$2
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.state__sjs_js_Object = (function() {
+  return this.raw$2.state
+});
+var $d_Ljapgolly_scalajs_react_component_Js$$anon$1 = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_Js$$anon$1: 0
+}, false, "japgolly.scalajs.react.component.Js$$anon$1", {
+  Ljapgolly_scalajs_react_component_Js$$anon$1: 1,
+  Ljapgolly_scalajs_react_component_Template$MountedWithRoot: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedWithRoot: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedSimple: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedRaw: 1,
+  Ljapgolly_scalajs_react_StateAccess: 1,
+  Ljapgolly_scalajs_react_StateAccess$Write: 1,
+  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
+  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
+  Ljapgolly_scalajs_react_component_Js$MountedWithRoot: 1,
+  Ljapgolly_scalajs_react_component_Js$MountedSimple: 1
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$1.prototype.$classData = $d_Ljapgolly_scalajs_react_component_Js$$anon$1;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_Js$$anon$2() {
+  $c_Ljapgolly_scalajs_react_component_Template$MountedMapped.call(this);
+  this.raw$2 = null;
+  this.from$2$2 = null;
+  this.ft$1$2 = null
+}
+$c_Ljapgolly_scalajs_react_component_Js$$anon$2.prototype = new $h_Ljapgolly_scalajs_react_component_Template$MountedMapped();
+$c_Ljapgolly_scalajs_react_component_Js$$anon$2.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Js$$anon$2;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_Js$$anon$2() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_Js$$anon$2.prototype = $c_Ljapgolly_scalajs_react_component_Js$$anon$2.prototype;
+$c_Ljapgolly_scalajs_react_component_Js$$anon$2.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Js$MountedWithRoot = (function(mp, ls, ft) {
+  $m_Ljapgolly_scalajs_react_component_Js$();
+  var from = this.from$2$2;
+  return new $c_Ljapgolly_scalajs_react_component_Js$$anon$2().init___Ljapgolly_scalajs_react_component_Js$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans(from, mp, ls, ft)
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$2.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(mp, ls, ft) {
+  return this.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Js$MountedWithRoot(mp, ls, ft)
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$2.prototype.init___Ljapgolly_scalajs_react_component_Js$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans = (function(from$2, mp$2, ls$1, ft$1) {
+  this.from$2$2 = from$2;
+  this.ft$1$2 = ft$1;
+  $c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans.call(this, from$2, mp$2, ls$1, ft$1);
+  this.raw$2 = from$2.raw__Ljapgolly_scalajs_react_raw_React$Component();
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$2.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+  return this.raw$2
+});
+var $d_Ljapgolly_scalajs_react_component_Js$$anon$2 = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_Js$$anon$2: 0
+}, false, "japgolly.scalajs.react.component.Js$$anon$2", {
+  Ljapgolly_scalajs_react_component_Js$$anon$2: 1,
+  Ljapgolly_scalajs_react_component_Template$MountedMapped: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedWithRoot: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedSimple: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedRaw: 1,
+  Ljapgolly_scalajs_react_StateAccess: 1,
+  Ljapgolly_scalajs_react_StateAccess$Write: 1,
+  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
+  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
+  Ljapgolly_scalajs_react_component_Js$MountedWithRoot: 1,
+  Ljapgolly_scalajs_react_component_Js$MountedSimple: 1
+});
+$c_Ljapgolly_scalajs_react_component_Js$$anon$2.prototype.$classData = $d_Ljapgolly_scalajs_react_component_Js$$anon$2;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_Scala$$anon$1() {
+  $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.call(this);
+  this.js$2 = null;
+  this.raw$2 = null;
+  this.x$1$2 = null
+}
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype = new $h_Ljapgolly_scalajs_react_component_Template$MountedWithRoot();
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Scala$$anon$1;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_Scala$$anon$1() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype = $c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype;
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.js__Ljapgolly_scalajs_react_component_Js$MountedWithRoot = (function() {
+  return this.js$2
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.modState__F1__F0__V = (function(mod, callback) {
+  this.x$1$2.modState__F1__F0__O(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, mod$1) {
+    return (function(s$2) {
+      $m_Ljapgolly_scalajs_react_internal_Box$();
+      var value = mod$1.apply__O__O(s$2.a);
+      return {
+        "a": value
+      }
+    })
+  })(this, mod)), callback)
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.setState__O__F0__V = (function(newState, callback) {
+  this.x$1$2.setState__O__F0__O(($m_Ljapgolly_scalajs_react_internal_Box$(), {
+    "a": newState
+  }), callback)
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(mp, ls, ft) {
+  $m_Ljapgolly_scalajs_react_component_Scala$();
+  return new $c_Ljapgolly_scalajs_react_component_Scala$$anon$2().init___Ljapgolly_scalajs_react_component_Scala$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans(this, mp, ls, ft)
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.props__O = (function() {
+  return this.x$1$2.props__O().a
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.modState__F1__F0__O = (function(mod, callback) {
+  this.modState__F1__F0__V(mod, callback)
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.setState__O__F0__O = (function(newState, callback) {
+  this.setState__O__F0__V(newState, callback)
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.state__O = (function() {
+  return this.x$1$2.state__O().a
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.init___Ljapgolly_scalajs_react_component_Js$MountedWithRoot = (function(x$1) {
+  this.x$1$2 = x$1;
+  $c_Ljapgolly_scalajs_react_component_Template$MountedWithRoot.prototype.init___Ljapgolly_scalajs_react_internal_Effect$Trans.call(this, $m_Ljapgolly_scalajs_react_internal_Effect$Trans$().endoId$1);
+  this.js$2 = x$1;
+  this.raw$2 = x$1.raw__Ljapgolly_scalajs_react_raw_React$Component();
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+  return this.raw$2
+});
+var $d_Ljapgolly_scalajs_react_component_Scala$$anon$1 = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_Scala$$anon$1: 0
+}, false, "japgolly.scalajs.react.component.Scala$$anon$1", {
+  Ljapgolly_scalajs_react_component_Scala$$anon$1: 1,
+  Ljapgolly_scalajs_react_component_Template$MountedWithRoot: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedWithRoot: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedSimple: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedRaw: 1,
+  Ljapgolly_scalajs_react_StateAccess: 1,
+  Ljapgolly_scalajs_react_StateAccess$Write: 1,
+  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
+  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
+  Ljapgolly_scalajs_react_component_Scala$MountedWithRoot: 1,
+  Ljapgolly_scalajs_react_component_Scala$MountedSimple: 1
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$1.prototype.$classData = $d_Ljapgolly_scalajs_react_component_Scala$$anon$1;
+/** @constructor */
+function $c_Ljapgolly_scalajs_react_component_Scala$$anon$2() {
+  $c_Ljapgolly_scalajs_react_component_Template$MountedMapped.call(this);
+  this.js$2 = null;
+  this.raw$2 = null;
+  this.from$1$2 = null;
+  this.ft$1$2 = null
+}
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype = new $h_Ljapgolly_scalajs_react_component_Template$MountedMapped();
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.constructor = $c_Ljapgolly_scalajs_react_component_Scala$$anon$2;
+/** @constructor */
+function $h_Ljapgolly_scalajs_react_component_Scala$$anon$2() {
+  /*<skip>*/
+}
+$h_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype = $c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype;
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.js__Ljapgolly_scalajs_react_component_Js$MountedWithRoot = (function() {
+  return this.js$2
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.init___Ljapgolly_scalajs_react_component_Scala$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans = (function(from$1, mp$1, ls$1, ft$1) {
+  this.from$1$2 = from$1;
+  this.ft$1$2 = ft$1;
+  $c_Ljapgolly_scalajs_react_component_Template$MountedMapped.prototype.init___Ljapgolly_scalajs_react_component_Generic$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans.call(this, from$1, mp$1, ls$1, ft$1);
+  this.js$2 = from$1.js__Ljapgolly_scalajs_react_component_Js$MountedWithRoot();
+  this.raw$2 = from$1.raw__Ljapgolly_scalajs_react_raw_React$Component();
+  return this
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Generic$MountedWithRoot = (function(mp, ls, ft) {
+  return this.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot(mp, ls, ft)
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.mapped__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans__Ljapgolly_scalajs_react_component_Scala$MountedWithRoot = (function(mp, ls, ft) {
+  $m_Ljapgolly_scalajs_react_component_Scala$();
+  var from = this.from$1$2;
+  return new $c_Ljapgolly_scalajs_react_component_Scala$$anon$2().init___Ljapgolly_scalajs_react_component_Scala$MountedWithRoot__F1__Ljapgolly_scalajs_react_internal_Lens__Ljapgolly_scalajs_react_internal_Effect$Trans(from, mp, ls, ft)
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.raw__Ljapgolly_scalajs_react_raw_React$Component = (function() {
+  return this.raw$2
+});
+var $d_Ljapgolly_scalajs_react_component_Scala$$anon$2 = new $TypeData().initClass({
+  Ljapgolly_scalajs_react_component_Scala$$anon$2: 0
+}, false, "japgolly.scalajs.react.component.Scala$$anon$2", {
+  Ljapgolly_scalajs_react_component_Scala$$anon$2: 1,
+  Ljapgolly_scalajs_react_component_Template$MountedMapped: 1,
+  O: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedWithRoot: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedSimple: 1,
+  Ljapgolly_scalajs_react_component_Generic$MountedRaw: 1,
+  Ljapgolly_scalajs_react_StateAccess: 1,
+  Ljapgolly_scalajs_react_StateAccess$Write: 1,
+  Ljapgolly_scalajs_react_StateAccess$SetState: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModState: 1,
+  Ljapgolly_scalajs_react_StateAccess$WriteWithProps: 1,
+  Ljapgolly_scalajs_react_StateAccess$ModStateWithProps: 1,
+  Ljapgolly_scalajs_react_component_Scala$MountedWithRoot: 1,
+  Ljapgolly_scalajs_react_component_Scala$MountedSimple: 1
+});
+$c_Ljapgolly_scalajs_react_component_Scala$$anon$2.prototype.$classData = $d_Ljapgolly_scalajs_react_component_Scala$$anon$2;
 function $f_sc_IndexedSeqOptimized__head__O($thiz) {
   return ($f_sc_IndexedSeqOptimized__isEmpty__Z($thiz) ? new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I($thiz, 0, $thiz.length__I()).next__O() : $thiz.apply__I__O(0))
 }
 function $f_sc_IndexedSeqOptimized__lengthCompare__I__I($thiz, len) {
   return (($thiz.length__I() - len) | 0)
-}
-function $f_sc_IndexedSeqOptimized__exists__F1__Z($thiz, p) {
-  return ($f_sc_IndexedSeqOptimized__prefixLengthImpl__psc_IndexedSeqOptimized__F1__Z__I($thiz, p, false) !== $thiz.length__I())
 }
 function $f_sc_IndexedSeqOptimized__sameElements__sc_GenIterable__Z($thiz, that) {
   if ($is_sc_IndexedSeq(that)) {
@@ -43522,6 +49207,9 @@ function $f_sc_IndexedSeqOptimized__sameElements__sc_GenIterable__Z($thiz, that)
   } else {
     return $f_sc_IterableLike__sameElements__sc_GenIterable__Z($thiz, that)
   }
+}
+function $f_sc_IndexedSeqOptimized__exists__F1__Z($thiz, p) {
+  return ($f_sc_IndexedSeqOptimized__prefixLengthImpl__psc_IndexedSeqOptimized__F1__Z__I($thiz, p, false) !== $thiz.length__I())
 }
 function $f_sc_IndexedSeqOptimized__isEmpty__Z($thiz) {
   return ($thiz.length__I() === 0)
@@ -43619,6 +49307,13 @@ function $f_sc_IndexedSeqOptimized__reduceLeft__F2__O($thiz, op) {
     return $f_sc_TraversableOnce__reduceLeft__F2__O($thiz, op)
   }
 }
+function $f_sc_LinearSeqOptimized__apply__I__O($thiz, n) {
+  var rest = $thiz.drop__I__sc_LinearSeqOptimized(n);
+  if (((n < 0) || rest.isEmpty__Z())) {
+    throw new $c_jl_IndexOutOfBoundsException().init___T(("" + n))
+  };
+  return rest.head__O()
+}
 function $f_sc_LinearSeqOptimized__lengthCompare__I__I($thiz, len) {
   if ((len < 0)) {
     return 1
@@ -43627,6 +49322,16 @@ function $f_sc_LinearSeqOptimized__lengthCompare__I__I($thiz, len) {
     var xs = $thiz;
     return $f_sc_LinearSeqOptimized__loop$1__psc_LinearSeqOptimized__I__sc_LinearSeqOptimized__I__I($thiz, i, xs, len)
   }
+}
+function $f_sc_LinearSeqOptimized__exists__F1__Z($thiz, p) {
+  var these = $thiz;
+  while ((!these.isEmpty__Z())) {
+    if ($uZ(p.apply__O__O(these.head__O()))) {
+      return true
+    };
+    these = $as_sc_LinearSeqOptimized(these.tail__O())
+  };
+  return false
 }
 function $f_sc_LinearSeqOptimized__sameElements__sc_GenIterable__Z($thiz, that) {
   if ($is_sc_LinearSeq(that)) {
@@ -43646,22 +49351,14 @@ function $f_sc_LinearSeqOptimized__sameElements__sc_GenIterable__Z($thiz, that) 
     return $f_sc_IterableLike__sameElements__sc_GenIterable__Z($thiz, that)
   }
 }
-function $f_sc_LinearSeqOptimized__exists__F1__Z($thiz, p) {
+function $f_sc_LinearSeqOptimized__foldLeft__O__F2__O($thiz, z, op) {
+  var acc = z;
   var these = $thiz;
   while ((!these.isEmpty__Z())) {
-    if ($uZ(p.apply__O__O(these.head__O()))) {
-      return true
-    };
+    acc = op.apply__O__O__O(acc, these.head__O());
     these = $as_sc_LinearSeqOptimized(these.tail__O())
   };
-  return false
-}
-function $f_sc_LinearSeqOptimized__apply__I__O($thiz, n) {
-  var rest = $thiz.drop__I__sc_LinearSeqOptimized(n);
-  if (((n < 0) || rest.isEmpty__Z())) {
-    throw new $c_jl_IndexOutOfBoundsException().init___T(("" + n))
-  };
-  return rest.head__O()
+  return acc
 }
 function $f_sc_LinearSeqOptimized__indexWhere__F1__I__I($thiz, p, from) {
   var i = ((from > 0) ? from : 0);
@@ -43679,15 +49376,6 @@ function $f_sc_LinearSeqOptimized__indexWhere__F1__I__I($thiz, p, from) {
     }
   };
   return (-1)
-}
-function $f_sc_LinearSeqOptimized__foldLeft__O__F2__O($thiz, z, op) {
-  var acc = z;
-  var these = $thiz;
-  while ((!these.isEmpty__Z())) {
-    acc = op.apply__O__O__O(acc, these.head__O());
-    these = $as_sc_LinearSeqOptimized(these.tail__O())
-  };
-  return acc
 }
 function $f_sc_LinearSeqOptimized__length__I($thiz) {
   var these = $thiz;
@@ -43713,6 +49401,13 @@ function $f_sc_LinearSeqOptimized__last__O($thiz) {
 function $f_sc_LinearSeqOptimized__isDefinedAt__I__Z($thiz, x) {
   return ((x >= 0) && ($f_sc_LinearSeqOptimized__lengthCompare__I__I($thiz, x) > 0))
 }
+function $f_sc_LinearSeqOptimized__reduceLeft__F2__O($thiz, op) {
+  if ($thiz.isEmpty__Z()) {
+    throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
+  } else {
+    return $as_sc_LinearSeqOptimized($thiz.tail__O()).foldLeft__O__F2__O($thiz.head__O(), op)
+  }
+}
 function $f_sc_LinearSeqOptimized__loop$1__psc_LinearSeqOptimized__I__sc_LinearSeqOptimized__I__I($thiz, i, xs, len$1) {
   _loop: while (true) {
     if ((i === len$1)) {
@@ -43726,13 +49421,6 @@ function $f_sc_LinearSeqOptimized__loop$1__psc_LinearSeqOptimized__I__sc_LinearS
       xs = temp$xs;
       continue _loop
     }
-  }
-}
-function $f_sc_LinearSeqOptimized__reduceLeft__F2__O($thiz, op) {
-  if ($thiz.isEmpty__Z()) {
-    throw new $c_jl_UnsupportedOperationException().init___T("empty.reduceLeft")
-  } else {
-    return $as_sc_LinearSeqOptimized($thiz.tail__O()).foldLeft__O__F2__O($thiz.head__O(), op)
   }
 }
 function $is_sc_LinearSeqOptimized(obj) {
@@ -43749,15 +49437,6 @@ function $asArrayOf_sc_LinearSeqOptimized(obj, depth) {
 }
 function $f_sc_SetLike__isEmpty__Z($thiz) {
   return ($thiz.size__I() === 0)
-}
-function $f_sc_SetLike__toBuffer__scm_Buffer($thiz) {
-  var result = new $c_scm_ArrayBuffer().init___I($thiz.size__I());
-  $thiz.foreach__F1__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, result$1) {
-    return (function(x$2$2) {
-      return result$1.$$plus$eq__O__scm_ArrayBuffer(x$2$2)
-    })
-  })($thiz, result)));
-  return result
 }
 function $f_sc_SetLike__$$plus$plus__sc_GenTraversableOnce__sc_Set($thiz, elems) {
   var x$3 = $as_sc_Set($thiz);
@@ -43811,16 +49490,6 @@ function $f_sc_MapLike__getOrElse__O__F0__O($thiz, key, $default) {
     }
   }
 }
-function $f_sc_MapLike__toBuffer__scm_Buffer($thiz) {
-  var result = new $c_scm_ArrayBuffer().init___I($thiz.size__I());
-  $thiz.foreach__F1__V(new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this, result$1) {
-    return (function(x$7$2) {
-      var x$7 = $as_T2(x$7$2);
-      return result$1.$$plus$eq__O__scm_ArrayBuffer(x$7)
-    })
-  })($thiz, result)));
-  return result
-}
 function $f_sc_MapLike__$default__O__O($thiz, key) {
   throw new $c_ju_NoSuchElementException().init___T(("key not found: " + key))
 }
@@ -43867,16 +49536,8 @@ function $f_sc_SortedSetLike__subsetOf__sc_GenSet__Z($thiz, that) {
 function $f_sci_MapLike__updated__O__O__sci_Map($thiz, key, value) {
   return $thiz.$$plus__T2__sci_Map(new $c_T2().init___O__O(key, value))
 }
-function $f_sci_StringLike__escape__psci_StringLike__C__T($thiz, ch) {
-  return (((((ch >= 97) && (ch <= 122)) || ((ch >= 65) && (ch <= 90))) || ((ch >= 48) && (ch <= 57))) ? $as_T($g.String.fromCharCode(ch)) : ("\\" + new $c_jl_Character().init___C(ch)))
-}
-function $f_sci_StringLike__unwrapArg__psci_StringLike__O__O($thiz, arg) {
-  if ($is_s_math_ScalaNumber(arg)) {
-    var x2 = $as_s_math_ScalaNumber(arg);
-    return x2.underlying__O()
-  } else {
-    return arg
-  }
+function $f_sci_StringLike__scala$collection$immutable$StringLike$$isLineBreak__C__Z($thiz, c) {
+  return ((c === 10) || (c === 12))
 }
 function $f_sci_StringLike__slice__I__I__O($thiz, from, until) {
   var start = ((from > 0) ? from : 0);
@@ -43891,21 +49552,41 @@ function $f_sci_StringLike__slice__I__I__O($thiz, from, until) {
     return $as_scm_Builder(jsx$1.$$plus$plus$eq__sc_TraversableOnce__scg_Growable(new $c_sci_StringOps().init___T(x))).result__O()
   }
 }
-function $f_sci_StringLike__format__sc_Seq__T($thiz, args) {
-  var jsx$3 = $m_sjsr_RuntimeString$();
-  var jsx$2 = $thiz.toString__T();
-  var jsx$1 = new $c_sjsr_AnonFunction1().init___sjs_js_Function1((function($this) {
-    return (function(arg$2) {
-      return $f_sci_StringLike__unwrapArg__psci_StringLike__O__O($this, arg$2)
-    })
-  })($thiz));
-  var this$1 = $m_sc_Seq$();
-  return jsx$3.format__T__AO__T(jsx$2, $asArrayOf_O($as_sc_TraversableOnce(args.map__F1__scg_CanBuildFrom__O(jsx$1, this$1.ReusableCBFInstance$2)).toArray__s_reflect_ClassTag__O($m_s_reflect_ManifestFactory$ObjectManifest$()), 1))
-}
-function $f_sci_StringLike__split__C__AT($thiz, separator) {
-  var thiz = $thiz.toString__T();
-  var regex = $f_sci_StringLike__escape__psci_StringLike__C__T($thiz, separator);
-  return $m_sjsr_RuntimeString$().split__T__T__I__AT(thiz, regex, 0)
+function $f_sci_StringLike__stripMargin__C__T($thiz, marginChar) {
+  var buf = new $c_scm_StringBuilder().init___();
+  var this$1 = new $c_sci_StringLike$$anon$1().init___sci_StringLike($thiz);
+  while (this$1.hasNext__Z()) {
+    var arg1 = this$1.next__T();
+    var len = $uI(arg1.length);
+    var index = 0;
+    while (true) {
+      if ((index < len)) {
+        var index$1 = index;
+        var jsx$1 = ((65535 & $uI(arg1.charCodeAt(index$1))) <= 32)
+      } else {
+        var jsx$1 = false
+      };
+      if (jsx$1) {
+        index = ((1 + index) | 0)
+      } else {
+        break
+      }
+    };
+    if ((index < len)) {
+      var index$2 = index;
+      var jsx$3 = ((65535 & $uI(arg1.charCodeAt(index$2))) === marginChar)
+    } else {
+      var jsx$3 = false
+    };
+    if (jsx$3) {
+      var beginIndex = ((1 + index) | 0);
+      var jsx$2 = $as_T(arg1.substring(beginIndex))
+    } else {
+      var jsx$2 = arg1
+    };
+    buf.append__T__scm_StringBuilder(jsx$2)
+  };
+  return buf.underlying$5.java$lang$StringBuilder$$content$f
 }
 /** @constructor */
 function $c_sc_AbstractIterable() {
@@ -44016,9 +49697,6 @@ $c_sci_StringOps.prototype.seq__sc_TraversableOnce = (function() {
   var $$this = this.repr$1;
   return new $c_sci_WrappedString().init___T($$this)
 });
-$c_sci_StringOps.prototype.copyToArray__O__I__V = (function(xs, start) {
-  $f_sc_TraversableOnce__copyToArray__O__I__V(this, xs, start)
-});
 $c_sci_StringOps.prototype.head__O = (function() {
   return $f_sc_IndexedSeqOptimized__head__O(this)
 });
@@ -44047,11 +49725,15 @@ $c_sci_StringOps.prototype.thisCollection__sc_Traversable = (function() {
   var $$this = this.repr$1;
   return new $c_sci_WrappedString().init___T($$this)
 });
+$c_sci_StringOps.prototype.flatMap__F1__scg_CanBuildFrom__O = (function(f, bf) {
+  return $f_sc_TraversableLike__flatMap__F1__scg_CanBuildFrom__O(this, f, bf)
+});
 $c_sci_StringOps.prototype.equals__O__Z = (function(x$1) {
   return $m_sci_StringOps$().equals$extension__T__O__Z(this.repr$1, x$1)
 });
-$c_sci_StringOps.prototype.flatMap__F1__scg_CanBuildFrom__O = (function(f, bf) {
-  return $f_sc_TraversableLike__flatMap__F1__scg_CanBuildFrom__O(this, f, bf)
+$c_sci_StringOps.prototype.apply__I__C = (function(index) {
+  var $$this = this.repr$1;
+  return (65535 & $uI($$this.charCodeAt(index)))
 });
 $c_sci_StringOps.prototype.mkString__T__T__T__T = (function(start, sep, end) {
   return $f_sc_TraversableOnce__mkString__T__T__T__T(this, start, sep, end)
@@ -44073,9 +49755,6 @@ $c_sci_StringOps.prototype.toVector__sci_Vector = (function() {
   $m_sci_Vector$();
   var cbf = $m_sc_IndexedSeq$().ReusableCBF$6;
   return $as_sci_Vector($f_sc_TraversableLike__to__scg_CanBuildFrom__O(this, cbf))
-});
-$c_sci_StringOps.prototype.toBuffer__scm_Buffer = (function() {
-  return $f_sc_IndexedSeqLike__toBuffer__scm_Buffer(this)
 });
 $c_sci_StringOps.prototype.size__I = (function() {
   var $$this = this.repr$1;
@@ -44113,9 +49792,6 @@ $c_sci_StringOps.prototype.tail__O = (function() {
 $c_sci_StringOps.prototype.addString__scm_StringBuilder__T__T__T__scm_StringBuilder = (function(b, start, sep, end) {
   return $f_sc_TraversableOnce__addString__scm_StringBuilder__T__T__T__scm_StringBuilder(this, b, start, sep, end)
 });
-$c_sci_StringOps.prototype.max__s_math_Ordering__O = (function(cmp) {
-  return $f_sc_TraversableOnce__max__s_math_Ordering__O(this, cmp)
-});
 $c_sci_StringOps.prototype.repr__O = (function() {
   return this.repr$1
 });
@@ -44139,11 +49815,6 @@ $c_sci_StringOps.prototype.hashCode__I = (function() {
 $c_sci_StringOps.prototype.init___T = (function(repr) {
   this.repr$1 = repr;
   return this
-});
-$c_sci_StringOps.prototype.toArray__s_reflect_ClassTag__O = (function(evidence$1) {
-  var jsx$1 = $m_sjsr_RuntimeString$();
-  var $$this = this.repr$1;
-  return jsx$1.toCharArray__T__AC($$this)
 });
 $c_sci_StringOps.prototype.reduceLeft__F2__O = (function(op) {
   return $f_sc_IndexedSeqOptimized__reduceLeft__F2__O(this, op)
@@ -44322,9 +49993,6 @@ $h_sjs_js_ArrayOps.prototype = $c_sjs_js_ArrayOps.prototype;
 $c_sjs_js_ArrayOps.prototype.seq__sc_TraversableOnce = (function() {
   return this.seq__sc_IndexedSeq()
 });
-$c_sjs_js_ArrayOps.prototype.copyToArray__O__I__V = (function(xs, start) {
-  $f_sc_TraversableOnce__copyToArray__O__I__V(this, xs, start)
-});
 $c_sjs_js_ArrayOps.prototype.seq__sc_IndexedSeq = (function() {
   return new $c_sjs_js_WrappedArray().init___sjs_js_Array(this.scala$scalajs$js$ArrayOps$$array$f)
 });
@@ -44390,9 +50058,6 @@ $c_sjs_js_ArrayOps.prototype.toVector__sci_Vector = (function() {
   var cbf = $m_sc_IndexedSeq$().ReusableCBF$6;
   return $as_sci_Vector($f_sc_TraversableLike__to__scg_CanBuildFrom__O(this, cbf))
 });
-$c_sjs_js_ArrayOps.prototype.toBuffer__scm_Buffer = (function() {
-  return $f_sc_IndexedSeqLike__toBuffer__scm_Buffer(this)
-});
 $c_sjs_js_ArrayOps.prototype.size__I = (function() {
   return $uI(this.scala$scalajs$js$ArrayOps$$array$f.length)
 });
@@ -44428,9 +50093,6 @@ $c_sjs_js_ArrayOps.prototype.tail__O = (function() {
 $c_sjs_js_ArrayOps.prototype.addString__scm_StringBuilder__T__T__T__scm_StringBuilder = (function(b, start, sep, end) {
   return $f_sc_TraversableOnce__addString__scm_StringBuilder__T__T__T__scm_StringBuilder(this, b, start, sep, end)
 });
-$c_sjs_js_ArrayOps.prototype.max__s_math_Ordering__O = (function(cmp) {
-  return $f_sc_TraversableOnce__max__s_math_Ordering__O(this, cmp)
-});
 $c_sjs_js_ArrayOps.prototype.repr__O = (function() {
   return this.scala$scalajs$js$ArrayOps$$array$f
 });
@@ -44456,9 +50118,6 @@ $c_sjs_js_ArrayOps.prototype.hashCode__I = (function() {
 $c_sjs_js_ArrayOps.prototype.isTraversableAgain__Z = (function() {
   return true
 });
-$c_sjs_js_ArrayOps.prototype.toArray__s_reflect_ClassTag__O = (function(evidence$1) {
-  return $f_sc_TraversableOnce__toArray__s_reflect_ClassTag__O(this, evidence$1)
-});
 $c_sjs_js_ArrayOps.prototype.init___sjs_js_Array = (function(array) {
   this.scala$scalajs$js$ArrayOps$$array$f = array;
   return this
@@ -44475,6 +50134,18 @@ $c_sjs_js_ArrayOps.prototype.$$plus$plus$eq__sc_TraversableOnce__scg_Growable = 
 $c_sjs_js_ArrayOps.prototype.stringPrefix__T = (function() {
   return $f_sc_TraversableLike__stringPrefix__T(this)
 });
+function $is_sjs_js_ArrayOps(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.sjs_js_ArrayOps)))
+}
+function $as_sjs_js_ArrayOps(obj) {
+  return (($is_sjs_js_ArrayOps(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scala.scalajs.js.ArrayOps"))
+}
+function $isArrayOf_sjs_js_ArrayOps(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.sjs_js_ArrayOps)))
+}
+function $asArrayOf_sjs_js_ArrayOps(obj, depth) {
+  return (($isArrayOf_sjs_js_ArrayOps(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.scalajs.js.ArrayOps;", depth))
+}
 var $d_sjs_js_ArrayOps = new $TypeData().initClass({
   sjs_js_ArrayOps: 0
 }, false, "scala.scalajs.js.ArrayOps", {
@@ -44614,9 +50285,6 @@ $c_sc_AbstractMap.prototype.toString__T = (function() {
 $c_sc_AbstractMap.prototype.keysIterator__sc_Iterator = (function() {
   return new $c_sc_MapLike$$anon$1().init___sc_MapLike(this)
 });
-$c_sc_AbstractMap.prototype.toBuffer__scm_Buffer = (function() {
-  return $f_sc_MapLike__toBuffer__scm_Buffer(this)
-});
 $c_sc_AbstractMap.prototype.valuesIterator__sc_Iterator = (function() {
   return new $c_sc_MapLike$$anon$2().init___sc_MapLike(this)
 });
@@ -44640,11 +50308,11 @@ $c_sc_AbstractMap.prototype.applyOrElse__O__F1__O = (function(x, $default) {
 $c_sc_AbstractMap.prototype.andThen__F1__F1 = (function(g) {
   return new $c_s_PartialFunction$AndThen().init___s_PartialFunction__F1(this, g)
 });
-$c_sc_AbstractMap.prototype.stringPrefix__T = (function() {
-  return "Map"
-});
 $c_sc_AbstractMap.prototype.newBuilder__scm_Builder = (function() {
   return new $c_scm_MapBuilder().init___sc_GenMap(this.empty__sc_Map())
+});
+$c_sc_AbstractMap.prototype.stringPrefix__T = (function() {
+  return "Map"
 });
 /** @constructor */
 function $c_sc_AbstractSet() {
@@ -44668,9 +50336,6 @@ $c_sc_AbstractSet.prototype.toString__T = (function() {
 });
 $c_sc_AbstractSet.prototype.subsetOf__sc_GenSet__Z = (function(that) {
   return this.forall__F1__Z(that)
-});
-$c_sc_AbstractSet.prototype.toBuffer__scm_Buffer = (function() {
-  return $f_sc_SetLike__toBuffer__scm_Buffer(this)
 });
 $c_sc_AbstractSet.prototype.hashCode__I = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
@@ -45574,11 +51239,11 @@ $h_sci_HashSet.prototype = $c_sci_HashSet.prototype;
 $c_sci_HashSet.prototype.updated0__O__I__I__sci_HashSet = (function(key, hash, level) {
   return new $c_sci_HashSet$HashSet1().init___O__I(key, hash)
 });
-$c_sci_HashSet.prototype.seq__sc_TraversableOnce = (function() {
-  return this
-});
 $c_sci_HashSet.prototype.computeHash__O__I = (function(key) {
   return this.improve__I__I($m_sr_Statics$().anyHash__O__I(key))
+});
+$c_sci_HashSet.prototype.seq__sc_TraversableOnce = (function() {
+  return this
 });
 $c_sci_HashSet.prototype.repr__scg_Subtractable = (function() {
   return this
@@ -45589,11 +51254,11 @@ $c_sci_HashSet.prototype.init___ = (function() {
 $c_sci_HashSet.prototype.apply__O__O = (function(v1) {
   return this.contains__O__Z(v1)
 });
-$c_sci_HashSet.prototype.$$plus__O__sci_HashSet = (function(e) {
-  return this.updated0__O__I__I__sci_HashSet(e, this.computeHash__O__I(e), 0)
-});
 $c_sci_HashSet.prototype.$$minus__O__scg_Subtractable = (function(elem) {
   return this.$$minus__O__sci_HashSet(elem)
+});
+$c_sci_HashSet.prototype.$$plus__O__sci_HashSet = (function(e) {
+  return this.updated0__O__I__I__sci_HashSet(e, this.computeHash__O__I(e), 0)
 });
 $c_sci_HashSet.prototype.seq__sc_Iterable = (function() {
   return this
@@ -45625,11 +51290,15 @@ $c_sci_HashSet.prototype.iterator__sc_Iterator = (function() {
 $c_sci_HashSet.prototype.$$minus__O__sc_Set = (function(elem) {
   return this.$$minus__O__sci_HashSet(elem)
 });
+$c_sci_HashSet.prototype.empty__sc_Set = (function() {
+  return $m_sci_HashSet$EmptyHashSet$()
+});
 $c_sci_HashSet.prototype.removed0__O__I__I__sci_HashSet = (function(key, hash, level) {
   return this
 });
-$c_sci_HashSet.prototype.empty__sc_Set = (function() {
-  return $m_sci_HashSet$EmptyHashSet$()
+$c_sci_HashSet.prototype.$$minus__O__sci_HashSet = (function(e) {
+  var s = this.removed0__O__I__I__sci_HashSet(e, this.computeHash__O__I(e), 0);
+  return ((s === null) ? $m_sci_HashSet$EmptyHashSet$() : s)
 });
 $c_sci_HashSet.prototype.improve__I__I = (function(hcode) {
   var h = ((hcode + (~(hcode << 9))) | 0);
@@ -45637,24 +51306,20 @@ $c_sci_HashSet.prototype.improve__I__I = (function(hcode) {
   h = ((h + (h << 4)) | 0);
   return (h ^ ((h >>> 10) | 0))
 });
-$c_sci_HashSet.prototype.$$minus__O__sci_HashSet = (function(e) {
-  var s = this.removed0__O__I__I__sci_HashSet(e, this.computeHash__O__I(e), 0);
-  return ((s === null) ? $m_sci_HashSet$EmptyHashSet$() : s)
+$c_sci_HashSet.prototype.tail__O = (function() {
+  return this.tail__sci_HashSet()
 });
 $c_sci_HashSet.prototype.contains__O__Z = (function(e) {
   return this.get0__O__I__I__Z(e, this.computeHash__O__I(e), 0)
 });
-$c_sci_HashSet.prototype.tail__O = (function() {
-  return this.tail__sci_HashSet()
-});
 $c_sci_HashSet.prototype.tail__sci_HashSet = (function() {
   return this.$$minus__O__sci_HashSet(this.head__O())
 });
-$c_sci_HashSet.prototype.get0__O__I__I__Z = (function(key, hash, level) {
-  return false
-});
 $c_sci_HashSet.prototype.$$plus__O__sc_Set = (function(elem) {
   return this.$$plus__O__sci_HashSet(elem)
+});
+$c_sci_HashSet.prototype.get0__O__I__I__Z = (function(key, hash, level) {
+  return false
 });
 $c_sci_HashSet.prototype.subsetOf0__sci_HashSet__I__Z = (function(that, level) {
   return true
@@ -46024,9 +51689,6 @@ $h_sci_TreeSet.prototype = $c_sci_TreeSet.prototype;
 $c_sci_TreeSet.prototype.seq__sc_TraversableOnce = (function() {
   return this
 });
-$c_sci_TreeSet.prototype.copyToArray__O__I__V = (function(xs, start) {
-  $f_sc_TraversableOnce__copyToArray__O__I__V(this, xs, start)
-});
 $c_sci_TreeSet.prototype.tail__sci_TreeSet = (function() {
   return new $c_sci_TreeSet().init___sci_RedBlackTree$Tree__s_math_Ordering($m_sci_RedBlackTree$().$delete__sci_RedBlackTree$Tree__O__s_math_Ordering__sci_RedBlackTree$Tree(this.tree$1, this.head__O(), this.ordering$1), this.ordering$1)
 });
@@ -46093,9 +51755,6 @@ $c_sci_TreeSet.prototype.toVector__sci_Vector = (function() {
   var cbf = $m_sc_IndexedSeq$().ReusableCBF$6;
   return $as_sci_Vector($f_sc_TraversableLike__to__scg_CanBuildFrom__O(this, cbf))
 });
-$c_sci_TreeSet.prototype.toBuffer__scm_Buffer = (function() {
-  return $f_sc_SetLike__toBuffer__scm_Buffer(this)
-});
 $c_sci_TreeSet.prototype.size__I = (function() {
   return $m_sci_RedBlackTree$().count__sci_RedBlackTree$Tree__I(this.tree$1)
 });
@@ -46149,17 +51808,11 @@ $c_sci_TreeSet.prototype.contains__O__Z = (function(elem) {
 $c_sci_TreeSet.prototype.addString__scm_StringBuilder__T__T__T__scm_StringBuilder = (function(b, start, sep, end) {
   return $f_sc_TraversableOnce__addString__scm_StringBuilder__T__T__T__scm_StringBuilder(this, b, start, sep, end)
 });
-$c_sci_TreeSet.prototype.max__s_math_Ordering__O = (function(cmp) {
-  return $f_sc_TraversableOnce__max__s_math_Ordering__O(this, cmp)
-});
 $c_sci_TreeSet.prototype.repr__O = (function() {
   return this
 });
 $c_sci_TreeSet.prototype.$$div$colon__O__F2__O = (function(z, op) {
   return $f_sc_TraversableOnce__foldLeft__O__F2__O(this, z, op)
-});
-$c_sci_TreeSet.prototype.copyToArray__O__I__I__V = (function(xs, start, len) {
-  $f_sc_IterableLike__copyToArray__O__I__I__V(this, xs, start, len)
 });
 $c_sci_TreeSet.prototype.hashCode__I = (function() {
   var this$1 = $m_s_util_hashing_MurmurHash3$();
@@ -46167,9 +51820,6 @@ $c_sci_TreeSet.prototype.hashCode__I = (function() {
 });
 $c_sci_TreeSet.prototype.isTraversableAgain__Z = (function() {
   return true
-});
-$c_sci_TreeSet.prototype.toArray__s_reflect_ClassTag__O = (function(evidence$1) {
-  return $f_sc_TraversableOnce__toArray__s_reflect_ClassTag__O(this, evidence$1)
 });
 $c_sci_TreeSet.prototype.andThen__F1__F1 = (function(g) {
   return $f_F1__andThen__F1__F1(this, g)
@@ -47292,11 +52942,11 @@ function $h_sci_HashMap() {
   /*<skip>*/
 }
 $h_sci_HashMap.prototype = $c_sci_HashMap.prototype;
-$c_sci_HashMap.prototype.seq__sc_TraversableOnce = (function() {
-  return this
-});
 $c_sci_HashMap.prototype.computeHash__O__I = (function(key) {
   return this.improve__I__I($m_sr_Statics$().anyHash__O__I(key))
+});
+$c_sci_HashMap.prototype.seq__sc_TraversableOnce = (function() {
+  return this
 });
 $c_sci_HashMap.prototype.repr__scg_Subtractable = (function() {
   return this
@@ -47319,21 +52969,21 @@ $c_sci_HashMap.prototype.get0__O__I__I__s_Option = (function(key, hash, level) {
 $c_sci_HashMap.prototype.$$plus__T2__sci_Map = (function(kv) {
   return this.$$plus__T2__sci_HashMap(kv)
 });
-$c_sci_HashMap.prototype.foreach__F1__V = (function(f) {
-  /*<skip>*/
-});
 $c_sci_HashMap.prototype.$$plus__T2__sci_HashMap = (function(kv) {
   return this.updated0__O__I__I__O__T2__sci_HashMap$Merger__sci_HashMap(kv.$$und1$f, this.computeHash__O__I(kv.$$und1$f), 0, kv.$$und2$f, kv, null)
 });
-$c_sci_HashMap.prototype.$$minus__O__sc_Map = (function(key) {
-  return this.$$minus__O__sci_HashMap(key)
-});
-$c_sci_HashMap.prototype.updated__O__O__sci_HashMap = (function(key, value) {
-  return this.updated0__O__I__I__O__T2__sci_HashMap$Merger__sci_HashMap(key, this.computeHash__O__I(key), 0, value, null, null)
+$c_sci_HashMap.prototype.foreach__F1__V = (function(f) {
+  /*<skip>*/
 });
 $c_sci_HashMap.prototype.empty__sc_Map = (function() {
   $m_sci_HashMap$();
   return $m_sci_HashMap$EmptyHashMap$()
+});
+$c_sci_HashMap.prototype.updated__O__O__sci_HashMap = (function(key, value) {
+  return this.updated0__O__I__I__O__T2__sci_HashMap$Merger__sci_HashMap(key, this.computeHash__O__I(key), 0, value, null, null)
+});
+$c_sci_HashMap.prototype.$$minus__O__sc_Map = (function(key) {
+  return this.$$minus__O__sci_HashMap(key)
 });
 $c_sci_HashMap.prototype.removed0__O__I__I__sci_HashMap = (function(key, hash, level) {
   return this
@@ -47372,11 +53022,11 @@ $c_sci_HashMap.prototype.get__O__s_Option = (function(key) {
 $c_sci_HashMap.prototype.contains0__O__I__I__Z = (function(key, hash, level) {
   return false
 });
-$c_sci_HashMap.prototype.tail__O = (function() {
-  return this.tail__sci_HashMap()
-});
 $c_sci_HashMap.prototype.contains__O__Z = (function(key) {
   return this.contains0__O__I__I__Z(key, this.computeHash__O__I(key), 0)
+});
+$c_sci_HashMap.prototype.tail__O = (function() {
+  return this.tail__sci_HashMap()
 });
 $c_sci_HashMap.prototype.$$plus__T2__sc_GenMap = (function(kv) {
   return this.$$plus__T2__sci_HashMap(kv)
@@ -48057,9 +53707,6 @@ $c_sci_Range.prototype.tail__sci_Range = (function() {
 $c_sci_Range.prototype.size__I = (function() {
   return this.length__I()
 });
-$c_sci_Range.prototype.toBuffer__scm_Buffer = (function() {
-  return $f_sc_IndexedSeqLike__toBuffer__scm_Buffer(this)
-});
 $c_sci_Range.prototype.iterator__sc_Iterator = (function() {
   return new $c_sc_IndexedSeqLike$Elements().init___sc_IndexedSeqLike__I__I(this, 0, this.length__I())
 });
@@ -48087,9 +53734,6 @@ $c_sci_Range.prototype.drop__I__sci_Range = (function(n) {
     return this.copy__I__I__I__sci_Range(this.locationAfterN__p4__I__I(n), this.end$4, this.step$4)
   }
 });
-$c_sci_Range.prototype.max__s_math_Ordering__I = (function(ord) {
-  return ((ord === $m_s_math_Ordering$Int$()) ? ((this.step$4 > 0) ? this.last__I() : this.head__I()) : $uI($f_sc_TraversableOnce__max__s_math_Ordering__O(this, ord)))
-});
 $c_sci_Range.prototype.isExact__p4__Z = (function() {
   var t = this.gap__p4__J();
   var lo = t.lo$2;
@@ -48109,9 +53753,6 @@ $c_sci_Range.prototype.thisCollection__sc_Seq = (function() {
 });
 $c_sci_Range.prototype.tail__O = (function() {
   return this.tail__sci_Range()
-});
-$c_sci_Range.prototype.max__s_math_Ordering__O = (function(cmp) {
-  return this.max__s_math_Ordering__I(cmp)
 });
 $c_sci_Range.prototype.last__I = (function() {
   if (this.isEmpty$4) {
@@ -48260,12 +53901,31 @@ $c_sci_Stream.prototype.flatMap__F1__scg_CanBuildFrom__O = (function(f, bf) {
 $c_sci_Stream.prototype.equals__O__Z = (function(that) {
   return ((this === that) || $f_sc_GenSeqLike__equals__O__Z(this, that))
 });
+$c_sci_Stream.prototype.filterImpl__F1__Z__sci_Stream = (function(p, isFlipped) {
+  var rest = this;
+  while (((!rest.isEmpty__Z()) && ($uZ(p.apply__O__O(rest.head__O())) === isFlipped))) {
+    rest = $as_sci_Stream(rest.tail__O())
+  };
+  var this$1 = rest;
+  if ($f_sc_TraversableOnce__nonEmpty__Z(this$1)) {
+    return $m_sci_Stream$().filteredTail__sci_Stream__F1__Z__sci_Stream$Cons(rest, p, isFlipped)
+  } else {
+    return $m_sci_Stream$Empty$()
+  }
+});
 $c_sci_Stream.prototype.drop__I__sc_LinearSeqOptimized = (function(n) {
   return this.drop__I__sci_Stream(n)
 });
 $c_sci_Stream.prototype.mkString__T__T__T__T = (function(start, sep, end) {
   this.force__sci_Stream();
   return $f_sc_TraversableOnce__mkString__T__T__T__T(this, start, sep, end)
+});
+$c_sci_Stream.prototype.withFilter__F1__scg_FilterMonadic = (function(p) {
+  return new $c_sci_Stream$StreamWithFilter().init___F0__F1(new $c_sjsr_AnonFunction0().init___sjs_js_Function0((function($this) {
+    return (function() {
+      return $this
+    })
+  })(this)), p)
 });
 $c_sci_Stream.prototype.companion__scg_GenericCompanion = (function() {
   return $m_sci_Stream$()
@@ -49693,9 +55353,6 @@ $c_sci_Vector.prototype.appendBack__O__sci_Vector = (function(value) {
     return s$5
   }
 });
-$c_sci_Vector.prototype.toBuffer__scm_Buffer = (function() {
-  return $f_sc_IndexedSeqLike__toBuffer__scm_Buffer(this)
-});
 $c_sci_Vector.prototype.preClean__p4__I__V = (function(depth) {
   this.depth$4 = depth;
   var x1 = (((-1) + depth) | 0);
@@ -50069,6 +55726,10 @@ $c_sci_WrappedString.prototype.seq__sc_Iterable = (function() {
 $c_sci_WrappedString.prototype.thisCollection__sc_Traversable = (function() {
   return this
 });
+$c_sci_WrappedString.prototype.apply__I__C = (function(n) {
+  var thiz = this.self$4;
+  return (65535 & $uI(thiz.charCodeAt(n)))
+});
 $c_sci_WrappedString.prototype.companion__scg_GenericCompanion = (function() {
   return $m_sci_IndexedSeq$()
 });
@@ -50090,9 +55751,6 @@ $c_sci_WrappedString.prototype.indexWhere__F1__I__I = (function(p, from) {
 });
 $c_sci_WrappedString.prototype.slice__I__I__O = (function(from, until) {
   return this.slice__I__I__sci_WrappedString(from, until)
-});
-$c_sci_WrappedString.prototype.toBuffer__scm_Buffer = (function() {
-  return $f_sc_IndexedSeqLike__toBuffer__scm_Buffer(this)
 });
 $c_sci_WrappedString.prototype.iterator__sc_Iterator = (function() {
   var thiz = this.self$4;
@@ -50133,9 +55791,6 @@ $c_sci_WrappedString.prototype.hashCode__I = (function() {
 $c_sci_WrappedString.prototype.init___T = (function(self) {
   this.self$4 = self;
   return this
-});
-$c_sci_WrappedString.prototype.toArray__s_reflect_ClassTag__O = (function(evidence$1) {
-  return $m_sjsr_RuntimeString$().toCharArray__T__AC(this.self$4)
 });
 $c_sci_WrappedString.prototype.slice__I__I__sci_WrappedString = (function(from, until) {
   var start = ((from < 0) ? 0 : from);
@@ -50656,6 +56311,10 @@ function $h_scm_ListBuffer() {
   /*<skip>*/
 }
 $h_scm_ListBuffer.prototype = $c_scm_ListBuffer.prototype;
+$c_scm_ListBuffer.prototype.indexOf__O__I__I = (function(elem, from) {
+  var this$1 = this.scala$collection$mutable$ListBuffer$$start$6;
+  return $f_sc_GenSeqLike__indexOf__O__I__I(this$1, elem, from)
+});
 $c_scm_ListBuffer.prototype.copy__p6__V = (function() {
   if (this.isEmpty__Z()) {
     return (void 0)
@@ -50668,14 +56327,6 @@ $c_scm_ListBuffer.prototype.copy__p6__V = (function() {
     this.$$plus$eq__O__scm_ListBuffer(cursor.head__O());
     cursor = $as_sci_List(cursor.tail__O())
   }
-});
-$c_scm_ListBuffer.prototype.copyToArray__O__I__V = (function(xs, start) {
-  var this$1 = this.scala$collection$mutable$ListBuffer$$start$6;
-  $f_sc_TraversableOnce__copyToArray__O__I__V(this$1, xs, start)
-});
-$c_scm_ListBuffer.prototype.indexOf__O__I__I = (function(elem, from) {
-  var this$1 = this.scala$collection$mutable$ListBuffer$$start$6;
-  return $f_sc_GenSeqLike__indexOf__O__I__I(this$1, elem, from)
 });
 $c_scm_ListBuffer.prototype.repr__scg_Subtractable = (function() {
   return this
@@ -50762,12 +56413,6 @@ $c_scm_ListBuffer.prototype.foldLeft__O__F2__O = (function(z, op) {
 $c_scm_ListBuffer.prototype.indexWhere__F1__I__I = (function(p, from) {
   var this$1 = this.scala$collection$mutable$ListBuffer$$start$6;
   return $f_sc_LinearSeqOptimized__indexWhere__F1__I__I(this$1, p, from)
-});
-$c_scm_ListBuffer.prototype.toBuffer__scm_Buffer = (function() {
-  var this$1 = this.scala$collection$mutable$ListBuffer$$start$6;
-  var this$2 = $m_scm_ArrayBuffer$();
-  var cbf = this$2.ReusableCBFInstance$2;
-  return $as_scm_Buffer($f_sc_TraversableLike__to__scg_CanBuildFrom__O(this$1, cbf))
 });
 $c_scm_ListBuffer.prototype.size__I = (function() {
   return this.len$6
@@ -50868,10 +56513,6 @@ $c_scm_ListBuffer.prototype.$$plus$eq__O__scm_ListBuffer = (function(x) {
   this.len$6 = ((1 + this.len$6) | 0);
   return this
 });
-$c_scm_ListBuffer.prototype.max__s_math_Ordering__O = (function(cmp) {
-  var this$1 = this.scala$collection$mutable$ListBuffer$$start$6;
-  return $f_sc_TraversableOnce__max__s_math_Ordering__O(this$1, cmp)
-});
 $c_scm_ListBuffer.prototype.$$minus$eq__O__scm_Buffer = (function(x) {
   return this.$$minus$eq__O__scm_ListBuffer(x)
 });
@@ -50900,19 +56541,11 @@ $c_scm_ListBuffer.prototype.indexOf__O__I = (function(elem) {
 $c_scm_ListBuffer.prototype.sizeHint__I__V = (function(size) {
   /*<skip>*/
 });
-$c_scm_ListBuffer.prototype.copyToArray__O__I__I__V = (function(xs, start, len) {
-  var this$1 = this.scala$collection$mutable$ListBuffer$$start$6;
-  $f_sc_IterableLike__copyToArray__O__I__I__V(this$1, xs, start, len)
-});
 $c_scm_ListBuffer.prototype.clear__V = (function() {
   this.scala$collection$mutable$ListBuffer$$start$6 = $m_sci_Nil$();
   this.last0$6 = null;
   this.exported$6 = false;
   this.len$6 = 0
-});
-$c_scm_ListBuffer.prototype.toArray__s_reflect_ClassTag__O = (function(evidence$1) {
-  var this$1 = this.scala$collection$mutable$ListBuffer$$start$6;
-  return $f_sc_TraversableOnce__toArray__s_reflect_ClassTag__O(this$1, evidence$1)
 });
 $c_scm_ListBuffer.prototype.$$plus$plus$eq__sc_TraversableOnce__scm_ListBuffer = (function(xs) {
   _$plus$plus$eq: while (true) {
@@ -51063,6 +56696,9 @@ $c_scm_StringBuilder.prototype.thisCollection__sc_Traversable = (function() {
 $c_scm_StringBuilder.prototype.subSequence__I__I__jl_CharSequence = (function(start, end) {
   return this.underlying$5.substring__I__I__T(start, end)
 });
+$c_scm_StringBuilder.prototype.apply__I__C = (function(index) {
+  return this.underlying$5.charAt__I__C(index)
+});
 $c_scm_StringBuilder.prototype.$$plus$eq__O__scg_Growable = (function(elem) {
   if ((elem === null)) {
     var jsx$1 = 0
@@ -51092,9 +56728,6 @@ $c_scm_StringBuilder.prototype.indexWhere__F1__I__I = (function(p, from) {
 });
 $c_scm_StringBuilder.prototype.slice__I__I__O = (function(from, until) {
   return $f_sci_StringLike__slice__I__I__O(this, from, until)
-});
-$c_scm_StringBuilder.prototype.toBuffer__scm_Buffer = (function() {
-  return $f_sc_IndexedSeqLike__toBuffer__scm_Buffer(this)
 });
 $c_scm_StringBuilder.prototype.result__O = (function() {
   return this.underlying$5.java$lang$StringBuilder$$content$f
@@ -51169,9 +56802,6 @@ $c_scm_StringBuilder.prototype.sizeHint__I__V = (function(size) {
 });
 $c_scm_StringBuilder.prototype.hashCode__I = (function() {
   return $m_s_util_hashing_MurmurHash3$().seqHash__sc_Seq__I(this)
-});
-$c_scm_StringBuilder.prototype.toArray__s_reflect_ClassTag__O = (function(evidence$1) {
-  return $m_sjsr_RuntimeString$().toCharArray__T__AC(this.underlying$5.java$lang$StringBuilder$$content$f)
 });
 $c_scm_StringBuilder.prototype.append__C__scm_StringBuilder = (function(x) {
   this.underlying$5.append__C__jl_StringBuilder(x);
@@ -51331,9 +56961,6 @@ $c_sjs_js_WrappedArray.prototype.indexWhere__F1__I__I = (function(p, from) {
 $c_sjs_js_WrappedArray.prototype.slice__I__I__O = (function(from, until) {
   return $f_sc_IndexedSeqOptimized__slice__I__I__O(this, from, until)
 });
-$c_sjs_js_WrappedArray.prototype.toBuffer__scm_Buffer = (function() {
-  return $f_sc_IndexedSeqLike__toBuffer__scm_Buffer(this)
-});
 $c_sjs_js_WrappedArray.prototype.result__O = (function() {
   return this
 });
@@ -51395,6 +57022,18 @@ $c_sjs_js_WrappedArray.prototype.reduceLeft__F2__O = (function(op) {
 $c_sjs_js_WrappedArray.prototype.stringPrefix__T = (function() {
   return "WrappedArray"
 });
+function $is_sjs_js_WrappedArray(obj) {
+  return (!(!((obj && obj.$classData) && obj.$classData.ancestors.sjs_js_WrappedArray)))
+}
+function $as_sjs_js_WrappedArray(obj) {
+  return (($is_sjs_js_WrappedArray(obj) || (obj === null)) ? obj : $throwClassCastException(obj, "scala.scalajs.js.WrappedArray"))
+}
+function $isArrayOf_sjs_js_WrappedArray(obj, depth) {
+  return (!(!(((obj && obj.$classData) && (obj.$classData.arrayDepth === depth)) && obj.$classData.arrayBase.ancestors.sjs_js_WrappedArray)))
+}
+function $asArrayOf_sjs_js_WrappedArray(obj, depth) {
+  return (($isArrayOf_sjs_js_WrappedArray(obj, depth) || (obj === null)) ? obj : $throwArrayCastException(obj, "Lscala.scalajs.js.WrappedArray;", depth))
+}
 var $d_sjs_js_WrappedArray = new $TypeData().initClass({
   sjs_js_WrappedArray: 0
 }, false, "scala.scalajs.js.WrappedArray", {
@@ -51553,9 +57192,6 @@ $c_scm_ArrayBuffer.prototype.indexWhere__F1__I__I = (function(p, from) {
 });
 $c_scm_ArrayBuffer.prototype.slice__I__I__O = (function(from, until) {
   return $f_sc_IndexedSeqOptimized__slice__I__I__O(this, from, until)
-});
-$c_scm_ArrayBuffer.prototype.toBuffer__scm_Buffer = (function() {
-  return $f_sc_IndexedSeqLike__toBuffer__scm_Buffer(this)
 });
 $c_scm_ArrayBuffer.prototype.result__O = (function() {
   return this

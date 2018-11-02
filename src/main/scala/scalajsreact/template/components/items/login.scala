@@ -149,12 +149,13 @@ object Login  {
 
        <.div(
          ^.border  := "solid 1px black",
-         ^.width   := "90ex",
-         ^.height  := "20em",
+         ^.width   := "50%",
+         ^.height  := "60%",
          ^.padding := "2px 6px",
          <.button (
            ^.onClick  ==> logMouseEnter
          )
+
        )
     }
 

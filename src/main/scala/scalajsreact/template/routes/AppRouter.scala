@@ -50,7 +50,7 @@ object AppRouter {
       case "localhost" | "127.0.0.1" | "0.0.0.0" =>
         BaseUrl.fromWindowUrl(_.takeWhile(_ != '#'))
       case _ =>
-        BaseUrl.fromWindowOrigin / "stocknap/"
+        BaseUrl.fromWindowUrl(_.takeWhile(_ != '#'))
     }
 
   val router = Router(baseUrl, config.logToConsole)

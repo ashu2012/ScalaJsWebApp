@@ -18,7 +18,7 @@ object ItemsPage {
     val nav =
       style(width(190.px), borderRight :=! "1px solid rgb(223, 220, 220)")
 
-    val content = style(padding(30.px))
+    val content = style(padding(30.px), marginTop(50.px))
   }
 
   val component = ScalaComponent

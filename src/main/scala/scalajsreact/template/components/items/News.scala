@@ -131,18 +131,29 @@ object News {
   case class Props(newsJsonData:String )
 
 
+  val customAttr    = VdomAttr("customAttr")
+  val customStyle   = VdomStyle("customStyle")
+  val customHtmlTag = HtmlTag("customTag")
+
+
+/*
+
+case class Source(id : Option[String] , name : String )
+case class NewsData(source: Source, author: String , title: String , description :String , url :String , urlToImage :String , publishedAt :String , content :String  )
+case class NewsList( status : String  , totalResults :Int, articles : Seq[NewsData]  )
+
+*/
+
 
   val NewsListDom = ScalaFnComponent[js.Array[NewsDataJS]] { props =>
     console.log(props)
     def createItem(itemText: NewsDataJS) = {
-      <.div(^.style:=js.Dictionary("display" -> "flex", "flexDirection"->"column").asInstanceOf[js.Object] )(
+      <.div(^.style:=js.Dictionary("display" -> "flex", "flexDirection"->"column","padding-right" ->"50px").asInstanceOf[js.Object] )(
       <.div(^.style:= js.Dictionary("alignItems" -> "center").asInstanceOf[js.Object], <.img(^.height := "100%"  , ^.width:="100%" , ^.src:= itemText.urlToImage)),
-       <.div( <.a(^.href := itemText.url,<.h4(^.color := "black")(itemText.title)),<.p(itemText.description), <.h5("By " + itemText.author)),
+       <.div( <.a(^.href := itemText.url,<.h4(^.color := "black"), ^.target:= "_blank")(itemText.title),<.p(itemText.description), <.h5("By " + itemText.author)),
         <.hr(^.margin :=  "auto" , ^.marginTop := "5%" , ^.width := "80%" , ^.marginBottom := "30px")()
       )
 
-
-     // <.li(itemText.title)
     }
 
     <.ul(props map createItem: _*)

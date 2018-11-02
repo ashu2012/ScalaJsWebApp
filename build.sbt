@@ -31,7 +31,7 @@ libraryDependencies ++= Seq(
   "com.github.japgolly.scalajs-react" %%% "core" % scalaJSReactVersion,
   "com.github.japgolly.scalajs-react" %%% "extra" % scalaJSReactVersion,
   "com.github.japgolly.scalacss" %%% "core" % scalaCssVersion,
-  "com.github.japgolly.scalacss" %%% "ext-react" % scalaCssVersion,
+  "com.github.japgolly.scalacss" %%% "ext-react" % scalaCssVersion
   //"me.shadaj" %%% "slinky-hot" % "0.5.0" ,// Hot loading, requires react-proxy package
   //"me.shadaj" %%% "slinky-web" % "0.5.0",
   //"me.shadaj" %%% "slinky-core" % "0.5.0",
